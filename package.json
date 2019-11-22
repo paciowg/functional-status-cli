@@ -20,5 +20,9 @@
     "eslint-plugin-node": "10.0.0",
     "eslint-plugin-promise": "4.2.1"
   }
+<<<<<<< HEAD
 }
 >>>>>>> Initial commit.
+=======
+}
+>>>>>>> Removed references to Cognitive Status.
