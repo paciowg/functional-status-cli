@@ -1,6 +1,6 @@
 {
-  "package-id": "pacio-cs",
-  "title": "PACIO Cognitive Status",
+  "package-id": "pacio-fs",
+  "title": "PACIO Functional Status",
   "canonical": "http://hl7.org/fhir/us/PACIO-functional-status",
   "list": [
     {

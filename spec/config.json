@@ -1,17 +1,17 @@
 {
-    "projectName": "PACIO Cognitive Status",
-    "projectShorthand": "pacio-cs",
-    "projectURL": "http://hl7.org/fhir/us/PACIO-cognitive-status",
-    "fhirURL": "http://hl7.org/fhir/us/PACIO-cognitive-status",
+    "projectName": "PACIO Functional Status",
+    "projectShorthand": "pacio-fs",
+    "projectURL": "http://hl7.org/fhir/us/PACIO-functional-status",
+    "fhirURL": "http://hl7.org/fhir/us/PACIO-functional-status",
     "implementationGuide": {
-        "npmName": "pacio-cs",
+        "npmName": "pacio-fs",
         "version": "0.0.1",
         "indexContent": "content",
         "extraResources": "resources",
         "includeModelDoc": false,
         "includeLogicalModels": false
     },
-    "publisher": "PACIO Cognitive Status Working Group",
+    "publisher": "PACIO Project",
     "contact": [
         {
             "telecom": [
