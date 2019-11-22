@@ -1,0 +1,14 @@
+{
+  "package-id": "pacio-cs",
+  "title": "PACIO Cognitive Status",
+  "canonical": "http://hl7.org/fhir/us/PACIO-functional-status",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "https://build.fhir.org/ig/HL7/PACIO-functional-status/",
+      "status": "ci-build",
+      "current": true
+    }
+  ]
+}

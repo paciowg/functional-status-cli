@@ -1,0 +1,3 @@
+Grammar: DataElement 6.0
+Namespace: pacio-cs
+Uses: shr.core, shr.base
