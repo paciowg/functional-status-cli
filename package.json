@@ -1,0 +1,40 @@
+{
+  "projectName": "PACIO Functional Status",
+  "projectShorthand": "PACIO-FUNC",
+  "implementationGuide": {
+    "npmName": "PACIO-Functional",
+    "indexContent": "IndexContent.html"
+  },
+  "package-id": "hl7.fhir.us.PACIO-functional-status",
+  "title": "PACIO Functional Status",
+  "canonical": "http://hl7.org/fhir/us/PACIO-functional-status",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "https://build.fhir.org/ig/HL7/PACIO-functional-status/",
+      "status": "ci-build",
+      "current": true
+    }
+  ],
+  "publisher": "MITRE",
+  "contact": [
+      {
+          "telecom": [
+              {
+                  "system": "url",
+                  "value": "http://mitre.org"
+              }
+          ]
+      }
+  ],
+  "provenanceInfo": {
+      "leadAuthor": {
+          "name":"Sean Mahoney",
+          "organization": "MITRE",
+          "email": "smahoney@mitre.org"
+      },
+      "license": "Creative Commons CC-BY <https://creativecommons.org/licenses/by/3.0/>",
+      "copyright": "Copyright (c) The Example Organization <http://example.org>"
+  }
+}
