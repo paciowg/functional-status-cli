@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 # functional-status-cli
 [CIMPL](http://standardhealthrecord.org/cimpl-doc/) files to generate PACIO Functional Status Implementation Guide
-=======
-# PACIO Functional Status
-
-CIMPL files to generate the FHIR Implementation Guide for PACIO Functional Status
->>>>>>> Removed references to Cognitive Status.
 
 ## Setup
 
@@ -30,4 +24,3 @@ Then run this to build the HTML implementation guide.
 Congrats. Your guide is now located here:
 
     out/fhir/guide/output/index.html
->>>>>>> Initial commit.
