@@ -24,9 +24,9 @@
     ],
     "provenanceInfo": {
         "leadAuthor": {
-            "name": "Tim Shaffer",
+            "name": "Sean Mahoney",
             "organization": "The MITRE Corporation",
-            "email": "tshaffer@mitre.org"
+            "email": "smahoney@mitre.org"
         },
         "license": "Apache 2.0",
         "copyright": "Copyright (c) The MITRE Corporation <http://mitre.org>"
