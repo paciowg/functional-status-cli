@@ -3,21 +3,33 @@
     "projectShorthand": "pacio-fs",
     "projectURL": "http://hl7.org/fhir/us/PACIO-functional-status",
     "fhirURL": "http://hl7.org/fhir/us/PACIO-functional-status",
-    "implementationGuide": {
-        "npmName": "pacio-fs",
-        "version": "0.0.1",
+    "entryTypeURL": "PACIO-functional-status",
+    "fhirTarget": "FHIR_R4",
+    "contentProfile": "functional_status_cp.txt",
+    "implementationGuide":
+	{
+        "npmName": "hl7.fhir.us.PACIO-functional-status",
+        "version": "0.1.0",
+        "ballotStatus": "STU Ballot",
+		"includeLogicalModels": false,
+		"includeModelDoc": false,
         "indexContent": "content",
         "extraResources": "resources",
-        "includeModelDoc": false,
-        "includeLogicalModels": false
+        "historyLink": "http://hl7.org/fhir/us/PACIO-functional-status/history.html",
+        "changesLink": ""
     },
-    "publisher": "PACIO Project",
+    "copyrightYear": "2019+",
+    "publisher": "HL7 Patient Care WG and Community-Based Care and Privacy WG",
     "contact": [
         {
             "telecom": [
                 {
                     "system": "url",
-                    "value": "http://mitre.org"
+                    "value": "http://www.hl7.org/Special/committees/patientcare/"
+                },
+                {
+                    "system": "url",
+                    "value": "http://www.hl7.org/Special/committees/homehealth/"
                 }
             ]
         }

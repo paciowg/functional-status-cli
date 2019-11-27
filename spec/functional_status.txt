@@ -1,3 +1,10 @@
-Grammar: DataElement 6.0
-Namespace: pacio-fs
-Uses: shr.core, shr.base
+Grammar:    DataElement 6.0
+Namespace:	pacio-fs
+Uses:  		shr.core
+
+Entry: BundledFunctionalStatus
+Description: "An bundled point in time package of functional status observations."
+
+Entry: FunctionalStatus
+Description: "An exchange of functional status information."
+

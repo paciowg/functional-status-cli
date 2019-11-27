@@ -1,5 +1,5 @@
 {
-  "package-id": "pacio-fs",
+  "package-id": "hl7.fhir.us.PACIO-functional-status",
   "title": "PACIO Functional Status",
   "canonical": "http://hl7.org/fhir/us/PACIO-functional-status",
   "list": [
