@@ -12,7 +12,7 @@
     "build-docs": "rm -rf docs && yarn shr-cli && yarn ig-gen && mkdir -p docs && cp -Rv out/fhir/guide/output/* docs/"
   },
   "dependencies": {
-    "shr-cli": "https://github.com/standardhealth/shr-cli.git#6.8.0"
+    "shr-cli": "6.10.2"
   },
   "devDependencies": {
     "eslint": "6.5.1",
