@@ -1,0 +1,38 @@
+<h1>Questionnaire Resource</h1>
+
+<p>
+    Each questionnaire resource represents a single subset of an assessment.
+    The sections and questions will be represented as items within the questionnaire.
+    Only active questions are migrated from the DEL.
+</p>
+
+<p>
+    <b>Example:</b> Hospice Item Set version 1.00.0 has two subsets - one for admission and one for discharge.
+    This will result in two questionnaire resources: <code>HIS-HA-1.00.0</code> and <code>HIS-HD-1.00.0</code>.
+</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>FHIR Field</th>
+        <th>Functional Status Usage</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td>Identifier
+        </td>
+        <td>
+            Business Identifier for Functional Status assessment 
+        </td>
+    </tr>
+
+    <tr>
+        <td>Based On
+
+        </td>
+        <td>
+            Can be used to tie other clinically relevant resources to the Functional Status Assessment. 
+
+        </td>
+    </tr>
+
+</table>
