@@ -1640,10 +1640,10 @@ showdown@^1.9.1:
   dependencies:
     yargs "^14.2"
 
-shr-cli@6.10.2:
-  version "6.10.2"
-  resolved "https://artifacts.mitre.org:443/artifactory/api/npm/node-npm/shr-cli/-/shr-cli-6.10.2.tgz#637e352da4ba238082b18c9a3fd3e96d620b99f2"
-  integrity sha1-Y341LaS6I4CCsYyaP9PpbWILmfI=
+shr-cli@6.10.3:
+  version "6.10.3"
+  resolved "https://artifacts.mitre.org:443/artifactory/api/npm/node-npm/shr-cli/-/shr-cli-6.10.3.tgz#9c3173df48584c1580828fcceed15b3806d886e7"
+  integrity sha1-nDFz30hYTBWAgo/M7tFbOAbYhuc=
   dependencies:
     bunyan "^1.8.12"
     chalk "^2.4.2"
@@ -1652,7 +1652,7 @@ shr-cli@6.10.2:
     mkdirp "^0.5.1"
     shr-data-dict-export "^6.2.2"
     shr-expand "^6.6.1"
-    shr-fhir-export "^6.8.0"
+    shr-fhir-export "^6.8.1"
     shr-graph-export "^1.1.0"
     shr-json-javadoc "^6.4.1"
     shr-models "^6.8.0"
@@ -1672,10 +1672,10 @@ shr-expand@^6.6.1:
   resolved "https://artifacts.mitre.org:443/artifactory/api/npm/node-npm/shr-expand/-/shr-expand-6.6.1.tgz#c54883513169fbb485061b26250d478734e141bb"
   integrity sha1-xUiDUTFp+7SFBhsmJQ1HhzThQbs=
 
-shr-fhir-export@^6.8.0:
-  version "6.8.0"
-  resolved "https://artifacts.mitre.org:443/artifactory/api/npm/node-npm/shr-fhir-export/-/shr-fhir-export-6.8.0.tgz#e014cd4c5022424debcf24d70dcc8bba1666ab91"
-  integrity sha1-4BTNTFAiQk3rzyTXDcyLuhZmq5E=
+shr-fhir-export@^6.8.1:
+  version "6.8.1"
+  resolved "https://artifacts.mitre.org:443/artifactory/api/npm/node-npm/shr-fhir-export/-/shr-fhir-export-6.8.1.tgz#8cf2a547a9199378c8d8cdcfb585703fc670eafd"
+  integrity sha1-jPKlR6kZk3jI2M3PtYVwP8Zw6v0=
   dependencies:
     fs-extra "^2.0.0"
     lodash "^4.17.14"
