@@ -2,17 +2,16 @@
     "projectName": "PACIO Functional Status",
     "projectShorthand": "pacio-fs",
     "projectURL": "http://hl7.org/fhir/us/PACIO-functional-status",
-    "fhirURL": "http://hl7.org/fhir/us/PACIO-functional-status",
+    "fhirURL": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status",
     "entryTypeURL": "PACIO-functional-status",
     "fhirTarget": "FHIR_R4",
     "contentProfile": "functional_status_cp.txt",
-    "implementationGuide":
-	{
+    "implementationGuide": {
         "npmName": "hl7.fhir.us.PACIO-functional-status",
         "version": "0.1.0",
         "ballotStatus": "STU Ballot",
-		"includeLogicalModels": false,
-		"includeModelDoc": false,
+        "includeLogicalModels": false,
+        "includeModelDoc": false,
         "indexContent": "content",
         "extraResources": "resources",
         "historyLink": "http://hl7.org/fhir/us/PACIO-functional-status/history.html",
