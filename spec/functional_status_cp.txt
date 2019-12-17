@@ -14,5 +14,6 @@ http://wiki.hl7.org/index.php?title=Conformance_Implementation_Manual
 Namespace: pacio-fs
 FunctionalStatus:
     DataAbsentReason MS
+    DerivedFrom MS
     Annotation MS
 

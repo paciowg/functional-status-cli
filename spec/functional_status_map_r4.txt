@@ -3,11 +3,15 @@ Namespace:  pacio-fs
 Target:		FHIR_R4
 
 
-BundledFunctionalStatus maps to Observation:
+BundledFunctionalStatus2 maps to Observation:
     constrain performer to 0..1
+    constrain issued to 0..0
+    constrain interpretation to 0..0
+    constrain specimen to 0..0
+    constrain referenceRange to 0..0
+    constrain value[x] to 0..0
 
 FunctionalStatus maps to Observation:
-    constrain performer to 0..1
     constrain issued to 0..0
     constrain interpretation to 0..0
     constrain specimen to 0..0
@@ -17,7 +21,10 @@ FunctionalStatus maps to Observation:
     constrain value[x] to 0..0
     DataAbsentReason maps to dataAbsentReason
     Annotation maps to note
- 
+    DerivedFrom maps to derivedFrom
+    Subject maps to subject
+    
+
   
     
 

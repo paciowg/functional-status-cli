@@ -1,16 +1,26 @@
 Grammar:    DataElement 6.0
 Namespace:	pacio-fs
-Uses: shr.core
+Uses: shr.core, obf
 
-Entry: BundledFunctionalStatus
-Description: "An bundled point in time package of functional status observations."
 
 Entry: FunctionalStatus
 Description: "An exchange of functional status information."
 Property: DataAbsentReason 0..1
 Property: Annotation 0..*
+Property: DerivedFrom 0..*
+Property: Subject 0..1
 
 
+Entry: BundledFunctionalStatus2
+Description: "An bundled point in time package of functional status observations."
+
+Element:           Subject
+Description:       "Reference the Patient Resource for which the Functional Assessment is conducted."
+Value:             Patient
+
+
+
+/*
 Element:           DataAbsentReason
 Description:       "Reason that a value associated with a test or other finding is missing."
 Value:             concept
@@ -19,6 +29,8 @@ Element:           Annotation
 Parent:            Annotation
 Description:       "Any narrative notes captured for the Functional Assessment."
                    // or ref(CarePlan) or ref(DeviceRequest) or ref(ImmunizationRecommendation) or ref(NutritionOrder)        
+*/
+
 
 
 
