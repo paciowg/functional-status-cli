@@ -1,2 +1,23 @@
 Grammar:	ValueSet 5.0
 Namespace:	pacio-fs
+CodeSystem: LNC = http://loinc.org
+
+
+ValueSet:         SectionGGFunctionalAbilitiesAndGoals 
+Description:      "For Post-Acute Care Settings, the MDS/OASIS Self Care or Mobility question code"
+Includes codes from LNC
+#GG0100           "Prior Functioning:Everyday Activities"
+#GG0110           "Prior Device Use"
+#GG0130           "Self-Care"
+#GG0170           "Mobility"
+
+
+
+ValueSet:         GG0100CodingInstructions
+Description:      "Indicate the patient's usual ability with everyday activities prior to the current illness, exacerbation, or injury."
+#3                "Independent"
+#2                "Needed Some Help"
+#1                "Dependent"
+#8                "Unknown"
+#9                "Not Applicable"
+
