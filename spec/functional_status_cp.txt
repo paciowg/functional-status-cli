@@ -17,3 +17,5 @@ FunctionalStatus:
     DerivedFrom MS
     Annotation MS
 
+BundledFunctionalStatus:
+    DerivedFrom MS

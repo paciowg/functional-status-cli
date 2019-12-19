@@ -5,8 +5,8 @@ Uses: shr.core, obf
 Entry: BundledFunctionalStatus
 Description: "An bundled point in time package of functional status observations."
 Property: Subject 0..1
-Property: SummaryCode 1..1
-
+Property: DerivedFrom 0..1
+Property: BundledSummary 0..1
 
 Entry: FunctionalStatus
 Description: "An exchange of functional status information."
@@ -15,43 +15,18 @@ Property: Annotation 0..*
 Property: DerivedFrom 0..*
 Property: Subject 0..1
 Property: FunctionalStatusCode 1..1
-/*Property: FunctionalStatusValueCode 1..1
-Property: FunctionalStatusValue 1..1
-*/
+
 Element:           Subject
 Description:       "Reference the Patient Resource for which the Functional Assessment is conducted."
 Value:             Patient
 
-Element:           SummaryCode
-Description:       "Indicates the source of information in the case the Entry has been created by logical extension or modification of one or more source entries."
-Value:             concept from  https://www.hl7.org/fhir/valueset-observation-codes.html
-
 Element:           FunctionalStatusCode
 Description:       "For Post-Acute Care Settings, use MDS/OASIS Self Care or Mobility question code - ex. GG0130 for Self Care. Alternatively, Care Setting relevant LOINC code for Self."
 Value:             concept from SectionGGFunctionalAbilitiesAndGoals
-/*
-Element:           FunctionalStatusValueCode
-Description:       "For Post-Acute Care Settings, use MDS/OASIS Self Care or Mobility question code - ex. GG0130 for Self Care. Alternatively, Care Setting relevant LOINC code for Self."
-Value:             concept from https://www.hl7.org/fhir/valueset-observation-codes.html
 
-Element:           FunctionalStatusValue
-Description:       "For Post-Acute Care Settings, use MDS/OASIS Self Care or Mobility question code - ex. GG0130 for Self Care. Alternatively, Care Setting relevant LOINC code for Self."
-Value:             concept from https://www.hl7.org/fhir/valueset-observation-codes.html
-*/
-
-
-
-
-/*
-Element:           DataAbsentReason
-Description:       "Reason that a value associated with a test or other finding is missing."
-Value:             concept
-
-Element:           Annotation
-Parent:            Annotation
-Description:       "Any narrative notes captured for the Functional Assessment."
-                   // or ref(CarePlan) or ref(DeviceRequest) or ref(ImmunizationRecommendation) or ref(NutritionOrder)        
-*/
+Element:           BundledSummary
+Description:       "The summary of functional status observations contained in the bundle. This can also be used to for special instructions or guidance on the current functional status of the patient that would be useful to a care facility and is not readilly apparent from the functional assessment contained within the bundle."
+Value:             string
 
 
 

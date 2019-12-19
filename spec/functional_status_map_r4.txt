@@ -8,7 +8,8 @@ BundledFunctionalStatus maps to Observation:
     constrain issued to 0..0
     fix status to #final 
     Subject maps to subject
-    SummaryCode maps to code
+    fix code to #10158-4
+    BundledSummary maps to value[x]
 
 FunctionalStatus maps to Observation:
     constrain issued to 0..0
