@@ -18,7 +18,6 @@ FunctionalStatus maps to Observation:
     constrain referenceRange to 0..0
     constrain value[x] to 1..1
     fix status to #final
-    constrain value[x] to 0..0
     DataAbsentReason maps to dataAbsentReason
     Annotation maps to note
     DerivedFrom maps to derivedFrom
