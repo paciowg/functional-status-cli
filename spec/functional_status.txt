@@ -2,31 +2,13 @@ Grammar:    DataElement 6.0
 Namespace:	pacio-fs
 Uses: shr.core, obf
 
-Entry: BundledFunctionalStatus
-Description: "An bundled point in time package of functional status observations."
-Property: Subject 0..1
-Property: DerivedFrom 0..1
-Property: BundledSummary 0..1
-
 Entry: FunctionalStatus
 Description: "An exchange of functional status information."
-Property: DataAbsentReason 0..1
-Property: Annotation 0..*
-Property: DerivedFrom 0..*
 Property: Subject 0..1
-Property: FunctionalStatusCode 1..1
 
 Element:           Subject
 Description:       "Reference the Patient Resource for which the Functional Assessment is conducted."
 Value:             Patient
-
-Element:           FunctionalStatusCode
-Description:       "For Post-Acute Care Settings, use MDS/OASIS Self Care or Mobility question code - ex. GG0130 for Self Care. Alternatively, Care Setting relevant LOINC code for Self."
-Value:             concept from SectionGGFunctionalAbilitiesAndGoals
-
-Element:           BundledSummary
-Description:       "The summary of functional status observations contained in the bundle. This can also be used to for special instructions or guidance on the current functional status of the patient that would be useful to a care facility and is not readilly apparent from the functional assessment contained within the bundle."
-Value:             string
 
 
 
