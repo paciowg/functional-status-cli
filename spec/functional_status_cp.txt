@@ -13,16 +13,9 @@ http://wiki.hl7.org/index.php?title=Conformance_Implementation_Manual
 
 Namespace: pacio-fs
 
-FunctionalStatusPriorFunctioning:
 
-FunctionalStatusPriorDeviceUse:
+    BundledFunctionalStatus:
+        Code MS
 
-FunctionalStatusAdmissionPerformance:
-
-FunctionalStatusDischargeGoalorPerformance:
-
-FunctionalStatusWheelchair:
-
-FunctionalStatusWheelchairType:
-
-FunctionalStatusOASISSelfCareAndMobility:
+    FunctionalStatus:
+        Code MS

@@ -4,44 +4,8 @@ Target:		FHIR_R4
 
 
 
-FunctionalStatusPriorFunctioning maps to QuestionnaireResponse :
-    fix status to #final
-    Subject maps to subject
-    FunctionalStatusLL43092 maps to item.answer.value[x]
+BundledFunctionalStatus maps to Observation:
+    // constrain hasMember to 1..*
 
-FunctionalStatusAdmissionPerformance maps to QuestionnaireResponse :
-    fix status to #final
-<<<<<<< HEAD
-=======
-    constrain value[x] to 0..0
-    DataAbsentReason maps to dataAbsentReason
-    Annotation maps to note
-    DerivedFrom maps to derivedFrom
->>>>>>> parent of bf89ad9... Fix value.
-    Subject maps to subject
-    FunctionalStatusLL41534 maps to item.answer.value[x]
-
-FunctionalStatusDischargeGoalorPerformance maps to QuestionnaireResponse :
-    fix status to #final
-    Subject maps to subject
-    FunctionalStatusLL41542 maps to item.answer.value[x]
-
-FunctionalStatusPriorDeviceUse maps to QuestionnaireResponse :
-    fix status to #final
-    Subject maps to subject
-    FunctionalStatusLL41526 maps to item.answer.value[x]
-
-FunctionalStatusWheelchair maps to QuestionnaireResponse :
-    fix status to #final
-    Subject maps to subject
-    FunctionalStatusLL2510 maps to item.answer.value[x]
-
-FunctionalStatusWheelchairType maps to QuestionnaireResponse :
-    fix status to #final
-    Subject maps to subject
-    FunctionalStatusLL41864 maps to item.answer.value[x]
-
-FunctionalStatusOASISSelfCareAndMobility maps to QuestionnaireResponse :
-    fix status to #final
-    Subject maps to subject
-    FunctionalStatusLL46814 maps to item.answer.value[x]
+FunctionalStatus maps to Observation:
+    // constrain hasMember to 0..0

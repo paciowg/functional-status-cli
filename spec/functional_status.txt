@@ -1,73 +1,43 @@
 Grammar:    DataElement 6.0
 Namespace:	pacio-fs
-Uses: shr.core, obf
+Uses:  		shr.core, obf, obf.datatype
 
-//Profiles
+CodeSystem: LNC = http://loinc.org
+CodeSystem: OBS = http://terminology.hl7.org/CodeSystem/observation-category
 
-Entry: FunctionalStatusPriorDeviceUse
-Description: "Indicate devices and aids used by the patient prior to the current illness, exacerbation, or injury."
-Property: Subject 0..1
-Property: FunctionalStatusLL41526 0..*
+Entry: BundledFunctionalStatus
+Parent: Observation
+Description: "An bundled point in time package of functional status observations."
+    Code = LNC#11332-4 "History of functional function narrative"
+    Category 1..1
+    Category = OBS#survey "Survey"
+    SubjectOfRecord 1..1
+    SubjectOfRecord only Patient
+    FocalSubject 0..0
+    RelevantTime only dateTime
+    Performer 1..*
+    DataValue only concept
+    BodyLocation 0..0
+    ReferenceRange 0..0
+    Components.ObservationComponent 0..0
+    // PanelMembers.Observation 1..*
 
-Entry: FunctionalStatusPriorFunctioning
-Description: "Indicate the patients usual ability with everyday activities prior to the current illness, exacerbation, or injury"
-Property: Subject 0..1
-Property: FunctionalStatusLL43092 0..*
-
-Entry: FunctionalStatusAdmissionPerformance
-Description: "Mobility and Self-Care Admission Performance."
-Property: Subject 0..1
-Property: FunctionalStatusLL41534 0..*
-
-Entry: FunctionalStatusDischargeGoalorPerformance
-Description: "Mobility and Self-Care Discharge Goals."
-Property: Subject 0..1
-Property: FunctionalStatusLL41542 0..*
-
-Entry: FunctionalStatusWheelchair
-Description: "Does the patient use a wheelchair or scooter during 3D assessment period."
-Property: Subject 0..1
-Property: FunctionalStatusLL2510 0..*
-
-Entry: FunctionalStatusWheelchairType
-Description: "The type of wheelchair or scooter used during 3D assessment period."
-Property: Subject 0..1
-Property: FunctionalStatusLL41864 0..*
-
-Entry: FunctionalStatusOASISSelfCareAndMobility
-Description: "Mobility and Self-Care for OASIS"
-Property: Subject 0..1
-Property: FunctionalStatusLL46814 0..*
-
-//Elements
-Element:           Subject
-Description:       "Reference the Patient Resource for which the Functional Assessment is conducted."
-Value:             Patient
-
-Element:           FunctionalStatusLL41534 
-Description:       "For Mobility and Self-Care Admission Performance."
-Value: concept from http://loinc.org/vs/LL4153-4 
-
-Element:           FunctionalStatusLL41542
-Description:       "For Mobility and Self-Care Discharge Goals."
-Value: concept from http://loinc.org/vs/LL4154-2
-
-Element:           FunctionalStatusLL41526
-Description:       "Indicate devices and aids used by the patient prior to the current illness, exacerbation, or injury."
-Value: concept from http://loinc.org/vs/LL4152-6
-
-Element:           FunctionalStatusLL43092
-Description:       "Indicate the patients usual ability with everyday activities prior to the current illness, exacerbation, or injury"
-Value: concept from http://loinc.org/vs/LL4309-2
-
-Element:           FunctionalStatusLL2510
-Description:       "Does the patient use a wheelchair or scooter?"
-Value: concept from http://loinc.org/vs/LL251-0
-
-Element:           FunctionalStatusLL41864
-Description:       "Indicate the type of wheelchair or scooter used"
-Value: concept from http://loinc.org/vs/LL4186-4
-
-Element:           FunctionalStatusLL46814
-Description:       "Mobility and Self-Care for OASIS"
-Value: concept from http://loinc.org/vs/LL4681-4
+Entry: FunctionalStatus
+Parent: Observation
+Description: "An exchange of functional status information."
+    Code from FunctionalStatusQuestionVS
+    ObservationSubjectOfRecord only Patient
+    SubjectOfRecord 1..1
+    SubjectOfRecord only Patient
+    DataValue 1..1
+    DataValue only concept
+    SubjectOfRecord 1..1
+    SubjectOfRecord only Patient
+    FocalSubject 0..0
+    RelevantTime only dateTime
+    Performer 1..*
+    DataValue only concept
+    BodyLocation 0..0
+    ReferenceRange 0..0
+    Components.ObservationComponent 0..0
+    // PanelMembers.Observation 0..0
