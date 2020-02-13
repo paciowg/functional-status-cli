@@ -11,6 +11,13 @@ FunctionalStatusPriorFunctioning maps to QuestionnaireResponse :
 
 FunctionalStatusAdmissionPerformance maps to QuestionnaireResponse :
     fix status to #final
+<<<<<<< HEAD
+=======
+    constrain value[x] to 0..0
+    DataAbsentReason maps to dataAbsentReason
+    Annotation maps to note
+    DerivedFrom maps to derivedFrom
+>>>>>>> parent of bf89ad9... Fix value.
     Subject maps to subject
     FunctionalStatusLL41534 maps to item.answer.value[x]
 
