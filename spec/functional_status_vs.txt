@@ -1,16 +1,22 @@
 Grammar:	ValueSet 5.0
 Namespace:	pacio-fs
 CodeSystem: LNC = http://loinc.org
-CodeSystem: LAL = http://loinc.org/vs/LL4153-4
+CodeSystem: LAL1 = http://loinc.org/vs/LL4153-4
+CodeSystem: LAL2 = https://loinc.org/LL4153-4
+
+
 
 ValueSet:         FunctionalStatusQuestionVS 
 Description:      "For Post-Acute Care Settings, the MDS/OASIS Self Care or Mobility question code"
+Includes codes from LAL2
+
+/*
 #LA11539-6 "Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper."
 #LA26832-8 "Needed some help - Patient needed partial assistance from another person to complete activities."
 #LA11541-2 "Dependent - A helper completed the activities for the patient."
 #LA4489-6 "Unknown"
 #LA4720-4 "Not Applicable"
-
+*/
 
 
 ValueSet:         GG0100CodingInstructions

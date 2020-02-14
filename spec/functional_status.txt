@@ -36,6 +36,7 @@ Description: "An exchange of functional status information."
     FocalSubject 0..0
     RelevantTime only dateTime
     Performer 1..*
+    Identifier 1..*
     DataValue only concept
     BodyLocation 0..0
     ReferenceRange 0..0
