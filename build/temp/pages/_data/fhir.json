@@ -1,0 +1,42 @@
+{
+  "path": "http://hl7.org/fhir/R4/",
+  "canonical": "http://example.org/fhir/fish",
+  "igId": "fish",
+  "igName": "FishImplementationGuide",
+  "packageId": "fish",
+  "igVer": "0.1.0",
+  "errorCount": 6,
+  "version": "4.0.1",
+  "revision": "a53ec6ee1b",
+  "versionFull": "4.0.1-a53ec6ee1b",
+  "toolingVersion": "4.2.0",
+  "toolingRevision": "3",
+  "toolingVersionFull": "4.2.0 (3)",
+  "totalFiles": 7,
+  "processedFiles": 18,
+  "genDate": "Mon, Mar 16, 2020 16:11-0400",
+  "genDay": "16/03/2020",
+  "ig": {
+    "id": "fish",
+    "name": "FishImplementationGuide",
+    "title": "Fish Implementation Guide",
+    "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
+    "version": "0.1.0",
+    "status": "active",
+    "experimental": false,
+    "publisher": "James Tuna",
+    "gitstatus": "",
+    "contact": [
+      {
+        "name": "Bill Cod",
+        "telecom": [
+          "cod@reef.gov"
+        ]
+      }
+    ],
+    "date": "2020-03-16T16:11:44-04:00",
+    "description": "An example of how FSH can be used to create an IG about fish",
+    "fhirVersion": "4.0.1"
+  },
+  "ue8d51e8457814cd5919135087e18ac90": "http://hl7.org/fhir/us/core"
+}

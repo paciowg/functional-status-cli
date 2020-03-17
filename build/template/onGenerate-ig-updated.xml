@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+   <id value="fish"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>FishImplementationGuide</h2>
+         <p>The official URL for this implementation guide is: </p>
+         <pre>http://example.org/fhir/fish/ImplementationGuide/fish</pre>
+         <div>
+            <p>An example of how FSH can be used to create an IG about fish</p>
+         </div>
+      </div>
+   </text>
+   <url value="http://example.org/fhir/fish/ImplementationGuide/fish"/>
+   <version value="0.1.0"/>
+   <name value="FishImplementationGuide"/>
+   <title value="Fish Implementation Guide"/>
+   <status value="active"/>
+   <date value="2020-03-16T16:11:44-04:00"/>
+   <publisher value="James Tuna"/>
+   <contact>
+      <name value="Bill Cod"/>
+      <telecom>
+         <system value="email"/>
+         <value value="cod@reef.gov"/>
+      </telecom>
+   </contact>
+   <description value="An example of how FSH can be used to create an IG about fish"/>
+   <packageId value="fish"/>
+   <license value="CC0-1.0"/>
+   <fhirVersion value="4.0.1"/>
+   <dependsOn>
+      <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+      <packageId value="hl7.fhir.us.core"/>
+      <version value="3.1.0"/>
+   </dependsOn>
+   <definition>
+
+
+
+
+
+
+      <grouping id="_str_profile">
+         <name value="Structures: Resource Profiles"/>
+         <description value="These define constraints on FHIR resources that need to be complied with by conformant implementations"/>
+      </grouping>
+
+
+
+
+
+
+
+
+      <grouping id="_ex_example">
+         <name value="Example: Example Instances"/>
+         <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
+      </grouping>
+
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-bfs.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-bfs"/>
+         </reference>
+         <name value="Bundled Functional Status"/>
+         <description value="An point in time bundle of functional status observations for a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-fs.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-fs"/>
+         </reference>
+         <name value="Functional Status"/>
+         <description value="An exchange of functional status data for a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-qr.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-qr"/>
+         </reference>
+         <name value="PACIO Questionaire Response"/>
+         <description value="A completed, or sections of a completed, CMS PAC assessment."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmith.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmith"/>
+         </reference>
+         <name value="BetsySmith"/>
+         <exampleCanonical value="http://example.org/fhir/fish/StructureDefinition/pacio-bfs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSEating.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSEating"/>
+         </reference>
+         <name value="BetsySmithMDSEating"/>
+         <exampleCanonical value="http://example.org/fhir/fish/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSOralHygiene.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSOralHygiene"/>
+         </reference>
+         <name value="BetsySmithMDSOralHygiene"/>
+         <exampleCanonical value="http://example.org/fhir/fish/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <page>
+         <nameUrl value="toc.html"/>
+         <title value="Table of Contents"/>
+         <generation value="html"/>
+         <page>
+            <nameUrl value="index.html"/>
+            <title value="Home"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="artifacts.html"/>
+            <title value="Artifacts Summary"/>
+            <generation value="html"/>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-bfs.html"/>
+               <title value="Bundled Functional Status"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-fs.html"/>
+               <title value="Functional Status"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-qr.html"/>
+               <title value="PACIO Questionaire Response"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmith.html"/>
+               <title value="BetsySmith"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSEating.html"/>
+               <title value="BetsySmithMDSEating"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSOralHygiene.html"/>
+               <title value="BetsySmithMDSOralHygiene"/>
+               <generation value="generated"/>
+            </page>
+         </page>
+      </page>
+      <parameter>
+         <code value="copyrightyear"/>
+         <value value="2020+"/>
+      </parameter>
+      <parameter>
+         <code value="releaselabel"/>
+         <value value="CI Build"/>
+      </parameter>
+      <parameter>
+         <code value="show-inherited-invariants"/>
+         <value value="false"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/capabilities"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/examples"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/extensions"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/models"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/operations"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/profiles"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/resources"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/vocabulary"/>
+      </parameter>
+      <parameter>
+         <code value="path-pages"/>
+         <value value="template/config"/>
+      </parameter>
+      <parameter>
+         <code value="path-pages"/>
+         <value value="input/images"/>
+      </parameter>
+      <parameter>
+         <code value="path-qa"/>
+         <value value="temp/qa"/>
+      </parameter>
+      <parameter>
+         <code value="path-temp"/>
+         <value value="temp/pages"/>
+      </parameter>
+      <parameter>
+         <code value="path-output"/>
+         <value value="output"/>
+      </parameter>
+      <parameter>
+         <code value="path-tx-cache"/>
+         <value value="input-cache/txcache"/>
+      </parameter>
+      <parameter>
+         <code value="path-suppressed-warnings"/>
+         <value value="input/ignoreWarnings.txt"/>
+      </parameter>
+      <parameter>
+         <code value="template-html"/>
+         <value value="template-page.html"/>
+      </parameter>
+      <parameter>
+         <code value="template-md"/>
+         <value value="template-page-md.html"/>
+      </parameter>
+      <parameter>
+         <code value="apply-contact"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-context"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-copyright"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-jurisdiction"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-license"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-publisher"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-version"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="active-tables"/>
+         <value value="true"/>
+      </parameter>
+   </definition>
+</ImplementationGuide>

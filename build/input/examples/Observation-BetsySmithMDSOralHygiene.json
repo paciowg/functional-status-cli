@@ -1,0 +1,34 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmithMDSOralHygiene",
+  "meta": {
+    "profile": [
+      "http://example.org/fhir/fish/StructureDefinition/pacio-fs"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "83230-3",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11757-4",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

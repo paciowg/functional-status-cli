@@ -1,0 +1,9 @@
+{"resourceType":"OperationOutcome","issue":[
+      
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmith.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[3]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSEating.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[4]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSOralHygiene.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[5]"]}
+,]}
+      

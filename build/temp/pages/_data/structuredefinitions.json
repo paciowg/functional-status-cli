@@ -1,0 +1,47 @@
+{
+  "pacio-bfs": {
+    "index": 0,
+    "url": "http://example.org/fhir/fish/StructureDefinition/pacio-bfs",
+    "name": "BundledFunctionalStatus",
+    "path": "StructureDefinition-pacio-bfs.html",
+    "kind": "resource",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
+    "status": "active",
+    "date": "Mon Mar 16 16:11:44 EDT 2020",
+    "publisher": "James Tuna",
+    "description": "An point in time bundle of functional status observations for a patient."
+  },
+  "pacio-fs": {
+    "index": 1,
+    "url": "http://example.org/fhir/fish/StructureDefinition/pacio-fs",
+    "name": "FunctionalStatus",
+    "path": "StructureDefinition-pacio-fs.html",
+    "kind": "resource",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
+    "status": "active",
+    "date": "Mon Mar 16 16:11:44 EDT 2020",
+    "publisher": "James Tuna",
+    "description": "An exchange of functional status data for a patient."
+  },
+  "pacio-qr": {
+    "index": 2,
+    "url": "http://example.org/fhir/fish/StructureDefinition/pacio-qr",
+    "name": "PACIOquestionaireResponse",
+    "path": "StructureDefinition-pacio-qr.html",
+    "kind": "resource",
+    "type": "QuestionnaireResponse",
+    "base": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+    "basename": "QuestionnaireResponse",
+    "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
+    "status": "active",
+    "date": "Mon Mar 16 16:11:44 EDT 2020",
+    "publisher": "James Tuna",
+    "description": "A completed, or sections of a completed, CMS PAC assessment."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmithMDSRespons",
+  "meta": {
+    "profile": [
+      "http://example.org/fhir/fish/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "90480-5",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ]
+}
