@@ -9,18 +9,22 @@ You will need:
 * `java11`
 * `jekyll`
 
-Install dependencies:
+Install Fire Shorthand(FSH) and all its dependencies:
 
-    yarn
+    https://build.fhir.org/ig/HL7/fhir-shorthand/tutorial.html
 
-First run this to generate the output files.
+Build your implemenation guide using FSH files
 
-    yarn shr-cli
+    (read FHS tutorial on how to do this)
 
-Then run this to build the HTML implementation guide.
+Run SUSHI to generate the /build/input/resources directory, and populate it with the files needed to create the IG.
 
-    yarn ig-gen
+    sushi .
+
+Then run this in the build directory to build the HTML implementation guide.
+
+    _updatePublisher
 
 Congrats. Your guide is now located here:
 
-    out/fhir/guide/output/index.html
+    build/output/index.html
