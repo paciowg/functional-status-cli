@@ -21,9 +21,12 @@ Run SUSHI to generate the /build/input/resources directory, and populate it with
 
     sushi .
 
+If you are generating the IG for the first time, run this in the build directory
+    _updatePublisher
+
 Then run this in the build directory to build the HTML implementation guide.
 
-    _updatePublisher
+_genonce
 
 Congrats. Your guide is now located here:
 
