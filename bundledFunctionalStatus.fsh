@@ -15,9 +15,10 @@ Description:    "An point in time bundle of functional status observations for a
 
 Instance: BetsySmith
 InstanceOf: BundledFunctionalStatus
+
 * subject.reference  = "Betsy Smith"
 * status = #final
 * code = http://loinc.org#90480-5
 * performer.reference  = "CMS Provider"
 * derivedFrom = Reference(BetsySmithMDSEating)
-* derivedFrom = Reference(BetsySmithMDSOralHygiene)
+* derivedFrom[1] = Reference(BetsySmithMDSOralHygiene)
