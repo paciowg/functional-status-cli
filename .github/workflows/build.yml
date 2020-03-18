@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: npm install fsh-sushi
       - name: Run fsh-sushi
-        run: ./node_modules/.bin/sushi
+        run: ./node_modules/.bin/sushi .
       - name: Update ig-publisher
         run: cd build && ./updatePublisher.sh
       - name: Run ig-publisher
