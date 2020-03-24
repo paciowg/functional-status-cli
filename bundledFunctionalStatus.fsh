@@ -22,6 +22,7 @@ InstanceOf: BundledFunctionalStatus
 * status = #final
 * code = http://loinc.org#90480-5
 * category = CAT#survey
+* effectiveDateTime = "2020-03-24"
 * performer.reference  = "CMS Provider"
 * derivedFrom = Reference(BetsySmithMDSEating)
 * derivedFrom[1] = Reference(BetsySmithMDSOralHygiene)

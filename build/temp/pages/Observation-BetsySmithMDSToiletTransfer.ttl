@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSToiletTransfer</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Toilet transfer - functional ability during 3 day assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83208-9' = 'Toilet transfer - functional ability during 3 day assessment period [CMS Assessment])</span></p><p><b>subject</b>: <a href=\"Betsy Smith\">Betsy Smith</a></p><p><b>performer</b>: <a href=\"CMS Provider\">CMS Provider</a></p><p><b>value</b>: Independent - Patient completes the activity by him/herself with no assistance from a helper. <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA9983-3' = 'Independent - Patient completes the activity by him/herself with no assistance from a helper.)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSToiletTransfer</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Toilet transfer - functional ability during 3 day assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83208-9' = 'Toilet transfer - functional ability during 3 day assessment period [CMS Assessment])</span></p><p><b>subject</b>: <a href=\"Betsy Smith\">Betsy Smith</a></p><p><b>effective</b>: Mar 24, 2020, 12:00:00 AM</p><p><b>performer</b>: <a href=\"CMS Provider\">CMS Provider</a></p><p><b>value</b>: Independent - Patient completes the activity by him/herself with no assistance from a helper. <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA9983-3' = 'Independent - Patient completes the activity by him/herself with no assistance from a helper.)</span></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.code [
@@ -32,6 +32,7 @@
   fhir:Observation.subject [
      fhir:Reference.reference [ fhir:value "Betsy Smith" ]
   ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-03-24"^^xsd:date];
   fhir:Observation.performer [
      fhir:index 0;
      fhir:Reference.reference [ fhir:value "CMS Provider" ]

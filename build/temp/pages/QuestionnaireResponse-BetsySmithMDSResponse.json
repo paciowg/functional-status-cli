@@ -36,11 +36,11 @@
             },
             {
               "linkId": "Section-37/GG0130A1",
-              "text": "Eating - functional ability during 3D assessment period [CMS Assessment]",
+              "text": "Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BetsySmithMDSEating"
+                    "reference": "Observation/BetsySmithMDSToiletingHygiene"
                   }
                 }
               ]

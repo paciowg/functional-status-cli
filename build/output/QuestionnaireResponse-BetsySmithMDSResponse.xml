@@ -29,10 +29,10 @@
       </item>
       <item>
         <linkId value="Section-37/GG0130A1"/>
-        <text value="Eating - functional ability during 3D assessment period [CMS Assessment]"/>
+        <text value="Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BetsySmithMDSEating"/>
+            <reference value="Observation/BetsySmithMDSToiletingHygiene"/>
           </valueReference>
         </answer>
       </item>
