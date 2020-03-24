@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="BetsySmithMDSWalk50feet"/>
+  <meta>
+    <profile value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSWalk50feet</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment] <span style="background: LightGoldenRodYellow">(Details : {LOINC code '83202-2' = 'Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment])</span></p><p><b>subject</b>: <a href="Betsy Smith">Betsy Smith</a></p><p><b>performer</b>: <a href="CMS Provider">CMS Provider</a></p><p><b>value</b>: Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently. <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'LA11757-4' = 'Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.)</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="83202-2"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Betsy Smith"/>
+  </subject>
+  <performer>
+    <reference value="CMS Provider"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA11757-4"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

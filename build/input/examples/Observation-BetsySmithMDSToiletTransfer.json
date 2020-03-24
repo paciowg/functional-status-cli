@@ -1,0 +1,34 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmithMDSToiletTransfer",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "83208-9",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA9983-3",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

@@ -1,7 +1,27 @@
 
 {"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmith.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[3]"]}
 ,
-{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSEating.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[4]"]}
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSBedToChair.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[4]"]}
 ,
-{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSOralHygiene.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[5]"]}
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSEating.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[5]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSLyingToSitting.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[6]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSOralHygiene.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[7]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource QuestionnaireResponse/BetsySmithMDSResponse.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[8]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSSitToLying.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[9]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSSitToStand.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[10]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSToiletTransfer.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[11]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSToiletingHygiene.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[12]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSWalk10feet.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[13]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSWalk150feet.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[14]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmithMDSWalk50feet.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[15]"]}
 ,

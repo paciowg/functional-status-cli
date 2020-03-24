@@ -1,22 +1,22 @@
 {
-  "package": "fish",
+  "package": "pacio",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
     "Observation": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/pacio-bfs",
+        "url": "http://pacioproject.org//StructureDefinition/pacio-bfs",
         "title": "Bundled Functional Status"
       },
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/pacio-fs",
+        "url": "http://pacioproject.org//StructureDefinition/pacio-fs",
         "title": "Functional Status"
       }
     ],
     "QuestionnaireResponse": [
       {
-        "url": "http://example.org/fhir/fish/StructureDefinition/pacio-qr",
+        "url": "http://pacioproject.org//StructureDefinition/pacio-qr",
         "title": "PACIO Questionaire Response"
       }
     ]

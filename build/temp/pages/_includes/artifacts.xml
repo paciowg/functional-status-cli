@@ -62,6 +62,13 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSBedToChair.html"
+                     title="Observation/BetsySmithMDSBedToChair">BetsySmithMDSBedToChair</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Observation-BetsySmithMDSEating.html"
                      title="Observation/BetsySmithMDSEating">BetsySmithMDSEating</a>
                </td>
@@ -69,8 +76,71 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSLyingToSitting.html"
+                     title="Observation/BetsySmithMDSLyingToSitting">BetsySmithMDSLyingToSitting</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Observation-BetsySmithMDSOralHygiene.html"
                      title="Observation/BetsySmithMDSOralHygiene">BetsySmithMDSOralHygiene</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="QuestionnaireResponse-BetsySmithMDSResponse.html"
+                     title="QuestionnaireResponse/BetsySmithMDSResponse">BetsySmithMDSResponse</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSSitToLying.html"
+                     title="Observation/BetsySmithMDSSitToLying">BetsySmithMDSSitToLying</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSSitToStand.html"
+                     title="Observation/BetsySmithMDSSitToStand">BetsySmithMDSSitToStand</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSToiletTransfer.html"
+                     title="Observation/BetsySmithMDSToiletTransfer">BetsySmithMDSToiletTransfer</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSToiletingHygiene.html"
+                     title="Observation/BetsySmithMDSToiletingHygiene">BetsySmithMDSToiletingHygiene</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSWalk10feet.html"
+                     title="Observation/BetsySmithMDSWalk10feet">BetsySmithMDSWalk10feet</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSWalk150feet.html"
+                     title="Observation/BetsySmithMDSWalk150feet">BetsySmithMDSWalk150feet</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSWalk50feet.html"
+                     title="Observation/BetsySmithMDSWalk50feet">BetsySmithMDSWalk50feet</a>
                </td>
                <td/>
             </tr>

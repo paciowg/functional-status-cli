@@ -1,26 +1,25 @@
 {
-  "name": "fish",
+  "name": "pacio",
   "version": "0.1.0",
-  "canonical": "http://example.org/fhir/fish",
-  "url": "http://example.org/fhir/fish",
-  "title": "Fish Implementation Guide",
-  "description": "An example of how FSH can be used to create an IG about fish",
+  "canonical": "http://pacioproject.org/",
+  "url": "http://pacioproject.org/",
+  "title": "Functional Status Implementation Guide",
+  "description": "TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
     "hl7.fhir.us.core": "3.1.0"
   },
   "keywords": [
-    "FSH",
-    "Actual fish",
-    "SUSHI",
-    "Veterinary Care"
+    "Functional Status",
+    "PACIO",
+    "Post-Acute Care"
   ],
   "language": "en",
-  "author": "James Tuna",
+  "author": "Sean Mahoney",
   "maintainers": [
     {
-      "name": "Bill Cod",
-      "email": "cod@reef.gov"
+      "name": "Sean Mahoney",
+      "email": "smahoney@mitre.org"
     }
   ],
   "license": "CC0-1.0"

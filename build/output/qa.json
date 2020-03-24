@@ -1,12 +1,12 @@
 {
-  "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
-  "name": "FishImplementationGuide",
-  "package-id": "fish",
+  "url": "http://pacioproject.org//ImplementationGuide/pacio",
+  "name": "FunctionalStatusImplementationGuide",
+  "package-id": "pacio",
   "ig-ver": "0.1.0",
-  "date": "Mon, 16 Mar, 2020 16:11:44 -0400",
-  "errs": 12,
-  "warnings": 8,
-  "hints": 0,
+  "date": "Mon, 23 Mar, 2020 15:36:53 -0400",
+  "errs": 52,
+  "warnings": 26,
+  "hints": 2,
   "version": "4.0.1",
   "tool": "4.2.0 (3)"
 }

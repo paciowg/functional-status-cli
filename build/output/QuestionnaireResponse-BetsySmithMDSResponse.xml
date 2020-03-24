@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+  <id value="BetsySmithMDSResponse"/>
+  <meta>
+    <profile value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSResponse</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="Betsy Smith">Betsy Smith</a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Section GG: Functional Abilities and Goals</p><h3>Items</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table></blockquote></div>
+  </text>
+  <status value="completed"/>
+  <subject>
+    <reference value="Betsy Smith"/>
+  </subject>
+  <item>
+    <linkId value="Section-37"/>
+    <text value="Section GG: Functional Abilities and Goals"/>
+    <item>
+      <linkId value="Section-37/GG0130"/>
+      <text value="Self-Care. Code the {patient&#39;s/resident&#39;s} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient&#39;s/resident&#39;s} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."/>
+      <item>
+        <linkId value="Section-37/GG0130B1"/>
+        <text value="Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BetsySmithMDSOralHygiene"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item>
+        <linkId value="Section-37/GG0130A1"/>
+        <text value="Eating - functional ability during 3D assessment period [CMS Assessment]"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BetsySmithMDSEating"/>
+          </valueReference>
+        </answer>
+      </item>
+    </item>
+  </item>
+</QuestionnaireResponse>

@@ -1,42 +1,42 @@
 {
   "path": "http://hl7.org/fhir/R4/",
-  "canonical": "http://example.org/fhir/fish",
-  "igId": "fish",
-  "igName": "FishImplementationGuide",
-  "packageId": "fish",
+  "canonical": "http://pacioproject.org/",
+  "igId": "pacio",
+  "igName": "FunctionalStatusImplementationGuide",
+  "packageId": "pacio",
   "igVer": "0.1.0",
-  "errorCount": 6,
+  "errorCount": 26,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "4.2.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.2.0 (3)",
-  "totalFiles": 7,
-  "processedFiles": 18,
-  "genDate": "Mon, Mar 16, 2020 16:11-0400",
-  "genDay": "16/03/2020",
+  "totalFiles": 17,
+  "processedFiles": 28,
+  "genDate": "Mon, Mar 23, 2020 15:36-0400",
+  "genDay": "23/03/2020",
   "ig": {
-    "id": "fish",
-    "name": "FishImplementationGuide",
-    "title": "Fish Implementation Guide",
-    "url": "http://example.org/fhir/fish/ImplementationGuide/fish",
+    "id": "pacio",
+    "name": "FunctionalStatusImplementationGuide",
+    "title": "Functional Status Implementation Guide",
+    "url": "http://pacioproject.org//ImplementationGuide/pacio",
     "version": "0.1.0",
     "status": "active",
     "experimental": false,
-    "publisher": "James Tuna",
+    "publisher": "Sean Mahoney",
     "gitstatus": "",
     "contact": [
       {
-        "name": "Bill Cod",
+        "name": "Sean Mahoney",
         "telecom": [
-          "cod@reef.gov"
+          "smahoney@mitre.org"
         ]
       }
     ],
-    "date": "2020-03-16T16:11:44-04:00",
-    "description": "An example of how FSH can be used to create an IG about fish",
+    "date": "2020-03-23T15:36:53-04:00",
+    "description": "TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
     "fhirVersion": "4.0.1"
   },
-  "ue8d51e8457814cd5919135087e18ac90": "http://hl7.org/fhir/us/core"
+  "u7a8ae432e3f24de6b3f59679684eee4c": "http://hl7.org/fhir/us/core"
 }

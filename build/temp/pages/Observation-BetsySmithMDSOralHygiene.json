@@ -3,7 +3,7 @@
   "id": "BetsySmithMDSOralHygiene",
   "meta": {
     "profile": [
-      "http://example.org/fhir/fish/StructureDefinition/pacio-fs"
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
     ]
   },
   "text": {

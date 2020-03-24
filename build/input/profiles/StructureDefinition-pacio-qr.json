@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-qr",
-  "url": "http://example.org/fhir/fish/StructureDefinition/pacio-qr",
+  "url": "http://pacioproject.org//StructureDefinition/pacio-qr",
   "version": "0.1.0",
   "name": "PACIOquestionaireResponse",
   "title": "PACIO Questionaire Response",

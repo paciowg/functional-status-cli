@@ -1,0 +1,65 @@
+﻿<html>
+<head>
+  <title>QuestionnaireResponse-BetsySmithMDSResponse-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:QuestionnaireResponse;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BetsySmithMDSResponse&quot;];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://pacioproject.org//StructureDefinition/pacio-qr&quot;;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://pacioproject.org//StructureDefinition/pacio-qr&gt;     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: BetsySmithMDSResponse&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Betsy Smith\&quot;&gt;Betsy Smith&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section-37&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Section GG: Functional Abilities and Goals&lt;/p&gt;&lt;h3&gt;Items&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.status">fhir:QuestionnaireResponse.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;completed&quot;];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.subject">fhir:QuestionnaireResponse.subject</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Betsy Smith&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item">fhir:QuestionnaireResponse.item</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-37&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section GG: Functional Abilities and Goals&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-37/GG0130&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s).&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-37/GG0130B1&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Oral hygiene - functional ability during 3D assessment period [CMS Assessment]&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSOralHygiene&quot; ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-37/GG0130A1&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Eating - functional ability during 3D assessment period [CMS Assessment]&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSEating&quot; ]           ]         ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

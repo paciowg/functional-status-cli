@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>FISH\BetsySmith - XML Representation - FHIR v4.0.1</title>
+    <title>PACIO\BetsySmith - XML Representation - FHIR v4.0.1</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,7 +44,7 @@
         
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Fish Implementation Guide</span><br/>0.1.0 - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -96,7 +96,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Fish Implementation Guide - Local Development build (v0.1.0). See the <a href="http://example.org/fhir/fish/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="http://pacioproject.org//history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <a name="root"> </a>
   <h2 id="root">BetsySmith - XML Representation</h2>
   <p>
@@ -117,13 +117,19 @@
 &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation">Observation</a> xmlns="http://hl7.org/fhir"&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="BetsySmith"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://example.org/fhir/fish/StructureDefinition/pacio-bfs"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://pacioproject.org//StructureDefinition/pacio-bfs"/&gt;
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: BetsySmith&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment] &lt;span style="background: LightGoldenRodYellow"&gt;(Details : {LOINC code '90480-5' = 'MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment])&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="Betsy Smith"&gt;Betsy Smith&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href="CMS Provider"&gt;CMS Provider&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSOralHygiene; &lt;span title="Codes: {http://loinc.org 83230-3}"&gt;Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA11757-4}"&gt;Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: BetsySmith&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Survey &lt;span style="background: LightGoldenRodYellow"&gt;(Details : {http://terminology.hl7.org/CodeSystem/observation-category code 'survey' = 'Survey)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment] &lt;span style="background: LightGoldenRodYellow"&gt;(Details : {LOINC code '90480-5' = 'MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment])&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="Betsy Smith"&gt;Betsy Smith&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href="CMS Provider"&gt;CMS Provider&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSEating; &lt;span title="Codes: {http://loinc.org 83232-9}"&gt;Eating - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA10073-7}"&gt;Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSOralHygiene; &lt;span title="Codes: {http://loinc.org 83230-3}"&gt;Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA11757-4}"&gt;Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSToiletingHygiene; &lt;span title="Codes: {http://loinc.org 83228-7}"&gt;Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA9983-3}"&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSLyingToSitting; &lt;span title="Codes: {http://loinc.org 83214-7}"&gt;Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA9983-3}"&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSSitToLying; &lt;span title="Codes: {http://loinc.org 83216-2}"&gt;Sit to lying - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA9983-3}"&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSSitToStand; &lt;span title="Codes: {http://loinc.org 83212-1}"&gt;Sit to stand - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA9983-3}"&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSBedToChair; &lt;span title="Codes: {http://loinc.org 83210-5}"&gt;Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA9983-3}"&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSToiletTransfer; &lt;span title="Codes: {http://loinc.org 83208-9}"&gt;Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA9983-3}"&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSWalk10feet; &lt;span title="Codes: {http://loinc.org 83208-9}"&gt;Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA11757-4}"&gt;Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSWalk50feet; &lt;span title="Codes: {http://loinc.org 83202-2}"&gt;Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA11757-4}"&gt;Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Observation-BetsySmith.html"&gt;Generated Summary: id: BetsySmithMDSWalk150feet; &lt;span title="Codes: {http://loinc.org 83200-6}"&gt;Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; &lt;span title="Codes: {http://loinc.org LA10055-4}"&gt;Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="final"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.category">category</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://terminology.hl7.org/CodeSystem/observation-category"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="survey"/&gt;
+    &lt;/coding&gt;
+  &lt;/category&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://loinc.org"/&gt;
@@ -137,7 +143,37 @@
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="CMS Provider"/&gt;
   &lt;/performer&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSEating"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSOralHygiene"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSToiletingHygiene"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSLyingToSitting"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSSitToLying"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSSitToStand"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSBedToChair"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSToiletTransfer"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSWalk10feet"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSWalk50feet"/&gt;
+  &lt;/derivedFrom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">derivedFrom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSWalk150feet"/&gt;
   &lt;/derivedFrom&gt;
 &lt;/Observation&gt;</pre>
 
@@ -154,8 +190,8 @@
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="9b334252-3818-49b2-87d7-97dbef4b94c5">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="cod@reef.gov">James Tuna</a>.  Package fish#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 16, 2020 16:11-0400">2020-03-16</span>
+        <p><a name="a9c032b2-38a1-4c02-8acf-33ffd623f0f0">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 23, 2020 15:36-0400">2020-03-23</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

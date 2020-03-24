@@ -1,0 +1,49 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "BetsySmithMDSResponse",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "completed",
+  "item": [
+    {
+      "text": "Section GG: Functional Abilities and Goals",
+      "linkId": "Section-37",
+      "item": [
+        {
+          "text": "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s).",
+          "linkId": "Section-37/GG0130",
+          "item": [
+            {
+              "text": "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0130B1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSOralHygiene"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Eating - functional ability during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0130A1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSEating"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

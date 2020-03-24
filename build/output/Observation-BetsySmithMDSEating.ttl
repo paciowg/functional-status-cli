@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/fish/Observation/BetsySmithMDSEating> a fhir:Observation;
+<http://pacioproject.org/Observation/BetsySmithMDSEating> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BetsySmithMDSEating"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://example.org/fhir/fish/StructureDefinition/pacio-fs";
+       fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
        fhir:index 0;
-       fhir:link <http://example.org/fhir/fish/StructureDefinition/pacio-fs>
+       fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
      ]
   ];
   fhir:DomainResource.text [
@@ -47,7 +47,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.org/fhir/fish/Observation/BetsySmithMDSEating.ttl> a owl:Ontology;
+<http://pacioproject.org/Observation/BetsySmithMDSEating.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
