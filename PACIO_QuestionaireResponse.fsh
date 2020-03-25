@@ -90,9 +90,9 @@ InstanceOf: PACIOquestionaireResponse
 * item[0].item[0].item[1].linkId = "Section-37/GG0130A1"
 * item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingDischargeAdmissionPerformance)
 //   83232-9	Eating		
-* item[0].item[0].item[1].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance"
-* item[0].item[0].item[1].linkId = "Section-37/GG0130A3"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingDischargePerformance)
+* item[0].item[0].item[3].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance"
+* item[0].item[0].item[3].linkId = "Section-37/GG0130A3"
+* item[0].item[0].item[3].answer.valueReference = Reference(BetsySmithMDSEatingDischargePerformance)
 //83230-3	Oral hygiene
 * item[0].item[0].item[0].text = "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"
 * item[0].item[0].item[0].linkId = "Section-37/GG0130B1"
