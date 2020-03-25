@@ -36,7 +36,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "Observation/BetsySmithMDSEatingDischarge"
+      "reference": "BetsySmithMDSEatingDischarge"
     },
     {
       "reference": "Observation/BetsySmithMDSOralHygieneDischarge"

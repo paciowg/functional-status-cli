@@ -104,8 +104,15 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-BetsySmithMDSEatingDischarge.html"
-                     title="Observation/BetsySmithMDSEatingDischarge">BetsySmithMDSEatingDischarge</a>
+                  <a href="Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html"
+                     title="Observation/BetsySmithMDSEatingDischargeAdmissionPerformance">BetsySmithMDSEatingDischargeAdmissionPerformance</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BetsySmithMDSEatingDischargePerformance.html"
+                     title="Observation/BetsySmithMDSEatingDischargePerformance">BetsySmithMDSEatingDischargePerformance</a>
                </td>
                <td/>
             </tr>

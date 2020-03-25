@@ -108,9 +108,16 @@
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischarge"
+          "reference": "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance"
         },
-        "name": "BetsySmithMDSEatingDischarge",
+        "name": "BetsySmithMDSEatingDischargeAdmissionPerformance",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSEatingDischargePerformance"
+        },
+        "name": "BetsySmithMDSEatingDischargePerformance",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {

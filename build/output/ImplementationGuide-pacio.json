@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-03-24T21:38:23-04:00",
+  "date": "2020-03-25T11:23:42-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -442,13 +442,30 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSEatingDischarge.html"
+            "valueUri": "Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html"
           }
         ],
         "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischarge"
+          "reference": "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance"
         },
-        "name": "BetsySmithMDSEatingDischarge",
+        "name": "BetsySmithMDSEatingDischargeAdmissionPerformance",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSEatingDischargePerformance.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSEatingDischargePerformance"
+        },
+        "name": "BetsySmithMDSEatingDischargePerformance",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {

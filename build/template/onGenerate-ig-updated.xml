@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-03-24T21:38:23-04:00"/>
+   <date value="2020-03-25T11:23:42-04:00"/>
    <publisher value="Sean Mahoney"/>
    <contact>
       <name value="Sean Mahoney"/>
@@ -207,12 +207,26 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSEatingDischarge.html"/>
+            <valueUri value="Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSEatingDischarge"/>
+            <reference value="Observation/BetsySmithMDSEatingDischargeAdmissionPerformance"/>
          </reference>
-         <name value="BetsySmithMDSEatingDischarge"/>
+         <name value="BetsySmithMDSEatingDischargeAdmissionPerformance"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSEatingDischargePerformance.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSEatingDischargePerformance"/>
+         </reference>
+         <name value="BetsySmithMDSEatingDischargePerformance"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -588,8 +602,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSEatingDischarge.html"/>
-               <title value="BetsySmithMDSEatingDischarge"/>
+               <nameUrl value="Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html"/>
+               <title value="BetsySmithMDSEatingDischargeAdmissionPerformance"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSEatingDischargePerformance.html"/>
+               <title value="BetsySmithMDSEatingDischargePerformance"/>
                <generation value="generated"/>
             </page>
             <page>

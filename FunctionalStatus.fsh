@@ -69,7 +69,7 @@ InstanceOf: FunctionalStatus
 * subject  = Reference(BetsySmith)
 * status = #final
 * effectiveDateTime = "2020-03-09"
-* code = LNC#45590-7 "Transfer - self-performance during 7 day assessment period [CMS Assessment]"
+* code = LNC#45590-7 "Walk in room - self-performance during 7 day assessment period [CMS Assessment]"
 * performer.reference  = "CMS Provider"
 * valueCodeableConcept = LNC#LA12638-5 "Supervision - oversight, encouragement or cueing"
 /*TODO: build out  the ADL
@@ -257,13 +257,23 @@ InstanceOf: FunctionalStatus
 86819-0	Functional Status			
 */ 
 
-//G0110H1
-Instance: BetsySmithMDSEatingDischarge
+//GG0130A1
+Instance: BetsySmithMDSEatingDischargeAdmissionPerformance
 InstanceOf: FunctionalStatus
 * subject  = Reference(BetsySmith)
 * status = #final
 * effectiveDateTime = "2020-01-22"
-* code = LNC#83232-9 "Eating - functional ability during 3 day assessment period"
+* code = LNC#83232-9 "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Admission Performance"
+* performer.reference  = "CMS Provider"
+* valueCodeableConcept = LNC#LA10073-7 "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity."
+
+//   GG0130A3	Eating-goal		
+Instance: BetsySmithMDSEatingDischargePerformance
+InstanceOf: FunctionalStatus
+* subject  = Reference(BetsySmith)
+* status = #final
+* effectiveDateTime = "2020-01-19"
+* code = LNC#83232-9 "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance"
 * performer.reference  = "CMS Provider"
 * valueCodeableConcept = LNC#LA10073-7 "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity."
 
@@ -377,6 +387,7 @@ InstanceOf: FunctionalStatus
 * code = LNC#83200-6 "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]"
 * performer.reference  = "CMS Provider"
 * valueCodeableConcept = LNC#LA10055-4 "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+
 /*TODO BUILD OUT		
    83198-2	Walking 10 feet on uneven surfaces			
    83196-6	1 step (curb)			

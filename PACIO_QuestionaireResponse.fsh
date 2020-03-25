@@ -85,10 +85,14 @@ InstanceOf: PACIOquestionaireResponse
 //Self-Care
 * item.item.linkId = "Section-37/GG0130"
 * item.item.text = "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."
-//   83232-9	Eating		
-* item[0].item[0].item[1].text = "Eating - functional ability during 3D assessment period [CMS Assessment]"
+//   83232-9	Eating		upon admission
+* item[0].item[0].item[1].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Admission Performance"
 * item[0].item[0].item[1].linkId = "Section-37/GG0130A1"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingDischarge)
+* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingDischargeAdmissionPerformance)
+//   83232-9	Eating		
+* item[0].item[0].item[1].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance"
+* item[0].item[0].item[1].linkId = "Section-37/GG0130A3"
+* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingDischargePerformance)
 //83230-3	Oral hygiene
 * item[0].item[0].item[0].text = "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"
 * item[0].item[0].item[0].linkId = "Section-37/GG0130B1"

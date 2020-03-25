@@ -41,6 +41,5 @@ $RECYCLE.BIN/
 
 ### Node ###
 
-node_modules
-out
-docs
+
+build

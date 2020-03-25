@@ -28,11 +28,11 @@
         </answer>
       </item>
       <item>
-        <linkId value="Section-37/GG0130A1"/>
-        <text value="Eating - functional ability during 3D assessment period [CMS Assessment]"/>
+        <linkId value="Section-37/GG0130A3"/>
+        <text value="Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BetsySmithMDSEatingDischarge"/>
+            <reference value="Observation/BetsySmithMDSEatingDischargePerformance"/>
           </valueReference>
         </answer>
       </item>

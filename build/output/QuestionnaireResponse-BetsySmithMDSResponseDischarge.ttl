@@ -44,13 +44,13 @@
          ]
        ], [
          fhir:index 1;
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130A1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Eating - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130A3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingDischarge>;
-             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingDischarge" ]
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingDischargePerformance>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingDischargePerformance" ]
            ]
          ]
        ], [
