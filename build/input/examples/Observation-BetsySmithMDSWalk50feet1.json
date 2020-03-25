@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmithMDSWalk50feet1",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-03-24",
+  "code": {
+    "coding": [
+      {
+        "code": "83202-2",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11757-4",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

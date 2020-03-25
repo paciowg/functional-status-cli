@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="BetsySmithMDSWalkInRoomAdmission"/>
+  <meta>
+    <profile value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSWalkInRoomAdmission</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Transfer - self-performance during 7 day assessment period [CMS Assessment] <span style="background: LightGoldenRodYellow">(Details : {LOINC code '45590-7' = 'Transfer - self-performance during 7 day assessment period [CMS Assessment])</span></p><p><b>subject</b>: <a href="{{[type]}}-{{[id]}}.html">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>effective</b>: Mar 9, 2020, 12:00:00 AM</p><p><b>performer</b>: <a href="CMS Provider">CMS Provider</a></p><p><b>value</b>: Supervision - oversight, encouragement or cueing <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'LA12638-5' = 'Supervision - oversight, encouragement or cueing)</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="45590-7"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/BetsySmith"/>
+  </subject>
+  <effectiveDateTime value="2020-03-09"/>
+  <performer>
+    <reference value="CMS Provider"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA12638-5"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

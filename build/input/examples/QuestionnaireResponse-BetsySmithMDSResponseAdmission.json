@@ -1,0 +1,154 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "BetsySmithMDSResponseAdmission",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "completed",
+  "item": [
+    {
+      "text": "Section GG: Functional Abilities and Goals",
+      "linkId": "Section-37",
+      "item": [
+        {
+          "linkId": "Section-37/GG0130",
+          "text": "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s).",
+          "item": [
+            {
+              "text": "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0130B1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSOralHygieneAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Eating - functional ability during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0130A1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSEatingAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0130C3",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "Section-37/GG0170",
+          "text": "Mobility. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s).",
+          "item": [
+            {
+              "text": "Sit to lying - functional ability during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0170B1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSSitToLyingAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0170C1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSLyingToSittingAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance",
+              "linkId": "Section-37/GG0170D1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSSitToStandAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0170E1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSBedToChairAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0170F1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSToiletTransferAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0170I1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSWalk10feetAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0170J1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSWalk50feetAdmission"
+                  }
+                }
+              ]
+            },
+            {
+              "text": "Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0170K1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSWalk150feetAdmission"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

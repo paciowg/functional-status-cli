@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmithMDSSitToStandAdmission",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-01-19",
+  "code": {
+    "coding": [
+      {
+        "code": "83212-1",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA9983-3",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

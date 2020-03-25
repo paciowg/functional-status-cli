@@ -1,0 +1,95 @@
+﻿<html>
+<head>
+  <title>Observation-BetsySmithBundleSNFDischarge-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix loinc: &lt;http://loinc.org/rdf#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Observation;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BetsySmithBundleSNFDischarge&quot;];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://pacioproject.org//StructureDefinition/pacio-bfs&quot;;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://pacioproject.org//StructureDefinition/pacio-bfs&gt;     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: BetsySmithBundleSNFDischarge&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Survey &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {http://terminology.hl7.org/CodeSystem/observation-category code 'survey' = 'Survey)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment] &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {LOINC code '90480-5' = 'MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment])&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: Jan 22, 2020, 12:00:00 AM&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;CMS Provider\&quot;&gt;CMS Provider&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSEatingDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83232-9}\&quot;&gt;Eating - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA10073-7}\&quot;&gt;Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSOralHygieneDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83230-3}\&quot;&gt;Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA11757-4}\&quot;&gt;Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSToiletingHygieneDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83228-7}\&quot;&gt;Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA9983-3}\&quot;&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSLyingToSittingDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83214-7}\&quot;&gt;Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA9983-3}\&quot;&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSSitToLyingDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83216-2}\&quot;&gt;Sit to lying - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA9983-3}\&quot;&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSSitToStandDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83212-1}\&quot;&gt;Sit to stand - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA9983-3}\&quot;&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSBedToChairDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83210-5}\&quot;&gt;Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA9983-3}\&quot;&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSToiletTransferDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83208-9}\&quot;&gt;Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA9983-3}\&quot;&gt;Independent - Patient completes the activity by him/herself with no assistance from a helper.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSWalk10feetDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83208-9}\&quot;&gt;Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA11757-4}\&quot;&gt;Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSWalk50feetDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83202-2}\&quot;&gt;Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA11757-4}\&quot;&gt;Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-BetsySmithBundleSNFDischarge.html\&quot;&gt;Generated Summary: id: BetsySmithMDSWalk150feetDischarge; &lt;span title=\&quot;Codes: {http://loinc.org 83200-6}\&quot;&gt;Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]&lt;/span&gt;; effective: Jan 22, 2020, 12:00:00 AM; &lt;span title=\&quot;Codes: {http://loinc.org LA10055-4}\&quot;&gt;Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;final&quot;];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:Observation.category</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;survey&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:Observation.code</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       a loinc:90480-5;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;90480-5&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:Observation.subject</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient/BetsySmith&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2020-01-22&quot;^^xsd:date];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">fhir:Observation.performer</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CMS Provider&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">fhir:Observation.derivedFrom</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSEatingDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSOralHygieneDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSToiletingHygieneDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSLyingToSittingDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSSitToLyingDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSSitToStandDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSBedToChairDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSToiletTransferDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSWalk10feetDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSWalk50feetDischarge&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmithMDSWalk150feetDischarge&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

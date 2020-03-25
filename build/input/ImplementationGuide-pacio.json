@@ -59,93 +59,212 @@
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmith"
+          "reference": "Patient/BetsySmith"
         },
         "name": "BetsySmith",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithBundleSNFAdmission"
+        },
+        "name": "BetsySmithBundleSNFAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSBedToChair"
+          "reference": "Observation/BetsySmithBundleSNFDischarge"
         },
-        "name": "BetsySmithMDSBedToChair",
+        "name": "BetsySmithBundleSNFDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSBedMobilityAdmission"
+        },
+        "name": "BetsySmithMDSBedMobilityAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSEating"
+          "reference": "Observation/BetsySmithMDSBedToChairAdmission"
         },
-        "name": "BetsySmithMDSEating",
+        "name": "BetsySmithMDSBedToChairAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSLyingToSitting"
+          "reference": "Observation/BetsySmithMDSBedToChairDischarge"
         },
-        "name": "BetsySmithMDSLyingToSitting",
+        "name": "BetsySmithMDSBedToChairDischarge",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygiene"
+          "reference": "Observation/BetsySmithMDSEatingAdmission"
         },
-        "name": "BetsySmithMDSOralHygiene",
+        "name": "BetsySmithMDSEatingAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/BetsySmithMDSResponse"
+          "reference": "Observation/BetsySmithMDSEatingDischarge"
         },
-        "name": "BetsySmithMDSResponse",
+        "name": "BetsySmithMDSEatingDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSLyingToSittingAdmission"
+        },
+        "name": "BetsySmithMDSLyingToSittingAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSLyingToSittingDischarge"
+        },
+        "name": "BetsySmithMDSLyingToSittingDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSOralHygieneAdmission"
+        },
+        "name": "BetsySmithMDSOralHygieneAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSOralHygieneDischarge"
+        },
+        "name": "BetsySmithMDSOralHygieneDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/BetsySmithMDSResponseAdmission"
+        },
+        "name": "BetsySmithMDSResponseAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSSitToLying"
+          "reference": "QuestionnaireResponse/BetsySmithMDSResponseDischarge"
         },
-        "name": "BetsySmithMDSSitToLying",
+        "name": "BetsySmithMDSResponseDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSSitToLyingAdmission"
+        },
+        "name": "BetsySmithMDSSitToLyingAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSSitToStand"
+          "reference": "Observation/BetsySmithMDSSitToLyingDischarge"
         },
-        "name": "BetsySmithMDSSitToStand",
+        "name": "BetsySmithMDSSitToLyingDischarge",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSToiletTransfer"
+          "reference": "Observation/BetsySmithMDSSitToStandAdmission"
         },
-        "name": "BetsySmithMDSToiletTransfer",
+        "name": "BetsySmithMDSSitToStandAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygiene"
+          "reference": "Observation/BetsySmithMDSSitToStandDischarge"
         },
-        "name": "BetsySmithMDSToiletingHygiene",
+        "name": "BetsySmithMDSSitToStandDischarge",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk10feet"
+          "reference": "Observation/BetsySmithMDSToiletTransferAdmission"
         },
-        "name": "BetsySmithMDSWalk10feet",
+        "name": "BetsySmithMDSToiletTransferAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk150feet"
+          "reference": "Observation/BetsySmithMDSToiletTransferDischarge"
         },
-        "name": "BetsySmithMDSWalk150feet",
+        "name": "BetsySmithMDSToiletTransferDischarge",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk50feet"
+          "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission"
         },
-        "name": "BetsySmithMDSWalk50feet",
+        "name": "BetsySmithMDSToiletingHygieneAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSToiletingHygieneDischarge"
+        },
+        "name": "BetsySmithMDSToiletingHygieneDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSTransferAdmission"
+        },
+        "name": "BetsySmithMDSTransferAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk10feetAdmission"
+        },
+        "name": "BetsySmithMDSWalk10feetAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk10feetDischarge"
+        },
+        "name": "BetsySmithMDSWalk10feetDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk150feetAdmission"
+        },
+        "name": "BetsySmithMDSWalk150feetAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk150feetDischarge"
+        },
+        "name": "BetsySmithMDSWalk150feetDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk50feetAdmission"
+        },
+        "name": "BetsySmithMDSWalk50feetAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk50feetDischarge"
+        },
+        "name": "BetsySmithMDSWalk50feetDischarge",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalkInRoomAdmission"
+        },
+        "name": "BetsySmithMDSWalkInRoomAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
       }
     ],

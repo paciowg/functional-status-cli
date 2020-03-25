@@ -28,7 +28,7 @@
       ]
     }
   ],
-  "effectiveDateTime": "2020-03-24",
+  "effectiveDateTime": "2020-01-19",
   "performer": [
     {
       "reference": "CMS Provider"
@@ -36,37 +36,37 @@
   ],
   "derivedFrom": [
     {
-      "reference": "Observation/BetsySmithMDSEating"
+      "reference": "BetsySmithMDSEating"
     },
     {
-      "reference": "Observation/BetsySmithMDSOralHygiene"
+      "reference": "BetsySmithMDSOralHygiene"
     },
     {
-      "reference": "Observation/BetsySmithMDSToiletingHygiene"
+      "reference": "BetsySmithMDSToiletingHygiene"
     },
     {
-      "reference": "Observation/BetsySmithMDSLyingToSitting"
+      "reference": "BetsySmithMDSLyingToSitting"
     },
     {
-      "reference": "Observation/BetsySmithMDSSitToLying"
+      "reference": "BetsySmithMDSSitToLying"
     },
     {
-      "reference": "Observation/BetsySmithMDSSitToStand"
+      "reference": "BetsySmithMDSSitToStand"
     },
     {
-      "reference": "Observation/BetsySmithMDSBedToChair"
+      "reference": "BetsySmithMDSBedToChair"
     },
     {
-      "reference": "Observation/BetsySmithMDSToiletTransfer"
+      "reference": "BetsySmithMDSToiletTransfer"
     },
     {
-      "reference": "Observation/BetsySmithMDSWalk10feet"
+      "reference": "BetsySmithMDSWalk10feet"
     },
     {
-      "reference": "Observation/BetsySmithMDSWalk50feet"
+      "reference": "BetsySmithMDSWalk50feet"
     },
     {
-      "reference": "Observation/BetsySmithMDSWalk150feet"
+      "reference": "BetsySmithMDSWalk150feet"
     }
   ]
 }

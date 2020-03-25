@@ -15,23 +15,49 @@ Description:    "An point in time bundle of functional status observations for a
 * category 1..1 
 * category from CAT (preferred)
 
-
 Instance: BetsySmith
+InstanceOf: Patient
+* name.given = "Betsy"
+* name.family = "Smith"
+* gender = http://hl7.org/fhir/administrative-gender#female
+* birthDate = "1959-06-14"
+
+Instance: BetsySmithBundleSNFAdmission
 InstanceOf: BundledFunctionalStatus
-* subject.reference  = "Betsy Smith"
+* subject  = Reference(BetsySmith)
 * status = #final
 * code = http://loinc.org#90480-5
 * category = CAT#survey
-* effectiveDateTime = "2020-03-24"
+* effectiveDateTime = "2020-01-19"
 * performer.reference  = "CMS Provider"
-* derivedFrom = Reference(BetsySmithMDSEating)
-* derivedFrom[1] = Reference(BetsySmithMDSOralHygiene)
-* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygiene)
-* derivedFrom[3] = Reference(BetsySmithMDSLyingToSitting)
-* derivedFrom[4] = Reference(BetsySmithMDSSitToLying)
-* derivedFrom[5] = Reference(BetsySmithMDSSitToStand)
-* derivedFrom[6] = Reference(BetsySmithMDSBedToChair)
-* derivedFrom[7] = Reference(BetsySmithMDSToiletTransfer)
-* derivedFrom[8] = Reference(BetsySmithMDSWalk10feet)
-* derivedFrom[9] = Reference(BetsySmithMDSWalk50feet)
-* derivedFrom[10] = Reference(BetsySmithMDSWalk150feet)
+* derivedFrom = Reference(BetsySmithMDSEatingAdmission)
+* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneAdmission)
+* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneAdmission)
+* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingAdmission)
+* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingAdmission)
+* derivedFrom[5] = Reference(BetsySmithMDSSitToStandAdmission)
+* derivedFrom[6] = Reference(BetsySmithMDSBedToChairAdmission)
+* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferAdmission)
+* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetAdmission)
+* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetAdmission)
+* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetAdmission)
+
+Instance: BetsySmithBundleSNFDischarge
+InstanceOf: BundledFunctionalStatus
+* subject  = Reference(BetsySmith)
+* status = #final
+* code = http://loinc.org#90480-5
+* category = CAT#survey
+* effectiveDateTime = "2020-01-22"
+* performer.reference  = "CMS Provider"
+* derivedFrom = Reference(BetsySmithMDSEatingDischarge)
+* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneDischarge)
+* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneDischarge)
+* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingDischarge)
+* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingDischarge)
+* derivedFrom[5] = Reference(BetsySmithMDSSitToStandDischarge)
+* derivedFrom[6] = Reference(BetsySmithMDSBedToChairDischarge)
+* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferDischarge)
+* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetDischarge)
+* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetDischarge)
+* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetDischarge)

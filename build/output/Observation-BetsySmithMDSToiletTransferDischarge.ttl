@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://pacioproject.org/Observation/BetsySmithMDSToiletTransferDischarge> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BetsySmithMDSToiletTransferDischarge"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+       fhir:index 0;
+       fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSToiletTransferDischarge</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Toilet transfer - functional ability during 3 day assessment period [CMS Assessment] <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83208-9' = 'Toilet transfer - functional ability during 3 day assessment period [CMS Assessment])</span></p><p><b>subject</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>effective</b>: Jan 22, 2020, 12:00:00 AM</p><p><b>performer</b>: <a href=\"CMS Provider\">CMS Provider</a></p><p><b>value</b>: Independent - Patient completes the activity by him/herself with no assistance from a helper. <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA9983-3' = 'Independent - Patient completes the activity by him/herself with no assistance from a helper.)</span></p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:83208-9;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "83208-9" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://pacioproject.org/Patient/BetsySmith>;
+     fhir:Reference.reference [ fhir:value "Patient/BetsySmith" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-01-22"^^xsd:date];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:Reference.reference [ fhir:value "CMS Provider" ]
+  ];
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:LA9983-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "LA9983-3" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://pacioproject.org/Observation/BetsySmithMDSToiletTransferDischarge.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

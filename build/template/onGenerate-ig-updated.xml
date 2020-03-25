@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-03-24T12:27:07-04:00"/>
+   <date value="2020-03-24T21:38:23-04:00"/>
    <publisher value="Sean Mahoney"/>
    <contact>
       <name value="Sean Mahoney"/>
@@ -106,15 +106,29 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-BetsySmith.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/BetsySmith"/>
+         </reference>
+         <name value="BetsySmith"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmith.html"/>
+            <valueUri value="Observation-BetsySmithBundleSNFAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmith"/>
+            <reference value="Observation/BetsySmithBundleSNFAdmission"/>
          </reference>
-         <name value="BetsySmith"/>
+         <name value="BetsySmithBundleSNFAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -123,12 +137,26 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSBedToChair.html"/>
+            <valueUri value="Observation-BetsySmithBundleSNFDischarge.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSBedToChair"/>
+            <reference value="Observation/BetsySmithBundleSNFDischarge"/>
          </reference>
-         <name value="BetsySmithMDSBedToChair"/>
+         <name value="BetsySmithBundleSNFDischarge"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSBedMobilityAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSBedMobilityAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSBedMobilityAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -137,12 +165,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSEating.html"/>
+            <valueUri value="Observation-BetsySmithMDSBedToChairAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSEating"/>
+            <reference value="Observation/BetsySmithMDSBedToChairAdmission"/>
          </reference>
-         <name value="BetsySmithMDSEating"/>
+         <name value="BetsySmithMDSBedToChairAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -151,12 +179,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSLyingToSitting.html"/>
+            <valueUri value="Observation-BetsySmithMDSBedToChairDischarge.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSLyingToSitting"/>
+            <reference value="Observation/BetsySmithMDSBedToChairDischarge"/>
          </reference>
-         <name value="BetsySmithMDSLyingToSitting"/>
+         <name value="BetsySmithMDSBedToChairDischarge"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -165,12 +193,82 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSOralHygiene.html"/>
+            <valueUri value="Observation-BetsySmithMDSEatingAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSOralHygiene"/>
+            <reference value="Observation/BetsySmithMDSEatingAdmission"/>
          </reference>
-         <name value="BetsySmithMDSOralHygiene"/>
+         <name value="BetsySmithMDSEatingAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSEatingDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSEatingDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSEatingDischarge"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSLyingToSittingAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSLyingToSittingAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSLyingToSittingAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSLyingToSittingDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSLyingToSittingDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSLyingToSittingDischarge"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSOralHygieneAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSOralHygieneAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSOralHygieneAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSOralHygieneDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSOralHygieneDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSOralHygieneDischarge"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -179,12 +277,26 @@
             <valueString value="QuestionnaireResponse"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-BetsySmithMDSResponse.html"/>
+            <valueUri value="QuestionnaireResponse-BetsySmithMDSResponseAdmission.html"/>
          </extension>
          <reference>
-            <reference value="QuestionnaireResponse/BetsySmithMDSResponse"/>
+            <reference value="QuestionnaireResponse/BetsySmithMDSResponseAdmission"/>
          </reference>
-         <name value="BetsySmithMDSResponse"/>
+         <name value="BetsySmithMDSResponseAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="QuestionnaireResponse"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="QuestionnaireResponse-BetsySmithMDSResponseDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="QuestionnaireResponse/BetsySmithMDSResponseDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSResponseDischarge"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -193,12 +305,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSSitToLying.html"/>
+            <valueUri value="Observation-BetsySmithMDSSitToLyingAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSSitToLying"/>
+            <reference value="Observation/BetsySmithMDSSitToLyingAdmission"/>
          </reference>
-         <name value="BetsySmithMDSSitToLying"/>
+         <name value="BetsySmithMDSSitToLyingAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -207,12 +319,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSSitToStand.html"/>
+            <valueUri value="Observation-BetsySmithMDSSitToLyingDischarge.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSSitToStand"/>
+            <reference value="Observation/BetsySmithMDSSitToLyingDischarge"/>
          </reference>
-         <name value="BetsySmithMDSSitToStand"/>
+         <name value="BetsySmithMDSSitToLyingDischarge"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -221,12 +333,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSToiletTransfer.html"/>
+            <valueUri value="Observation-BetsySmithMDSSitToStandAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSToiletTransfer"/>
+            <reference value="Observation/BetsySmithMDSSitToStandAdmission"/>
          </reference>
-         <name value="BetsySmithMDSToiletTransfer"/>
+         <name value="BetsySmithMDSSitToStandAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -235,12 +347,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSToiletingHygiene.html"/>
+            <valueUri value="Observation-BetsySmithMDSSitToStandDischarge.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSToiletingHygiene"/>
+            <reference value="Observation/BetsySmithMDSSitToStandDischarge"/>
          </reference>
-         <name value="BetsySmithMDSToiletingHygiene"/>
+         <name value="BetsySmithMDSSitToStandDischarge"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -249,12 +361,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk10feet.html"/>
+            <valueUri value="Observation-BetsySmithMDSToiletTransferAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSWalk10feet"/>
+            <reference value="Observation/BetsySmithMDSToiletTransferAdmission"/>
          </reference>
-         <name value="BetsySmithMDSWalk10feet"/>
+         <name value="BetsySmithMDSToiletTransferAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -263,12 +375,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk150feet.html"/>
+            <valueUri value="Observation-BetsySmithMDSToiletTransferDischarge.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSWalk150feet"/>
+            <reference value="Observation/BetsySmithMDSToiletTransferDischarge"/>
          </reference>
-         <name value="BetsySmithMDSWalk150feet"/>
+         <name value="BetsySmithMDSToiletTransferDischarge"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -277,12 +389,138 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk50feet.html"/>
+            <valueUri value="Observation-BetsySmithMDSToiletingHygieneAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSWalk50feet"/>
+            <reference value="Observation/BetsySmithMDSToiletingHygieneAdmission"/>
          </reference>
-         <name value="BetsySmithMDSWalk50feet"/>
+         <name value="BetsySmithMDSToiletingHygieneAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSToiletingHygieneDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSToiletingHygieneDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSToiletingHygieneDischarge"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSTransferAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSTransferAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSTransferAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSWalk10feetAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSWalk10feetAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSWalk10feetAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSWalk10feetDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSWalk10feetDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSWalk10feetDischarge"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSWalk150feetAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSWalk150feetAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSWalk150feetAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSWalk150feetDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSWalk150feetDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSWalk150feetDischarge"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSWalk50feetAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSWalk50feetAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSWalk50feetAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSWalk50feetDischarge.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSWalk50feetDischarge"/>
+         </reference>
+         <name value="BetsySmithMDSWalk50feetDischarge"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BetsySmithMDSWalkInRoomAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BetsySmithMDSWalkInRoomAdmission"/>
+         </reference>
+         <name value="BetsySmithMDSWalkInRoomAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -315,68 +553,153 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmith.html"/>
+               <nameUrl value="Patient-BetsySmith.html"/>
                <title value="BetsySmith"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSBedToChair.html"/>
-               <title value="BetsySmithMDSBedToChair"/>
+               <nameUrl value="Observation-BetsySmithBundleSNFAdmission.html"/>
+               <title value="BetsySmithBundleSNFAdmission"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSEating.html"/>
-               <title value="BetsySmithMDSEating"/>
+               <nameUrl value="Observation-BetsySmithBundleSNFDischarge.html"/>
+               <title value="BetsySmithBundleSNFDischarge"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSLyingToSitting.html"/>
-               <title value="BetsySmithMDSLyingToSitting"/>
+               <nameUrl value="Observation-BetsySmithMDSBedMobilityAdmission.html"/>
+               <title value="BetsySmithMDSBedMobilityAdmission"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSOralHygiene.html"/>
-               <title value="BetsySmithMDSOralHygiene"/>
+               <nameUrl value="Observation-BetsySmithMDSBedToChairAdmission.html"/>
+               <title value="BetsySmithMDSBedToChairAdmission"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-BetsySmithMDSResponse.html"/>
-               <title value="BetsySmithMDSResponse"/>
+               <nameUrl value="Observation-BetsySmithMDSBedToChairDischarge.html"/>
+               <title value="BetsySmithMDSBedToChairDischarge"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSSitToLying.html"/>
-               <title value="BetsySmithMDSSitToLying"/>
+               <nameUrl value="Observation-BetsySmithMDSEatingAdmission.html"/>
+               <title value="BetsySmithMDSEatingAdmission"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSSitToStand.html"/>
-               <title value="BetsySmithMDSSitToStand"/>
+               <nameUrl value="Observation-BetsySmithMDSEatingDischarge.html"/>
+               <title value="BetsySmithMDSEatingDischarge"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSToiletTransfer.html"/>
-               <title value="BetsySmithMDSToiletTransfer"/>
+               <nameUrl value="Observation-BetsySmithMDSLyingToSittingAdmission.html"/>
+               <title value="BetsySmithMDSLyingToSittingAdmission"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSToiletingHygiene.html"/>
-               <title value="BetsySmithMDSToiletingHygiene"/>
+               <nameUrl value="Observation-BetsySmithMDSLyingToSittingDischarge.html"/>
+               <title value="BetsySmithMDSLyingToSittingDischarge"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk10feet.html"/>
-               <title value="BetsySmithMDSWalk10feet"/>
+               <nameUrl value="Observation-BetsySmithMDSOralHygieneAdmission.html"/>
+               <title value="BetsySmithMDSOralHygieneAdmission"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk150feet.html"/>
-               <title value="BetsySmithMDSWalk150feet"/>
+               <nameUrl value="Observation-BetsySmithMDSOralHygieneDischarge.html"/>
+               <title value="BetsySmithMDSOralHygieneDischarge"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk50feet.html"/>
-               <title value="BetsySmithMDSWalk50feet"/>
+               <nameUrl value="QuestionnaireResponse-BetsySmithMDSResponseAdmission.html"/>
+               <title value="BetsySmithMDSResponseAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="QuestionnaireResponse-BetsySmithMDSResponseDischarge.html"/>
+               <title value="BetsySmithMDSResponseDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSSitToLyingAdmission.html"/>
+               <title value="BetsySmithMDSSitToLyingAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSSitToLyingDischarge.html"/>
+               <title value="BetsySmithMDSSitToLyingDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSSitToStandAdmission.html"/>
+               <title value="BetsySmithMDSSitToStandAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSSitToStandDischarge.html"/>
+               <title value="BetsySmithMDSSitToStandDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSToiletTransferAdmission.html"/>
+               <title value="BetsySmithMDSToiletTransferAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSToiletTransferDischarge.html"/>
+               <title value="BetsySmithMDSToiletTransferDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSToiletingHygieneAdmission.html"/>
+               <title value="BetsySmithMDSToiletingHygieneAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSToiletingHygieneDischarge.html"/>
+               <title value="BetsySmithMDSToiletingHygieneDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSTransferAdmission.html"/>
+               <title value="BetsySmithMDSTransferAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSWalk10feetAdmission.html"/>
+               <title value="BetsySmithMDSWalk10feetAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSWalk10feetDischarge.html"/>
+               <title value="BetsySmithMDSWalk10feetDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSWalk150feetAdmission.html"/>
+               <title value="BetsySmithMDSWalk150feetAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSWalk150feetDischarge.html"/>
+               <title value="BetsySmithMDSWalk150feetDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSWalk50feetAdmission.html"/>
+               <title value="BetsySmithMDSWalk50feetAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSWalk50feetDischarge.html"/>
+               <title value="BetsySmithMDSWalk50feetDischarge"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BetsySmithMDSWalkInRoomAdmission.html"/>
+               <title value="BetsySmithMDSWalkInRoomAdmission"/>
                <generation value="generated"/>
             </page>
          </page>
