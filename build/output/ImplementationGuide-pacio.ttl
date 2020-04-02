@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FunctionalStatusImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Functional Status Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-03-25T11:23:42-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-03-26T16:15:11-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Sean Mahoney"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -309,18 +309,21 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Patient" ]
+         fhir:Extension.valueString [ fhir:value "Observation" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Patient-BetsySmith.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSBedMobilityAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Patient/BetsySmith>;
-         fhir:Reference.reference [ fhir:value "Patient/BetsySmith" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSBedMobilityAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSBedMobilityAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmith" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSBedMobilityAdmission01" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
+       ]
      ], [
        fhir:index 4;
        fhir:Element.extension [
@@ -330,16 +333,16 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithBundleSNFAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSBedToChairAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithBundleSNFAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithBundleSNFAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSBedToChairAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSBedToChairAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithBundleSNFAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSBedToChairAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pacioproject.org//StructureDefinition/pacio-bfs";
-         fhir:link <http://pacioproject.org//StructureDefinition/pacio-bfs>
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
        ]
      ], [
        fhir:index 5;
@@ -350,16 +353,16 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithBundleSNFDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSBedToChairDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithBundleSNFDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithBundleSNFDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSBedToChairDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSBedToChairDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithBundleSNFDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSBedToChairDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pacioproject.org//StructureDefinition/pacio-bfs";
-         fhir:link <http://pacioproject.org//StructureDefinition/pacio-bfs>
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
        ]
      ], [
        fhir:index 6;
@@ -370,13 +373,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSBedMobilityAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSEatingAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSBedMobilityAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSBedMobilityAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSBedMobilityAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSEatingAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -390,13 +393,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSBedToChairAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSBedToChairAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSBedToChairAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSBedToChairAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSEatingDischargeAdmissionPerformance01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -410,13 +413,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSBedToChairDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSEatingDischargePerformance01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSBedToChairDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSBedToChairDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingDischargePerformance01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingDischargePerformance01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSBedToChairDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSEatingDischargePerformance01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -430,13 +433,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSEatingAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSLyingToSittingAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSLyingToSittingAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSLyingToSittingAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSEatingAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSLyingToSittingAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -450,13 +453,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSLyingToSittingDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingDischargeAdmissionPerformance>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSLyingToSittingDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSLyingToSittingDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSEatingDischargeAdmissionPerformance" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSLyingToSittingDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -470,13 +473,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSEatingDischargePerformance.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSOralHygieneAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingDischargePerformance>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingDischargePerformance" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSOralHygieneAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSOralHygieneAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSEatingDischargePerformance" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSOralHygieneAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -490,13 +493,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSLyingToSittingAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSLyingToSittingAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSLyingToSittingAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSLyingToSittingAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSOralHygieneDischargeAdmissionPerformance01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -510,13 +513,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSLyingToSittingDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSOralHygieneDischargePerformance01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSLyingToSittingDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSLyingToSittingDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSOralHygieneDischargePerformance01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSOralHygieneDischargePerformance01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSLyingToSittingDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSOralHygieneDischargePerformance01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -530,13 +533,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSOralHygieneAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToLyingAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSOralHygieneAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSOralHygieneAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToLyingAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToLyingAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSOralHygieneAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToLyingAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -550,13 +553,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSOralHygieneDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToLyingDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSOralHygieneDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSOralHygieneDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToLyingDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToLyingDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSOralHygieneDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToLyingDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -566,40 +569,40 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
+         fhir:Extension.valueString [ fhir:value "Observation" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "QuestionnaireResponse-BetsySmithMDSResponseAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToStandAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/QuestionnaireResponse/BetsySmithMDSResponseAdmission>;
-         fhir:Reference.reference [ fhir:value "QuestionnaireResponse/BetsySmithMDSResponseAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToStandAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToStandAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSResponseAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToStandAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pacioproject.org//StructureDefinition/pacio-qr";
-         fhir:link <http://pacioproject.org//StructureDefinition/pacio-qr>
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
        ]
      ], [
        fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
+         fhir:Extension.valueString [ fhir:value "Observation" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "QuestionnaireResponse-BetsySmithMDSResponseDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToStandDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/QuestionnaireResponse/BetsySmithMDSResponseDischarge>;
-         fhir:Reference.reference [ fhir:value "QuestionnaireResponse/BetsySmithMDSResponseDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToStandDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToStandDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSResponseDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToStandDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pacioproject.org//StructureDefinition/pacio-qr";
-         fhir:link <http://pacioproject.org//StructureDefinition/pacio-qr>
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
        ]
      ], [
        fhir:index 18;
@@ -610,13 +613,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToLyingAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletTransferAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToLyingAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToLyingAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletTransferAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletTransferAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToLyingAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletTransferAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -630,13 +633,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToLyingDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletTransferDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToLyingDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToLyingDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletTransferDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletTransferDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToLyingDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletTransferDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -650,13 +653,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToStandAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletingHygieneAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToStandAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToStandAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletingHygieneAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletingHygieneAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToStandAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletingHygieneAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -670,13 +673,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSSitToStandDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToStandDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToStandDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSSitToStandDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -690,13 +693,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletTransferAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletTransferAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletTransferAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletingHygieneDischargePerformance01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletingHygieneDischargePerformance01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletTransferAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletingHygieneDischargePerformance01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -710,13 +713,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletTransferDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSTransferAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletTransferDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletTransferDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSTransferAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSTransferAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletTransferDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSTransferAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -730,13 +733,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletingHygieneAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk10feetAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletingHygieneAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletingHygieneAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk10feetAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk10feetAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletingHygieneAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk10feetAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -750,13 +753,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSToiletingHygieneDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk10feetDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletingHygieneDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletingHygieneDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk10feetDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk10feetDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSToiletingHygieneDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk10feetDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -770,13 +773,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSTransferAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk150feetAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSTransferAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSTransferAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk150feetAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk150feetAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSTransferAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk150feetAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -790,13 +793,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk10feetAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk150feetDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk10feetAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk10feetAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk150feetDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk150feetDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk10feetAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk150feetDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -810,13 +813,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk10feetDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk50feetAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk10feetDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk10feetDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk50feetAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk50feetAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk10feetDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk50feetAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -830,13 +833,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk150feetAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk50feetDischarge01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk150feetAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk150feetAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk50feetDischarge01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk50feetDischarge01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk150feetAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk50feetDischarge01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -850,13 +853,13 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk150feetDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalkInRoomAdmission01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk150feetDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk150feetDischarge" ]
+         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalkInRoomAdmission01>;
+         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalkInRoomAdmission01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk150feetDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalkInRoomAdmission01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
          fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
@@ -866,40 +869,40 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
+         fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk50feetAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "QuestionnaireResponse-cms-QuestionnaireResponse-01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk50feetAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk50feetAdmission" ]
+         fhir:link <http://pacioproject.org/QuestionnaireResponse/cms-QuestionnaireResponse-01>;
+         fhir:Reference.reference [ fhir:value "QuestionnaireResponse/cms-QuestionnaireResponse-01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk50feetAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cms-QuestionnaireResponse-01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
-         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-qr";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-qr>
        ]
      ], [
        fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
+         fhir:Extension.valueString [ fhir:value "QuestionnaireResponse" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalk50feetDischarge.html" ]
+         fhir:Extension.valueUri [ fhir:value "QuestionnaireResponse-cms-QuestionnaireResponse-02.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk50feetDischarge>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk50feetDischarge" ]
+         fhir:link <http://pacioproject.org/QuestionnaireResponse/cms-QuestionnaireResponse-02>;
+         fhir:Reference.reference [ fhir:value "QuestionnaireResponse/cms-QuestionnaireResponse-02" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalk50feetDischarge" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cms-QuestionnaireResponse-02" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
-         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-qr";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-qr>
        ]
      ], [
        fhir:index 33;
@@ -910,17 +913,88 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "Observation-BetsySmithMDSWalkInRoomAdmission.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-cms-bundle-01.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalkInRoomAdmission>;
-         fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalkInRoomAdmission" ]
+         fhir:link <http://pacioproject.org/Observation/cms-bundle-01>;
+         fhir:Reference.reference [ fhir:value "Observation/cms-bundle-01" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BetsySmithMDSWalkInRoomAdmission" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cms-bundle-01" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
-         fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-bfs";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-bfs>
        ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Observation-cms-bundle-02.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://pacioproject.org/Observation/cms-bundle-02>;
+         fhir:Reference.reference [ fhir:value "Observation/cms-bundle-02" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cms-bundle-02" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://pacioproject.org//StructureDefinition/pacio-bfs";
+         fhir:link <http://pacioproject.org//StructureDefinition/pacio-bfs>
+       ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Organization-cms-organization-01.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://pacioproject.org/Organization/cms-organization-01>;
+         fhir:Reference.reference [ fhir:value "Organization/cms-organization-01" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cms-organization-01" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Patient-cms-patient-01.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://pacioproject.org/Patient/cms-patient-01>;
+         fhir:Reference.reference [ fhir:value "Patient/cms-patient-01" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cms-patient-01" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "Practitioner-cms-practitioner-01.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://pacioproject.org/Practitioner/cms-practitioner-01>;
+         fhir:Reference.reference [ fhir:value "Practitioner/cms-practitioner-01" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cms-practitioner-01" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

@@ -3,7 +3,7 @@
   "id": "pacio-qr",
   "url": "http://pacioproject.org//StructureDefinition/pacio-qr",
   "version": "0.1.0",
-  "name": "PACIOquestionaireResponse",
+  "name": "PACIOfunctionalQuestionaireResponse",
   "title": "PACIO Questionaire Response",
   "status": "active",
   "description": "A completed, or sections of a completed, CMS PAC assessment.",

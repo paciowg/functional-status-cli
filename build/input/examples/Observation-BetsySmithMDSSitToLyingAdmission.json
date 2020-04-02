@@ -6,9 +6,6 @@
       "http://pacioproject.org//StructureDefinition/pacio-fs"
     ]
   },
-  "subject": {
-    "reference": "Patient/BetsySmith"
-  },
   "status": "final",
   "effectiveDateTime": "2020-01-19",
   "code": {
@@ -19,9 +16,15 @@
       }
     ]
   },
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
   "performer": [
     {
-      "reference": "CMS Provider"
+      "reference": "Practitioner/cms-practitioner-01"
+    },
+    {
+      "reference": "ccms-organization-01"
     }
   ],
   "valueCodeableConcept": {

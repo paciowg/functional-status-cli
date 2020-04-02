@@ -14,10 +14,10 @@
   ];
   fhir:StructureDefinition.url [ fhir:value "http://pacioproject.org//StructureDefinition/pacio-qr"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
-  fhir:StructureDefinition.name [ fhir:value "PACIOquestionaireResponse"];
+  fhir:StructureDefinition.name [ fhir:value "PACIOfunctionalQuestionaireResponse"];
   fhir:StructureDefinition.title [ fhir:value "PACIO Questionaire Response"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-03-25T11:23:42-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-03-26T16:15:11-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Sean Mahoney"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

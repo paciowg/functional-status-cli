@@ -7,7 +7,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/BetsySmith"
+    "reference": "BetsySmith"
   },
   "status": "final",
   "effectiveDateTime": "2020-03-09",

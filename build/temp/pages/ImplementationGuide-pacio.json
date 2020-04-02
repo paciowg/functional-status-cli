@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-03-25T11:23:42-04:00",
+  "date": "2020-03-26T16:15:11-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -319,528 +319,596 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Patient"
+            "valueString": "Observation"
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Patient-BetsySmith.html"
+            "valueUri": "Observation-BetsySmithMDSBedMobilityAdmission01.html"
           }
         ],
         "reference": {
-          "reference": "Patient/BetsySmith"
+          "reference": "Observation/BetsySmithMDSBedMobilityAdmission01"
         },
-        "name": "BetsySmith",
+        "name": "BetsySmithMDSBedMobilityAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSBedToChairAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSBedToChairAdmission01"
+        },
+        "name": "BetsySmithMDSBedToChairAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSBedToChairDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSBedToChairDischarge01"
+        },
+        "name": "BetsySmithMDSBedToChairDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSEatingAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSEatingAdmission01"
+        },
+        "name": "BetsySmithMDSEatingAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01"
+        },
+        "name": "BetsySmithMDSEatingDischargeAdmissionPerformance01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSEatingDischargePerformance01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSEatingDischargePerformance01"
+        },
+        "name": "BetsySmithMDSEatingDischargePerformance01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSLyingToSittingAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSLyingToSittingAdmission01"
+        },
+        "name": "BetsySmithMDSLyingToSittingAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSLyingToSittingDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSLyingToSittingDischarge01"
+        },
+        "name": "BetsySmithMDSLyingToSittingDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSOralHygieneAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
+        },
+        "name": "BetsySmithMDSOralHygieneAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"
+        },
+        "name": "BetsySmithMDSOralHygieneDischargeAdmissionPerformance01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSOralHygieneDischargePerformance01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSOralHygieneDischargePerformance01"
+        },
+        "name": "BetsySmithMDSOralHygieneDischargePerformance01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSSitToLyingAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSSitToLyingAdmission01"
+        },
+        "name": "BetsySmithMDSSitToLyingAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSSitToLyingDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSSitToLyingDischarge01"
+        },
+        "name": "BetsySmithMDSSitToLyingDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSSitToStandAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSSitToStandAdmission01"
+        },
+        "name": "BetsySmithMDSSitToStandAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSSitToStandDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSSitToStandDischarge01"
+        },
+        "name": "BetsySmithMDSSitToStandDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSToiletTransferAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSToiletTransferAdmission01"
+        },
+        "name": "BetsySmithMDSToiletTransferAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSToiletTransferDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSToiletTransferDischarge01"
+        },
+        "name": "BetsySmithMDSToiletTransferDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSToiletingHygieneAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission01"
+        },
+        "name": "BetsySmithMDSToiletingHygieneAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"
+        },
+        "name": "BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSToiletingHygieneDischargePerformance01"
+        },
+        "name": "BetsySmithMDSToiletingHygieneDischargePerformance01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSTransferAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSTransferAdmission01"
+        },
+        "name": "BetsySmithMDSTransferAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSWalk10feetAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk10feetAdmission01"
+        },
+        "name": "BetsySmithMDSWalk10feetAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSWalk10feetDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk10feetDischarge01"
+        },
+        "name": "BetsySmithMDSWalk10feetDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSWalk150feetAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk150feetAdmission01"
+        },
+        "name": "BetsySmithMDSWalk150feetAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSWalk150feetDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk150feetDischarge01"
+        },
+        "name": "BetsySmithMDSWalk150feetDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSWalk50feetAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk50feetAdmission01"
+        },
+        "name": "BetsySmithMDSWalk50feetAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSWalk50feetDischarge01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalk50feetDischarge01"
+        },
+        "name": "BetsySmithMDSWalk50feetDischarge01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-BetsySmithMDSWalkInRoomAdmission01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BetsySmithMDSWalkInRoomAdmission01"
+        },
+        "name": "BetsySmithMDSWalkInRoomAdmission01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "QuestionnaireResponse"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "QuestionnaireResponse-cms-QuestionnaireResponse-01.html"
+          }
+        ],
+        "reference": {
+          "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
+        },
+        "name": "cms-QuestionnaireResponse-01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "QuestionnaireResponse"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "QuestionnaireResponse-cms-QuestionnaireResponse-02.html"
+          }
+        ],
+        "reference": {
+          "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-02"
+        },
+        "name": "cms-QuestionnaireResponse-02",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-cms-bundle-01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/cms-bundle-01"
+        },
+        "name": "cms-bundle-01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-cms-bundle-02.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/cms-bundle-02"
+        },
+        "name": "cms-bundle-02",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Organization-cms-organization-01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/cms-organization-01"
+        },
+        "name": "cms-organization-01",
         "exampleBoolean": true
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
+            "valueString": "Patient"
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithBundleSNFAdmission.html"
+            "valueUri": "Patient-cms-patient-01.html"
           }
         ],
         "reference": {
-          "reference": "Observation/BetsySmithBundleSNFAdmission"
+          "reference": "Patient/cms-patient-01"
         },
-        "name": "BetsySmithBundleSNFAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+        "name": "cms-patient-01",
+        "exampleBoolean": true
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
+            "valueString": "Practitioner"
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithBundleSNFDischarge.html"
+            "valueUri": "Practitioner-cms-practitioner-01.html"
           }
         ],
         "reference": {
-          "reference": "Observation/BetsySmithBundleSNFDischarge"
+          "reference": "Practitioner/cms-practitioner-01"
         },
-        "name": "BetsySmithBundleSNFDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSBedMobilityAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSBedMobilityAdmission"
-        },
-        "name": "BetsySmithMDSBedMobilityAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSBedToChairAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSBedToChairAdmission"
-        },
-        "name": "BetsySmithMDSBedToChairAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSBedToChairDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSBedToChairDischarge"
-        },
-        "name": "BetsySmithMDSBedToChairDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSEatingAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSEatingAdmission"
-        },
-        "name": "BetsySmithMDSEatingAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance"
-        },
-        "name": "BetsySmithMDSEatingDischargeAdmissionPerformance",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSEatingDischargePerformance.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischargePerformance"
-        },
-        "name": "BetsySmithMDSEatingDischargePerformance",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSLyingToSittingAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSLyingToSittingAdmission"
-        },
-        "name": "BetsySmithMDSLyingToSittingAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSLyingToSittingDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSLyingToSittingDischarge"
-        },
-        "name": "BetsySmithMDSLyingToSittingDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSOralHygieneAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneAdmission"
-        },
-        "name": "BetsySmithMDSOralHygieneAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSOralHygieneDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneDischarge"
-        },
-        "name": "BetsySmithMDSOralHygieneDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "QuestionnaireResponse"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "QuestionnaireResponse-BetsySmithMDSResponseAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "QuestionnaireResponse/BetsySmithMDSResponseAdmission"
-        },
-        "name": "BetsySmithMDSResponseAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "QuestionnaireResponse"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "QuestionnaireResponse-BetsySmithMDSResponseDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "QuestionnaireResponse/BetsySmithMDSResponseDischarge"
-        },
-        "name": "BetsySmithMDSResponseDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSSitToLyingAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToLyingAdmission"
-        },
-        "name": "BetsySmithMDSSitToLyingAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSSitToLyingDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToLyingDischarge"
-        },
-        "name": "BetsySmithMDSSitToLyingDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSSitToStandAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToStandAdmission"
-        },
-        "name": "BetsySmithMDSSitToStandAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSSitToStandDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToStandDischarge"
-        },
-        "name": "BetsySmithMDSSitToStandDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSToiletTransferAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletTransferAdmission"
-        },
-        "name": "BetsySmithMDSToiletTransferAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSToiletTransferDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletTransferDischarge"
-        },
-        "name": "BetsySmithMDSToiletTransferDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSToiletingHygieneAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission"
-        },
-        "name": "BetsySmithMDSToiletingHygieneAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSToiletingHygieneDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneDischarge"
-        },
-        "name": "BetsySmithMDSToiletingHygieneDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSTransferAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSTransferAdmission"
-        },
-        "name": "BetsySmithMDSTransferAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSWalk10feetAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk10feetAdmission"
-        },
-        "name": "BetsySmithMDSWalk10feetAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSWalk10feetDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk10feetDischarge"
-        },
-        "name": "BetsySmithMDSWalk10feetDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSWalk150feetAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk150feetAdmission"
-        },
-        "name": "BetsySmithMDSWalk150feetAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSWalk150feetDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk150feetDischarge"
-        },
-        "name": "BetsySmithMDSWalk150feetDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSWalk50feetAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk50feetAdmission"
-        },
-        "name": "BetsySmithMDSWalk50feetAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSWalk50feetDischarge.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk50feetDischarge"
-        },
-        "name": "BetsySmithMDSWalk50feetDischarge",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Observation-BetsySmithMDSWalkInRoomAdmission.html"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalkInRoomAdmission"
-        },
-        "name": "BetsySmithMDSWalkInRoomAdmission",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "name": "cms-practitioner-01",
+        "exampleBoolean": true
       }
     ],
     "page": {

@@ -80,15 +80,7 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Practitioner"
-            ]
-          }
-        ]
+        "min": 1
       },
       {
         "id": "Observation.value[x]",

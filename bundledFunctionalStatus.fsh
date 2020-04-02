@@ -15,14 +15,26 @@ Description:    "An point in time bundle of functional status observations for a
 * category 1..1 
 * category from CAT (preferred)
 
-Instance: BetsySmith
+Instance: cms-patient-01
 InstanceOf: Patient
 * name.given = "Betsy"
 * name.family = "Smith"
 * gender = http://hl7.org/fhir/administrative-gender#female
 * birthDate = "1959-06-14"
 
-Instance: BetsySmithBundleSNFAdmission
+Instance: cms-practitioner-01
+InstanceOf: Practitioner
+* name.given = "John"
+* name.family = "Carlson"
+* gender = http://hl7.org/fhir/administrative-gender#male
+* birthDate = "1970-10-27"
+
+Instance: cms-organization-01
+InstanceOf: Organization
+* name = "ABC Skilled Nursing Facility"
+
+
+Instance: cms-bundle-01
 InstanceOf: BundledFunctionalStatus
 * subject  = Reference(BetsySmith)
 * status = #final
@@ -30,19 +42,19 @@ InstanceOf: BundledFunctionalStatus
 * category = CAT#survey
 * effectiveDateTime = "2020-01-19"
 * performer.reference  = "CMS Provider"
-* derivedFrom = Reference(BetsySmithMDSEatingAdmission)
-* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneAdmission)
-* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneAdmission)
-* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingAdmission)
-* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingAdmission)
-* derivedFrom[5] = Reference(BetsySmithMDSSitToStandAdmission)
-* derivedFrom[6] = Reference(BetsySmithMDSBedToChairAdmission)
-* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferAdmission)
-* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetAdmission)
-* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetAdmission)
-* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetAdmission)
+* derivedFrom = Reference(BetsySmithMDSEatingAdmission01)
+* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneAdmission01)
+* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneAdmission01)
+* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingAdmission01)
+* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingAdmission01)
+* derivedFrom[5] = Reference(BetsySmithMDSSitToStandAdmission01)
+* derivedFrom[6] = Reference(BetsySmithMDSBedToChairAdmission01)
+* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferAdmission01)
+* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetAdmission01)
+* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetAdmission01)
+* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetAdmission01)
 
-Instance: BetsySmithBundleSNFDischarge
+Instance: cms-bundle-02
 InstanceOf: BundledFunctionalStatus
 * subject  = Reference(BetsySmith)
 * status = #final
@@ -50,14 +62,14 @@ InstanceOf: BundledFunctionalStatus
 * category = CAT#survey
 * effectiveDateTime = "2020-01-22"
 * performer.reference  = "CMS Provider"
-* derivedFrom = Reference(BetsySmithMDSEatingDischarge)
-* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneDischarge)
-* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneDischarge)
-* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingDischarge)
-* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingDischarge)
-* derivedFrom[5] = Reference(BetsySmithMDSSitToStandDischarge)
-* derivedFrom[6] = Reference(BetsySmithMDSBedToChairDischarge)
-* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferDischarge)
-* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetDischarge)
-* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetDischarge)
-* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetDischarge)
+* derivedFrom = Reference(BetsySmithMDSEatingDischarge01)
+* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneDischarge01)
+* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneDischarge01)
+* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingDischarge01)
+* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingDischarge01)
+* derivedFrom[5] = Reference(BetsySmithMDSSitToStandDischarge01)
+* derivedFrom[6] = Reference(BetsySmithMDSBedToChairDischarge01)
+* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferDischarge01)
+* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetDischarge01)
+* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetDischarge01)
+* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetDischarge01)

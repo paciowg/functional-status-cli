@@ -1,234 +1,265 @@
 ﻿FunctionalStatusImplementationGuide : Validation Results
 =========================================
 
-err = 64, warn = 60, info = 4
+err = 80, warn = 64, info = 4
 IG Publisher Version: v1.0.70-SNAPSHOT Out of date - current version is ??
-Generated Wed Mar 25 11:25:22 EDT 2020. FHIR version 4.0.1 for pacio#0.1.0 (canonical = http://pacioproject.org/)
+Generated Thu Mar 26 16:16:50 EDT 2020. FHIR version 4.0.1 for pacio#0.1.0 (canonical = http://pacioproject.org/)
 
- Build Errors : 189 / 31
+ Build Errors : 212 / 35
  C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\ImplementationGuide-pacio : 1 / 0
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithBundleSNFAdmission : 1 / 2
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithBundleSNFDischarge : 2 / 2
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSBedMobilityAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSBedToChairAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSBedToChairDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSEatingAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSEatingDischargeAdmissionPerformance : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSEatingDischargePerformance : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSLyingToSittingAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSLyingToSittingDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSOralHygieneAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSOralHygieneDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToLyingAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToLyingDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToStandAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToStandDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletTransferAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletTransferDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletingHygieneAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletingHygieneDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSTransferAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk10feetAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk10feetDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk150feetAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk150feetDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk50feetAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk50feetDischarge : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalkInRoomAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\patient-BetsySmith : 0 / 0
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\questionnaireresponse-BetsySmithMDSResponseAdmission : 1 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\questionnaireresponse-BetsySmithMDSResponseDischarge : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSBedMobilityAdmission01 : 2 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSBedToChairAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSBedToChairDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSEatingAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSEatingDischargeAdmissionPerformance01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSEatingDischargePerformance01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSLyingToSittingAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSLyingToSittingDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSOralHygieneAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSOralHygieneDischargePerformance01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToLyingAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToLyingDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToStandAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSSitToStandDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletTransferAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletTransferDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletingHygieneAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSToiletingHygieneDischargePerformance01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSTransferAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk10feetAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk10feetDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk150feetAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk150feetDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk50feetAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalk50feetDischarge01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-BetsySmithMDSWalkInRoomAdmission01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-cms-bundle-01 : 2 / 2
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\observation-cms-bundle-02 : 5 / 2
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\organization-cms-organization-01 : 0 / 0
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\patient-cms-patient-01 : 0 / 0
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\practitioner-cms-practitioner-01 : 0 / 0
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\questionnaireresponse-cms-QuestionnaireResponse-01 : 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\questionnaireresponse-cms-QuestionnaireResponse-02 : 2 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\profiles\structuredefinition-pacio-bfs : 0 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\profiles\structuredefinition-pacio-fs : 0 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\profiles\structuredefinition-pacio-qr : 0 / 0
 </table>
 == n/a ==
-WARNING: Unable to find description for the resource Patient/BetsySmith.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithBundleSNFAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithBundleSNFDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSBedMobilityAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSBedToChairAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSBedToChairDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSEatingAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSEatingDischargeAdmissionPerformance.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSEatingDischargePerformance.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSLyingToSittingAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSLyingToSittingDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSOralHygieneAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSOralHygieneDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource QuestionnaireResponse/BetsySmithMDSResponseAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource QuestionnaireResponse/BetsySmithMDSResponseDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToLyingAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToLyingDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToStandAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToStandDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletTransferAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletTransferDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletingHygieneAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletingHygieneDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSTransferAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk10feetAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk10feetDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk150feetAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk150feetDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk50feetAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk50feetDischarge.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalkInRoomAdmission.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 883: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFAdmission.json.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFAdmission.ttl.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFAdmission.xml.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 883: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFDischarge.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 961: The link 'BetsySmithMDSEatingDischarge' for "BetsySmithMDSEatingDischarge" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFDischarge.json.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFDischarge.ttl.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithBundleSNFDischarge.xml.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 704: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 725: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 725: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 687: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 727: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 709: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 753: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 753: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 709: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 709: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 707: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 707: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 707: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 707: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 721: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 721: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 729: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 729: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 690: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 713: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 713: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 711: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 711: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 737: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 737: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 694: The link 'CMS Provider' for "CMS Provider" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission.xml.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-BetsySmith.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-BetsySmith.json.html#/html/body/div/div/div/p/a at Line 149, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-BetsySmith.ttl.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-BetsySmith.xml.html#/html/body/div/div/div/p/a at Line 145, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseAdmission.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 210: The link 'Betsy Smith' for "Betsy Smith" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseAdmission.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseAdmission.json.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseAdmission.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseAdmission.xml.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseDischarge.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 210: The link 'Betsy Smith' for "Betsy Smith" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseDischarge.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseDischarge.json.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseDischarge.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-BetsySmithMDSResponseDischarge.xml.html#/html/body/div/div/div/p/a at Line 272, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSBedMobilityAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSBedToChairAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSBedToChairDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSEatingAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSEatingDischargePerformance01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSLyingToSittingAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSLyingToSittingDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSOralHygieneAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSOralHygieneDischargePerformance01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToLyingAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToLyingDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToStandAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSSitToStandDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletTransferAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletTransferDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletingHygieneAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSToiletingHygieneDischargePerformance01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSTransferAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk10feetAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk10feetDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk150feetAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk150feetDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk50feetAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalk50feetDischarge01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/BetsySmithMDSWalkInRoomAdmission01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource QuestionnaireResponse/cms-QuestionnaireResponse-01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource QuestionnaireResponse/cms-QuestionnaireResponse-02.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/cms-bundle-01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Observation/cms-bundle-02.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Organization/cms-organization-01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Patient/cms-patient-01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+WARNING: Unable to find description for the resource Practitioner/cms-practitioner-01.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission01.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 481: The link 'BetsySmith' for "BetsySmith" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 772: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedMobilityAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 914: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 914: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSBedToChairDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 872: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 932: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 905: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSEatingDischargePerformance01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 946: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 946: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSLyingToSittingDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 899: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 959: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargePerformance01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 932: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargePerformance01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargePerformance01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargePerformance01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSOralHygieneDischargePerformance01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 896: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 896: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToLyingDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 896: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 896: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSSitToStandDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 914: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 914: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletTransferDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 924: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 984: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 957: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 877: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSTransferAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 902: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 902: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk10feetDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 901: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 901: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk150feetDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 926: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 926: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalk50feetDischarge01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission01.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 883: The link 'ccms-organization-01' for "ccms-organization-01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission01.json.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission01.ttl.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-BetsySmithMDSWalkInRoomAdmission01.xml.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-01.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 647: The link 'BetsySmith' for "BetsySmith" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-01.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 757: The link 'CMS Provider' for "CMS Provider" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-01.json.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-01.ttl.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-01.xml.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 647: The link 'BetsySmith' for "BetsySmith" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 757: The link 'CMS Provider' for "CMS Provider" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 835: The link 'BetsySmithMDSEatingDischarge01' for "BetsySmithMDSEatingDischarge01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 919: The link 'BetsySmithMDSOralHygieneDischarge01' for "BetsySmithMDSOralHygieneDischarge01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 132, column 1013: The link 'BetsySmithMDSToiletingHygieneDischarge01' for "BetsySmithMDSToiletingHygieneDischarge01" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.json.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.ttl.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Observation-cms-bundle-02.xml.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Organization-cms-organization-01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Organization-cms-organization-01.json.html#/html/body/div/div/div/p/a at Line 140, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Organization-cms-organization-01.ttl.html#/html/body/div/div/div/p/a at Line 154, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Organization-cms-organization-01.xml.html#/html/body/div/div/div/p/a at Line 140, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-cms-patient-01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-cms-patient-01.json.html#/html/body/div/div/div/p/a at Line 149, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-cms-patient-01.ttl.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Patient-cms-patient-01.xml.html#/html/body/div/div/div/p/a at Line 145, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Practitioner-cms-practitioner-01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Practitioner-cms-practitioner-01.json.html#/html/body/div/div/div/p/a at Line 149, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Practitioner-cms-practitioner-01.ttl.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\Practitioner-cms-practitioner-01.xml.html#/html/body/div/div/div/p/a at Line 145, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-01.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 208: The link 'Betsy Smith' for "Betsy Smith" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-01.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-01.json.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-01.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-01.xml.html#/html/body/div/div/div/p/a at Line 273, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-02.html#/html/body/div/div/div/div/div/div/p/a at Line 132, column 208: The link 'Betsy Smith' for "Betsy Smith" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-02.html#/html/body/div/div/div/p/a at Line 147, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-02.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-02.ttl.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\QuestionnaireResponse-cms-QuestionnaireResponse-02.xml.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-bfs-definitions.html#/html/body/div/div/div/p/a at Line 703, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-bfs-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 201, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-bfs-mappings.html#/html/body/div/div/div/p/a at Line 338, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
@@ -240,15 +271,15 @@ ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\St
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-bfs.ttl.html#/html/body/div/div/div/p/a at Line 2510, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-bfs.xml.html#/html/body/div/div/div/p/a at Line 2587, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs-definitions.html#/html/body/div/div/div/p/a at Line 703, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 345, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 357, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs-mappings.html#/html/body/div/div/div/p/a at Line 338, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.html#/html/body/div/div/div/p/a at Line 659, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.json.html#/html/body/div/div/div/p/a at Line 2831, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.profile.json.html#/html/body/div/div/div/p/a at Line 2880, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.profile.ttl.html#/html/body/div/div/div/p/a at Line 2555, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.profile.xml.html#/html/body/div/div/div/p/a at Line 2630, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.ttl.html#/html/body/div/div/div/p/a at Line 2505, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.xml.html#/html/body/div/div/div/p/a at Line 2577, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.json.html#/html/body/div/div/div/p/a at Line 2828, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.profile.json.html#/html/body/div/div/div/p/a at Line 2877, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.profile.ttl.html#/html/body/div/div/div/p/a at Line 2563, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.profile.xml.html#/html/body/div/div/div/p/a at Line 2633, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.ttl.html#/html/body/div/div/div/p/a at Line 2513, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-fs.xml.html#/html/body/div/div/div/p/a at Line 2580, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-qr-definitions.html#/html/body/div/div/div/p/a at Line 518, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-qr-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 201, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-qr-mappings.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
@@ -259,106 +290,120 @@ ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\St
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-qr.profile.xml.html#/html/body/div/div/div/p/a at Line 1587, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-qr.ttl.html#/html/body/div/div/div/p/a at Line 1543, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\StructureDefinition-pacio-qr.xml.html#/html/body/div/div/div/p/a at Line 1534, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\artifacts.html#/html/body/div/div/div/p/a at Line 397, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\artifacts.html#/html/body/div/div/div/p/a at Line 423, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\index.html#/html/body/div/div/div/div/div/p/img at Line 137, column 5: The image source './pacio.png' cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\index.html#/html/body/div/div/div/p/a at Line 157, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\output\toc.html#/html/body/div/div/div/p/a at Line 121, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\ImplementationGuide-pacio.json ==
 ERROR: http://pacioproject.org//ImplementationGuide/pacio: Conformance resource C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\ImplementationGuide-pacio.json - the canonical URL (http://pacioproject.org/ImplementationGuide/pacio) does not match the URL (http://pacioproject.org//ImplementationGuide/pacio)
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithBundleSNFAdmission.json ==
-WARNING: Observation/BetsySmithBundleSNFAdmission: Observation.category[0]: ValueSet http://terminology.hl7.org/CodeSystem/observation-category not found by validator
-WARNING: Observation/BetsySmithBundleSNFAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithBundleSNFAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithBundleSNFDischarge.json ==
-WARNING: Observation/BetsySmithBundleSNFDischarge: Observation.category[0]: ValueSet http://terminology.hl7.org/CodeSystem/observation-category not found by validator
-WARNING: Observation/BetsySmithBundleSNFDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithBundleSNFDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-ERROR: Observation/BetsySmithBundleSNFDischarge: Observation.derivedFrom[0]: Unable to resolve resource "BetsySmithMDSEatingDischarge"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSBedMobilityAdmission.json ==
-WARNING: Observation/BetsySmithMDSBedMobilityAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSBedMobilityAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSBedToChairAdmission.json ==
-WARNING: Observation/BetsySmithMDSBedToChairAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSBedToChairAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSBedToChairDischarge.json ==
-WARNING: Observation/BetsySmithMDSBedToChairDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSBedToChairDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSEatingAdmission.json ==
-WARNING: Observation/BetsySmithMDSEatingAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSEatingAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance.json ==
-WARNING: Observation/BetsySmithMDSEatingDischargeAdmissionPerformance: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSEatingDischargeAdmissionPerformance: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSEatingDischargePerformance.json ==
-WARNING: Observation/BetsySmithMDSEatingDischargePerformance: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSEatingDischargePerformance: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSLyingToSittingAdmission.json ==
-WARNING: Observation/BetsySmithMDSLyingToSittingAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSLyingToSittingAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSLyingToSittingDischarge.json ==
-WARNING: Observation/BetsySmithMDSLyingToSittingDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSLyingToSittingDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSOralHygieneAdmission.json ==
-WARNING: Observation/BetsySmithMDSOralHygieneAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSOralHygieneAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSOralHygieneDischarge.json ==
-WARNING: Observation/BetsySmithMDSOralHygieneDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSOralHygieneDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToLyingAdmission.json ==
-WARNING: Observation/BetsySmithMDSSitToLyingAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSSitToLyingAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToLyingDischarge.json ==
-WARNING: Observation/BetsySmithMDSSitToLyingDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSSitToLyingDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToStandAdmission.json ==
-WARNING: Observation/BetsySmithMDSSitToStandAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSSitToStandAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToStandDischarge.json ==
-WARNING: Observation/BetsySmithMDSSitToStandDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSSitToStandDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletTransferAdmission.json ==
-WARNING: Observation/BetsySmithMDSToiletTransferAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSToiletTransferAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletTransferDischarge.json ==
-WARNING: Observation/BetsySmithMDSToiletTransferDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSToiletTransferDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletingHygieneAdmission.json ==
-WARNING: Observation/BetsySmithMDSToiletingHygieneAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSToiletingHygieneAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletingHygieneDischarge.json ==
-WARNING: Observation/BetsySmithMDSToiletingHygieneDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSToiletingHygieneDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSTransferAdmission.json ==
-WARNING: Observation/BetsySmithMDSTransferAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSTransferAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk10feetAdmission.json ==
-WARNING: Observation/BetsySmithMDSWalk10feetAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSWalk10feetAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk10feetDischarge.json ==
-WARNING: Observation/BetsySmithMDSWalk10feetDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSWalk10feetDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk150feetAdmission.json ==
-WARNING: Observation/BetsySmithMDSWalk150feetAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSWalk150feetAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk150feetDischarge.json ==
-WARNING: Observation/BetsySmithMDSWalk150feetDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSWalk150feetDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk50feetAdmission.json ==
-WARNING: Observation/BetsySmithMDSWalk50feetAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSWalk50feetAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk50feetDischarge.json ==
-WARNING: Observation/BetsySmithMDSWalk50feetDischarge: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSWalk50feetDischarge: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalkInRoomAdmission.json ==
-WARNING: Observation/BetsySmithMDSWalkInRoomAdmission: Observation.code: ValueSet http://loinc.org not found by validator
-ERROR: Observation/BetsySmithMDSWalkInRoomAdmission: Observation.performer[0]: Unable to resolve resource "CMS Provider"
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Patient-BetsySmith.json ==
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\QuestionnaireResponse-BetsySmithMDSResponseAdmission.json ==
-ERROR: QuestionnaireResponse/BetsySmithMDSResponseAdmission: QuestionnaireResponse.subject: Unable to resolve resource "Betsy Smith"
-INFORMATION: QuestionnaireResponse/BetsySmithMDSResponseAdmission: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
-== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\QuestionnaireResponse-BetsySmithMDSResponseDischarge.json ==
-ERROR: QuestionnaireResponse/BetsySmithMDSResponseDischarge: QuestionnaireResponse.subject: Unable to resolve resource "Betsy Smith"
-INFORMATION: QuestionnaireResponse/BetsySmithMDSResponseDischarge: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSBedMobilityAdmission01.json ==
+WARNING: Observation/BetsySmithMDSBedMobilityAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSBedMobilityAdmission01: Observation.subject: Unable to resolve resource "BetsySmith"
+ERROR: Observation/BetsySmithMDSBedMobilityAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSBedToChairAdmission01.json ==
+WARNING: Observation/BetsySmithMDSBedToChairAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSBedToChairAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSBedToChairDischarge01.json ==
+WARNING: Observation/BetsySmithMDSBedToChairDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSBedToChairDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSEatingAdmission01.json ==
+WARNING: Observation/BetsySmithMDSEatingAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSEatingAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.json ==
+WARNING: Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSEatingDischargePerformance01.json ==
+WARNING: Observation/BetsySmithMDSEatingDischargePerformance01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSEatingDischargePerformance01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSLyingToSittingAdmission01.json ==
+WARNING: Observation/BetsySmithMDSLyingToSittingAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSLyingToSittingAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSLyingToSittingDischarge01.json ==
+WARNING: Observation/BetsySmithMDSLyingToSittingDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSLyingToSittingDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSOralHygieneAdmission01.json ==
+WARNING: Observation/BetsySmithMDSOralHygieneAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSOralHygieneAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.json ==
+WARNING: Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSOralHygieneDischargePerformance01.json ==
+WARNING: Observation/BetsySmithMDSOralHygieneDischargePerformance01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSOralHygieneDischargePerformance01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToLyingAdmission01.json ==
+WARNING: Observation/BetsySmithMDSSitToLyingAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSSitToLyingAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToLyingDischarge01.json ==
+WARNING: Observation/BetsySmithMDSSitToLyingDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSSitToLyingDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToStandAdmission01.json ==
+WARNING: Observation/BetsySmithMDSSitToStandAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSSitToStandAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSSitToStandDischarge01.json ==
+WARNING: Observation/BetsySmithMDSSitToStandDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSSitToStandDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletTransferAdmission01.json ==
+WARNING: Observation/BetsySmithMDSToiletTransferAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSToiletTransferAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletTransferDischarge01.json ==
+WARNING: Observation/BetsySmithMDSToiletTransferDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSToiletTransferDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletingHygieneAdmission01.json ==
+WARNING: Observation/BetsySmithMDSToiletingHygieneAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSToiletingHygieneAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.json ==
+WARNING: Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.json ==
+WARNING: Observation/BetsySmithMDSToiletingHygieneDischargePerformance01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSToiletingHygieneDischargePerformance01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSTransferAdmission01.json ==
+WARNING: Observation/BetsySmithMDSTransferAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSTransferAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk10feetAdmission01.json ==
+WARNING: Observation/BetsySmithMDSWalk10feetAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSWalk10feetAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk10feetDischarge01.json ==
+WARNING: Observation/BetsySmithMDSWalk10feetDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSWalk10feetDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk150feetAdmission01.json ==
+WARNING: Observation/BetsySmithMDSWalk150feetAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSWalk150feetAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk150feetDischarge01.json ==
+WARNING: Observation/BetsySmithMDSWalk150feetDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSWalk150feetDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk50feetAdmission01.json ==
+WARNING: Observation/BetsySmithMDSWalk50feetAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSWalk50feetAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalk50feetDischarge01.json ==
+WARNING: Observation/BetsySmithMDSWalk50feetDischarge01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSWalk50feetDischarge01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-BetsySmithMDSWalkInRoomAdmission01.json ==
+WARNING: Observation/BetsySmithMDSWalkInRoomAdmission01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/BetsySmithMDSWalkInRoomAdmission01: Observation.performer[1]: Unable to resolve resource "ccms-organization-01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-cms-bundle-01.json ==
+WARNING: Observation/cms-bundle-01: Observation.category[0]: ValueSet http://terminology.hl7.org/CodeSystem/observation-category not found by validator
+WARNING: Observation/cms-bundle-01: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/cms-bundle-01: Observation.subject: Unable to resolve resource "BetsySmith"
+ERROR: Observation/cms-bundle-01: Observation.performer[0]: Unable to resolve resource "CMS Provider"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Observation-cms-bundle-02.json ==
+WARNING: Observation/cms-bundle-02: Observation.category[0]: ValueSet http://terminology.hl7.org/CodeSystem/observation-category not found by validator
+WARNING: Observation/cms-bundle-02: Observation.code: ValueSet http://loinc.org not found by validator
+ERROR: Observation/cms-bundle-02: Observation.subject: Unable to resolve resource "BetsySmith"
+ERROR: Observation/cms-bundle-02: Observation.performer[0]: Unable to resolve resource "CMS Provider"
+ERROR: Observation/cms-bundle-02: Observation.derivedFrom[0]: Unable to resolve resource "BetsySmithMDSEatingDischarge01"
+ERROR: Observation/cms-bundle-02: Observation.derivedFrom[1]: Unable to resolve resource "BetsySmithMDSOralHygieneDischarge01"
+ERROR: Observation/cms-bundle-02: Observation.derivedFrom[2]: Unable to resolve resource "BetsySmithMDSToiletingHygieneDischarge01"
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Organization-cms-organization-01.json ==
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Patient-cms-patient-01.json ==
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\Practitioner-cms-practitioner-01.json ==
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\QuestionnaireResponse-cms-QuestionnaireResponse-01.json ==
+ERROR: QuestionnaireResponse/cms-QuestionnaireResponse-01: QuestionnaireResponse.subject: Unable to resolve resource "Betsy Smith"
+INFORMATION: QuestionnaireResponse/cms-QuestionnaireResponse-01: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\examples\QuestionnaireResponse-cms-QuestionnaireResponse-02.json ==
+ERROR: QuestionnaireResponse/cms-QuestionnaireResponse-02: QuestionnaireResponse.subject: Unable to resolve resource "Betsy Smith"
+ERROR: QuestionnaireResponse/cms-QuestionnaireResponse-02: QuestionnaireResponse.item[0].item[0].item[2].answer[0].value.ofType(Reference): Unable to resolve resource "BetsySmithMDSToiletingHygieneDischargePerformanc01e"
+INFORMATION: QuestionnaireResponse/cms-QuestionnaireResponse-02: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\profiles\StructureDefinition-pacio-bfs.json ==
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\profiles\StructureDefinition-pacio-fs.json ==
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli2\build\input\profiles\StructureDefinition-pacio-qr.json ==

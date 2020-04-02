@@ -7,10 +7,10 @@
   },
   "url": "http://pacioproject.org//StructureDefinition/pacio-qr",
   "version": "0.1.0",
-  "name": "PACIOquestionaireResponse",
+  "name": "PACIOfunctionalQuestionaireResponse",
   "title": "PACIO Questionaire Response",
   "status": "active",
-  "date": "2020-03-25T11:23:42-04:00",
+  "date": "2020-03-26T16:15:11-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
