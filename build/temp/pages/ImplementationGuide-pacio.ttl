@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "FunctionalStatusImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Functional Status Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-03-26T16:15:11-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-04-02T17:03:09+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Sean Mahoney"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -86,6 +86,30 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
          fhir:Extension.valueString [ fhir:value "path-qa" ]
        ], [
          fhir:index 1;
@@ -94,7 +118,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 4;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -106,7 +130,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 5;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -118,7 +142,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 6;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -130,7 +154,19 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 7;
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-history" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "http://pacioproject.org//history.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -142,7 +178,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 8;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -154,7 +190,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 9;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -166,7 +202,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 10;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -178,7 +214,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 11;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -190,7 +226,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 12;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -202,7 +238,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 13;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -214,7 +250,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 14;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -226,7 +262,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 15;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -238,7 +274,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 16;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -1041,14 +1077,18 @@
        fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
      ], [
        fhir:index 8;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
      ], [
        fhir:index 9;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
      ], [
        fhir:index 10;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 11;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
        fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
      ]

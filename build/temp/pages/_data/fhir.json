@@ -5,7 +5,7 @@
   "igName": "FunctionalStatusImplementationGuide",
   "packageId": "pacio",
   "igVer": "0.1.0",
-  "errorCount": 40,
+  "errorCount": 45,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
@@ -14,8 +14,8 @@
   "toolingVersionFull": "4.2.0 (3)",
   "totalFiles": 39,
   "processedFiles": 50,
-  "genDate": "Thu, Mar 26, 2020 16:15-0400",
-  "genDay": "26/03/2020",
+  "genDate": "Thu, Apr 2, 2020 17:03+0000",
+  "genDay": "02/04/2020",
   "ig": {
     "id": "pacio",
     "name": "FunctionalStatusImplementationGuide",
@@ -34,9 +34,9 @@
         ]
       }
     ],
-    "date": "2020-03-26T16:15:11-04:00",
+    "date": "2020-04-02T17:03:09+00:00",
     "description": "TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
     "fhirVersion": "4.0.1"
   },
-  "uee08cdd71ca24a28ae32824633750ec8": "http://hl7.org/fhir/us/core"
+  "u74b3a19a2fd9426c973525dc6d34e796": "http://hl7.org/fhir/us/core"
 }

@@ -132,6 +132,10 @@
       <xsl:with-param name="supplement" select="'Y'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-resource'"/>
+      <xsl:with-param name="value" select="'input/maps'"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-pages'"/>
       <xsl:with-param name="value" select="'template/config'"/>
       <xsl:with-param name="supplement" select="'Y'"/>
@@ -139,6 +143,16 @@
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-pages'"/>
       <xsl:with-param name="value" select="'input/images'"/>
+      <xsl:with-param name="supplement" select="'Y'"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-liquid'"/>
+      <xsl:with-param name="value" select="'template/liquid'"/>
+      <xsl:with-param name="supplement" select="'Y'"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-liquid'"/>
+      <xsl:with-param name="value" select="'input/liquid'"/>
       <xsl:with-param name="supplement" select="'Y'"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
@@ -160,6 +174,10 @@
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'path-suppressed-warnings'"/>
       <xsl:with-param name="value" select="'input/ignoreWarnings.txt'"/>
+    </xsl:call-template>
+    <xsl:call-template name="setParameter">
+      <xsl:with-param name="code" select="'path-history'"/>
+      <xsl:with-param name="value" select="concat(substring-before(ancestor::f:ImplementationGuide/f:url/@value, 'ImplementationGuide'), 'history.html')"/>
     </xsl:call-template>
     <xsl:call-template name="setParameter">
       <xsl:with-param name="code" select="'template-html'"/>

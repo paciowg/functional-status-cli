@@ -1,52 +1,42 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LL4152-6"
+  "code" : "45588-1"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "CMS IRFPAI_GG0110 Prior Device Use",
+  "display" : "Bed mobility - self-performance during 7 day assessment period [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LL4309-2"
+  "code" : "LA12638-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Independent | Needed some help | Dependent | Uknwn",
+  "display" : "Supervision - oversight, encouragement or cueing",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "83234-5"
+  "code" : "83210-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Prior device use [CMS Assessment]",
+  "display" : "Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "90480-5"
+  "code" : "LA9983-3"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment]",
+  "display" : "Independent - Patient completes the activity by him/herself with no assistance from a helper.",
   "severity" : null,
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "Indent83232-9"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code \"Indent83232-9\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#Indent83232-9) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -65,6 +55,16 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83214-7"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
@@ -91,36 +91,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "83228-7"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA9983-3"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Patient completes the activity by him/herself with no assistance from a helper.",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "83214-7"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83216-2"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -141,16 +111,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "83210-5"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83208-9"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -161,10 +121,20 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "83202-2"
+  "code" : "83228-7"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+  "display" : "Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "45590-7"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Transfer - self-performance during 7 day assessment period [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
@@ -191,30 +161,20 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "45588-1"
+  "code" : "83202-2"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Bed mobility - self-performance during 7 day assessment period [CMS Assessment]",
+  "display" : "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA12638-5"
+  "code" : "90480-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Supervision - oversight, encouragement or cueing",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "45590-7"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Transfer - self-performance during 7 day assessment period [CMS Assessment]",
+  "display" : "MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
