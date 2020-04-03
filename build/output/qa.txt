@@ -3,7 +3,7 @@
 
 err = 88, warn = 64, info = 4
 IG Publisher Version: v1.0.77-SNAPSHOT Out of date - current version is ??
-Generated Fri Apr 03 10:29:05 EDT 2020. FHIR version 4.0.1 for pacio#0.1.0 (canonical = http://pacioproject.org/)
+Generated Fri Apr 03 10:48:20 EDT 2020. FHIR version 4.0.1 for pacio#0.1.0 (canonical = http://pacioproject.org/)
 
  Build Errors : 213 / 35
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-pacio : 1 / 0
