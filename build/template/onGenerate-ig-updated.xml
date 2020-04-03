@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-04-02T18:46:43+00:00"/>
+   <date value="2020-04-03T10:26:36-04:00"/>
    <publisher value="Sean Mahoney"/>
    <contact>
       <name value="Sean Mahoney"/>
@@ -844,24 +844,12 @@
          <value value="input/vocabulary"/>
       </parameter>
       <parameter>
-         <code value="path-resource"/>
-         <value value="input/maps"/>
-      </parameter>
-      <parameter>
          <code value="path-pages"/>
          <value value="template/config"/>
       </parameter>
       <parameter>
          <code value="path-pages"/>
          <value value="input/images"/>
-      </parameter>
-      <parameter>
-         <code value="path-liquid"/>
-         <value value="template/liquid"/>
-      </parameter>
-      <parameter>
-         <code value="path-liquid"/>
-         <value value="input/liquid"/>
       </parameter>
       <parameter>
          <code value="path-qa"/>
@@ -882,10 +870,6 @@
       <parameter>
          <code value="path-suppressed-warnings"/>
          <value value="input/ignoreWarnings.txt"/>
-      </parameter>
-      <parameter>
-         <code value="path-history"/>
-         <value value="http://pacioproject.org//history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>
