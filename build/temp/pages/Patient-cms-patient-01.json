@@ -1,0 +1,18 @@
+{
+  "resourceType": "Patient",
+  "id": "cms-patient-01",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-patient-01</p><p><b>name</b>: Betsy Smith </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1959-06-14</p></div>"
+  },
+  "name": [
+    {
+      "family": "Smith",
+      "given": [
+        "Betsy"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1959-06-14"
+}

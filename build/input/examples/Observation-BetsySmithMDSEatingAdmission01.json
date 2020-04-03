@@ -1,0 +1,38 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmithMDSEatingAdmission01",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-01-19",
+  "code": {
+    "coding": [
+      {
+        "code": "83232-9",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/cms-practitioner-01"
+    },
+    {
+      "reference": "ccms-organization-01"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10073-7",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

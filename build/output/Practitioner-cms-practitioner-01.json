@@ -1,0 +1,18 @@
+{
+  "resourceType": "Practitioner",
+  "id": "cms-practitioner-01",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-practitioner-01</p><p><b>name</b>: John Carlson </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1970-10-27</p></div>"
+  },
+  "name": [
+    {
+      "family": "Carlson",
+      "given": [
+        "John"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1970-10-27"
+}

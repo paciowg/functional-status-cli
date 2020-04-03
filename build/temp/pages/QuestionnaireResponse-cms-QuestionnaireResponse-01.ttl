@@ -1,0 +1,170 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://pacioproject.org/QuestionnaireResponse/cms-QuestionnaireResponse-01> a fhir:QuestionnaireResponse;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "cms-QuestionnaireResponse-01"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://pacioproject.org//StructureDefinition/pacio-qr";
+       fhir:index 0;
+       fhir:link <http://pacioproject.org//StructureDefinition/pacio-qr>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-QuestionnaireResponse-01</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Betsy Smith\">Betsy Smith</a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Section GG: Functional Abilities and Goals</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+  ];
+  fhir:QuestionnaireResponse.status [ fhir:value "completed"];
+  fhir:QuestionnaireResponse.subject [
+     fhir:Reference.reference [ fhir:value "Betsy Smith" ]
+  ];
+  fhir:QuestionnaireResponse.item [
+     fhir:index 0;
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Section GG: Functional Abilities and Goals" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)." ];
+       fhir:QuestionnaireResponse.item.item [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130B1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSOralHygieneAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSOralHygieneAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130A1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Eating - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSEatingAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSEatingAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130C3" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletingHygieneAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletingHygieneAdmission01" ]
+           ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Mobility. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)." ];
+       fhir:QuestionnaireResponse.item.item [
+         fhir:index 0;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170B1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Sit to lying - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToLyingAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToLyingAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170C1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSLyingToSittingAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSLyingToSittingAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170D1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToStandAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToStandAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170E1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSBedToChairAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSBedToChairAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 4;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170F1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSToiletTransferAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSToiletTransferAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 5;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170I1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk10feetAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk10feetAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 6;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170J1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk50feetAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk50feetAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 7;
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170K1" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSWalk150feetAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSWalk150feetAdmission01" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://pacioproject.org/QuestionnaireResponse/cms-QuestionnaireResponse-01.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmithMDSWalk50feetDischarge01",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-01-22",
+  "code": {
+    "coding": [
+      {
+        "code": "83202-2",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/cms-patient-01"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/cms-practitioner-01"
+    },
+    {
+      "reference": "ccms-organization-01"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11757-4",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

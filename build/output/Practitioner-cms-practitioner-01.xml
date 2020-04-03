@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="cms-practitioner-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-practitioner-01</p><p><b>name</b>: John Carlson </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1970-10-27</p></div>
+  </text>
+  <name>
+    <family value="Carlson"/>
+    <given value="John"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1970-10-27"/>
+</Practitioner>

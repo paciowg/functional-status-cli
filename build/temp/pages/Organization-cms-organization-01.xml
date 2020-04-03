@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="cms-organization-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-organization-01</p><p><b>name</b>: ABC Skilled Nursing Facility</p></div>
+  </text>
+  <name value="ABC Skilled Nursing Facility"/>
+</Organization>
