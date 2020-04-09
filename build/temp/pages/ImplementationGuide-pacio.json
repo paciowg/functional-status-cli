@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-04-03T10:46:39-04:00",
+  "date": "2020-04-09T17:00:43-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -874,6 +874,23 @@
           "reference": "Organization/cms-organization-01"
         },
         "name": "cms-organization-01",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Location-cms-organization-location-01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Location/cms-organization-location-01"
+        },
+        "name": "cms-organization-location-01",
         "exampleBoolean": true
       },
       {

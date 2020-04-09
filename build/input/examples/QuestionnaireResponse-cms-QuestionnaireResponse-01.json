@@ -20,17 +20,6 @@
           "text": "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s).",
           "item": [
             {
-              "text": "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]",
-              "linkId": "Section-37/GG0130B1",
-              "answer": [
-                {
-                  "valueReference": {
-                    "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
-                  }
-                }
-              ]
-            },
-            {
               "text": "Eating - functional ability during 3D assessment period [CMS Assessment]",
               "linkId": "Section-37/GG0130A1",
               "answer": [
@@ -39,7 +28,20 @@
                     "reference": "Observation/BetsySmithMDSEatingAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83232-9"
+            },
+            {
+              "text": "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]",
+              "linkId": "Section-37/GG0130B1",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
+                  }
+                }
+              ],
+              "id": "83230-3"
             },
             {
               "text": "Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]",
@@ -50,7 +52,8 @@
                     "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83228-7"
             }
           ]
         },
@@ -67,7 +70,8 @@
                     "reference": "Observation/BetsySmithMDSSitToLyingAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83216-2"
             },
             {
               "text": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
@@ -78,7 +82,8 @@
                     "reference": "Observation/BetsySmithMDSLyingToSittingAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83214-7"
             },
             {
               "text": "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance",
@@ -89,7 +94,8 @@
                     "reference": "Observation/BetsySmithMDSSitToStandAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83212-1"
             },
             {
               "text": "Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]",
@@ -100,7 +106,8 @@
                     "reference": "Observation/BetsySmithMDSBedToChairAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83210-5"
             },
             {
               "text": "Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]",
@@ -111,7 +118,8 @@
                     "reference": "Observation/BetsySmithMDSToiletTransferAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83208-9"
             },
             {
               "text": "Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]",
@@ -122,7 +130,8 @@
                     "reference": "Observation/BetsySmithMDSWalk10feetAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83204-8"
             },
             {
               "text": "Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]",
@@ -133,7 +142,8 @@
                     "reference": "Observation/BetsySmithMDSWalk50feetAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83202-2"
             },
             {
               "text": "Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]",
@@ -144,11 +154,13 @@
                     "reference": "Observation/BetsySmithMDSWalk150feetAdmission01"
                   }
                 }
-              ]
+              ],
+              "id": "83200-6"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"
 }

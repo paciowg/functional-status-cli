@@ -65,7 +65,9 @@
 ,
 {"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Organization/cms-organization-01.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[35]"]}
 ,
-{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Patient/cms-patient-01.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[36]"]}
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Location/cms-organization-location-01.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[36]"]}
 ,
-{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Practitioner/cms-practitioner-01.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[37]"]}
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Patient/cms-patient-01.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[37]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Practitioner/cms-practitioner-01.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[38]"]}
 ,

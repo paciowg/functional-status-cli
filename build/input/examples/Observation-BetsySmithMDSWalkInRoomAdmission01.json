@@ -12,7 +12,8 @@
     "coding": [
       {
         "code": "45590-7",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Walk in room - self-performance during 7 day assessment period [CMS Assessment]"
       }
     ]
   },
@@ -31,8 +32,14 @@
     "coding": [
       {
         "code": "LA12638-5",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Supervision - oversight, encouragement or cueing"
       }
     ]
-  }
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
+    }
+  ]
 }

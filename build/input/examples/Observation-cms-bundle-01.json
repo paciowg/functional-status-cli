@@ -34,7 +34,7 @@
       "reference": "CMS Provider"
     }
   ],
-  "derivedFrom": [
+  "hasMember": [
     {
       "reference": "Observation/BetsySmithMDSEatingAdmission01"
     },

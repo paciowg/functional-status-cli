@@ -8,8 +8,9 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-QuestionnaireResponse-01</p><p><b>meta</b>: </p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Betsy Smith\">Betsy Smith</a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Section GG: Functional Abilities and Goals</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-QuestionnaireResponse-01</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Betsy Smith\">Betsy Smith</a></p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Section GG: Functional Abilities and Goals</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></div>"
   },
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
   "status": "completed",
   "subject": {
     "reference": "Betsy Smith"
@@ -24,17 +25,7 @@
           "text": "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s).",
           "item": [
             {
-              "linkId": "Section-37/GG0130B1",
-              "text": "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]",
-              "answer": [
-                {
-                  "valueReference": {
-                    "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
-                  }
-                }
-              ]
-            },
-            {
+              "id": "83232-9",
               "linkId": "Section-37/GG0130A1",
               "text": "Eating - functional ability during 3D assessment period [CMS Assessment]",
               "answer": [
@@ -46,6 +37,19 @@
               ]
             },
             {
+              "id": "83230-3",
+              "linkId": "Section-37/GG0130B1",
+              "text": "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83228-7",
               "linkId": "Section-37/GG0130C3",
               "text": "Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]",
               "answer": [
@@ -63,6 +67,7 @@
           "text": "Mobility. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s).",
           "item": [
             {
+              "id": "83216-2",
               "linkId": "Section-37/GG0170B1",
               "text": "Sit to lying - functional ability during 3D assessment period [CMS Assessment]",
               "answer": [
@@ -74,6 +79,7 @@
               ]
             },
             {
+              "id": "83214-7",
               "linkId": "Section-37/GG0170C1",
               "text": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
@@ -85,6 +91,7 @@
               ]
             },
             {
+              "id": "83212-1",
               "linkId": "Section-37/GG0170D1",
               "text": "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance",
               "answer": [
@@ -96,6 +103,7 @@
               ]
             },
             {
+              "id": "83210-5",
               "linkId": "Section-37/GG0170E1",
               "text": "Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]",
               "answer": [
@@ -107,6 +115,7 @@
               ]
             },
             {
+              "id": "83208-9",
               "linkId": "Section-37/GG0170F1",
               "text": "Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]",
               "answer": [
@@ -118,6 +127,7 @@
               ]
             },
             {
+              "id": "83204-8",
               "linkId": "Section-37/GG0170I1",
               "text": "Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]",
               "answer": [
@@ -129,6 +139,7 @@
               ]
             },
             {
+              "id": "83202-2",
               "linkId": "Section-37/GG0170J1",
               "text": "Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]",
               "answer": [
@@ -140,6 +151,7 @@
               ]
             },
             {
+              "id": "83200-6",
               "linkId": "Section-37/GG0170K1",
               "text": "Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]",
               "answer": [

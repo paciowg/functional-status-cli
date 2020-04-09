@@ -11,7 +11,7 @@
   <name value="FunctionalStatusImplementationGuide"/>
   <title value="Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-04-03T10:46:39-04:00"/>
+  <date value="2020-04-09T17:00:43-04:00"/>
   <publisher value="Sean Mahoney"/>
   <contact>
     <name value="Sean Mahoney"/>
@@ -635,6 +635,19 @@
         <reference value="Organization/cms-organization-01"/>
       </reference>
       <name value="cms-organization-01"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Location-cms-organization-location-01.html"/>
+      </extension>
+      <reference>
+        <reference value="Location/cms-organization-location-01"/>
+      </reference>
+      <name value="cms-organization-location-01"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

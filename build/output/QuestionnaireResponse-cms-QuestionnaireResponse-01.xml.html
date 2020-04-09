@@ -64,7 +64,16 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul class="nav navbar-nav">
+              
+
+
+
+
+
+
+
+
+<ul class="nav navbar-nav">
   <li><a href="index.html">IG Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
   <li><a href="artifacts.html">Artifacts Summary</a></li>
@@ -121,8 +130,10 @@
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: cms-QuestionnaireResponse-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="Betsy Smith"&gt;Betsy Smith&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section-37&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Section GG: Functional Abilities and Goals&lt;/p&gt;&lt;h3&gt;Items&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: cms-QuestionnaireResponse-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;questionnaire&lt;/b&gt;: &lt;a href="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"&gt;https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="Betsy Smith"&gt;Betsy Smith&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section-37&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Section GG: Functional Abilities and Goals&lt;/p&gt;&lt;h3&gt;Items&lt;/h3&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.questionnaire">questionnaire</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="completed"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.subject">subject</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Betsy Smith"/&gt;
@@ -134,17 +145,7 @@
       &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0130"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Self-Care. Code the {patient&amp;#39;s/resident&amp;#39;s} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient&amp;#39;s/resident&amp;#39;s} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0130B1"/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
-              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSOralHygieneAdmission01"/&gt;
-          &lt;/valueReference&gt;
-        &lt;/answer&gt;
-      &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83232-9"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0130A1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Eating - functional ability during 3D assessment period [CMS Assessment]"/&gt;
@@ -154,7 +155,17 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83230-3"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0130B1"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation/BetsySmithMDSOralHygieneAdmission01"/&gt;
+          &lt;/valueReference&gt;
+        &lt;/answer&gt;
+      &lt;/item&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83228-7"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0130C3"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]"/&gt;
@@ -170,7 +181,7 @@
       &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Mobility. Code the {patient&amp;#39;s/resident&amp;#39;s} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient&amp;#39;s/resident&amp;#39;s} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83216-2"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170B1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Sit to lying - functional ability during 3D assessment period [CMS Assessment]"/&gt;
@@ -180,7 +191,7 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83214-7"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170C1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"/&gt;
@@ -191,7 +202,7 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83212-1"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170D1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance"/&gt;
@@ -201,7 +212,7 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83210-5"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170E1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]"/&gt;
@@ -211,7 +222,7 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83208-9"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170F1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]"/&gt;
@@ -222,7 +233,7 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83204-8"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170I1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]"/&gt;
@@ -232,7 +243,7 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83202-2"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170J1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"/&gt;
@@ -242,7 +253,7 @@
           &lt;/valueReference&gt;
         &lt;/answer&gt;
       &lt;/item&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="83200-6"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Section-37/GG0170K1"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"/&gt;
@@ -269,8 +280,8 @@
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="0024ce9a-bc22-428e-a9eb-079106a2d7c6">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 10:46-0400">2020-04-03</span>
+        <p><a name="b58a12cf-fda1-4a87-8478-6a3d3a58ac1b">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 9, 2020 17:00-0400">2020-04-09</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

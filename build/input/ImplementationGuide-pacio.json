@@ -290,6 +290,13 @@
       },
       {
         "reference": {
+          "reference": "Location/cms-organization-location-01"
+        },
+        "name": "cms-organization-location-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Patient/cms-patient-01"
         },
         "name": "cms-patient-01",

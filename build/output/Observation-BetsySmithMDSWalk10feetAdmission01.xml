@@ -6,13 +6,19 @@
     <profile value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSWalk10feetAdmission01</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Toilet transfer - functional ability during 3 day assessment period [CMS Assessment] <span style="background: LightGoldenRodYellow">(Details : {LOINC code '83208-9' = 'Toilet transfer - functional ability during 3 day assessment period [CMS Assessment])</span></p><p><b>subject</b>: <a href="Patient-cms-patient-01.html">Generated Summary: id: cms-patient-01; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>effective</b>: Jan 19, 2020, 12:00:00 AM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-cms-practitioner-01.html">Generated Summary: id: cms-practitioner-01; John Carlson ; gender: male; birthDate: 1970-10-27</a></li><li><a href="ccms-organization-01">ccms-organization-01</a></li></ul><p><b>value</b>: Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently. <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'LA11757-4' = 'Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.)</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmithMDSWalk10feetAdmission01</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment] <span style="background: LightGoldenRodYellow">(Details : {LOINC code '83208-9' = 'Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]', given as 'Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]'})</span></p><p><b>subject</b>: <a href="Patient-cms-patient-01.html">Generated Summary: id: cms-patient-01; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>effective</b>: Jan 19, 2020, 12:00:00 AM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-cms-practitioner-01.html">Generated Summary: id: cms-practitioner-01; John Carlson ; gender: male; birthDate: 1970-10-27</a></li><li><a href="ccms-organization-01">ccms-organization-01</a></li></ul><p><b>value</b>: Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently. <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'LA11757-4' = 'Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.', given as 'Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.'})</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-cms-QuestionnaireResponse-01.html">Generated Summary: id: cms-QuestionnaireResponse-01; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed</a></p></div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/cms-organization-location-01"/>
+    </valueReference>
+  </extension>
   <status value="final"/>
   <code>
     <coding>
       <system value="http://loinc.org"/>
       <code value="83208-9"/>
+      <display value="Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]"/>
     </coding>
   </code>
   <subject>
@@ -29,6 +35,10 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="LA11757-4"/>
+      <display value="Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."/>
     </coding>
   </valueCodeableConcept>
+  <derivedFrom>
+    <reference value="QuestionnaireResponse/cms-QuestionnaireResponse-01"/>
+  </derivedFrom>
 </Observation>

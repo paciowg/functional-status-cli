@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "FishSpeciesValueSet",
+  "id": "fish-species-value-set",
+  "title": "Fish Species Value Set",
+  "description": "Codes describing various species of fish from SNOMED-CT.",
+  "version": "0.1.0",
+  "url": "http://pacioproject.org//ValueSet/fish-species-value-set",
+  "compose": {
+    "include": [
+      {
+        "system": "SCT",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "90580008"
+          }
+        ]
+      }
+    ]
+  }
+}

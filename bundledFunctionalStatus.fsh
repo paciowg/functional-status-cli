@@ -42,17 +42,17 @@ InstanceOf: BundledFunctionalStatus
 * category = CAT#survey
 * effectiveDateTime = "2020-01-19"
 * performer.reference  = "CMS Provider"
-* derivedFrom = Reference(BetsySmithMDSEatingAdmission01)
-* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneAdmission01)
-* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneAdmission01)
-* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingAdmission01)
-* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingAdmission01)
-* derivedFrom[5] = Reference(BetsySmithMDSSitToStandAdmission01)
-* derivedFrom[6] = Reference(BetsySmithMDSBedToChairAdmission01)
-* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferAdmission01)
-* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetAdmission01)
-* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetAdmission01)
-* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetAdmission01)
+* hasMember = Reference(BetsySmithMDSEatingAdmission01)
+* hasMember[1] = Reference(BetsySmithMDSOralHygieneAdmission01)
+* hasMember[2] = Reference(BetsySmithMDSToiletingHygieneAdmission01)
+* hasMember[3] = Reference(BetsySmithMDSLyingToSittingAdmission01)
+* hasMember[4] = Reference(BetsySmithMDSSitToLyingAdmission01)
+* hasMember[5] = Reference(BetsySmithMDSSitToStandAdmission01)
+* hasMember[6] = Reference(BetsySmithMDSBedToChairAdmission01)
+* hasMember[7] = Reference(BetsySmithMDSToiletTransferAdmission01)
+* hasMember[8] = Reference(BetsySmithMDSWalk10feetAdmission01)
+* hasMember[9] = Reference(BetsySmithMDSWalk50feetAdmission01)
+* hasMember[10] = Reference(BetsySmithMDSWalk150feetAdmission01)
 
 Instance: cms-bundle-02
 InstanceOf: BundledFunctionalStatus
@@ -62,14 +62,14 @@ InstanceOf: BundledFunctionalStatus
 * category = CAT#survey
 * effectiveDateTime = "2020-01-22"
 * performer.reference  = "CMS Provider"
-* derivedFrom = Reference(BetsySmithMDSEatingDischarge01)
-* derivedFrom[1] = Reference(BetsySmithMDSOralHygieneDischarge01)
-* derivedFrom[2] = Reference(BetsySmithMDSToiletingHygieneDischarge01)
-* derivedFrom[3] = Reference(BetsySmithMDSLyingToSittingDischarge01)
-* derivedFrom[4] = Reference(BetsySmithMDSSitToLyingDischarge01)
-* derivedFrom[5] = Reference(BetsySmithMDSSitToStandDischarge01)
-* derivedFrom[6] = Reference(BetsySmithMDSBedToChairDischarge01)
-* derivedFrom[7] = Reference(BetsySmithMDSToiletTransferDischarge01)
-* derivedFrom[8] = Reference(BetsySmithMDSWalk10feetDischarge01)
-* derivedFrom[9] = Reference(BetsySmithMDSWalk50feetDischarge01)
-* derivedFrom[10] = Reference(BetsySmithMDSWalk150feetDischarge01)
+* hasMember = Reference(BetsySmithMDSEatingDischarge01)
+* hasMember[1] = Reference(BetsySmithMDSOralHygieneDischarge01)
+* hasMember[2] = Reference(BetsySmithMDSToiletingHygieneDischarge01)
+* hasMember[3] = Reference(BetsySmithMDSLyingToSittingDischarge01)
+* hasMember[4] = Reference(BetsySmithMDSSitToLyingDischarge01)
+* hasMember[5] = Reference(BetsySmithMDSSitToStandDischarge01)
+* hasMember[6] = Reference(BetsySmithMDSBedToChairDischarge01)
+* hasMember[7] = Reference(BetsySmithMDSToiletTransferDischarge01)
+* hasMember[8] = Reference(BetsySmithMDSWalk10feetDischarge01)
+* hasMember[9] = Reference(BetsySmithMDSWalk50feetDischarge01)
+* hasMember[10] = Reference(BetsySmithMDSWalk150feetDischarge01)

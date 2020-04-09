@@ -6,13 +6,22 @@
       "http://pacioproject.org//StructureDefinition/pacio-fs"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/cms-organization-location-01"
+      }
+    }
+  ],
   "status": "final",
   "effectiveDateTime": "2020-01-22",
   "code": {
     "coding": [
       {
         "code": "83214-7",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"
       }
     ]
   },
@@ -31,8 +40,14 @@
     "coding": [
       {
         "code": "LA9983-3",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Independent - Patient completes the activity by him/herself with no assistance from a helper."
       }
     ]
-  }
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-02"
+    }
+  ]
 }

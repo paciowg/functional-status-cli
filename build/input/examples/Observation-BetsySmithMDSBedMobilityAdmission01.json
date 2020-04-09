@@ -6,6 +6,14 @@
       "http://pacioproject.org//StructureDefinition/pacio-fs"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/cms-organization-location-01"
+      }
+    }
+  ],
   "subject": {
     "reference": "BetsySmith"
   },
@@ -15,7 +23,8 @@
     "coding": [
       {
         "code": "45588-1",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Bed mobility - self-performance during 7 day assessment period [CMS Assessment]"
       }
     ]
   },
@@ -31,8 +40,14 @@
     "coding": [
       {
         "code": "LA12638-5",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Supervision - oversight, encouragement or cueing"
       }
     ]
-  }
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
+    }
+  ]
 }

@@ -14,66 +14,74 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * status = #completed
 * item.text =  "Section GG: Functional Abilities and Goals"
 * item.linkId = "Section-37"
+* questionnaire = "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"
+
 //Self-Care
 * item.item.linkId = "Section-37/GG0130"
 * item.item.text = "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."
 //   83232-9	Eating		
-* item[0].item[0].item[1].text = "Eating - functional ability during 3D assessment period [CMS Assessment]"
-* item[0].item[0].item[1].linkId = "Section-37/GG0130A1"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingAdmission01)
+* item[0].item[0].item[0].text = "Eating - functional ability during 3D assessment period [CMS Assessment]"
+* item[0].item[0].item[0].linkId = "Section-37/GG0130A1"
+* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmithMDSEatingAdmission01)
+* item[0].item[0].item[0].id = "83232-9"
 //83230-3	Oral hygiene
-* item[0].item[0].item[0].text = "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"
-* item[0].item[0].item[0].linkId = "Section-37/GG0130B1"
-* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmithMDSOralHygieneAdmission01)
+* item[0].item[0].item[1].text = "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"
+* item[0].item[0].item[1].linkId = "Section-37/GG0130B1"
+* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSOralHygieneAdmission01)
+* item[0].item[0].item[1].id = "83230-3"
 //83228-7	Toileting hygiene	
 * item[0].item[0].item[2].text = "Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]"
 * item[0].item[0].item[2].linkId = "Section-37/GG0130C3"
 * item[0].item[0].item[2].answer.valueReference = Reference(BetsySmithMDSToiletingHygieneAdmission01)
+* item[0].item[0].item[2].id = "83228-7"
 
-//  88331-4	Mobility - Discharge Performance			
+//  88331-4	Mobility -  Admissions Performance			
 
 * item.item[1].linkId = "Section-37/GG0170"
 * item.item[1].text = "Mobility. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."
+
 
 //   83216-2	Sit to lying			
 * item[0].item[1].item[0].text = "Sit to lying - functional ability during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[0].linkId = "Section-37/GG0170B1"
 * item[0].item[1].item[0].answer.valueReference = Reference(BetsySmithMDSSitToLyingAdmission01)
-
+* item[0].item[1].item[0].id = "83216-2"
  //  83214-7	Lying to sitting on side of bed			
 * item[0].item[1].item[1].text = "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"
 * item[0].item[1].item[1].linkId = "Section-37/GG0170C1"
 * item[0].item[1].item[1].answer.valueReference = Reference(BetsySmithMDSLyingToSittingAdmission01)
-
+* item[0].item[1].item[1].id = "83214-7"
 //   83212-1	Sit to stand	
 * item[0].item[1].item[2].text = "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance"
 * item[0].item[1].item[2].linkId = "Section-37/GG0170D1"
 * item[0].item[1].item[2].answer.valueReference = Reference(BetsySmithMDSSitToStandAdmission01)
-
+* item[0].item[1].item[2].id = "83212-1"
  //  83210-5	Chair/bed-to-chair transfer	
 * item[0].item[1].item[3].text = "Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[3].linkId = "Section-37/GG0170E1"
 * item[0].item[1].item[3].answer.valueReference = Reference(BetsySmithMDSBedToChairAdmission01)
-
+* item[0].item[1].item[3].id = "83210-5"
  //   83208-9	Toilet transfer	
 * item[0].item[1].item[4].text = "Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[4].linkId = "Section-37/GG0170F1"
 * item[0].item[1].item[4].answer.valueReference = Reference(BetsySmithMDSToiletTransferAdmission01)
-
+* item[0].item[1].item[4].id = "83208-9"
  //   83204-8	Walk 10 feet		
 * item[0].item[1].item[5].text = "Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[5].linkId = "Section-37/GG0170I1"
 * item[0].item[1].item[5].answer.valueReference = Reference(BetsySmithMDSWalk10feetAdmission01)
-
+* item[0].item[1].item[5].id = "83204-8"
  //  83202-2	Walk 50 feet with two turns	
 * item[0].item[1].item[6].text = "Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[6].linkId = "Section-37/GG0170J1"
 * item[0].item[1].item[6].answer.valueReference = Reference(BetsySmithMDSWalk50feetAdmission01)
-
+* item[0].item[1].item[6].id = "83202-2"
  //  83200-6	Walk 150 feet	
 * item[0].item[1].item[7].text = "Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[7].linkId = "Section-37/GG0170K1"
 * item[0].item[1].item[7].answer.valueReference = Reference(BetsySmithMDSWalk150feetAdmission01)
+* item[0].item[1].item[7].id = "83200-6"
+
 
 //Instance OF MDS Discharge
 Instance: cms-QuestionnaireResponse-02
@@ -82,36 +90,40 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * status = #completed
 * item.text =  "Section GG: Functional Abilities and Goals"
 * item.linkId = "Section-37"
+* questionnaire = "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-ND-1.17"
 //Self-Care
 * item.item.linkId = "Section-37/GG0130"
 * item.item.text = "Self-Care. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."
 //   83232-9	Eating		upon admission
-* item[0].item[0].item[1].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Admission Performance"
-* item[0].item[0].item[1].linkId = "Section-37/GG0130A1"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingDischargeAdmissionPerformance01)
+* item[0].item[0].item[0].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Admission Performance"
+* item[0].item[0].item[0].linkId = "Section-37/GG0130A1"
+* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmithMDSEatingDischargeAdmissionPerformance01)
+* item[0].item[0].item[0].id = "83232-9"
 //   83232-9	Eating		upon discharge
-* item[0].item[0].item[3].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance"
-* item[0].item[0].item[3].linkId = "Section-37/GG0130A3"
-* item[0].item[0].item[3].answer.valueReference = Reference(BetsySmithMDSEatingDischargePerformance01)
+* item[0].item[0].item[1].text = "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Discharge Performance"
+* item[0].item[0].item[1].linkId = "Section-37/GG0130A3"
+* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmithMDSEatingDischargePerformance01)
+* item[0].item[0].item[1].id = "83230-9"
 //83230-3	Oral hygiene upon admission
-* item[0].item[0].item[0].text = "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Admission Performance"
-* item[0].item[0].item[0].linkId = "Section-37/GG0130B1"
-* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmithMDSOralHygieneDischargeAdmissionPerformance01)
+* item[0].item[0].item[2].text = "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Admission Performance"
+* item[0].item[0].item[2].linkId = "Section-37/GG0130B1"
+* item[0].item[0].item[2].answer.valueReference = Reference(BetsySmithMDSOralHygieneDischargeAdmissionPerformance01)
+* item[0].item[0].item[2].id = "83230-3"
 //83230-3	Oral hygieneupon discharge
-* item[0].item[0].item[0].text = "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Discharge Performance"
-* item[0].item[0].item[0].linkId = "Section-37/GG0130B3"
-* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmithMDSOralHygieneDischargePerformance01)
-
+* item[0].item[0].item[3].text = "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Discharge Performance"
+* item[0].item[0].item[3].linkId = "Section-37/GG0130B3"
+* item[0].item[0].item[3].answer.valueReference = Reference(BetsySmithMDSOralHygieneDischargePerformance01)
+* item[0].item[0].item[3].id = "83230-3"
 //83228-7	Toileting hygiene	upon admission
-* item[0].item[0].item[2].text = "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Admission Performance"
-* item[0].item[0].item[2].linkId = "Section-37/GG0130C1"
-* item[0].item[0].item[2].answer.valueReference = Reference(BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01)
-
-//83228-7	Toileting hygiene	upon discharge
-* item[0].item[0].item[2].text = "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Discharge Performance"
-* item[0].item[0].item[2].linkId = "Section-37/GG0130C3"
-* item[0].item[0].item[2].answer.valueReference = Reference(BetsySmithMDSToiletingHygieneDischargePerformanc01e)
-
+* item[0].item[0].item[4].text = "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Admission Performance"
+* item[0].item[0].item[4].linkId = "Section-37/GG0130C1"
+* item[0].item[0].item[4].answer.valueReference = Reference(BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01)
+* item[0].item[0].item[4].id = "83228-7"
+//83228-7	Toileting hygene	upon discharge
+* item[0].item[0].item[5].text = "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Discharge Performance"
+* item[0].item[0].item[5].linkId = "Section-37/GG0130C3"
+* item[0].item[0].item[5].answer.valueReference = Reference(BetsySmithMDSToiletingHygieneDischargePerformanc01e)
+* item[0].item[0].item[5].id = "83228-7"
 
 //  88331-4	Mobility - Discharge Performance			
 
@@ -122,42 +134,42 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[1].item[0].text = "Sit to lying - functional ability during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[0].linkId = "Section-37/GG0170B1"
 * item[0].item[1].item[0].answer.valueReference = Reference(BetsySmithMDSSitToLyingDischarge01)
-
+* item[0].item[1].item[0].id = "83216-2"
  //  83214-7	Lying to sitting on side of bed			
 * item[0].item[1].item[1].text = "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"
 * item[0].item[1].item[1].linkId = "Section-37/GG0170C1"
 * item[0].item[1].item[1].answer.valueReference = Reference(BetsySmithMDSLyingToSittingAdmission01)
-
-//   83212-1	Sit to stand	
+* item[0].item[1].item[1].id = "83214-7"
+//   83212-1	St to stand	
 * item[0].item[1].item[2].text = "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance"
 * item[0].item[1].item[2].linkId = "Section-37/GG0170D1"
 * item[0].item[1].item[2].answer.valueReference = Reference(BetsySmithMDSSitToStandDischarge01)
-
+* item[0].item[1].item[2].id = "83212-1"
  //  83210-5	Chair/bed-to-chair transfer	
 * item[0].item[1].item[3].text = "Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[3].linkId = "Section-37/GG0170E1"
 * item[0].item[1].item[3].answer.valueReference = Reference(BetsySmithMDSBedToChairDischarge01)
-
+* item[0].item[1].item[3].id = "83210-5"
  //   83208-9	Toilet transfer	
 * item[0].item[1].item[4].text = "Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[4].linkId = "Section-37/GG0170F1"
 * item[0].item[1].item[4].answer.valueReference = Reference(BetsySmithMDSToiletTransferDischarge01)
-
+* item[0].item[1].item[4].id = "83208-9"
  //   83204-8	Walk 10 feet		
 * item[0].item[1].item[5].text = "Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[5].linkId = "Section-37/GG0170I1"
 * item[0].item[1].item[5].answer.valueReference = Reference(BetsySmithMDSWalk10feetDischarge01)
-
+* item[0].item[1].item[5].id = "83204-8"
  //  83202-2	Walk 50 feet with two turns	
 * item[0].item[1].item[6].text = "Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[6].linkId = "Section-37/GG0170J1"
 * item[0].item[1].item[6].answer.valueReference = Reference(BetsySmithMDSWalk50feetDischarge01)
-
+* item[0].item[1].item[6].id = "83202-2"
  //  83200-6	Walk 150 feet	
 * item[0].item[1].item[7].text = "Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"
 * item[0].item[1].item[7].linkId = "Section-37/GG0170K1"
 * item[0].item[1].item[7].answer.valueReference = Reference(BetsySmithMDSWalk150feetDischarge01)
-
+* item[0].item[1].item[7].id = "83200-6"
 
 
  /*TODO BUILD OUT		

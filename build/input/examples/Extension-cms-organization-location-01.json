@@ -1,0 +1,10 @@
+{
+  "resourceType": "Extension",
+  "id": "cms-organization-location-01",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/event-location"
+    ]
+  },
+  "url": "http://hl7.org/fhir/StructureDefinition/event-location"
+}
