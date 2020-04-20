@@ -33,6 +33,27 @@
   "differential": {
     "element": [
       {
+        "id": "QuestionnaireResponse.questionnaire",
+        "path": "QuestionnaireResponse.questionnaire",
+        "binding": {
+          "description": "This field contains the URI for the assessment."
+        }
+      },
+      {
+        "id": "QuestionnaireResponse.item.id",
+        "path": "QuestionnaireResponse.item.id",
+        "binding": {
+          "description": "This field contains the LOINC code."
+        }
+      },
+      {
+        "id": "QuestionnaireResponse.item.linkId",
+        "path": "QuestionnaireResponse.item.linkId",
+        "binding": {
+          "description": "This field contains the assesment section and GG question id."
+        }
+      },
+      {
         "id": "QuestionnaireResponse.item.answer.value[x]",
         "path": "QuestionnaireResponse.item.answer.value[x]",
         "type": [

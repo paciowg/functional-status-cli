@@ -10,10 +10,12 @@ Description:    "An exchange of functional status data for a patient."
 * subject 1..1
 * subject only Reference(Patient)
 * code from LNC 
-*  performer 1..*
+*  performer 1..* 
+* performer ^binding.description = "The person who performed the assessment."
 * value[x] only CodeableConcept
+* value[x] from LNC
 * effective[x] only dateTime
-* extension contains ObservationLocation named event-location 0..1 MS
+* extension contains ObservationLocation named event-location 0..1 MS 
 // TODO, why doesn't this syntax from Sushi tutorial work?
 //* extension contains http://hl7.org/fhir/StructureDefinition/patient-disability named disability 0..1 MS
 

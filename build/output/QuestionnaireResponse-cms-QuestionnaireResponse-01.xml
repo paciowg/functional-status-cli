@@ -21,7 +21,8 @@
       <text value="Self-Care. Code the {patient&#39;s/resident&#39;s} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient&#39;s/resident&#39;s} {discharge} goal(s) using the 6 point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."/>
       <item id="83232-9">
         <linkId value="Section-37/GG0130A1"/>
-        <text value="Eating - functional ability during 3D assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83228-7/"/>
+        <text value="Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSEatingAdmission01"/>
@@ -30,7 +31,7 @@
       </item>
       <item id="83230-3">
         <linkId value="Section-37/GG0130B1"/>
-        <text value="Oral hygiene - functional ability during 3D assessment period [CMS Assessment]"/>
+        <text value="Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSOralHygieneAdmission01"/>
@@ -39,7 +40,7 @@
       </item>
       <item id="83228-7">
         <linkId value="Section-37/GG0130C3"/>
-        <text value="Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]"/>
+        <text value="Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSToiletingHygieneAdmission01"/>
@@ -50,9 +51,20 @@
     <item>
       <linkId value="Section-37/GG0170"/>
       <text value="Mobility. Code the {patient&#39;s/resident&#39;s} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient&#39;s/resident&#39;s} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."/>
+      <item id="83218-8">
+        <linkId value="Section-37/GG0170A1"/>
+        <definition value="https://loinc.org/83228-7/"/>
+        <text value="Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed. - Admission Performance"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BetsySmithMDSSitToLyingAdmission01"/>
+          </valueReference>
+        </answer>
+      </item>
       <item id="83216-2">
         <linkId value="Section-37/GG0170B1"/>
-        <text value="Sit to lying - functional ability during 3D assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83216-2/"/>
+        <text value="Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSSitToLyingAdmission01"/>
@@ -61,7 +73,8 @@
       </item>
       <item id="83214-7">
         <linkId value="Section-37/GG0170C1"/>
-        <text value="Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83214-7/"/>
+        <text value="Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSLyingToSittingAdmission01"/>
@@ -70,6 +83,7 @@
       </item>
       <item id="83212-1">
         <linkId value="Section-37/GG0170D1"/>
+        <definition value="https://loinc.org/83212-1/"/>
         <text value="Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance"/>
         <answer>
           <valueReference>
@@ -79,7 +93,8 @@
       </item>
       <item id="83210-5">
         <linkId value="Section-37/GG0170E1"/>
-        <text value="Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83210-5/"/>
+        <text value="Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair). - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSBedToChairAdmission01"/>
@@ -88,7 +103,8 @@
       </item>
       <item id="83208-9">
         <linkId value="Section-37/GG0170F1"/>
-        <text value="Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83208-9/"/>
+        <text value="Toilet transfer: The ability to get on and off a toilet or commode. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSToiletTransferAdmission01"/>
@@ -97,7 +113,8 @@
       </item>
       <item id="83204-8">
         <linkId value="Section-37/GG0170I1"/>
-        <text value="Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83204-8/"/>
+        <text value="Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSWalk10feetAdmission01"/>
@@ -106,7 +123,8 @@
       </item>
       <item id="83202-2">
         <linkId value="Section-37/GG0170J1"/>
-        <text value="Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83202-2/"/>
+        <text value="Walk 50 feet with two turns: Once standing, the ability to walk at least 50 feet and make two turns. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSWalk50feetAdmission01"/>
@@ -115,7 +133,8 @@
       </item>
       <item id="83200-6">
         <linkId value="Section-37/GG0170K1"/>
-        <text value="Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]"/>
+        <definition value="https://loinc.org/83200-6/"/>
+        <text value="Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space. - Admission Performance"/>
         <answer>
           <valueReference>
             <reference value="Observation/BetsySmithMDSWalk150feetAdmission01"/>

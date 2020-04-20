@@ -39,7 +39,8 @@
          fhir:index 0;
          fhir:Element.id [ fhir:value "83232-9" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130A1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Eating - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83228-7/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Eating: The ability to use suitable utensils to bring food and/or liquid to the mouth and swallow food and/or liquid once the meal is placed before the {patient/resident}. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -51,7 +52,7 @@
          fhir:index 1;
          fhir:Element.id [ fhir:value "83230-3" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130B1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Oral hygiene - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Oral hygiene: The ability to use suitable items to clean teeth. Dentures (if applicable): The ability to insert and remove dentures into and from the mouth, and manage denture soaking and rinsing with use of equipment. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -63,7 +64,7 @@
          fhir:index 2;
          fhir:Element.id [ fhir:value "83228-7" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0130C3" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Toileting hygiene  - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Toileting hygiene: The ability to maintain perineal hygiene, adjust clothes before and after voiding or having a bowel movement. If managing an ostomy, include wiping the opening but not managing equipment. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -78,9 +79,10 @@
        fhir:QuestionnaireResponse.item.text [ fhir:value "Mobility. Code the {patient's/resident's} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient's/resident's} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)." ];
        fhir:QuestionnaireResponse.item.item [
          fhir:index 0;
-         fhir:Element.id [ fhir:value "83216-2" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170B1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Sit to lying - functional ability during 3D assessment period [CMS Assessment]" ];
+         fhir:Element.id [ fhir:value "83218-8" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170A1" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83228-7/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Roll left and right: The ability to roll from lying on back to left and right side, and return to lying on back on the bed. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -90,9 +92,23 @@
          ]
        ], [
          fhir:index 1;
+         fhir:Element.id [ fhir:value "83216-2" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170B1" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83216-2/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Sit to lying: The ability to move from sitting on side of bed to lying flat on the bed. - Admission Performance" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/BetsySmithMDSSitToLyingAdmission01>;
+             fhir:Reference.reference [ fhir:value "Observation/BetsySmithMDSSitToLyingAdmission01" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
          fhir:Element.id [ fhir:value "83214-7" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170C1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83214-7/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Lying to sitting on side of bed: The ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -101,9 +117,10 @@
            ]
          ]
        ], [
-         fhir:index 2;
+         fhir:index 3;
          fhir:Element.id [ fhir:value "83212-1" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170D1" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83212-1/" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "Sit to stand: The ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -113,10 +130,11 @@
            ]
          ]
        ], [
-         fhir:index 3;
+         fhir:index 4;
          fhir:Element.id [ fhir:value "83210-5" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170E1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Chair/bed-to-chair transfer - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83210-5/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Chair/bed-to-chair transfer: The ability to transfer to and from a bed to a chair (or wheelchair). - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -125,10 +143,11 @@
            ]
          ]
        ], [
-         fhir:index 4;
+         fhir:index 5;
          fhir:Element.id [ fhir:value "83208-9" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170F1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Toilet transfer - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83208-9/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Toilet transfer: The ability to get on and off a toilet or commode. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -137,10 +156,11 @@
            ]
          ]
        ], [
-         fhir:index 5;
+         fhir:index 6;
          fhir:Element.id [ fhir:value "83204-8" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170I1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 10 feet - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83204-8/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 10 feet: Once standing, the ability to walk at least 10 feet in a room, corridor, or similar space. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -149,10 +169,11 @@
            ]
          ]
        ], [
-         fhir:index 6;
+         fhir:index 7;
          fhir:Element.id [ fhir:value "83202-2" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170J1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 50 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83202-2/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 50 feet with two turns: Once standing, the ability to walk at least 50 feet and make two turns. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
@@ -161,10 +182,11 @@
            ]
          ]
        ], [
-         fhir:index 7;
+         fhir:index 8;
          fhir:Element.id [ fhir:value "83200-6" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170K1" ];
-         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 150 feet with two turns - functional goal recorded during 3D assessment period [CMS Assessment]" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83200-6/" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Walk 150 feet: Once standing, the ability to walk at least 150 feet in a corridor or similar space. - Admission Performance" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [

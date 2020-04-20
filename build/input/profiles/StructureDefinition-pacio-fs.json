@@ -109,7 +109,10 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "min": 1
+        "min": 1,
+        "binding": {
+          "description": "This binding is dictated by US FDA regulations."
+        }
       },
       {
         "id": "Observation.value[x]",
@@ -118,7 +121,11 @@
           {
             "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://loinc.org"
+        }
       }
     ]
   }
