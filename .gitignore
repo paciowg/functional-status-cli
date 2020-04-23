@@ -42,4 +42,6 @@ $RECYCLE.BIN/
 ### Node ###
 
 
-build\input-cache
+build/input-cache
+build/temp
+build/input
