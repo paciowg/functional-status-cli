@@ -6,6 +6,14 @@
       "http://pacioproject.org//StructureDefinition/pacio-bfs"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/cms-organization-location-01"
+      }
+    }
+  ],
   "subject": {
     "reference": "BetsySmith"
   },
@@ -32,6 +40,11 @@
   "performer": [
     {
       "reference": "CMS Provider"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-02"
     }
   ],
   "hasMember": [

@@ -111,7 +111,7 @@
         "path": "Observation.performer",
         "min": 1,
         "binding": {
-          "description": "This binding is dictated by US FDA regulations."
+          "description": "The person who performed the assessment."
         }
       },
       {

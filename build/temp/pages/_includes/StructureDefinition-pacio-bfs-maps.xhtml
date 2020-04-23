@@ -1,6 +1,7 @@
 {% raw %}<a name="workflow"> </a><h3>Mappings for Workflow Pattern (<a href="http://hl7.org/fhir/workflow.html">http://hl7.org/fhir/workflow</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>BundledFunctionalStatus</b></td></tr>
  <tr><td>Observation</td><td>Event</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (event-location)</td><td>Event.location</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Event.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>Event.basedOn</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>Event.partOf</td> </tr>
@@ -32,6 +33,7 @@
 <a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>BundledFunctionalStatus</b></td></tr>
  <tr><td>Observation</td><td>OBX</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (event-location)</td><td>EVN.7</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>OBX.21  For OBX segments from systems without OBX-21 support a combination of ORC/OBR and OBX must be negotiated between trading partners to uniquely identify the OBX segment. Depending on how V2 has been implemented each of these may be an option: 1) OBR-3 + OBX-3 + OBX-4 or 2) OBR-3 + OBR-4 + OBX-3 + OBX-4 or 2) some other way to uniquely ID the OBR/ORC + OBX-3 + OBX-4.</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>ORC</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>Varies by domain</td> </tr>
@@ -71,7 +73,7 @@
  <tr><td>Observation</td><td>Entity. Role, or Act, Observation[classCode=OBS, moodCode=EVN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (event-location)</td><td>.participation[typeCode=LOC].role</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>.inboundRelationship[typeCode=COMP].source[moodCode=EVN]</td> </tr>

@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-04-17T10:10:36-04:00"/>
+   <date value="2020-04-23T15:08:05-04:00"/>
    <publisher value="Sean Mahoney"/>
    <contact>
       <name value="Sean Mahoney"/>
@@ -101,6 +101,21 @@
          </reference>
          <name value="PACIO Questionaire Response"/>
          <description value="A completed, or sections of a completed, CMS PAC assessment."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-dev.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-dev"/>
+         </reference>
+         <name value="Use of Device"/>
+         <description value="A device used by a Patient during a functional status assessment."/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_profile"/>
       </resource>
@@ -554,6 +569,34 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-cms-device-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/cms-device-01"/>
+         </reference>
+         <name value="cms-device-01"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-cms-deviceUse-01.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/cms-deviceUse-01"/>
+         </reference>
+         <name value="cms-deviceUse-01"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-dev"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Organization"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -634,6 +677,11 @@
             <page>
                <nameUrl value="StructureDefinition-pacio-qr.html"/>
                <title value="PACIO Questionaire Response"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-dev.html"/>
+               <title value="Use of Device"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -794,6 +842,16 @@
             <page>
                <nameUrl value="Observation-cms-bundle-02.html"/>
                <title value="cms-bundle-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-cms-device-01.html"/>
+               <title value="cms-device-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-cms-deviceUse-01.html"/>
+               <title value="cms-deviceUse-01"/>
                <generation value="generated"/>
             </page>
             <page>

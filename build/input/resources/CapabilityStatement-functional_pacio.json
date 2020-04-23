@@ -1,0 +1,84 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "functional-status",
+    "url": "http://hapi.fhir.org/baseR4",
+  "version": "0.2.0",
+  "name": "PACIO-functional-status",
+  "title": "PACIO Functional Status Capability Statement",
+  "status": "draft",
+  "date": "2020-04-22T00:00:00+00:00",
+  "description": "This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide.",
+  "kind": "requirements",
+  "fhirVersion": "4.0.1",
+  "format": [
+    "xml",
+    "json"
+  ],
+  "implementationGuide": [
+    "https://paciowg.github.io/functional-status-ig/"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "resource": [
+        {
+          "type": "FunctionalStatus",
+          "profile": "http://pacioproject.org//StructureDefinition/pacio-fs",
+          "interaction": [
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "code": "read"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "code": "vread"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "code": "history-instance"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "code": "history-type"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "code": "search-type"
+            }
+          ],
+          "versioning": "versioned",
+          "referencePolicy": [
+            "literal",
+            "local"
+          ]
+        }
+       
+      ]
+    }
+  ]
+}

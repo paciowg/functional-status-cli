@@ -6,9 +6,22 @@
       "http://pacioproject.org//StructureDefinition/pacio-bfs"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/cms-organization-location-01"
+      }
+    }
+  ],
   "subject": {
     "reference": "BetsySmith"
   },
+  "note": [
+    {
+      "text": "Within the first 3 days of SNF admission"
+    }
+  ],
   "status": "final",
   "code": {
     "coding": [
@@ -29,6 +42,11 @@
     }
   ],
   "effectiveDateTime": "2020-01-19",
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
+    }
+  ],
   "performer": [
     {
       "reference": "CMS Provider"

@@ -115,6 +115,7 @@
          fhir:index 0;
          fhir:Element.id [ fhir:value "83216-2" ];
          fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170B1" ];
+         fhir:QuestionnaireResponse.item.definition [ fhir:value "https://loinc.org/83228-7/" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "Sit to lying - functional ability during 3D assessment period [CMS Assessment]" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;

@@ -10,7 +10,7 @@
   "name": "FunctionalStatus",
   "title": "Functional Status",
   "status": "active",
-  "date": "2020-04-17T10:10:36-04:00",
+  "date": "2020-04-23T15:08:05-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -2775,7 +2775,7 @@
         "path": "Observation.performer",
         "min": 1,
         "binding": {
-          "description": "This binding is dictated by US FDA regulations."
+          "description": "The person who performed the assessment."
         }
       },
       {

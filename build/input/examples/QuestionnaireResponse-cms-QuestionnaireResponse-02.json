@@ -107,7 +107,8 @@
                   }
                 }
               ],
-              "id": "83216-2"
+              "id": "83216-2",
+              "definition": "https://loinc.org/83228-7/"
             },
             {
               "text": "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",

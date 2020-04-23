@@ -1,5 +1,6 @@
 Alias:  LNC = http://loinc.org
 Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
 
 Profile:        BundledFunctionalStatus
 Parent:         Observation
@@ -14,6 +15,9 @@ Description:    "An point in time bundle of functional status observations for a
 * value[x] only CodeableConcept
 * category 1..1 
 * category from CAT (preferred)
+* category ^binding.description = "If this is from a Post-Acute Care Assessment, value should be survey."
+* extension contains ObservationLocation named event-location 0..1 MS 
+
 
 Instance: cms-patient-01
 InstanceOf: Patient
@@ -37,10 +41,12 @@ InstanceOf: Organization
 Instance: cms-bundle-01
 InstanceOf: BundledFunctionalStatus
 * subject  = Reference(BetsySmith)
+* note.text = "Within the first 3 days of SNF admission"
 * status = #final
 * code = http://loinc.org#90480-5
 * category = CAT#survey
 * effectiveDateTime = "2020-01-19"
+* derivedFrom = Reference(cms-QuestionnaireResponse-01)
 * performer.reference  = "CMS Provider"
 * hasMember = Reference(BetsySmithMDSEatingAdmission01)
 * hasMember[1] = Reference(BetsySmithMDSOralHygieneAdmission01)
@@ -53,6 +59,7 @@ InstanceOf: BundledFunctionalStatus
 * hasMember[8] = Reference(BetsySmithMDSWalk10feetAdmission01)
 * hasMember[9] = Reference(BetsySmithMDSWalk50feetAdmission01)
 * hasMember[10] = Reference(BetsySmithMDSWalk150feetAdmission01)
+* extension[event-location].valueReference =  Reference(cms-organization-location-01)
 
 Instance: cms-bundle-02
 InstanceOf: BundledFunctionalStatus
@@ -62,6 +69,7 @@ InstanceOf: BundledFunctionalStatus
 * category = CAT#survey
 * effectiveDateTime = "2020-01-22"
 * performer.reference  = "CMS Provider"
+* derivedFrom = Reference(cms-QuestionnaireResponse-02)
 * hasMember = Reference(BetsySmithMDSEatingDischarge01)
 * hasMember[1] = Reference(BetsySmithMDSOralHygieneDischarge01)
 * hasMember[2] = Reference(BetsySmithMDSToiletingHygieneDischarge01)
@@ -73,3 +81,4 @@ InstanceOf: BundledFunctionalStatus
 * hasMember[8] = Reference(BetsySmithMDSWalk10feetDischarge01)
 * hasMember[9] = Reference(BetsySmithMDSWalk50feetDischarge01)
 * hasMember[10] = Reference(BetsySmithMDSWalk150feetDischarge01)
+* extension[event-location].valueReference =  Reference(cms-organization-location-01)

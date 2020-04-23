@@ -6,12 +6,14 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://pacioproject.org//StructureDefinition/pacio-bfs",
-        "title": "Bundled Functional Status"
-      },
-      {
         "url": "http://pacioproject.org//StructureDefinition/pacio-fs",
         "title": "Functional Status"
+      }
+    ],
+    "DeviceUseStatement": [
+      {
+        "url": "http://pacioproject.org//StructureDefinition/pacio-dev",
+        "title": "Use of Device"
       }
     ],
     "QuestionnaireResponse": [

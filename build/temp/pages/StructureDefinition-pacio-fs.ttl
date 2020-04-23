@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "FunctionalStatus"];
   fhir:StructureDefinition.title [ fhir:value "Functional Status"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-17T10:10:36-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-23T15:08:05-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Sean Mahoney"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -2996,7 +2996,7 @@
        fhir:ElementDefinition.path [ fhir:value "Observation.performer" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.binding [
-         fhir:ElementDefinition.binding.description [ fhir:value "This binding is dictated by US FDA regulations." ]
+         fhir:ElementDefinition.binding.description [ fhir:value "The person who performed the assessment." ]
        ]
      ], [
        fhir:index 7;

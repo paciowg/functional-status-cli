@@ -79,6 +79,7 @@
       <text value="Mobility. Code the {patient&#39;s/resident&#39;s} usual performance at {admission} for each activity using the 6-point scale. If activity was not attempted at {admission}, code the reason. Code the {patient&#39;s/resident&#39;s} {discharge} goal(s) using the 6-point scale. Use of codes 07, 09, 10, or 88 is permissible to code {discharge} goal(s)."/>
       <item id="83216-2">
         <linkId value="Section-37/GG0170B1"/>
+        <definition value="https://loinc.org/83228-7/"/>
         <text value="Sit to lying - functional ability during 3D assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>

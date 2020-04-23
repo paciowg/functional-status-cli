@@ -11,7 +11,7 @@
   <name value="FunctionalStatusImplementationGuide"/>
   <title value="Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-04-17T10:10:36-04:00"/>
+  <date value="2020-04-23T15:08:05-04:00"/>
   <publisher value="Sean Mahoney"/>
   <contact>
     <name value="Sean Mahoney"/>
@@ -206,6 +206,20 @@
       </reference>
       <name value="PACIO Questionaire Response"/>
       <description value="A completed, or sections of a completed, CMS PAC assessment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-pacio-dev.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pacio-dev"/>
+      </reference>
+      <name value="Use of Device"/>
+      <description value="A device used by a Patient during a functional status assessment."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -623,6 +637,32 @@
       </reference>
       <name value="cms-bundle-02"/>
       <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-cms-device-01.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/cms-device-01"/>
+      </reference>
+      <name value="cms-device-01"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-cms-deviceUse-01.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/cms-deviceUse-01"/>
+      </reference>
+      <name value="cms-deviceUse-01"/>
+      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-dev"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

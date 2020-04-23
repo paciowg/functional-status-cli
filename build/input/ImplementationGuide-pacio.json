@@ -59,6 +59,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/pacio-dev"
+        },
+        "name": "Use of Device",
+        "description": "A device used by a Patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Observation/BetsySmithMDSBedMobilityAdmission01"
         },
         "name": "BetsySmithMDSBedMobilityAdmission01",
@@ -280,6 +288,20 @@
         },
         "name": "cms-bundle-02",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Device/cms-device-01"
+        },
+        "name": "cms-device-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/cms-deviceUse-01"
+        },
+        "name": "cms-deviceUse-01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-dev"
       },
       {
         "reference": {
