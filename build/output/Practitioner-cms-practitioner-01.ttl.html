@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>PACIO\cms-practitioner-01 - TTL Representation - FHIR v4.0.1</title>
+    <title>PACIO\CMS-Practitioner-01 - TTL Representation - FHIR v4.0.1</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -37,8 +37,8 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"2.39"}
-    h3,h4,h5,h6{--heading-prefix:"2.39"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.85"}
+    h3,h4,h5,h6{--heading-prefix:"2.85"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
         
@@ -64,16 +64,7 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              
-
-
-
-
-
-
-
-
-<ul class="nav navbar-nav">
+              <ul class="nav navbar-nav">
   <li><a href="index.html">IG Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
   <li><a href="artifacts.html">Artifacts Summary</a></li>
@@ -95,7 +86,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->  
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>cms-practitioner-01</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>CMS-Practitioner-01</b></li>
         </ul>  
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
@@ -107,12 +98,12 @@
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="http://pacioproject.org//history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <a name="root"> </a>
-  <h2 id="root">cms-practitioner-01 - TTL Representation</h2>
+  <h2 id="root">CMS-Practitioner-01 - TTL Representation</h2>
   <p>
-    <a href="Practitioner-cms-practitioner-01.html">(back to description)</a>
+    <a href="Practitioner-CMS-Practitioner-01.html">(back to description)</a>
   </p>
   <p>
-    <a href="Practitioner-cms-practitioner-01.ttl">Raw ttl</a>
+    <a href="Practitioner-CMS-Practitioner-01.ttl">Raw ttl</a>
   </p>
   
   
@@ -131,20 +122,20 @@
 
  a fhir:Practitioner;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "cms-practitioner-01"];
+  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "CMS-Practitioner-01"];
   <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">fhir:DomainResource.text</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "generated" ];
-     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: cms-practitioner-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: John Carlson &lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: male&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1970-10-27&lt;/p&gt;&lt;/div&gt;"
+     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: CMS-Practitioner-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Ed Johnson &lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: male&lt;/p&gt;&lt;/div&gt;"
   ];
+  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.active">fhir:Practitioner.active</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> "true"^^xsd:boolean];
   <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">fhir:Practitioner.name</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:HumanName.family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Carlson" ];
+     <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:HumanName.family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Johnson" ];
      <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:HumanName.given</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "John";
+       <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Ed";
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0     ]
   ];
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.gender">fhir:Practitioner.gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "male"];
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.birthDate">fhir:Practitioner.birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:value</a> "1970-10-27"^^xsd:date].
+  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.gender">fhir:Practitioner.gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "male"].
 
 # - ontology header ------------------------------------------------------------
 
@@ -167,8 +158,8 @@
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="a9b45822-8162-4f20-840b-60a730e296fc">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 17, 2020 10:10-0400">2020-04-17</span>
+        <p><a name="85f104c1-79ab-4b79-b0a1-ff84b59dcba5">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 24, 2020 04:59+0000">2020-04-24</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="BetsySmith"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: BetsySmith</p><p><b>name</b>: Betsy Smith </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1959-06-14</p></div>
+  </text>
+  <name>
+    <family value="Smith"/>
+    <given value="Betsy"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1959-06-14"/>
+</Patient>

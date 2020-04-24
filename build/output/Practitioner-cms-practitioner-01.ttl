@@ -5,27 +5,27 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://pacioproject.org/Practitioner/cms-practitioner-01> a fhir:Practitioner;
+<http://pacioproject.org/Practitioner/CMS-Practitioner-01> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "cms-practitioner-01"];
+  fhir:Resource.id [ fhir:value "CMS-Practitioner-01"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-practitioner-01</p><p><b>name</b>: John Carlson </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1970-10-27</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Practitioner-01</p><p><b>active</b>: true</p><p><b>name</b>: Ed Johnson </p><p><b>gender</b>: male</p></div>"
   ];
+  fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
   fhir:Practitioner.name [
      fhir:index 0;
-     fhir:HumanName.family [ fhir:value "Carlson" ];
+     fhir:HumanName.family [ fhir:value "Johnson" ];
      fhir:HumanName.given [
-       fhir:value "John";
+       fhir:value "Ed";
        fhir:index 0
      ]
   ];
-  fhir:Practitioner.gender [ fhir:value "male"];
-  fhir:Practitioner.birthDate [ fhir:value "1970-10-27"^^xsd:date] .
+  fhir:Practitioner.gender [ fhir:value "male"] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://pacioproject.org/Practitioner/cms-practitioner-01.ttl> a owl:Ontology;
+<http://pacioproject.org/Practitioner/CMS-Practitioner-01.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

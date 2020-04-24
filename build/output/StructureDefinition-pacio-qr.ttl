@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "PACIOfunctionalQuestionaireResponse"];
   fhir:StructureDefinition.title [ fhir:value "PACIO Questionaire Response"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-17T10:10:36-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-24T04:59:43+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Sean Mahoney"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

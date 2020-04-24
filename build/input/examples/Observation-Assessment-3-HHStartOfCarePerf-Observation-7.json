@@ -1,0 +1,57 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-3-HHStartOfCarePerf-Observation-7",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-PTRES"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2019-12-04T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83216-2",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
+      }
+    ],
+    "text": "Sit to lying"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA28870-6",
+        "system": "http://loinc.org",
+        "display": "Sit to lying"
+      }
+    ],
+    "text": "Supervision or touching assistance"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/CMS-Practitioner-02"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf",
+      "display": "QuestionnaireResponse"
+    }
+  ]
+}

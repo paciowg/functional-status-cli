@@ -59,255 +59,612 @@
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSBedMobilityAdmission01"
+          "reference": "Observation/Assessment-1-First3DSNFAdmission"
         },
-        "name": "BetsySmithMDSBedMobilityAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSBedToChairAdmission01"
-        },
-        "name": "BetsySmithMDSBedToChairAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSBedToChairDischarge01"
-        },
-        "name": "BetsySmithMDSBedToChairDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSEatingAdmission01"
-        },
-        "name": "BetsySmithMDSEatingAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01"
-        },
-        "name": "BetsySmithMDSEatingDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischargePerformance01"
-        },
-        "name": "BetsySmithMDSEatingDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSLyingToSittingAdmission01"
-        },
-        "name": "BetsySmithMDSLyingToSittingAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSLyingToSittingDischarge01"
-        },
-        "name": "BetsySmithMDSLyingToSittingDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
-        },
-        "name": "BetsySmithMDSOralHygieneAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"
-        },
-        "name": "BetsySmithMDSOralHygieneDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneDischargePerformance01"
-        },
-        "name": "BetsySmithMDSOralHygieneDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToLyingAdmission01"
-        },
-        "name": "BetsySmithMDSSitToLyingAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToLyingDischarge01"
-        },
-        "name": "BetsySmithMDSSitToLyingDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToStandAdmission01"
-        },
-        "name": "BetsySmithMDSSitToStandAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSSitToStandDischarge01"
-        },
-        "name": "BetsySmithMDSSitToStandDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletTransferAdmission01"
-        },
-        "name": "BetsySmithMDSToiletTransferAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletTransferDischarge01"
-        },
-        "name": "BetsySmithMDSToiletTransferDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission01"
-        },
-        "name": "BetsySmithMDSToiletingHygieneAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"
-        },
-        "name": "BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneDischargePerformance01"
-        },
-        "name": "BetsySmithMDSToiletingHygieneDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSTransferAdmission01"
-        },
-        "name": "BetsySmithMDSTransferAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk10feetAdmission01"
-        },
-        "name": "BetsySmithMDSWalk10feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk10feetDischarge01"
-        },
-        "name": "BetsySmithMDSWalk10feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk150feetAdmission01"
-        },
-        "name": "BetsySmithMDSWalk150feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk150feetDischarge01"
-        },
-        "name": "BetsySmithMDSWalk150feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk50feetAdmission01"
-        },
-        "name": "BetsySmithMDSWalk50feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalk50feetDischarge01"
-        },
-        "name": "BetsySmithMDSWalk50feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BetsySmithMDSWalkInRoomAdmission01"
-        },
-        "name": "BetsySmithMDSWalkInRoomAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
-        },
-        "name": "cms-QuestionnaireResponse-01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-02"
-        },
-        "name": "cms-QuestionnaireResponse-02",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
-      },
-      {
-        "reference": {
-          "reference": "Observation/cms-bundle-01"
-        },
-        "name": "cms-bundle-01",
+        "name": "Assessment-1-First3DSNFAdmission",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
       },
       {
         "reference": {
-          "reference": "Observation/cms-bundle-02"
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-1"
         },
-        "name": "cms-bundle-02",
+        "name": "Assessment-1-First3DSNFAdmission-Observation-1",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-13"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-13",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-17"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-17",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-21"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-21",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-25"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-25",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-29"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-29",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-33"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-33",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-37"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-37",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-41"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-41",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-45"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-45",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-49"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-49",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-5"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-5",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-53"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-53",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-57"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-57",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-61"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-61",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-65"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-65",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-1-First3DSNFAdmission-Observation-9"
+        },
+        "name": "Assessment-1-First3DSNFAdmission-Observation-9",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay"
+        },
+        "name": "Assessment-2-Last3DSNFStay",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
       },
       {
         "reference": {
-          "reference": "Organization/cms-organization-01"
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-10"
         },
-        "name": "cms-organization-01",
+        "name": "Assessment-2-Last3DSNFStay-Observation-10",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-14"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-14",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-18"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-18",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-2"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-2",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-22"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-22",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-26"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-26",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-30"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-30",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-34"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-34",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-38"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-38",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-42"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-42",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-46"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-46",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-50"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-50",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-54"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-54",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-58"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-58",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-6"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-6",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-62"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-62",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-66"
+        },
+        "name": "Assessment-2-Last3DSNFStay-Observation-66",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-11"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-11",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-15"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-15",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-19"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-19",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-23"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-23",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-27"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-27",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-3"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-3",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-31"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-31",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-35"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-35",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-39"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-39",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-43"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-43",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-47"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-47",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-51"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-51",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-55"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-55",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-59"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-59",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-63"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-63",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-67"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-67",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-7"
+        },
+        "name": "Assessment-3-HHStartOfCarePerf-Observation-7",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf"
+        },
+        "name": "Assessment-4-HHDischargePerf",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-12"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-12",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-16"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-16",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-20"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-20",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-24"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-24",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-28"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-28",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-32"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-32",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-36"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-36",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-4"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-4",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-40"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-40",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-44"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-44",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-48"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-48",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-52"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-52",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-56"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-56",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-60"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-60",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-64"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-64",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-68"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-68",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-4-HHDischargePerf-Observation-8"
+        },
+        "name": "Assessment-4-HHDischargePerf-Observation-8",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Patient/BetsySmith"
+        },
+        "name": "BetsySmith",
         "exampleBoolean": true
       },
       {
         "reference": {
-          "reference": "Location/cms-organization-location-01"
+          "reference": "Encounter/CMS-Encounter-01"
         },
-        "name": "cms-organization-location-01",
+        "name": "CMS-Encounter-01",
         "exampleBoolean": true
       },
       {
         "reference": {
-          "reference": "Patient/cms-patient-01"
+          "reference": "Encounter/CMS-Encounter-02"
         },
-        "name": "cms-patient-01",
+        "name": "CMS-Encounter-02",
         "exampleBoolean": true
       },
       {
         "reference": {
-          "reference": "Practitioner/cms-practitioner-01"
+          "reference": "Encounter/CMS-Encounter-03"
         },
-        "name": "cms-practitioner-01",
+        "name": "CMS-Encounter-03",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/CMS-Encounter-04"
+        },
+        "name": "CMS-Encounter-04",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/CMS-Location-PTRES"
+        },
+        "name": "CMS-Location-PTRES",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/CMS-Location-SNF"
+        },
+        "name": "CMS-Location-SNF",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/CMS-Organization-01"
+        },
+        "name": "CMS-Organization-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/CMS-Organization-02"
+        },
+        "name": "CMS-Organization-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/CMS-Practitioner-01"
+        },
+        "name": "CMS-Practitioner-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/CMS-Practitioner-02"
+        },
+        "name": "CMS-Practitioner-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QuestionnaireResponse-1-First3DSNFAdmission"
+        },
+        "name": "QuestionnaireResponse-1-First3DSNFAdmission",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay"
+        },
+        "name": "QuestionnaireResponse-2-Last3DSNFStay",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf"
+        },
+        "name": "QuestionnaireResponse-3-HHStartOfCarePerf",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf"
+        },
+        "name": "QuestionnaireResponse-4-HHDischargePerf",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
       }
     ],
     "page": {

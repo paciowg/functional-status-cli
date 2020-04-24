@@ -5,18 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://pacioproject.org/Organization/cms-organization-01> a fhir:Organization;
+<http://pacioproject.org/Organization/CMS-Organization-01> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "cms-organization-01"];
+  fhir:Resource.id [ fhir:value "CMS-Organization-01"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-organization-01</p><p><b>name</b>: ABC Skilled Nursing Facility</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Organization-01</p><p><b>name</b>: Burgers Skilled Nursing Facility</p></div>"
   ];
-  fhir:Organization.name [ fhir:value "ABC Skilled Nursing Facility"] .
+  fhir:Organization.name [ fhir:value "Burgers Skilled Nursing Facility"] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://pacioproject.org/Organization/cms-organization-01.ttl> a owl:Ontology;
+<http://pacioproject.org/Organization/CMS-Organization-01.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

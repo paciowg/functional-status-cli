@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="CMS-Encounter-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Encounter-01</p><p><b>status</b>: finished</p><h3>StatusHistories</h3><table class="grid"><tr><td>-</td><td><b>Status</b></td><td><b>Period</b></td></tr><tr><td>*</td><td>finished</td><td>Mar 25, 2019 7:30:00 PM --&gt; Mar 25, 2019 9:30:00 PM</td></tr></table><p><b>class</b>: inpatient encounter (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code IMP = 'inpatient encounter', stated as 'null')</p><p><b>subject</b>: <a href="Patient-BetsySmith.html">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p></div>
+  </text>
+  <status value="finished"/>
+  <statusHistory>
+    <status value="finished"/>
+    <period>
+      <start value="2019-03-25T14:30:00-05:00"/>
+      <end value="2019-03-25T16:30:00-05:00"/>
+    </period>
+  </statusHistory>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="IMP"/>
+  </class>
+  <subject>
+    <reference value="Patient/BetsySmith"/>
+  </subject>
+</Encounter>

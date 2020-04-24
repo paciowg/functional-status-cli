@@ -15,6 +15,7 @@ Description:    "An point in time bundle of functional status observations for a
 * category 1..1 
 * category from CAT (preferred)
 
+/**************************************************************************
 Instance: cms-patient-01
 InstanceOf: Patient
 * name.given = "Betsy"
@@ -32,8 +33,9 @@ InstanceOf: Practitioner
 Instance: cms-organization-01
 InstanceOf: Organization
 * name = "ABC Skilled Nursing Facility"
+*/
 
-
+/***************************************************************************
 Instance: cms-bundle-01
 InstanceOf: BundledFunctionalStatus
 * subject  = Reference(BetsySmith)
@@ -73,3 +75,5 @@ InstanceOf: BundledFunctionalStatus
 * hasMember[8] = Reference(BetsySmithMDSWalk10feetDischarge01)
 * hasMember[9] = Reference(BetsySmithMDSWalk50feetDischarge01)
 * hasMember[10] = Reference(BetsySmithMDSWalk150feetDischarge01)
+
+*/

@@ -1,0 +1,57 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-1-First3DSNFAdmission-Observation-25",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-SNF"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2019-11-21T14:21:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83206-3",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
+      }
+    ],
+    "text": "Car transfer"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11759-0",
+        "system": "http://loinc.org",
+        "display": "Car transfer"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/CMS-Practitioner-01"
+    },
+    {
+      "reference": "Organization/CMS-Organization-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-1-First3DSNFAdmission",
+      "display": "QuestionnaireResponse"
+    }
+  ]
+}

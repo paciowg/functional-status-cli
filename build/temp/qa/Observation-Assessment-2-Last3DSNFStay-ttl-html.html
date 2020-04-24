@@ -1,0 +1,123 @@
+﻿<html>
+<head>
+  <title>Observation-Assessment-2-Last3DSNFStay-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix loinc: &lt;http://loinc.org/rdf#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:Observation;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Assessment-2-Last3DSNFStay&quot;];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://pacioproject.org//StructureDefinition/pacio-bfs&quot;;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://pacioproject.org//StructureDefinition/pacio-bfs&gt;     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: Assessment-2-Last3DSNFStay&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Survey &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {http://terminology.hl7.org/CodeSystem/observation-category code 'survey' = 'Survey)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: For the last 3 days of the SNF stay &lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt;(Details : {LOINC code '88483-3' = 'Functional abilities and goals - discharge [CMS Assessment]', given as 'For the last 3 days of the SNF stay'})&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-BetsySmith.html\&quot;&gt;Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: Dec 3, 2019 11:00:00 PM&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;Practitioner-CMS-Practitioner-01.html\&quot;&gt;Generated Summary: id: CMS-Practitioner-01; active; Ed Johnson ; gender: male&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Organization-CMS-Organization-01.html\&quot;&gt;Organization. Generated Summary: id: CMS-Organization-01; name: Burgers Skilled Nursing Facility&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;hasMember&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-2.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-2; &lt;span title=\&quot;Codes: {http://loinc.org 83218-8}\&quot;&gt;Roll left and right&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27993-7}\&quot;&gt;Independent&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-6.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-6; &lt;span title=\&quot;Codes: {http://loinc.org 83216-2}\&quot;&gt;Sit to lying&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA28870-6}\&quot;&gt;Supervision or touching assistance&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-10.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-10; &lt;span title=\&quot;Codes: {http://loinc.org 83214-7}\&quot;&gt;Lying to sitting on side of bed&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27994-5}\&quot;&gt;Setup or clean-up assistance&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-14.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-14; &lt;span title=\&quot;Codes: {http://loinc.org 83212-1}\&quot;&gt;Sit to stand&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA28870-6}\&quot;&gt;Supervision or touching assistance&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-18.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-18; &lt;span title=\&quot;Codes: {http://loinc.org 83210-5}\&quot;&gt;Chair/bed-to-chair transfer&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-22.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-22; &lt;span title=\&quot;Codes: {http://loinc.org 83208-9}\&quot;&gt;Toilet transfer&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-26.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-26; &lt;span title=\&quot;Codes: {http://loinc.org 83206-3}\&quot;&gt;Car transfer&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-30.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-30; &lt;span title=\&quot;Codes: {http://loinc.org 83204-8}\&quot;&gt;Walk 10 feet&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-34.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-34; &lt;span title=\&quot;Codes: {http://loinc.org 83202-2}\&quot;&gt;Walk 50 feet with two turns&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-38.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-38; &lt;span title=\&quot;Codes: {http://loinc.org 83200-6}\&quot;&gt;Walk 150 feet&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA11759-0}\&quot;&gt;Substantial/maximal Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-42.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-42; &lt;span title=\&quot;Codes: {http://loinc.org 83198-2}\&quot;&gt;Walking 10 feet on uneven surfaces&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-46.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-46; &lt;span title=\&quot;Codes: {http://loinc.org 83196-6}\&quot;&gt;1 step (curb)&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-50.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-50; &lt;span title=\&quot;Codes: {http://loinc.org 83194-1}\&quot;&gt;4 steps&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA11759-0}\&quot;&gt;Substantial/maximal Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-54.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-54; &lt;span title=\&quot;Codes: {http://loinc.org 83192-5}\&quot;&gt;12 steps&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA11759-0}\&quot;&gt;Substantial/maximal Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-58.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-58; &lt;span title=\&quot;Codes: {http://loinc.org 83190-9}\&quot;&gt;Picking up object&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27996-0}\&quot;&gt;Partial/moderate Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-62.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-62; &lt;span title=\&quot;Codes: {http://loinc.org 83188-3}\&quot;&gt;Wheel 50 feet with two turns&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27993-7}\&quot;&gt;Independent&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-Assessment-2-Last3DSNFStay-Observation-66.html\&quot;&gt;Generated Summary: id: Assessment-2-Last3DSNFStay-Observation-66; &lt;span title=\&quot;Codes: {http://loinc.org 83235-2}\&quot;&gt;Wheel 150 feet&lt;/span&gt;; effective: Dec 3, 2019 11:00:00 PM; &lt;span title=\&quot;Codes: {http://loinc.org LA27993-7}\&quot;&gt;Independent&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href=\&quot;QuestionnaireResponse-QuestionnaireResponse-2-Last3DSNFStay.html\&quot;&gt;Questionnaire Response. Generated Summary: id: QuestionnaireResponse-2-Last3DSNFStay; questionnaire: Q-MDS3-NC-1.17; status: completed; authored: Dec 3, 2019 11:00:00 PM&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;final&quot;];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:Observation.category</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;survey&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:Observation.code</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       a loinc:88483-3;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;88483-3&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;For the last 3 days of the SNF stay&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:Observation.subject</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient/BetsySmith&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2019-12-03T18:00:00-05:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">fhir:Observation.performer</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Practitioner/CMS-Practitioner-01&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Organization/CMS-Organization-01&quot; ];
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Organization&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.hasMember">fhir:Observation.hasMember</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-2&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-6&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-10&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-14&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-18&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-22&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-26&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-30&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-34&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-38&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-42&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-46&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-50&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 13;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-54&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 14;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-58&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 15;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-62&quot; ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 16;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-2-Last3DSNFStay-Observation-66&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/observation.html#Observation.derivedFrom">fhir:Observation.derivedFrom</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay&quot; ];
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">fhir:Reference.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Questionnaire Response&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

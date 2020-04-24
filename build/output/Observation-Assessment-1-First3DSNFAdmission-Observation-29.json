@@ -1,0 +1,61 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-1-First3DSNFAdmission-Observation-29",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Assessment-1-First3DSNFAdmission-Observation-29</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Walk 10 feet <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83204-8' = 'Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]', given as 'What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?'})</span></p><p><b>subject</b>: <a href=\"Patient-BetsySmith.html\">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>effective</b>: Nov 21, 2019 7:21:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-CMS-Practitioner-01.html\">Generated Summary: id: CMS-Practitioner-01; active; Ed Johnson ; gender: male</a></li><li><a href=\"Organization-CMS-Organization-01.html\">Organization. Generated Summary: id: CMS-Organization-01; name: Burgers Skilled Nursing Facility</a></li></ul><p><b>value</b>: Substantial/maximal Assist <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA11759-0' = 'Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.', given as 'Walk 10 feet'})</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QuestionnaireResponse-1-First3DSNFAdmission.html\">QuestionnaireResponse. Generated Summary: id: QuestionnaireResponse-1-First3DSNFAdmission; questionnaire: Q-MDS3-NC-1.17; status: completed; authored: Nov 21, 2019 7:21:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-SNF"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83204-8",
+        "display": "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
+      }
+    ],
+    "text": "Walk 10 feet"
+  },
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "effectiveDateTime": "2019-11-21T14:21:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/CMS-Practitioner-01"
+    },
+    {
+      "reference": "Organization/CMS-Organization-01",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA11759-0",
+        "display": "Walk 10 feet"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-1-First3DSNFAdmission",
+      "display": "QuestionnaireResponse"
+    }
+  ]
+}

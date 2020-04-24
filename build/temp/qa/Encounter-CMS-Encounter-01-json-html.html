@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+  <title>Encounter-CMS-Encounter-01-json-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="json">
+{
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter">resourceType</a>" : "Encounter",
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.id">id</a>" : "CMS-Encounter-01",
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: CMS-Encounter-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: finished&lt;/p&gt;&lt;h3&gt;StatusHistories&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Status&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Period&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;finished&lt;/td&gt;&lt;td&gt;Mar 25, 2019 7:30:00 PM --&amp;gt; Mar 25, 2019 9:30:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;class&lt;/b&gt;: inpatient encounter (Details: http://terminology.hl7.org/CodeSystem/v3-ActCode code IMP = 'inpatient encounter', stated as 'null')&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-BetsySmith.html\&quot;&gt;Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.status">status</a>" : "finished",
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.statusHistory">statusHistory</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.statusHistory.status">status</a>" : "finished",
+      "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.statusHistory.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a>" : "2019-03-25T14:30:00-05:00",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a>" : "2019-03-25T16:30:00-05:00"
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.class">class</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "IMP"
+  },
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.subject">subject</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/BetsySmith"
+  }
+}</pre>
+</body>
+</html>

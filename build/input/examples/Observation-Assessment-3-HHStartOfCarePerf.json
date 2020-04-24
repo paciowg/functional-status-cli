@@ -1,0 +1,101 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-3-HHStartOfCarePerf",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-bfs"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2019-12-04T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "88482-5",
+        "system": "http://loinc.org",
+        "display": "Home Health Start of Care Performance"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/CMS-Practitioner-02"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-3"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-7"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-11"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-15"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-19"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-23"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-27"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-31"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-35"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-39"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-43"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-47"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-51"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-55"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-59"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-63"
+    },
+    {
+      "reference": "Observation/Assessment-3-HHStartOfCarePerf-Observation-67"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

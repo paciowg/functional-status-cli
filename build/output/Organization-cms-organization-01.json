@@ -1,9 +1,9 @@
 {
   "resourceType": "Organization",
-  "id": "cms-organization-01",
+  "id": "CMS-Organization-01",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-organization-01</p><p><b>name</b>: ABC Skilled Nursing Facility</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Organization-01</p><p><b>name</b>: Burgers Skilled Nursing Facility</p></div>"
   },
-  "name": "ABC Skilled Nursing Facility"
+  "name": "Burgers Skilled Nursing Facility"
 }

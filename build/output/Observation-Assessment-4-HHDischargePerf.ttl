@@ -1,0 +1,138 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://pacioproject.org/Observation/Assessment-4-HHDischargePerf> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Assessment-4-HHDischargePerf"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://pacioproject.org//StructureDefinition/pacio-bfs";
+       fhir:index 0;
+       fhir:link <http://pacioproject.org//StructureDefinition/pacio-bfs>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Assessment-4-HHDischargePerf</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/observation-category code 'survey' = 'Survey)</span></p><p><b>code</b>: Home Health Discharge Performance <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '88483-3' = 'Functional abilities and goals - discharge [CMS Assessment]', given as 'Home Health Discharge Performance'})</span></p><p><b>subject</b>: <a href=\"Patient-BetsySmith.html\">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>effective</b>: Dec 30, 2019 7:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-CMS-Practitioner-02.html\">Generated Summary: id: CMS-Practitioner-02; active; Steve Davidson ; gender: male</a></li><li><a href=\"Organization-CMS-Organization-02.html\">Organization. Generated Summary: id: CMS-Organization-02; name: Good Health Clinic</a></li></ul><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-4.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-4; <span title=\"Codes: {http://loinc.org 83218-8}\">Roll left and right</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-8.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-8; <span title=\"Codes: {http://loinc.org 83216-2}\">Sit to lying</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-12.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-12; <span title=\"Codes: {http://loinc.org 83214-7}\">Lying to sitting on side of bed</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-16.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-16; <span title=\"Codes: {http://loinc.org 83212-1}\">Sit to stand</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-20.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-20; <span title=\"Codes: {http://loinc.org 83210-5}\">Chair/bed-to-chair transfer</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-24.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-24; <span title=\"Codes: {http://loinc.org 83208-9}\">Toilet transfer</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-28.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-28; <span title=\"Codes: {http://loinc.org 83206-3}\">Car transfer</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-32.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-32; <span title=\"Codes: {http://loinc.org 83204-8}\">Walk 10 feet</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-36.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-36; <span title=\"Codes: {http://loinc.org 83202-2}\">Walk 50 feet with two turns</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-40.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-40; <span title=\"Codes: {http://loinc.org 83200-6}\">Walk 150 feet</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-44.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-44; <span title=\"Codes: {http://loinc.org 83198-2}\">Walking 10 feet on uneven surfaces</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-48.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-48; <span title=\"Codes: {http://loinc.org 83196-6}\">1 step (curb)</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-52.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-52; <span title=\"Codes: {http://loinc.org 83194-1}\">4 steps</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-56.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-56; <span title=\"Codes: {http://loinc.org 83192-5}\">12 steps</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-60.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-60; <span title=\"Codes: {http://loinc.org 83190-9}\">Picking up object</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA28870-6}\">Supervision or touching assistance</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-64.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-64; <span title=\"Codes: {http://loinc.org 83188-3}\">Wheel 50 feet with two turns</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li><li><a href=\"Observation-Assessment-4-HHDischargePerf-Observation-68.html\">Generated Summary: id: Assessment-4-HHDischargePerf-Observation-68; <span title=\"Codes: {http://loinc.org 83235-2}\">Wheel 150 feet</span>; effective: Dec 30, 2019 7:00:00 PM; <span title=\"Codes: {http://loinc.org LA27993-7}\">Independent</span></a></li></ul><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QuestionnaireResponse-4-HHDischargePerf.html\">Questionnaire Response. Generated Summary: id: QuestionnaireResponse-4-HHDischargePerf; questionnaire: Q-MDS3-NC-1.17; status: completed; authored: Dec 30, 2019 7:00:00 PM</a></p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "survey" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:88483-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "88483-3" ];
+       fhir:Coding.display [ fhir:value "Home Health Discharge Performance" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://pacioproject.org/Patient/BetsySmith>;
+     fhir:Reference.reference [ fhir:value "Patient/BetsySmith" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2019-12-30T14:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://pacioproject.org/Practitioner/CMS-Practitioner-02>;
+     fhir:Reference.reference [ fhir:value "Practitioner/CMS-Practitioner-02" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://pacioproject.org/Organization/CMS-Organization-02>;
+     fhir:Reference.reference [ fhir:value "Organization/CMS-Organization-02" ];
+     fhir:Reference.display [ fhir:value "Organization" ]
+  ];
+  fhir:Observation.hasMember [
+     fhir:index 0;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-4>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-4" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-8>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-8" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-12>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-12" ]
+  ], [
+     fhir:index 3;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-16>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-16" ]
+  ], [
+     fhir:index 4;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-20>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-20" ]
+  ], [
+     fhir:index 5;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-24>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-24" ]
+  ], [
+     fhir:index 6;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-28>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-28" ]
+  ], [
+     fhir:index 7;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-32>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-32" ]
+  ], [
+     fhir:index 8;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-36>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-36" ]
+  ], [
+     fhir:index 9;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-40>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-40" ]
+  ], [
+     fhir:index 10;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-44>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-44" ]
+  ], [
+     fhir:index 11;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-48>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-48" ]
+  ], [
+     fhir:index 12;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-52>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-52" ]
+  ], [
+     fhir:index 13;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-56>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-56" ]
+  ], [
+     fhir:index 14;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-60>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-60" ]
+  ], [
+     fhir:index 15;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-64>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-64" ]
+  ], [
+     fhir:index 16;
+     fhir:link <http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-68>;
+     fhir:Reference.reference [ fhir:value "Observation/Assessment-4-HHDischargePerf-Observation-68" ]
+  ];
+  fhir:Observation.derivedFrom [
+     fhir:index 0;
+     fhir:link <http://pacioproject.org/QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf>;
+     fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf" ];
+     fhir:Reference.display [ fhir:value "Questionnaire Response" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://pacioproject.org/Observation/Assessment-4-HHDischargePerf.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="CMS-Location-PTRES"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Location-PTRES</p><p><b>status</b>: active</p><p><b>name</b>: Patient's Home</p><p><b>description</b>: Patient's Home</p><p><b>type</b>: Patient's Residence <span style="background: LightGoldenRodYellow">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'PTRES' = 'Patient's Residence)</span></p></div>
+  </text>
+  <status value="active"/>
+  <name value="Patient&#39;s Home"/>
+  <description value="Patient&#39;s Home"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="PTRES"/>
+    </coding>
+  </type>
+</Location>

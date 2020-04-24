@@ -1,0 +1,57 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-2-Last3DSNFStay-Observation-54",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-SNF"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2019-12-03T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83192-5",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
+      }
+    ],
+    "text": "12 steps"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA11759-0",
+        "system": "http://loinc.org",
+        "display": "12 steps"
+      }
+    ],
+    "text": "Substantial/maximal Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/CMS-Practitioner-01"
+    },
+    {
+      "reference": "Organization/CMS-Organization-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay",
+      "display": "QuestionnaireResponse"
+    }
+  ]
+}

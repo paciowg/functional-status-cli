@@ -1,0 +1,33 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://pacioproject.org/Location/CMS-Location-PTRES> a fhir:Location;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CMS-Location-PTRES"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Location-PTRES</p><p><b>status</b>: active</p><p><b>name</b>: Patient's Home</p><p><b>description</b>: Patient's Home</p><p><b>type</b>: Patient's Residence <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/v3-RoleCode code 'PTRES' = 'Patient's Residence)</span></p></div>"
+  ];
+  fhir:Location.status [ fhir:value "active"];
+  fhir:Location.name [ fhir:value "Patient's Home"];
+  fhir:Location.description [ fhir:value "Patient's Home"];
+  fhir:Location.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:Coding.code [ fhir:value "PTRES" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://pacioproject.org/Location/CMS-Location-PTRES.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

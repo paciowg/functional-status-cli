@@ -1,0 +1,57 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-3-HHStartOfCarePerf-Observation-27",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-PTRES"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2019-12-04T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83206-3",
+        "system": "http://loinc.org",
+        "display": "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
+      }
+    ],
+    "text": "Car transfer"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA27996-0",
+        "system": "http://loinc.org",
+        "display": "Car transfer"
+      }
+    ],
+    "text": "Partial/moderate Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/CMS-Practitioner-02"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf",
+      "display": "QuestionnaireResponse"
+    }
+  ]
+}

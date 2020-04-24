@@ -18,7 +18,7 @@
   <name value="FunctionalStatus"/>
   <title value="Functional Status"/>
   <status value="active"/>
-  <date value="2020-04-17T10:10:36-04:00"/>
+  <date value="2020-04-24T04:59:43+00:00"/>
   <publisher value="Sean Mahoney"/>
   <contact>
     <name value="Sean Mahoney"/>
@@ -2289,7 +2289,7 @@
       <path value="Observation.performer"/>
       <min value="1"/>
       <binding>
-        <description value="This binding is dictated by US FDA regulations."/>
+        <description value="The person who performed the assessment."/>
       </binding>
     </element>
     <element id="Observation.value[x]">

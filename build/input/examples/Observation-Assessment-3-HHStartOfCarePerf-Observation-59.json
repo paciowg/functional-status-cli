@@ -1,0 +1,57 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-3-HHStartOfCarePerf-Observation-59",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-fs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-PTRES"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2019-12-04T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "83190-9",
+        "system": "http://loinc.org",
+        "display": "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
+      }
+    ],
+    "text": "Picking up object"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA27996-0",
+        "system": "http://loinc.org",
+        "display": "Picking up object"
+      }
+    ],
+    "text": "Partial/moderate Assist"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/CMS-Practitioner-02"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf",
+      "display": "QuestionnaireResponse"
+    }
+  ]
+}

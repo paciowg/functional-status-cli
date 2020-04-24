@@ -52,10 +52,13 @@ MDS v3.0 - RAI v1.17.1 - Activities of daily living (ADL) assistance - self-perf
 // 86880-2	Activities of Daily Living (ADL) Assistance. Self-Performance			
 //45588-1	Bed mobility	
 
+/*
 Instance: cms-organization-location-01
 InstanceOf: Location
 * name = "ABC Skilled Nursing Facility location"
+*/
 
+/************************************************************
 
 Instance: BetsySmithMDSBedMobilityAdmission01
 InstanceOf: FunctionalStatus
@@ -94,6 +97,9 @@ InstanceOf: FunctionalStatus
 * performer[1]  = Reference(ccms-organization-01)
 * valueCodeableConcept = LNC#LA12638-5 "Supervision - oversight, encouragement or cueing"
 * derivedFrom = Reference(cms-QuestionnaireResponse-01)
+
+*/
+
 /*TODO: build out  the ADL
  45594-9	Walk in corridor			
  45596-4	Locomotion on unit			
@@ -136,6 +142,7 @@ InstanceOf: FunctionalStatus
  83272-5	Indicate the type of wheelchair or scooter used
 */
 
+/****************************************************************
 
 //88483-3	Functional Abilities and Goals - Discharge (End of SNF PPS Stay)			
 //83254-3	Self-Care - Discharge Performance			
@@ -178,12 +185,16 @@ InstanceOf: FunctionalStatus
  * derivedFrom = Reference(cms-QuestionnaireResponse-01) 
  * extension[event-location].valueReference =  Reference(cms-organization-location-01)
 
+*/
+
   /*TODO build out
    83226-1	Shower/bathe self			
    83224-6	Upper body dressing			
    83222-0	Lower body dressing			
    83220-4	Putting on/taking off footwear	
 */
+
+/***************************************************************************
 
 //  88331-4	Mobility - Discharge Performance			
 // 83218-8	Roll left and right			
@@ -293,6 +304,8 @@ InstanceOf: FunctionalStatus
 * derivedFrom = Reference(cms-QuestionnaireResponse-01)
 * extension[event-location].valueReference =  Reference(cms-organization-location-01)
 
+*/
+
 /*TODO BUILD OUT		
    83198-2	Walking 10 feet on uneven surfaces			
    83196-6	1 step (curb)			
@@ -312,6 +325,8 @@ InstanceOf: FunctionalStatus
 2.	discharged from SNF - MDS v3.0 – RAI v1.17.1 – Nursing home discharge (ND)
 86819-0	Functional Status			
 */ 
+
+/****************************************************************************
 
 //GG0130A1
 Instance: BetsySmithMDSEatingDischargeAdmissionPerformance01
@@ -391,12 +406,16 @@ InstanceOf: FunctionalStatus
 * derivedFrom = Reference(cms-QuestionnaireResponse-02)
 * extension[event-location].valueReference =  Reference(cms-organization-location-01)
 
+*/
+
   /*TODO build out
    83226-1	Shower/bathe self			
    83224-6	Upper body dressing			
    83222-0	Lower body dressing			
    83220-4	Putting on/taking off footwear	
 */
+
+/***************************************************************************
 
 //  88331-4	Mobility - Discharge Performance			
 // 83218-8	Roll left and right			
@@ -505,6 +524,8 @@ InstanceOf: FunctionalStatus
 * valueCodeableConcept = LNC#LA10055-4 "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
 * derivedFrom = Reference(cms-QuestionnaireResponse-02)
 * extension[event-location].valueReference =  Reference(cms-organization-location-01)
+
+*/
 
 /*TODO BUILD OUT		
    83198-2	Walking 10 feet on uneven surfaces			

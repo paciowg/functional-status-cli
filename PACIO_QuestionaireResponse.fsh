@@ -10,6 +10,7 @@ Description:    "A completed, or sections of a completed, CMS PAC assessment."
 * item.id ^binding.description = "This field contains the LOINC code."
 * questionnaire ^binding.description = "This field contains the URI for the assessment."
 
+/*************************************************************************
 Instance: cms-QuestionnaireResponse-01
 InstanceOf: PACIOfunctionalQuestionaireResponse
 * subject.reference  = "Betsy Smith"
@@ -194,6 +195,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[1].item[7].answer.valueReference = Reference(BetsySmithMDSWalk150feetDischarge01)
 * item[0].item[1].item[7].id = "83200-6"
 
+*/
 
  /*TODO BUILD OUT		
    83198-2	Walking 10 feet on uneven surfaces			

@@ -1,0 +1,239 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QuestionnaireResponse-2-Last3DSNFStay",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org//StructureDefinition/pacio-qr"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: QuestionnaireResponse-2-Last3DSNFStay</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"Q-MDS3-NC-1.17\">Q-MDS3-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-BetsySmith.html\">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>authored</b>: Dec 3, 2019 11:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88483-3</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - Discharge (End of SNF PPS Stay)</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+  },
+  "questionnaire": "Q-MDS3-NC-1.17",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "authored": "2019-12-03T18:00:00-05:00",
+  "item": [
+    {
+      "id": "88483-3",
+      "linkId": "Section GG",
+      "text": "Functional Abilities and Goals - Discharge (End of SNF PPS Stay)",
+      "item": [
+        {
+          "id": "88331-4",
+          "linkId": "Section GG/GG0170-3",
+          "text": "Mobility - Discharge Performance",
+          "item": [
+            {
+              "id": "83218-8",
+              "linkId": "Section GG/GG0170-3/A",
+              "text": "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-2"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83216-2",
+              "linkId": "Section GG/GG0170-3/B",
+              "text": "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-6"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83214-7",
+              "linkId": "Section GG/GG0170-3/C",
+              "text": "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-10"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83212-1",
+              "linkId": "Section GG/GG0170-3/D",
+              "text": "What was the patient's usual performance related to their ability come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-14"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83210-5",
+              "linkId": "Section GG/GG0170-3/E",
+              "text": "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-18"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83208-9",
+              "linkId": "Section GG/GG0170-3/F",
+              "text": "What was the patient's usual performance related to their ability to get on and off a toilet or commode?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-22"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83206-3",
+              "linkId": "Section GG/GG0170-3/G",
+              "text": "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-26"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83204-8",
+              "linkId": "Section GG/GG0170-3/I",
+              "text": "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-30"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83202-2",
+              "linkId": "Section GG/GG0170-3/J",
+              "text": "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-34"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83200-6",
+              "linkId": "Section GG/GG0170-3/K",
+              "text": "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-38"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83198-2",
+              "linkId": "Section GG/GG0170-3/L",
+              "text": "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-42"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83196-6",
+              "linkId": "Section GG/GG0170-3/M",
+              "text": "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-46"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83194-1",
+              "linkId": "Section GG/GG0170-3/N",
+              "text": "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-50"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83192-5",
+              "linkId": "Section GG/GG0170-3/O",
+              "text": "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-54"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83190-9",
+              "linkId": "Section GG/GG0170-3/P",
+              "text": "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-58"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83188-3",
+              "linkId": "Section GG/GG0170-3/R",
+              "text": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-62"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83235-2",
+              "linkId": "Section GG/GG0170-3/S",
+              "text": "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Assessment-2-Last3DSNFStay-Observation-66"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

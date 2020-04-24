@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-20> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Assessment-4-HHDischargePerf-Observation-20"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+       fhir:index 0;
+       fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Assessment-4-HHDischargePerf-Observation-20</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Chair/bed-to-chair transfer <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83210-5' = 'Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]', given as 'What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?'})</span></p><p><b>subject</b>: <a href=\"Patient-BetsySmith.html\">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>effective</b>: Dec 30, 2019 7:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-CMS-Practitioner-02.html\">Generated Summary: id: CMS-Practitioner-02; active; Steve Davidson ; gender: male</a></li><li><a href=\"Organization-CMS-Organization-02.html\">Organization. Generated Summary: id: CMS-Organization-02; name: Good Health Clinic</a></li></ul><p><b>value</b>: Independent <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA27993-7' = 'Independent - Resident completes the activity by him/herself with no assistance from a helper.', given as 'Chair/bed-to-chair transfer'})</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QuestionnaireResponse-4-HHDischargePerf.html\">QuestionnaireResponse. Generated Summary: id: QuestionnaireResponse-4-HHDischargePerf; questionnaire: Q-MDS3-NC-1.17; status: completed; authored: Dec 30, 2019 7:00:00 PM</a></p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <http://pacioproject.org/Location/CMS-Location-PTRES>;
+       fhir:Reference.reference [ fhir:value "Location/CMS-Location-PTRES" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:83210-5;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "83210-5" ];
+       fhir:Coding.display [ fhir:value "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Chair/bed-to-chair transfer" ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://pacioproject.org/Patient/BetsySmith>;
+     fhir:Reference.reference [ fhir:value "Patient/BetsySmith" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2019-12-30T14:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://pacioproject.org/Practitioner/CMS-Practitioner-02>;
+     fhir:Reference.reference [ fhir:value "Practitioner/CMS-Practitioner-02" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://pacioproject.org/Organization/CMS-Organization-02>;
+     fhir:Reference.reference [ fhir:value "Organization/CMS-Organization-02" ];
+     fhir:Reference.display [ fhir:value "Organization" ]
+  ];
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:LA27993-7;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "LA27993-7" ];
+       fhir:Coding.display [ fhir:value "Chair/bed-to-chair transfer" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Independent" ]
+  ];
+  fhir:Observation.derivedFrom [
+     fhir:index 0;
+     fhir:link <http://pacioproject.org/QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf>;
+     fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf" ];
+     fhir:Reference.display [ fhir:value "QuestionnaireResponse" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://pacioproject.org/Observation/Assessment-4-HHDischargePerf-Observation-20.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

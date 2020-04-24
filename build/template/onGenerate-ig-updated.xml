@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-04-17T10:10:36-04:00"/>
+   <date value="2020-04-24T04:59:43+00:00"/>
    <publisher value="Sean Mahoney"/>
    <contact>
       <name value="Sean Mahoney"/>
@@ -109,432 +109,12 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSBedMobilityAdmission01.html"/>
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BetsySmithMDSBedMobilityAdmission01"/>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission"/>
          </reference>
-         <name value="BetsySmithMDSBedMobilityAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSBedToChairAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSBedToChairAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSBedToChairAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSBedToChairDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSBedToChairDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSBedToChairDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSEatingAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSEatingAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSEatingAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01"/>
-         </reference>
-         <name value="BetsySmithMDSEatingDischargeAdmissionPerformance01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSEatingDischargePerformance01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSEatingDischargePerformance01"/>
-         </reference>
-         <name value="BetsySmithMDSEatingDischargePerformance01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSLyingToSittingAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSLyingToSittingAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSLyingToSittingAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSLyingToSittingDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSLyingToSittingDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSLyingToSittingDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSOralHygieneAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSOralHygieneAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSOralHygieneAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"/>
-         </reference>
-         <name value="BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSOralHygieneDischargePerformance01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSOralHygieneDischargePerformance01"/>
-         </reference>
-         <name value="BetsySmithMDSOralHygieneDischargePerformance01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSSitToLyingAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSSitToLyingAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSSitToLyingAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSSitToLyingDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSSitToLyingDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSSitToLyingDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSSitToStandAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSSitToStandAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSSitToStandAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSSitToStandDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSSitToStandDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSSitToStandDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSToiletTransferAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSToiletTransferAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSToiletTransferAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSToiletTransferDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSToiletTransferDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSToiletTransferDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSToiletingHygieneAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSToiletingHygieneAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSToiletingHygieneAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"/>
-         </reference>
-         <name value="BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSToiletingHygieneDischargePerformance01"/>
-         </reference>
-         <name value="BetsySmithMDSToiletingHygieneDischargePerformance01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSTransferAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSTransferAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSTransferAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk10feetAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSWalk10feetAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSWalk10feetAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk10feetDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSWalk10feetDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSWalk10feetDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk150feetAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSWalk150feetAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSWalk150feetAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk150feetDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSWalk150feetDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSWalk150feetDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk50feetAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSWalk50feetAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSWalk50feetAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalk50feetDischarge01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSWalk50feetDischarge01"/>
-         </reference>
-         <name value="BetsySmithMDSWalk50feetDischarge01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BetsySmithMDSWalkInRoomAdmission01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BetsySmithMDSWalkInRoomAdmission01"/>
-         </reference>
-         <name value="BetsySmithMDSWalkInRoomAdmission01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-cms-QuestionnaireResponse-01.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/cms-QuestionnaireResponse-01"/>
-         </reference>
-         <name value="cms-QuestionnaireResponse-01"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-cms-QuestionnaireResponse-02.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/cms-QuestionnaireResponse-02"/>
-         </reference>
-         <name value="cms-QuestionnaireResponse-02"/>
-         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-cms-bundle-01.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/cms-bundle-01"/>
-         </reference>
-         <name value="cms-bundle-01"/>
+         <name value="Assessment-1-First3DSNFAdmission"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -543,26 +123,1062 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-cms-bundle-02.html"/>
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-1.html"/>
          </extension>
          <reference>
-            <reference value="Observation/cms-bundle-02"/>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-1"/>
          </reference>
-         <name value="cms-bundle-02"/>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-1"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-13.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-13"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-13"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-17.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-17"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-17"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-21.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-21"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-21"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-25.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-25"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-25"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-29.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-29"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-29"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-33.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-33"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-33"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-37.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-37"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-37"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-41.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-41"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-41"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-45.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-45"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-45"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-49.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-49"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-49"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-5.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-5"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-5"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-53.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-53"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-53"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-57.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-57"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-57"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-61.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-61"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-61"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-65.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-65"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-65"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-1-First3DSNFAdmission-Observation-9.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-1-First3DSNFAdmission-Observation-9"/>
+         </reference>
+         <name value="Assessment-1-First3DSNFAdmission-Observation-9"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay"/>
          <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Organization"/>
+            <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Organization-cms-organization-01.html"/>
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-10.html"/>
          </extension>
          <reference>
-            <reference value="Organization/cms-organization-01"/>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-10"/>
          </reference>
-         <name value="cms-organization-01"/>
+         <name value="Assessment-2-Last3DSNFStay-Observation-10"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-14.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-14"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-14"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-18.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-18"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-18"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-2.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-2"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-2"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-22.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-22"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-22"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-26.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-26"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-26"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-30.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-30"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-30"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-34.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-34"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-34"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-38.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-38"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-38"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-42.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-42"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-42"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-46.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-46"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-46"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-50.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-50"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-50"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-54.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-54"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-54"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-58.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-58"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-58"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-6.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-6"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-6"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-62.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-62"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-62"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-2-Last3DSNFStay-Observation-66.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-2-Last3DSNFStay-Observation-66"/>
+         </reference>
+         <name value="Assessment-2-Last3DSNFStay-Observation-66"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-11.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-11"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-11"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-15.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-15"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-15"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-19.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-19"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-19"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-23.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-23"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-23"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-27.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-27"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-27"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-3.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-3"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-3"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-31.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-31"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-31"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-35.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-35"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-35"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-39.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-39"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-39"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-43.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-43"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-43"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-47.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-47"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-47"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-51.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-51"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-51"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-55.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-55"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-55"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-59.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-59"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-59"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-63.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-63"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-63"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-67.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-67"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-67"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-3-HHStartOfCarePerf-Observation-7.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-3-HHStartOfCarePerf-Observation-7"/>
+         </reference>
+         <name value="Assessment-3-HHStartOfCarePerf-Observation-7"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-12.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-12"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-12"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-16.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-16"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-16"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-20.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-20"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-20"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-24.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-24"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-24"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-28.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-28"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-28"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-32.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-32"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-32"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-36.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-36"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-36"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-4.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-4"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-4"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-40.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-40"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-40"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-44.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-44"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-44"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-48.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-48"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-48"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-52.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-52"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-52"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-56.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-56"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-56"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-60.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-60"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-60"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-64.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-64"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-64"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-68.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-68"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-68"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Assessment-4-HHDischargePerf-Observation-8.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Assessment-4-HHDischargePerf-Observation-8"/>
+         </reference>
+         <name value="Assessment-4-HHDischargePerf-Observation-8"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-BetsySmith.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/BetsySmith"/>
+         </reference>
+         <name value="BetsySmith"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-01"/>
+         </reference>
+         <name value="CMS-Encounter-01"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-02"/>
+         </reference>
+         <name value="CMS-Encounter-02"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-03.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-03"/>
+         </reference>
+         <name value="CMS-Encounter-03"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-04.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-04"/>
+         </reference>
+         <name value="CMS-Encounter-04"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -571,26 +1187,56 @@
             <valueString value="Location"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Location-cms-organization-location-01.html"/>
+            <valueUri value="Location-CMS-Location-PTRES.html"/>
          </extension>
          <reference>
-            <reference value="Location/cms-organization-location-01"/>
+            <reference value="Location/CMS-Location-PTRES"/>
          </reference>
-         <name value="cms-organization-location-01"/>
+         <name value="CMS-Location-PTRES"/>
+         <description value="Patient's Home"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
+            <valueString value="Location"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-cms-patient-01.html"/>
+            <valueUri value="Location-CMS-Location-SNF.html"/>
          </extension>
          <reference>
-            <reference value="Patient/cms-patient-01"/>
+            <reference value="Location/CMS-Location-SNF"/>
          </reference>
-         <name value="cms-patient-01"/>
+         <name value="CMS-Location-SNF"/>
+         <description value="Burgers Skilled Nursing Facility, South Wing, second floor"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-CMS-Organization-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/CMS-Organization-01"/>
+         </reference>
+         <name value="CMS-Organization-01"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-CMS-Organization-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/CMS-Organization-02"/>
+         </reference>
+         <name value="CMS-Organization-02"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -599,13 +1245,83 @@
             <valueString value="Practitioner"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Practitioner-cms-practitioner-01.html"/>
+            <valueUri value="Practitioner-CMS-Practitioner-01.html"/>
          </extension>
          <reference>
-            <reference value="Practitioner/cms-practitioner-01"/>
+            <reference value="Practitioner/CMS-Practitioner-01"/>
          </reference>
-         <name value="cms-practitioner-01"/>
+         <name value="CMS-Practitioner-01"/>
          <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-CMS-Practitioner-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/CMS-Practitioner-02"/>
+         </reference>
+         <name value="CMS-Practitioner-02"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="QuestionnaireResponse"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="QuestionnaireResponse-QuestionnaireResponse-1-First3DSNFAdmission.html"/>
+         </extension>
+         <reference>
+            <reference value="QuestionnaireResponse/QuestionnaireResponse-1-First3DSNFAdmission"/>
+         </reference>
+         <name value="QuestionnaireResponse-1-First3DSNFAdmission"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="QuestionnaireResponse"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="QuestionnaireResponse-QuestionnaireResponse-2-Last3DSNFStay.html"/>
+         </extension>
+         <reference>
+            <reference value="QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay"/>
+         </reference>
+         <name value="QuestionnaireResponse-2-Last3DSNFStay"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="QuestionnaireResponse"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="QuestionnaireResponse-QuestionnaireResponse-3-HHStartOfCarePerf.html"/>
+         </extension>
+         <reference>
+            <reference value="QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf"/>
+         </reference>
+         <name value="QuestionnaireResponse-3-HHStartOfCarePerf"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="QuestionnaireResponse"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="QuestionnaireResponse-QuestionnaireResponse-4-HHDischargePerf.html"/>
+         </extension>
+         <reference>
+            <reference value="QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf"/>
+         </reference>
+         <name value="QuestionnaireResponse-4-HHDischargePerf"/>
+         <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <page>
@@ -637,183 +1353,438 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSBedMobilityAdmission01.html"/>
-               <title value="BetsySmithMDSBedMobilityAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission.html"/>
+               <title value="Assessment-1-First3DSNFAdmission"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSBedToChairAdmission01.html"/>
-               <title value="BetsySmithMDSBedToChairAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-1.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-1"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSBedToChairDischarge01.html"/>
-               <title value="BetsySmithMDSBedToChairDischarge01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-13.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-13"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSEatingAdmission01.html"/>
-               <title value="BetsySmithMDSEatingAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-17.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-17"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSEatingDischargeAdmissionPerformance01.html"/>
-               <title value="BetsySmithMDSEatingDischargeAdmissionPerformance01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-21.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-21"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSEatingDischargePerformance01.html"/>
-               <title value="BetsySmithMDSEatingDischargePerformance01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-25.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-25"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSLyingToSittingAdmission01.html"/>
-               <title value="BetsySmithMDSLyingToSittingAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-29.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-29"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSLyingToSittingDischarge01.html"/>
-               <title value="BetsySmithMDSLyingToSittingDischarge01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-33.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-33"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSOralHygieneAdmission01.html"/>
-               <title value="BetsySmithMDSOralHygieneAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-37.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-37"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSOralHygieneDischargeAdmissionPerformance01.html"/>
-               <title value="BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-41.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-41"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSOralHygieneDischargePerformance01.html"/>
-               <title value="BetsySmithMDSOralHygieneDischargePerformance01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-45.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-45"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSSitToLyingAdmission01.html"/>
-               <title value="BetsySmithMDSSitToLyingAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-49.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-49"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSSitToLyingDischarge01.html"/>
-               <title value="BetsySmithMDSSitToLyingDischarge01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-5.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-5"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSSitToStandAdmission01.html"/>
-               <title value="BetsySmithMDSSitToStandAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-53.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-53"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSSitToStandDischarge01.html"/>
-               <title value="BetsySmithMDSSitToStandDischarge01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-57.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-57"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSToiletTransferAdmission01.html"/>
-               <title value="BetsySmithMDSToiletTransferAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-61.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-61"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSToiletTransferDischarge01.html"/>
-               <title value="BetsySmithMDSToiletTransferDischarge01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-65.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-65"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSToiletingHygieneAdmission01.html"/>
-               <title value="BetsySmithMDSToiletingHygieneAdmission01"/>
+               <nameUrl value="Observation-Assessment-1-First3DSNFAdmission-Observation-9.html"/>
+               <title value="Assessment-1-First3DSNFAdmission-Observation-9"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01.html"/>
-               <title value="BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay.html"/>
+               <title value="Assessment-2-Last3DSNFStay"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSToiletingHygieneDischargePerformance01.html"/>
-               <title value="BetsySmithMDSToiletingHygieneDischargePerformance01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-10.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-10"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSTransferAdmission01.html"/>
-               <title value="BetsySmithMDSTransferAdmission01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-14.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-14"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk10feetAdmission01.html"/>
-               <title value="BetsySmithMDSWalk10feetAdmission01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-18.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-18"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk10feetDischarge01.html"/>
-               <title value="BetsySmithMDSWalk10feetDischarge01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-2.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-2"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk150feetAdmission01.html"/>
-               <title value="BetsySmithMDSWalk150feetAdmission01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-22.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-22"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk150feetDischarge01.html"/>
-               <title value="BetsySmithMDSWalk150feetDischarge01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-26.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-26"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk50feetAdmission01.html"/>
-               <title value="BetsySmithMDSWalk50feetAdmission01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-30.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-30"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalk50feetDischarge01.html"/>
-               <title value="BetsySmithMDSWalk50feetDischarge01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-34.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-34"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BetsySmithMDSWalkInRoomAdmission01.html"/>
-               <title value="BetsySmithMDSWalkInRoomAdmission01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-38.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-38"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-cms-QuestionnaireResponse-01.html"/>
-               <title value="cms-QuestionnaireResponse-01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-42.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-42"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-cms-QuestionnaireResponse-02.html"/>
-               <title value="cms-QuestionnaireResponse-02"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-46.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-46"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-cms-bundle-01.html"/>
-               <title value="cms-bundle-01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-50.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-50"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-cms-bundle-02.html"/>
-               <title value="cms-bundle-02"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-54.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-54"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Organization-cms-organization-01.html"/>
-               <title value="cms-organization-01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-58.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-58"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Location-cms-organization-location-01.html"/>
-               <title value="cms-organization-location-01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-6.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-6"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Patient-cms-patient-01.html"/>
-               <title value="cms-patient-01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-62.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-62"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Practitioner-cms-practitioner-01.html"/>
-               <title value="cms-practitioner-01"/>
+               <nameUrl value="Observation-Assessment-2-Last3DSNFStay-Observation-66.html"/>
+               <title value="Assessment-2-Last3DSNFStay-Observation-66"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-11.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-11"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-15.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-15"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-19.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-19"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-23.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-23"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-27.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-27"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-3.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-3"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-31.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-31"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-35.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-35"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-39.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-39"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-43.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-43"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-47.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-47"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-51.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-51"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-55.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-55"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-59.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-59"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-63.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-63"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-67.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-67"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-3-HHStartOfCarePerf-Observation-7.html"/>
+               <title value="Assessment-3-HHStartOfCarePerf-Observation-7"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf.html"/>
+               <title value="Assessment-4-HHDischargePerf"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-12.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-12"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-16.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-16"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-20.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-20"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-24.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-24"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-28.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-28"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-32.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-32"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-36.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-36"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-4.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-4"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-40.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-40"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-44.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-44"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-48.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-48"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-52.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-52"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-56.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-56"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-60.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-60"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-64.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-64"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-68.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-68"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Assessment-4-HHDischargePerf-Observation-8.html"/>
+               <title value="Assessment-4-HHDischargePerf-Observation-8"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Patient-BetsySmith.html"/>
+               <title value="BetsySmith"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-01.html"/>
+               <title value="CMS-Encounter-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-02.html"/>
+               <title value="CMS-Encounter-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-03.html"/>
+               <title value="CMS-Encounter-03"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-04.html"/>
+               <title value="CMS-Encounter-04"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-CMS-Location-PTRES.html"/>
+               <title value="CMS-Location-PTRES"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-CMS-Location-SNF.html"/>
+               <title value="CMS-Location-SNF"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-CMS-Organization-01.html"/>
+               <title value="CMS-Organization-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-CMS-Organization-02.html"/>
+               <title value="CMS-Organization-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-CMS-Practitioner-01.html"/>
+               <title value="CMS-Practitioner-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-CMS-Practitioner-02.html"/>
+               <title value="CMS-Practitioner-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="QuestionnaireResponse-QuestionnaireResponse-1-First3DSNFAdmission.html"/>
+               <title value="QuestionnaireResponse-1-First3DSNFAdmission"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="QuestionnaireResponse-QuestionnaireResponse-2-Last3DSNFStay.html"/>
+               <title value="QuestionnaireResponse-2-Last3DSNFStay"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="QuestionnaireResponse-QuestionnaireResponse-3-HHStartOfCarePerf.html"/>
+               <title value="QuestionnaireResponse-3-HHStartOfCarePerf"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="QuestionnaireResponse-QuestionnaireResponse-4-HHDischargePerf.html"/>
+               <title value="QuestionnaireResponse-4-HHDischargePerf"/>
                <generation value="generated"/>
             </page>
          </page>
@@ -863,12 +1834,28 @@
          <value value="input/vocabulary"/>
       </parameter>
       <parameter>
+         <code value="path-resource"/>
+         <value value="input/maps"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/testing"/>
+      </parameter>
+      <parameter>
          <code value="path-pages"/>
          <value value="template/config"/>
       </parameter>
       <parameter>
          <code value="path-pages"/>
          <value value="input/images"/>
+      </parameter>
+      <parameter>
+         <code value="path-liquid"/>
+         <value value="template/liquid"/>
+      </parameter>
+      <parameter>
+         <code value="path-liquid"/>
+         <value value="input/liquid"/>
       </parameter>
       <parameter>
          <code value="path-qa"/>
@@ -889,6 +1876,10 @@
       <parameter>
          <code value="path-suppressed-warnings"/>
          <value value="input/ignoreWarnings.txt"/>
+      </parameter>
+      <parameter>
+         <code value="path-history"/>
+         <value value="http://pacioproject.org//history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>
