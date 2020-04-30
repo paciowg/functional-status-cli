@@ -7,7 +7,7 @@ InstanceOf: BundledFunctionalStatus
 * status = #final
 * effectiveDateTime = "2019-12-03T18:00:00-05:00"
 * code = LNC#88483-3
-* code.coding.display = "For the last 3 days of the SNF stay"
+* code.coding.display = "Functional Abilities and Goals - Discharge"
 * category = CAT#survey
 * performer = Reference(CMS-Practitioner-01)
 * performer[1] = Reference(CMS-Organization-01)
@@ -38,7 +38,7 @@ InstanceOf: BundledFunctionalStatus
 * status = #final
 * effectiveDateTime = "2019-12-04T18:00:00-05:00"
 * code = LNC#88482-5
-* code.coding.display = "Home Health Start of Care Performance"
+* code.coding.display = "Functional Abilities and Goals - Admission"
 * category = CAT#survey
 * performer = Reference(CMS-Practitioner-02)
 * performer[1] = Reference(CMS-Organization-02)
@@ -67,9 +67,9 @@ Instance: Assessment-1-First3DSNFAdmission
 InstanceOf: BundledFunctionalStatus
 * subject = Reference(BetsySmith)
 * status = #final
-* effectiveDateTime = "2019-11-21T14:21:00-05:00"
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
 * code = LNC#88482-5
-* code.coding.display = "Within the first 3 days of SNF admission"
+* code.coding.display = "Functional Abilities and Goals - Admission"
 * category = CAT#survey
 * performer = Reference(CMS-Practitioner-01)
 * performer[1] = Reference(CMS-Organization-01)
@@ -100,7 +100,7 @@ InstanceOf: BundledFunctionalStatus
 * status = #final
 * effectiveDateTime = "2019-12-30T14:00:00-05:00"
 * code = LNC#88483-3
-* code.coding.display = "Home Health Discharge Performance"
+* code.coding.display = "Functional Abilities and Goals - Discharge"
 * category = CAT#survey
 * performer = Reference(CMS-Practitioner-02)
 * performer[1] = Reference(CMS-Organization-02)

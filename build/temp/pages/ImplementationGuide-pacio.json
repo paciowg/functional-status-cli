@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-04-24T04:59:43+00:00",
+  "date": "2020-04-30T17:48:17+00:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -352,6 +352,24 @@
         },
         "name": "PACIO Questionaire Response",
         "description": "A completed, or sections of a completed, CMS PAC assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-pacio-dev.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/pacio-dev"
+        },
+        "name": "Use of Device",
+        "description": "A device used by a Patient during a functional status assessment.",
         "exampleBoolean": false
       },
       {
@@ -1834,6 +1852,40 @@
         },
         "name": "QuestionnaireResponse-4-HHDischargePerf",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-cms-device-01.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/cms-device-01"
+        },
+        "name": "cms-device-01",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-cms-deviceUse-01.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/cms-deviceUse-01"
+        },
+        "name": "cms-deviceUse-01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-dev"
       }
     ],
     "page": {

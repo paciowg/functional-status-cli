@@ -59,6 +59,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/pacio-dev"
+        },
+        "name": "Use of Device",
+        "description": "A device used by a Patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Observation/Assessment-1-First3DSNFAdmission"
         },
         "name": "Assessment-1-First3DSNFAdmission",
@@ -665,6 +673,20 @@
         },
         "name": "QuestionnaireResponse-4-HHDischargePerf",
         "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "Device/cms-device-01"
+        },
+        "name": "cms-device-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "DeviceUseStatement/cms-deviceUse-01"
+        },
+        "name": "cms-deviceUse-01",
+        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-dev"
       }
     ],
     "page": {

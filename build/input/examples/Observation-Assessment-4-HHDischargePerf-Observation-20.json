@@ -33,8 +33,7 @@
     "coding": [
       {
         "code": "LA27993-7",
-        "system": "http://loinc.org",
-        "display": "Chair/bed-to-chair transfer"
+        "system": "http://loinc.org"
       }
     ],
     "text": "Independent"
@@ -50,8 +49,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf",
-      "display": "QuestionnaireResponse"
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf"
     }
   ]
 }

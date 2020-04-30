@@ -33,8 +33,7 @@
     "coding": [
       {
         "code": "LA11759-0",
-        "system": "http://loinc.org",
-        "display": "4 steps"
+        "system": "http://loinc.org"
       }
     ],
     "text": "Substantial/maximal Assist"
@@ -50,8 +49,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf",
-      "display": "QuestionnaireResponse"
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf"
     }
   ]
 }

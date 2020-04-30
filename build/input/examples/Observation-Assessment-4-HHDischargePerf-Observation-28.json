@@ -33,8 +33,7 @@
     "coding": [
       {
         "code": "LA28870-6",
-        "system": "http://loinc.org",
-        "display": "Car transfer"
+        "system": "http://loinc.org"
       }
     ],
     "text": "Supervision or touching assistance"
@@ -50,8 +49,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf",
-      "display": "QuestionnaireResponse"
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-4-HHDischargePerf"
     }
   ]
 }

@@ -10,13 +10,13 @@
     "reference": "Patient/BetsySmith"
   },
   "status": "final",
-  "effectiveDateTime": "2019-11-21T14:21:00-05:00",
+  "effectiveDateTime": "2020-04-02T10:00:00-05:00",
   "code": {
     "coding": [
       {
         "code": "88482-5",
         "system": "http://loinc.org",
-        "display": "Within the first 3 days of SNF admission"
+        "display": "Functional Abilities and Goals - Admission"
       }
     ]
   },

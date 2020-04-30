@@ -33,8 +33,7 @@
     "coding": [
       {
         "code": "LA27996-0",
-        "system": "http://loinc.org",
-        "display": "Chair/bed-to-chair transfer"
+        "system": "http://loinc.org"
       }
     ],
     "text": "Partial/moderate Assist"
@@ -50,8 +49,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay",
-      "display": "QuestionnaireResponse"
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay"
     }
   ]
 }

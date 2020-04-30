@@ -17,9 +17,12 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: QuestionnaireResponse-3-HHStartOfCarePerf</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"Q-MDS3-NC-1.17\">Q-MDS3-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-BetsySmith.html\">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>authored</b>: Dec 4, 2019 11:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88482-5</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - Admission (Start of SNF PPS Stay)</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: QuestionnaireResponse-3-HHStartOfCarePerf</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-BetsySmith.html\">Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14</a></p><p><b>authored</b>: Dec 4, 2019 11:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88482-5</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table></blockquote></div>"
   ];
-  fhir:QuestionnaireResponse.questionnaire [ fhir:value "Q-MDS3-NC-1.17"];
+  fhir:QuestionnaireResponse.questionnaire [
+     fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";
+     fhir:link <https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17>
+  ];
   fhir:QuestionnaireResponse.status [ fhir:value "completed"];
   fhir:QuestionnaireResponse.subject [
      fhir:link <http://pacioproject.org/Patient/BetsySmith>;
@@ -30,16 +33,16 @@
      fhir:index 0;
      fhir:Element.id [ fhir:value "88482-5" ];
      fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG" ];
-     fhir:QuestionnaireResponse.item.text [ fhir:value "Functional Abilities and Goals - Admission (Start of SNF PPS Stay)" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Functional Abilities and Goals - Admission" ];
      fhir:QuestionnaireResponse.item.item [
        fhir:index 0;
        fhir:Element.id [ fhir:value "88330-6" ];
-       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1" ];
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1" ];
        fhir:QuestionnaireResponse.item.text [ fhir:value "Mobility - Admission Performance" ];
        fhir:QuestionnaireResponse.item.item [
          fhir:index 0;
          fhir:Element.id [ fhir:value "83218-8" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/A" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170A1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -51,7 +54,7 @@
        ], [
          fhir:index 1;
          fhir:Element.id [ fhir:value "83216-2" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/B" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170B1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -63,7 +66,7 @@
        ], [
          fhir:index 2;
          fhir:Element.id [ fhir:value "83214-7" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/C" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170C1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -75,7 +78,7 @@
        ], [
          fhir:index 3;
          fhir:Element.id [ fhir:value "83212-1" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/D" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170D1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -87,7 +90,7 @@
        ], [
          fhir:index 4;
          fhir:Element.id [ fhir:value "83210-5" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/E" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170E1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -99,7 +102,7 @@
        ], [
          fhir:index 5;
          fhir:Element.id [ fhir:value "83208-9" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/F" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170F1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to get on and off a toilet or commode?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -111,7 +114,7 @@
        ], [
          fhir:index 6;
          fhir:Element.id [ fhir:value "83206-3" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/G" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170G1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt." ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -123,7 +126,7 @@
        ], [
          fhir:index 7;
          fhir:Element.id [ fhir:value "83204-8" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/I" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170I1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -135,7 +138,7 @@
        ], [
          fhir:index 8;
          fhir:Element.id [ fhir:value "83202-2" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/J" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170J1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -147,7 +150,7 @@
        ], [
          fhir:index 9;
          fhir:Element.id [ fhir:value "83200-6" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/K" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170K1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -159,7 +162,7 @@
        ], [
          fhir:index 10;
          fhir:Element.id [ fhir:value "83198-2" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/L" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170L1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -171,7 +174,7 @@
        ], [
          fhir:index 11;
          fhir:Element.id [ fhir:value "83196-6" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/M" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170M1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -183,7 +186,7 @@
        ], [
          fhir:index 12;
          fhir:Element.id [ fhir:value "83194-1" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/N" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170N1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -195,7 +198,7 @@
        ], [
          fhir:index 13;
          fhir:Element.id [ fhir:value "83192-5" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/O" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170O1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -207,7 +210,7 @@
        ], [
          fhir:index 14;
          fhir:Element.id [ fhir:value "83190-9" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/P" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170P1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -219,7 +222,7 @@
        ], [
          fhir:index 15;
          fhir:Element.id [ fhir:value "83188-3" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/R" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170R1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
@@ -231,7 +234,7 @@
        ], [
          fhir:index 16;
          fhir:Element.id [ fhir:value "83235-2" ];
-         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170-1/S" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0170/1/GG0170S1" ];
          fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?" ];
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;

@@ -33,8 +33,7 @@
     "coding": [
       {
         "code": "LA27996-0",
-        "system": "http://loinc.org",
-        "display": "Walking 10 feet on uneven surfaces"
+        "system": "http://loinc.org"
       }
     ],
     "text": "Partial/moderate Assist"
@@ -50,8 +49,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf",
-      "display": "QuestionnaireResponse"
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf"
     }
   ]
 }

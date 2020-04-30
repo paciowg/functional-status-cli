@@ -33,8 +33,7 @@
     "coding": [
       {
         "code": "LA27994-5",
-        "system": "http://loinc.org",
-        "display": "Lying to sitting on side of bed"
+        "system": "http://loinc.org"
       }
     ],
     "text": "Setup or clean-up assistance"
@@ -50,8 +49,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay",
-      "display": "QuestionnaireResponse"
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-2-Last3DSNFStay"
     }
   ]
 }

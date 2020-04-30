@@ -252,12 +252,12 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "88482-5",
-  "display" : "Within the first 3 days of SNF admission"
+  "display" : "Functional Abilities and Goals - Admission"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Functional abilities and goals - admission [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Within the first 3 days of SNF admission\" is not a valid display for the code {http://loinc.org}88482-5 - should be one of [\"Functional abilities and goals - admission [CMS Assessment]\",]"
+  "error" : "The display \"Functional Abilities and Goals - Admission\" is not a valid display for the code {http://loinc.org}88482-5 - should be one of [\"Functional abilities and goals - admission [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -273,17 +273,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Roll left and right"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Roll left and right\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83212-1",
   "display" : "What was the patient's usual performance related to their ability come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -291,17 +280,6 @@ v: {
   "display" : "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?\" is not a valid display for the code {http://loinc.org}83212-1 - should be one of [\"Sit to stand - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Sit to stand"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Sit to stand\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -317,17 +295,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Chair/bed-to-chair transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Chair/bed-to-chair transfer\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83208-9",
   "display" : "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -335,17 +302,6 @@ v: {
   "display" : "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability to get on and off a toilet or commode?\" is not a valid display for the code {http://loinc.org}83208-9 - should be one of [\"Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Toilet transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Toilet transfer\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -361,17 +317,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Car transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Car transfer\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83204-8",
   "display" : "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -379,17 +324,6 @@ v: {
   "display" : "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?\" is not a valid display for the code {http://loinc.org}83204-8 - should be one of [\"Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Walk 10 feet"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 10 feet\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -405,17 +339,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Walk 50 feet with two turns"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 50 feet with two turns\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83200-6",
   "display" : "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -423,17 +346,6 @@ v: {
   "display" : "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83200-6 - should be one of [\"Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Walk 150 feet"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 150 feet\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -449,17 +361,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Walking 10 feet on uneven surfaces"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Walking 10 feet on uneven surfaces\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83196-6",
   "display" : "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -467,17 +368,6 @@ v: {
   "display" : "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?\" is not a valid display for the code {http://loinc.org}83196-6 - should be one of [\"1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA26735-3",
-  "display" : "1 step (curb)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Not attempted due to medical condition or safety concerns",
-  "severity" : "warning",
-  "error" : "The display \"1 step (curb)\" is not a valid display for the code {http://loinc.org}LA26735-3 - should be one of [\"Not attempted due to medical condition or safety concerns\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -493,17 +383,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA26735-3",
-  "display" : "4 steps"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Not attempted due to medical condition or safety concerns",
-  "severity" : "warning",
-  "error" : "The display \"4 steps\" is not a valid display for the code {http://loinc.org}LA26735-3 - should be one of [\"Not attempted due to medical condition or safety concerns\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83216-2",
   "display" : "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -511,17 +390,6 @@ v: {
   "display" : "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?\" is not a valid display for the code {http://loinc.org}83216-2 - should be one of [\"Sit to lying - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Sit to lying"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Sit to lying\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -537,17 +405,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA26735-3",
-  "display" : "12 steps"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Not attempted due to medical condition or safety concerns",
-  "severity" : "warning",
-  "error" : "The display \"12 steps\" is not a valid display for the code {http://loinc.org}LA26735-3 - should be one of [\"Not attempted due to medical condition or safety concerns\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83190-9",
   "display" : "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -555,17 +412,6 @@ v: {
   "display" : "Picking up object - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?\" is not a valid display for the code {http://loinc.org}83190-9 - should be one of [\"Picking up object - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "Picking up object"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Picking up object\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -581,17 +427,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Wheel 50 feet with two turns"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Wheel 50 feet with two turns\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "83235-2",
   "display" : "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -599,17 +434,6 @@ v: {
   "display" : "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83235-2 - should be one of [\"Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Wheel 150 feet"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Wheel 150 feet\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -625,397 +449,12 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Lying to sitting on side of bed"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Lying to sitting on side of bed\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "88483-3",
-  "display" : "For the last 3 days of the SNF stay"
+  "display" : "Functional Abilities and Goals - Discharge"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Functional abilities and goals - discharge [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"For the last 3 days of the SNF stay\" is not a valid display for the code {http://loinc.org}88483-3 - should be one of [\"Functional abilities and goals - discharge [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27994-5",
-  "display" : "Lying to sitting on side of bed"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity.",
-  "severity" : "warning",
-  "error" : "The display \"Lying to sitting on side of bed\" is not a valid display for the code {http://loinc.org}LA27994-5 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Sit to stand"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Sit to stand\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Chair/bed-to-chair transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Chair/bed-to-chair transfer\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Roll left and right"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Roll left and right\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Toilet transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Toilet transfer\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Car transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Car transfer\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Walk 10 feet"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 10 feet\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Walk 50 feet with two turns"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 50 feet with two turns\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Walking 10 feet on uneven surfaces"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Walking 10 feet on uneven surfaces\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "1 step (curb)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"1 step (curb)\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "4 steps"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"4 steps\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA11759-0",
-  "display" : "12 steps"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"12 steps\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "Picking up object"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Picking up object\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Sit to lying"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Sit to lying\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Wheel 50 feet with two turns"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Wheel 50 feet with two turns\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Wheel 150 feet"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Wheel 150 feet\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "88482-5",
-  "display" : "Home Health Start of Care Performance"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Functional abilities and goals - admission [CMS Assessment]",
-  "severity" : "warning",
-  "error" : "The display \"Home Health Start of Care Performance\" is not a valid display for the code {http://loinc.org}88482-5 - should be one of [\"Functional abilities and goals - admission [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Lying to sitting on side of bed"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Lying to sitting on side of bed\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Roll left and right"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Roll left and right\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "88483-3",
-  "display" : "Home Health Discharge Performance"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Functional abilities and goals - discharge [CMS Assessment]",
-  "severity" : "warning",
-  "error" : "The display \"Home Health Discharge Performance\" is not a valid display for the code {http://loinc.org}88483-3 - should be one of [\"Functional abilities and goals - discharge [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Lying to sitting on side of bed"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Lying to sitting on side of bed\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Sit to stand"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Sit to stand\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Chair/bed-to-chair transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Chair/bed-to-chair transfer\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Toilet transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Toilet transfer\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Car transfer"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Car transfer\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Walk 10 feet"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 10 feet\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Walk 50 feet with two turns"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 50 feet with two turns\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Walk 150 feet"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Walk 150 feet\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Walking 10 feet on uneven surfaces"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Walking 10 feet on uneven surfaces\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "1 step (curb)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"1 step (curb)\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "4 steps"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"4 steps\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27996-0",
-  "display" : "12 steps"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"12 steps\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA28870-6",
-  "display" : "Picking up object"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
-  "severity" : "warning",
-  "error" : "The display \"Picking up object\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA27993-7",
-  "display" : "Sit to lying"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Sit to lying\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
+  "error" : "The display \"Functional Abilities and Goals - Discharge\" is not a valid display for the code {http://loinc.org}88483-3 - should be one of [\"Functional abilities and goals - discharge [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------

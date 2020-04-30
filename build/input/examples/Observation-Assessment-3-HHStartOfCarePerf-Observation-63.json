@@ -33,8 +33,7 @@
     "coding": [
       {
         "code": "LA27993-7",
-        "system": "http://loinc.org",
-        "display": "Wheel 50 feet with two turns"
+        "system": "http://loinc.org"
       }
     ],
     "text": "Independent"
@@ -50,8 +49,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf",
-      "display": "QuestionnaireResponse"
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-3-HHStartOfCarePerf"
     }
   ]
 }

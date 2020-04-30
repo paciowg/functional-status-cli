@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CMS-Location-SNF"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Location-SNF</p><p><b>status</b>: active</p><p><b>name</b>: Burgers Skilled Nursing</p><p><b>description</b>: Burgers Skilled Nursing Facility, South Wing, second floor</p><p><b>type</b>: WI <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/location-physical-type code 'WI' = 'WI)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Location-SNF</p><p><b>status</b>: active</p><p><b>name</b>: Burgers Skilled Nursing</p><p><b>description</b>: Burgers Skilled Nursing Facility, South Wing, second floor</p><p><b>type</b>: Wing <span style=\"background: LightGoldenRodYellow\">(Details : {http://terminology.hl7.org/CodeSystem/location-physical-type code 'WI' = 'WI', given as 'Wing'})</span></p></div>"
   ];
   fhir:Location.status [ fhir:value "active"];
   fhir:Location.name [ fhir:value "Burgers Skilled Nursing"];
@@ -20,7 +20,8 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/location-physical-type" ];
-       fhir:Coding.code [ fhir:value "WI" ]
+       fhir:Coding.code [ fhir:value "WI" ];
+       fhir:Coding.display [ fhir:value "Wing" ]
      ]
   ] .
 

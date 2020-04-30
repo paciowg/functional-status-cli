@@ -35,6 +35,7 @@
       {
         "id": "QuestionnaireResponse.questionnaire",
         "path": "QuestionnaireResponse.questionnaire",
+        "short": "This field contains the URI for the PAC assessment.",
         "binding": {
           "description": "This field contains the URI for the assessment."
         }
