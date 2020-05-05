@@ -11,9 +11,9 @@
   fhir:Resource.id [ fhir:value "BetsySmithMDSSitToLyingAdmission01"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://pacioproject.org//StructureDefinition/pacio-fs";
+       fhir:value "http://pacioproject.org/StructureDefinition/pacio-fs";
        fhir:index 0;
-       fhir:link <http://pacioproject.org//StructureDefinition/pacio-fs>
+       fhir:link <http://pacioproject.org/StructureDefinition/pacio-fs>
      ]
   ];
   fhir:DomainResource.text [

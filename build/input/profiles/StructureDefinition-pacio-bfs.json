@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-bfs",
-  "url": "http://pacioproject.org//StructureDefinition/pacio-bfs",
+  "url": "http://pacioproject.org/StructureDefinition/pacio-bfs",
   "version": "0.1.0",
   "name": "BundledFunctionalStatus",
   "title": "Bundled Functional Status",
@@ -111,15 +111,7 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Practitioner"
-            ]
-          }
-        ]
+        "min": 1
       },
       {
         "id": "Observation.value[x]",

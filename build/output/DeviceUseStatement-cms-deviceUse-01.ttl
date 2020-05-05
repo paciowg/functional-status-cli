@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "cms-deviceUse-01"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://pacioproject.org//StructureDefinition/pacio-dev";
+       fhir:value "http://pacioproject.org/StructureDefinition/pacio-dev";
        fhir:index 0;
-       fhir:link <http://pacioproject.org//StructureDefinition/pacio-dev>
+       fhir:link <http://pacioproject.org/StructureDefinition/pacio-dev>
      ]
   ];
   fhir:DomainResource.text [

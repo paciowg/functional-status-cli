@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "cms-QuestionnaireResponse-02"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://pacioproject.org//StructureDefinition/pacio-qr";
+       fhir:value "http://pacioproject.org/StructureDefinition/pacio-qr";
        fhir:index 0;
-       fhir:link <http://pacioproject.org//StructureDefinition/pacio-qr>
+       fhir:link <http://pacioproject.org/StructureDefinition/pacio-qr>
      ]
   ];
   fhir:DomainResource.text [

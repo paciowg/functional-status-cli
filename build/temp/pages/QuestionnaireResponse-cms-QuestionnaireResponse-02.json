@@ -3,7 +3,7 @@
   "id": "cms-QuestionnaireResponse-02",
   "meta": {
     "profile": [
-      "http://pacioproject.org//StructureDefinition/pacio-qr"
+      "http://pacioproject.org/StructureDefinition/pacio-qr"
     ]
   },
   "text": {

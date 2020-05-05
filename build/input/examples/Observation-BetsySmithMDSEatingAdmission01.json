@@ -3,7 +3,7 @@
   "id": "BetsySmithMDSEatingAdmission01",
   "meta": {
     "profile": [
-      "http://pacioproject.org//StructureDefinition/pacio-fs"
+      "http://pacioproject.org/StructureDefinition/pacio-fs"
     ]
   },
   "extension": [

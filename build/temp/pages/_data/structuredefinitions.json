@@ -1,7 +1,7 @@
 {
   "pacio-bfs": {
     "index": 0,
-    "url": "http://pacioproject.org//StructureDefinition/pacio-bfs",
+    "url": "http://pacioproject.org/StructureDefinition/pacio-bfs",
     "name": "BundledFunctionalStatus",
     "path": "StructureDefinition-pacio-bfs.html",
     "kind": "resource",
@@ -10,13 +10,13 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Thu Apr 23 15:08:05 EDT 2020",
+    "date": "Tue May 05 10:19:46 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "An point in time bundle of functional status observations for a patient."
   },
   "pacio-fs": {
     "index": 1,
-    "url": "http://pacioproject.org//StructureDefinition/pacio-fs",
+    "url": "http://pacioproject.org/StructureDefinition/pacio-fs",
     "name": "FunctionalStatus",
     "path": "StructureDefinition-pacio-fs.html",
     "kind": "resource",
@@ -25,13 +25,13 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Thu Apr 23 15:08:05 EDT 2020",
+    "date": "Tue May 05 10:19:46 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "An exchange of functional status data for a patient."
   },
   "pacio-qr": {
     "index": 2,
-    "url": "http://pacioproject.org//StructureDefinition/pacio-qr",
+    "url": "http://pacioproject.org/StructureDefinition/pacio-qr",
     "name": "PACIOfunctionalQuestionaireResponse",
     "path": "StructureDefinition-pacio-qr.html",
     "kind": "resource",
@@ -40,13 +40,13 @@
     "basename": "QuestionnaireResponse",
     "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
     "status": "active",
-    "date": "Thu Apr 23 15:08:05 EDT 2020",
+    "date": "Tue May 05 10:19:46 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "A completed, or sections of a completed, CMS PAC assessment."
   },
   "pacio-dev": {
     "index": 3,
-    "url": "http://pacioproject.org//StructureDefinition/pacio-dev",
+    "url": "http://pacioproject.org/StructureDefinition/pacio-dev",
     "name": "UseOfDevice",
     "path": "StructureDefinition-pacio-dev.html",
     "kind": "resource",
@@ -55,7 +55,7 @@
     "basename": "DeviceUseStatement",
     "basepath": "http://hl7.org/fhir/R4/deviceusestatement.html",
     "status": "active",
-    "date": "Thu Apr 23 15:08:05 EDT 2020",
+    "date": "Tue May 05 10:19:46 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "A device used by a Patient during a functional status assessment."
   }

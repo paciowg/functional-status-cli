@@ -3,7 +3,7 @@
   "id": "cms-bundle-02",
   "meta": {
     "profile": [
-      "http://pacioproject.org//StructureDefinition/pacio-bfs"
+      "http://pacioproject.org/StructureDefinition/pacio-bfs"
     ]
   },
   "text": {

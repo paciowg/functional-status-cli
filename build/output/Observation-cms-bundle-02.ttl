@@ -11,9 +11,9 @@
   fhir:Resource.id [ fhir:value "cms-bundle-02"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://pacioproject.org//StructureDefinition/pacio-bfs";
+       fhir:value "http://pacioproject.org/StructureDefinition/pacio-bfs";
        fhir:index 0;
-       fhir:link <http://pacioproject.org//StructureDefinition/pacio-bfs>
+       fhir:link <http://pacioproject.org/StructureDefinition/pacio-bfs>
      ]
   ];
   fhir:DomainResource.text [

@@ -3,7 +3,7 @@
   "id": "cms-deviceUse-01",
   "meta": {
     "profile": [
-      "http://pacioproject.org//StructureDefinition/pacio-dev"
+      "http://pacioproject.org/StructureDefinition/pacio-dev"
     ]
   },
   "text": {

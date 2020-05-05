@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="pacio"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FunctionalStatusImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://pacioproject.org//ImplementationGuide/pacio</pre><div><p>TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FunctionalStatusImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://pacioproject.org/ImplementationGuide/pacio</pre><div><p>TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
 </div></div>
   </text>
-  <url value="http://pacioproject.org//ImplementationGuide/pacio"/>
+  <url value="http://pacioproject.org/ImplementationGuide/pacio"/>
   <version value="0.1.0"/>
   <name value="FunctionalStatusImplementationGuide"/>
   <title value="Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-04-23T15:08:05-04:00"/>
+  <date value="2020-05-05T10:19:46-04:00"/>
   <publisher value="Sean Mahoney"/>
   <contact>
     <name value="Sean Mahoney"/>
@@ -233,7 +233,7 @@
         <reference value="Observation/BetsySmithMDSBedMobilityAdmission01"/>
       </reference>
       <name value="BetsySmithMDSBedMobilityAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -246,7 +246,7 @@
         <reference value="Observation/BetsySmithMDSBedToChairAdmission01"/>
       </reference>
       <name value="BetsySmithMDSBedToChairAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -259,7 +259,7 @@
         <reference value="Observation/BetsySmithMDSBedToChairDischarge01"/>
       </reference>
       <name value="BetsySmithMDSBedToChairDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -272,7 +272,7 @@
         <reference value="Observation/BetsySmithMDSEatingAdmission01"/>
       </reference>
       <name value="BetsySmithMDSEatingAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -285,7 +285,7 @@
         <reference value="Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01"/>
       </reference>
       <name value="BetsySmithMDSEatingDischargeAdmissionPerformance01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -298,7 +298,7 @@
         <reference value="Observation/BetsySmithMDSEatingDischargePerformance01"/>
       </reference>
       <name value="BetsySmithMDSEatingDischargePerformance01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -311,7 +311,7 @@
         <reference value="Observation/BetsySmithMDSLyingToSittingAdmission01"/>
       </reference>
       <name value="BetsySmithMDSLyingToSittingAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -324,7 +324,7 @@
         <reference value="Observation/BetsySmithMDSLyingToSittingDischarge01"/>
       </reference>
       <name value="BetsySmithMDSLyingToSittingDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -337,7 +337,7 @@
         <reference value="Observation/BetsySmithMDSOralHygieneAdmission01"/>
       </reference>
       <name value="BetsySmithMDSOralHygieneAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -350,7 +350,7 @@
         <reference value="Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"/>
       </reference>
       <name value="BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -363,7 +363,7 @@
         <reference value="Observation/BetsySmithMDSOralHygieneDischargePerformance01"/>
       </reference>
       <name value="BetsySmithMDSOralHygieneDischargePerformance01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -376,7 +376,7 @@
         <reference value="Observation/BetsySmithMDSSitToLyingAdmission01"/>
       </reference>
       <name value="BetsySmithMDSSitToLyingAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -389,7 +389,7 @@
         <reference value="Observation/BetsySmithMDSSitToLyingDischarge01"/>
       </reference>
       <name value="BetsySmithMDSSitToLyingDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -402,7 +402,7 @@
         <reference value="Observation/BetsySmithMDSSitToStandAdmission01"/>
       </reference>
       <name value="BetsySmithMDSSitToStandAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -415,7 +415,7 @@
         <reference value="Observation/BetsySmithMDSSitToStandDischarge01"/>
       </reference>
       <name value="BetsySmithMDSSitToStandDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -428,7 +428,7 @@
         <reference value="Observation/BetsySmithMDSToiletTransferAdmission01"/>
       </reference>
       <name value="BetsySmithMDSToiletTransferAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -441,7 +441,7 @@
         <reference value="Observation/BetsySmithMDSToiletTransferDischarge01"/>
       </reference>
       <name value="BetsySmithMDSToiletTransferDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -454,7 +454,7 @@
         <reference value="Observation/BetsySmithMDSToiletingHygieneAdmission01"/>
       </reference>
       <name value="BetsySmithMDSToiletingHygieneAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -467,7 +467,7 @@
         <reference value="Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"/>
       </reference>
       <name value="BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -480,7 +480,7 @@
         <reference value="Observation/BetsySmithMDSToiletingHygieneDischargePerformance01"/>
       </reference>
       <name value="BetsySmithMDSToiletingHygieneDischargePerformance01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -493,7 +493,7 @@
         <reference value="Observation/BetsySmithMDSTransferAdmission01"/>
       </reference>
       <name value="BetsySmithMDSTransferAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -506,7 +506,7 @@
         <reference value="Observation/BetsySmithMDSWalk10feetAdmission01"/>
       </reference>
       <name value="BetsySmithMDSWalk10feetAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -519,7 +519,7 @@
         <reference value="Observation/BetsySmithMDSWalk10feetDischarge01"/>
       </reference>
       <name value="BetsySmithMDSWalk10feetDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -532,7 +532,7 @@
         <reference value="Observation/BetsySmithMDSWalk150feetAdmission01"/>
       </reference>
       <name value="BetsySmithMDSWalk150feetAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -545,7 +545,7 @@
         <reference value="Observation/BetsySmithMDSWalk150feetDischarge01"/>
       </reference>
       <name value="BetsySmithMDSWalk150feetDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -558,7 +558,7 @@
         <reference value="Observation/BetsySmithMDSWalk50feetAdmission01"/>
       </reference>
       <name value="BetsySmithMDSWalk50feetAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -571,7 +571,7 @@
         <reference value="Observation/BetsySmithMDSWalk50feetDischarge01"/>
       </reference>
       <name value="BetsySmithMDSWalk50feetDischarge01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -584,7 +584,7 @@
         <reference value="Observation/BetsySmithMDSWalkInRoomAdmission01"/>
       </reference>
       <name value="BetsySmithMDSWalkInRoomAdmission01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-fs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -597,7 +597,7 @@
         <reference value="QuestionnaireResponse/cms-QuestionnaireResponse-01"/>
       </reference>
       <name value="cms-QuestionnaireResponse-01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -610,7 +610,7 @@
         <reference value="QuestionnaireResponse/cms-QuestionnaireResponse-02"/>
       </reference>
       <name value="cms-QuestionnaireResponse-02"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -623,7 +623,7 @@
         <reference value="Observation/cms-bundle-01"/>
       </reference>
       <name value="cms-bundle-01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-bfs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -636,7 +636,7 @@
         <reference value="Observation/cms-bundle-02"/>
       </reference>
       <name value="cms-bundle-02"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-bfs"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-bfs"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -662,7 +662,7 @@
         <reference value="DeviceUseStatement/cms-deviceUse-01"/>
       </reference>
       <name value="cms-deviceUse-01"/>
-      <exampleCanonical value="http://pacioproject.org//StructureDefinition/pacio-dev"/>
+      <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-dev"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -715,6 +715,20 @@
       </reference>
       <name value="cms-practitioner-01"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CapabilityStatement-pacio-fs.html"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/pacio-fs"/>
+      </reference>
+      <name value="PACIO Functional Status Capability Statement"/>
+      <description value="This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide."/>
+      <exampleBoolean value="false"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

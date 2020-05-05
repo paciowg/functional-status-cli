@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "pacio",
-  "url": "http://pacioproject.org//ImplementationGuide/pacio",
+  "url": "http://pacioproject.org/ImplementationGuide/pacio",
   "version": "0.1.0",
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
@@ -70,224 +70,224 @@
           "reference": "Observation/BetsySmithMDSBedMobilityAdmission01"
         },
         "name": "BetsySmithMDSBedMobilityAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSBedToChairAdmission01"
         },
         "name": "BetsySmithMDSBedToChairAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSBedToChairDischarge01"
         },
         "name": "BetsySmithMDSBedToChairDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSEatingAdmission01"
         },
         "name": "BetsySmithMDSEatingAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01"
         },
         "name": "BetsySmithMDSEatingDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSEatingDischargePerformance01"
         },
         "name": "BetsySmithMDSEatingDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSLyingToSittingAdmission01"
         },
         "name": "BetsySmithMDSLyingToSittingAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSLyingToSittingDischarge01"
         },
         "name": "BetsySmithMDSLyingToSittingDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
         },
         "name": "BetsySmithMDSOralHygieneAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"
         },
         "name": "BetsySmithMDSOralHygieneDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSOralHygieneDischargePerformance01"
         },
         "name": "BetsySmithMDSOralHygieneDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSSitToLyingAdmission01"
         },
         "name": "BetsySmithMDSSitToLyingAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSSitToLyingDischarge01"
         },
         "name": "BetsySmithMDSSitToLyingDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSSitToStandAdmission01"
         },
         "name": "BetsySmithMDSSitToStandAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSSitToStandDischarge01"
         },
         "name": "BetsySmithMDSSitToStandDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSToiletTransferAdmission01"
         },
         "name": "BetsySmithMDSToiletTransferAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSToiletTransferDischarge01"
         },
         "name": "BetsySmithMDSToiletTransferDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission01"
         },
         "name": "BetsySmithMDSToiletingHygieneAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"
         },
         "name": "BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSToiletingHygieneDischargePerformance01"
         },
         "name": "BetsySmithMDSToiletingHygieneDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSTransferAdmission01"
         },
         "name": "BetsySmithMDSTransferAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSWalk10feetAdmission01"
         },
         "name": "BetsySmithMDSWalk10feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSWalk10feetDischarge01"
         },
         "name": "BetsySmithMDSWalk10feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSWalk150feetAdmission01"
         },
         "name": "BetsySmithMDSWalk150feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSWalk150feetDischarge01"
         },
         "name": "BetsySmithMDSWalk150feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSWalk50feetAdmission01"
         },
         "name": "BetsySmithMDSWalk50feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSWalk50feetDischarge01"
         },
         "name": "BetsySmithMDSWalk50feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "Observation/BetsySmithMDSWalkInRoomAdmission01"
         },
         "name": "BetsySmithMDSWalkInRoomAdmission01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-fs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
         },
         "name": "cms-QuestionnaireResponse-01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-02"
         },
         "name": "cms-QuestionnaireResponse-02",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-qr"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-qr"
       },
       {
         "reference": {
           "reference": "Observation/cms-bundle-01"
         },
         "name": "cms-bundle-01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bfs"
       },
       {
         "reference": {
           "reference": "Observation/cms-bundle-02"
         },
         "name": "cms-bundle-02",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-bfs"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bfs"
       },
       {
         "reference": {
@@ -301,7 +301,7 @@
           "reference": "DeviceUseStatement/cms-deviceUse-01"
         },
         "name": "cms-deviceUse-01",
-        "exampleCanonical": "http://pacioproject.org//StructureDefinition/pacio-dev"
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-dev"
       },
       {
         "reference": {
@@ -330,6 +330,14 @@
         },
         "name": "cms-practitioner-01",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/pacio-fs"
+        },
+        "name": "PACIO Functional Status Capability Statement",
+        "description": "This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide.",
+        "exampleBoolean": false
       }
     ],
     "page": {
