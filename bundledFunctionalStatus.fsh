@@ -9,11 +9,11 @@ Title:          "Bundled Functional Status"
 Description:    "An point in time bundle of functional status observations for a patient."
 * subject 1..1
 * subject only Reference(Patient)
-* code from LNC 
+* code from LNC
 *  performer 1..*
-* performer only Reference(Practitioner)
+* performer ^binding.description = "The person who performed the assessment."
 * value[x] only CodeableConcept
-* category 1..1 
+* category 1..1
 * category from CAT (preferred)
 * category ^binding.description = "If this is from a Post-Acute Care Assessment, value should be survey."
 * extension contains ObservationLocation named event-location 0..1 MS
