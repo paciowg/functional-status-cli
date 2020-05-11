@@ -3,7 +3,7 @@
   "id": "cms-deviceUse-01",
   "meta": {
     "profile": [
-      "http://pacioproject.org/StructureDefinition/pacio-dev"
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
     ]
   },
   "subject": {
@@ -11,7 +11,7 @@
   },
   "derivedFrom": [
     {
-      "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
+      "reference": "cms-QuestionnaireResponse-01"
     }
   ],
   "device": {

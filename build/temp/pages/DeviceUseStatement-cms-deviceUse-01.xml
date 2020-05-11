@@ -3,17 +3,17 @@
 <DeviceUseStatement xmlns="http://hl7.org/fhir">
   <id value="cms-deviceUse-01"/>
   <meta>
-    <profile value="http://pacioproject.org/StructureDefinition/pacio-dev"/>
+    <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-deviceUse-01</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>subject</b>: <a href="BetsySmith">BetsySmith</a></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-cms-QuestionnaireResponse-01.html">Generated Summary: id: cms-QuestionnaireResponse-01; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed</a></p><p><b>device</b>: <a href="Device-cms-device-01.html">Generated Summary: id: cms-device-01; </a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: cms-deviceUse-01</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>subject</b>: <a href="BetsySmith">BetsySmith</a></p><p><b>derivedFrom</b>: <a href="cms-QuestionnaireResponse-01">cms-QuestionnaireResponse-01</a></p><p><b>device</b>: <a href="Device-cms-device-01.html">Generated Summary: id: cms-device-01; </a></p></div>
   </text>
   <status value="active"/>
   <subject>
     <reference value="BetsySmith"/>
   </subject>
   <derivedFrom>
-    <reference value="QuestionnaireResponse/cms-QuestionnaireResponse-01"/>
+    <reference value="cms-QuestionnaireResponse-01"/>
   </derivedFrom>
   <device>
     <reference value="Device/cms-device-01"/>

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://pacioproject.org/CapabilityStatement/pacio-fs> a fhir:CapabilityStatement;
+<https://paciowg.github.io/functional-status-ig/CapabilityStatement/pacio-fs> a fhir:CapabilityStatement;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "pacio-fs"];
   fhir:DomainResource.text [
@@ -1285,7 +1285,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://pacioproject.org/CapabilityStatement/pacio-fs.ttl> a owl:Ontology;
+<https://paciowg.github.io/functional-status-ig/CapabilityStatement/pacio-fs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

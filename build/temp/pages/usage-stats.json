@@ -6,19 +6,19 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://pacioproject.org/StructureDefinition/pacio-fs",
+        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
         "title": "Functional Status"
       }
     ],
     "DeviceUseStatement": [
       {
-        "url": "http://pacioproject.org/StructureDefinition/pacio-dev",
+        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
         "title": "Use of Device"
       }
     ],
     "QuestionnaireResponse": [
       {
-        "url": "http://pacioproject.org/StructureDefinition/pacio-qr",
+        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr",
         "title": "PACIO Questionaire Response"
       }
     ]

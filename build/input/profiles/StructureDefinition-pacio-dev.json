@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-dev",
-  "url": "http://pacioproject.org/StructureDefinition/pacio-dev",
+  "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
   "version": "0.1.0",
   "name": "UseOfDevice",
   "title": "Use of Device",

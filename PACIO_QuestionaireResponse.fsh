@@ -11,6 +11,8 @@ Description:    "A completed, or sections of a completed, CMS PAC assessment."
 * questionnaire ^binding.description = "This field contains the URI for the assessment."
 * questionnaire ^short = "This field contains the URI for the PAC assessment."
 
+/*************************************************************************
+
 Instance: cms-QuestionnaireResponse-01
 InstanceOf: PACIOfunctionalQuestionaireResponse
 * subject.reference  = "Betsy Smith"

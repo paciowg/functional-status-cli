@@ -18,7 +18,7 @@ Description:    "An point in time bundle of functional status observations for a
 * extension contains ObservationLocation named event-location 0..1 MS 
 
 
-
+/*
 Instance: cms-patient-01
 InstanceOf: Patient
 * name.given = "Betsy"
@@ -82,3 +82,4 @@ InstanceOf: BundledFunctionalStatus
 * hasMember[9] = Reference(BetsySmithMDSWalk50feetDischarge01)
 * hasMember[10] = Reference(BetsySmithMDSWalk150feetDischarge01)
 * extension[event-location].valueReference =  Reference(cms-organization-location-01)
+*/

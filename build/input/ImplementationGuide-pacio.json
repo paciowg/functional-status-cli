@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "pacio",
-  "url": "http://pacioproject.org/ImplementationGuide/pacio",
+  "url": "https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio",
   "version": "0.1.0",
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
@@ -67,227 +67,1298 @@
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSBedMobilityAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission"
         },
-        "name": "BetsySmithMDSBedMobilityAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSBedToChairAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-1"
         },
-        "name": "BetsySmithMDSBedToChairAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSBedToChairDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-13"
         },
-        "name": "BetsySmithMDSBedToChairDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-13",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSEatingAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-19"
         },
-        "name": "BetsySmithMDSEatingAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-19",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischargeAdmissionPerformance01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-25"
         },
-        "name": "BetsySmithMDSEatingDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-25",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSEatingDischargePerformance01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-31"
         },
-        "name": "BetsySmithMDSEatingDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-31",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSLyingToSittingAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-37"
         },
-        "name": "BetsySmithMDSLyingToSittingAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-37",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSLyingToSittingDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-43"
         },
-        "name": "BetsySmithMDSLyingToSittingDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-43",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-49"
         },
-        "name": "BetsySmithMDSOralHygieneAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-49",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneDischargeAdmissionPerformance01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-55"
         },
-        "name": "BetsySmithMDSOralHygieneDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-55",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSOralHygieneDischargePerformance01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-61"
         },
-        "name": "BetsySmithMDSOralHygieneDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-61",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSSitToLyingAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-67"
         },
-        "name": "BetsySmithMDSSitToLyingAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-67",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSSitToLyingDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-7"
         },
-        "name": "BetsySmithMDSSitToLyingDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSSitToStandAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-73"
         },
-        "name": "BetsySmithMDSSitToStandAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-73",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSSitToStandDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-79"
         },
-        "name": "BetsySmithMDSSitToStandDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-79",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSToiletTransferAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-85"
         },
-        "name": "BetsySmithMDSToiletTransferAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-85",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSToiletTransferDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-91"
         },
-        "name": "BetsySmithMDSToiletTransferDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-91",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-97"
         },
-        "name": "BetsySmithMDSToiletingHygieneAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-Ob-97",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay"
         },
-        "name": "BetsySmithMDSToiletingHygieneDischargeAdmissionPerformance01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSToiletingHygieneDischargePerformance01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-14"
         },
-        "name": "BetsySmithMDSToiletingHygieneDischargePerformance01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-14",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSTransferAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-2"
         },
-        "name": "BetsySmithMDSTransferAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk10feetAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-20"
         },
-        "name": "BetsySmithMDSWalk10feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-20",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk10feetDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-26"
         },
-        "name": "BetsySmithMDSWalk10feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-26",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk150feetAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-32"
         },
-        "name": "BetsySmithMDSWalk150feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-32",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk150feetDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-38"
         },
-        "name": "BetsySmithMDSWalk150feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-38",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk50feetAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-44"
         },
-        "name": "BetsySmithMDSWalk50feetAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-44",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalk50feetDischarge01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-50"
         },
-        "name": "BetsySmithMDSWalk50feetDischarge01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-50",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/BetsySmithMDSWalkInRoomAdmission01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-56"
         },
-        "name": "BetsySmithMDSWalkInRoomAdmission01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-fs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-56",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-62"
         },
-        "name": "cms-QuestionnaireResponse-01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-qr"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-62",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-02"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-68"
         },
-        "name": "cms-QuestionnaireResponse-02",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-qr"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-68",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/cms-bundle-01"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-74"
         },
-        "name": "cms-bundle-01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bfs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-74",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
       },
       {
         "reference": {
-          "reference": "Observation/cms-bundle-02"
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-8"
         },
-        "name": "cms-bundle-02",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bfs"
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-8",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-80"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-80",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-86"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-86",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-92"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-92",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-98"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-98",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-15"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-15",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-21"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-21",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-27"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-27",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-3"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-33"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-33",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-39"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-39",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-45"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-45",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-51"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-51",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-57"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-57",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-63"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-63",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-69"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-69",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-75"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-75",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-81"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-81",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-87"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-87",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-9"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-93"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-93",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-99"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-Ob-99",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-10"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-10",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-100"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-100",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-16"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-16",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-22"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-22",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-28"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-28",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-34"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-34",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-4"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-40"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-40",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-46"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-46",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-52"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-52",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-58"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-58",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-64"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-64",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-70"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-70",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-76"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-76",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-82"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-82",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-88"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-88",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-94"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-94",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-101"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-101",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-11"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-11",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-17"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-17",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-23"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-23",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-29"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-29",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-35"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-35",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-41"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-41",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-47"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-47",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-5"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-53"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-53",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-59"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-59",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-65"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-65",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-71"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-71",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-77"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-77",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-83"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-83",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-89"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-89",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-95"
+        },
+        "name": "Connectathon-Assessment-FS-5-HHStartOfCarePerf-Ob-95",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-102"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-102",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-12"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-12",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-18"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-18",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-24"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-24",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-30"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-30",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-36"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-36",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-42"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-42",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-48"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-48",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-54"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-54",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-6"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-60"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-60",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-66"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-66",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-72"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-72",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-78"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-78",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-84"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-84",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-90"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-90",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-6-HHDischargePerf-Ob-96"
+        },
+        "name": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-96",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-12"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-12",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-18"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-18",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-24"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-24",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-30"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-30",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-36"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-36",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-42"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-42",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-6"
+        },
+        "name": "Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare-Ob-11"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-11",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare-Ob-17"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-17",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare-Ob-23"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-23",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare-Ob-29"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-29",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare-Ob-35"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-35",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare-Ob-41"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-41",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HHStart-SelfCare-Ob-5"
+        },
+        "name": "Connectathon-Assessment-FS-HHStart-SelfCare-Ob-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-1"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-13"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-13",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-19"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-19",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-25"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-25",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-31"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-31",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-37"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-37",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-7"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-14"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-14",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-2"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-20"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-20",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-26"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-26",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-32"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-32",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-38"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-38",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-8"
+        },
+        "name": "Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-8",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-15"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-15",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-21"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-21",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-27"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-27",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-3"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-33"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-33",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-39"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-39",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-9"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-10"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-10",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-16"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-16",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-22"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-22",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-28"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-28",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-34"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-34",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-4"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-40"
+        },
+        "name": "Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-40",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Organization/Connectathon-Org-01"
+        },
+        "name": "Connectathon-Org-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/Connectathon-Org-02"
+        },
+        "name": "Connectathon-Org-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/Connectathon-Org-03"
+        },
+        "name": "Connectathon-Org-03",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Connectathon-Org-Loc-01"
+        },
+        "name": "Connectathon-Org-Loc-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Connectathon-Org-Loc-02"
+        },
+        "name": "Connectathon-Org-Loc-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Connectathon-Org-Loc-03"
+        },
+        "name": "Connectathon-Org-Loc-03",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-DanielGranger"
+        },
+        "name": "Connectathon-Practitioner-DanielGranger",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-HoneyJones"
+        },
+        "name": "Connectathon-Practitioner-HoneyJones",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-JenCadbury"
+        },
+        "name": "Connectathon-Practitioner-JenCadbury",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-JennyGlass"
+        },
+        "name": "Connectathon-Practitioner-JennyGlass",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-LunaBaskins"
+        },
+        "name": "Connectathon-Practitioner-LunaBaskins",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-RonBurgendy"
+        },
+        "name": "Connectathon-Practitioner-RonBurgendy",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-RonMarble"
+        },
+        "name": "Connectathon-Practitioner-RonMarble",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-SallySmith"
+        },
+        "name": "Connectathon-Practitioner-SallySmith",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Connectathon-Practitioner-ScottDumble"
+        },
+        "name": "Connectathon-Practitioner-ScottDumble",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-1-First3DHospAdmission"
+        },
+        "name": "Connectathon-QuestResponse-FS-1-First3DHospAdmission",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-2-Last3DHospStay"
+        },
+        "name": "Connectathon-QuestResponse-FS-2-Last3DHospStay",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-3-First3DSNFAdmission"
+        },
+        "name": "Connectathon-QuestResponse-FS-3-First3DSNFAdmission",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-4-Last3DSNFStay"
+        },
+        "name": "Connectathon-QuestResponse-FS-4-Last3DSNFStay",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-5-HHStartOfCarePerf"
+        },
+        "name": "Connectathon-QuestResponse-FS-5-HHStartOfCarePerf",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-6-HHDischargePerf"
+        },
+        "name": "Connectathon-QuestResponse-FS-6-HHDischargePerf",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HHDischarge-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-HHDischarge-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HHStart-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-HHStart-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HospAdmission-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-HospAdmission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HospLast3DStay-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-HospLast3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Admission-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-SNF-Admission-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Connectathon-Role-PT"
+        },
+        "name": "Connectathon-Role-PT",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Connectathon-Role-RN"
+        },
+        "name": "Connectathon-Role-RN",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -301,34 +1372,13 @@
           "reference": "DeviceUseStatement/cms-deviceUse-01"
         },
         "name": "cms-deviceUse-01",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-dev"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
         "reference": {
-          "reference": "Organization/cms-organization-01"
+          "reference": "Patient/patientBSJ1"
         },
-        "name": "cms-organization-01",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/cms-organization-location-01"
-        },
-        "name": "cms-organization-location-01",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Patient/cms-patient-01"
-        },
-        "name": "cms-patient-01",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Practitioner/cms-practitioner-01"
-        },
-        "name": "cms-practitioner-01",
+        "name": "patientBSJ1",
         "exampleBoolean": true
       },
       {

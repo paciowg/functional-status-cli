@@ -51,7 +51,7 @@ MDS v3.0 - RAI v1.17.1 - Activities of daily living (ADL) assistance - self-perf
 */
 // 86880-2	Activities of Daily Living (ADL) Assistance. Self-Performance			
 //45588-1	Bed mobility	
-
+/*
 Instance: cms-organization-location-01
 InstanceOf: Location
 * name = "ABC Skilled Nursing Facility location"
@@ -136,7 +136,7 @@ InstanceOf: FunctionalStatus
  83272-5	Indicate the type of wheelchair or scooter used
 */
 
-
+/*
 //88483-3	Functional Abilities and Goals - Discharge (End of SNF PPS Stay)			
 //83254-3	Self-Care - Discharge Performance			
 //   83232-9	Eating			
@@ -188,7 +188,8 @@ InstanceOf: FunctionalStatus
 //  88331-4	Mobility - Discharge Performance			
 // 83218-8	Roll left and right			
   
-//   83216-2	Sit to lying			
+//   83216-2	Sit to lying		
+/*	
 Instance: BetsySmithMDSSitToLyingAdmission01
 InstanceOf: FunctionalStatus
 * status = #final
@@ -312,7 +313,7 @@ InstanceOf: FunctionalStatus
 2.	discharged from SNF - MDS v3.0 – RAI v1.17.1 – Nursing home discharge (ND)
 86819-0	Functional Status			
 */ 
-
+/*
 //GG0130A1
 Instance: BetsySmithMDSEatingDischargeAdmissionPerformance01
 InstanceOf: FunctionalStatus
@@ -401,7 +402,8 @@ InstanceOf: FunctionalStatus
 //  88331-4	Mobility - Discharge Performance			
 // 83218-8	Roll left and right			
   
-//   83216-2	Sit to lying			
+//   83216-2	Sit to lying		
+/*	
 Instance: BetsySmithMDSSitToLyingDischarge01
 InstanceOf: FunctionalStatus
 * status = #final

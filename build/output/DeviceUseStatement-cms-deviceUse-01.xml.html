@@ -37,8 +37,8 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"2.39"}
-    h3,h4,h5,h6{--heading-prefix:"2.39"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.192"}
+    h3,h4,h5,h6{--heading-prefix:"2.192"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
         
@@ -97,7 +97,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="http://pacioproject.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <a name="root"> </a>
   <h2 id="root">cms-deviceUse-01 - XML Representation</h2>
   <p>
@@ -118,18 +118,19 @@
 &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement">DeviceUseStatement</a> xmlns="http://hl7.org/fhir"&gt;
   &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="cms-deviceUse-01"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://pacioproject.org/StructureDefinition/pacio-dev"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/&gt;
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: cms-deviceUse-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="BetsySmith"&gt;BetsySmith&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href="QuestionnaireResponse-cms-QuestionnaireResponse-01.html"&gt;Generated Summary: id: cms-QuestionnaireResponse-01; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;device&lt;/b&gt;: &lt;a href="Device-cms-device-01.html"&gt;Generated Summary: id: cms-device-01; &lt;/a&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: cms-deviceUse-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href="BetsySmith"&gt;BetsySmith&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href="cms-QuestionnaireResponse-01"&gt;cms-QuestionnaireResponse-01&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;device&lt;/b&gt;: &lt;a href="Device-cms-device-01.html"&gt;Generated Summary: id: cms-device-01; &lt;/a&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.subject">subject</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="BetsySmith"/&gt;
   &lt;/subject&gt;
   &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.derivedFrom">derivedFrom</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="QuestionnaireResponse/cms-QuestionnaireResponse-01"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="cms-QuestionnaireResponse-01"/&gt;
   &lt;/derivedFrom&gt;
   &lt;<a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.device">device</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Device/cms-device-01"/&gt;
@@ -149,8 +150,8 @@
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="06fb0374-b665-439e-b1a0-6b04f3525227">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 5, 2020 10:19-0400">2020-05-05</span>
+        <p><a name="650be7ae-a9e6-4b1c-a8ad-c0cae8d688ef">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 11, 2020 11:17-0400">2020-05-11</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
