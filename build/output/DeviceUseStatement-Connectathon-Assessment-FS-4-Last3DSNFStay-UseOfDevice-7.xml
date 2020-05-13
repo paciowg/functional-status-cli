@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeviceUseStatement xmlns="http://hl7.org/fhir">
+  <id value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7"/>
+  <meta>
+    <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href="Observation-Connectathon-Assessment-FS-4-Last3DSNFStay.html">Generated Summary: id: Connectathon-Assessment-FS-4-Last3DSNFStay; <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 88331-4}">Mobility - Discharge Performance</span>; effective: Apr 23, 2020, 2:00:00 PM</a></p><p><b>recordedOn</b>: Apr 23, 2020, 2:00:00 PM</p><p><b>source</b>: <a href="Practitioner-Connectathon-Practitioner-DanielGranger.html">Generated Summary: id: Connectathon-Practitioner-DanielGranger; active; Daniel Granger ; gender: male</a></p><p><b>device</b>: <a href="Device-CMS-Device-6.html">Generated Summary: id: CMS-Device-6; <span title="Codes: {http://snomed.info/sct 360303004}">Hand rail</span></a></p></div>
+  </text>
+  <status value="active"/>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <derivedFrom>
+    <reference value="Observation/Connectathon-Assessment-FS-4-Last3DSNFStay"/>
+  </derivedFrom>
+  <recordedOn value="2020-04-23T13:00:00-05:00"/>
+  <source>
+    <reference value="Practitioner/Connectathon-Practitioner-DanielGranger"/>
+  </source>
+  <device>
+    <reference value="Device/CMS-Device-6"/>
+  </device>
+</DeviceUseStatement>

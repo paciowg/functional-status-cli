@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+  <id value="Connectathon-QuestResponse-SNF-Admission-IADL"/>
+  <meta>
+    <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-QuestResponse-SNF-Admission-IADL</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 9, 2020, 4:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: tbd-code-1</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - IADL</p><h3>Items</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></div>
+  </text>
+  <questionnaire value="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"/>
+  <status value="completed"/>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <authored value="2020-04-09T15:00:00-05:00"/>
+  <item id="tbd-code-1">
+    <linkId value="Section GG"/>
+    <text value="Functional Abilities and Goals - IADL"/>
+    <item id=" tbd-code-2">
+      <linkId value="Section GG/GG0185/7"/>
+      <text value="Instrumental Activities of Daily Living - Usual"/>
+      <item id="tbd-code-4">
+        <linkId value="Section GG/GG0185/7/GG0185A7"/>
+        <text value="Makes a light cold meal"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-1"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-5">
+        <linkId value="Section GG/GG0185/7/GG0185B7"/>
+        <text value="Makes a hot meal"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-3"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-6">
+        <linkId value="Section GG/GG0185/7/GG0185C7"/>
+        <text value="Light daily housework"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-5"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-7">
+        <linkId value="Section GG/GG0185/7/GG0185D7"/>
+        <text value="Heavier periodic housework"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-7"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-8">
+        <linkId value="Section GG/GG0185/7/GG0185E7"/>
+        <text value="Light shopping"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-9"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-9">
+        <linkId value="Section GG/GG0185/7/GG0185F7"/>
+        <text value="Telephone-answering call"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-11"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-10">
+        <linkId value="Section GG/GG0185/7/GG0185G7"/>
+        <text value="Telephone-placing call"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-13"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-11">
+        <linkId value="Section GG/GG0185/7/GG0185H7"/>
+        <text value="Medication management-oral medications"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-15"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-12">
+        <linkId value="Section GG/GG0185/7/GG0185I7"/>
+        <text value="Medication management-inhalant/mist medications"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-17"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-13">
+        <linkId value="Section GG/GG0185/7/GG0185J7"/>
+        <text value="Medication management-injectable medications"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-19"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-14">
+        <linkId value="Section GG/GG0185/7/GG0185K7"/>
+        <text value="Simple financial management"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-21"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-15">
+        <linkId value="Section GG/GG0185/7/GG0185L7"/>
+        <text value="Complex financial management"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-23"/>
+          </valueReference>
+        </answer>
+      </item>
+    </item>
+    <item id=" tbd-code-3">
+      <linkId value="Section GG/GG0185/8"/>
+      <text value="Instrumental Activities of Daily Living - Most Dependent"/>
+      <item id="tbd-code-16">
+        <linkId value="Section GG/GG0185/8/GG0185A8"/>
+        <text value="Makes a light cold meal"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-25"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-17">
+        <linkId value="Section GG/GG0185/8/GG0185B8"/>
+        <text value="Makes a hot meal"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-27"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-18">
+        <linkId value="Section GG/GG0185/8/GG0185C8"/>
+        <text value="Light daily housework"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-29"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-19">
+        <linkId value="Section GG/GG0185/8/GG0185D8"/>
+        <text value="Heavier periodic housework"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-31"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-20">
+        <linkId value="Section GG/GG0185/8/GG0185E8"/>
+        <text value="Light shopping"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-33"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-21">
+        <linkId value="Section GG/GG0185/8/GG0185F8"/>
+        <text value="Telephone-answering call"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-35"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-22">
+        <linkId value="Section GG/GG0185/8/GG0185G8"/>
+        <text value="Telephone-placing call"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-37"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-23">
+        <linkId value="Section GG/GG0185/8/GG0185H8"/>
+        <text value="Medication management-oral medications"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-39"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-24">
+        <linkId value="Section GG/GG0185/8/GG0185I8"/>
+        <text value="Medication management-inhalant/mist medications"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-41"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-25">
+        <linkId value="Section GG/GG0185/8/GG0185J8"/>
+        <text value="Medication management-injectable medications"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-43"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-26">
+        <linkId value="Section GG/GG0185/7/GG0185K8"/>
+        <text value="Simple financial management"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-45"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="tbd-code-27">
+        <linkId value="Section GG/GG0185/7/GG0185L8"/>
+        <text value="Complex financial management"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-47"/>
+          </valueReference>
+        </answer>
+      </item>
+    </item>
+  </item>
+</QuestionnaireResponse>

@@ -16,6 +16,24 @@
       "valueReference": {
         "reference": "Location/Connectathon-Org-Loc-01"
       }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16"
+      }
     }
   ],
   "status": "final",

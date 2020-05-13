@@ -13,6 +13,21 @@
       <reference value="Location/Connectathon-Org-Loc-01"/>
     </valueReference>
   </extension>
+  <extension url="https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used">
+    <valueReference>
+      <reference value="DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14"/>
+    </valueReference>
+  </extension>
+  <extension url="https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used">
+    <valueReference>
+      <reference value="DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15"/>
+    </valueReference>
+  </extension>
+  <extension url="https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used">
+    <valueReference>
+      <reference value="DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16"/>
+    </valueReference>
+  </extension>
   <status value="final"/>
   <category>
     <coding>

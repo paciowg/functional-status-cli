@@ -8,9 +8,9 @@
   "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
   "version": "0.1.0",
   "name": "UseOfDevice",
-  "title": "Use of Device",
+  "title": "UseOfDevice",
   "status": "active",
-  "date": "2020-05-11T11:17:22-04:00",
+  "date": "2020-05-13T13:19:29-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {

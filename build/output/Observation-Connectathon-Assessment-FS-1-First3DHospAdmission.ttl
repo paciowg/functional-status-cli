@@ -27,6 +27,27 @@
        fhir:link <https://paciowg.github.io/functional-status-ig/Location/Connectathon-Org-Loc-01>;
        fhir:Reference.reference [ fhir:value "Location/Connectathon-Org-Loc-01" ]
      ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.valueReference [
+       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14>;
+       fhir:Reference.reference [ fhir:value "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.valueReference [
+       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15>;
+       fhir:Reference.reference [ fhir:value "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.valueReference [
+       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16>;
+       fhir:Reference.reference [ fhir:value "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16" ]
+     ]
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.category [

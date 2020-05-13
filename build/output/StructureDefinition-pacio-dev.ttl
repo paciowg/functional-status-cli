@@ -15,9 +15,9 @@
   fhir:StructureDefinition.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "UseOfDevice"];
-  fhir:StructureDefinition.title [ fhir:value "Use of Device"];
+  fhir:StructureDefinition.title [ fhir:value "UseOfDevice"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-05-11T11:17:22-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-05-13T13:19:29-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Sean Mahoney"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

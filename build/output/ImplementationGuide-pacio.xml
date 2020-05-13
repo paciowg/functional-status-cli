@@ -11,7 +11,7 @@
   <name value="FunctionalStatusImplementationGuide"/>
   <title value="Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-05-11T11:17:22-04:00"/>
+  <date value="2020-05-13T13:19:29-04:00"/>
   <publisher value="Sean Mahoney"/>
   <contact>
     <name value="Sean Mahoney"/>
@@ -218,9 +218,140 @@
       <reference>
         <reference value="StructureDefinition/pacio-dev"/>
       </reference>
-      <name value="Use of Device"/>
+      <name value="UseOfDevice"/>
       <description value="A device used by a Patient during a functional status assessment."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-device-patient-used.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device-patient-used"/>
+      </reference>
+      <name value="DevicePatientUsed"/>
+      <description value="A device used by a patient during a functional status assessment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-1.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-1"/>
+      </reference>
+      <name value="CMS-Device-1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-2.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-2"/>
+      </reference>
+      <name value="CMS-Device-2"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-3.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-3"/>
+      </reference>
+      <name value="CMS-Device-3"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-4.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-4"/>
+      </reference>
+      <name value="CMS-Device-4"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-5.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-5"/>
+      </reference>
+      <name value="CMS-Device-5"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-6.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-6"/>
+      </reference>
+      <name value="CMS-Device-6"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-7.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-7"/>
+      </reference>
+      <name value="CMS-Device-7"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-8.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-8"/>
+      </reference>
+      <name value="CMS-Device-8"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Device-CMS-Device-9.html"/>
+      </extension>
+      <reference>
+        <reference value="Device/CMS-Device-9"/>
+      </reference>
+      <name value="CMS-Device-9"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -458,6 +589,45 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -689,6 +859,84 @@
       </reference>
       <name value="Connectathon-Assessment-FS-2-Last3DHospStay-Ob-98"/>
       <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-10.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-10"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-10"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-11.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-11"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-11"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-12.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-12"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-12"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-13.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-13"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-13"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-8.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-8"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-8"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-9.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-9"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-9"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -926,6 +1174,84 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-17.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-17"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-17"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-18.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-18"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-18"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-19.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-19"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-19"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-20.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-20"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-20"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-21.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-21"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-21"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-22.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-22"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-22"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -1157,6 +1483,97 @@
       </reference>
       <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-94"/>
       <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-1.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-1"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-1"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-2.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-2"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-2"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-3.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-3"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-3"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-4.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-4"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-4"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-5.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-5"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-5"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-6.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-6"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-6"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DeviceUseStatement"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7.html"/>
+      </extension>
+      <reference>
+        <reference value="DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7"/>
+      </reference>
+      <name value="Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2252,6 +2669,656 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-1.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-1"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-1"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-11.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-11"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-11"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-13.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-13"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-13"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-15.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-15"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-15"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-17.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-17"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-17"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-19.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-19"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-19"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-21.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-21"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-21"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-23.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-23"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-23"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-25.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-25"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-25"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-27.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-27"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-27"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-29.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-29"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-29"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-3.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-3"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-3"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-31.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-31"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-31"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-33.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-33"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-33"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-35.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-35"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-35"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-37.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-37"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-37"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-39.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-39"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-39"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-41.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-41"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-41"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-43.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-43"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-43"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-45.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-45"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-45"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-47.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-47"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-47"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-5.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-5"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-5"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-7.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-7"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-7"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-9.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-9"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Admission-IADL-Ob-9"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-10.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-10"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-10"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-12.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-12"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-12"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-14.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-14"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-14"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-18.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-18"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-18"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-2.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-2"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-2"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-20.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-20"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-20"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-22.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-22"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-22"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-24.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-24"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-24"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-26.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-26"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-26"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-28.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-28"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-28"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-30.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-30"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-30"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-34.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-34"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-34"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-36.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-36"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-36"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-38.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-38"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-38"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-4.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-4"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-4"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-40.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-40"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-40"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-42.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-42"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-42"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-44.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-44"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-44"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-46.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-46"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-46"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-48.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-48"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-48"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-6.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-6"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-6"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-8.html"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-8"/>
+      </reference>
+      <name value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-8"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -2599,6 +3666,32 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-Connectathon-QuestResponse-SNF-Admission-IADL.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL"/>
+      </reference>
+      <name value="Connectathon-QuestResponse-SNF-Admission-IADL"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="QuestionnaireResponse"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="QuestionnaireResponse-Connectathon-QuestResponse-SNF-Last3DStay-IADL.html"/>
+      </extension>
+      <reference>
+        <reference value="QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL"/>
+      </reference>
+      <name value="Connectathon-QuestResponse-SNF-Last3DStay-IADL"/>
       <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
     </resource>
     <resource>

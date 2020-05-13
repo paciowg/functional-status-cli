@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-05-11T11:17:22-04:00",
+  "date": "2020-05-13T13:19:29-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -329,9 +329,180 @@
         "reference": {
           "reference": "StructureDefinition/pacio-dev"
         },
-        "name": "Use of Device",
+        "name": "UseOfDevice",
         "description": "A device used by a Patient during a functional status assessment.",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-device-patient-used.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/device-patient-used"
+        },
+        "name": "DevicePatientUsed",
+        "description": "A device used by a patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-1.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-1"
+        },
+        "name": "CMS-Device-1",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-2.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-2"
+        },
+        "name": "CMS-Device-2",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-3.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-3"
+        },
+        "name": "CMS-Device-3",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-4.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-4"
+        },
+        "name": "CMS-Device-4",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-5.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-5"
+        },
+        "name": "CMS-Device-5",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-6.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-6"
+        },
+        "name": "CMS-Device-6",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-7.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-7"
+        },
+        "name": "CMS-Device-7",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-8.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-8"
+        },
+        "name": "CMS-Device-8",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Device-CMS-Device-9.html"
+          }
+        ],
+        "reference": {
+          "reference": "Device/CMS-Device-9"
+        },
+        "name": "CMS-Device-9",
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -643,6 +814,57 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14"
+        },
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-14",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15"
+        },
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-15",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16"
+        },
+        "name": "Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Observation"
           },
           {
@@ -944,6 +1166,108 @@
         },
         "name": "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-98",
         "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-10.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-10"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-10",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-11.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-11"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-11",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-12.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-12"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-12",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-13.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-13"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-13",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-8.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-8"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-8",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-9.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-9"
+        },
+        "name": "Connectathon-Assessment-FS-2-Last3DHospStay-UseOfDevice-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
         "extension": [
@@ -1255,6 +1579,108 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-17.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-17"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-17",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-18.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-18"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-18",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-19.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-19"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-19",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-20.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-20"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-20",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-21.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-21"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-21",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-22.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-22"
+        },
+        "name": "Connectathon-Assessment-FS-3-First3DSNFAdmission-UseOfDevice-22",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Observation"
           },
           {
@@ -1556,6 +1982,125 @@
         },
         "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-Ob-94",
         "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-1.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-1"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-2.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-2"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-3.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-3"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-4.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-4"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-5.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-5"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-6.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-6"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "DeviceUseStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "DeviceUseStatement-Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7.html"
+          }
+        ],
+        "reference": {
+          "reference": "DeviceUseStatement/Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7"
+        },
+        "name": "Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
         "extension": [
@@ -2989,6 +3534,856 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-1.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-1"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-1",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-11.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-11"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-11",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-13.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-13"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-13",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-15.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-15"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-15",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-17.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-17"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-17",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-19.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-19"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-19",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-21.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-21"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-21",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-23.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-23"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-23",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-25.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-25"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-25",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-27.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-27"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-27",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-29.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-29"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-29",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-3.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-3"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-3",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-31.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-31"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-31",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-33.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-33"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-33",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-35.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-35"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-35",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-37.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-37"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-37",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-39.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-39"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-39",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-41.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-41"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-41",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-43.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-43"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-43",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-45.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-45"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-45",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-47.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-47"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-47",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-5.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-5"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-5",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-7.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-7"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-7",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Admission-IADL-Ob-9.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-9"
+        },
+        "name": "Connectathon-Assessment-SNF-Admission-IADL-Ob-9",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-10.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-10"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-10",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-12.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-12"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-12",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-14.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-14"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-14",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-18.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-18"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-18",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-2.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-2"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-2",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-20.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-20"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-20",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-22.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-22"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-22",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-24.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-24"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-24",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-26.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-26"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-26",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-28.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-28"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-28",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-30.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-30"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-30",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-34.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-34"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-34",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-36.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-36"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-36",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-38.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-38"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-38",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-4.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-4"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-4",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-40.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-40"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-40",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-42.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-42"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-42",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-44.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-44"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-44",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-46.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-46"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-46",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-48.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-48"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-48",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-6.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-6"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-6",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-8.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-8"
+        },
+        "name": "Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-8",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Organization"
           },
           {
@@ -3442,6 +4837,40 @@
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "QuestionnaireResponse"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "QuestionnaireResponse-Connectathon-QuestResponse-SNF-Admission-IADL.html"
+          }
+        ],
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL"
+        },
+        "name": "Connectathon-QuestResponse-SNF-Admission-IADL",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "QuestionnaireResponse"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "QuestionnaireResponse-Connectathon-QuestResponse-SNF-Last3DStay-IADL.html"
+          }
+        ],
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL"
+        },
+        "name": "Connectathon-QuestResponse-SNF-Last3DStay-IADL",
         "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
       },
       {

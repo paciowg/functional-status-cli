@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeviceUseStatement xmlns="http://hl7.org/fhir">
+  <id value="Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16"/>
+  <meta>
+    <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-1-First3DHospAdmission-UseOfDevice-16</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href="Observation-Connectathon-Assessment-FS-1-First3DHospAdmission.html">Generated Summary: id: Connectathon-Assessment-FS-1-First3DHospAdmission; <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 88330-6}">Mobility - Admission Performance</span>; effective: Apr 2, 2020, 11:00:00 AM</a></p><p><b>recordedOn</b>: Apr 2, 2020, 11:00:00 AM</p><p><b>source</b>: <a href="Practitioner-Connectathon-Practitioner-SallySmith.html">Generated Summary: id: Connectathon-Practitioner-SallySmith; active; Sally Smith ; gender: female</a></p><p><b>device</b>: <a href="Device-CMS-Device-2.html">Generated Summary: id: CMS-Device-2; <span title="Codes: {http://snomed.info/sct 466317003}">Basic walker, foldable</span></a></p></div>
+  </text>
+  <status value="active"/>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <derivedFrom>
+    <reference value="Observation/Connectathon-Assessment-FS-1-First3DHospAdmission"/>
+  </derivedFrom>
+  <recordedOn value="2020-04-02T10:00:00-05:00"/>
+  <source>
+    <reference value="Practitioner/Connectathon-Practitioner-SallySmith"/>
+  </source>
+  <device>
+    <reference value="Device/CMS-Device-2"/>
+  </device>
+</DeviceUseStatement>

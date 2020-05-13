@@ -77,6 +77,20 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.extension:device-use",
+        "path": "Observation.extension",
+        "sliceName": "device-use",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Observation.category",
         "path": "Observation.category",
         "min": 1,
@@ -111,7 +125,10 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "min": 1
+        "min": 1,
+        "binding": {
+          "description": "The person who performed the assessment."
+        }
       },
       {
         "id": "Observation.value[x]",

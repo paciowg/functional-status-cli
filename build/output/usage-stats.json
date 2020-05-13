@@ -2,7 +2,15 @@
   "package": "pacio",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "title": "DevicePatientUsed",
+      "types": [
+        "Reference"
+      ]
+    }
+  ],
   "profiles": {
     "Observation": [
       {
@@ -13,7 +21,7 @@
     "DeviceUseStatement": [
       {
         "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
-        "title": "Use of Device"
+        "title": "UseOfDevice"
       }
     ],
     "QuestionnaireResponse": [
@@ -60,6 +68,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used": [
+      "Observation"
     ]
   }
 }

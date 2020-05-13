@@ -1,0 +1,330 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "Connectathon-QuestResponse-SNF-Last3DStay-IADL",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-QuestResponse-SNF-Last3DStay-IADL</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 23, 2020, 2:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: tbd-code-1</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - IADL</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+  },
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "authored": "2020-04-23T13:00:00-05:00",
+  "item": [
+    {
+      "id": "tbd-code-1",
+      "linkId": "Section GG",
+      "text": "Functional Abilities and Goals - IADL",
+      "item": [
+        {
+          "id": " tbd-code-2",
+          "linkId": "Section GG/GG0185/7",
+          "text": "Instrumental Activities of Daily Living - Usual",
+          "item": [
+            {
+              "id": "tbd-code-4",
+              "linkId": "Section GG/GG0185/7/GG0185A7",
+              "text": "Makes a light cold meal",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-2"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-5",
+              "linkId": "Section GG/GG0185/7/GG0185B7",
+              "text": "Makes a hot meal",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-4"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-6",
+              "linkId": "Section GG/GG0185/7/GG0185C7",
+              "text": "Light daily housework",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-6"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-7",
+              "linkId": "Section GG/GG0185/7/GG0185D7",
+              "text": "Heavier periodic housework",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-8"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-8",
+              "linkId": "Section GG/GG0185/7/GG0185E7",
+              "text": "Light shopping",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-10"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-9",
+              "linkId": "Section GG/GG0185/7/GG0185F7",
+              "text": "Telephone-answering call",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-12"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-10",
+              "linkId": "Section GG/GG0185/7/GG0185G7",
+              "text": "Telephone-placing call",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-14"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-11",
+              "linkId": "Section GG/GG0185/7/GG0185H7",
+              "text": "Medication management-oral medications",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-12",
+              "linkId": "Section GG/GG0185/7/GG0185I7",
+              "text": "Medication management-inhalant/mist medications",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-18"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-13",
+              "linkId": "Section GG/GG0185/7/GG0185J7",
+              "text": "Medication management-injectable medications",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-20"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-14",
+              "linkId": "Section GG/GG0185/7/GG0185K7",
+              "text": "Simple financial management",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-22"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-15",
+              "linkId": "Section GG/GG0185/7/GG0185L7",
+              "text": "Complex financial management",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-24"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": " tbd-code-3",
+          "linkId": "Section GG/GG0185/8",
+          "text": "Instrumental Activities of Daily Living - Usual",
+          "item": [
+            {
+              "id": "tbd-code-16",
+              "linkId": "Section GG/GG0185/8/GG0185A8",
+              "text": "Makes a light cold meal",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-26"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-17",
+              "linkId": "Section GG/GG0185/8/GG0185B8",
+              "text": "Makes a hot meal",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-28"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-18",
+              "linkId": "Section GG/GG0185/8/GG0185C8",
+              "text": "Light daily housework",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-30"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-19",
+              "linkId": "Section GG/GG0185/8/GG0185D8",
+              "text": "Heavier periodic housework",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-32"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-20",
+              "linkId": "Section GG/GG0185/8/GG0185E8",
+              "text": "Light shopping",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-34"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-21",
+              "linkId": "Section GG/GG0185/8/GG0185F8",
+              "text": "Telephone-answering call",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-36"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-22",
+              "linkId": "Section GG/GG0185/8/GG0185G8",
+              "text": "Telephone-placing call",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-38"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-23",
+              "linkId": "Section GG/GG0185/8/GG0185H8",
+              "text": "Medication management-oral medications",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-40"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-24",
+              "linkId": "Section GG/GG0185/8/GG0185I8",
+              "text": "Medication management-inhalant/mist medications",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-42"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-25",
+              "linkId": "Section GG/GG0185/8/GG0185J8",
+              "text": "Medication management-injectable medications",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-44"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-26",
+              "linkId": "Section GG/GG0185/7/GG0185K8",
+              "text": "Simple financial management",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-46"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "tbd-code-27",
+              "linkId": "Section GG/GG0185/7/GG0185L8",
+              "text": "Complex financial management",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-48"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
