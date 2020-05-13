@@ -2,23 +2,31 @@
   "package": "pacio",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://pacioproject.org/StructureDefinition/device-patient-used",
+      "title": "DevicePatientUsed",
+      "types": [
+        "Reference"
+      ]
+    }
+  ],
   "profiles": {
     "Observation": [
       {
-        "url": "http://pacioproject.org//StructureDefinition/pacio-fs",
+        "url": "http://pacioproject.org/StructureDefinition/pacio-fs",
         "title": "Functional Status"
       }
     ],
     "DeviceUseStatement": [
       {
-        "url": "http://pacioproject.org//StructureDefinition/pacio-dev",
-        "title": "Use of Device"
+        "url": "http://pacioproject.org/StructureDefinition/pacio-dev",
+        "title": "UseOfDevice"
       }
     ],
     "QuestionnaireResponse": [
       {
-        "url": "http://pacioproject.org//StructureDefinition/pacio-qr",
+        "url": "http://pacioproject.org/StructureDefinition/pacio-qr",
         "title": "PACIO Questionaire Response"
       }
     ]
@@ -56,6 +64,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://pacioproject.org/StructureDefinition/device-patient-used": [
+      "Observation"
     ]
   }
 }

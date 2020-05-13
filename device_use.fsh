@@ -5,7 +5,7 @@ Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-locat
 Profile:        UseOfDevice
 Parent:         DeviceUseStatement
 Id:             pacio-dev
-Title:          "Use of Device"
+Title:          "UseOfDevice"
 Description:    "A device used by a Patient during a functional status assessment."
 * subject 1..1
 * subject only Reference(Patient)

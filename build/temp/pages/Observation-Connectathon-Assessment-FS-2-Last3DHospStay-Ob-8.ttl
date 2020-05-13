@@ -1,0 +1,83 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://pacioproject.org/Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-8> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Connectathon-Assessment-FS-2-Last3DHospStay-Ob-8"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://pacioproject.org/StructureDefinition/pacio-fs";
+       fhir:index 0;
+       fhir:link <http://pacioproject.org/StructureDefinition/pacio-fs>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-2-Last3DHospStay-Ob-8</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Sit to lying <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83216-2' = 'Sit to lying - functional ability during 3 day assessment period [CMS Assessment]', given as 'What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?'})</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 9, 2020 7:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Connectathon-Practitioner-RonMarble.html\">Generated Summary: id: Connectathon-Practitioner-RonMarble; active; Ron Marble ; gender: male</a></li><li><a href=\"PractitionerRole-Connectathon-Role-PT.html\">Generated Summary: id: Connectathon-Role-PT; active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Connectathon-Org-01.html\">Organization. Generated Summary: id: Connectathon-Org-01; name: San Antonio General Hospital</a></li></ul><p><b>value</b>: Partial/moderate Assist <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA27996-0' = 'Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.', given as 'Partial/moderate Assist'})</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-Connectathon-QuestResponse-FS-2-Last3DHospStay.html\">Generated Summary: id: Connectathon-QuestResponse-FS-2-Last3DHospStay; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 9, 2020 7:00:00 PM</a></p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <http://pacioproject.org/Location/Connectathon-Org-Loc-01>;
+       fhir:Reference.reference [ fhir:value "Location/Connectathon-Org-Loc-01" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:83216-2;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "83216-2" ];
+       fhir:Coding.display [ fhir:value "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Sit to lying" ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://pacioproject.org/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-04-09T14:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://pacioproject.org/Practitioner/Connectathon-Practitioner-RonMarble>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Connectathon-Practitioner-RonMarble" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://pacioproject.org/PractitionerRole/Connectathon-Role-PT>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/Connectathon-Role-PT" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://pacioproject.org/Organization/Connectathon-Org-01>;
+     fhir:Reference.reference [ fhir:value "Organization/Connectathon-Org-01" ];
+     fhir:Reference.display [ fhir:value "Organization" ]
+  ];
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:LA27996-0;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "LA27996-0" ];
+       fhir:Coding.display [ fhir:value "Partial/moderate Assist" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Partial/moderate Assist" ]
+  ];
+  fhir:Observation.derivedFrom [
+     fhir:index 0;
+     fhir:link <http://pacioproject.org/QuestionnaireResponse/Connectathon-QuestResponse-FS-2-Last3DHospStay>;
+     fhir:Reference.reference [ fhir:value "QuestionnaireResponse/Connectathon-QuestResponse-FS-2-Last3DHospStay" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://pacioproject.org/Observation/Connectathon-Assessment-FS-2-Last3DHospStay-Ob-8.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

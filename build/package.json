@@ -1,8 +1,8 @@
 {
   "name": "pacio",
   "version": "0.1.0",
-  "canonical": "http://pacioproject.org/",
-  "url": "http://pacioproject.org/",
+  "canonical": "http://pacioproject.org",
+  "url": "http://pacioproject.org",
   "title": "Functional Status Implementation Guide",
   "description": "TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
   "dependencies": {

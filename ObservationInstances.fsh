@@ -11,6 +11,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -28,6 +29,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -45,6 +47,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -61,7 +64,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Walking 10 feet on uneven surfaces"
 * code.coding.display = "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -79,6 +83,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -96,6 +101,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -113,6 +119,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -130,6 +137,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -147,6 +155,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -163,7 +172,8 @@ InstanceOf: FunctionalStatus
 * code.text = "12 steps"
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -181,6 +191,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -198,6 +209,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -215,6 +227,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -232,6 +245,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -249,6 +263,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -266,6 +281,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -282,7 +298,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Walking 10 feet on uneven surfaces"
 * code.coding.display = "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -300,6 +317,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -317,6 +335,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -334,6 +353,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -351,6 +371,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
 * valueCodeableConcept = LNC#LA28870-6
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -368,6 +389,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -385,6 +407,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -402,6 +425,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -419,6 +443,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -436,6 +461,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -453,6 +479,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -470,6 +497,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -487,6 +515,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -503,7 +532,8 @@ InstanceOf: FunctionalStatus
 * code.text = "4 steps"
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -520,7 +550,8 @@ InstanceOf: FunctionalStatus
 * code.text = "1 step (curb)"
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
 * valueCodeableConcept = LNC#LA27996-0
-* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -538,6 +569,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -555,6 +587,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -572,6 +605,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -589,6 +623,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -606,6 +641,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -623,6 +659,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -640,6 +677,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -656,7 +694,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Walking 10 feet on uneven surfaces"
 * code.coding.display = "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -674,6 +713,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -691,6 +731,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -708,6 +749,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -725,6 +767,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA27993-7
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -742,6 +785,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -759,6 +803,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -776,6 +821,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -793,6 +839,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -810,6 +857,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -827,6 +875,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
 * valueCodeableConcept = LNC#LA28870-6
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -843,7 +892,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Walk 150 feet"
 * code.coding.display = "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA27996-0
-* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -861,6 +911,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -877,7 +928,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Walk 50 feet with two turns"
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA27996-0
-* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -895,6 +947,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -912,6 +965,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -929,6 +983,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -946,6 +1001,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -963,6 +1019,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -980,6 +1037,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -997,6 +1055,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1014,6 +1073,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1030,7 +1090,8 @@ InstanceOf: FunctionalStatus
 * code.text = "12 steps"
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1048,6 +1109,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
 * valueCodeableConcept = LNC#LA27998-6
 * valueCodeableConcept.text = "Dependent"
+* valueCodeableConcept.coding.display = "Dependent"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1065,6 +1127,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
 * valueCodeableConcept = LNC#LA27996-0
 * valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1082,6 +1145,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1099,6 +1163,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1116,6 +1181,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1132,7 +1198,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Walk 10 feet"
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
 * valueCodeableConcept = LNC#LA27996-0
-* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1149,7 +1216,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Car transfer"
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
 * valueCodeableConcept = LNC#LA27996-0
-* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1167,6 +1235,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1184,6 +1253,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1201,6 +1271,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1218,6 +1289,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1235,6 +1307,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1252,6 +1325,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1269,6 +1343,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1286,6 +1361,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1303,6 +1379,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1319,7 +1396,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Toilet transfer"
 * code.coding.display = "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
 * valueCodeableConcept = LNC#LA27996-0
-* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1337,6 +1415,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1354,6 +1433,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1371,6 +1451,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1388,6 +1469,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1405,6 +1487,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1422,6 +1505,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1439,6 +1523,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1456,6 +1541,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1472,7 +1558,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Chair/bed-to-chair transfer"
 * code.coding.display = "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
 * valueCodeableConcept = LNC#LA27996-0
-* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1490,6 +1577,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1506,7 +1594,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Walking 10 feet on uneven surfaces"
 * code.coding.display = "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1524,6 +1613,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1541,6 +1631,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1557,7 +1648,8 @@ InstanceOf: FunctionalStatus
 * code.text = "4 steps"
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
 * valueCodeableConcept = LNC#LA11759-0
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Substantial/maximal assistance"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1575,6 +1667,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1592,6 +1685,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1609,6 +1703,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA27993-7
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1626,6 +1721,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1643,6 +1739,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA11759-0
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1660,6 +1757,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not attempted due to medical condition or safety concerns"
+* valueCodeableConcept.coding.display = "Not attempted due to medical condition or safety concerns"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -1677,6 +1775,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
 * valueCodeableConcept = LNC#LA28225-3
 * valueCodeableConcept.text = "Supervision or touching assistance"
+* valueCodeableConcept.coding.display = "Supervision or touching assistance"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1694,6 +1793,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -1711,6 +1811,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
 * valueCodeableConcept = LNC#LA27994-5
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -1728,6 +1829,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
 * valueCodeableConcept = LNC#LA27994-5
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)

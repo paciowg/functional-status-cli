@@ -1,4 +1,4 @@
-Alias:  LNC = http://loinc.org
+Alias: LNC = http://loinc.org
 Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
 
@@ -17,8 +17,37 @@ Description:    "An point in time bundle of functional status observations for a
 * category from CAT (preferred)
 * category ^binding.description = "If this is from a Post-Acute Care Assessment, value should be survey."
 * extension contains ObservationLocation named event-location 0..1 MS
+* extension contains DevicePatientUsed named device-use 0..* MS
+
+Extension: DevicePatientUsed
+Description: "A device used by a patient during a functional status assessment."
+Id: device-patient-used
+* value[x] only Reference(UseOfDevice)
 
 /**************************************************************************
+Instance: cms-bundle-01
+InstanceOf: BundledFunctionalStatus
+* subject  = Reference(BetsySmith)
+* status = #final
+* code = http://loinc.org#90480-5
+* category = CAT#survey
+* effectiveDateTime = "2020-01-19"
+* performer.reference  = "CMS Provider"
+* extension[device-patient-used].valueReference = Reference(cms-deviceUse-01)
+* hasMember = Reference(BetsySmithMDSEatingAdmission01)
+* hasMember[1] = Reference(BetsySmithMDSOralHygieneAdmission01)
+* hasMember[2] = Reference(BetsySmithMDSToiletingHygieneAdmission01)
+* hasMember[3] = Reference(BetsySmithMDSLyingToSittingAdmission01)
+* hasMember[4] = Reference(BetsySmithMDSSitToLyingAdmission01)
+* hasMember[5] = Reference(BetsySmithMDSSitToStandAdmission01)
+* hasMember[6] = Reference(BetsySmithMDSBedToChairAdmission01)
+* hasMember[7] = Reference(BetsySmithMDSToiletTransferAdmission01)
+* hasMember[8] = Reference(BetsySmithMDSWalk10feetAdmission01)
+* hasMember[9] = Reference(BetsySmithMDSWalk50feetAdmission01)
+* hasMember[10] = Reference(BetsySmithMDSWalk150feetAdmission01)
+* derivedFrom = Reference(cms-QuestionnaireResponse-01)
+
+
 Instance: cms-patient-01
 InstanceOf: Patient
 * name.given = "Betsy"

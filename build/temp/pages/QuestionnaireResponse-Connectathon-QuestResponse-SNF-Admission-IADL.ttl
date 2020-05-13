@@ -1,0 +1,346 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://pacioproject.org/QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL> a fhir:QuestionnaireResponse;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Connectathon-QuestResponse-SNF-Admission-IADL"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://pacioproject.org/StructureDefinition/pacio-qr";
+       fhir:index 0;
+       fhir:link <http://pacioproject.org/StructureDefinition/pacio-qr>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-QuestResponse-SNF-Admission-IADL</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 9, 2020 8:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: tbd-code-1</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - IADL</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+  ];
+  fhir:QuestionnaireResponse.questionnaire [
+     fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";
+     fhir:link <https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17>
+  ];
+  fhir:QuestionnaireResponse.status [ fhir:value "completed"];
+  fhir:QuestionnaireResponse.subject [
+     fhir:link <http://pacioproject.org/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:QuestionnaireResponse.authored [ fhir:value "2020-04-09T15:00:00-05:00"^^xsd:dateTime];
+  fhir:QuestionnaireResponse.item [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "tbd-code-1" ];
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Functional Abilities and Goals - IADL" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:Element.id [ fhir:value " tbd-code-2" ];
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Instrumental Activities of Daily Living - Usual" ];
+       fhir:QuestionnaireResponse.item.item [
+         fhir:index 0;
+         fhir:Element.id [ fhir:value "tbd-code-4" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185A7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Makes a light cold meal" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-1>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-1" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Element.id [ fhir:value "tbd-code-5" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185B7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Makes a hot meal" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-3>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-3" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Element.id [ fhir:value "tbd-code-6" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185C7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Light daily housework" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-5>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-5" ]
+           ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:Element.id [ fhir:value "tbd-code-7" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185D7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Heavier periodic housework" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-7>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-7" ]
+           ]
+         ]
+       ], [
+         fhir:index 4;
+         fhir:Element.id [ fhir:value "tbd-code-8" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185E7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Light shopping" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-9>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-9" ]
+           ]
+         ]
+       ], [
+         fhir:index 5;
+         fhir:Element.id [ fhir:value "tbd-code-9" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185F7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Telephone-answering call" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-11>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-11" ]
+           ]
+         ]
+       ], [
+         fhir:index 6;
+         fhir:Element.id [ fhir:value "tbd-code-10" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185G7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Telephone-placing call" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-13>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-13" ]
+           ]
+         ]
+       ], [
+         fhir:index 7;
+         fhir:Element.id [ fhir:value "tbd-code-11" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185H7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Medication management-oral medications" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-15>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-15" ]
+           ]
+         ]
+       ], [
+         fhir:index 8;
+         fhir:Element.id [ fhir:value "tbd-code-12" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185I7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Medication management-inhalant/mist medications" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-17>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-17" ]
+           ]
+         ]
+       ], [
+         fhir:index 9;
+         fhir:Element.id [ fhir:value "tbd-code-13" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185J7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Medication management-injectable medications" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-19>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-19" ]
+           ]
+         ]
+       ], [
+         fhir:index 10;
+         fhir:Element.id [ fhir:value "tbd-code-14" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185K7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Simple financial management" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-21>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-21" ]
+           ]
+         ]
+       ], [
+         fhir:index 11;
+         fhir:Element.id [ fhir:value "tbd-code-15" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185L7" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Complex financial management" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-23>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-23" ]
+           ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.id [ fhir:value " tbd-code-3" ];
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Instrumental Activities of Daily Living - Most Dependent" ];
+       fhir:QuestionnaireResponse.item.item [
+         fhir:index 0;
+         fhir:Element.id [ fhir:value "tbd-code-16" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185A8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Makes a light cold meal" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-25>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-25" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Element.id [ fhir:value "tbd-code-17" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185B8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Makes a hot meal" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-27>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-27" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Element.id [ fhir:value "tbd-code-18" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185C8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Light daily housework" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-29>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-29" ]
+           ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:Element.id [ fhir:value "tbd-code-19" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185D8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Heavier periodic housework" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-31>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-31" ]
+           ]
+         ]
+       ], [
+         fhir:index 4;
+         fhir:Element.id [ fhir:value "tbd-code-20" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185E8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Light shopping" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-33>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-33" ]
+           ]
+         ]
+       ], [
+         fhir:index 5;
+         fhir:Element.id [ fhir:value "tbd-code-21" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185F8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Telephone-answering call" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-35>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-35" ]
+           ]
+         ]
+       ], [
+         fhir:index 6;
+         fhir:Element.id [ fhir:value "tbd-code-22" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185G8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Telephone-placing call" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-37>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-37" ]
+           ]
+         ]
+       ], [
+         fhir:index 7;
+         fhir:Element.id [ fhir:value "tbd-code-23" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185H8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Medication management-oral medications" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-39>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-39" ]
+           ]
+         ]
+       ], [
+         fhir:index 8;
+         fhir:Element.id [ fhir:value "tbd-code-24" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185I8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Medication management-inhalant/mist medications" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-41>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-41" ]
+           ]
+         ]
+       ], [
+         fhir:index 9;
+         fhir:Element.id [ fhir:value "tbd-code-25" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/8/GG0185J8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Medication management-injectable medications" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-43>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-43" ]
+           ]
+         ]
+       ], [
+         fhir:index 10;
+         fhir:Element.id [ fhir:value "tbd-code-26" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185K8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Simple financial management" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-45>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-45" ]
+           ]
+         ]
+       ], [
+         fhir:index 11;
+         fhir:Element.id [ fhir:value "tbd-code-27" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section GG/GG0185/7/GG0185L8" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "Complex financial management" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <http://pacioproject.org/Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-47>;
+             fhir:Reference.reference [ fhir:value "Observation/Connectathon-Assessment-SNF-Admission-IADL-Ob-47" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://pacioproject.org/QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

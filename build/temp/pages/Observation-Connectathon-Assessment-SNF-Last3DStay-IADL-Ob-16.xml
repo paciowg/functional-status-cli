@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16"/>
+  <meta>
+    <profile value="http://pacioproject.org/StructureDefinition/pacio-fs"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-SNF-Last3DStay-IADL-Ob-16</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Medication management-oral medications <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'tbd-code-11' = 'tbd-code-11', given as 'Medication management-oral medications'})</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 23, 2020 6:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Connectathon-Practitioner-DanielGranger.html">Generated Summary: id: Connectathon-Practitioner-DanielGranger; active; Daniel Granger ; gender: male</a></li><li><a href="PractitionerRole-Connectathon-Role-RN.html">Generated Summary: id: Connectathon-Role-RN; active; <span title="Codes: {http://snomed.info/sct 224535009}">Registered Nurse</span></a></li><li><a href="Organization-Connectathon-Org-02.html">Organization. Generated Summary: id: Connectathon-Org-02; name: Happy Nursing Facility</a></li></ul><p><b>value</b>: Independant <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'LA-tbd-01' = 'LA-tbd-01', given as 'Independant'})</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-Connectathon-QuestResponse-SNF-Last3DStay-IADL.html">Generated Summary: id: Connectathon-QuestResponse-SNF-Last3DStay-IADL; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 23, 2020 6:00:00 PM</a></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/Connectathon-Org-Loc-02"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="tbd-code-11"/>
+      <display value="Medication management-oral medications"/>
+    </coding>
+    <text value="Medication management-oral medications"/>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2020-04-23T13:00:00-05:00"/>
+  <performer>
+    <reference value="Practitioner/Connectathon-Practitioner-DanielGranger"/>
+  </performer>
+  <performer>
+    <reference value="PractitionerRole/Connectathon-Role-RN"/>
+  </performer>
+  <performer>
+    <reference value="Organization/Connectathon-Org-02"/>
+    <display value="Organization"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA-tbd-01"/>
+      <display value="Independant"/>
+    </coding>
+    <text value="Independant"/>
+  </valueCodeableConcept>
+  <derivedFrom>
+    <reference value="QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL"/>
+  </derivedFrom>
+</Observation>

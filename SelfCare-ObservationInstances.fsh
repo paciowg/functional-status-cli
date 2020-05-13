@@ -11,6 +11,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Oral hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -28,6 +29,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Oral hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -45,6 +47,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Eating - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -61,7 +64,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Lower body dressing"
 * code.coding.display = "Lower body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -79,6 +83,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Toileting hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -96,6 +101,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -113,6 +119,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -130,6 +137,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -147,6 +155,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -164,6 +173,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -180,7 +190,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Upper body dressing"
 * code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -198,6 +209,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -215,6 +227,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA27665-1
 * valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -232,6 +245,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Eating - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -249,6 +263,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -266,6 +281,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistanc"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -282,7 +298,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Toileting hygiene"
 * code.coding.display = "Toileting hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -300,6 +317,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Oral hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -317,6 +335,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Eating - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -334,6 +353,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Eating - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -351,6 +371,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -368,6 +389,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Oral hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -385,6 +407,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Oral hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -401,7 +424,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Lower body dressing"
 * code.coding.display = "Lower body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -419,6 +443,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Toileting hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-DanielGranger)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -435,7 +460,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Upper body dressing"
 * code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -453,6 +479,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Toileting hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -469,7 +496,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Toileting hygiene"
 * code.coding.display = "Toileting hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -486,7 +514,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Lower body dressing"
 * code.coding.display = "Lower body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -504,6 +533,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Oral hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -521,6 +551,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Eating - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -538,6 +569,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Lower body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -554,7 +586,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Shower/bathe self"
 * code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA27665-1
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -571,7 +604,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Lower body dressing"
 * code.coding.display = "Lower body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.text = "Partial/moderate assistance"
+* valueCodeableConcept.coding.display = "Partial/moderate assistance"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -589,6 +623,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -605,7 +640,8 @@ InstanceOf: FunctionalStatus
 * code.text = "Toileting hygiene"
 * code.coding.display = "Toileting hygiene - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA27665-1
-* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.text = "Dependent"
+* valueCodeableConcept.coding.display = "Dependent"
 * performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -623,6 +659,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10055-4
 * valueCodeableConcept.text = "Substantial/maximal assistanc"
+* valueCodeableConcept.coding.display = "Substantial/maximal assistanc"
 * performer = Reference(Connectathon-Practitioner-JenCadbury)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -640,6 +677,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -657,6 +695,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -674,6 +713,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
 * performer = Reference(Connectathon-Practitioner-RonMarble)
 * performer[1] = Reference(Connectathon-Role-PT)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -691,6 +731,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Eating - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -708,6 +749,7 @@ InstanceOf: FunctionalStatus
 * code.coding.display = "Lower body dressing - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
+* valueCodeableConcept.coding.display = "Independent"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)

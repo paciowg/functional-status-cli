@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-dev",
-  "url": "http://pacioproject.org//StructureDefinition/pacio-dev",
+  "url": "http://pacioproject.org/StructureDefinition/pacio-dev",
   "version": "0.1.0",
   "name": "UseOfDevice",
-  "title": "Use of Device",
+  "title": "UseOfDevice",
   "status": "active",
   "description": "A device used by a Patient during a functional status assessment.",
   "fhirVersion": "4.0.1",

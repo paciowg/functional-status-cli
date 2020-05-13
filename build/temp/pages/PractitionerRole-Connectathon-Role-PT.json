@@ -1,0 +1,20 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Connectathon-Role-PT",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Role-PT</p><p><b>active</b>: true</p><p><b>code</b>: Physiotherapist <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '36682004' = 'Physiotherapist', given as 'Physiotherapist'})</span></p></div>"
+  },
+  "active": true,
+  "code": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "36682004",
+          "display": "Physiotherapist"
+        }
+      ]
+    }
+  ]
+}

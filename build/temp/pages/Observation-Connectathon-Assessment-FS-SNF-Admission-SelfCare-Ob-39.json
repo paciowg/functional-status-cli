@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-39",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-39</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Putting on/taking off footwear <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83220-4' = 'Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]', given as 'Putting on and taking off footwear - functional ability during 3D assessment period'})</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 9, 2020 8:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Connectathon-Practitioner-JenCadbury.html\">Generated Summary: id: Connectathon-Practitioner-JenCadbury; active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Connectathon-Role-PT.html\">Generated Summary: id: Connectathon-Role-PT; active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Connectathon-Org-02.html\">Organization. Generated Summary: id: Connectathon-Org-02; name: Happy Nursing Facility</a></li></ul><p><b>value</b>: Substantial/maximal assistanc <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA10055-4' = 'Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.', given as 'Substantial/maximal assistanc'})</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-Connectathon-QuestResponse-FS-SNF-Admission-SelfCare.html\">Generated Summary: id: Connectathon-QuestResponse-FS-SNF-Admission-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 9, 2020 8:00:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-02"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83220-4",
+        "display": "Putting on and taking off footwear - functional ability during 3D assessment period"
+      }
+    ],
+    "text": "Putting on/taking off footwear"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-PT"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-02",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA10055-4",
+        "display": "Substantial/maximal assistanc"
+      }
+    ],
+    "text": "Substantial/maximal assistanc"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Admission-SelfCare"
+    }
+  ]
+}

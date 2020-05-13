@@ -1,0 +1,45 @@
+{% raw %}<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:DeviceUseStatement;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7&quot;];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://pacioproject.org/StructureDefinition/pacio-dev&quot;;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://pacioproject.org/StructureDefinition/pacio-dev&gt;     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-patientBSJ1.html\&quot;&gt;Generated Summary: id: patientBSJ1; Betsy Smith-Johnson &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href=\&quot;Observation-Connectathon-Assessment-FS-4-Last3DSNFStay.html\&quot;&gt;Generated Summary: id: Connectathon-Assessment-FS-4-Last3DSNFStay; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\&quot;&gt;Survey&lt;/span&gt;; &lt;span title=\&quot;Codes: {http://loinc.org 88331-4}\&quot;&gt;Mobility - Discharge Performance&lt;/span&gt;; effective: Apr 23, 2020 6:00:00 PM&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;recordedOn&lt;/b&gt;: Apr 23, 2020 6:00:00 PM&lt;/p&gt;&lt;p&gt;&lt;b&gt;source&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Connectathon-Practitioner-DanielGranger.html\&quot;&gt;Generated Summary: id: Connectathon-Practitioner-DanielGranger; active; Daniel Granger ; gender: male&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;device&lt;/b&gt;: &lt;a href=\&quot;Device-CMS-Device-6.html\&quot;&gt;Generated Summary: id: CMS-Device-6; &lt;span title=\&quot;Codes: {http://snomed.info/sct 360303004}\&quot;&gt;Hand rail&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.status">fhir:DeviceUseStatement.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot;];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.subject">fhir:DeviceUseStatement.subject</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient/patientBSJ1&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.derivedFrom">fhir:DeviceUseStatement.derivedFrom</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Connectathon-Assessment-FS-4-Last3DSNFStay&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.recordedOn">fhir:DeviceUseStatement.recordedOn</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2020-04-23T13:00:00-05:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.source">fhir:DeviceUseStatement.source</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Practitioner/Connectathon-Practitioner-DanielGranger&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/deviceusestatement.html#DeviceUseStatement.device">fhir:DeviceUseStatement.device</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Device/CMS-Device-6&quot; ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+{% endraw %}

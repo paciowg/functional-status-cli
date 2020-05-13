@@ -1,11 +1,11 @@
 {
-  "url": "http://pacioproject.org//ImplementationGuide/pacio",
+  "url": "http://pacioproject.org/ImplementationGuide/pacio",
   "name": "FunctionalStatusImplementationGuide",
   "package-id": "pacio",
   "ig-ver": "0.1.0",
-  "date": "Thu, 30 Apr, 2020 17:48:17 +0000",
-  "errs": 18,
-  "warnings": 220,
+  "date": "Tue, 12 May, 2020 23:54:05 +0000",
+  "errs": 122,
+  "warnings": 704,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.2.0 (3)"

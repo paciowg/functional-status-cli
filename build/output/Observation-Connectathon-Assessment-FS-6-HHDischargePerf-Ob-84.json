@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "Connectathon-Assessment-FS-6-HHDischargePerf-Ob-84",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-6-HHDischargePerf-Ob-84</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: 12 steps <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code '83192-5' = '12 steps - functional ability during 3 day assessment period [CMS Assessment]', given as 'What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?'})</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: May 1, 2020 6:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Connectathon-Practitioner-ScottDumble.html\">Generated Summary: id: Connectathon-Practitioner-ScottDumble; active; Scott Dumble ; gender: male</a></li><li><a href=\"PractitionerRole-Connectathon-Role-RN.html\">Generated Summary: id: Connectathon-Role-RN; active; <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse</span></a></li><li><a href=\"Organization-Connectathon-Org-03.html\">Organization. Generated Summary: id: Connectathon-Org-03; name: Sky Harbor Home Health Services</a></li></ul><p><b>value</b>: Supervision or touching assistance <span style=\"background: LightGoldenRodYellow\">(Details : {LOINC code 'LA28225-3' = 'Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.', given as 'Supervision or touching assistance'})</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-Connectathon-QuestResponse-FS-6-HHDischargePerf.html\">Generated Summary: id: Connectathon-QuestResponse-FS-6-HHDischargePerf; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: May 1, 2020 6:00:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Connectathon-Org-Loc-03"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83192-5",
+        "display": "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
+      }
+    ],
+    "text": "12 steps"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-05-01T13:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Connectathon-Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Connectathon-Role-RN"
+    },
+    {
+      "reference": "Organization/Connectathon-Org-03",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA28225-3",
+        "display": "Supervision or touching assistance"
+      }
+    ],
+    "text": "Supervision or touching assistance"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-6-HHDischargePerf"
+    }
+  ]
+}

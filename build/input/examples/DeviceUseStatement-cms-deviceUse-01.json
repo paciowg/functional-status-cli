@@ -3,15 +3,15 @@
   "id": "cms-deviceUse-01",
   "meta": {
     "profile": [
-      "http://pacioproject.org//StructureDefinition/pacio-dev"
+      "http://pacioproject.org/StructureDefinition/pacio-dev"
     ]
   },
   "subject": {
-    "reference": "Patient/BetsySmith"
+    "reference": "BetsySmith"
   },
   "derivedFrom": [
     {
-      "reference": "cms-QuestionnaireResponse-01"
+      "reference": "QuestionnaireResponse/cms-QuestionnaireResponse-01"
     }
   ],
   "device": {
