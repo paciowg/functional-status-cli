@@ -59,6 +59,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/pacio-plf"
+        },
+        "name": "Prior Level Of Function",
+        "description": "An exchange of prior level of function data for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/pacio-dev"
         },
         "name": "UseOfDevice",
@@ -71,6 +79,30 @@
         },
         "name": "DevicePatientUsed",
         "description": "A device used by a patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/grouped-functionalStatus"
+        },
+        "name": "GroupedWith",
+        "description": "Associated functional status used for display purposes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/grouping-name"
+        },
+        "name": "GroupingName",
+        "description": "Associated functional status used for display purposes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/grouping-order"
+        },
+        "name": "GroupingOrder",
+        "description": "Associated functional status used for display purposes.",
         "exampleBoolean": false
       },
       {

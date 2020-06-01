@@ -16,6 +16,26 @@ Description:    "An exchange of functional status data for a patient."
 * value[x] from LNC
 * effective[x] only dateTime
 * extension contains ObservationLocation named event-location 0..1 MS 
+* extension contains GroupedWith named grouped-functionalStatus 0..* 
+* extension contains GroupingOrder named grouping-order 0..1 
+* extension contains GroupingName named grouping-name 0..1 
+
+Extension: GroupedWith
+Description: "Associated functional status used for display purposes."
+Id: grouped-functionalStatus
+* value[x] only Reference(FunctionalStatus)
+
+Extension: GroupingOrder
+Description: "Associated functional status used for display purposes."
+Id: grouping-order
+* value[x] only integer
+
+Extension: GroupingName
+Description: "Associated functional status used for display purposes."
+Id: grouping-name
+* value[x] only CodeableConcept 
+
+
 // TODO, why doesn't this syntax from Sushi tutorial work?
 //* extension contains http://hl7.org/fhir/StructureDefinition/patient-disability named disability 0..1 MS
 

@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-05-13T13:19:29-04:00",
+  "date": "2020-06-01T17:18:22-04:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -323,6 +323,24 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-pacio-plf.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/pacio-plf"
+        },
+        "name": "Prior Level Of Function",
+        "description": "An exchange of prior level of function data for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "StructureDefinition-pacio-dev.html"
           }
         ],
@@ -349,6 +367,60 @@
         },
         "name": "DevicePatientUsed",
         "description": "A device used by a patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-grouped-functionalStatus.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/grouped-functionalStatus"
+        },
+        "name": "GroupedWith",
+        "description": "Associated functional status used for display purposes.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-grouping-name.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/grouping-name"
+        },
+        "name": "GroupingName",
+        "description": "Associated functional status used for display purposes.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-grouping-order.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/grouping-order"
+        },
+        "name": "GroupingOrder",
+        "description": "Associated functional status used for display purposes.",
         "exampleBoolean": false
       },
       {

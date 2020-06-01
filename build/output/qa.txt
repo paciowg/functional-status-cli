@@ -1,11 +1,11 @@
 ﻿FunctionalStatusImplementationGuide : Validation Results
 =========================================
 
-err = 124, warn = 704, info = 0
+err = 126, warn = 708, info = 0
 IG Publisher Version: v1.0.88-SNAPSHOT Out of date - current version is ?pub-ver-1?
-Generated Wed May 13 13:23:52 EDT 2020. FHIR version 4.0.1 for pacio#0.1.0 (canonical = https://paciowg.github.io/functional-status-ig)
+Generated Mon Jun 01 17:20:48 EDT 2020. FHIR version 4.0.1 for pacio#0.1.0 (canonical = https://paciowg.github.io/functional-status-ig)
 
- Build Errors : 1141 / 271
+ Build Errors : 1169 / 271
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-pacio : 0 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-1 : 0 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-2 : 0 / 0
@@ -279,9 +279,13 @@ Generated Wed May 13 13:23:52 EDT 2020. FHIR version 4.0.1 for pacio#0.1.0 (cano
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\questionnaireresponse-Connectathon-QuestResponse-SNF-Admission-IADL : 0 / 3
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\questionnaireresponse-Connectathon-QuestResponse-SNF-Last3DStay-IADL : 0 / 3
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-device-patient-used : 0 / 0
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-grouped-functionalStatus : 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-grouping-name : 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-grouping-order : 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-bfs : 1 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-dev : 1 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-fs : 1 / 0
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-plf : 2 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-qr : 5 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\resources\capabilitystatement-pacio-fs : 15 / 1
 </table>
@@ -1653,6 +1657,24 @@ ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\Str
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-device-patient-used.profile.json.html#/html/body/div/div/div/p/a at Line 451, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-device-patient-used.profile.ttl.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-device-patient-used.profile.xml.html#/html/body/div/div/div/p/a at Line 408, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouped-functionalStatus-definitions.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouped-functionalStatus-mappings.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouped-functionalStatus.html#/html/body/div/div/div/p/a at Line 426, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouped-functionalStatus.profile.json.html#/html/body/div/div/div/p/a at Line 451, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouped-functionalStatus.profile.ttl.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouped-functionalStatus.profile.xml.html#/html/body/div/div/div/p/a at Line 407, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-name-definitions.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-name-mappings.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-name.html#/html/body/div/div/div/p/a at Line 412, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-name.profile.json.html#/html/body/div/div/div/p/a at Line 445, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-name.profile.ttl.html#/html/body/div/div/div/p/a at Line 420, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-name.profile.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-order-definitions.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-order-mappings.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-order.html#/html/body/div/div/div/p/a at Line 412, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-order.profile.json.html#/html/body/div/div/div/p/a at Line 445, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-order.profile.ttl.html#/html/body/div/div/div/p/a at Line 420, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-grouping-order.profile.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-bfs-definitions.html#/html/body/div/div/div/p/a at Line 722, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-bfs-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 274, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-bfs-mappings.html#/html/body/div/div/div/p/a at Line 342, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
@@ -1674,16 +1696,26 @@ ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\Str
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-dev.profile.xml.html#/html/body/div/div/div/p/a at Line 1166, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-dev.ttl.html#/html/body/div/div/div/p/a at Line 1129, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-dev.xml.html#/html/body/div/div/div/p/a at Line 1113, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs-definitions.html#/html/body/div/div/div/p/a at Line 714, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs-definitions.html#/html/body/div/div/div/p/a at Line 738, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 1342, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs-mappings.html#/html/body/div/div/div/p/a at Line 341, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.html#/html/body/div/div/div/p/a at Line 689, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.json.html#/html/body/div/div/div/p/a at Line 2928, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.profile.json.html#/html/body/div/div/div/p/a at Line 2977, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.profile.ttl.html#/html/body/div/div/div/p/a at Line 2650, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.profile.xml.html#/html/body/div/div/div/p/a at Line 2720, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.ttl.html#/html/body/div/div/div/p/a at Line 2600, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.xml.html#/html/body/div/div/div/p/a at Line 2667, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs-mappings.html#/html/body/div/div/div/p/a at Line 344, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.html#/html/body/div/div/div/p/a at Line 731, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.json.html#/html/body/div/div/div/p/a at Line 3131, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.profile.json.html#/html/body/div/div/div/p/a at Line 3180, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.profile.ttl.html#/html/body/div/div/div/p/a at Line 2832, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.profile.xml.html#/html/body/div/div/div/p/a at Line 2887, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.ttl.html#/html/body/div/div/div/p/a at Line 2782, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs.xml.html#/html/body/div/div/div/p/a at Line 2834, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf-definitions.html#/html/body/div/div/div/p/a at Line 750, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 185, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf-mappings.html#/html/body/div/div/div/p/a at Line 345, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf.html#/html/body/div/div/div/p/a at Line 747, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf.json.html#/html/body/div/div/div/p/a at Line 3213, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf.profile.json.html#/html/body/div/div/div/p/a at Line 3262, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf.profile.ttl.html#/html/body/div/div/div/p/a at Line 2905, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf.profile.xml.html#/html/body/div/div/div/p/a at Line 2959, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf.ttl.html#/html/body/div/div/div/p/a at Line 2855, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-plf.xml.html#/html/body/div/div/div/p/a at Line 2906, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-qr-definitions.html#/html/body/div/div/div/p/a at Line 521, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-qr-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 274, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-qr-mappings.html#/html/body/div/div/div/p/a at Line 236, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
@@ -1694,7 +1726,7 @@ ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\Str
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-qr.profile.xml.html#/html/body/div/div/div/p/a at Line 1619, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-qr.ttl.html#/html/body/div/div/div/p/a at Line 1564, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-qr.xml.html#/html/body/div/div/div/p/a at Line 1566, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\artifacts.html#/html/body/div/div/div/p/a at Line 2115, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\artifacts.html#/html/body/div/div/div/p/a at Line 2143, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\index.html#/html/body/div/div/div/div/div/p/img at Line 139, column 5: The image source './pacio.png' cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\index.html#/html/body/div/div/div/p/a at Line 159, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\toc.html#/html/body/div/div/div/p/a at Line 122, column 28: The link 'smahoney@mitre.org' for "Sean Mahoney" cannot be resolved
@@ -2775,12 +2807,22 @@ WARNING: QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL: Q
 WARNING: QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL: QuestionnaireResponse.item[0].item[1].id: value should not start or finish with whitespace
 WARNING: QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL: QuestionnaireResponse: The questionnaire "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17" could not be resolved, so no validation can be performed against the base questionnaire
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-device-patient-used.json ==
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-grouped-functionalStatus.json ==
+WARNING: https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus: The Implementation Guide contains no examples for this extension
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-grouping-name.json ==
+WARNING: https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name: The Implementation Guide contains no examples for this extension
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-grouping-order.json ==
+WARNING: https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order: The Implementation Guide contains no examples for this extension
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-bfs.json ==
 ERROR: StructureDefinition/pacio-bfs: StructureDefinition.differential.element[7].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[7].binding.strength': minimum required = 1, but only found 0
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-dev.json ==
 ERROR: StructureDefinition/pacio-dev: StructureDefinition.differential.element[2].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[2].binding.strength': minimum required = 1, but only found 0
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-fs.json ==
-ERROR: StructureDefinition/pacio-fs: StructureDefinition.differential.element[6].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[6].binding.strength': minimum required = 1, but only found 0
+ERROR: StructureDefinition/pacio-fs: StructureDefinition.differential.element[9].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[9].binding.strength': minimum required = 1, but only found 0
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-plf.json ==
+ERROR: StructureDefinition/pacio-plf: StructureDefinition.differential.element[1].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[1].binding.strength': minimum required = 1, but only found 0
+ERROR: StructureDefinition/pacio-plf: StructureDefinition.differential.element[11].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.differential.element[11].binding.strength': minimum required = 1, but only found 0
+WARNING: https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf: The Implementation Guide contains no examples for this profile
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-qr.json ==
 ERROR: StructureDefinition/pacio-qr: StructureDefinition.snapshot.element[20].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.snapshot.element[20].binding.strength': minimum required = 1, but only found 0
 ERROR: StructureDefinition/pacio-qr: StructureDefinition.snapshot.element[23].binding: Profile http://hl7.org/fhir/StructureDefinition/ElementDefinition, Element 'StructureDefinition.snapshot.element[23].binding.strength': minimum required = 1, but only found 0

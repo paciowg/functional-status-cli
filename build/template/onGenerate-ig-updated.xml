@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-05-13T13:19:29-04:00"/>
+   <date value="2020-06-01T17:18:22-04:00"/>
    <publisher value="Sean Mahoney"/>
    <contact>
       <name value="Sean Mahoney"/>
@@ -116,6 +116,21 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-plf.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-plf"/>
+         </reference>
+         <name value="Prior Level Of Function"/>
+         <description value="An exchange of prior level of function data for a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-pacio-dev.html"/>
          </extension>
          <reference>
@@ -138,6 +153,51 @@
          </reference>
          <name value="DevicePatientUsed"/>
          <description value="A device used by a patient during a functional status assessment."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-grouped-functionalStatus.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/grouped-functionalStatus"/>
+         </reference>
+         <name value="GroupedWith"/>
+         <description value="Associated functional status used for display purposes."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-grouping-name.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/grouping-name"/>
+         </reference>
+         <name value="GroupingName"/>
+         <description value="Associated functional status used for display purposes."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-grouping-order.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/grouping-order"/>
+         </reference>
+         <name value="GroupingOrder"/>
+         <description value="Associated functional status used for display purposes."/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_extension"/>
       </resource>
@@ -3984,6 +4044,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-pacio-plf.html"/>
+               <title value="Prior Level Of Function"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-pacio-dev.html"/>
                <title value="UseOfDevice"/>
                <generation value="generated"/>
@@ -3991,6 +4056,21 @@
             <page>
                <nameUrl value="StructureDefinition-device-patient-used.html"/>
                <title value="DevicePatientUsed"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-grouped-functionalStatus.html"/>
+               <title value="GroupedWith"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-grouping-name.html"/>
+               <title value="GroupingName"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-grouping-order.html"/>
+               <title value="GroupingOrder"/>
                <generation value="generated"/>
             </page>
             <page>

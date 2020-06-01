@@ -69,6 +69,13 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-pacio-plf.html"
+                     title="StructureDefinition/pacio-plf">Prior Level Of Function</a>
+               </td>
+               <td>An exchange of prior level of function data for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-pacio-dev.html"
                      title="StructureDefinition/pacio-dev">UseOfDevice</a>
                </td>
@@ -90,6 +97,27 @@
                      title="StructureDefinition/device-patient-used">DevicePatientUsed</a>
                </td>
                <td>A device used by a patient during a functional status assessment.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-grouped-functionalStatus.html"
+                     title="StructureDefinition/grouped-functionalStatus">GroupedWith</a>
+               </td>
+               <td>Associated functional status used for display purposes.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-grouping-name.html"
+                     title="StructureDefinition/grouping-name">GroupingName</a>
+               </td>
+               <td>Associated functional status used for display purposes.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-grouping-order.html"
+                     title="StructureDefinition/grouping-order">GroupingOrder</a>
+               </td>
+               <td>Associated functional status used for display purposes.</td>
             </tr>
          </tbody>
       </table>

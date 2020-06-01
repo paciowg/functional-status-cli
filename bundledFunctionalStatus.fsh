@@ -24,6 +24,7 @@ Description: "A device used by a patient during a functional status assessment."
 Id: device-patient-used
 * value[x] only Reference(UseOfDevice)
 
+//* ColumnName only String 
 /**************************************************************************
 Instance: cms-bundle-01
 InstanceOf: BundledFunctionalStatus
