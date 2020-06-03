@@ -28,18 +28,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Where event occurred","The principal physical location where the {{title}} was performed.","May reference only *Provenance* resources deemed “relevant” or important. This element does not point to the Provenance associated with the current version of the resource - as it would be created after this version existed. The Provenance for the current version can be retrieved with a [` _revinclude`](search.html#revinclude).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Event.location","EVN.7",".participation[typeCode=LOC].role"
-"Observation.extension","group-functionalStatus","","",0,*,"Y","","","Extension {[CanonicalType[https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus]]} {[]}
-","Optional Extensions Element","Optional Extension Element - found in all resources.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.extension","grouping-order","","",0,1,"Y","","","Extension {[CanonicalType[https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order]]} {[]}
-","Optional Extensions Element","Optional Extension Element - found in all resources.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.extension","grouping-name","","",0,1,"Y","","","Extension {[CanonicalType[https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name]]} {[]}
-","Optional Extensions Element","Optional Extension Element - found in all resources.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
 "Observation.extension","device-use","","",0,*,"Y","","","Extension {[CanonicalType[https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used]]} {[]}
 ","Optional Extensions Element","Optional Extension Element - found in all resources.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

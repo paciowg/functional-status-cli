@@ -251,3 +251,45 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[6].text =  "Putting on and taking off footwear - functional ability during 3D assessment period"
 * item[0].item[0].item[6].id = "83220-4"
 * item[0].item[0].item[6].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-37)
+
+Instance: Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare
+InstanceOf: PACIOfunctionalQuestionaireResponse
+* subject = Reference(patientBSJ1)
+* status = #completed
+* questionnaire = Q-MDS3-NC-1.17
+* authored = "2020-04-02T10:00:00-05:00"
+
+* item[0].linkId = "Section GG"
+* item[0].text =  "Functional Abilities and Goals - Admission"
+* item[0].id = "88482-5"
+* item[0].item[0].linkId = "Section GG/GG0130/2"
+* item[0].item[0].text =  "Self-Care - Discharge Goal"
+* item[0].item[0].id = "85054-5"
+* item[0].item[0].item[0].linkId = "Section GG/GG0130/2/GG0130A2"
+* item[0].item[0].item[0].text =  "Eating - functional ability during 3D assessment period"
+* item[0].item[0].item[0].id = "83231-1"
+* item[0].item[0].item[0].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43)
+* item[0].item[0].item[1].linkId = "Section GG/GG0130/2/GG0130B2"
+* item[0].item[0].item[1].text =  "Oral hygiene - functional ability during 3D assessment period"
+* item[0].item[0].item[1].id = "83229-5"
+* item[0].item[0].item[1].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44)
+* item[0].item[0].item[2].linkId = "Section GG/GG0130/2/GG0130C2"
+* item[0].item[0].item[2].text =  "Toileting hygiene - functional ability during 3D assessment period"
+* item[0].item[0].item[2].id = "83227-9"
+* item[0].item[0].item[2].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45)
+* item[0].item[0].item[3].linkId = "Section GG/GG0130/2/GG0130E2"
+* item[0].item[0].item[3].text =  "Shower &or bathe self - functional ability during 3D assessment period"
+* item[0].item[0].item[3].id = "83225-3"
+* item[0].item[0].item[3].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46)
+* item[0].item[0].item[4].linkId = "Section GG/GG0130/2/GG0130F2"
+* item[0].item[0].item[4].text =  "Upper body dressing - functional ability during 3D assessment period"
+* item[0].item[0].item[4].id = "83223-8"
+* item[0].item[0].item[4].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47)
+* item[0].item[0].item[5].linkId = "Section GG/GG0130/2/GG0130G2"
+* item[0].item[0].item[5].text =  "Lower body dressing - functional ability during 3D assessment period"
+* item[0].item[0].item[5].id = "83221-2"
+* item[0].item[0].item[5].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48)
+* item[0].item[0].item[6].linkId = "Section GG/GG0130/2/GG0130H2"
+* item[0].item[0].item[6].text =  "Putting on and taking off footwear - functional ability during 3D assessment period"
+* item[0].item[0].item[6].id = "83219-6"
+* item[0].item[0].item[6].answer.valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49)

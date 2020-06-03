@@ -91,6 +91,32 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.extension:grouped-bundled-functional-status",
+        "path": "Observation.extension",
+        "sliceName": "grouped-bundled-functional-status",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-bundled-functional-status"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.extension:grouping-name",
+        "path": "Observation.extension",
+        "sliceName": "grouping-name",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Observation.category",
         "path": "Observation.category",
         "min": 1,

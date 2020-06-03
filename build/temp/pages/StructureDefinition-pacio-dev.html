@@ -39,7 +39,14 @@
 {% endunless %}
   </ul>
   <a name="root"> </a>
-  <h2 id="root">StructureDefinition: UseOfDevice</h2>
+{% if site.data.structuredefinitions['pacio-dev'].kind == 'logical' %}
+  {% assign modelType = 'Logical Model' %}
+{% elsif site.data.structuredefinitions['pacio-dev'].kind == 'resource' %}
+  {% assign modelType = 'Resource Profile' %}
+{% else %}
+  {% assign modelType = 'Data Type Profile' %}
+{% endif %}
+  <h2 id="root">{{modelType}}: UseOfDevice</h2>
   <p>{{site.data.structuredefinitions['pacio-dev'].description | markdownify}}</p>
   <p>
   The official URL for this profile is:
@@ -242,6 +249,7 @@
   {% endif %}
   {% endif %}
 
+  {%include StructureDefinition-pacio-dev-history.xhtml%}
 </div>
 {% assign includetabscripts = 'true' %}
 {% include fragment-pageend.html %}

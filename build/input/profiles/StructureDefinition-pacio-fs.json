@@ -77,47 +77,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.extension:grouped-functionalStatus",
-        "path": "Observation.extension",
-        "sliceName": "grouped-functionalStatus",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Observation.extension:grouping-order",
-        "path": "Observation.extension",
-        "sliceName": "grouping-order",
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Observation.extension:grouping-name",
-        "path": "Observation.extension",
-        "sliceName": "grouping-name",
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Observation.code",
         "path": "Observation.code",
         "binding": {

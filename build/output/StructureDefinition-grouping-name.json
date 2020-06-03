@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "GroupingName",
   "status": "active",
-  "date": "2020-06-01T17:18:22-04:00",
+  "date": "2020-06-03T13:51:14+00:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "Associated functional status used for display purposes.",
+  "description": "Name of a column or heading of a section showing the associated bundled functional status.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

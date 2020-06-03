@@ -83,10 +83,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/grouped-functionalStatus"
+          "reference": "StructureDefinition/grouped-bundled-functional-status"
         },
         "name": "GroupedWith",
-        "description": "Associated functional status used for display purposes.",
+        "description": "Associated bundled functional status that may be displayed along in a two-column layout or other layout",
         "exampleBoolean": false
       },
       {
@@ -94,15 +94,7 @@
           "reference": "StructureDefinition/grouping-name"
         },
         "name": "GroupingName",
-        "description": "Associated functional status used for display purposes.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/grouping-order"
-        },
-        "name": "GroupingOrder",
-        "description": "Associated functional status used for display purposes.",
+        "description": "Name of a column or heading of a section showing the associated bundled functional status.",
         "exampleBoolean": false
       },
       {
@@ -1192,6 +1184,62 @@
       },
       {
         "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "reference": {
           "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-SelfCare"
         },
         "name": "Connectathon-Assessment-FS-HospAdmission-SelfCare",
@@ -1923,6 +1971,13 @@
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HHStart-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-HHStart-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare",
         "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
       },
       {

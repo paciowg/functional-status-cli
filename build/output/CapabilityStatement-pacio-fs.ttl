@@ -17,7 +17,7 @@
   fhir:CapabilityStatement.name [ fhir:value "PACIO-fs"];
   fhir:CapabilityStatement.title [ fhir:value "PACIO Functional Status Capability Statement"];
   fhir:CapabilityStatement.status [ fhir:value "draft"];
-  fhir:CapabilityStatement.date [ fhir:value "2019-04-04T20:00:00-04:00"^^xsd:dateTime];
+  fhir:CapabilityStatement.date [ fhir:value "2019-04-05T00:00:00+00:00"^^xsd:dateTime];
   fhir:CapabilityStatement.publisher [ fhir:value "Sean Mahoney"];
   fhir:CapabilityStatement.contact [
      fhir:index 0;

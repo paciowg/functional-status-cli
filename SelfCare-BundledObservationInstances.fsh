@@ -69,6 +69,8 @@ InstanceOf: BundledFunctionalStatus
 * hasMember[6] = Reference(Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-37)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-SelfCare)
 * derivedFrom.display = "Questionnaire Response"
+* extension[grouped-bundled-functional-status][0].valueReference = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare)
+* extension[grouping-name][0].valueCodeableConcept.text = "Self-Care - Discharge Goal"
 
 Instance: Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare
 InstanceOf: BundledFunctionalStatus
@@ -91,6 +93,29 @@ InstanceOf: BundledFunctionalStatus
 * hasMember[5] = Reference(Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-34)
 * hasMember[6] = Reference(Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-40)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare)
+* derivedFrom.display = "Questionnaire Response"
+
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare
+InstanceOf: BundledFunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#85054-5
+* code.coding.display = "Self-Care - Discharge Goal"
+* category = CAT#survey
+* performer = Reference(Connectathon-Practitioner-SallySmith)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* hasMember[0] = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43)
+* hasMember[1] = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44)
+* hasMember[2] = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45)
+* hasMember[3] = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46)
+* hasMember[4] = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47)
+* hasMember[5] = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48)
+* hasMember[6] = Reference(Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
 * derivedFrom.display = "Questionnaire Response"
 
 Instance: Connectathon-Assessment-FS-SNF-Admission-SelfCare

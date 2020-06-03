@@ -10,7 +10,7 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
     "description": "An point in time bundle of functional status observations for a patient."
   },
@@ -25,7 +25,7 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
     "description": "An exchange of functional status data for a patient."
   },
@@ -40,7 +40,7 @@
     "basename": "QuestionnaireResponse",
     "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
     "description": "A completed, or sections of a completed, CMS PAC assessment."
   },
@@ -55,7 +55,7 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
     "description": "An exchange of prior level of function data for a patient."
   },
@@ -70,7 +70,7 @@
     "basename": "DeviceUseStatement",
     "basepath": "http://hl7.org/fhir/R4/deviceusestatement.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
     "description": "A device used by a Patient during a functional status assessment."
   },
@@ -85,7 +85,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
     "description": "A device used by a patient during a functional status assessment.",
     "contexts": [
@@ -94,20 +94,20 @@
       }
     ]
   },
-  "grouped-functionalStatus": {
+  "grouped-bundled-functional-status": {
     "index": 6,
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus",
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-bundled-functional-status",
     "name": "GroupedWith",
-    "path": "StructureDefinition-grouped-functionalStatus.html",
+    "path": "StructureDefinition-grouped-bundled-functional-status.html",
     "kind": "complex-type",
     "type": "Extension",
     "base": "http://hl7.org/fhir/StructureDefinition/Extension",
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
-    "description": "Associated functional status used for display purposes.",
+    "description": "Associated bundled functional status that may be displayed along in a two-column layout or other layout",
     "contexts": [
       {
         "type": "Element"
@@ -125,29 +125,9 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Wed Jun 03 13:51:14 GMT 2020",
     "publisher": "Sean Mahoney",
-    "description": "Associated functional status used for display purposes.",
-    "contexts": [
-      {
-        "type": "Element"
-      }
-    ]
-  },
-  "grouping-order": {
-    "index": 8,
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order",
-    "name": "GroupingOrder",
-    "path": "StructureDefinition-grouping-order.html",
-    "kind": "complex-type",
-    "type": "Extension",
-    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename": "Extension",
-    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
-    "publisher": "Sean Mahoney",
-    "description": "Associated functional status used for display purposes.",
+    "description": "Name of a column or heading of a section showing the associated bundled functional status.",
     "contexts": [
       {
         "type": "Element"

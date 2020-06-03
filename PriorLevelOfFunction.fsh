@@ -16,7 +16,7 @@ Description:    "An exchange of prior level of function data for a patient."
 * value[x] from LNC
 * effective[x] only dateTime
 * extension contains ObservationLocation named event-location 0..1 MS 
-* extension contains GroupedWith named group-functionalStatus 0..* MS
-* extension contains GroupingOrder named grouping-order 0..1 MS
-* extension contains GroupingName named grouping-name 0..1 MS
+//* extension contains GroupedWith named group-functionalStatus 0..* MS
+//* extension contains GroupingOrder named grouping-order 0..1 MS
+//* extension contains GroupingName named grouping-name 0..1 MS
 * extension contains DevicePatientUsed named device-use 0..* MS

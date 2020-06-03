@@ -39,7 +39,14 @@
 {% endunless %}
   </ul>
   <a name="root"> </a>
-  <h2 id="root">StructureDefinition: UseOfDevice - Detailed Descriptions</h2>
+{% if site.data.structuredefinitions['pacio-dev'].kind == 'logical' %}
+  {% assign modelType = 'Logical Model' %}
+{% elsif site.data.structuredefinitions['pacio-dev'].kind == 'resource' %}
+  {% assign modelType = 'Resource Profile' %}
+{% else %}
+  {% assign modelType = 'Data Type Profile' %}
+{% endif %}
+  <h2 id="root">{{modelType}}: UseOfDevice - Detailed Descriptions</h2>
   <p>Definitions for the pacio-dev Profile.</p>
   {% assign intro = site.data.pages[page.path].intro %}
   {% if site.data.pages[page.path].intro != null %}

@@ -134,7 +134,8 @@
 
   </ul>
   <a name="root"> </a>
-  <h2 id="root">StructureDefinition: UseOfDevice</h2>
+
+  <h2 id="root">Resource Profile: UseOfDevice</h2>
   <p><p>A device used by a Patient during a functional status assessment.</p>
 </p>
   <p>
@@ -451,6 +452,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   
   
 
+  
 </div>
 
         </div>    <!-- /inner-wrapper -->
@@ -458,9 +460,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-
-  <script src="jquery.js" type="text/javascript"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
   <script type="text/javascript">
     try {
       var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
@@ -484,11 +486,18 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     });
   </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="1954ec55-192a-4f3a-a173-7a9dfd0b2d43">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 1, 2020 17:18-0400">2020-06-01</span>
+        <p><a name="bf6c2b6b-9876-4ee7-b1ed-c7e837ede670">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2020 13:51+0000">2020-06-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -508,7 +517,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

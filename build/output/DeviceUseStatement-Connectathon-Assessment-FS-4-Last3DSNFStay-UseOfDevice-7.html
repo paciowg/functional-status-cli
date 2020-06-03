@@ -37,8 +37,8 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"2.113"}
-    h3,h4,h5,h6{--heading-prefix:"2.113"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.112"}
+    h3,h4,h5,h6{--heading-prefix:"2.112"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
         
@@ -102,7 +102,9 @@
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <a name="root"> </a>
-  <h2 id="root">Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7</h2>
+
+
+  <h2 id="root">Example DeviceUseStatement: Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7</h2>
   <p>
     Format(s):
   </p>
@@ -130,8 +132,9 @@
   <p>
     <b>Narrative view</b>
   </p>
-  <div><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href="Observation-Connectathon-Assessment-FS-4-Last3DSNFStay.html">Generated Summary: id: Connectathon-Assessment-FS-4-Last3DSNFStay; <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 88331-4}">Mobility - Discharge Performance</span>; effective: Apr 23, 2020, 2:00:00 PM</a></p><p><b>recordedOn</b>: Apr 23, 2020, 2:00:00 PM</p><p><b>source</b>: <a href="Practitioner-Connectathon-Practitioner-DanielGranger.html">Generated Summary: id: Connectathon-Practitioner-DanielGranger; active; Daniel Granger ; gender: male</a></p><p><b>device</b>: <a href="Device-CMS-Device-6.html">Generated Summary: id: CMS-Device-6; <span title="Codes: {http://snomed.info/sct 360303004}">Hand rail</span></a></p></div>
+  <div><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-4-Last3DSNFStay-UseOfDevice-7</p><p><b>meta</b>: </p><p><b>status</b>: active</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href="Observation-Connectathon-Assessment-FS-4-Last3DSNFStay.html">Generated Summary: id: Connectathon-Assessment-FS-4-Last3DSNFStay; <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 88331-4}">Mobility - Discharge Performance</span>; effective: Apr 23, 2020 6:00:00 PM</a></p><p><b>recordedOn</b>: Apr 23, 2020 6:00:00 PM</p><p><b>source</b>: <a href="Practitioner-Connectathon-Practitioner-DanielGranger.html">Generated Summary: id: Connectathon-Practitioner-DanielGranger; active; Daniel Granger ; gender: male</a></p><p><b>device</b>: <a href="Device-CMS-Device-6.html">Generated Summary: id: CMS-Device-6; <span title="Codes: {http://snomed.info/sct 360303004}">Hand rail</span></a></p></div>
 
+  
   
   
 </div>
@@ -140,12 +143,21 @@
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="647bd1c1-78f4-4f19-a8d2-67fa6236b660">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 1, 2020 17:18-0400">2020-06-01</span>
+        <p><a name="4c510e42-400e-4238-8b26-6ada824d746a">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2020 13:51+0000">2020-06-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -165,7 +177,6 @@
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

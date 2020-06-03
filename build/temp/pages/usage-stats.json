@@ -11,7 +11,7 @@
       ]
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus",
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-bundled-functional-status",
       "title": "GroupedWith",
       "types": [
         "Reference"
@@ -22,13 +22,6 @@
       "title": "GroupingName",
       "types": [
         "CodeableConcept"
-      ]
-    },
-    {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order",
-      "title": "GroupingOrder",
-      "types": [
-        "integer"
       ]
     }
   ],
@@ -97,13 +90,10 @@
     "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used": [
       "Observation"
     ],
-    "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus": [
+    "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-bundled-functional-status": [
       "Observation"
     ],
     "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name": [
-      "Observation"
-    ],
-    "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order": [
       "Observation"
     ]
   }

@@ -37,8 +37,8 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"2.173"}
-    h3,h4,h5,h6{--heading-prefix:"2.173"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.180"}
+    h3,h4,h5,h6{--heading-prefix:"2.180"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
         
@@ -102,7 +102,9 @@
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <a name="root"> </a>
-  <h2 id="root">Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-7</h2>
+
+
+  <h2 id="root">Example Observation: Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-7</h2>
   <p>
     Format(s):
   </p>
@@ -130,8 +132,9 @@
   <p>
     <b>Narrative view</b>
   </p>
-  <div><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-7</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Oral hygiene <span style="background: LightGoldenRodYellow">(Details : {LOINC code '83230-3' = 'Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]', given as 'Oral hygiene - functional ability during 3D assessment period'})</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 2, 2020, 11:00:00 AM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Connectathon-Practitioner-SallySmith.html">Generated Summary: id: Connectathon-Practitioner-SallySmith; active; Sally Smith ; gender: female</a></li><li><a href="PractitionerRole-Connectathon-Role-PT.html">Generated Summary: id: Connectathon-Role-PT; active; <span title="Codes: {http://snomed.info/sct 36682004}">Physiotherapist</span></a></li><li><a href="Organization-Connectathon-Org-01.html">Organization. Generated Summary: id: Connectathon-Org-01; name: San Antonio General Hospital</a></li></ul><p><b>value</b>: Setup or clean-up assistance <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'LA10073-7' = 'Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.', given as 'Setup or clean-up assistance'})</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-SelfCare.html">Generated Summary: id: Connectathon-QuestResponse-FS-HospAdmission-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 2, 2020, 11:00:00 AM</a></p></div>
+  <div><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Assessment-FS-HospAdmission-SelfCare-Ob-7</p><p><b>meta</b>: </p><p><b>status</b>: final</p><p><b>code</b>: Oral hygiene <span style="background: LightGoldenRodYellow">(Details : {LOINC code '83230-3' = 'Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]', given as 'Oral hygiene - functional ability during 3D assessment period'})</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 2, 2020 3:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Connectathon-Practitioner-SallySmith.html">Generated Summary: id: Connectathon-Practitioner-SallySmith; active; Sally Smith ; gender: female</a></li><li><a href="PractitionerRole-Connectathon-Role-PT.html">Generated Summary: id: Connectathon-Role-PT; active; <span title="Codes: {http://snomed.info/sct 36682004}">Physiotherapist</span></a></li><li><a href="Organization-Connectathon-Org-01.html">Organization. Generated Summary: id: Connectathon-Org-01; name: San Antonio General Hospital</a></li></ul><p><b>value</b>: Setup or clean-up assistance <span style="background: LightGoldenRodYellow">(Details : {LOINC code 'LA10073-7' = 'Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.', given as 'Setup or clean-up assistance'})</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-SelfCare.html">Generated Summary: id: Connectathon-QuestResponse-FS-HospAdmission-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 2, 2020 3:00:00 PM</a></p></div>
 
+  
   
   
 </div>
@@ -140,12 +143,21 @@
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="b3dfc3a0-ca4c-4931-80b3-d04c499f960a">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 1, 2020 17:18-0400">2020-06-01</span>
+        <p><a name="c0e8a462-6165-445c-803a-8baf19562153">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2020 13:51+0000">2020-06-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -165,7 +177,6 @@
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

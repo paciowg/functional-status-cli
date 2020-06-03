@@ -19,6 +19,19 @@ Description:    "An point in time bundle of functional status observations for a
 * extension contains ObservationLocation named event-location 0..1 MS
 * extension contains DevicePatientUsed named device-use 0..* MS
 
+* extension contains GroupedWith named grouped-bundled-functional-status 0..*
+* extension contains GroupingName named grouping-name 0..*
+
+Extension: GroupedWith
+Description: "Associated bundled functional status that may be displayed along in a two-column layout or other layout"
+Id: grouped-bundled-functional-status
+* value[x] only Reference(BundledFunctionalStatus)
+
+Extension: GroupingName
+Description: "Name of a column or heading of a section showing the associated bundled functional status."
+Id: grouping-name
+* value[x] only CodeableConcept
+
 Extension: DevicePatientUsed
 Description: "A device used by a patient during a functional status assessment."
 Id: device-patient-used

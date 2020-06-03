@@ -132,7 +132,7 @@
   </ul>
   <a name="root"> </a>
   <h2 id="root">Extension: GroupingName</h2>
-  <p><p>Associated functional status used for display purposes.</p>
+  <p><p>Name of a column or heading of a section showing the associated bundled functional status.</p>
 </p>
   <p>
   The official URL for this extension is:
@@ -155,7 +155,7 @@
   <p><b>Usage info</b></p>
   <p><b>Usage:</b></p>
 <ul>
- <li>Use this Extension: <a href="StructureDefinition-pacio-fs.html">Functional Status</a>, <a href="StructureDefinition-pacio-plf.html">Prior Level Of Function</a></li>
+ <li>Use this Extension: <a href="StructureDefinition-pacio-bfs.html">Bundled Functional Status</a></li>
 </ul>
 
   
@@ -372,6 +372,7 @@ Summary
 
   
   
+  
 </div>
 
         </div>    <!-- /inner-wrapper -->
@@ -379,9 +380,9 @@ Summary
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-
-  <script src="jquery.js" type="text/javascript"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
   <script type="text/javascript">
     try {
       var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
@@ -405,11 +406,18 @@ Summary
     });
   </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="6505bc1f-8708-4edd-9cf9-780b766b1135">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 1, 2020 17:18-0400">2020-06-01</span>
+        <p><a name="f18e1a73-05aa-4c35-9e2d-acc5a368b0f1">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2020 13:51+0000">2020-06-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -429,7 +437,6 @@ Summary
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

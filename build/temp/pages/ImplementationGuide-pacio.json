@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-06-01T17:18:22-04:00",
+  "date": "2020-06-03T13:51:14+00:00",
   "publisher": "Sean Mahoney",
   "contact": [
     {
@@ -81,6 +81,32 @@
         "extension": [
           {
             "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "template/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "input/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
             "valueString": "path-qa"
           },
           {
@@ -125,6 +151,19 @@
           {
             "url": "value",
             "valueString": "input/ignoreWarnings.txt"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-history"
+          },
+          {
+            "url": "value",
+            "valueString": "https://paciowg.github.io/functional-status-ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -377,14 +416,14 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "StructureDefinition-grouped-functionalStatus.html"
+            "valueUri": "StructureDefinition-grouped-bundled-functional-status.html"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/grouped-functionalStatus"
+          "reference": "StructureDefinition/grouped-bundled-functional-status"
         },
         "name": "GroupedWith",
-        "description": "Associated functional status used for display purposes.",
+        "description": "Associated bundled functional status that may be displayed along in a two-column layout or other layout",
         "exampleBoolean": false
       },
       {
@@ -402,25 +441,7 @@
           "reference": "StructureDefinition/grouping-name"
         },
         "name": "GroupingName",
-        "description": "Associated functional status used for display purposes.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "StructureDefinition-grouping-order.html"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/grouping-order"
-        },
-        "name": "GroupingOrder",
-        "description": "Associated functional status used for display purposes.",
+        "description": "Name of a column or heading of a section showing the associated bundled functional status.",
         "exampleBoolean": false
       },
       {
@@ -3066,6 +3087,142 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49"
+        },
+        "name": "Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "Observation-Connectathon-Assessment-FS-HospAdmission-SelfCare.html"
           }
         ],
@@ -4851,6 +5008,23 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare.html"
+          }
+        ],
+        "reference": {
+          "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare"
+        },
+        "name": "Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare",
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "QuestionnaireResponse"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-SelfCare.html"
           }
         ],
@@ -5093,6 +5267,14 @@
       {
         "code": "path-resource",
         "value": "input/vocabulary"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/maps"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/testing"
       },
       {
         "code": "path-pages",

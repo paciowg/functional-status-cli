@@ -127,23 +127,77 @@ InstanceOf: FunctionalStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-03)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-HHStart-SelfCare)
 
-Instance: Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-21
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49
 InstanceOf: FunctionalStatus
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-09T15:00:00-05:00"
-* code = LNC#83226-1
-* code.text = "Shower/bathe self"
-* code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#83219-6
+* code.text = "Putting on/taking off footwear"
+* code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA26735-3
 * valueCodeableConcept.text = "Not Attempted"
 * valueCodeableConcept.coding.display = "Not Attempted"
-* performer = Reference(Connectathon-Practitioner-JenCadbury)
+* performer = Reference(Connectathon-Practitioner-SallySmith)
 * performer[1] = Reference(Connectathon-Role-PT)
-* performer[2] = Reference(Connectathon-Org-02)
+* performer[2] = Reference(Connectathon-Org-01)
 * performer[2].display = "Organization"
-* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
-* derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Admission-SelfCare)
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
+
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#83221-2
+* code.text = "Lower body dressing"
+* code.coding.display = "Lower body dressing - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA26735-3
+* valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
+* performer = Reference(Connectathon-Practitioner-SallySmith)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
+
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#83229-5
+* code.text = "Oral hygiene"
+* code.coding.display = "Oral hygiene - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA10073-7
+* valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
+* performer = Reference(Connectathon-Practitioner-SallySmith)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
+
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#83227-9
+* code.text = "Toileting hygiene"
+* code.coding.display = "Toileting hygiene - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA27665-1
+* valueCodeableConcept.text = "Dependent"
+* valueCodeableConcept.coding.display = "Dependent"
+* performer = Reference(Connectathon-Practitioner-SallySmith)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
 
 Instance: Connectathon-Assessment-FS-HHStart-SelfCare-Ob-23
 InstanceOf: FunctionalStatus
@@ -163,14 +217,68 @@ InstanceOf: FunctionalStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-03)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-HHStart-SelfCare)
 
-Instance: Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-22
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#83223-8
+* code.text = "Upper body dressing"
+* code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA27665-1
+* valueCodeableConcept.text = "Substantial/maximal Assist"
+* valueCodeableConcept.coding.display = "Substantial/maximal Assist"
+* performer = Reference(Connectathon-Practitioner-SallySmith)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
+
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#83225-3
+* code.text = "Shower/bathe self"
+* code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA27665-1
+* valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
+* performer = Reference(Connectathon-Practitioner-SallySmith)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
+
+Instance: Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-02T10:00:00-05:00"
+* code = LNC#83231-1
+* code.text = "Eating"
+* code.coding.display = "Eating - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA10073-7
+* valueCodeableConcept.text = "Setup or clean-up assistance"
+* valueCodeableConcept.coding.display = "Setup or clean-up assistance"
+* performer = Reference(Connectathon-Practitioner-SallySmith)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare)
+
+Instance: Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-40
 InstanceOf: FunctionalStatus
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-23T13:00:00-05:00"
-* code = LNC#83226-1
-* code.text = "Shower/bathe self"
-* code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
+* code = LNC#83220-4
+* code.text = "Putting on/taking off footwear"
+* code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
 * valueCodeableConcept.coding.display = "Setup or clean-up assistance"
@@ -181,32 +289,14 @@ InstanceOf: FunctionalStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare)
 
-Instance: Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-27
-InstanceOf: FunctionalStatus
-* subject = Reference(patientBSJ1)
-* status = #final
-* effectiveDateTime = "2020-04-09T15:00:00-05:00"
-* code = LNC#83224-6
-* code.text = "Upper body dressing"
-* code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
-* valueCodeableConcept = LNC#LA10055-4
-* valueCodeableConcept.text = "Partial/moderate Assist"
-* valueCodeableConcept.coding.display = "Partial/moderate Assist"
-* performer = Reference(Connectathon-Practitioner-JenCadbury)
-* performer[1] = Reference(Connectathon-Role-PT)
-* performer[2] = Reference(Connectathon-Org-02)
-* performer[2].display = "Organization"
-* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
-* derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Admission-SelfCare)
-
-Instance: Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-40
+Instance: Connectathon-Assessment-FS-SNF-Last3DStay-SelfCare-Ob-22
 InstanceOf: FunctionalStatus
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-23T13:00:00-05:00"
-* code = LNC#83220-4
-* code.text = "Putting on/taking off footwear"
-* code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
+* code = LNC#83226-1
+* code.text = "Shower/bathe self"
+* code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA10073-7
 * valueCodeableConcept.text = "Setup or clean-up assistance"
 * valueCodeableConcept.coding.display = "Setup or clean-up assistance"
@@ -271,6 +361,24 @@ InstanceOf: FunctionalStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-03)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-HHStart-SelfCare)
 
+Instance: Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-21
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-09T15:00:00-05:00"
+* code = LNC#83226-1
+* code.text = "Shower/bathe self"
+* code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA26735-3
+* valueCodeableConcept.text = "Not Attempted"
+* valueCodeableConcept.coding.display = "Not Attempted"
+* performer = Reference(Connectathon-Practitioner-JenCadbury)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-02)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Admission-SelfCare)
+
 Instance: Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-38
 InstanceOf: FunctionalStatus
 * subject = Reference(patientBSJ1)
@@ -288,6 +396,24 @@ InstanceOf: FunctionalStatus
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-HospLast3DStay-SelfCare)
+
+Instance: Connectathon-Assessment-FS-SNF-Admission-SelfCare-Ob-27
+InstanceOf: FunctionalStatus
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-04-09T15:00:00-05:00"
+* code = LNC#83224-6
+* code.text = "Upper body dressing"
+* code.coding.display = "Upper body dressing - functional ability during 3D assessment period"
+* valueCodeableConcept = LNC#LA10055-4
+* valueCodeableConcept.text = "Partial/moderate Assist"
+* valueCodeableConcept.coding.display = "Partial/moderate Assist"
+* performer = Reference(Connectathon-Practitioner-JenCadbury)
+* performer[1] = Reference(Connectathon-Role-PT)
+* performer[2] = Reference(Connectathon-Org-02)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
+* derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Admission-SelfCare)
 
 Instance: Connectathon-Assessment-FS-HospLast3DStay-SelfCare-Ob-14
 InstanceOf: FunctionalStatus
@@ -361,14 +487,14 @@ InstanceOf: FunctionalStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Admission-SelfCare)
 
-Instance: Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-24
+Instance: Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-42
 InstanceOf: FunctionalStatus
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-05-01T13:00:00-05:00"
-* code = LNC#83226-1
-* code.text = "Shower/bathe self"
-* code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
+* code = LNC#83220-4
+* code.text = "Putting on/taking off footwear"
+* code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
 * valueCodeableConcept.coding.display = "Independent"
@@ -667,14 +793,14 @@ InstanceOf: FunctionalStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-FS-SNF-Admission-SelfCare)
 
-Instance: Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-42
+Instance: Connectathon-Assessment-FS-HHDischarge-SelfCare-Ob-24
 InstanceOf: FunctionalStatus
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-05-01T13:00:00-05:00"
-* code = LNC#83220-4
-* code.text = "Putting on/taking off footwear"
-* code.coding.display = "Putting on and taking off footwear - functional ability during 3D assessment period"
+* code = LNC#83226-1
+* code.text = "Shower/bathe self"
+* code.coding.display = "Shower &or bathe self - functional ability during 3D assessment period"
 * valueCodeableConcept = LNC#LA9983-3
 * valueCodeableConcept.text = "Independent"
 * valueCodeableConcept.coding.display = "Independent"

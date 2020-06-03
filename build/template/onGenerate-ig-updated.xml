@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-06-01T17:18:22-04:00"/>
+   <date value="2020-06-03T13:51:14+00:00"/>
    <publisher value="Sean Mahoney"/>
    <contact>
       <name value="Sean Mahoney"/>
@@ -161,13 +161,13 @@
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-grouped-functionalStatus.html"/>
+            <valueUri value="StructureDefinition-grouped-bundled-functional-status.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/grouped-functionalStatus"/>
+            <reference value="StructureDefinition/grouped-bundled-functional-status"/>
          </reference>
          <name value="GroupedWith"/>
-         <description value="Associated functional status used for display purposes."/>
+         <description value="Associated bundled functional status that may be displayed along in a two-column layout or other layout"/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_extension"/>
       </resource>
@@ -182,22 +182,7 @@
             <reference value="StructureDefinition/grouping-name"/>
          </reference>
          <name value="GroupingName"/>
-         <description value="Associated functional status used for display purposes."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="_str_extension"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-grouping-order.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/grouping-order"/>
-         </reference>
-         <name value="GroupingOrder"/>
-         <description value="Associated functional status used for display purposes."/>
+         <description value="Name of a column or heading of a section showing the associated bundled functional status."/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_extension"/>
       </resource>
@@ -2376,6 +2361,118 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49"/>
+         </reference>
+         <name value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="Observation-Connectathon-Assessment-FS-HospAdmission-SelfCare.html"/>
          </extension>
          <reference>
@@ -3846,6 +3943,20 @@
             <valueString value="QuestionnaireResponse"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare.html"/>
+         </extension>
+         <reference>
+            <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare"/>
+         </reference>
+         <name value="Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="QuestionnaireResponse"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-SelfCare.html"/>
          </extension>
          <reference>
@@ -4059,18 +4170,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-grouped-functionalStatus.html"/>
+               <nameUrl value="StructureDefinition-grouped-bundled-functional-status.html"/>
                <title value="GroupedWith"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="StructureDefinition-grouping-name.html"/>
                <title value="GroupingName"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-grouping-order.html"/>
-               <title value="GroupingOrder"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4849,6 +4955,46 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-43"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-44"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-45"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-46"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-47"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-48"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49.html"/>
+               <title value="Connectathon-Assessment-FS-HospAdmission-DGoal-SelfCare-Ob-49"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="Observation-Connectathon-Assessment-FS-HospAdmission-SelfCare.html"/>
                <title value="Connectathon-Assessment-FS-HospAdmission-SelfCare"/>
                <generation value="generated"/>
@@ -5374,6 +5520,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare.html"/>
+               <title value="Connectathon-QuestResponse-FS-HospAdmission-DGoal-SelfCare"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="QuestionnaireResponse-Connectathon-QuestResponse-FS-HospAdmission-SelfCare.html"/>
                <title value="Connectathon-QuestResponse-FS-HospAdmission-SelfCare"/>
                <generation value="generated"/>
@@ -5475,12 +5626,28 @@
          <value value="input/vocabulary"/>
       </parameter>
       <parameter>
+         <code value="path-resource"/>
+         <value value="input/maps"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/testing"/>
+      </parameter>
+      <parameter>
          <code value="path-pages"/>
          <value value="template/config"/>
       </parameter>
       <parameter>
          <code value="path-pages"/>
          <value value="input/images"/>
+      </parameter>
+      <parameter>
+         <code value="path-liquid"/>
+         <value value="template/liquid"/>
+      </parameter>
+      <parameter>
+         <code value="path-liquid"/>
+         <value value="input/liquid"/>
       </parameter>
       <parameter>
          <code value="path-qa"/>
@@ -5501,6 +5668,10 @@
       <parameter>
          <code value="path-suppressed-warnings"/>
          <value value="input/ignoreWarnings.txt"/>
+      </parameter>
+      <parameter>
+         <code value="path-history"/>
+         <value value="https://paciowg.github.io/functional-status-ig/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>
