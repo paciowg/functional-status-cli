@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="pacio"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FunctionalStatusImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio</pre><div><p>TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FunctionalStatusImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio</pre><div><p>TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
 </div></div>
   </text>
   <url value="https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio"/>
@@ -11,7 +11,7 @@
   <name value="FunctionalStatusImplementationGuide"/>
   <title value="Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-06-01T17:18:22-04:00"/>
+  <date value="2020-06-08T15:25:02-04:00"/>
   <publisher value="Sean Mahoney"/>
   <contact>
     <name value="Sean Mahoney"/>
@@ -199,10 +199,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-pacio-qr.html"/>
+        <valueUri value="StructureDefinition-pacio-functional-qr.html"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/pacio-qr"/>
+        <reference value="StructureDefinition/pacio-functional-qr"/>
       </reference>
       <name value="PACIO Questionaire Response"/>
       <description value="A completed, or sections of a completed, CMS PAC assessment."/>
@@ -241,6 +241,20 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-assistance-required.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/assistance-required"/>
+      </reference>
+      <name value="AssistanceRequired"/>
+      <description value="Associated functional status used for display purposes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="StructureDefinition-device-patient-used.html"/>
       </extension>
       <reference>
@@ -248,48 +262,6 @@
       </reference>
       <name value="DevicePatientUsed"/>
       <description value="A device used by a patient during a functional status assessment."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-grouped-functionalStatus.html"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/grouped-functionalStatus"/>
-      </reference>
-      <name value="GroupedWith"/>
-      <description value="Associated functional status used for display purposes."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-grouping-name.html"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/grouping-name"/>
-      </reference>
-      <name value="GroupingName"/>
-      <description value="Associated functional status used for display purposes."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-grouping-order.html"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/grouping-order"/>
-      </reference>
-      <name value="GroupingOrder"/>
-      <description value="Associated functional status used for display purposes."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -3579,7 +3551,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-1-First3DHospAdmission"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-1-First3DHospAdmission"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3592,7 +3564,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-2-Last3DHospStay"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-2-Last3DHospStay"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3605,7 +3577,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-3-First3DSNFAdmission"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-3-First3DSNFAdmission"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3618,7 +3590,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-4-Last3DSNFStay"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-4-Last3DSNFStay"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3631,7 +3603,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-5-HHStartOfCarePerf"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-5-HHStartOfCarePerf"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3644,7 +3616,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-6-HHDischargePerf"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-6-HHDischargePerf"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3657,7 +3629,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-HHDischarge-SelfCare"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-HHDischarge-SelfCare"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3670,7 +3642,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-HHStart-SelfCare"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-HHStart-SelfCare"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3683,7 +3655,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-HospAdmission-SelfCare"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-HospAdmission-SelfCare"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3696,7 +3668,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-HospLast3DStay-SelfCare"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-HospLast3DStay-SelfCare"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3709,7 +3681,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Admission-SelfCare"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-SNF-Admission-SelfCare"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3722,7 +3694,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"/>
       </reference>
       <name value="Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3735,7 +3707,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL"/>
       </reference>
       <name value="Connectathon-QuestResponse-SNF-Admission-IADL"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -3748,7 +3720,7 @@
         <reference value="QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL"/>
       </reference>
       <name value="Connectathon-QuestResponse-SNF-Last3DStay-IADL"/>
-      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"/>
+      <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

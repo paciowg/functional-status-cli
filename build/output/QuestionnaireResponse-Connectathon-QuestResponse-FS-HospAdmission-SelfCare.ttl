@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "Connectathon-QuestResponse-FS-HospAdmission-SelfCare"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr";
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr>
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-QuestResponse-FS-HospAdmission-SelfCare</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 2, 2020, 11:00:00 AM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88482-5</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Connectathon-QuestResponse-FS-HospAdmission-SelfCare</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 2, 2020, 11:00:00 AM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88482-5</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td><td><b>Id</b></td></tr><tr><td>*</td><td>83233-7</td></tr></table></blockquote></div>"
   ];
   fhir:QuestionnaireResponse.questionnaire [
      fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";

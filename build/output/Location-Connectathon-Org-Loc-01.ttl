@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "Connectathon-Org-Loc-01"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Org-Loc-01</p><p><b>status</b>: active</p><p><b>name</b>: San Antonio General Hospital</p><p><b>address</b>: 26022 Meadowlark Bay, San Antonio, TX 78260</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Connectathon-Org-Loc-01</p><p><b>status</b>: active</p><p><b>name</b>: San Antonio General Hospital</p><p><b>address</b>: 26022 Meadowlark Bay, San Antonio, TX 78260</p></div>"
   ];
   fhir:Location.status [ fhir:value "active"];
   fhir:Location.name [ fhir:value "San Antonio General Hospital"];

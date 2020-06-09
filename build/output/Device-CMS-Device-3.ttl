@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "CMS-Device-3"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: CMS-Device-3</p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Rolling walker</td><td>user-friendly-name</td></tr></table><p><b>type</b>: Wheeled walking frame (physical object) <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '404946006' = 'Wheeled walking frame (physical object))</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: CMS-Device-3</p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Rolling walker</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 404946006}\">Wheeled walking frame (physical object)</span></p></div>"
   ];
   fhir:Device.deviceName [
      fhir:index 0;

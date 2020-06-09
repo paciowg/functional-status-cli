@@ -51,7 +51,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/pacio-qr"
+          "reference": "StructureDefinition/pacio-functional-qr"
         },
         "name": "PACIO Questionaire Response",
         "description": "A completed, or sections of a completed, CMS PAC assessment.",
@@ -75,34 +75,18 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/assistance-required"
+        },
+        "name": "AssistanceRequired",
+        "description": "Associated functional status used for display purposes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/device-patient-used"
         },
         "name": "DevicePatientUsed",
         "description": "A device used by a patient during a functional status assessment.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/grouped-functionalStatus"
-        },
-        "name": "GroupedWith",
-        "description": "Associated functional status used for display purposes.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/grouping-name"
-        },
-        "name": "GroupingName",
-        "description": "Associated functional status used for display purposes.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/grouping-order"
-        },
-        "name": "GroupingOrder",
-        "description": "Associated functional status used for display purposes.",
         "exampleBoolean": false
       },
       {
@@ -1874,98 +1858,98 @@
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-1-First3DHospAdmission"
         },
         "name": "Connectathon-QuestResponse-FS-1-First3DHospAdmission",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-2-Last3DHospStay"
         },
         "name": "Connectathon-QuestResponse-FS-2-Last3DHospStay",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-3-First3DSNFAdmission"
         },
         "name": "Connectathon-QuestResponse-FS-3-First3DSNFAdmission",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-4-Last3DSNFStay"
         },
         "name": "Connectathon-QuestResponse-FS-4-Last3DSNFStay",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-5-HHStartOfCarePerf"
         },
         "name": "Connectathon-QuestResponse-FS-5-HHStartOfCarePerf",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-6-HHDischargePerf"
         },
         "name": "Connectathon-QuestResponse-FS-6-HHDischargePerf",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HHDischarge-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-HHDischarge-SelfCare",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HHStart-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-HHStart-SelfCare",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HospAdmission-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-HospAdmission-SelfCare",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-HospLast3DStay-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-HospLast3DStay-SelfCare",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Admission-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-SNF-Admission-SelfCare",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare"
         },
         "name": "Connectathon-QuestResponse-FS-SNF-Last3DStay-SelfCare",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-SNF-Admission-IADL"
         },
         "name": "Connectathon-QuestResponse-SNF-Admission-IADL",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/Connectathon-QuestResponse-SNF-Last3DStay-IADL"
         },
         "name": "Connectathon-QuestResponse-SNF-Last3DStay-IADL",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr"
+        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
       },
       {
         "reference": {

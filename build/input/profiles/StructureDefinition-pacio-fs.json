@@ -77,45 +77,18 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.extension:grouped-functionalStatus",
+        "id": "Observation.extension:device-use",
         "path": "Observation.extension",
-        "sliceName": "grouped-functionalStatus",
+        "sliceName": "device-use",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus"
+              "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used"
             ]
           }
-        ]
-      },
-      {
-        "id": "Observation.extension:grouping-order",
-        "path": "Observation.extension",
-        "sliceName": "grouping-order",
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Observation.extension:grouping-name",
-        "path": "Observation.extension",
-        "sliceName": "grouping-name",
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name"
-            ]
-          }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.code",
@@ -156,16 +129,27 @@
         }
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "id": "Observation.component.code",
+        "path": "Observation.component.code",
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ObservationCode"
+            }
+          ],
+          "strength": "example",
+          "description": "The LOINC code or text of the column header (if grouped with another question).",
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
+        }
+      },
+      {
+        "id": "Observation.component.value[x]",
+        "path": "Observation.component.value[x]",
         "binding": {
           "strength": "required",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://loinc.org",
+          "description": "test desc"
         }
       }
     ]

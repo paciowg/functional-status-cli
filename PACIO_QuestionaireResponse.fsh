@@ -2,7 +2,7 @@ Alias:  LNC = http://loinc.org
 
 Profile:        PACIOfunctionalQuestionaireResponse
 Parent:         QuestionnaireResponse
-Id:             pacio-qr
+Id:             pacio-functional-qr
 Title:          "PACIO Questionaire Response"
 Description:    "A completed, or sections of a completed, CMS PAC assessment."
 * item.answer.value[x] only Reference(Observation)

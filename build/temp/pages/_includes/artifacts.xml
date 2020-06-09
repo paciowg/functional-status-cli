@@ -62,8 +62,8 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-pacio-qr.html"
-                     title="StructureDefinition/pacio-qr">PACIO Questionaire Response</a>
+                  <a href="StructureDefinition-pacio-functional-qr.html"
+                     title="StructureDefinition/pacio-functional-qr">PACIO Questionaire Response</a>
                </td>
                <td>A completed, or sections of a completed, CMS PAC assessment.</td>
             </tr>
@@ -93,31 +93,17 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-assistance-required.html"
+                     title="StructureDefinition/assistance-required">AssistanceRequired</a>
+               </td>
+               <td>Associated functional status used for display purposes.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-device-patient-used.html"
                      title="StructureDefinition/device-patient-used">DevicePatientUsed</a>
                </td>
                <td>A device used by a patient during a functional status assessment.</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-grouped-functionalStatus.html"
-                     title="StructureDefinition/grouped-functionalStatus">GroupedWith</a>
-               </td>
-               <td>Associated functional status used for display purposes.</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-grouping-name.html"
-                     title="StructureDefinition/grouping-name">GroupingName</a>
-               </td>
-               <td>Associated functional status used for display purposes.</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-grouping-order.html"
-                     title="StructureDefinition/grouping-order">GroupingOrder</a>
-               </td>
-               <td>Associated functional status used for display purposes.</td>
             </tr>
          </tbody>
       </table>

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "Connectathon-QuestResponse-FS-2-Last3DHospStay"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr";
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr>
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-QuestResponse-FS-2-Last3DHospStay</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 9, 2020, 3:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88483-3</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - Discharge</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Connectathon-QuestResponse-FS-2-Last3DHospStay</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 9, 2020, 3:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88483-3</p><p><b>linkId</b>: Section GG</p><p><b>text</b>: Functional Abilities and Goals - Discharge</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td><td><b>Id</b></td></tr><tr><td>*</td><td>88331-4</td></tr></table></blockquote></div>"
   ];
   fhir:QuestionnaireResponse.questionnaire [
      fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";

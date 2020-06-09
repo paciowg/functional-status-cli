@@ -4,40 +4,22 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
-      "title": "DevicePatientUsed",
-      "types": [
-        "Reference"
-      ]
-    },
-    {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus",
-      "title": "GroupedWith",
-      "types": [
-        "Reference"
-      ]
-    },
-    {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name",
-      "title": "GroupingName",
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required",
+      "title": "AssistanceRequired",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order",
-      "title": "GroupingOrder",
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "title": "DevicePatientUsed",
       "types": [
-        "integer"
+        "Reference"
       ]
     }
   ],
   "profiles": {
     "Observation": [
-      {
-        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
-        "title": "Functional Status"
-      },
       {
         "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf",
         "title": "Prior Level Of Function"
@@ -51,7 +33,7 @@
     ],
     "QuestionnaireResponse": [
       {
-        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr",
+        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr",
         "title": "PACIO Questionaire Response"
       }
     ]
@@ -68,6 +50,7 @@
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.differential.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
@@ -94,16 +77,10 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required": [
+      "Observation"
+    ],
     "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used": [
-      "Observation"
-    ],
-    "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus": [
-      "Observation"
-    ],
-    "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name": [
-      "Observation"
-    ],
-    "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order": [
       "Observation"
     ]
   }

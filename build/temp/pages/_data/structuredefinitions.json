@@ -10,7 +10,7 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Mon Jun 08 15:25:02 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "An point in time bundle of functional status observations for a patient."
   },
@@ -25,22 +25,22 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Mon Jun 08 15:25:02 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "An exchange of functional status data for a patient."
   },
-  "pacio-qr": {
+  "pacio-functional-qr": {
     "index": 2,
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-qr",
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr",
     "name": "PACIOfunctionalQuestionaireResponse",
-    "path": "StructureDefinition-pacio-qr.html",
+    "path": "StructureDefinition-pacio-functional-qr.html",
     "kind": "resource",
     "type": "QuestionnaireResponse",
     "base": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
     "basename": "QuestionnaireResponse",
     "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Mon Jun 08 15:25:02 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "A completed, or sections of a completed, CMS PAC assessment."
   },
@@ -55,7 +55,7 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Mon Jun 08 15:25:02 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "An exchange of prior level of function data for a patient."
   },
@@ -70,12 +70,32 @@
     "basename": "DeviceUseStatement",
     "basepath": "http://hl7.org/fhir/R4/deviceusestatement.html",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Mon Jun 08 15:25:02 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "A device used by a Patient during a functional status assessment."
   },
-  "device-patient-used": {
+  "assistance-required": {
     "index": 5,
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required",
+    "name": "AssistanceRequired",
+    "path": "StructureDefinition-assistance-required.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status": "active",
+    "date": "Mon Jun 08 15:25:02 EDT 2020",
+    "publisher": "Sean Mahoney",
+    "description": "Associated functional status used for display purposes.",
+    "contexts": [
+      {
+        "type": "Element"
+      }
+    ]
+  },
+  "device-patient-used": {
+    "index": 6,
     "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
     "name": "DevicePatientUsed",
     "path": "StructureDefinition-device-patient-used.html",
@@ -85,69 +105,9 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
+    "date": "Mon Jun 08 15:25:02 EDT 2020",
     "publisher": "Sean Mahoney",
     "description": "A device used by a patient during a functional status assessment.",
-    "contexts": [
-      {
-        "type": "Element"
-      }
-    ]
-  },
-  "grouped-functionalStatus": {
-    "index": 6,
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouped-functionalStatus",
-    "name": "GroupedWith",
-    "path": "StructureDefinition-grouped-functionalStatus.html",
-    "kind": "complex-type",
-    "type": "Extension",
-    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename": "Extension",
-    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
-    "publisher": "Sean Mahoney",
-    "description": "Associated functional status used for display purposes.",
-    "contexts": [
-      {
-        "type": "Element"
-      }
-    ]
-  },
-  "grouping-name": {
-    "index": 7,
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-name",
-    "name": "GroupingName",
-    "path": "StructureDefinition-grouping-name.html",
-    "kind": "complex-type",
-    "type": "Extension",
-    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename": "Extension",
-    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
-    "publisher": "Sean Mahoney",
-    "description": "Associated functional status used for display purposes.",
-    "contexts": [
-      {
-        "type": "Element"
-      }
-    ]
-  },
-  "grouping-order": {
-    "index": 8,
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/grouping-order",
-    "name": "GroupingOrder",
-    "path": "StructureDefinition-grouping-order.html",
-    "kind": "complex-type",
-    "type": "Extension",
-    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
-    "basename": "Extension",
-    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
-    "status": "active",
-    "date": "Mon Jun 01 17:18:22 EDT 2020",
-    "publisher": "Sean Mahoney",
-    "description": "Associated functional status used for display purposes.",
     "contexts": [
       {
         "type": "Element"

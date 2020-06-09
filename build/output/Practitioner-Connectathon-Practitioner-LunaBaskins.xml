@@ -3,7 +3,7 @@
 <Practitioner xmlns="http://hl7.org/fhir">
   <id value="Connectathon-Practitioner-LunaBaskins"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: Connectathon-Practitioner-LunaBaskins</p><p><b>active</b>: true</p><p><b>name</b>: Luna Baskins </p><p><b>gender</b>: female</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: Connectathon-Practitioner-LunaBaskins</p><p><b>active</b>: true</p><p><b>name</b>: Luna Baskins </p><p><b>gender</b>: female</p></div>
   </text>
   <active value="true"/>
   <name>
