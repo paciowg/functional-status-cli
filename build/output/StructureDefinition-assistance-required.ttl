@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "AssistanceRequired"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-06-08T15:25:02-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-06-26T13:30:56-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Sean Mahoney"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

@@ -11,10 +11,31 @@ Description:    "An exchange of functional status data for a patient."
 * subject only Reference(Patient)
 * code from LNC 
 * component.value[x] from LNC
-* component.value[x] ^binding.description = "test desc"
-* component.code ^binding.description = "The LOINC code or text of the column header (if grouped with another question)."
 * performer 1..* 
-* performer ^binding.description = "The person who performed the assessment."
+* value[x] ^short = "This should only be used if the functional status observations values in the component field results in a score or roll up value."
+* performer ^short = "The person who performed the assessment. Also provide the role and organizationif available. "
+* category ^short = "If this is from a Post-Acute Care Assessment, category should be survey."
+* code ^short = "If this is from a Post-Acute Care Assessment, code should be a LOINC code and text for the question."
+* subject ^short = "Subject should only be Patient for functional status"
+* component ^short = "The answer(s) for the functional status questions. If a single question results in multiple answers, then multiple component values should be used. (eg. performance at admission, discharge goals)"
+* component.code ^short = "The code and text for the column that this functional status value belongs to. Only used if there are multiple component values."
+* component.value[x] ^short = "The code and text for the answer to the functional status response. "
+* basedOn ^short = "Currently not used in FunctionalStatus."
+* partOf ^short = "Currently not used in FunctionalStatus."
+* status ^short = "Value should be final."
+* focus ^short = "Currently not used in FunctionalStatus."
+* issued ^short = "Currently not used in FunctionalStatus."
+* dataAbsentReason ^short = "Currently not used in FunctionalStatus."
+* interpretation ^short = "Currently not used in FunctionalStatus."
+* bodySite ^short = "Currently not used in FunctionalStatus."
+* method ^short = "Currently not used in FunctionalStatus."
+* specimen ^short = "Currently not used in FunctionalStatus."
+* device ^short = "Currently not used in FunctionalStatus."
+* referenceRange ^short = "Currently not used in FunctionalStatus."
+* hasMember ^short = "Currently not used in FunctionalStatus."
+* derivedFrom ^short = "Currently not used in FunctionalStatus."
+
+
 //uncomment the next line once examples do not use this field
 //* value[x] 0..0
 * effective[x] only dateTime
