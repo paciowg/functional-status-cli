@@ -13,13 +13,13 @@
   <name value="UseOfDevice"/>
   <title value="UseOfDevice"/>
   <status value="active"/>
-  <date value="2020-06-26T13:30:56-04:00"/>
-  <publisher value="Sean Mahoney"/>
+  <date value="2020-07-03T09:42:46-04:00"/>
+  <publisher value="PACIO Project"/>
   <contact>
-    <name value="Sean Mahoney"/>
+    <name value="PACIO project"/>
     <telecom>
       <system value="email"/>
-      <value value="smahoney@mitre.org"/>
+      <value value="info@pacioproject.org"/>
     </telecom>
   </contact>
   <description value="A device used by a Patient during a functional status assessment."/>

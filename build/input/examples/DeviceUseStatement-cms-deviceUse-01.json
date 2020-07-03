@@ -7,7 +7,7 @@
     ]
   },
   "subject": {
-    "reference": "BetsySmith"
+    "reference": "Patient/patientBSJ1"
   },
   "derivedFrom": [
     {

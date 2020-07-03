@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>PACIO\PACIO Functional Status Capability Statement - FHIR v4.0.1</title>
+    <title>PACIO\Security and Data Sharing - FHIR v4.0.1</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -37,8 +37,8 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"2.1"}
-    h3,h4,h5,h6{--heading-prefix:"2.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
         
@@ -68,6 +68,9 @@
 <ul class="nav navbar-nav">
   <li><a href="index.html">IG Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="underlying_technologies.html">Underlying Technologies</a></li>
+  <li><a href="functional_status_use_case.html">Use Case Example</a></li>
+  <li><a href="profile_highlights_and_guidance.html">Profile Highlights and Guidance</a></li>
   <li><a href="artifacts.html">Artifacts Summary</a></li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Other Resources<b class="caret"> </b></a>
@@ -87,7 +90,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->  
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>PACIO Functional Status Capability Statement</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Security and Data Sharing</b></li>
         </ul>  
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
@@ -96,45 +99,38 @@
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
-
-
-
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <a name="root"> </a>
-  <h2 id="root">PACIO Functional Status Capability Statement</h2>
-  <p>
-    Format(s):
-  </p>
-  <ul>
-
-    <li>
-      <a href="CapabilityStatement-pacio-fs.xml.html">XML</a>
-    </li>
-
-
-    <li>
-      <a href="CapabilityStatement-pacio-fs.json.html">JSON</a> 
-    </li>
-
-
-    <li>
-      <a href="CapabilityStatement-pacio-fs.ttl.html">Turtle</a>
-    </li>
-
-  </ul>
-
+  <h2>Security and Data Sharing</h2>
   
   
-
-  <p>
-    <b>Narrative view</b>
-  </p>
-  <div><h2>PACIO-fs</h2><div><p>This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide.</p>
-</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td></td></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET past versions of resources (vread interaction)">V-Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="GET changes to a resource (history interaction on instance)">Updates</b></th><th><b title="GET changes for all resources of the type (history interaction on type)">History</b></th></tr><tr><td>FunctionalStatus</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>BundledFunctionalStatus</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>PACIOQuestionaireResponse</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-qr.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-qr.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>UseOfDevice</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>
-
   
-  
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#security-privacy-and-consent" id="markdown-toc-security-privacy-and-consent">Security, Privacy, and Consent</a></li>
+  <li><a href="#smart-on-fhir-patient-access" id="markdown-toc-smart-on-fhir-patient-access">SMART-on-FHIR Patient-Access</a></li>
+</ul>
+
+</div>
+  <!-- security_and_data_sharing.md -->
+<h3 id="security-privacy-and-consent">Security, Privacy, and Consent</h3>
+
+<p>This Implementation Guide leverages the <a href="http://docs.smarthealthit.org/">SMART-on-FHIR</a> and <a href="https://oauth.net/2/">OAuth2.0</a> standards, which add authentication and authorization capabilities to FHIR. This architecture is intended to maximize the number of clinical systems that conform to this guide as well as to allow for easy growth and extensibility of system capabilities in the future.</p>
+
+<h3 id="smart-on-fhir-patient-access">SMART-on-FHIR Patient-Access</h3>
+
+<p>The sharing of data with a patient-controlled third-party app is accomplished through the patient’s HIPAA Right of Access, which allows the patient to use their data in any way they desire. As a result, the third-party app may not be a HIPAA Covered Entity or Business Associate of a covered entity and may not be covered by HIPAA controls in the use of data, sensitive or otherwise.</p>
+
+<p>The patient <strong>SHALL</strong> authenticate using credentials that have been issued, or recognized and accepted, by the provider. These are typically the provider’s credentials for a patient portal or health information exchange network.</p>
+
+
 </div>
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
@@ -145,8 +141,8 @@
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="5cafc012-b8a9-42e9-9622-e57d388a3355">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="smahoney@mitre.org">Sean Mahoney</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 26, 2020 13:30-0400">2020-06-26</span>
+        <p><a name="6f1dc540-f840-401c-9caf-2039959849eb">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

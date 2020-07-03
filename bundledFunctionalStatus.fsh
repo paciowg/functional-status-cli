@@ -9,11 +9,11 @@ Title:          "Bundled Functional Status"
 Description:    "An point in time bundle of functional status observations for a patient."
 * subject 1..1
 * subject only Reference(Patient)
-* code from LNC
+* code from LNC (extensible)
 * performer 1..*
 * value[x] only CodeableConcept
 * category 1..1
-* category from CAT (preferred)
+* category from CAT (extensible)
 * effective[x] only dateTime or Period
 * extension contains ObservationLocation named event-location 0..1 MS
 * extension contains DevicePatientUsed named device-use 0..* MS

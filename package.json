@@ -15,11 +15,11 @@
     "Post-Acute Care"
   ],
   "language": "en",
-  "author": "Sean Mahoney",
+  "author": "PACIO Project",
   "maintainers": [
     {
-      "name": "Sean Mahoney",
-      "email": "smahoney@mitre.org"
+      "name": "PACIO project",
+      "email": "info@pacioproject.org"
     }
   ],
   "license": "CC0-1.0"

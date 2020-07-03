@@ -14,7 +14,7 @@ Description:    "A device used by a Patient during a functional status assessmen
 
 Instance: cms-deviceUse-01
 InstanceOf: UseOfDevice
-* subject  = Reference(BetsySmith)
+* subject = Reference(patientBSJ1)
 * derivedFrom = Reference(cms-QuestionnaireResponse-01)
 * device = Reference(cms-device-01)
 * status = #active

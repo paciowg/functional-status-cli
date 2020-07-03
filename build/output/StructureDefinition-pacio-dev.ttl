@@ -17,15 +17,15 @@
   fhir:StructureDefinition.name [ fhir:value "UseOfDevice"];
   fhir:StructureDefinition.title [ fhir:value "UseOfDevice"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-06-26T13:30:56-04:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "Sean Mahoney"];
+  fhir:StructureDefinition.date [ fhir:value "2020-07-03T09:42:46-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "PACIO Project"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Sean Mahoney" ];
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "smahoney@mitre.org" ]
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "A device used by a Patient during a functional status assessment."];

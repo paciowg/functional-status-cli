@@ -33,3 +33,23 @@ Interoperability challenges persist in post-acute care; providers are not receiv
 The PACIO Project is a collaborative effort to advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach.
 
 The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
+
+### Content and Organization
+The implementation guide is organized into the following sections:
+* [Use Case Example](cognitive_status_use_case.html) Describes an example of its use and provides a high-level overview of expected process flow.
+* [Underlying Technologies](underlying_technologies.html) Describes the different specifications this implementation guide relies on and indicates what developers should read and understand prior to implementing this specification.
+* [Profile Highlights and Guidance](profile_highlights_and_guidance.html) Provides a closer look at the IG profiles and guidance for constructing profile instances with examples for data exchange.
+* [Security and Data Sharing](security_and_data_sharing.html) Covers issues concerning security and patient information access and sharing.
+* [Artifacts Summary](artifacts.html) Introduces and provides links to the Capability Statement, IG Resource Profiles, and IG Extension Definitions as well as example profile instances.
+
+### Dependencies
+This implementation guide relies on the following other specifications:
+* [FHIR R4]({{site.data.fhir.path}}) - The 'current' official version of FHIR as of the time this implementation guide was published.  See the [background page](underlying_technologies.html) for key pieces of this specification implementers should be familiar with.
+* [US Core STU3](http://hl7.org/fhir/us/core/STU3) - The version of US Core based on FHIR R4.
+
+This implementation guide defines additional constraints and usage expectations above and beyond the information found in these base specifications.
+
+### Downloads
+* The full [PACIO Functional Status Implementation Guide](full-ig.zip)
+* [FHIR R4 PACIO CS Resource Definitions](definitions.json.zip) for use with the FHIR validator
+* [FHIR IG Validator Pack](https://fhir.github.io/latest-ig-validator/org.hl7.fhir.validator.jar) which can be used to check FHIR resource instance validity

@@ -14,9 +14,11 @@ Description:    "An exchange of prior level of function data for a patient."
 * performer ^binding.description = "The person who performed the assessment."
 * value[x] only CodeableConcept
 * value[x] from LNC
+//LP74248-3
 * effective[x] only dateTime or Period
 * extension contains ObservationLocation named event-location 0..1 MS 
 * extension contains AssistanceRequired named assistance-required 0..1 MS 
+
 
 //make datetime back to core, make must support
 //placeholder for independent vs assistance needed - use note field

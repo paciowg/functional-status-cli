@@ -9,15 +9,15 @@
   "version": "0.1.0",
   "name": "DevicePatientUsed",
   "status": "active",
-  "date": "2020-06-26T13:30:56-04:00",
-  "publisher": "Sean Mahoney",
+  "date": "2020-07-03T09:42:46-04:00",
+  "publisher": "PACIO Project",
   "contact": [
     {
-      "name": "Sean Mahoney",
+      "name": "PACIO project",
       "telecom": [
         {
           "system": "email",
-          "value": "smahoney@mitre.org"
+          "value": "info@pacioproject.org"
         }
       ]
     }

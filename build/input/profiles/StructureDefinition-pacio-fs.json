@@ -103,7 +103,7 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
-        "short": "Value should be final."
+        "short": "Value should be final as FunctionalStatus Observation should be completed before transfer between facilities."
       },
       {
         "id": "Observation.category",
@@ -115,7 +115,7 @@
         "path": "Observation.code",
         "short": "If this is from a Post-Acute Care Assessment, code should be a LOINC code and text for the question.",
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://loinc.org"
         }
       },

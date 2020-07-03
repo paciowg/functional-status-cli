@@ -6,14 +6,14 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "publisher": "Sean Mahoney",
+  "publisher": "PACIO Project",
   "contact": [
     {
-      "name": "Sean Mahoney",
+      "name": "PACIO project",
       "telecom": [
         {
           "system": "email",
-          "value": "smahoney@mitre.org"
+          "value": "info@pacioproject.org"
         }
       ]
     }
@@ -672,10 +672,10 @@
       },
       {
         "reference": {
-          "reference": "CapabilityStatement/pacio-fs"
+          "reference": "CapabilityStatement/pacio-cs"
         },
-        "name": "PACIO Functional Status Capability Statement",
-        "description": "This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO Functional Status Implementation Guide.",
+        "name": "PACIO functional Status Capability Statement",
+        "description": "This Capability Statement defines the expected capabilities of a PACIO functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.",
         "exampleBoolean": false
       }
     ],
@@ -687,6 +687,26 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "functional_status_use_case.html",
+          "title": "Functional Status Use Case",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profile_highlights_and_guidance.html",
+          "title": "Profile Highlights and Guidance",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "security_and_data_sharing.html",
+          "title": "Security and Data Sharing",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "underlying_technologies.html",
+          "title": "Underlying Technologies",
           "generation": "markdown"
         }
       ]

@@ -9,7 +9,7 @@ Title:          "Functional Status"
 Description:    "An exchange of functional status data for a patient."
 * subject 1..1
 * subject only Reference(Patient)
-* code from LNC 
+* code from LNC (extensible)
 * component.value[x] from LNC
 * performer 1..* 
 * value[x] ^short = "This should only be used if the functional status observations values in the component field results in a score or roll up value."
@@ -22,7 +22,7 @@ Description:    "An exchange of functional status data for a patient."
 * component.value[x] ^short = "The code and text for the answer to the functional status response. "
 * basedOn ^short = "Currently not used in FunctionalStatus."
 * partOf ^short = "Currently not used in FunctionalStatus."
-* status ^short = "Value should be final."
+* status ^short = "Value should be final as FunctionalStatus Observation should be completed before transfer between facilities."
 * focus ^short = "Currently not used in FunctionalStatus."
 * issued ^short = "Currently not used in FunctionalStatus."
 * dataAbsentReason ^short = "Currently not used in FunctionalStatus."
