@@ -41,7 +41,8 @@
     h3,h4,h5,h6{--heading-prefix:"6.7"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
+          <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -99,40 +100,60 @@
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
-
-
-
-
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <ul class="nav nav-tabs">
-    <li class="active">
-      <a href="#">Content</a>
-    </li>
-    <li>
-      <a href="StructureDefinition-assistance-required-definitions.html">Detailed Descriptions</a>
-    </li>
+  
 
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Content</a>
+  </li>
+
+
+
+  <li>
+    <a href="StructureDefinition-assistance-required-definitions.html">Detailed Descriptions</a>
+  </li>
+
+
+
+  
     <li>
       <a href="StructureDefinition-assistance-required-mappings.html">Mappings</a>
     </li>
+  
 
 
+
+
+
+  
     <li>
       <a href="StructureDefinition-assistance-required.profile.xml.html">XML</a>
     </li>
+  
 
 
+  
     <li>
       <a href="StructureDefinition-assistance-required.profile.json.html">JSON</a>
     </li>
+  
 
 
+  
     <li>
-      <a href="StructureDefinition-assistance-required.profile.ttl.html">Turtle</a>
+      <a href="StructureDefinition-assistance-required.profile.ttl.html">TTL</a>
     </li>
+  
 
-  </ul>
+</ul>
+
   <a name="root"> </a>
   <h2 id="root">Extension: AssistanceRequired</h2>
   <p><p>Associated functional status used for display purposes.</p>
@@ -148,12 +169,14 @@
   <p>This extension may be used on the following  element(s):</p>
   <ul>
     
-    <li>{"type"=&gt;"Element"}</li>
+    <li>Element</li>
     
   </ul>
+
+    <!-- insert intro if present -->
   
-  
-  
+
+
 
   <p><b>Usage info</b></p>
   <p><b>Usage:</b></p>
@@ -161,7 +184,7 @@
  <li>Use this Extension: <a href="StructureDefinition-pacio-plf.html">Prior Level Of Function</a></li>
 </ul>
 
-  
+
     <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Extension Content</h3>
@@ -362,19 +385,24 @@ Summary
   <p>Other representations of extension: <a href="StructureDefinition-assistance-required.sch">Schematron</a>
   </p>
   <a name="tx"> </a>
-  <h3 id="tx">Terminology Bindings</h3>
+    <!-- Terminology Bindings heading in the fragment -->
   
-  
+
   <a name="inv"> </a>
-  <h3 id="inv">Constraints</h3>
+    <!-- Constraints  heading in the fragment -->
   <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Path</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
 </table>
 
 
+    <!-- insert notes if present -->
   
+
+
+
   
+
 </div>
 
         </div>    <!-- /inner-wrapper -->
@@ -382,9 +410,9 @@ Summary
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-
-  <script src="jquery.js" type="text/javascript"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
   <script type="text/javascript">
     try {
       var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
@@ -408,11 +436,18 @@ Summary
     });
   </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="b3833820-3e93-4e22-b637-7fbe366a5f89">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
+        <p><a name="c007629b-ea83-423c-9b40-7a746ed184ae">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -432,7 +467,6 @@ Summary
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

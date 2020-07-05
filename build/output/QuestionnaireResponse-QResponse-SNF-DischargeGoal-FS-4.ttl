@@ -1,0 +1,256 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-FS-4> a fhir:QuestionnaireResponse;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "QResponse-SNF-DischargeGoal-FS-4"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr";
+       fhir:index 0;
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: QResponse-SNF-DischargeGoal-FS-4</p><p><b>meta</b>: </p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>authored</b>: Apr 9, 2020 8:00:00 PM</p><blockquote><p><b>item</b></p><p><b>id</b>: 88482-5</p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><blockquote><p><b>item</b></p></blockquote></blockquote></div>"
+  ];
+  fhir:QuestionnaireResponse.questionnaire [
+     fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";
+     fhir:link <https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17>
+  ];
+  fhir:QuestionnaireResponse.status [ fhir:value "completed"];
+  fhir:QuestionnaireResponse.subject [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:QuestionnaireResponse.authored [ fhir:value "2020-04-09T15:00:00-05:00"^^xsd:dateTime];
+  fhir:QuestionnaireResponse.item [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "88482-5" ];
+     fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37" ];
+     fhir:QuestionnaireResponse.item.text [ fhir:value "Functional Abilities and Goals - Admission" ];
+     fhir:QuestionnaireResponse.item.item [
+       fhir:index 0;
+       fhir:Element.id [ fhir:value "85056-0" ];
+       fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170" ];
+       fhir:QuestionnaireResponse.item.text [ fhir:value "Mobility - Discharge Goal" ];
+       fhir:QuestionnaireResponse.item.item [
+         fhir:index 0;
+         fhir:Element.id [ fhir:value "83217-0" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170A2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-103>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-103" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Element.id [ fhir:value "83215-4" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170B2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-104>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-104" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Element.id [ fhir:value "83213-9" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170C2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-105>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-105" ]
+           ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:Element.id [ fhir:value "83211-3" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170D2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-106>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-106" ]
+           ]
+         ]
+       ], [
+         fhir:index 4;
+         fhir:Element.id [ fhir:value "83209-7" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170E2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-107>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-107" ]
+           ]
+         ]
+       ], [
+         fhir:index 5;
+         fhir:Element.id [ fhir:value "83207-1" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170F2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to get on and off a toilet or commode?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-108>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-108" ]
+           ]
+         ]
+       ], [
+         fhir:index 6;
+         fhir:Element.id [ fhir:value "83205-5" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170G2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt." ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-109>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-109" ]
+           ]
+         ]
+       ], [
+         fhir:index 7;
+         fhir:Element.id [ fhir:value "83203-0" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170I2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-110>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-110" ]
+           ]
+         ]
+       ], [
+         fhir:index 8;
+         fhir:Element.id [ fhir:value "83201-4" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170J2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-111>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-111" ]
+           ]
+         ]
+       ], [
+         fhir:index 9;
+         fhir:Element.id [ fhir:value "83199-0" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170K2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-112>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-112" ]
+           ]
+         ]
+       ], [
+         fhir:index 10;
+         fhir:Element.id [ fhir:value "83197-4" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170L2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-113>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-113" ]
+           ]
+         ]
+       ], [
+         fhir:index 11;
+         fhir:Element.id [ fhir:value "83195-8" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170M2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-114>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-114" ]
+           ]
+         ]
+       ], [
+         fhir:index 12;
+         fhir:Element.id [ fhir:value "83193-3" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170N2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-115>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-115" ]
+           ]
+         ]
+       ], [
+         fhir:index 13;
+         fhir:Element.id [ fhir:value "83191-7" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170O2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-116>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-116" ]
+           ]
+         ]
+       ], [
+         fhir:index 14;
+         fhir:Element.id [ fhir:value "83189-1" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170P2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-117>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-117" ]
+           ]
+         ]
+       ], [
+         fhir:index 15;
+         fhir:Element.id [ fhir:value "83187-5" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170R2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-118>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-118" ]
+           ]
+         ]
+       ], [
+         fhir:index 16;
+         fhir:Element.id [ fhir:value "83236-0" ];
+         fhir:QuestionnaireResponse.item.linkId [ fhir:value "Section-37/GG0170S2" ];
+         fhir:QuestionnaireResponse.item.text [ fhir:value "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?" ];
+         fhir:QuestionnaireResponse.item.answer [
+           fhir:index 0;
+           fhir:QuestionnaireResponse.item.answer.valueReference [
+             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-119>;
+             fhir:Reference.reference [ fhir:value "Observation/Assessment-SNF-DischargeGoal-FS-4-Ob-119" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-FS-4.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

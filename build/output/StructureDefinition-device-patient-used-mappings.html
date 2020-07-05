@@ -41,7 +41,8 @@
     h3,h4,h5,h6{--heading-prefix:"6.8"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
+          <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -99,42 +100,69 @@
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
-
-
-
 <div style="counter-reset: section 5" class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <ul class="nav nav-tabs">
-    <li>
-      <a href="StructureDefinition-device-patient-used.html">Content</a>
-    </li>
-    <li>
-      <a href="StructureDefinition-device-patient-used-definitions.html">Detailed Descriptions</a>
-    </li>
+  
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="StructureDefinition-device-patient-used.html">Content</a>
+  </li>
+
+
+
+  <li>
+    <a href="StructureDefinition-device-patient-used-definitions.html">Detailed Descriptions</a>
+  </li>
+
+
+
+  
     <li class="active">
       <a href="#">Mappings</a>
     </li>
+  
 
+
+
+
+
+  
     <li>
       <a href="StructureDefinition-device-patient-used.profile.xml.html">XML</a>
     </li>
+  
 
 
+  
     <li>
       <a href="StructureDefinition-device-patient-used.profile.json.html">JSON</a>
     </li>
+  
 
 
+  
     <li>
-      <a href="StructureDefinition-device-patient-used.profile.ttl.html">Turtle</a>
+      <a href="StructureDefinition-device-patient-used.profile.ttl.html">TTL</a>
     </li>
+  
 
-  </ul>
+</ul>
+
   <a name="root"> </a>
-  <h2 id="root">Extension: DevicePatientUsed - Mappings</h2>
-  <p>Mappings for the  Extension</p>
+  <h2 id="root">: DevicePatientUsed - Mappings</h2>
+
+  <p>Mappings for the device-patient-used Profile.</p>
+
+    <!-- insert intro if present -->
   
-  
+
+
 
   <a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>DevicePatientUsed</b></td></tr>
@@ -145,8 +173,11 @@
 </table>
 
 
+    <!-- insert notes if present -->
   
-  
+
+
+
 </div>
 
         </div>    <!-- /inner-wrapper -->
@@ -154,9 +185,9 @@
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-
-  <script src="jquery.js" type="text/javascript"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
   <script type="text/javascript">
     try {
       var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
@@ -180,11 +211,18 @@
     });
   </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="73860629-b65c-48b9-94de-9659317a7bc8">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
+        <p><a name="2edcb78b-1dce-4daa-b265-cb5cbfc142a4">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -204,7 +242,6 @@
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

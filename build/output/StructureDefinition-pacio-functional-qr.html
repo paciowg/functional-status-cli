@@ -41,7 +41,8 @@
     h3,h4,h5,h6{--heading-prefix:"6.4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
+          <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -99,45 +100,72 @@
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
-
-
-
-
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <ul class="nav nav-tabs">
-    <li class="active">
-      <a href="#">Content</a>
-    </li>
-    <li>
-      <a href="StructureDefinition-pacio-functional-qr-definitions.html">Detailed Descriptions</a>
-    </li>
+  
 
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Content</a>
+  </li>
+
+
+
+  <li>
+    <a href="StructureDefinition-pacio-functional-qr-definitions.html">Detailed Descriptions</a>
+  </li>
+
+
+
+  
     <li>
       <a href="StructureDefinition-pacio-functional-qr-mappings.html">Mappings</a>
     </li>
+  
 
-    <li>
-      <a href="StructureDefinition-pacio-functional-qr-examples.html">Examples</a>
-    </li>
 
+
+  
+    
+      <li>
+        <a href="StructureDefinition-pacio-functional-qr-examples.html">Examples</a>
+      </li>
+    
+  
+
+
+
+  
     <li>
       <a href="StructureDefinition-pacio-functional-qr.profile.xml.html">XML</a>
     </li>
+  
 
 
+  
     <li>
       <a href="StructureDefinition-pacio-functional-qr.profile.json.html">JSON</a>
     </li>
+  
 
 
+  
     <li>
-      <a href="StructureDefinition-pacio-functional-qr.profile.ttl.html">Turtle</a>
+      <a href="StructureDefinition-pacio-functional-qr.profile.ttl.html">TTL</a>
     </li>
+  
 
-  </ul>
+</ul>
+
+
   <a name="root"> </a>
-  <h2 id="root">StructureDefinition: PACIOfunctionalQuestionaireResponse</h2>
+
+  <h2 id="root">Resource Profile: PACIOfunctionalQuestionaireResponse</h2>
   <p><p>A completed, or sections of a completed, CMS PAC assessment.</p>
 </p>
   <p>
@@ -145,8 +173,11 @@
   </p>
   <pre>https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr</pre>
 
-  
-  
+  <!-- insert intro if present -->
+
+
+
+
     <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Profile Content</h3>
@@ -481,7 +512,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <p>Other representations of profile: <a href="StructureDefinition-pacio-functional-qr.sch">Schematron</a>
   </p>
   <a name="tx"> </a>
-  <h3 id="tx">Terminology Bindings</h3>
+    <!-- Terminology Bindings heading in the fragment -->
   <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td></tr>
@@ -493,7 +524,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
 
   <a name="inv"> </a>
-  <h3 id="inv">Constraints</h3>
+    <!-- Constraints  heading in the fragment -->
   <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Path</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -501,9 +532,12 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 </table>
 
 
-  
-  
+  <!-- insert notes if present -->
 
+
+
+
+  
 </div>
 
         </div>    <!-- /inner-wrapper -->
@@ -511,9 +545,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-
-  <script src="jquery.js" type="text/javascript"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
   <script type="text/javascript">
     try {
       var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
@@ -537,11 +571,18 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     });
   </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="4c37794b-c7b2-4385-b022-7e1df0ca05cb">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
+        <p><a name="82422b82-972c-4bfe-bb61-07a428a90d59">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -561,7 +602,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/CapabilityStatement-pacio-cs.html",
+    "id": "pacio-cs",
+    "type": "CapabilityStatement",
+    "version": "0.1.0",
+    "name": "PACIO_functionalStatus_CapabilityStatement"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio",
+    "id": "pacio",
+    "type": "ImplementationGuide",
+    "version": "0.1.0",
+    "name": "FunctionalStatusImplementationGuide"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required",
+    "id": "assistance-required",
+    "type": "StructureDefinition",
+    "version": "0.1.0",
+    "name": "AssistanceRequired"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+    "id": "device-patient-used",
+    "type": "StructureDefinition",
+    "version": "0.1.0",
+    "name": "DevicePatientUsed"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs",
+    "id": "pacio-bfs",
+    "type": "StructureDefinition",
+    "version": "0.1.0",
+    "name": "BundledFunctionalStatus"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
+    "id": "pacio-dev",
+    "type": "StructureDefinition",
+    "version": "0.1.0",
+    "name": "UseOfDevice"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
+    "id": "pacio-fs",
+    "type": "StructureDefinition",
+    "version": "0.1.0",
+    "name": "FunctionalStatus"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr",
+    "id": "pacio-functional-qr",
+    "type": "StructureDefinition",
+    "version": "0.1.0",
+    "name": "PACIOfunctionalQuestionaireResponse"
+  },
+  {
+    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf",
+    "id": "pacio-plf",
+    "type": "StructureDefinition",
+    "version": "0.1.0",
+    "name": "PriorLevelOfFunction"
+  }
+]
