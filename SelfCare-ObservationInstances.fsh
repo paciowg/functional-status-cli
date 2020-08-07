@@ -1,6 +1,6 @@
 Alias: LNC = http://loinc.org
 Alias: UOM = http://unitsofmeasure.org
-Alias: DAR = http://hl7.org/fhir/ValueSet/data-absent-reason
+Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 Instance: Assessment-Hosp-Admission-SelfCare-Ob-1
 InstanceOf: FunctionalStatus

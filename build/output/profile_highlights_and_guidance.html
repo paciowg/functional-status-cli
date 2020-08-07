@@ -41,7 +41,8 @@
     h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
+          <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -114,17 +115,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#resource-profile-cognitionquestionnaireresponse" id="markdown-toc-resource-profile-cognitionquestionnaireresponse">Resource Profile: CognitionQuestionnaireResponse</a></li>
+  <li><a href="#resource-profile-paciofunctionalquestionaireresponse" id="markdown-toc-resource-profile-paciofunctionalquestionaireresponse">Resource Profile: PACIOfunctionalQuestionaireResponse</a></li>
   <li><a href="#resource-profile-bundledfunctionalstatus" id="markdown-toc-resource-profile-bundledfunctionalstatus">Resource Profile: BundledFunctionalStatus</a></li>
   <li><a href="#resource-profile-functionalstatus" id="markdown-toc-resource-profile-functionalstatus">Resource Profile: FunctionalStatus</a></li>
-  <li><a href="#resource-profile-priorleveloffunctionfunction" id="markdown-toc-resource-profile-priorleveloffunctionfunction">Resource Profile: PriorLevelOfFunctionFunction</a></li>
+  <li><a href="#resource-profile-priorleveloffunction" id="markdown-toc-resource-profile-priorleveloffunction">Resource Profile: PriorLevelOfFunction</a></li>
   <li><a href="#resource-profile-useofdevice" id="markdown-toc-resource-profile-useofdevice">Resource Profile: UseOfDevice</a></li>
   <li><a href="#data-exchange-guidance-and-examples" id="markdown-toc-data-exchange-guidance-and-examples">Data Exchange Guidance and Examples</a></li>
-  <li><a href="#functionalquestionnaireresponse--cam-example-note-these-examples-use-the-cognitive-status-profile-httpspaciowggithubiocognitive-status-ig-but-are-modeled-similar-to-functional-status-profiles" id="markdown-toc-functionalquestionnaireresponse--cam-example-note-these-examples-use-the-cognitive-status-profile-httpspaciowggithubiocognitive-status-ig-but-are-modeled-similar-to-functional-status-profiles">FunctionalQuestionnaireResponse – CAM Example *Note: These examples use the Cognitive Status profile (https://paciowg.github.io/cognitive-status-ig), but are modeled similar to Functional Status profiles</a></li>
-  <li><a href="#bundledfunctionalstatus--cam-example" id="markdown-toc-bundledfunctionalstatus--cam-example">BundledfunctionalStatus – CAM Example</a></li>
-  <li><a href="#bundledfunctionalstatus--bims-example" id="markdown-toc-bundledfunctionalstatus--bims-example">BundledfunctionalStatus – BIMS Example</a></li>
-  <li><a href="#bundledfunctionalstatus--moca-example" id="markdown-toc-bundledfunctionalstatus--moca-example">BundledfunctionalStatus – MoCA Example</a></li>
-  <li><a href="#bundledfunctionalstatus--phq-9-two-column-example" id="markdown-toc-bundledfunctionalstatus--phq-9-two-column-example">BundledfunctionalStatus – PHQ-9 Two-Column Example</a></li>
+  <li><a href="#paciofunctionalquestionaireresponse--mobility-example" id="markdown-toc-paciofunctionalquestionaireresponse--mobility-example">PACIOfunctionalQuestionaireResponse – Mobility Example</a></li>
+  <li><a href="#bundledfunctionalstatus--mobility-admission-example" id="markdown-toc-bundledfunctionalstatus--mobility-admission-example">BundledFunctionalStatus – Mobility Admission Example</a></li>
+  <li><a href="#bundledfunctionalstatus--mobility-discharge-goal-example" id="markdown-toc-bundledfunctionalstatus--mobility-discharge-goal-example">BundledFunctionalStatus – Mobility Discharge Goal Example</a></li>
+  <li><a href="#bundledfunctionalstatus--mobility-discharge-and-device-used-example" id="markdown-toc-bundledfunctionalstatus--mobility-discharge-and-device-used-example">BundledFunctionalStatus – Mobility Discharge and Device Used Example</a></li>
+  <li><a href="#bundledfunctionalstatus--self-care-admission-example" id="markdown-toc-bundledfunctionalstatus--self-care-admission-example">BundledFunctionalStatus – Self-Care Admission Example</a></li>
+  <li><a href="#functionalstatus--mobility-admission-two-column-example" id="markdown-toc-functionalstatus--mobility-admission-two-column-example">FunctionalStatus – Mobility Admission Two-Column Example</a></li>
 </ul>
 
 </div>
@@ -132,11 +134,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of PAC assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.</p>
 
 <p>A note on the use of “Must Support” in the Implementation Guide:
-For profiles defined in other IGs, the meaning of “Must Support” is established in the defining IG. For profiles defined in this IG, Must Support will conform with US Core definition.</p>
+For profiles defined in other IGs, the meaning of “Must Support” is established in the defining IG. For profiles defined in this IG, “Must Support” will conform with US Core definition.</p>
 
-<h3 id="resource-profile-cognitionquestionnaireresponse">Resource Profile: CognitionQuestionnaireResponse</h3>
+<h3 id="resource-profile-paciofunctionalquestionaireresponse">Resource Profile: PACIOfunctionalQuestionaireResponse</h3>
 
-<p>This resource profile is intended to be used for data exchange of a completed, or sections of a completed, post-acute care (PAC) assessment. The CognitionQuestionnaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.</p>
+<p>This resource profile is intended to be used for data exchange of a completed, or sections of a completed, post-acute care (PAC) assessment. The PACIOfunctionalQuestionaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.</p>
 
 <table class="grid">
   <thead>
@@ -192,11 +194,11 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
   </tr>
   <tr>
     <td>category</td>
-    <td>A required field with the preferred binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
+    <td>A required field with 'extensible' binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -241,7 +243,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -273,9 +275,9 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
   </tr>
 </table>
 
-<h3 id="resource-profile-priorleveloffunctionfunction">Resource Profile: PriorLevelOfFunctionFunction</h3>
+<h3 id="resource-profile-priorleveloffunction">Resource Profile: PriorLevelOfFunction</h3>
 
-<p>This resource profile is intended to be used for the exchange of prior level of function function data when formal functional assessments are not available. It is derived from the FHIR resource Observation.</p>
+<p>This resource profile is intended to be used for the exchange of prior level of function data when formal functional assessments are not available. It is derived from the FHIR resource Observation.</p>
 
 <table class="grid">
   <thead>
@@ -294,7 +296,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -341,58 +343,68 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
 
 <p>In the following set of examples, we provide guidance for using specific codes and conventions for constructing profile instances for data exchange. Although we reference a number of particular PAC patient/resident assessment instruments and provide examples to show how those particular types of assessment data can be exchanged, we do not endorse any of those assessment instruments over other assessment instruments that we have not mentioned. Our intention is to demonstrate the flexibility and adequacy of the PACIO data model, rather than to suggest the best types of functional assessment data for clinicians to use.</p>
 
-<h3 id="functionalquestionnaireresponse--cam-example-note-these-examples-use-the-cognitive-status-profile-httpspaciowggithubiocognitive-status-ig-but-are-modeled-similar-to-functional-status-profiles">FunctionalQuestionnaireResponse – CAM Example *Note: These examples use the Cognitive Status profile (https://paciowg.github.io/cognitive-status-ig), but are modeled similar to Functional Status profiles</h3>
+<h3 id="paciofunctionalquestionaireresponse--mobility-example">PACIOfunctionalQuestionaireResponse – Mobility Example</h3>
 
-<p><img src="QResponse_CAM_Example.png" alt="QResponse CAM Example" style="float: none;"/></p>
+<p><img src="QResponse_Mobility_Example.png" alt="QResponse Mobility Example" style="float: none;"/></p>
 
 <p><strong>Guidance and Notes:</strong></p>
 <ol>
   <li>The ‘questionnaire’ field is the URL pointing to the file of the questionnaire that defines and organizes the questions for which answers are being provided.</li>
-  <li>Use ‘id’ field to indicate the code of a section title or an observation question. For example, the LONIC code ‘86585-7.’</li>
+  <li>Use ‘id’ field to indicate the code of a section title or an observation question. For example, the LOINC code ‘88482-5.’</li>
   <li>Each ‘linkId’ field should match the ‘linkId’ of the corresponding section title or question from the questionnaire.</li>
   <li>The nesting structure of the ‘item’ fields should correspond to the nesting structure as showed in the questionnaire.</li>
 </ol>
 
-<h3 id="bundledfunctionalstatus--cam-example">BundledfunctionalStatus – CAM Example</h3>
+<h3 id="bundledfunctionalstatus--mobility-admission-example">BundledFunctionalStatus – Mobility Admission Example</h3>
 
-<p><img src="BCS_CAM_Example.png" alt="BCS CAM Example" style="float: none;"/></p>
+<p><img src="BFS_Mobility_Admission_Example.png" alt="BFS Admission Example" style="float: none;"/></p>
 
 <p><strong>Guidance and Notes:</strong></p>
 <ol>
-  <li>Here is how the ‘event-location’ extension is used to point to a FHIR Location resource.</li>
-  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘86585-7’ is used to indicate ‘Signs and Symptoms of Delirium (from CAM&copy;)’.</li>
+  <li>Here is how the ‘event-location’ extension is used to point to a FHIR Location resource where the observation event occurred.</li>
+  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘88330-6’ is used to indicate ‘Mobility - Admission Performance’.</li>
   <li>The ‘category’ field should contain the value ‘survey’ for a PAC assessment.</li>
 </ol>
 
-<h3 id="bundledfunctionalstatus--bims-example">BundledfunctionalStatus – BIMS Example</h3>
+<h3 id="bundledfunctionalstatus--mobility-discharge-goal-example">BundledFunctionalStatus – Mobility Discharge Goal Example</h3>
 
-<p><img src="BCS_BIMS_Example.png" alt="BCS BIMS Example" style="float: none;"/></p>
+<p><img src="BFS_Mobility_DischargeGoal_Example.png" alt="BFS Mobility DischargeGoal Example" style="float: none;"/></p>
 
 <p><strong>Guidance and Notes:</strong></p>
 <ol>
-  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘52491-8’ is used to indicate ‘Brief Interview for Mental Status (BIMS)’.</li>
+  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘85056-0’ is used to indicate ‘Mobility - Discharge Goal’.</li>
   <li>Use multiple ‘performer’ fields to provide references to FHIR Practitioner, PractitionerRole, and Organization resource instances.</li>
 </ol>
 
-<h3 id="bundledfunctionalstatus--moca-example">BundledfunctionalStatus – MoCA Example</h3>
+<h3 id="bundledfunctionalstatus--mobility-discharge-and-device-used-example">BundledFunctionalStatus – Mobility Discharge and Device Used Example</h3>
 
-<p><img src="BCS_MOCA_Example.png" alt="BCS MOCA Example" style="float: none;"/></p>
+<p><img src="BFS_Mobility_Discharge_and_DeviceUsed_Example.png" alt="BFS Mobility Discharge and DeviceUsed Example" style="float: none;"/></p>
 
 <p><strong>Guidance and Notes:</strong></p>
 <ol>
-  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘52491-8’ is used to indicate ‘Montreal functional Assessment [MoCA]’.</li>
-  <li>Use the ‘value’ field of type CodeableConcept to store the total score of the MoCA assessment.</li>
+  <li>Here is how the ‘device-patient-used’ extension is used to point to a UseOfDevice resource to specify a device used by the patient during assessment.</li>
+  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘88331-4’ is used to indicate ‘Mobility - Discharge Performance’.</li>
 </ol>
 
-<h3 id="bundledfunctionalstatus--phq-9-two-column-example">BundledfunctionalStatus – PHQ-9 Two-Column Example</h3>
+<h3 id="bundledfunctionalstatus--self-care-admission-example">BundledFunctionalStatus – Self-Care Admission Example</h3>
 
-<p><img src="BCS_PHQ9_Example.png" alt="BCS PHQ9 Example" style="float: none;"/></p>
+<p><img src="BFS_SelfCare_Admission_Example.png" alt="BFS SelfCare Admission Example" style="float: none;"/></p>
 
 <p><strong>Guidance and Notes:</strong></p>
 <ol>
-  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘54635-8’ is used to indicate ‘Resident Mood Interview (PHQ-9)’.</li>
+  <li>Use the right LOINC code to indicate the particular kind of cognitive assessment. In this case the LOINC code ‘83233-7’ is used to indicate ‘Self-Care - Admission Performance’.</li>
   <li>An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.</li>
-  <li>The observation questions of the PHQ-9 assessments are grouped under two headings. One way to determine which ‘hasMember’ elements (i.e. observation questions) should be grouped together and under which heading is to examine the QuestionnaireResponse resource which has the nesting structure to show how the questions were organized.</li>
+  <li>The ‘derivedFrom’ points back to the PACIOfunctionalQuestionaireResponse resource which provides context and structure for the observation-based information.</li>
+</ol>
+
+<h3 id="functionalstatus--mobility-admission-two-column-example">FunctionalStatus – Mobility Admission Two-Column Example</h3>
+
+<p><img src="FS_Mobility_Admission_TwoColumn_Example.png" alt="FS Mobility Admission TwoColumn Example" style="float: none;"/></p>
+
+<p><strong>Guidance and Notes:</strong></p>
+<ol>
+  <li>The observation questions of the ‘Mobility - Admission Performance’ and ‘Mobility - Discharge Goal’ assessments are identical and hence the answer code boxes for the questions are grouped as columns under two headings. Use the ‘component.code’ to specify column headings to provide support for two-column display.</li>
+  <li>Use the ‘component.value’ to specify the answers to the observation questions to provide support for two-column display.</li>
 </ol>
 
 
@@ -402,12 +414,21 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="0a3bf7f4-2694-485a-a873-025a892c02c2">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
+        <p><a name="b2508dd4-7d42-42ce-8f76-e80de35732f7">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -427,7 +448,6 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

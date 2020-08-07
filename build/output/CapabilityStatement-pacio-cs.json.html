@@ -41,7 +41,8 @@
     h3,h4,h5,h6{--heading-prefix:"6.1"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
+          <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -101,21 +102,50 @@
           <div class="inner-wrapper">
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CapabilityStatement-pacio-cs.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="CapabilityStatement-pacio-cs.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CapabilityStatement-pacio-cs.ttl.html">TTL</a>
+    </li>
+  
+
+</ul>
+
   <a name="root"> </a>
-  <h2 id="root">PACIO functional Status Capability Statement - JSON Representation</h2>
-  <p>
-    <a href="CapabilityStatement-pacio-cs.html">(back to description)</a>
-  </p>
-  <p>
-    <a href="CapabilityStatement-pacio-cs.json">Raw json</a>
-  </p>
+
+
+  <h2 id="root">: PACIO functional Status Capability Statement - JSON Representation</h2>
+
+  <p><a href="CapabilityStatement-pacio-cs.json">Raw json</a></p>
+
+    <!-- insert intro if present -->
   
-  
-  
-  <p>
-    <b>Source view</b>
-  </p>
-  
+
+
+
   <pre class="json">
 {
   "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement">resourceType</a>" : "CapabilityStatement",
@@ -129,7 +159,7 @@
   "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.name">name</a>" : "PACIO_functionalStatus_CapabilityStatement",
   "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.title">title</a>" : "PACIO functional Status Capability Statement",
   "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.date">date</a>" : "2020-05-07T20:00:00-04:00",
+  "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.date">date</a>" : "2020-05-08T00:00:00+00:00",
   "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.publisher">publisher</a>" : "PACIO Project",
   "<a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.contact">contact</a>" : [
     {
@@ -1288,20 +1318,32 @@
 }</pre>
 
 
+    <!-- insert notes if present -->
   
-  
+
+
+
 </div>
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="3dbf41d8-45f5-4544-bfd7-96642f08ad54">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
+        <p><a name="fbd0a417-6077-48ca-83f6-b6b473e8a9cd">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -1321,7 +1363,6 @@
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

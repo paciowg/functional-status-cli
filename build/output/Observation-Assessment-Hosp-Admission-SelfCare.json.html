@@ -37,11 +37,12 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"6.25"}
-    h3,h4,h5,h6{--heading-prefix:"6.25"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.61"}
+    h3,h4,h5,h6{--heading-prefix:"6.61"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
+          <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -101,21 +102,50 @@
           <div class="inner-wrapper">
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Observation-Assessment-Hosp-Admission-SelfCare.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="Observation-Assessment-Hosp-Admission-SelfCare.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Observation-Assessment-Hosp-Admission-SelfCare.ttl.html">TTL</a>
+    </li>
+  
+
+</ul>
+
   <a name="root"> </a>
-  <h2 id="root">Assessment-Hosp-Admission-SelfCare - JSON Representation</h2>
-  <p>
-    <a href="Observation-Assessment-Hosp-Admission-SelfCare.html">(back to description)</a>
-  </p>
-  <p>
-    <a href="Observation-Assessment-Hosp-Admission-SelfCare.json">Raw json</a>
-  </p>
+
+
+  <h2 id="root">: Assessment-Hosp-Admission-SelfCare - JSON Representation</h2>
+
+  <p><a href="Observation-Assessment-Hosp-Admission-SelfCare.json">Raw json</a></p>
+
+    <!-- insert intro if present -->
   
-  
-  
-  <p>
-    <b>Source view</b>
-  </p>
-  
+
+
+
   <pre class="json">
 {
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation">resourceType</a>" : "Observation",
@@ -127,7 +157,7 @@
   },
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: Assessment-Hosp-Admission-SelfCare&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\"&gt;Survey&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\"Codes: {http://loinc.org 83233-7}\"&gt;Self-Care - Admission Performance&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\"Patient-patientBSJ1.html\"&gt;Generated Summary: id: patientBSJ1; Betsy Smith-Johnson &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: Apr 2, 2020, 11:00:00 AM&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"Practitioner-Practitioner-SallySmith.html\"&gt;Generated Summary: id: Practitioner-SallySmith; active; Sally Smith ; gender: female&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"PractitionerRole-Role-PT.html\"&gt;Generated Summary: id: Role-PT; active; &lt;span title=\"Codes: {http://snomed.info/sct 36682004}\"&gt;Physiotherapist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Organization-Org-01.html\"&gt;Organization. Generated Summary: id: Org-01; name: San Antonio General Hospital&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;hasMember&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-1.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-1; &lt;span title=\"Codes: {http://loinc.org 83232-9}\"&gt;Eating&lt;/span&gt;; effective: Apr 2, 2020, 11:00:00 AM; &lt;span title=\"Codes: {http://loinc.org LA10073-7}\"&gt;Setup or clean-up assistance&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-7.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-7; &lt;span title=\"Codes: {http://loinc.org 83230-3}\"&gt;Oral hygiene&lt;/span&gt;; effective: Apr 2, 2020, 11:00:00 AM; &lt;span title=\"Codes: {http://loinc.org LA10073-7}\"&gt;Setup or clean-up assistance&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-13.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-13; &lt;span title=\"Codes: {http://loinc.org 83228-7}\"&gt;Toileting hygiene&lt;/span&gt;; effective: Apr 2, 2020, 11:00:00 AM; &lt;span title=\"Codes: {http://loinc.org LA27665-1}\"&gt;Dependent&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-19.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-19; &lt;span title=\"Codes: {http://loinc.org 83226-1}\"&gt;Shower/bathe self&lt;/span&gt;; effective: Apr 2, 2020, 11:00:00 AM; &lt;span title=\"Codes: {http://loinc.org LA27665-1}\"&gt;Not Attempted&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-25.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-25; &lt;span title=\"Codes: {http://loinc.org 83224-6}\"&gt;Upper body dressing&lt;/span&gt;; effective: Apr 2, 2020, 11:00:00 AM; &lt;span title=\"Codes: {http://loinc.org LA27665-1}\"&gt;Substantial/maximal Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-31.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-31; &lt;span title=\"Codes: {http://loinc.org 83222-0}\"&gt;Lower body dressing&lt;/span&gt;; effective: Apr 2, 2020, 11:00:00 AM; &lt;span title=\"Codes: {http://loinc.org LA26735-3}\"&gt;Not Attempted&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-37.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-37; &lt;span title=\"Codes: {http://loinc.org 83220-4}\"&gt;Putting on/taking off footwear&lt;/span&gt;; effective: Apr 2, 2020, 11:00:00 AM; &lt;span title=\"Codes: {http://loinc.org LA26735-3}\"&gt;Not Attempted&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href=\"QuestionnaireResponse-QResponse-Hosp-Admission-SelfCare.html\"&gt;Questionnaire Response. Generated Summary: id: QResponse-Hosp-Admission-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 2, 2020, 11:00:00 AM&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: Assessment-Hosp-Admission-SelfCare&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\"&gt;Survey&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\"Codes: {http://loinc.org 83233-7}\"&gt;Self-Care - Admission Performance&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\"Patient-patientBSJ1.html\"&gt;Generated Summary: id: patientBSJ1; Betsy Smith-Johnson &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: Apr 2, 2020 3:00:00 PM&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"Practitioner-Practitioner-SallySmith.html\"&gt;Generated Summary: id: Practitioner-SallySmith; active; Sally Smith ; gender: female&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"PractitionerRole-Role-PT.html\"&gt;Generated Summary: id: Role-PT; active; &lt;span title=\"Codes: {http://snomed.info/sct 36682004}\"&gt;Physiotherapist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Organization-Org-01.html\"&gt;Organization. Generated Summary: id: Org-01; name: San Antonio General Hospital&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;hasMember&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-1.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-1; &lt;span title=\"Codes: {http://loinc.org 83232-9}\"&gt;Eating&lt;/span&gt;; effective: Apr 2, 2020 3:00:00 PM; &lt;span title=\"Codes: {http://loinc.org LA10073-7}\"&gt;Setup or clean-up assistance&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-7.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-7; &lt;span title=\"Codes: {http://loinc.org 83230-3}\"&gt;Oral hygiene&lt;/span&gt;; effective: Apr 2, 2020 3:00:00 PM; &lt;span title=\"Codes: {http://loinc.org LA10073-7}\"&gt;Setup or clean-up assistance&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-13.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-13; &lt;span title=\"Codes: {http://loinc.org 83228-7}\"&gt;Toileting hygiene&lt;/span&gt;; effective: Apr 2, 2020 3:00:00 PM; &lt;span title=\"Codes: {http://loinc.org LA27665-1}\"&gt;Dependent&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-19.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-19; &lt;span title=\"Codes: {http://loinc.org 83226-1}\"&gt;Shower/bathe self&lt;/span&gt;; effective: Apr 2, 2020 3:00:00 PM; &lt;span title=\"Codes: {http://loinc.org LA27665-1}\"&gt;Not Attempted&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-25.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-25; &lt;span title=\"Codes: {http://loinc.org 83224-6}\"&gt;Upper body dressing&lt;/span&gt;; effective: Apr 2, 2020 3:00:00 PM; &lt;span title=\"Codes: {http://loinc.org LA27665-1}\"&gt;Substantial/maximal Assist&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-31.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-31; &lt;span title=\"Codes: {http://loinc.org 83222-0}\"&gt;Lower body dressing&lt;/span&gt;; effective: Apr 2, 2020 3:00:00 PM; &lt;span title=\"Codes: {http://loinc.org LA26735-3}\"&gt;Not Attempted&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\"Observation-Assessment-Hosp-Admission-SelfCare-Ob-37.html\"&gt;Generated Summary: id: Assessment-Hosp-Admission-SelfCare-Ob-37; &lt;span title=\"Codes: {http://loinc.org 83220-4}\"&gt;Putting on/taking off footwear&lt;/span&gt;; effective: Apr 2, 2020 3:00:00 PM; &lt;span title=\"Codes: {http://loinc.org LA26735-3}\"&gt;Not Attempted&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href=\"QuestionnaireResponse-QResponse-Hosp-Admission-SelfCare.html\"&gt;Questionnaire Response. Generated Summary: id: QResponse-Hosp-Admission-SelfCare; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 2, 2020 3:00:00 PM&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">extension</a>" : [
     {
@@ -205,20 +235,32 @@
 }</pre>
 
 
+    <!-- insert notes if present -->
   
-  
+
+
+
 </div>
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="aa676151-2f47-4bdf-a778-662114ae04fa">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
+        <p><a name="566cdb65-94a4-4a3c-b5af-e5e89de38299">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -238,7 +280,6 @@
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

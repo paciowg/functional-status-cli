@@ -41,7 +41,8 @@
     h3,h4,h5,h6{--heading-prefix:"1"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
+          <!-- Placeholder for child template header declarations -->
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -153,7 +154,7 @@ Data to be standardized and interoperable to allow exchange of data between PAC 
 <h3 id="content-and-organization">Content and Organization</h3>
 <p>The implementation guide is organized into the following sections:</p>
 <ul>
-  <li><a name="b32b85f5-f8a7-4d96-9c31-0521bcd3d634">​</a><a href="cognitive_status_use_case.html">Use Case Example</a> Describes an example of its use and provides a high-level overview of expected process flow.</li>
+  <li><a name="c5b9844e-58ca-4c73-a4bc-2fd738d051f3">​</a><a href="cognitive_status_use_case.html">Use Case Example</a> Describes an example of its use and provides a high-level overview of expected process flow.</li>
   <li><a href="underlying_technologies.html">Underlying Technologies</a> Describes the different specifications this implementation guide relies on and indicates what developers should read and understand prior to implementing this specification.</li>
   <li><a href="profile_highlights_and_guidance.html">Profile Highlights and Guidance</a> Provides a closer look at the IG profiles and guidance for constructing profile instances with examples for data exchange.</li>
   <li><a href="security_and_data_sharing.html">Security and Data Sharing</a> Covers issues concerning security and patient information access and sharing.</li>
@@ -164,7 +165,7 @@ Data to be standardized and interoperable to allow exchange of data between PAC 
 <p>This implementation guide relies on the following other specifications:</p>
 <ul>
   <li><a href="http://hl7.org/fhir/R4/">FHIR R4</a> - The ‘current’ official version of FHIR as of the time this implementation guide was published.  See the <a href="underlying_technologies.html">background page</a> for key pieces of this specification implementers should be familiar with.</li>
-  <li><a name="7c79fddc-edc6-4a07-a94c-d11e80d43dc6">​</a><a href="http://hl7.org/fhir/us/core/STU3">US Core STU3</a> - The version of US Core based on FHIR R4.</li>
+  <li><a name="666e7435-5007-4d14-ae86-d5b02f66b2ea">​</a><a href="http://hl7.org/fhir/us/core/STU3">US Core STU3</a> - The version of US Core based on FHIR R4.</li>
 </ul>
 
 <p>This implementation guide defines additional constraints and usage expectations above and beyond the information found in these base specifications.</p>
@@ -183,12 +184,21 @@ Data to be standardized and interoperable to allow exchange of data between PAC 
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="937198dd-5521-4c19-b997-18d067ecd139">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 3, 2020 09:42-0400">2020-07-03</span>
+        <p><a name="cf52dc58-2313-4f7d-a43b-6b8dce407f73">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -208,7 +218,6 @@ Data to be standardized and interoperable to allow exchange of data between PAC 
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

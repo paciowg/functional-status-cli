@@ -1,6 +1,281 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "88331-4",
+  "display" : "Mobility - Discharge Performance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mobility - discharge performance [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Mobility - Discharge Performance\" is not a valid display for the code {http://loinc.org}88331-4 - should be one of [\"Mobility - discharge performance [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83235-2",
+  "display" : "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83235-2 - should be one of [\"Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA26735-3",
+  "display" : "Not attempted due to medical condition or safety concerns"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Not attempted due to medical condition or safety concerns",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83216-2",
+  "display" : "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?\" is not a valid display for the code {http://loinc.org}83216-2 - should be one of [\"Sit to lying - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA9983-3",
+  "display" : "Independent"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Independent - Patient completes the activity by him/herself with no assistance from a helper.",
+  "severity" : "warning",
+  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA9983-3 - should be one of [\"Independent - Patient completes the activity by him/herself with no assistance from a helper.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83214-7",
+  "display" : "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?\" is not a valid display for the code {http://loinc.org}83214-7 - should be one of [\"Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83212-1",
+  "display" : "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?\" is not a valid display for the code {http://loinc.org}83212-1 - should be one of [\"Sit to stand - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83210-5",
+  "display" : "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?\" is not a valid display for the code {http://loinc.org}83210-5 - should be one of [\"Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83208-9",
+  "display" : "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to get on and off a toilet or commode?\" is not a valid display for the code {http://loinc.org}83208-9 - should be one of [\"Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83206-3",
+  "display" : "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Car transfer - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.\" is not a valid display for the code {http://loinc.org}83206-3 - should be one of [\"Car transfer - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA28225-3",
+  "display" : "Supervision or touching assistance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.",
+  "severity" : "warning",
+  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83204-8",
+  "display" : "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?\" is not a valid display for the code {http://loinc.org}83204-8 - should be one of [\"Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83202-2",
+  "display" : "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83202-2 - should be one of [\"Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83218-8",
+  "display" : "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Roll left and right - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?\" is not a valid display for the code {http://loinc.org}83218-8 - should be one of [\"Roll left and right - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83200-6",
+  "display" : "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83200-6 - should be one of [\"Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83198-2",
+  "display" : "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?\" is not a valid display for the code {http://loinc.org}83198-2 - should be one of [\"Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83196-6",
+  "display" : "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?\" is not a valid display for the code {http://loinc.org}83196-6 - should be one of [\"1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83194-1",
+  "display" : "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "4 steps - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83194-1 - should be one of [\"4 steps - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83192-5",
+  "display" : "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "12 steps - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83192-5 - should be one of [\"12 steps - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83190-9",
+  "display" : "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Picking up object - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?\" is not a valid display for the code {http://loinc.org}83190-9 - should be one of [\"Picking up object - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA10055-4",
+  "display" : "Partial/moderate assistance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.",
+  "severity" : "warning",
+  "error" : "The display \"Partial/moderate assistance\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83188-3",
+  "display" : "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83188-3 - should be one of [\"Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88330-6",
+  "display" : "Mobility - Admission Performance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mobility - admission performance [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Mobility - Admission Performance\" is not a valid display for the code {http://loinc.org}88330-6 - should be one of [\"Mobility - admission performance [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA10073-7",
+  "display" : "Setup or clean-up assistance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.",
+  "severity" : "warning",
+  "error" : "The display \"Setup or clean-up assistance\" is not a valid display for the code {http://loinc.org}LA10073-7 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA11759-0",
+  "display" : "Substantial/maximal assistance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
+  "severity" : "warning",
+  "error" : "The display \"Substantial/maximal assistance\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "83254-3",
   "display" : "Self-Care - Discharge Performance"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -19,17 +294,6 @@ v: {
   "display" : "Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"Oral hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83230-3 - should be one of [\"Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA9983-3",
-  "display" : "Independent"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Independent - Patient completes the activity by him/herself with no assistance from a helper.",
-  "severity" : "warning",
-  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA9983-3 - should be one of [\"Independent - Patient completes the activity by him/herself with no assistance from a helper.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -107,28 +371,6 @@ v: {
   "display" : "Self-care - admission performance [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"Self-Care - Admission Performance\" is not a valid display for the code {http://loinc.org}83233-7 - should be one of [\"Self-care - admission performance [CMS Assessment]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA10073-7",
-  "display" : "Setup or clean-up assistance"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.",
-  "severity" : "warning",
-  "error" : "The display \"Setup or clean-up assistance\" is not a valid display for the code {http://loinc.org}LA10073-7 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.\"]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "LA10055-4",
-  "display" : "Partial/moderate assistance"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.",
-  "severity" : "warning",
-  "error" : "The display \"Partial/moderate assistance\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -313,5 +555,300 @@ v: {
   "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.",
   "severity" : "warning",
   "error" : "The display \"Substantial/maximal assistanc\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA11759-0",
+  "display" : "Substantial/maximal Assist"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
+  "severity" : "warning",
+  "error" : "The display \"Substantial/maximal Assist\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA27998-6",
+  "display" : "Dependent"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity.",
+  "severity" : "warning",
+  "error" : "The display \"Dependent\" is not a valid display for the code {http://loinc.org}LA27998-6 - should be one of [\"Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA27996-0",
+  "display" : "Partial/moderate Assist"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
+  "severity" : "warning",
+  "error" : "The display \"Partial/moderate Assist\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA27996-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85056-0",
+  "display" : "Mobility - Discharge Goal"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mobility - discharge goal [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Mobility - Discharge Goal\" is not a valid display for the code {http://loinc.org}85056-0 - should be one of [\"Mobility - discharge goal [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA11759-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA27994-5",
+  "display" : "Setup or clean-up assistance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity.",
+  "severity" : "warning",
+  "error" : "The display \"Setup or clean-up assistance\" is not a valid display for the code {http://loinc.org}LA27994-5 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA27993-7",
+  "display" : "Independent"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
+  "severity" : "warning",
+  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA28870-6",
+  "display" : "Supervision or touching assistance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
+  "severity" : "warning",
+  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA27996-0",
+  "display" : "Partial/moderate assistance"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
+  "severity" : "warning",
+  "error" : "The display \"Partial/moderate assistance\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83217-0",
+  "display" : "What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Roll left and right - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?\" is not a valid display for the code {http://loinc.org}83217-0 - should be one of [\"Roll left and right - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83215-4",
+  "display" : "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sit to lying - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?\" is not a valid display for the code {http://loinc.org}83215-4 - should be one of [\"Sit to lying - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83213-9",
+  "display" : "What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lying to sitting on side of bed - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?\" is not a valid display for the code {http://loinc.org}83213-9 - should be one of [\"Lying to sitting on side of bed - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83211-3",
+  "display" : "What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sit to stand - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?\" is not a valid display for the code {http://loinc.org}83211-3 - should be one of [\"Sit to stand - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83209-7",
+  "display" : "What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Bed-to-chair transfer - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?\" is not a valid display for the code {http://loinc.org}83209-7 - should be one of [\"Bed-to-chair transfer - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83207-1",
+  "display" : "What was the patient's usual performance related to their ability to get on and off a toilet or commode?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to get on and off a toilet or commode?\" is not a valid display for the code {http://loinc.org}83207-1 - should be one of [\"Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83205-5",
+  "display" : "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Car transfer - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.\" is not a valid display for the code {http://loinc.org}83205-5 - should be one of [\"Car transfer - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83203-0",
+  "display" : "What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walk 10 feet - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?\" is not a valid display for the code {http://loinc.org}83203-0 - should be one of [\"Walk 10 feet - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83201-4",
+  "display" : "What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walk 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83201-4 - should be one of [\"Walk 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83199-0",
+  "display" : "What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walk 150 feet - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83199-0 - should be one of [\"Walk 150 feet - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83197-4",
+  "display" : "What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Walking 10 feet on uneven surfaces - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?\" is not a valid display for the code {http://loinc.org}83197-4 - should be one of [\"Walking 10 feet on uneven surfaces - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83195-8",
+  "display" : "What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "1 step (curb) - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?\" is not a valid display for the code {http://loinc.org}83195-8 - should be one of [\"1 step (curb) - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83193-3",
+  "display" : "What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "4 steps - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83193-3 - should be one of [\"4 steps - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83191-7",
+  "display" : "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "12 steps - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83191-7 - should be one of [\"12 steps - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83189-1",
+  "display" : "What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Picking up object - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?\" is not a valid display for the code {http://loinc.org}83189-1 - should be one of [\"Picking up object - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83187-5",
+  "display" : "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Wheel 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83187-5 - should be one of [\"Wheel 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "83236-0",
+  "display" : "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83236-0 - should be one of [\"Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------

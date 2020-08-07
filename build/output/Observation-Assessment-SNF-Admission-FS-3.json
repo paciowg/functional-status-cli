@@ -1,0 +1,152 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-Admission-FS-3",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Assessment-SNF-Admission-FS-3</p><p><b>meta</b>: </p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 88330-6}\">Mobility - Admission Performance</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: patientBSJ1; Betsy Smith-Johnson </a></p><p><b>effective</b>: Apr 9, 2020 8:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: id: Practitioner-JenCadbury; active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: id: Role-PT; active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: id: Org-02; name: Happy Nursing Facility</a></li></ul><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-3.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-3; <span title=\"Codes: {http://loinc.org 83218-8}\">Roll left and right</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-9.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-9; <span title=\"Codes: {http://loinc.org 83216-2}\">Sit to lying</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-15.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-15; <span title=\"Codes: {http://loinc.org 83214-7}\">Lying to sitting on side of bed</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-21.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-21; <span title=\"Codes: {http://loinc.org 83212-1}\">Sit to stand</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-27.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-27; <span title=\"Codes: {http://loinc.org 83210-5}\">Chair/bed-to-chair transfer</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-33.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-33; <span title=\"Codes: {http://loinc.org 83208-9}\">Toilet transfer</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-39.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-39; <span title=\"Codes: {http://loinc.org 83206-3}\">Car transfer</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-45.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-45; <span title=\"Codes: {http://loinc.org 83204-8}\">Walk 10 feet</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-51.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-51; <span title=\"Codes: {http://loinc.org 83202-2}\">Walk 50 feet with two turns</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-57.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-57; <span title=\"Codes: {http://loinc.org 83200-6}\">Walk 150 feet</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-63.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-63; <span title=\"Codes: {http://loinc.org 83198-2}\">Walking 10 feet on uneven surfaces</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistance</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-69.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-69; <span title=\"Codes: {http://loinc.org 83196-6}\">1 step (curb)</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA26735-3}\">Not attempted due to medical condition or safety concerns</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-75.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-75; <span title=\"Codes: {http://loinc.org 83194-1}\">4 steps</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA26735-3}\">Not attempted due to medical condition or safety concerns</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-81.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-81; <span title=\"Codes: {http://loinc.org 83192-5}\">12 steps</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA26735-3}\">Not attempted due to medical condition or safety concerns</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-87.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-87; <span title=\"Codes: {http://loinc.org 83190-9}\">Picking up object</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA26735-3}\">Not attempted due to medical condition or safety concerns</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-93.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-93; <span title=\"Codes: {http://loinc.org 83188-3}\">Wheel 50 feet with two turns</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal Assist</span></a></li><li><a href=\"Observation-Assessment-SNF-Admission-FS-3-Ob-99.html\">Generated Summary: id: Assessment-SNF-Admission-FS-3-Ob-99; <span title=\"Codes: {http://loinc.org 83235-2}\">Wheel 150 feet</span>; effective: Apr 9, 2020 8:00:00 PM; <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></a></li></ul><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Admission-FS-3.html\">Questionnaire Response. Generated Summary: id: QResponse-SNF-Admission-FS-3; questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Apr 9, 2020 8:00:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-17"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-18"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-19"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-20"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-21"
+      }
+    },
+    {
+      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "valueReference": {
+        "reference": "DeviceUseStatement/Assessment-SNF-Admission-FS-3-UseOfDevice-22"
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "88330-6",
+        "display": "Mobility - Admission Performance"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-04-09T15:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JenCadbury"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-3"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-9"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-15"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-21"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-27"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-33"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-39"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-45"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-51"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-57"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-63"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-69"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-75"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-81"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-87"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-93"
+    },
+    {
+      "reference": "Observation/Assessment-SNF-Admission-FS-3-Ob-99"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Admission-FS-3",
+      "display": "Questionnaire Response"
+    }
+  ]
+}
