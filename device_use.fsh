@@ -11,16 +11,3 @@ Description:    "A device used by a Patient during a functional status assessmen
 * subject only Reference(Patient)
 * device ^binding.description = "The description of the device that the patient used."
 
-
-Instance: cms-deviceUse-01
-InstanceOf: UseOfDevice
-* subject = Reference(patientBSJ1)
-* derivedFrom = Reference(cms-QuestionnaireResponse-01)
-* device = Reference(cms-device-01)
-* status = #active
-
-Instance: cms-device-01
-InstanceOf: Device
-* deviceName.name  = "Walker"
-* deviceName.type  = DVT#user-friendly-name
-

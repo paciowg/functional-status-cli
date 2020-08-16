@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-07-05T06:07:49+00:00",
+  "date": "2020-08-14T15:42:03-04:00",
   "publisher": "PACIO Project",
   "contact": [
     {
@@ -81,32 +81,6 @@
         "extension": [
           {
             "url": "code",
-            "valueString": "path-liquid"
-          },
-          {
-            "url": "value",
-            "valueString": "template/liquid"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "path-liquid"
-          },
-          {
-            "url": "value",
-            "valueString": "input/liquid"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
             "valueString": "path-qa"
           },
           {
@@ -151,19 +125,6 @@
           {
             "url": "value",
             "valueString": "input/ignoreWarnings.txt"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "path-history"
-          },
-          {
-            "url": "value",
-            "valueString": "https://paciowg.github.io/functional-status-ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -4578,40 +4539,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Device"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Device-cms-device-01.html"
-          }
-        ],
-        "reference": {
-          "reference": "Device/cms-device-01"
-        },
-        "name": "cms-device-01",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "DeviceUseStatement"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "DeviceUseStatement-cms-deviceUse-01.html"
-          }
-        ],
-        "reference": {
-          "reference": "DeviceUseStatement/cms-deviceUse-01"
-        },
-        "name": "cms-deviceUse-01",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Patient"
           },
           {
@@ -4708,14 +4635,6 @@
       {
         "code": "path-resource",
         "value": "input/vocabulary"
-      },
-      {
-        "code": "path-resource",
-        "value": "input/maps"
-      },
-      {
-        "code": "path-resource",
-        "value": "input/testing"
       },
       {
         "code": "path-pages",

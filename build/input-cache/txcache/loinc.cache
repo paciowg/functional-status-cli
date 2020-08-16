@@ -1,13 +1,23 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "10158-4"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "History of Functional status Narrative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "88331-4",
   "display" : "Mobility - Discharge Performance"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Mobility - discharge performance [CMS Assessment]",
+  "display" : "Mobility - discharge performance during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Mobility - Discharge Performance\" is not a valid display for the code {http://loinc.org}88331-4 - should be one of [\"Mobility - discharge performance [CMS Assessment]\",]"
+  "error" : "The display \"Mobility - Discharge Performance\" is not a valid display for the code {http://loinc.org}88331-4 - should be one of [\"Mobility - discharge performance during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -247,9 +257,9 @@ v: {
   "display" : "Mobility - Admission Performance"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Mobility - admission performance [CMS Assessment]",
+  "display" : "Mobility - admission performance during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Mobility - Admission Performance\" is not a valid display for the code {http://loinc.org}88330-6 - should be one of [\"Mobility - admission performance [CMS Assessment]\",]"
+  "error" : "The display \"Mobility - Admission Performance\" is not a valid display for the code {http://loinc.org}88330-6 - should be one of [\"Mobility - admission performance during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -606,9 +616,9 @@ v: {
   "display" : "Mobility - Discharge Goal"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Mobility - discharge goal [CMS Assessment]",
+  "display" : "Mobility - discharge goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Mobility - Discharge Goal\" is not a valid display for the code {http://loinc.org}85056-0 - should be one of [\"Mobility - discharge goal [CMS Assessment]\",]"
+  "error" : "The display \"Mobility - Discharge Goal\" is not a valid display for the code {http://loinc.org}85056-0 - should be one of [\"Mobility - discharge goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -850,5 +860,16 @@ v: {
   "display" : "Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
   "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83236-0 - should be one of [\"Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "10158-4",
+  "display" : "History of Functional status Narrative"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "History of Functional status Narrative",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

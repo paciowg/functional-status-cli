@@ -1808,19 +1808,6 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Device-cms-device-01.html" title="Device/cms-device-01">cms-device-01</a>
-               </td>
-               <td/>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-cms-deviceUse-01.html"
-                     title="DeviceUseStatement/cms-deviceUse-01">cms-deviceUse-01</a>
-               </td>
-               <td/>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="Patient-patientBSJ1.html" title="Patient/patientBSJ1">patientBSJ1</a>
                </td>
                <td/>

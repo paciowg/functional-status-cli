@@ -1,28 +1,66 @@
 ---
 ---
 {% include fragment-pagebegin.html %}
+{% assign excludexml = site.data.info.excludexml | downcase | slice: 0 %}
+{% assign excludejson = site.data.info.excludejson | downcase | slice: 0 %}
+{% assign excludettl = site.data.info.excludettl | downcase | slice: 0 %}
+{% assign excludemaps = site.data.info.excludemap | downcase | slice: 0 %}
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
-  {% include fragment-profile-navtabs.html type='StructureDefinition' id='pacio-fs' active='content' %}
-
+  <ul class="nav nav-tabs">
+    <li class="active">
+      <a href="#">Content</a>
+    </li>
+    <li>
+      <a href="StructureDefinition-pacio-fs-definitions.html">Detailed Descriptions</a>
+    </li>
+{% unless excludemaps == 'y' %}
+    <li>
+      <a href="StructureDefinition-pacio-fs-mappings.html">Mappings</a>
+    </li>
+{% endunless %}
+    <li>
+      <a href="StructureDefinition-pacio-fs-examples.html">Examples</a>
+    </li>
+{% unless excludexml == 'y' %}
+    <li>
+      <a href="StructureDefinition-pacio-fs.profile.xml.html">XML</a>
+    </li>
+{% endunless %}
+{% unless excludejson == 'y' %}
+    <li>
+      <a href="StructureDefinition-pacio-fs.profile.json.html">JSON</a>
+    </li>
+{% endunless %}
+{% unless excludettl == 'y' %}
+    <li>
+      <a href="StructureDefinition-pacio-fs.profile.ttl.html">Turtle</a>
+    </li>
+{% endunless %}
+  </ul>
   <a name="root"> </a>
-{% if site.data.structuredefinitions['pacio-fs'].kind == 'logical' %}
-  {% assign modelType = 'Logical Model' %}
-{% elsif site.data.structuredefinitions['pacio-fs'].kind == 'resource' %}
-  {% assign modelType = 'Resource Profile' %}
-{% else %}
-  {% assign modelType = 'Data Type Profile' %}
-{% endif %}
-  <h2 id="root">{{modelType}}: FunctionalStatus</h2>
+  <h2 id="root">StructureDefinition: FunctionalStatus</h2>
   <p>{{site.data.structuredefinitions['pacio-fs'].description | markdownify}}</p>
   <p>
   The official URL for this profile is:
   </p>
   <pre>{{site.data.structuredefinitions['pacio-fs'].url}}</pre>
 
-<!-- insert intro if present -->
-{% include fragment-intro.html %}
-
+  {% assign intro = site.data.pages[page.path].intro %}
+  {% if intro != null %}
+  {% if site.data.pages[page.path].intro-type == 'xml' %}
+  <div style="display:inline-block">
+  {% include {{intro}} %}
+  </div>
+  {% else %}
+  {% capture intro-content %}
+{% include {{intro}} %}
+  {% endcapture %}
+  <div style="display:inline-block">
+  {{ intro-content | markdownify }}
+  </div>
+  {% endif %}
+  {% endif %}
   <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Profile Content</h3>
@@ -181,17 +219,29 @@
   <p>Other representations of profile: <a href="StructureDefinition-pacio-fs.sch">Schematron</a>
   </p>
   <a name="tx"> </a>
-  <!--Terminology Bindings heading in the fragment -->
+  <h3 id="tx">Terminology Bindings</h3>
   {%include StructureDefinition-pacio-fs-tx.xhtml%}
 
   <a name="inv"> </a>
-  <!--Constraints  heading in the fragment -->
+  <h3 id="inv">Constraints</h3>
   {%include StructureDefinition-pacio-fs-inv.xhtml%}
 
-<!-- insert notes if present -->
-{% include fragment-notes.html %}
+  {% assign notes = site.data.pages[page.path].notes %}
+  {% if notes != null %}
+  {% if site.data.pages[page.path].notes-type == 'xml' %}
+  <div style="display:inline-block">
+  {% include {{notes}} %}
+  </div>
+  {% else %}
+  {% capture note-content %}
+{% include {{notes}} %}
+  {% endcapture %}
+  <div style="display:inline-block">
+  {{ note-content | markdownify }}
+  </div>
+  {% endif %}
+  {% endif %}
 
-  {%include StructureDefinition-pacio-fs-history.xhtml%}
 </div>
 {% assign includetabscripts = 'true' %}
 {% include fragment-pageend.html %}

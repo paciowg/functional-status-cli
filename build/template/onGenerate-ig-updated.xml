@@ -17,7 +17,7 @@
    <name value="FunctionalStatusImplementationGuide"/>
    <title value="Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-07-05T06:07:49+00:00"/>
+   <date value="2020-08-14T15:42:03-04:00"/>
    <publisher value="PACIO Project"/>
    <contact>
       <name value="PACIO project"/>
@@ -3589,34 +3589,6 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Device"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Device-cms-device-01.html"/>
-         </extension>
-         <reference>
-            <reference value="Device/cms-device-01"/>
-         </reference>
-         <name value="cms-device-01"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="DeviceUseStatement"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="DeviceUseStatement-cms-deviceUse-01.html"/>
-         </extension>
-         <reference>
-            <reference value="DeviceUseStatement/cms-deviceUse-01"/>
-         </reference>
-         <name value="cms-deviceUse-01"/>
-         <exampleCanonical value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Patient"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -4938,16 +4910,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Device-cms-device-01.html"/>
-               <title value="cms-device-01"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="DeviceUseStatement-cms-deviceUse-01.html"/>
-               <title value="cms-deviceUse-01"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Patient-patientBSJ1.html"/>
                <title value="patientBSJ1"/>
                <generation value="generated"/>
@@ -4999,28 +4961,12 @@
          <value value="input/vocabulary"/>
       </parameter>
       <parameter>
-         <code value="path-resource"/>
-         <value value="input/maps"/>
-      </parameter>
-      <parameter>
-         <code value="path-resource"/>
-         <value value="input/testing"/>
-      </parameter>
-      <parameter>
          <code value="path-pages"/>
          <value value="template/config"/>
       </parameter>
       <parameter>
          <code value="path-pages"/>
          <value value="input/images"/>
-      </parameter>
-      <parameter>
-         <code value="path-liquid"/>
-         <value value="template/liquid"/>
-      </parameter>
-      <parameter>
-         <code value="path-liquid"/>
-         <value value="input/liquid"/>
       </parameter>
       <parameter>
          <code value="path-qa"/>
@@ -5041,10 +4987,6 @@
       <parameter>
          <code value="path-suppressed-warnings"/>
          <value value="input/ignoreWarnings.txt"/>
-      </parameter>
-      <parameter>
-         <code value="path-history"/>
-         <value value="https://paciowg.github.io/functional-status-ig/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

@@ -41,8 +41,7 @@
     h3,h4,h5,h6{--heading-prefix:"6.1"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
-
+        
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
@@ -100,81 +99,57 @@
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
+
+
+
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <a name="root"> </a>
+  <h2 id="root">PACIO functional Status Capability Statement</h2>
+  <p>
+    Format(s):
+  </p>
+  <ul>
 
-  
-
-
-<ul class="nav nav-tabs">
-
-  <li class="active">
-    <a href="#">Narrative Content</a>
-  </li>
-
-
-  
     <li>
       <a href="CapabilityStatement-pacio-cs.xml.html">XML</a>
     </li>
-  
 
 
-  
     <li>
-      <a href="CapabilityStatement-pacio-cs.json.html">JSON</a>
+      <a href="CapabilityStatement-pacio-cs.json.html">JSON</a> 
     </li>
-  
 
 
-  
     <li>
-      <a href="CapabilityStatement-pacio-cs.ttl.html">TTL</a>
+      <a href="CapabilityStatement-pacio-cs.ttl.html">Turtle</a>
     </li>
+
+  </ul>
+
+  
   
 
-</ul>
-
-
-  <a name="root"> </a>
-
-
-  <h2 id="root">CapabilityStatement: PACIO functional Status Capability Statement</h2>
-
-    <!-- insert intro if present -->
-  
-
-
-
+  <p>
+    <b>Narrative view</b>
+  </p>
   <div><h2>PACIO_functionalStatus_CapabilityStatement</h2><div><p>This Capability Statement defines the expected capabilities of a PACIO functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.</p>
 </div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td></td></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET past versions of resources (vread interaction)">V-Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="GET changes to a resource (history interaction on instance)">Updates</b></th><th><b title="GET changes for all resources of the type (history interaction on type)">History</b></th></tr><tr><td>functionalStatus</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cs.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>BundledfunctionalStatus</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bcs.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bcs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>CognitionQuestionnaireResponse</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cognition-qr.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cognition-qr.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>PriorLevelOffunctionalFunction</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plcf.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plcf.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>UseOfDevice</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cs-dev.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-cs-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>
 
-    <!-- insert notes if present -->
   
-
-
-
+  
 </div>
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="477ae045-8e94-458e-aacc-cbd3a81038e4">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jul 5, 2020 06:07+0000">2020-07-05</span>
+        <p><a name="bc438ea8-f7e0-482c-8a03-ae0d6933a19b">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Aug 14, 2020 15:42-0400">2020-08-14</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -194,6 +169,7 @@
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

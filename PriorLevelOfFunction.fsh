@@ -12,9 +12,8 @@ Description:    "An exchange of prior level of function data for a patient."
 *  performer 1..* 
 * text ^binding.description = "Text summary of the prior level of function for the patient."
 * performer ^binding.description = "The person who performed the assessment."
-* value[x] only CodeableConcept
-* value[x] from LNC
-//LP74248-3
+* code = LNC#10158-4 "History of Functional status Narrative"
+* code.text = "History of Functional status Narrative"
 * effective[x] only dateTime or Period
 * extension contains ObservationLocation named event-location 0..1 MS 
 * extension contains AssistanceRequired named assistance-required 0..1 MS 
