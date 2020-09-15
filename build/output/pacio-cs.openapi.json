@@ -1360,12 +1360,12 @@
         ]
       }
     },
-    "/CognitionQuestionnaireResponse": {
-      "summary": "manage the collection of resources of type CognitionQuestionnaireResponse",
-      "description": "Access to services to manage the collection of all resources of type CognitionQuestionnaireResponse",
+    "/PACIOfunctionalQuestionaireResponse": {
+      "summary": "manage the collection of resources of type PACIOfunctionalQuestionaireResponse",
+      "description": "Access to services to manage the collection of all resources of type PACIOfunctionalQuestionaireResponse",
       "get": {
-        "summary": "Search all resources of type CognitionQuestionnaireResponse based on a set of criteria",
-        "operationId": "searchCognitionQuestionnaireResponse",
+        "summary": "Search all resources of type PACIOfunctionalQuestionaireResponse based on a set of criteria",
+        "operationId": "searchPACIOfunctionalQuestionaireResponse",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -1503,12 +1503,12 @@
         ]
       }
     },
-    "/CognitionQuestionnaireResponse/{rid}": {
-      "summary": "Read/Write/etc resource instance of type CognitionQuestionnaireResponse",
-      "description": "Access to services to manage the state of a single resource of type CognitionQuestionnaireResponse",
+    "/PACIOfunctionalQuestionaireResponse/{rid}": {
+      "summary": "Read/Write/etc resource instance of type PACIOfunctionalQuestionaireResponse",
+      "description": "Access to services to manage the state of a single resource of type PACIOfunctionalQuestionaireResponse",
       "get": {
         "summary": "Read the current state of the resource",
-        "operationId": "readCognitionQuestionnaireResponse",
+        "operationId": "readPACIOfunctionalQuestionaireResponse",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -1538,12 +1538,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/CognitionQuestionnaireResponse"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/PACIOfunctionalQuestionaireResponse"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/CognitionQuestionnaireResponse.xsd"
+                  "$ref": "https://hl7.org/fhir/R4/PACIOfunctionalQuestionaireResponse.xsd"
                 }
               }
             }
@@ -1568,12 +1568,12 @@
         ]
       }
     },
-    "/CognitionQuestionnaireResponse/{rid}/_history": {
-      "summary": "Read past versions of resource instance of type CognitionQuestionnaireResponse",
-      "description": "Access to previous versions of a single resource of type CognitionQuestionnaireResponse",
+    "/PACIOfunctionalQuestionaireResponse/{rid}/_history": {
+      "summary": "Read past versions of resource instance of type PACIOfunctionalQuestionaireResponse",
+      "description": "Access to previous versions of a single resource of type PACIOfunctionalQuestionaireResponse",
       "get": {
         "summary": "Read the past states of the resource",
-        "operationId": "histinstCognitionQuestionnaireResponse",
+        "operationId": "histinstPACIOfunctionalQuestionaireResponse",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -1654,12 +1654,12 @@
         ]
       }
     },
-    "/CognitionQuestionnaireResponse/{rid}/_history/{hid}": {
-      "summary": "Read a past version of resource instance of type CognitionQuestionnaireResponse",
-      "description": "Access a to specified previous version of a single resource of type CognitionQuestionnaireResponse",
+    "/PACIOfunctionalQuestionaireResponse/{rid}/_history/{hid}": {
+      "summary": "Read a past version of resource instance of type PACIOfunctionalQuestionaireResponse",
+      "description": "Access a to specified previous version of a single resource of type PACIOfunctionalQuestionaireResponse",
       "get": {
         "summary": "Read a past state of the resource",
-        "operationId": "vreadCognitionQuestionnaireResponse",
+        "operationId": "vreadPACIOfunctionalQuestionaireResponse",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -1689,12 +1689,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/CognitionQuestionnaireResponse"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/PACIOfunctionalQuestionaireResponse"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/CognitionQuestionnaireResponse.xsd"
+                  "$ref": "https://hl7.org/fhir/R4/PACIOfunctionalQuestionaireResponse.xsd"
                 }
               }
             }
@@ -1722,12 +1722,12 @@
         ]
       }
     },
-    "/CognitionQuestionnaireResponse/_history": {
-      "summary": "Read past versions of resources of type CognitionQuestionnaireResponse",
-      "description": "Access to previous versions of resourcez of type CognitionQuestionnaireResponse",
+    "/PACIOfunctionalQuestionaireResponse/_history": {
+      "summary": "Read past versions of resources of type PACIOfunctionalQuestionaireResponse",
+      "description": "Access to previous versions of resourcez of type PACIOfunctionalQuestionaireResponse",
       "get": {
         "summary": "Read the past states of the resource",
-        "operationId": "histtypeCognitionQuestionnaireResponse",
+        "operationId": "histtypePACIOfunctionalQuestionaireResponse",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -1805,12 +1805,12 @@
         ]
       }
     },
-    "/PriorLevelOffunctionalFunction": {
-      "summary": "manage the collection of resources of type PriorLevelOffunctionalFunction",
-      "description": "Access to services to manage the collection of all resources of type PriorLevelOffunctionalFunction",
+    "/PriorLevelOfFunction": {
+      "summary": "manage the collection of resources of type PriorLevelOfFunction",
+      "description": "Access to services to manage the collection of all resources of type PriorLevelOfFunction",
       "get": {
-        "summary": "Search all resources of type PriorLevelOffunctionalFunction based on a set of criteria",
-        "operationId": "searchPriorLevelOffunctionalFunction",
+        "summary": "Search all resources of type PriorLevelOfFunction based on a set of criteria",
+        "operationId": "searchPriorLevelOfFunction",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -2147,12 +2147,12 @@
         ]
       }
     },
-    "/PriorLevelOffunctionalFunction/{rid}": {
-      "summary": "Read/Write/etc resource instance of type PriorLevelOffunctionalFunction",
-      "description": "Access to services to manage the state of a single resource of type PriorLevelOffunctionalFunction",
+    "/PriorLevelOfFunction/{rid}": {
+      "summary": "Read/Write/etc resource instance of type PriorLevelOfFunction",
+      "description": "Access to services to manage the state of a single resource of type PriorLevelOfFunction",
       "get": {
         "summary": "Read the current state of the resource",
-        "operationId": "readPriorLevelOffunctionalFunction",
+        "operationId": "readPriorLevelOfFunction",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -2182,12 +2182,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/PriorLevelOffunctionalFunction"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/PriorLevelOfFunction"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/PriorLevelOffunctionalFunction.xsd"
+                  "$ref": "https://hl7.org/fhir/R4/PriorLevelOfFunction.xsd"
                 }
               }
             }
@@ -2212,12 +2212,12 @@
         ]
       }
     },
-    "/PriorLevelOffunctionalFunction/{rid}/_history": {
-      "summary": "Read past versions of resource instance of type PriorLevelOffunctionalFunction",
-      "description": "Access to previous versions of a single resource of type PriorLevelOffunctionalFunction",
+    "/PriorLevelOfFunction/{rid}/_history": {
+      "summary": "Read past versions of resource instance of type PriorLevelOfFunction",
+      "description": "Access to previous versions of a single resource of type PriorLevelOfFunction",
       "get": {
         "summary": "Read the past states of the resource",
-        "operationId": "histinstPriorLevelOffunctionalFunction",
+        "operationId": "histinstPriorLevelOfFunction",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -2298,12 +2298,12 @@
         ]
       }
     },
-    "/PriorLevelOffunctionalFunction/{rid}/_history/{hid}": {
-      "summary": "Read a past version of resource instance of type PriorLevelOffunctionalFunction",
-      "description": "Access a to specified previous version of a single resource of type PriorLevelOffunctionalFunction",
+    "/PriorLevelOfFunction/{rid}/_history/{hid}": {
+      "summary": "Read a past version of resource instance of type PriorLevelOfFunction",
+      "description": "Access a to specified previous version of a single resource of type PriorLevelOfFunction",
       "get": {
         "summary": "Read a past state of the resource",
-        "operationId": "vreadPriorLevelOffunctionalFunction",
+        "operationId": "vreadPriorLevelOfFunction",
         "responses": {
           "default": {
             "description": "Error, with details",
@@ -2333,12 +2333,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/PriorLevelOffunctionalFunction"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/PriorLevelOfFunction"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/PriorLevelOffunctionalFunction.xsd"
+                  "$ref": "https://hl7.org/fhir/R4/PriorLevelOfFunction.xsd"
                 }
               }
             }
@@ -2366,12 +2366,12 @@
         ]
       }
     },
-    "/PriorLevelOffunctionalFunction/_history": {
-      "summary": "Read past versions of resources of type PriorLevelOffunctionalFunction",
-      "description": "Access to previous versions of resourcez of type PriorLevelOffunctionalFunction",
+    "/PriorLevelOfFunction/_history": {
+      "summary": "Read past versions of resources of type PriorLevelOfFunction",
+      "description": "Access to previous versions of resourcez of type PriorLevelOfFunction",
       "get": {
         "summary": "Read the past states of the resource",
-        "operationId": "histtypePriorLevelOffunctionalFunction",
+        "operationId": "histtypePriorLevelOfFunction",
         "responses": {
           "default": {
             "description": "Error, with details",

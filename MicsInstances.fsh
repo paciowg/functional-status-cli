@@ -1,5 +1,6 @@
 Alias: Hl7FhirAdminGender  = http://hl7.org/fhir/ValueSet/administrative-gender
 Alias: SCT = http://snomed.info/sct
+Alias: NUCC = http://nucc.org/provider-taxonomy
 
 
 // Patient instance
@@ -13,6 +14,12 @@ Instance: Role-PT
 InstanceOf: PractitionerRole
 * code = SCT#36682004
 * code.coding.display = "Physiotherapist"
+* active = true
+
+Instance: Role-OT
+InstanceOf: PractitionerRole
+* code = SCT#80546007
+* code.coding.display = "Occupational therapist"
 * active = true
 
 Instance: Role-RN
@@ -119,3 +126,43 @@ InstanceOf: Location
 * address.text  = "8810 Old Sky Harbor, San Antonio, TX 78242"
 
 
+//////////////////////////////////////////
+Instance: provider-role-pcp
+InstanceOf: PractitionerRole
+* code = NUCC#261QP2300X
+* code.coding.display = "Primary Care"
+* active = true
+* practitioner = Reference(Practitioner-JohnSmith)
+* organization = Reference(provider-org-01)
+* location = Reference(provider-org-loc-01)
+
+Instance: Practitioner-JohnSmith
+InstanceOf: Practitioner
+* name.given = "John"
+* name.family = "Smith"
+* name.text = "Primary Care Physician"
+* active = true
+* gender = Hl7FhirAdminGender#male
+
+Instance: Practitioner-NoraOlogist
+InstanceOf: Practitioner
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "3668788925"
+* name.given = "Nora"
+* name.family = "Ologist"
+* name.text = "Neurologist"
+* active = true
+* gender = Hl7FhirAdminGender#female
+* telecom.system = #phone
+* telecom.value = "(210) 555 7632"
+* address.text = "26022 Meadowlark Bay, San Antonio, TX 78260"
+
+Instance: provider-org-01
+InstanceOf: Organization
+* name = "Primary Care"
+
+Instance: provider-org-loc-01
+InstanceOf: Location
+* status = #active
+* name = "Primary Care"
+* address.text = "177 Deerfield St. San Antonio, TX 78207"

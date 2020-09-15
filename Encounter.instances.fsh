@@ -1,0 +1,40 @@
+Alias: DRL = http://terminology.hl7.org/CodeSystem/diagnosis-role
+Alias: SNMD = http://snomed.info/sct
+Alias: ENCSTATUS = http://hl7.org/fhir/ValueSet/encounter-status
+Alias: DIAGPRESENT = http://hl7.org/fhir/ValueSet/ex-diagnosis-on-admission
+Alias: ENDIAGPRESENT = http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter-diagnosisPresentOnAdmission
+Alias: HOSPDISP = http://hl7.org/fhir/ValueSet/encounter-discharge-disposition
+
+Instance: BSJ-Encounter-1
+InstanceOf: Encounter
+* subject = Reference(patientBSJ1)
+* status = ENCSTATUS#finished
+* class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+* class.code = #IMP
+* class.display = "Inpatient encounter"
+* type.coding = SNMD#32485007 "Hospital admission (procedure)"
+* period.start = "2020-07-07T15:00:00-05:00"
+* period.end = "2020-07-11T10:30:00-05:00"
+* diagnosis[0].condition = Reference(BSJ-Diagnosis9)
+* diagnosis[0].rank = 1
+* diagnosis[0].extension.url = ENDIAGPRESENT
+* diagnosis[0].extension.valueCodeableConcept.coding = DIAGPRESENT#y "Yes"
+* diagnosis[1].condition = Reference(BSJ-Diagnosis1)
+* diagnosis[2].condition = Reference(BSJ-Diagnosis2)
+* diagnosis[3].condition = Reference(BSJ-Diagnosis3)
+* diagnosis[4].condition = Reference(BSJ-Diagnosis4)
+* diagnosis[5].condition = Reference(BSJ-Diagnosis5)
+* diagnosis[6].condition = Reference(BSJ-Diagnosis6)
+* diagnosis[7].condition = Reference(BSJ-Diagnosis7)
+* diagnosis[8].condition = Reference(BSJ-Diagnosis8)
+* diagnosis[0].use.coding = DRL#AD "Admission diagnosis" 
+* diagnosis[1].use.coding =  DRL#CM "Comorbidity diagnosis" 
+* diagnosis[2].use.coding =  DRL#CM "Comorbidity diagnosis" 
+* diagnosis[3].use.coding =  DRL#CM "Comorbidity diagnosis" 
+* diagnosis[4].use.coding =  DRL#CM "Comorbidity diagnosis" 
+* diagnosis[5].use.coding =  DRL#CM "Comorbidity diagnosis" 
+* diagnosis[6].use.coding =  DRL#CM "Comorbidity diagnosis" 
+* diagnosis[7].use.coding =  DRL#CM "Comorbidity diagnosis" 
+* diagnosis[8].use.coding =  DRL#CM "Comorbidity diagnosis"
+* participant.individual = Reference(Practitioner-NoraOlogist)
+* hospitalization.dischargeDisposition = HOSPDISP#snf "Skilled nursing facility"

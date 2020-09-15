@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="BSJ-Assessed-Need3"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>category</b>: <span title="Codes: {http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code assessed-need}">assessed-need</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 183301007}"> Physical exercises (regime/therapy) </span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>onset</b>: Aug 1, 2020 5:08:00 PM</p><p><b>asserter</b>: <a href="Practitioner-JennyGrant">Nurse Practitioner Jenny Grant</a></p></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code"/>
+      <code value="assessed-need"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="183301007"/>
+      <display value="Needs physical exercises"/>
+    </coding>
+    <text value=" Physical exercises (regime/therapy) "/>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <onsetDateTime value="2020-08-01T12:01:00-05:07"/>
+  <asserter>
+    <reference value="Practitioner-JennyGrant"/>
+    <display value="Nurse Practitioner Jenny Grant"/>
+  </asserter>
+</Condition>
