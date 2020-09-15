@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17> a fhir:DeviceUseStatement;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BFS-Hospital-Admission-Mobility-1-UseOfDevice-17"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
+       fhir:index 0;
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-BFS-Hospital-Admission-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88330-6}\">Mobility - Admission Performance</span>; effective: Jul 8, 2020 9:00:00 PM</a></p><p><b>recordedOn</b>: Jul 8, 2020 9:00:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active; Sally Smith ; gender: female</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-1.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></a></p></div>"
+  ];
+  fhir:DeviceUseStatement.status [ fhir:value "active"];
+  fhir:DeviceUseStatement.subject [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:DeviceUseStatement.derivedFrom [
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1" ]
+  ];
+  fhir:DeviceUseStatement.recordedOn [ fhir:value "2020-07-08T16:00:00-05:00"^^xsd:dateTime];
+  fhir:DeviceUseStatement.source [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-SallySmith>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-SallySmith" ]
+  ];
+  fhir:DeviceUseStatement.device [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Device/CMS-Device-1>;
+     fhir:Reference.reference [ fhir:value "Device/CMS-Device-1" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,76 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Observation/BSJ-Prior-Level-Of-Function-1> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BSJ-Prior-Level-Of-Function-1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf";
+       fhir:index 0;
+       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "additional" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient is a community ambulator, able to attend desired activites and able to care for herself independently</div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.text [ fhir:value "Independent" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <https://paciowg.github.io/functional-status-ig/Location/provider-org-loc-01>;
+       fhir:Reference.reference [ fhir:value "Location/provider-org-loc-01" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:10158-4;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "10158-4" ];
+       fhir:Coding.display [ fhir:value "History of Functional status Narrative" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:Observation.effectivePeriod [
+     fhir:Period.start [ fhir:value "2019-07-01"^^xsd:date ];
+     fhir:Period.end [ fhir:value "2020-11-30"^^xsd:date ]
+  ];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JohnSmith>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ]
+  ], [
+     fhir:index 1;
+     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/provider-role-pcp>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-pcp" ]
+  ], [
+     fhir:index 2;
+     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/provider-org-01>;
+     fhir:Reference.reference [ fhir:value "Organization/provider-org-01" ];
+     fhir:Reference.display [ fhir:value "Organization" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://paciowg.github.io/functional-status-ig/Observation/BSJ-Prior-Level-Of-Function-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

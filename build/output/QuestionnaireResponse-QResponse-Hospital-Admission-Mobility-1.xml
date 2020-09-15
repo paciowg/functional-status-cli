@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QuestionnaireResponse xmlns="http://hl7.org/fhir">
+  <id value="QResponse-Hospital-Admission-Mobility-1"/>
+  <meta>
+    <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>questionnaire</b>: <a href="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 8, 2020 9:00:00 PM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0170</p><p><b>text</b>: Mobility - Admission Performance</p><h3>Items</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>
+  </text>
+  <questionnaire value="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"/>
+  <status value="completed"/>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <authored value="2020-07-08T16:00:00-05:00"/>
+  <item id="88482-5">
+    <linkId value="Section-37"/>
+    <text value="Functional Abilities and Goals - Admission"/>
+    <item id="88330-6">
+      <linkId value="Section-37/GG0170"/>
+      <text value="Mobility - Admission Performance"/>
+      <item id="83218-8">
+        <linkId value="Section-37/GG0170A1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83216-2">
+        <linkId value="Section-37/GG0170B1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83214-7">
+        <linkId value="Section-37/GG0170C1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83212-1">
+        <linkId value="Section-37/GG0170D1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83210-5">
+        <linkId value="Section-37/GG0170E1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83208-9">
+        <linkId value="Section-37/GG0170F1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to get on and off a toilet or commode?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83206-3">
+        <linkId value="Section-37/GG0170G1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83204-8">
+        <linkId value="Section-37/GG0170I1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83202-2">
+        <linkId value="Section-37/GG0170J1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to once standing, walk at least 50 feet and make two turns?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83200-6">
+        <linkId value="Section-37/GG0170K1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83198-2">
+        <linkId value="Section-37/GG0170L1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83196-6">
+        <linkId value="Section-37/GG0170M1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to go up and down a curb and/or up and down one step?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83194-1">
+        <linkId value="Section-37/GG0170N1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to go up and down four steps with or without a rail?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83192-5">
+        <linkId value="Section-37/GG0170O1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to go up and down 12 steps with or without a rail?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83190-9">
+        <linkId value="Section-37/GG0170P1"/>
+        <text value="What was the patients&#39;s usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83188-3">
+        <linkId value="Section-37/GG0170R1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91"/>
+          </valueReference>
+        </answer>
+      </item>
+      <item id="83235-2">
+        <linkId value="Section-37/GG0170S1"/>
+        <text value="What was the patient&#39;s usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"/>
+        <answer>
+          <valueReference>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97"/>
+          </valueReference>
+        </answer>
+      </item>
+    </item>
+  </item>
+</QuestionnaireResponse>

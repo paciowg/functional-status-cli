@@ -3,7 +3,7 @@
   "id": "Org-Loc-02",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: Org-Loc-02</p><p><b>status</b>: active</p><p><b>name</b>: Happy Nursing Facility</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: active</p><p><b>name</b>: Happy Nursing Facility</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p></div>"
   },
   "status": "active",
   "name": "Happy Nursing Facility",

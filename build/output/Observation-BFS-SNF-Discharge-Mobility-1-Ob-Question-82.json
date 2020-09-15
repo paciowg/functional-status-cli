@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-SNF-Discharge-Mobility-1-Ob-Question-82",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83192-5}\">12 steps</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Aug 1, 2020 4:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-DanielGranger.html\">Generated Summary: active; Daniel Granger ; gender: male</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Aug 1, 2020 4:00:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83192-5",
+        "display": "What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?"
+      }
+    ],
+    "text": "12 steps"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-08-01T11:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-DanielGranger"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA11759-0",
+        "display": "Substantial/maximal assistance"
+      }
+    ],
+    "text": "Substantial/maximal assistance"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1"
+    }
+  ]
+}

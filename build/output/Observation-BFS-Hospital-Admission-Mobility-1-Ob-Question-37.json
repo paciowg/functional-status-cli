@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-Hospital-Admission-Mobility-1-Ob-Question-37",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83206-3}\">Car transfer</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 8, 2020 9:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active; Sally Smith ; gender: female</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-01.html\">Organization. Generated Summary: name: San Antonio General Hospital</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA26735-3}\">Not attempted due to medical condition or safety concerns</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hospital-Admission-Mobility-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 8, 2020 9:00:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83206-3",
+        "display": "What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt."
+      }
+    ],
+    "text": "Car transfer"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-07-08T16:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-SallySmith"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA26735-3",
+        "display": "Not attempted due to medical condition or safety concerns"
+      }
+    ],
+    "text": "Not attempted due to medical condition or safety concerns"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1"
+    }
+  ]
+}

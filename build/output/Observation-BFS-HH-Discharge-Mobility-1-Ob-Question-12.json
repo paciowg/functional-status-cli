@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-HH-Discharge-Mobility-1-Ob-Question-12",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83216-2}\">Sit to lying</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Aug 30, 2020 7:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-ScottDumble.html\">Generated Summary: active; Scott Dumble ; gender: male</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-03.html\">Organization. Generated Summary: name: Sky Harbor Home Health Services</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-HH-Discharge-Mobility-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Aug 30, 2020 7:00:00 PM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83216-2",
+        "display": "What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?"
+      }
+    ],
+    "text": "Sit to lying"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-08-30T14:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-ScottDumble"
+    },
+    {
+      "reference": "PractitionerRole/Role-PT"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9983-3",
+        "display": "Independent"
+      }
+    ],
+    "text": "Independent"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1"
+    }
+  ]
+}
