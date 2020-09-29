@@ -1,19 +1,19 @@
-﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>PACIO\PACIO Questionaire Response - Profile Turtle - FHIR v4.0.1</title>
-
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
     <link rel="stylesheet" href="fhir.css"/>
-
+     
       <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
-
+  
       <!-- Project extras -->
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
@@ -27,7 +27,7 @@
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif] -->
-
+  
       <!-- Favicons -->
     <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
     <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
@@ -35,26 +35,25 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
-  <body onload="document.body.style.opacity='1'">
+  <body>
 
     <style type="text/css">h2{--heading-prefix:"6.4"}
     h3,h4,h5,h6{--heading-prefix:"6.4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
-
+        
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
-
+    
     <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
       <div class="container">    <!-- container -->
           <!-- HEADER CONTENT -->
-
+    
         <nav class="navbar navbar-inverse">
             <!-- status-bar -->
           <div class="container">
@@ -89,103 +88,58 @@
     </div>    <!-- /segment-navbar -->
       <!-- status-bar -->
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+      <div class="container">    <!-- container -->  
         <ul class="breadcrumb">
           <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>PACIO Questionaire Response</b></li>
-        </ul>
+        </ul>  
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
-
-    <div id="segment-content">    <!-- segment-content -->
+    
+    <div id="segment-content" class="segment">    <!-- segment-content -->
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
+
+
 <div style="counter-reset: section 9" class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  
+  <ul class="nav nav-tabs">
+    <li>
+      <a href="StructureDefinition-pacio-functional-qr.html">Content</a>
+    </li>
+    <li>
+      <a href="StructureDefinition-pacio-functional-qr-definitions.html">Detailed Descriptions</a>
+    </li>
 
-
-
-
-
-
-
-
-
-
-
-<ul class="nav nav-tabs">
-
-  <li>
-    <a href="StructureDefinition-pacio-functional-qr.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-pacio-functional-qr-definitions.html">Detailed Descriptions</a>
-  </li>
-
-
-
-  
     <li>
       <a href="StructureDefinition-pacio-functional-qr-mappings.html">Mappings</a>
     </li>
-  
 
+    <li>
+      <a href="StructureDefinition-pacio-functional-qr-examples.html">Examples</a>
+    </li>
 
-
-
-  
-    
-      <li>
-        <a href="StructureDefinition-pacio-functional-qr-examples.html">Examples</a>
-      </li>
-    
-  
-
-
-
-
-  
     <li>
       <a href="StructureDefinition-pacio-functional-qr.profile.xml.html">XML</a>
     </li>
-  
 
 
-  
     <li>
       <a href="StructureDefinition-pacio-functional-qr.profile.json.html">JSON</a>
     </li>
-  
 
-
-  
     <li class="active">
-      <a href="#">TTL</a>
+      <a href="#">Turtle</a>
     </li>
+  </ul>
+  <a name="root"> </a>
+  <h2 id="root">StructureDefinition: PACIOfunctionalQuestionaireResponse - Turtle Profile</h2>
+  <p>Turtle representation of the pacio-functional-qr Profile.</p>
   
-
-
-</ul>
-
-
-<a name="root"> </a>
-<h2 id="root">Resource Profile: PACIOfunctionalQuestionaireResponse - TTL Profile</h2>
-
-<p>TTL representation of the pacio-functional-qr resource profile.</p>
-
-<p><a href="StructureDefinition-pacio-functional-qr.ttl" no-download="true">Raw ttl</a> | <a download="null" href="StructureDefinition-pacio-functional-qr.ttl">Download</a></p>
-
-    <!-- insert intro if present -->
   
-
-
-
-  <pre class="rdf">
+  
+  <pre class="rdf"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
@@ -198,14 +152,14 @@
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "pacio-functional-qr"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.text">fhir:DomainResource.text</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "extensions" ];
-     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"&gt;&lt;tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\"&gt;Name&lt;/a&gt;&lt;/th&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\"&gt;Flags&lt;/a&gt;&lt;/th&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\"&gt;Card.&lt;/a&gt;&lt;/th&gt;&lt;th style=\"width: 100px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\"&gt;Type&lt;/a&gt;&lt;/th&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\"&gt;Description &amp;amp; Constraints&lt;/a&gt;&lt;span style=\"float: right\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"&gt;&lt;img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse\"&gt;QuestionnaireResponse&lt;/a&gt;&lt;a name=\"QuestionnaireResponse\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;*&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/questionnaireresponse.html\"&gt;QuestionnaireResponse&lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;A structured set of questions and their answers&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.questionnaire\"&gt;questionnaire&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.questionnaire\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/references.html\"&gt;canonical&lt;/a&gt;(&lt;a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/questionnaire.html\"&gt;Questionnaire&lt;/a&gt;)&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;This field contains the URI for the PAC assessment.&lt;br/&gt;&lt;span style=\"font-weight:bold\"&gt;Binding: &lt;/span&gt;&lt;a href=\"http://hl7.org/fhir/R4/terminologies.html#unbound\"&gt;(unbound)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item\"&gt;item&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.id\"&gt;id&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.id\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\"&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;Unique id for inter-element referencing&lt;/span&gt;&lt;br/&gt;&lt;span style=\"font-weight:bold\"&gt;Binding: &lt;/span&gt;&lt;a href=\"http://hl7.org/fhir/R4/terminologies.html#unbound\"&gt;(unbound)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.linkId\"&gt;linkId&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.linkId\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\"&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;Pointer to specific item from Questionnaire&lt;/span&gt;&lt;br/&gt;&lt;span style=\"font-weight:bold\"&gt;Binding: &lt;/span&gt;&lt;a href=\"http://hl7.org/fhir/R4/terminologies.html#unbound\"&gt;(unbound)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.answer\"&gt;answer&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.answer\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.answer.value[x]\"&gt;value[x]&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.answer.value_x_\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/references.html\"&gt;Reference&lt;/a&gt;(&lt;a href=\"http://hl7.org/fhir/R4/observation.html\"&gt;Observation&lt;/a&gt;)&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;Single-valued answer to the question&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr&gt;&lt;td colspan=\"5\" class=\"hierarchy\"&gt;&lt;br/&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"&gt;&lt;img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/&gt; Documentation for this format&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"&gt;&lt;tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\"&gt;Name&lt;/a&gt;&lt;/th&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\"&gt;Flags&lt;/a&gt;&lt;/th&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\"&gt;Card.&lt;/a&gt;&lt;/th&gt;&lt;th style=\"width: 100px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\"&gt;Type&lt;/a&gt;&lt;/th&gt;&lt;th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\"&gt;Description &amp;amp; Constraints&lt;/a&gt;&lt;span style=\"float: right\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"&gt;&lt;img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse\"&gt;QuestionnaireResponse&lt;/a&gt;&lt;a name=\"QuestionnaireResponse\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;*&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/questionnaireresponse.html\"&gt;QuestionnaireResponse&lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;A structured set of questions and their answers&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.questionnaire\"&gt;questionnaire&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.questionnaire\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/references.html\"&gt;canonical&lt;/a&gt;(&lt;a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/questionnaire.html\"&gt;Questionnaire&lt;/a&gt;)&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;This field contains the URI for the PAC assessment.&lt;br/&gt;&lt;span style=\"font-weight:bold\"&gt;Binding: &lt;/span&gt;&lt;a href=\"http://hl7.org/fhir/R4/terminologies.html#unbound\"&gt;(unbound)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item\"&gt;item&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.id\"&gt;id&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.id\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\"&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;This field contains the LOINC code.&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.linkId\"&gt;linkId&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.linkId\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\"&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;Pointer to specific item from Questionnaire&lt;/span&gt;&lt;br/&gt;&lt;span style=\"font-weight:bold\"&gt;Binding: &lt;/span&gt;&lt;a href=\"http://hl7.org/fhir/R4/terminologies.html#unbound\"&gt;(unbound)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.text\"&gt;text&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.text\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\"&gt;string&lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;This field contains the LongName text of the LOINC code.&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.answer\"&gt;answer&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.answer\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;/tr&gt;\r\n&lt;tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)\" class=\"hierarchy\"&gt;&lt;img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/&gt;&lt;img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/&gt; &lt;a href=\"StructureDefinition-pacio-functional-qr-definitions.html#QuestionnaireResponse.item.answer.value[x]\"&gt;value[x]&lt;/a&gt;&lt;a name=\"QuestionnaireResponse.item.answer.value_x_\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;0&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;..&lt;/span&gt;&lt;span style=\"opacity: 0.5\"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;a href=\"http://hl7.org/fhir/R4/references.html\"&gt;Reference&lt;/a&gt;(&lt;a href=\"http://hl7.org/fhir/R4/observation.html\"&gt;Observation&lt;/a&gt;)&lt;/td&gt;&lt;td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"&gt;&lt;span style=\"opacity: 0.5\"&gt;Single-valued answer to the question&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;\r\n&lt;tr&gt;&lt;td colspan=\"5\" class=\"hierarchy\"&gt;&lt;br/&gt;&lt;a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"&gt;&lt;img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/&gt; Documentation for this format&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   ];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.url">fhir:StructureDefinition.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.version">fhir:StructureDefinition.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "0.1.0"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.name">fhir:StructureDefinition.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "PACIOfunctionalQuestionaireResponse"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.title">fhir:StructureDefinition.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "PACIO Questionaire Response"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">fhir:StructureDefinition.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "active"];
-  <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">fhir:StructureDefinition.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> "2020-09-15T04:39:37+00:00"^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">fhir:StructureDefinition.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> "2020-09-29T17:18:42-04:00"^^xsd:dateTime];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">fhir:StructureDefinition.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "PACIO Project"];
   <a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">fhir:StructureDefinition.contact</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
@@ -1118,7 +1072,7 @@
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.representation">fhir:ElementDefinition.representation</a> [
          <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "xmlAttr";
          <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0       ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Unique id for inter-element referencing" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "This field contains the LOINC code." ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">fhir:ElementDefinition.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">fhir:ElementDefinition.min</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:value</a> "0"^^xsd:nonNegativeInteger ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">fhir:ElementDefinition.max</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "1" ];
@@ -1135,8 +1089,6 @@
          <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.type.code">fhir:ElementDefinition.type.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://hl7.org/fhirpath/System.String" ]       ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.isModifier">fhir:ElementDefinition.isModifier</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> "false"^^xsd:boolean ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.isSummary">fhir:ElementDefinition.isSummary</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> "false"^^xsd:boolean ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.binding">fhir:ElementDefinition.binding</a> [
-         <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.binding.description">fhir:ElementDefinition.binding.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "This field contains the LOINC code." ]       ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">fhir:ElementDefinition.mapping</a> [
          <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
          <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">fhir:ElementDefinition.mapping.identity</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> "rim" ];
@@ -1303,7 +1255,7 @@
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 25;
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.text" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.path">fhir:ElementDefinition.path</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.text" ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Name for group or question text" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "This field contains the LongName text of the LOINC code." ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">fhir:ElementDefinition.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "Text that is displayed above the contents of the group or as the text of the question being answered." ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">fhir:ElementDefinition.requirements</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "Allows the questionnaire response to be read without access to the questionnaire." ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">fhir:ElementDefinition.min</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:value</a> "0"^^xsd:nonNegativeInteger ];
@@ -1592,14 +1544,17 @@
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.id" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.path">fhir:ElementDefinition.path</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.id" ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.binding">fhir:ElementDefinition.binding</a> [
-         <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.binding.description">fhir:ElementDefinition.binding.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "This field contains the LOINC code." ]       ]     ], [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "This field contains the LOINC code." ]     ], [
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.linkId" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.path">fhir:ElementDefinition.path</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.linkId" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.binding">fhir:ElementDefinition.binding</a> [
          <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.binding.description">fhir:ElementDefinition.binding.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "This field contains the assesment section and GG question id." ]       ]     ], [
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.text" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.path">fhir:ElementDefinition.path</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.text" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">fhir:ElementDefinition.short</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "This field contains the LongName text of the LOINC code." ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.answer.value[x]" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.path">fhir:ElementDefinition.path</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "QuestionnaireResponse.item.answer.value[x]" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.type">fhir:ElementDefinition.type</a> [
@@ -1616,15 +1571,13 @@
  a owl:Ontology;
   owl:imports fhir:fhir.ttl.
 
-</pre>
+</code></pre>
 
 
 
-    <!-- insert notes if present -->
   
-
-
-
+  
+  
 </div>
 
         </div>    <!-- /inner-wrapper -->
@@ -1632,9 +1585,9 @@
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script src="jquery.js" type="text/javascript"> </script>
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
   <script type="text/javascript">
     try {
       var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
@@ -1658,18 +1611,11 @@
     });
   </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="554c9ac3-dffe-4085-b3f1-b4d7a5d87cae">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 15, 2020 04:39+0000">2020-09-15</span>
+        <p><a name="83e09a2f-67fb-45dd-bab4-2693717d57e2">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 29, 2020 17:18-0400">2020-09-29</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -1689,6 +1635,7 @@
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

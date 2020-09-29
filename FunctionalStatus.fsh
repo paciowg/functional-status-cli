@@ -35,6 +35,7 @@ Description:    "An exchange of functional status data for a patient."
 * hasMember ^short = "Currently not used in FunctionalStatus."
 * derivedFrom ^short = "Currently not used in FunctionalStatus."
 * effective[x] only dateTime
+* effective[x] 1..1
 * extension contains ObservationLocation named event-location 0..1 MS 
 * extension contains DevicePatientUsed named device-use 0..* MS
 

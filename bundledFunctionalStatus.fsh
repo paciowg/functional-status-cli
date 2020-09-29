@@ -14,6 +14,7 @@ Description:    "An point in time bundle of functional status observations for a
 * value[x] only CodeableConcept
 * category 1..1
 * category from CAT (extensible)
+* effective[x] 1..1
 * effective[x] only dateTime or Period
 * extension contains ObservationLocation named event-location 0..1 MS
 * extension contains DevicePatientUsed named device-use 0..* MS

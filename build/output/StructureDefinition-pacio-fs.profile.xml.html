@@ -1,19 +1,19 @@
-﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>PACIO\Functional Status - Profile XML - FHIR v4.0.1</title>
-
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
     <link rel="stylesheet" href="fhir.css"/>
-
+     
       <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
-
+  
       <!-- Project extras -->
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
@@ -27,7 +27,7 @@
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif] -->
-
+  
       <!-- Favicons -->
     <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
     <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
@@ -35,26 +35,25 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
-  <body onload="document.body.style.opacity='1'">
+  <body>
 
     <style type="text/css">h2{--heading-prefix:"6.3"}
     h3,h4,h5,h6{--heading-prefix:"6.3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
-
+        
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Functional Status Implementation Guide</span><br/>0.1.0 - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
-
+    
     <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
       <div class="container">    <!-- container -->
           <!-- HEADER CONTENT -->
-
+    
         <nav class="navbar navbar-inverse">
             <!-- status-bar -->
           <div class="container">
@@ -89,103 +88,62 @@
     </div>    <!-- /segment-navbar -->
       <!-- status-bar -->
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+      <div class="container">    <!-- container -->  
         <ul class="breadcrumb">
           <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Functional Status</b></li>
-        </ul>
+        </ul>  
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
-
-    <div id="segment-content">    <!-- segment-content -->
+    
+    <div id="segment-content" class="segment">    <!-- segment-content -->
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
+
+
 <div style="counter-reset: section 7" class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="https://paciowg.github.io/functional-status-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  
+  <ul class="nav nav-tabs">
+    <li>
+      <a href="StructureDefinition-pacio-fs.html">Content</a>
+    </li>
+    <li>
+      <a href="StructureDefinition-pacio-fs-definitions.html">Detailed Descriptions</a>
+    </li>
 
-
-
-
-
-
-
-
-
-
-
-<ul class="nav nav-tabs">
-
-  <li>
-    <a href="StructureDefinition-pacio-fs.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-pacio-fs-definitions.html">Detailed Descriptions</a>
-  </li>
-
-
-
-  
     <li>
       <a href="StructureDefinition-pacio-fs-mappings.html">Mappings</a>
     </li>
-  
 
-
-
-
-  
-    
-      <li>
-        <a href="StructureDefinition-pacio-fs-examples.html">Examples</a>
-      </li>
-    
-  
-
-
-
-
-  
+    <li>
+      <a href="StructureDefinition-pacio-fs-examples.html">Examples</a>
+    </li>
     <li class="active">
       <a href="#">XML</a>
     </li>
-  
 
-
-  
     <li>
       <a href="StructureDefinition-pacio-fs.profile.json.html">JSON</a>
     </li>
-  
 
 
-  
     <li>
-      <a href="StructureDefinition-pacio-fs.profile.ttl.html">TTL</a>
+      <a href="StructureDefinition-pacio-fs.profile.ttl.html">Turtle</a>
     </li>
+
+  </ul>
+  <a name="root"> </a>
+  <h2 id="root">StructureDefinition: FunctionalStatus - XML Profile</h2>
+  <p>XML representation of the pacio-fs Profile.</p>
+  
   
 
+  <p>
+    <b>Narrative view of the profile</b>
+  </p>
 
-</ul>
-
-
-<a name="root"> </a>
-<h2 id="root">Resource Profile: FunctionalStatus - XML Profile</h2>
-
-<p>XML representation of the pacio-fs resource profile.</p>
-
-<p><a href="StructureDefinition-pacio-fs.xml" no-download="true">Raw xml</a> | <a download="null" href="StructureDefinition-pacio-fs.xml">Download</a></p>
-
-    <!-- insert intro if present -->
-  
-
-
-
-  <pre class="xml">
+  <pre class="xml"><code class="language-xml">
 
 &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition">StructureDefinition</a> xmlns="http://hl7.org/fhir"&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="pacio-fs"/&gt;
@@ -202,7 +160,7 @@
 &lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.code"&gt;code&lt;/a&gt;&lt;a name="Observation.code"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;span style="opacity: 0.5"&gt;1&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;..&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept"&gt;CodeableConcept&lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;For a Post-Acute Care Assessment, code should be a LOINC code and text for the question.&lt;br/&gt;&lt;span style="font-weight:bold"&gt;Binding: &lt;/span&gt;&lt;a href="http://loinc.org"&gt;http://loinc.org&lt;/a&gt; (&lt;a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead."&gt;extensible&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
 &lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.subject"&gt;subject&lt;/a&gt;&lt;a name="Observation.subject"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;1..&lt;span style="opacity: 0.5"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a href="http://hl7.org/fhir/R4/references.html"&gt;Reference&lt;/a&gt;(&lt;a href="http://hl7.org/fhir/R4/patient.html"&gt;Patient&lt;/a&gt;)&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;Subject should only be Patient for functional status&lt;/td&gt;&lt;/tr&gt;
 &lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.focus"&gt;focus&lt;/a&gt;&lt;a name="Observation.focus"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;span style="opacity: 0.5"&gt;0&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;..&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;*&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a href="http://hl7.org/fhir/R4/references.html"&gt;Reference&lt;/a&gt;(&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/resource.html"&gt;Resource&lt;/a&gt;)&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;Currently not used in FunctionalStatus.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.effective[x]"&gt;effective[x]&lt;/a&gt;&lt;a name="Observation.effective_x_"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;span style="opacity: 0.5"&gt;0&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;..&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a href="http://hl7.org/fhir/R4/datatypes.html#dateTime"&gt;dateTime&lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;span style="opacity: 0.5"&gt;Clinically relevant time/time-period for observation&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.effective[x]"&gt;effective[x]&lt;/a&gt;&lt;a name="Observation.effective_x_"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;1..&lt;span style="opacity: 0.5"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a href="http://hl7.org/fhir/R4/datatypes.html#dateTime"&gt;dateTime&lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;span style="opacity: 0.5"&gt;Clinically relevant time/time-period for observation&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.issued"&gt;issued&lt;/a&gt;&lt;a name="Observation.issued"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;span style="opacity: 0.5"&gt;0&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;..&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#instant"&gt;instant&lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;Currently not used in FunctionalStatus.&lt;/td&gt;&lt;/tr&gt;
 &lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.performer"&gt;performer&lt;/a&gt;&lt;a name="Observation.performer"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;1..&lt;span style="opacity: 0.5"&gt;*&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a href="http://hl7.org/fhir/R4/references.html"&gt;Reference&lt;/a&gt;(&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/practitioner.html"&gt;Practitioner&lt;/a&gt; | &lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/practitionerrole.html"&gt;PractitionerRole&lt;/a&gt; | &lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/organization.html"&gt;Organization&lt;/a&gt; | &lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/careteam.html"&gt;CareTeam&lt;/a&gt; | &lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/patient.html"&gt;Patient&lt;/a&gt; | &lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/relatedperson.html"&gt;RelatedPerson&lt;/a&gt;)&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;The person who performed the assessment. Also provide the role and organizationif available. &lt;/td&gt;&lt;/tr&gt;
 &lt;tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"&gt;&lt;img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/&gt;&lt;img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/&gt; &lt;a href="StructureDefinition-pacio-fs-definitions.html#Observation.value[x]"&gt;value[x]&lt;/a&gt;&lt;a name="Observation.value_x_"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;span style="opacity: 0.5"&gt;0&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;..&lt;/span&gt;&lt;span style="opacity: 0.5"&gt;1&lt;/span&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Quantity"&gt;Quantity&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept"&gt;CodeableConcept&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#string"&gt;string&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#boolean"&gt;boolean&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#integer"&gt;integer&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Range"&gt;Range&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Ratio"&gt;Ratio&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#SampledData"&gt;SampledData&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#time"&gt;time&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#dateTime"&gt;dateTime&lt;/a&gt;&lt;span style="opacity: 0.5"&gt;, &lt;/span&gt;&lt;a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Period"&gt;Period&lt;/a&gt;&lt;/td&gt;&lt;td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"&gt;For a Post-Acute Care Assessment, should include a LOINC code and text for the question.&lt;/td&gt;&lt;/tr&gt;
@@ -226,7 +184,7 @@
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="FunctionalStatus"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Functional Status"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2020-09-15T04:39:37+00:00"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2020-09-29T17:18:42-04:00"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="PACIO Project"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="PACIO project"/&gt;
@@ -1247,7 +1205,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Knowing when an observation was deemed true is important to its relevance as well as determining trends."/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Occurrence"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>="0"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>="1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base.path">path</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation.effective[x]"/&gt;
@@ -2080,7 +2038,13 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="sct-concept"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt; 260245000 |Findings values| OR  &amp;lt; 365860008 |General clinical state finding| OR &amp;lt; 250171008 |Clinical history or observation findings| OR  &amp;lt; 415229000 |Racial group| OR &amp;lt; 365400002 |Finding of puberty stage| OR&amp;lt; 443938003 |Procedure carried out on subject|"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt; 260245000 |Findings values| OR  
+&amp;lt; 365860008 |General clinical state finding| 
+OR 
+&amp;lt; 250171008 |Clinical history or observation findings| OR  
+&amp;lt; 415229000 |Racial group| OR 
+&amp;lt; 365400002 |Finding of puberty stage| OR
+&amp;lt; 443938003 |Procedure carried out on subject|"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="v2"/&gt;
@@ -2133,7 +2097,13 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="sct-concept"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt; 260245000 |Findings values| OR  &amp;lt; 365860008 |General clinical state finding| OR &amp;lt; 250171008 |Clinical history or observation findings| OR  &amp;lt; 415229000 |Racial group| OR &amp;lt; 365400002 |Finding of puberty stage| OR&amp;lt; 443938003 |Procedure carried out on subject|"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt; 260245000 |Findings values| OR  
+&amp;lt; 365860008 |General clinical state finding| 
+OR 
+&amp;lt; 250171008 |Clinical history or observation findings| OR  
+&amp;lt; 415229000 |Racial group| OR 
+&amp;lt; 365400002 |Finding of puberty stage| OR
+&amp;lt; 443938003 |Procedure carried out on subject|"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="v2"/&gt;
@@ -2504,7 +2474,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="sct-concept"/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt; 363787002 |Observable entity| OR &amp;lt; 386053000 |Evaluation procedure|"/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt; 363787002 |Observable entity| OR 
+&amp;lt; 386053000 |Evaluation procedure|"/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="v2"/&gt;
@@ -2819,6 +2790,7 @@ The alternate way is to use the value element for actual observations and use th
     &lt;/element&gt;
     &lt;<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.differential.element">element</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">id</a>="Observation.effective[x]"&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Observation.effective[x]"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>="1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.type">type</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.type.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="dateTime"/&gt;
       &lt;/type&gt;
@@ -2894,14 +2866,11 @@ The alternate way is to use the value element for actual observations and use th
       &lt;/binding&gt;
     &lt;/element&gt;
   &lt;/differential&gt;
-&lt;/StructureDefinition&gt;</pre>
+&lt;/StructureDefinition&gt;</code></pre>
 
 
-    <!-- insert notes if present -->
   
-
-
-
+  
 </div>
 
         </div>    <!-- /inner-wrapper -->
@@ -2909,9 +2878,9 @@ The alternate way is to use the value element for actual observations and use th
     </div>    <!-- /container -->
   </div>    <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
+  <script src="jquery.js" type="text/javascript"> </script>
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
   <script type="text/javascript">
     try {
       var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
@@ -2935,18 +2904,11 @@ The alternate way is to use the value element for actual observations and use th
     });
   </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="3631a160-0654-4064-a248-cecc200f41e2">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 15, 2020 04:39+0000">2020-09-15</span>
+        <p><a name="fc3bb3d2-6b94-4263-a8c6-e4730cdc18bb">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="info@pacioproject.org">PACIO Project</a>.  Package pacio#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 29, 2020 17:18-0400">2020-09-29</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -2966,6 +2928,7 @@ The alternate way is to use the value element for actual observations and use th
     <!-- Bootstrap core JavaScript
   ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>

@@ -16,9 +16,9 @@ v: {
   "display" : "Mobility - Discharge Performance"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Mobility - discharge performance during 3 day assessment period [CMS Assessment]",
+  "display" : "Mobility - discharge performance [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Mobility - Discharge Performance\" is not a valid display for the code {http://loinc.org}88331-4 - should be one of [\"Mobility - discharge performance during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Mobility - Discharge Performance\" is not a valid display for the code {http://loinc.org}88331-4 - should be one of [\"Mobility - discharge performance [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -29,7 +29,7 @@ v: {
 v: {
   "display" : "Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83235-2 - should be one of [\"Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83235-2 - should be one of [\"Wheel 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -40,7 +40,7 @@ v: {
 v: {
   "display" : "Independent - Patient completes the activity by him/herself with no assistance from a helper.",
   "severity" : "warning",
-  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA9983-3 - should be one of [\"Independent - Patient completes the activity by him/herself with no assistance from a helper.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA9983-3 - should be one of [\"Independent - Patient completes the activity by him/herself with no assistance from a helper.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -51,7 +51,7 @@ v: {
 v: {
   "display" : "Sit to lying - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?\" is not a valid display for the code {http://loinc.org}83216-2 - should be one of [\"Sit to lying - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?\" is not a valid display for the code {http://loinc.org}83216-2 - should be one of [\"Sit to lying - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -62,7 +62,7 @@ v: {
 v: {
   "display" : "Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?\" is not a valid display for the code {http://loinc.org}83214-7 - should be one of [\"Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?\" is not a valid display for the code {http://loinc.org}83214-7 - should be one of [\"Lying to sitting on side of bed - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -73,7 +73,7 @@ v: {
 v: {
   "display" : "Sit to stand - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?\" is not a valid display for the code {http://loinc.org}83212-1 - should be one of [\"Sit to stand - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?\" is not a valid display for the code {http://loinc.org}83212-1 - should be one of [\"Sit to stand - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -84,7 +84,7 @@ v: {
 v: {
   "display" : "Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?\" is not a valid display for the code {http://loinc.org}83210-5 - should be one of [\"Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?\" is not a valid display for the code {http://loinc.org}83210-5 - should be one of [\"Bed-to-chair transfer - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -95,7 +95,7 @@ v: {
 v: {
   "display" : "Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to get on and off a toilet or commode?\" is not a valid display for the code {http://loinc.org}83208-9 - should be one of [\"Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to get on and off a toilet or commode?\" is not a valid display for the code {http://loinc.org}83208-9 - should be one of [\"Toilet transfer - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -106,7 +106,7 @@ v: {
 v: {
   "display" : "Car transfer - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.\" is not a valid display for the code {http://loinc.org}83206-3 - should be one of [\"Car transfer - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.\" is not a valid display for the code {http://loinc.org}83206-3 - should be one of [\"Car transfer - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -117,7 +117,7 @@ v: {
 v: {
   "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.",
   "severity" : "warning",
-  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -128,7 +128,7 @@ v: {
 v: {
   "display" : "Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?\" is not a valid display for the code {http://loinc.org}83204-8 - should be one of [\"Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?\" is not a valid display for the code {http://loinc.org}83204-8 - should be one of [\"Walk 10 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -139,7 +139,7 @@ v: {
 v: {
   "display" : "Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83202-2 - should be one of [\"Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83202-2 - should be one of [\"Walk 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -150,7 +150,7 @@ v: {
 v: {
   "display" : "Roll left and right - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?\" is not a valid display for the code {http://loinc.org}83218-8 - should be one of [\"Roll left and right - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?\" is not a valid display for the code {http://loinc.org}83218-8 - should be one of [\"Roll left and right - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -161,7 +161,7 @@ v: {
 v: {
   "display" : "Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83200-6 - should be one of [\"Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83200-6 - should be one of [\"Walk 150 feet - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -172,7 +172,7 @@ v: {
 v: {
   "display" : "Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?\" is not a valid display for the code {http://loinc.org}83198-2 - should be one of [\"Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?\" is not a valid display for the code {http://loinc.org}83198-2 - should be one of [\"Walking 10 feet on uneven surfaces - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -183,7 +183,7 @@ v: {
 v: {
   "display" : "1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?\" is not a valid display for the code {http://loinc.org}83196-6 - should be one of [\"1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?\" is not a valid display for the code {http://loinc.org}83196-6 - should be one of [\"1 step (curb) - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -194,7 +194,7 @@ v: {
 v: {
   "display" : "4 steps - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83194-1 - should be one of [\"4 steps - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83194-1 - should be one of [\"4 steps - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -205,7 +205,7 @@ v: {
 v: {
   "display" : "12 steps - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83192-5 - should be one of [\"12 steps - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83192-5 - should be one of [\"12 steps - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -216,7 +216,7 @@ v: {
 v: {
   "display" : "Picking up object - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?\" is not a valid display for the code {http://loinc.org}83190-9 - should be one of [\"Picking up object - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?\" is not a valid display for the code {http://loinc.org}83190-9 - should be one of [\"Picking up object - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -227,7 +227,7 @@ v: {
 v: {
   "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Partial/moderate assistance\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Partial/moderate assistance\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -238,7 +238,7 @@ v: {
 v: {
   "display" : "Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83188-3 - should be one of [\"Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83188-3 - should be one of [\"Wheel 50 feet with two turns - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -249,7 +249,7 @@ v: {
 v: {
   "display" : "Self-care - discharge performance [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Self-Care - Discharge Performance\" is not a valid display for the code {http://loinc.org}83254-3 - should be one of [\"Self-care - discharge performance [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Self-Care - Discharge Performance\" is not a valid display for the code {http://loinc.org}83254-3 - should be one of [\"Self-care - discharge performance [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -260,7 +260,7 @@ v: {
 v: {
   "display" : "Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Oral hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83230-3 - should be one of [\"Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Oral hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83230-3 - should be one of [\"Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -271,7 +271,7 @@ v: {
 v: {
   "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
   "severity" : "warning",
-  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -282,7 +282,7 @@ v: {
 v: {
   "display" : "Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Toileting hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83228-7 - should be one of [\"Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Toileting hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83228-7 - should be one of [\"Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -293,7 +293,7 @@ v: {
 v: {
   "display" : "Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Shower or bathe self - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83226-1 - should be one of [\"Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Shower or bathe self - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83226-1 - should be one of [\"Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -304,7 +304,7 @@ v: {
 v: {
   "display" : "Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Upper body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83224-6 - should be one of [\"Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Upper body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83224-6 - should be one of [\"Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -315,7 +315,7 @@ v: {
 v: {
   "display" : "Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Lower body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83222-0 - should be one of [\"Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Lower body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83222-0 - should be one of [\"Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -326,7 +326,7 @@ v: {
 v: {
   "display" : "Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Putting on and taking off footwear - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83220-4 - should be one of [\"Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Putting on and taking off footwear - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83220-4 - should be one of [\"Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -337,7 +337,7 @@ v: {
 v: {
   "display" : "Eating - functional ability during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Eating - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83232-9 - should be one of [\"Eating - functional ability during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Eating - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83232-9 - should be one of [\"Eating - functional ability during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -346,9 +346,9 @@ v: {
   "display" : "Mobility - Admission Performance"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Mobility - admission performance during 3 day assessment period [CMS Assessment]",
+  "display" : "Mobility - admission performance [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Mobility - Admission Performance\" is not a valid display for the code {http://loinc.org}88330-6 - should be one of [\"Mobility - admission performance during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Mobility - Admission Performance\" is not a valid display for the code {http://loinc.org}88330-6 - should be one of [\"Mobility - admission performance [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -359,7 +359,7 @@ v: {
 v: {
   "display" : "Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.",
   "severity" : "warning",
-  "error" : "The display \"Setup or clean-up assistance\" is not a valid display for the code {http://loinc.org}LA10073-7 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Setup or clean-up assistance\" is not a valid display for the code {http://loinc.org}LA10073-7 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -370,7 +370,7 @@ v: {
 v: {
   "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Substantial/maximal assistance\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Substantial/maximal assistance\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -392,7 +392,7 @@ v: {
 v: {
   "display" : "OASIS D - Self-care - SOC/ROC performance [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Self-Care - SOC/ROC Performance\" is not a valid display for the code {http://loinc.org}89479-0 - should be one of [\"OASIS D - Self-care - SOC/ROC performance [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Self-Care - SOC/ROC Performance\" is not a valid display for the code {http://loinc.org}89479-0 - should be one of [\"OASIS D - Self-care - SOC/ROC performance [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -403,7 +403,7 @@ v: {
 v: {
   "display" : "Eating - functional ability [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Eating\" is not a valid display for the code {http://loinc.org}89410-5 - should be one of [\"Eating - functional ability [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Eating\" is not a valid display for the code {http://loinc.org}89410-5 - should be one of [\"Eating - functional ability [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -414,7 +414,7 @@ v: {
 v: {
   "display" : "Oral hygiene - functional ability [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Oral Hygiene\" is not a valid display for the code {http://loinc.org}89405-5 - should be one of [\"Oral hygiene - functional ability [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Oral Hygiene\" is not a valid display for the code {http://loinc.org}89405-5 - should be one of [\"Oral hygiene - functional ability [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -425,7 +425,7 @@ v: {
 v: {
   "display" : "Toileting hygiene - functional ability [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Toileting Hygiene\" is not a valid display for the code {http://loinc.org}57245-3 - should be one of [\"Toileting hygiene - functional ability [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Toileting Hygiene\" is not a valid display for the code {http://loinc.org}57245-3 - should be one of [\"Toileting hygiene - functional ability [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -436,7 +436,7 @@ v: {
 v: {
   "display" : "Shower/bathe self - functional ability [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Shower/bathe self\" is not a valid display for the code {http://loinc.org}89397-4 - should be one of [\"Shower/bathe self - functional ability [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Shower/bathe self\" is not a valid display for the code {http://loinc.org}89397-4 - should be one of [\"Shower/bathe self - functional ability [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -447,7 +447,7 @@ v: {
 v: {
   "display" : "Upper body dressing - functional ability [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Upper body dressing\" is not a valid display for the code {http://loinc.org}89388-3 - should be one of [\"Upper body dressing - functional ability [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Upper body dressing\" is not a valid display for the code {http://loinc.org}89388-3 - should be one of [\"Upper body dressing - functional ability [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -458,7 +458,7 @@ v: {
 v: {
   "display" : "Lower body dressing - functional ability [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Lower body dressing\" is not a valid display for the code {http://loinc.org}89407-1 - should be one of [\"Lower body dressing - functional ability [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Lower body dressing\" is not a valid display for the code {http://loinc.org}89407-1 - should be one of [\"Lower body dressing - functional ability [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -469,7 +469,7 @@ v: {
 v: {
   "display" : "Putting on and taking off footwear - functional ability [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Puttin on/taking off footwear\" is not a valid display for the code {http://loinc.org}89401-4 - should be one of [\"Putting on and taking off footwear - functional ability [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Puttin on/taking off footwear\" is not a valid display for the code {http://loinc.org}89401-4 - should be one of [\"Putting on and taking off footwear - functional ability [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -480,7 +480,7 @@ v: {
 v: {
   "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Substantial/maximal Assist\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Substantial/maximal Assist\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -491,7 +491,7 @@ v: {
 v: {
   "display" : "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity.",
   "severity" : "warning",
-  "error" : "The display \"Dependent\" is not a valid display for the code {http://loinc.org}LA27998-6 - should be one of [\"Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Dependent\" is not a valid display for the code {http://loinc.org}LA27998-6 - should be one of [\"Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -502,7 +502,7 @@ v: {
 v: {
   "display" : "Self-care - admission performance [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Self-Care - Admission Performance\" is not a valid display for the code {http://loinc.org}83233-7 - should be one of [\"Self-care - admission performance [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Self-Care - Admission Performance\" is not a valid display for the code {http://loinc.org}83233-7 - should be one of [\"Self-care - admission performance [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -513,7 +513,7 @@ v: {
 v: {
   "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Partial/moderate Assist\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Partial/moderate Assist\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -524,7 +524,7 @@ v: {
 v: {
   "display" : "Dependent - Helper does all of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the patient to complete the activity.",
   "severity" : "warning",
-  "error" : "The display \"Dependent\" is not a valid display for the code {http://loinc.org}LA27665-1 - should be one of [\"Dependent - Helper does all of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the patient to complete the activity.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Dependent\" is not a valid display for the code {http://loinc.org}LA27665-1 - should be one of [\"Dependent - Helper does all of the effort. Patient does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the patient to complete the activity.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -535,7 +535,7 @@ v: {
 v: {
   "display" : "Not attempted due to medical condition or safety concerns",
   "severity" : "warning",
-  "error" : "The display \"Not Attempted\" is not a valid display for the code {http://loinc.org}LA26735-3 - should be one of [\"Not attempted due to medical condition or safety concerns\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Not Attempted\" is not a valid display for the code {http://loinc.org}LA26735-3 - should be one of [\"Not attempted due to medical condition or safety concerns\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -546,7 +546,7 @@ v: {
 v: {
   "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Partial/moderate Assist\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Partial/moderate Assist\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -557,7 +557,7 @@ v: {
 v: {
   "display" : "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Substantial/maximal assistanc\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Substantial/maximal assistanc\" is not a valid display for the code {http://loinc.org}LA11759-0 - should be one of [\"Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -566,9 +566,9 @@ v: {
   "display" : "Mobility - Discharge Goal"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Mobility - discharge goal during 3 day assessment period [CMS Assessment]",
+  "display" : "Mobility - discharge goal [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Mobility - Discharge Goal\" is not a valid display for the code {http://loinc.org}85056-0 - should be one of [\"Mobility - discharge goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Mobility - Discharge Goal\" is not a valid display for the code {http://loinc.org}85056-0 - should be one of [\"Mobility - discharge goal [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -579,7 +579,7 @@ v: {
 v: {
   "display" : "Roll left and right - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?\" is not a valid display for the code {http://loinc.org}83217-0 - should be one of [\"Roll left and right - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to roll from lying on back to left and right side, and return to lying on back on the bed?\" is not a valid display for the code {http://loinc.org}83217-0 - should be one of [\"Roll left and right - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -590,7 +590,7 @@ v: {
 v: {
   "display" : "Sit to lying - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?\" is not a valid display for the code {http://loinc.org}83215-4 - should be one of [\"Sit to lying - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from sitting on side of bed to lying flat on the bed?\" is not a valid display for the code {http://loinc.org}83215-4 - should be one of [\"Sit to lying - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -601,7 +601,7 @@ v: {
 v: {
   "display" : "Lying to sitting on side of bed - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?\" is not a valid display for the code {http://loinc.org}83213-9 - should be one of [\"Lying to sitting on side of bed - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to move from lying on the back to sitting on the side of the bed with feet flat on the floor, and with no back support?\" is not a valid display for the code {http://loinc.org}83213-9 - should be one of [\"Lying to sitting on side of bed - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -612,7 +612,7 @@ v: {
 v: {
   "display" : "Sit to stand - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?\" is not a valid display for the code {http://loinc.org}83211-3 - should be one of [\"Sit to stand - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to come to a standing position from sitting in a chair, wheelchair, or on the side of the bed?\" is not a valid display for the code {http://loinc.org}83211-3 - should be one of [\"Sit to stand - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -623,7 +623,7 @@ v: {
 v: {
   "display" : "Bed-to-chair transfer - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?\" is not a valid display for the code {http://loinc.org}83209-7 - should be one of [\"Bed-to-chair transfer - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer to and from a bed to a chair (or wheelchair)?\" is not a valid display for the code {http://loinc.org}83209-7 - should be one of [\"Bed-to-chair transfer - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -634,7 +634,7 @@ v: {
 v: {
   "display" : "Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to get on and off a toilet or commode?\" is not a valid display for the code {http://loinc.org}83207-1 - should be one of [\"Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to get on and off a toilet or commode?\" is not a valid display for the code {http://loinc.org}83207-1 - should be one of [\"Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -645,7 +645,7 @@ v: {
 v: {
   "display" : "Car transfer - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.\" is not a valid display for the code {http://loinc.org}83205-5 - should be one of [\"Car transfer - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to transfer in and out of a car or van on the passenger side?  Does not include the ability to open/close door or fasten seat belt.\" is not a valid display for the code {http://loinc.org}83205-5 - should be one of [\"Car transfer - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -656,7 +656,7 @@ v: {
 v: {
   "display" : "Walk 10 feet - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?\" is not a valid display for the code {http://loinc.org}83203-0 - should be one of [\"Walk 10 feet - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 10 feet in a room, corridor, or similar space?\" is not a valid display for the code {http://loinc.org}83203-0 - should be one of [\"Walk 10 feet - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -667,7 +667,7 @@ v: {
 v: {
   "display" : "Walk 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83201-4 - should be one of [\"Walk 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once standing, walk at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83201-4 - should be one of [\"Walk 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -678,7 +678,7 @@ v: {
 v: {
   "display" : "Walk 150 feet - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83199-0 - should be one of [\"Walk 150 feet - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability once standing, to walk at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83199-0 - should be one of [\"Walk 150 feet - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -689,7 +689,7 @@ v: {
 v: {
   "display" : "Walking 10 feet on uneven surfaces - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?\" is not a valid display for the code {http://loinc.org}83197-4 - should be one of [\"Walking 10 feet on uneven surfaces - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to walk 10 feet on uneven or sloping surfaces (indoor or outdoor), such as turf or gravel?\" is not a valid display for the code {http://loinc.org}83197-4 - should be one of [\"Walking 10 feet on uneven surfaces - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -700,7 +700,7 @@ v: {
 v: {
   "display" : "1 step (curb) - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?\" is not a valid display for the code {http://loinc.org}83195-8 - should be one of [\"1 step (curb) - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down a curb and/or up and down one step?\" is not a valid display for the code {http://loinc.org}83195-8 - should be one of [\"1 step (curb) - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -711,7 +711,7 @@ v: {
 v: {
   "display" : "4 steps - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83193-3 - should be one of [\"4 steps - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down four steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83193-3 - should be one of [\"4 steps - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -722,7 +722,7 @@ v: {
 v: {
   "display" : "12 steps - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83191-7 - should be one of [\"12 steps - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to go up and down 12 steps with or without a rail?\" is not a valid display for the code {http://loinc.org}83191-7 - should be one of [\"12 steps - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -733,7 +733,7 @@ v: {
 v: {
   "display" : "Picking up object - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?\" is not a valid display for the code {http://loinc.org}83189-1 - should be one of [\"Picking up object - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patients's usual performance related to their ability to bend/stoop from a standing position to pick up a small object, such as a spoon, from the floor?\" is not a valid display for the code {http://loinc.org}83189-1 - should be one of [\"Picking up object - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -744,7 +744,7 @@ v: {
 v: {
   "display" : "Wheel 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83187-5 - should be one of [\"Wheel 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 50 feet and make two turns?\" is not a valid display for the code {http://loinc.org}83187-5 - should be one of [\"Wheel 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -755,7 +755,7 @@ v: {
 v: {
   "display" : "Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83236-0 - should be one of [\"Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?\" is not a valid display for the code {http://loinc.org}83236-0 - should be one of [\"Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -766,7 +766,7 @@ v: {
 v: {
   "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Dependent\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Dependent\" is not a valid display for the code {http://loinc.org}LA10055-4 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -777,7 +777,7 @@ v: {
 v: {
   "display" : "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity.",
   "severity" : "warning",
-  "error" : "The display \"Setup or clean-up assistance\" is not a valid display for the code {http://loinc.org}LA27994-5 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Setup or clean-up assistance\" is not a valid display for the code {http://loinc.org}LA27994-5 - should be one of [\"Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -788,7 +788,7 @@ v: {
 v: {
   "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.",
   "severity" : "warning",
-  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28870-6 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -799,7 +799,7 @@ v: {
 v: {
   "display" : "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.",
   "severity" : "warning",
-  "error" : "The display \"Partial/moderate assistance\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Partial/moderate assistance\" is not a valid display for the code {http://loinc.org}LA27996-0 - should be one of [\"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -810,7 +810,7 @@ v: {
 v: {
   "display" : "Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.",
   "severity" : "warning",
-  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA11757-4 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA11757-4 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -821,7 +821,7 @@ v: {
 v: {
   "display" : "Self-care - discharge goal [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Self-Care - Discharge Goal\" is not a valid display for the code {http://loinc.org}85054-5 - should be one of [\"Self-care - discharge goal [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Self-Care - Discharge Goal\" is not a valid display for the code {http://loinc.org}85054-5 - should be one of [\"Self-care - discharge goal [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -832,7 +832,7 @@ v: {
 v: {
   "display" : "Eating - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Eating - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83231-1 - should be one of [\"Eating - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Eating - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83231-1 - should be one of [\"Eating - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -843,7 +843,7 @@ v: {
 v: {
   "display" : "Oral hygiene - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Oral hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83229-5 - should be one of [\"Oral hygiene - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Oral hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83229-5 - should be one of [\"Oral hygiene - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -854,7 +854,7 @@ v: {
 v: {
   "display" : "Toileting hygiene - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Toileting hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83227-9 - should be one of [\"Toileting hygiene - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Toileting hygiene - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83227-9 - should be one of [\"Toileting hygiene - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -865,7 +865,7 @@ v: {
 v: {
   "display" : "Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.",
   "severity" : "warning",
-  "error" : "The display \"Supervision or touching Assist\" is not a valid display for the code {http://loinc.org}LA11757-4 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Supervision or touching Assist\" is not a valid display for the code {http://loinc.org}LA11757-4 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues or touching/steadying assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -876,7 +876,7 @@ v: {
 v: {
   "display" : "Shower/bathe self - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Shower &or bathe self - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83225-3 - should be one of [\"Shower/bathe self - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Shower &or bathe self - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83225-3 - should be one of [\"Shower/bathe self - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -887,7 +887,7 @@ v: {
 v: {
   "display" : "Upper body dressing - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Upper body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83223-8 - should be one of [\"Upper body dressing - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Upper body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83223-8 - should be one of [\"Upper body dressing - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -898,7 +898,7 @@ v: {
 v: {
   "display" : "Lower body dressing - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Lower body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83221-2 - should be one of [\"Lower body dressing - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Lower body dressing - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83221-2 - should be one of [\"Lower body dressing - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -909,6 +909,6 @@ v: {
 v: {
   "display" : "Putting on/taking off footwear - functional goal during 3 day assessment period [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Putting on and taking off footwear - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83219-6 - should be one of [\"Putting on/taking off footwear - functional goal during 3 day assessment period [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Putting on and taking off footwear - functional ability during 3D assessment period\" is not a valid display for the code {http://loinc.org}83219-6 - should be one of [\"Putting on/taking off footwear - functional goal during 3 day assessment period [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------

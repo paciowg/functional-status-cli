@@ -10,7 +10,7 @@
   "name": "FunctionalStatusImplementationGuide",
   "title": "Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-09-15T04:39:37+00:00",
+  "date": "2020-09-29T17:18:42-04:00",
   "publisher": "PACIO Project",
   "contact": [
     {
@@ -81,32 +81,6 @@
         "extension": [
           {
             "url": "code",
-            "valueString": "path-liquid"
-          },
-          {
-            "url": "value",
-            "valueString": "template/liquid"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "path-liquid"
-          },
-          {
-            "url": "value",
-            "valueString": "input/liquid"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
             "valueString": "path-qa"
           },
           {
@@ -151,19 +125,6 @@
           {
             "url": "value",
             "valueString": "input/ignoreWarnings.txt"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "path-history"
-          },
-          {
-            "url": "value",
-            "valueString": "https://paciowg.github.io/functional-status-ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -5320,18 +5281,6 @@
       {
         "code": "path-resource",
         "value": "input/vocabulary"
-      },
-      {
-        "code": "path-resource",
-        "value": "input/maps"
-      },
-      {
-        "code": "path-resource",
-        "value": "input/testing"
-      },
-      {
-        "code": "path-resource",
-        "value": "input/history"
       },
       {
         "code": "path-pages",
