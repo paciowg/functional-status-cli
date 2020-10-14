@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JohnSmith> a fhir:Practitioner;
+<http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JohnSmith> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Practitioner-JohnSmith"];
   fhir:DomainResource.text [
@@ -26,9 +26,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JohnSmith.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JohnSmith.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Practitioner/Practitioner-JohnSmith.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/Practitioner/Practitioner-JohnSmith.ttl> .
 
 # -------------------------------------------------------------------------------------
 

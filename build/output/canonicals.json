@@ -9,56 +9,56 @@
   {
     "id": "hl7.fhir.us.pacio-fs",
     "type": "ImplementationGuide",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs",
+    "url": "http://hl7.org/fhir/us/pacio-fs/ImplementationGuide/hl7.fhir.us.pacio-fs",
     "version": "0.1.0",
     "name": "PACIOFunctionalStatusImplementationGuide"
   },
   {
     "id": "assistance-required",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/assistance-required",
+    "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required",
     "version": "0.1.0",
     "name": "AssistanceRequired"
   },
   {
     "id": "device-patient-used",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used",
+    "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used",
     "version": "0.1.0",
     "name": "DevicePatientUsed"
   },
   {
     "id": "pacio-bfs",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs",
+    "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs",
     "version": "0.1.0",
     "name": "BundledFunctionalStatus"
   },
   {
     "id": "pacio-dev",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev",
+    "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev",
     "version": "0.1.0",
     "name": "UseOfDevice"
   },
   {
     "id": "pacio-fs",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs",
+    "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs",
     "version": "0.1.0",
     "name": "FunctionalStatus"
   },
   {
     "id": "pacio-functional-qr",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr",
+    "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr",
     "version": "0.1.0",
     "name": "PACIOfunctionalQuestionnaireResponse"
   },
   {
     "id": "pacio-plf",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-plf",
+    "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf",
     "version": "0.1.0",
     "name": "PriorLevelOfFunction"
   }

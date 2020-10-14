@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Device/CMS-Device-2> a fhir:Device;
+<http://hl7.org/fhir/us/pacio-fs/Device/CMS-Device-2> a fhir:Device;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CMS-Device-2"];
   fhir:DomainResource.text [
@@ -29,9 +29,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Device/CMS-Device-2.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/Device/CMS-Device-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Device/CMS-Device-2.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/Device/CMS-Device-2.ttl> .
 
 # -------------------------------------------------------------------------------------
 

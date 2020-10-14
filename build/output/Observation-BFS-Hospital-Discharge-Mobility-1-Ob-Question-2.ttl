@@ -6,25 +6,25 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2> a fhir:Observation;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-Hospital-Discharge-Mobility-1-Ob-Question-2"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83218-8}\">Roll left and right</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 10, 2020, 3:34:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active; Ron Marble ; gender: male</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-01.html\">Organization. Generated Summary: name: San Antonio General Hospital</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 10, 2020, 3:34:00 PM</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83218-8}\">Roll left and right</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 10, 2020 12:34:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active; Ron Marble ; gender: male</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-01.html\">Organization. Generated Summary: name: San Antonio General Hospital</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA27996-0}\">Partial/moderate Assist</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 10, 2020 12:34:00 PM</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-01>;
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/Location/Org-Loc-01>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-01" ]
      ]
   ];
@@ -40,21 +40,21 @@
      fhir:CodeableConcept.text [ fhir:value "Roll left and right" ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-10T14:34:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-RonMarble>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-RonMarble>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-RonMarble" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-PT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-01>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Organization/Org-01>;
      fhir:Reference.reference [ fhir:value "Organization/Org-01" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
@@ -70,27 +70,27 @@
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1" ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-01> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Location/Org-Loc-01> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-RonMarble> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-RonMarble> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-PT> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-01> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Organization/Org-01> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -6,25 +6,25 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1> a fhir:Observation;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-SNF-Admission-Mobility-SelfCare-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83233-7}\">Self-Care - Admission Performance</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 5:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Role-OT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83232-9}\">Eating</span>; effective: Jul 11, 2020, 5:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83230-3}\">Oral hygiene</span>; effective: Jul 11, 2020, 5:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83228-7}\">Toileting hygiene</span>; effective: Jul 11, 2020, 5:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Dependent</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83226-1}\">Shower/bathe self</span>; effective: Jul 11, 2020, 5:32:00 PM; <span title=\"Codes: {http://loinc.org LA26735-3}\">Not Attempted</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83224-6}\">Upper body dressing</span>; effective: Jul 11, 2020, 5:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83222-0}\">Lower body dressing</span>; effective: Jul 11, 2020, 5:32:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistanc</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83220-4}\">Putting on/taking off footwear</span>; effective: Jul 11, 2020, 5:32:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistanc</span></a></li></ul><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html\">Questionnaire Response. Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 5:32:00 PM</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83233-7}\">Self-Care - Admission Performance</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020 2:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Role-OT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83232-9}\">Eating</span>; effective: Jul 11, 2020 2:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83230-3}\">Oral hygiene</span>; effective: Jul 11, 2020 2:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83228-7}\">Toileting hygiene</span>; effective: Jul 11, 2020 2:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Dependent</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83226-1}\">Shower/bathe self</span>; effective: Jul 11, 2020 2:32:00 PM; <span title=\"Codes: {http://loinc.org LA26735-3}\">Not Attempted</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83224-6}\">Upper body dressing</span>; effective: Jul 11, 2020 2:32:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate Assist</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83222-0}\">Lower body dressing</span>; effective: Jul 11, 2020 2:32:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistanc</span></a></li><li><a href=\"Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83220-4}\">Putting on/taking off footwear</span>; effective: Jul 11, 2020 2:32:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistanc</span></a></li></ul><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html\">Questionnaire Response. Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020 2:32:00 PM</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02>;
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/Location/Org-Loc-02>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-02" ]
      ]
   ];
@@ -47,91 +47,91 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-11T16:32:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JenCadbury>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JenCadbury" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-OT>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-OT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-OT" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Organization/Org-02>;
      fhir:Reference.reference [ fhir:value "Organization/Org-02" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
   fhir:Observation.hasMember [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13" ]
   ], [
      fhir:index 3;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18" ]
   ], [
      fhir:index 4;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23" ]
   ], [
      fhir:index 5;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28" ]
   ], [
      fhir:index 6;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33" ]
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1" ];
      fhir:Reference.display [ fhir:value "Questionnaire Response" ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Location/Org-Loc-02> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JenCadbury> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-OT> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-OT> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Organization/Org-02> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-SelfCare-1.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/Observation/BFS-SNF-Admission-Mobility-SelfCare-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

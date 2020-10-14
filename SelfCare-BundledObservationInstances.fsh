@@ -14,7 +14,6 @@ InstanceOf: BundledFunctionalStatus
 * performer[2] = Reference(Org-02)
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
-* extension[device-patient-used][0].valueReference = Reference(BFS-SNF-Discharge-Mobility-SelfCare-1-UseOfDevice-1)
 * hasMember[0] = Reference(BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4)
 * hasMember[1] = Reference(BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9)
 * hasMember[2] = Reference(BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14)

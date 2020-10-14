@@ -6,25 +6,25 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40> a fhir:Observation;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83223-8}\">Upper body dressing</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 5:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Role-OT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10073-7}\">Setup or clean-up assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 5:32:00 PM</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83223-8}\">Upper body dressing</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020 2:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Role-OT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10073-7}\">Setup or clean-up assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020 2:32:00 PM</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02>;
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/Location/Org-Loc-02>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-02" ]
      ]
   ];
@@ -40,21 +40,21 @@
      fhir:CodeableConcept.text [ fhir:value "Upper body dressing" ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-11T16:32:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JenCadbury>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JenCadbury" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-OT>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-OT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-OT" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Organization/Org-02>;
      fhir:Reference.reference [ fhir:value "Organization/Org-02" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
@@ -70,27 +70,27 @@
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1" ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Location/Org-Loc-02> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JenCadbury> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-OT> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-OT> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Organization/Org-02> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BSJ-Prior-Level-Of-Function-1> a fhir:Observation;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BSJ-Prior-Level-Of-Function-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BSJ-Prior-Level-Of-Function-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-plf";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-plf>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf>
      ]
   ];
   fhir:DomainResource.text [
@@ -22,7 +22,7 @@
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/assistance-required" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required" ];
      fhir:Extension.valueCodeableConcept [
        fhir:CodeableConcept.text [ fhir:value "Independent" ]
      ]
@@ -30,7 +30,7 @@
      fhir:index 1;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/provider-org-loc-01>;
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/Location/provider-org-loc-01>;
        fhir:Reference.reference [ fhir:value "Location/provider-org-loc-01" ]
      ]
   ];
@@ -45,7 +45,7 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectivePeriod [
@@ -54,34 +54,34 @@
   ];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JohnSmith>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JohnSmith>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/provider-role-pcp>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/PractitionerRole/provider-role-pcp>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-pcp" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/provider-org-01>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Organization/provider-org-01>;
      fhir:Reference.reference [ fhir:value "Organization/provider-org-01" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Location/provider-org-loc-01> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Location/provider-org-loc-01> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JohnSmith> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-JohnSmith> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/provider-role-pcp> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/PractitionerRole/provider-role-pcp> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Organization/provider-org-01> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Organization/provider-org-01> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BSJ-Prior-Level-Of-Function-1.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/Observation/BSJ-Prior-Level-Of-Function-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BSJ-Prior-Level-Of-Function-1.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/Observation/BSJ-Prior-Level-Of-Function-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

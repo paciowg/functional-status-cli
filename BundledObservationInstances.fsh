@@ -9,7 +9,6 @@ InstanceOf: BundledFunctionalStatus
 * code = LNC#88331-4
 * code.coding.display = "Mobility - Discharge Performance"
 * category = CAT#survey
-* encounter = Reference(BSJ-Encounter-1)
 * performer = Reference(Practitioner-RonMarble)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)
@@ -87,7 +86,6 @@ InstanceOf: BundledFunctionalStatus
 * code = LNC#85056-0
 * code.coding.display = "Mobility - Discharge Goal"
 * category = CAT#survey
-* encounter = Reference(BSJ-Encounter-1)
 * performer = Reference(Practitioner-SallySmith)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)
@@ -192,7 +190,6 @@ InstanceOf: BundledFunctionalStatus
 * code = LNC#88330-6
 * code.coding.display = "Mobility - Admission Performance"
 * category = CAT#survey
-* encounter = Reference(BSJ-Encounter-1)
 * performer = Reference(Practitioner-SallySmith)
 * performer[1] = Reference(Role-PT)
 * performer[2] = Reference(Org-01)

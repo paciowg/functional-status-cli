@@ -3,12 +3,12 @@
   "id": "BFS-SNF-Discharge-Mobility-1-UseOfDevice-11",
   "meta": {
     "profile": [
-      "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev"
+      "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-BFS-SNF-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - Discharge Performance</span>; effective: Aug 1, 2020, 12:00:00 PM</a></p><p><b>recordedOn</b>: Aug 1, 2020, 12:00:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-DanielGranger.html\">Generated Summary: active; Daniel Granger ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-6.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 360303004}\">Hand rail</span></a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-BFS-SNF-Discharge-Mobility-1.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 88331-4}\">Mobility - Discharge Performance</span>; effective: Aug 1, 2020 9:00:00 AM</a></p><p><b>recordedOn</b>: Aug 1, 2020 9:00:00 AM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-DanielGranger.html\">Generated Summary: active; Daniel Granger ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-6.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 360303004}\">Hand rail</span></a></p></div>"
   },
   "status": "active",
   "subject": {

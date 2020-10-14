@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "4e612e26-0799-49cd-87ee-b8299c1a4b4c-5",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/4e612e26-0799-49cd-87ee-b8299c1a4b4c-5",
+  "id" : "32220575-5077-425d-9b0e-864f44d1d7ee-5",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/32220575-5077-425d-9b0e-864f44d1d7ee-5",
   "name" : "UnionVitalSignsAndLOINCCodes",
   "title" : "Union of Vital Signs And LOINC Codes",
   "status" : "active",
-  "date" : "2020-10-14T11:32:23-04:00",
+  "date" : "2020-10-14T10:57:05-07:00",
   "compose" : {
     "include" : [{
       "concept" : [{

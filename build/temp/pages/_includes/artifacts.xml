@@ -1293,12 +1293,6 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Discharge-Mobility-SelfCare-1-UseOfDevice-1.html"
-                     title="DeviceUseStatement/BFS-SNF-Discharge-Mobility-SelfCare-1-UseOfDevice-1">BFS-SNF-Discharge-Mobility-SelfCare-1-UseOfDevice-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1.html"
                      title="Observation/BFS-SNF-DischargeGoal-Mobility-1">BFS-SNF-DischargeGoal-Mobility-1</a>
                </td>
@@ -1455,24 +1449,6 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Condition-BSJ-Assessed-Need1.html"
-                     title="Condition/BSJ-Assessed-Need1">BSJ-Assessed-Need1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Condition-BSJ-Assessed-Need2.html"
-                     title="Condition/BSJ-Assessed-Need2">BSJ-Assessed-Need2</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Condition-BSJ-Assessed-Need3.html"
-                     title="Condition/BSJ-Assessed-Need3">BSJ-Assessed-Need3</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis1.html" title="Condition/BSJ-Diagnosis1">BSJ-Diagnosis1</a>
                </td>
             </tr>
@@ -1514,11 +1490,6 @@
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis9.html" title="Condition/BSJ-Diagnosis9">BSJ-Diagnosis9</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Encounter-BSJ-Encounter-1.html" title="Encounter/BSJ-Encounter-1">BSJ-Encounter-1</a>
                </td>
             </tr>
             <tr>
@@ -1565,11 +1536,6 @@
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-8.html" title="Device/CMS-Device-8">CMS-Device-8</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Device-CMS-Device-9.html" title="Device/CMS-Device-9">CMS-Device-9</a>
                </td>
             </tr>
             <tr>
