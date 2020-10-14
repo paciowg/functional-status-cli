@@ -1,64 +1,64 @@
 [
   {
-    "id": "pacio-cs",
+    "id": "CapabilityStatement-pacio-cs",
     "type": "CapabilityStatement",
-    "url": "https://paciowg.github.io/functional-status-ig/CapabilityStatement-pacio-cs.html",
+    "url": "/CapabilityStatement-pacio-cs.html",
     "version": "0.1.0",
     "name": "PACIO_functionalStatus_CapabilityStatement"
   },
   {
-    "id": "pacio",
+    "id": "hl7.fhir.us.pacio-fs",
     "type": "ImplementationGuide",
-    "url": "https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs",
     "version": "0.1.0",
-    "name": "FunctionalStatusImplementationGuide"
+    "name": "PACIOFunctionalStatusImplementationGuide"
   },
   {
     "id": "assistance-required",
     "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/assistance-required",
     "version": "0.1.0",
     "name": "AssistanceRequired"
   },
   {
     "id": "device-patient-used",
     "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used",
     "version": "0.1.0",
     "name": "DevicePatientUsed"
   },
   {
     "id": "pacio-bfs",
     "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs",
     "version": "0.1.0",
     "name": "BundledFunctionalStatus"
   },
   {
     "id": "pacio-dev",
     "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev",
     "version": "0.1.0",
     "name": "UseOfDevice"
   },
   {
     "id": "pacio-fs",
     "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs",
     "version": "0.1.0",
     "name": "FunctionalStatus"
   },
   {
     "id": "pacio-functional-qr",
     "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr",
     "version": "0.1.0",
-    "name": "PACIOfunctionalQuestionaireResponse"
+    "name": "PACIOfunctionalQuestionnaireResponse"
   },
   {
     "id": "pacio-plf",
     "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-plf",
     "version": "0.1.0",
     "name": "PriorLevelOfFunction"
   }

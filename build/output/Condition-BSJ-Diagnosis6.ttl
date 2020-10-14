@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis6> a fhir:Condition;
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis6> a fhir:Condition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BSJ-Diagnosis6"];
   fhir:DomainResource.text [
@@ -46,20 +46,25 @@
      fhir:CodeableConcept.text [ fhir:value "Bilateral cataracts (disorder)" ]
   ];
   fhir:Condition.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Condition.onsetDateTime [ fhir:value "2020-07-06T12:15:00-05:05"^^xsd:dateTime];
   fhir:Condition.asserter [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JohnSmith>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JohnSmith>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ];
      fhir:Reference.display [ fhir:value "PCP John Smith" ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JohnSmith> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis6.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis6.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Condition/BSJ-Diagnosis6.ttl> .
 
 # -------------------------------------------------------------------------------------
 

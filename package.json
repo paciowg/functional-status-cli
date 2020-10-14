@@ -1,10 +1,10 @@
 {
-  "name": "pacio",
+  "name": "hl7.fhir.us.pacio-fs",
   "version" : "0.1.0",  
-  "canonical" : "https://paciowg.github.io/functional-status-ig",
-  "url" : "https://paciowg.github.io/functional-status-ig",
-  "title" : "Functional Status Implementation Guide",
-  "description": "TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
+  "canonical" : "http://hl7.org/fhir/us/functional-status-ig",
+  "url" : "http://hl7.org/fhir/us/functional-status-ig",
+  "title" : "PACIO Functional Status Implementation Guide",
+  "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
   "dependencies": {
      "hl7.fhir.r4.core": "4.0.1",
      "hl7.fhir.us.core": "3.1.0"
@@ -18,8 +18,9 @@
   "author": "PACIO Project",
   "maintainers": [
     {
-      "name": "PACIO project",
-      "email": "info@pacioproject.org"
+      "name": "PACIO  project",
+      "email": "info@pacioproject.org",
+      "url": "http://www.hl7.org/Special/committees/patientcare/index.cfm"
     }
   ],
   "license": "CC0-1.0"

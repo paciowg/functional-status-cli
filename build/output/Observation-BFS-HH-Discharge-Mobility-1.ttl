@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1> a fhir:Observation;
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-HH-Discharge-Mobility-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs>
      ]
   ];
   fhir:DomainResource.text [
@@ -24,7 +24,7 @@
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Location/Org-Loc-03>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-03>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-03" ]
      ]
   ];
@@ -47,104 +47,151 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-08-30T14:00:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-ScottDumble>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-ScottDumble>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-ScottDumble" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/Org-03>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-03>;
      fhir:Reference.reference [ fhir:value "Organization/Org-03" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
   fhir:Observation.hasMember [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18" ]
   ], [
      fhir:index 3;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24" ]
   ], [
      fhir:index 4;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30" ]
   ], [
      fhir:index 5;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36" ]
   ], [
      fhir:index 6;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42" ]
   ], [
      fhir:index 7;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48" ]
   ], [
      fhir:index 8;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54" ]
   ], [
      fhir:index 9;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60" ]
   ], [
      fhir:index 10;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66" ]
   ], [
      fhir:index 11;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72" ]
   ], [
      fhir:index 12;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78" ]
   ], [
      fhir:index 13;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84" ]
   ], [
      fhir:index 14;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90" ]
   ], [
      fhir:index 15;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96" ]
   ], [
      fhir:index 16;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102" ]
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1" ];
      fhir:Reference.display [ fhir:value "Questionnaire Response" ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-03> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-ScottDumble> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-03> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-HH-Discharge-Mobility-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

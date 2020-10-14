@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1> a fhir:Observation;
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-Hospital-Admission-Mobility-SelfCare-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs>
      ]
   ];
   fhir:DomainResource.text [
@@ -24,7 +24,7 @@
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Location/Org-Loc-01>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-01>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-01" ]
      ]
   ];
@@ -47,64 +47,91 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-08T16:00:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-SallySmith>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-SallySmith>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-SallySmith" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/Org-01>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-01>;
      fhir:Reference.reference [ fhir:value "Organization/Org-01" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
   fhir:Observation.hasMember [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11" ]
   ], [
      fhir:index 3;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16" ]
   ], [
      fhir:index 4;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21" ]
   ], [
      fhir:index 5;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26" ]
   ], [
      fhir:index 6;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31" ]
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1" ];
      fhir:Reference.display [ fhir:value "Questionnaire Response" ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-01> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-SallySmith> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-01> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-SelfCare-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

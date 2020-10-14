@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JennyGlass> a fhir:Practitioner;
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JennyGlass> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Practitioner-JennyGlass"];
   fhir:DomainResource.text [
@@ -25,8 +25,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JennyGlass.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JennyGlass.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Practitioner/Practitioner-JennyGlass.ttl> .
 
 # -------------------------------------------------------------------------------------
 

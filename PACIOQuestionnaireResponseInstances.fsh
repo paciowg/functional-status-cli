@@ -1,7 +1,7 @@
 Alias: Q-MDS3-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
 
 Instance: QResponse-HH-StartOfCare-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17
@@ -83,7 +83,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[16].answer.valueReference = Reference(BFS-HH-StartOfCare-Mobility-1-Ob-Question-101)
 
 Instance: QResponse-SNF-DischargeGoal-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17
@@ -165,7 +165,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[16].answer.valueReference = Reference(BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136)
 
 Instance: QResponse-SNF-Discharge-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17
@@ -247,7 +247,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[16].answer.valueReference = Reference(BFS-SNF-Discharge-Mobility-1-Ob-Question-100)
 
 Instance: QResponse-SNF-Admission-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17
@@ -329,7 +329,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[16].answer.valueReference = Reference(BFS-SNF-Admission-Mobility-1-Ob-Question-99)
 
 Instance: QResponse-Hospital-Discharge-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17
@@ -411,7 +411,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[16].answer.valueReference = Reference(BFS-Hospital-Discharge-Mobility-1-Ob-Question-98)
 
 Instance: QResponse-Hospital-DischargeGoal-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17
@@ -493,7 +493,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[16].answer.valueReference = Reference(BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135)
 
 Instance: QResponse-Hospital-Admission-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17
@@ -575,7 +575,7 @@ InstanceOf: PACIOfunctionalQuestionaireResponse
 * item[0].item[0].item[16].answer.valueReference = Reference(BFS-Hospital-Admission-Mobility-1-Ob-Question-97)
 
 Instance: QResponse-HH-Discharge-Mobility-1
-InstanceOf: PACIOfunctionalQuestionaireResponse
+InstanceOf: PACIOfunctionalQuestionnaireResponse
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = Q-MDS3-NC-1.17

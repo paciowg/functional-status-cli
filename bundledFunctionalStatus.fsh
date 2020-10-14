@@ -18,7 +18,7 @@ Description:    "An point in time bundle of functional status observations for a
 * effective[x] only dateTime or Period
 * extension contains ObservationLocation named event-location 0..1 MS
 * extension contains DevicePatientUsed named device-use 0..* MS
-* value[x] ^short = "Should only be used if the functional status observations values in the hasMember field results in a score or roll up value."
+//* value[x] ^short = "Should only be used if the functional status observations values in the hasMember field results in a score or roll up value."
 * performer ^short = "The person who performed the assessment. Also provide the role and organizationif available. "
 * category ^short = "If this is from a Post-Acute Care Assessment, category should be survey."
 * code ^short = "LOINC code and text for the question, if this is from a Post-Acute Care Assessment."
@@ -26,7 +26,7 @@ Description:    "An point in time bundle of functional status observations for a
 * hasMember ^short = "Each functional status observation in the bundle."
 * derivedFrom ^short = "Link to the PAC assessment related to this bundle."
 * basedOn ^short = "Currently not used in BundledFunctionalStatus."
-* partOf ^short = "Currently not used in BundledFunctionalStatus."
+//* partOf ^short = "Currently not used in BundledFunctionalStatus."
 * status ^short = "Value should be final."
 * focus ^short = "Currently not used in BundledFunctionalStatus."
 * issued ^short = "Currently not used in BundledFunctionalStatus."

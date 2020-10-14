@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1> a fhir:Observation;
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-SNF-Admission-Mobility-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs>
      ]
   ];
   fhir:DomainResource.text [
@@ -24,42 +24,42 @@
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Location/Org-Loc-02>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-02" ]
      ]
   ], [
      fhir:index 1;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12" ]
      ]
   ], [
      fhir:index 2;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13" ]
      ]
   ], [
      fhir:index 3;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14" ]
      ]
   ], [
      fhir:index 4;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15" ]
      ]
   ], [
      fhir:index 5;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16" ]
      ]
   ];
@@ -82,104 +82,161 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-11T16:32:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JenCadbury" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/Org-02>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02>;
      fhir:Reference.reference [ fhir:value "Organization/Org-02" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
   fhir:Observation.hasMember [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15" ]
   ], [
      fhir:index 3;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21" ]
   ], [
      fhir:index 4;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27" ]
   ], [
      fhir:index 5;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33" ]
   ], [
      fhir:index 6;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39" ]
   ], [
      fhir:index 7;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45" ]
   ], [
      fhir:index 8;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51" ]
   ], [
      fhir:index 9;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57" ]
   ], [
      fhir:index 10;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63" ]
   ], [
      fhir:index 11;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69" ]
   ], [
      fhir:index 12;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75" ]
   ], [
      fhir:index 13;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81" ]
   ], [
      fhir:index 14;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87" ]
   ], [
      fhir:index 15;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93" ]
   ], [
      fhir:index 16;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99" ]
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1" ];
      fhir:Reference.display [ fhir:value "Questionnaire Response" ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

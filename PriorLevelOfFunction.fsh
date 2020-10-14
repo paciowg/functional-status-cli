@@ -11,8 +11,8 @@ Description:    "An exchange of prior level of function data for a patient."
 * code from LNC 
 *  performer 1..* 
 * text 1..1
-* text ^binding.description = "Text summary of the prior level of function for the patient."
-* performer ^binding.description = "The person who performed the assessment."
+* text ^short = "Text summary of the prior level of function for the patient."
+* performer ^short = "The person who performed the assessment."
 * code = LNC#10158-4 "History of Functional status Narrative"
 * code.text = "History of Functional status Narrative"
 * effective[x] 1..1

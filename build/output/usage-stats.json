@@ -1,17 +1,18 @@
 {
-  "package": "pacio",
+  "package": "hl7.fhir.us.pacio-fs",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "US",
   "extensions": [
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required",
+      "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/assistance-required",
       "title": "AssistanceRequired",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used",
       "title": "DevicePatientUsed",
       "types": [
         "Reference"
@@ -21,20 +22,20 @@
   "profiles": {
     "Observation": [
       {
-        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf",
+        "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-plf",
         "title": "Prior Level Of Function"
       }
     ],
     "DeviceUseStatement": [
       {
-        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
+        "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev",
         "title": "UseOfDevice"
       }
     ],
     "QuestionnaireResponse": [
       {
-        "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr",
-        "title": "PACIO Questionaire Response"
+        "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr",
+        "title": "PACIO Questionnaire Response"
       }
     ]
   },
@@ -79,14 +80,14 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/assistance-required": [
+      "Observation"
+    ],
+    "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used": [
+      "Observation"
+    ],
     "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter-diagnosisPresentOnAdmission": [
       "Encounter.diagnosis"
-    ],
-    "https://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required": [
-      "Observation"
-    ],
-    "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used": [
-      "Observation"
     ]
   }
 }

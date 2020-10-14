@@ -1,11 +1,11 @@
 {
   "path": "http://hl7.org/fhir/R4/",
-  "canonical": "https://paciowg.github.io/functional-status-ig",
-  "igId": "pacio",
-  "igName": "FunctionalStatusImplementationGuide",
-  "packageId": "pacio",
+  "canonical": "http://hl7.org/fhir/us/functional-status-ig",
+  "igId": "hl7.fhir.us.pacio-fs",
+  "igName": "PACIOFunctionalStatusImplementationGuide",
+  "packageId": "hl7.fhir.us.pacio-fs",
   "igVer": "0.1.0",
-  "errorCount": 42,
+  "errorCount": 16,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
@@ -14,13 +14,13 @@
   "toolingVersionFull": "4.5.0 (3)",
   "totalFiles": 292,
   "processedFiles": 315,
-  "genDate": "Tue, Sep 29, 2020 17:18-0400",
-  "genDay": "29/09/2020",
+  "genDate": "Wed, Oct 14, 2020 11:32-0400",
+  "genDay": "14/10/2020",
   "ig": {
-    "id": "pacio",
-    "name": "FunctionalStatusImplementationGuide",
-    "title": "Functional Status Implementation Guide",
-    "url": "https://paciowg.github.io/functional-status-ig/ImplementationGuide/pacio",
+    "id": "hl7.fhir.us.pacio-fs",
+    "name": "PACIOFunctionalStatusImplementationGuide",
+    "title": "PACIO Functional Status Implementation Guide",
+    "url": "http://hl7.org/fhir/us/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs",
     "version": "0.1.0",
     "status": "active",
     "experimental": false,
@@ -28,18 +28,19 @@
     "gitstatus": "",
     "contact": [
       {
-        "name": "PACIO project",
+        "name": "PACIO  project",
         "telecom": [
+          "http://www.hl7.org/Special/committees/patientcare/index.cfm",
           "info@pacioproject.org"
         ]
       }
     ],
-    "date": "2020-09-29T17:18:42-04:00",
-    "description": "TO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
+    "date": "2020-10-14T11:32:07-04:00",
+    "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
     "fhirVersion": "4.0.1"
   },
-  "u8a19ebcf913848669ccacc790bc06d28": "http://hl7.org/fhir/us/core",
+  "ua3d2b3faa9cd40708849c53f2b2bbb4d": "http://hl7.org/fhir/us/core",
   "ver": {
-    "u8a19ebcf913848669ccacc790bc06d28": "http://hl7.org/fhir/us/core/STU3.1"
+    "ua3d2b3faa9cd40708849c53f2b2bbb4d": "http://hl7.org/fhir/us/core/STU3.1"
   }
 }

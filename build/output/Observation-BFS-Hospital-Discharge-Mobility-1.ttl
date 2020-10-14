@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1> a fhir:Observation;
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-Hospital-Discharge-Mobility-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs>
      ]
   ];
   fhir:DomainResource.text [
@@ -24,42 +24,42 @@
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Location/Org-Loc-01>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-01>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-01" ]
      ]
   ], [
      fhir:index 1;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1" ]
      ]
   ], [
      fhir:index 2;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2" ]
      ]
   ], [
      fhir:index 3;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3" ]
      ]
   ], [
      fhir:index 4;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4" ]
      ]
   ], [
      fhir:index 5;
-     fhir:Extension.url [ fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used" ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5>;
        fhir:Reference.reference [ fhir:value "DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5" ]
      ]
   ];
@@ -82,108 +82,167 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.encounter [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Encounter/BSJ-Encounter-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Encounter/BSJ-Encounter-1>;
      fhir:Reference.reference [ fhir:value "Encounter/BSJ-Encounter-1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-10T14:34:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-RonMarble>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-RonMarble>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-RonMarble" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/Org-01>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-01>;
      fhir:Reference.reference [ fhir:value "Organization/Org-01" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
   fhir:Observation.hasMember [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14" ]
   ], [
      fhir:index 3;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20" ]
   ], [
      fhir:index 4;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26" ]
   ], [
      fhir:index 5;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32" ]
   ], [
      fhir:index 6;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38" ]
   ], [
      fhir:index 7;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44" ]
   ], [
      fhir:index 8;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50" ]
   ], [
      fhir:index 9;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56" ]
   ], [
      fhir:index 10;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62" ]
   ], [
      fhir:index 11;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68" ]
   ], [
      fhir:index 12;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74" ]
   ], [
      fhir:index 13;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80" ]
   ], [
      fhir:index 14;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86" ]
   ], [
      fhir:index 15;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92" ]
   ], [
      fhir:index 16;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98" ]
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1" ];
      fhir:Reference.display [ fhir:value "Questionnaire Response" ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-01> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Encounter/BSJ-Encounter-1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-RonMarble> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-01> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

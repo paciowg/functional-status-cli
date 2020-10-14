@@ -55,7 +55,7 @@ Period {[]} {[]}dateTime {[]} {[]}","How often  the device was used","How often 
 ","Who made the statement","Who reported the device was being used by the patient.","","","","","","","","","",,,,,"",,,,"DeviceUseStatement.source",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.performer.actor","FiveWs.actor"
 "DeviceUseStatement.device","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Device]]}
-","Reference to device used","The details of the device used.","","","","","","","","","",,,,,"",,,,"DeviceUseStatement.device",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","The description of the device that the patient used.","The details of the device used.","","","","","","","","","",,,,,"",,,,"DeviceUseStatement.device",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","DeviceUse.device","FiveWs.actor"
 "DeviceUseStatement.reasonCode","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","Why device was used","Reason or justification for the use of the device.","","","","","","","","","",,,,,"",,,,"DeviceUseStatement.reasonCode",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

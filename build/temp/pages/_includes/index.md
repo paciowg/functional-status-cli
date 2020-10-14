@@ -40,7 +40,7 @@ The primary goal of the PACIO Project is to establish a framework for the develo
 
 ### Content and Organization
 The implementation guide is organized into the following sections:
-* [Use Case Example](cognitive_status_use_case.html) Describes an example of its use and provides a high-level overview of expected process flow.
+* [Use Case Example](functional_status_use_case.html) Describes an example of its use and provides a high-level overview of expected process flow.
 * [Underlying Technologies](underlying_technologies.html) Describes the different specifications this implementation guide relies on and indicates what developers should read and understand prior to implementing this specification.
 * [Profile Highlights and Guidance](profile_highlights_and_guidance.html) Provides a closer look at the IG profiles and guidance for constructing profile instances with examples for data exchange.
 * [Security and Data Sharing](security_and_data_sharing.html) Covers issues concerning security and patient information access and sharing.

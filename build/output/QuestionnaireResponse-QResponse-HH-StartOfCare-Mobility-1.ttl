@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1> a fhir:QuestionnaireResponse;
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1> a fhir:QuestionnaireResponse;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "QResponse-HH-StartOfCare-Mobility-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr>
      ]
   ];
   fhir:DomainResource.text [
@@ -25,7 +25,7 @@
   ];
   fhir:QuestionnaireResponse.status [ fhir:value "completed"];
   fhir:QuestionnaireResponse.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:QuestionnaireResponse.authored [ fhir:value "2020-08-02T13:31:00-05:00"^^xsd:dateTime];
@@ -47,7 +47,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5" ]
            ]
          ]
@@ -59,7 +59,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11" ]
            ]
          ]
@@ -71,7 +71,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17" ]
            ]
          ]
@@ -83,7 +83,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23" ]
            ]
          ]
@@ -95,7 +95,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29" ]
            ]
          ]
@@ -107,7 +107,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35" ]
            ]
          ]
@@ -119,7 +119,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41" ]
            ]
          ]
@@ -131,7 +131,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47" ]
            ]
          ]
@@ -143,7 +143,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53" ]
            ]
          ]
@@ -155,7 +155,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59" ]
            ]
          ]
@@ -167,7 +167,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65" ]
            ]
          ]
@@ -179,7 +179,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71" ]
            ]
          ]
@@ -191,7 +191,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77" ]
            ]
          ]
@@ -203,7 +203,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83" ]
            ]
          ]
@@ -215,7 +215,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89" ]
            ]
          ]
@@ -227,7 +227,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95" ]
            ]
          ]
@@ -239,7 +239,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101" ]
            ]
          ]
@@ -247,10 +247,47 @@
      ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

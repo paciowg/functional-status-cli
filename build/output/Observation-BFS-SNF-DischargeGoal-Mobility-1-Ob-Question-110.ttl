@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110> a fhir:Observation;
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-fs>
      ]
   ];
   fhir:DomainResource.text [
@@ -24,7 +24,7 @@
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Location/Org-Loc-02>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02>;
        fhir:Reference.reference [ fhir:value "Location/Org-Loc-02" ]
      ]
   ];
@@ -40,21 +40,21 @@
      fhir:CodeableConcept.text [ fhir:value "Sit to stand" ]
   ];
   fhir:Observation.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-11T16:32:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JenCadbury" ]
   ], [
      fhir:index 1;
-     fhir:link <https://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
   ], [
      fhir:index 2;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Organization/Org-02>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02>;
      fhir:Reference.reference [ fhir:value "Organization/Org-02" ];
      fhir:Reference.display [ fhir:value "Organization" ]
   ];
@@ -70,14 +70,27 @@
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1>;
      fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1" ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Location/Org-Loc-02> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Organization/Org-02> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Encounter/BSJ-Encounter-1> a fhir:Encounter;
+<http://hl7.org/fhir/us/functional-status-ig/Encounter/BSJ-Encounter-1> a fhir:Encounter;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BSJ-Encounter-1"];
   fhir:DomainResource.text [
@@ -30,13 +30,13 @@
      ]
   ];
   fhir:Encounter.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Encounter.participant [
      fhir:index 0;
      fhir:Encounter.participant.individual [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-NoraOlogist>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-NoraOlogist>;
        fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-NoraOlogist" ]
      ]
   ];
@@ -59,7 +59,7 @@
        ]
      ];
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis9>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis9>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis9" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -74,7 +74,7 @@
   ], [
      fhir:index 1;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis1>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis1>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis1" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -88,7 +88,7 @@
   ], [
      fhir:index 2;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis2>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis2>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis2" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -102,7 +102,7 @@
   ], [
      fhir:index 3;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis3>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis3>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis3" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -116,7 +116,7 @@
   ], [
      fhir:index 4;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis4>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis4>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis4" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -130,7 +130,7 @@
   ], [
      fhir:index 5;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis5>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis5>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis5" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -144,7 +144,7 @@
   ], [
      fhir:index 6;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis6>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis6>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis6" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -158,7 +158,7 @@
   ], [
      fhir:index 7;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis7>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis7>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis7" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -172,7 +172,7 @@
   ], [
      fhir:index 8;
      fhir:Encounter.diagnosis.condition [
-       fhir:link <https://paciowg.github.io/functional-status-ig/Condition/BSJ-Diagnosis8>;
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis8>;
        fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis8" ]
      ];
      fhir:Encounter.diagnosis.use [
@@ -195,10 +195,33 @@
      ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-NoraOlogist> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis9> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis2> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis3> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis4> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis5> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis6> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis7> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Condition/BSJ-Diagnosis8> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/Encounter/BSJ-Encounter-1.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/Encounter/BSJ-Encounter-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/Encounter/BSJ-Encounter-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -3,7 +3,7 @@
   "id": "BFS-Hospital-Admission-Mobility-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+      "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-bfs"
     ]
   },
   "text": {
@@ -18,13 +18,13 @@
       }
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used",
       "valueReference": {
         "reference": "DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17"
       }
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used",
       "valueReference": {
         "reference": "DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"
       }

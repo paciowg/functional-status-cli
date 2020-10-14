@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1> a fhir:QuestionnaireResponse;
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1> a fhir:QuestionnaireResponse;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "QResponse-SNF-Discharge-Mobility-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr>
      ]
   ];
   fhir:DomainResource.text [
@@ -25,7 +25,7 @@
   ];
   fhir:QuestionnaireResponse.status [ fhir:value "completed"];
   fhir:QuestionnaireResponse.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:QuestionnaireResponse.authored [ fhir:value "2020-08-01T11:00:00-05:00"^^xsd:dateTime];
@@ -47,7 +47,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4" ]
            ]
          ]
@@ -59,7 +59,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10" ]
            ]
          ]
@@ -71,7 +71,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16" ]
            ]
          ]
@@ -83,7 +83,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22" ]
            ]
          ]
@@ -95,7 +95,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28" ]
            ]
          ]
@@ -107,7 +107,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34" ]
            ]
          ]
@@ -119,7 +119,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40" ]
            ]
          ]
@@ -131,7 +131,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46" ]
            ]
          ]
@@ -143,7 +143,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52" ]
            ]
          ]
@@ -155,7 +155,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58" ]
            ]
          ]
@@ -167,7 +167,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64" ]
            ]
          ]
@@ -179,7 +179,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70" ]
            ]
          ]
@@ -191,7 +191,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76" ]
            ]
          ]
@@ -203,7 +203,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82" ]
            ]
          ]
@@ -215,7 +215,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88" ]
            ]
          ]
@@ -227,7 +227,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94" ]
            ]
          ]
@@ -239,7 +239,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100>;
+             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100" ]
            ]
          ]
@@ -247,10 +247,47 @@
      ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

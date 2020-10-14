@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16> a fhir:DeviceUseStatement;
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16> a fhir:DeviceUseStatement;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-SNF-Admission-Mobility-1-UseOfDevice-16"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
+       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev";
        fhir:index 0;
-       fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
+       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev>
      ]
   ];
   fhir:DomainResource.text [
@@ -21,28 +21,37 @@
   ];
   fhir:DeviceUseStatement.status [ fhir:value "active"];
   fhir:DeviceUseStatement.subject [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:DeviceUseStatement.derivedFrom [
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1" ]
   ];
   fhir:DeviceUseStatement.recordedOn [ fhir:value "2020-07-11T16:32:00-05:00"^^xsd:dateTime];
   fhir:DeviceUseStatement.source [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JenCadbury" ]
   ];
   fhir:DeviceUseStatement.device [
-     fhir:link <https://paciowg.github.io/functional-status-ig/Device/CMS-Device-7>;
+     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Device/CMS-Device-7>;
      fhir:Reference.reference [ fhir:value "Device/CMS-Device-7" ]
   ] .
 
+<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-Admission-Mobility-1> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/functional-status-ig/Device/CMS-Device-7> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<https://paciowg.github.io/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -89,7 +89,7 @@ This resource profile is intended to be used for data exchange of a point in tim
   </tr>
   <tr>
     <td>derivedFrom</td>
-    <td>This field points to a CognitionQuestionnaireResponse instance.</td>
+    <td>This field points to a functionalQuestionnaireResponse instance.</td>
   </tr>
 </table>
 
@@ -138,7 +138,7 @@ This resource profile is intended to be used for data exchange of a single funct
   </tr>
   <tr>
     <td>derivedFrom</td>
-    <td>This field points to a CognitionQuestionnaireResponse instance.</td>
+    <td>This field points to a functionalQuestionnaireResponse instance.</td>
   </tr>
 </table>
 
@@ -254,7 +254,7 @@ In the following set of examples, we provide guidance for using specific codes a
 ![BFS SelfCare Admission Example](BFS_SelfCare_Admission_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. Use the right LOINC code to indicate the particular kind of cognitive assessment. In this case the LOINC code ‘83233-7’ is used to indicate ‘Self-Care - Admission Performance’.
+1. Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘83233-7’ is used to indicate ‘Self-Care - Admission Performance’.
 2. An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.
 3. The 'derivedFrom' points back to the PACIOfunctionalQuestionaireResponse resource which provides context and structure for the observation-based information.
 
