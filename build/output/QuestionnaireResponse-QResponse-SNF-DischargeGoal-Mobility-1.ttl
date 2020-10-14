@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1> a fhir:QuestionnaireResponse;
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1> a fhir:QuestionnaireResponse;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "QResponse-SNF-DischargeGoal-Mobility-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 11, 2020, 5:32:00 PM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0170</p><p><b>text</b>: Mobility - Discharge Goal</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 11, 2020 2:32:00 PM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0170</p><p><b>text</b>: Mobility - Discharge Goal</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>"
   ];
   fhir:QuestionnaireResponse.questionnaire [
      fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";
@@ -25,7 +25,7 @@
   ];
   fhir:QuestionnaireResponse.status [ fhir:value "completed"];
   fhir:QuestionnaireResponse.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:QuestionnaireResponse.authored [ fhir:value "2020-07-11T16:32:00-05:00"^^xsd:dateTime];
@@ -47,7 +47,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104" ]
            ]
          ]
@@ -59,7 +59,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106" ]
            ]
          ]
@@ -71,7 +71,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108" ]
            ]
          ]
@@ -83,7 +83,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110" ]
            ]
          ]
@@ -95,7 +95,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112" ]
            ]
          ]
@@ -107,7 +107,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114" ]
            ]
          ]
@@ -119,7 +119,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116" ]
            ]
          ]
@@ -131,7 +131,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118" ]
            ]
          ]
@@ -143,7 +143,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120" ]
            ]
          ]
@@ -155,7 +155,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122" ]
            ]
          ]
@@ -167,7 +167,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124" ]
            ]
          ]
@@ -179,7 +179,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126" ]
            ]
          ]
@@ -191,7 +191,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128" ]
            ]
          ]
@@ -203,7 +203,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130" ]
            ]
          ]
@@ -215,7 +215,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132" ]
            ]
          ]
@@ -227,7 +227,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134" ]
            ]
          ]
@@ -239,7 +239,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136" ]
            ]
          ]
@@ -247,47 +247,47 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

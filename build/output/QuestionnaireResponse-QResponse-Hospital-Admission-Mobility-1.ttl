@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1> a fhir:QuestionnaireResponse;
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1> a fhir:QuestionnaireResponse;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "QResponse-Hospital-Admission-Mobility-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 8, 2020, 5:00:00 PM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0170</p><p><b>text</b>: Mobility - Admission Performance</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 8, 2020 2:00:00 PM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - Admission</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0170</p><p><b>text</b>: Mobility - Admission Performance</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>"
   ];
   fhir:QuestionnaireResponse.questionnaire [
      fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";
@@ -25,7 +25,7 @@
   ];
   fhir:QuestionnaireResponse.status [ fhir:value "completed"];
   fhir:QuestionnaireResponse.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:QuestionnaireResponse.authored [ fhir:value "2020-07-08T16:00:00-05:00"^^xsd:dateTime];
@@ -47,7 +47,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1" ]
            ]
          ]
@@ -59,7 +59,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7" ]
            ]
          ]
@@ -71,7 +71,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13" ]
            ]
          ]
@@ -83,7 +83,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19" ]
            ]
          ]
@@ -95,7 +95,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25" ]
            ]
          ]
@@ -107,7 +107,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31" ]
            ]
          ]
@@ -119,7 +119,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37" ]
            ]
          ]
@@ -131,7 +131,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43" ]
            ]
          ]
@@ -143,7 +143,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49" ]
            ]
          ]
@@ -155,7 +155,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55" ]
            ]
          ]
@@ -167,7 +167,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61" ]
            ]
          ]
@@ -179,7 +179,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67" ]
            ]
          ]
@@ -191,7 +191,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73" ]
            ]
          ]
@@ -203,7 +203,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79" ]
            ]
          ]
@@ -215,7 +215,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85" ]
            ]
          ]
@@ -227,7 +227,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91" ]
            ]
          ]
@@ -239,7 +239,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97" ]
            ]
          ]
@@ -247,47 +247,47 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

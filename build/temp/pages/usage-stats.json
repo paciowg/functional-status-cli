@@ -2,17 +2,16 @@
   "package": "hl7.fhir.us.pacio-fs",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "jurisdiction": "US",
   "extensions": [
     {
-      "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/assistance-required",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required",
       "title": "AssistanceRequired",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used",
+      "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used",
       "title": "DevicePatientUsed",
       "types": [
         "Reference"
@@ -22,19 +21,19 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-plf",
+        "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf",
         "title": "Prior Level Of Function"
       }
     ],
     "DeviceUseStatement": [
       {
-        "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev",
+        "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev",
         "title": "UseOfDevice"
       }
     ],
     "QuestionnaireResponse": [
       {
-        "url": "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr",
+        "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr",
         "title": "PACIO Questionnaire Response"
       }
     ]
@@ -80,14 +79,11 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/assistance-required": [
+    "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/assistance-required": [
       "Observation"
     ],
-    "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/device-patient-used": [
+    "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used": [
       "Observation"
-    ],
-    "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter-diagnosisPresentOnAdmission": [
-      "Encounter.diagnosis"
     ]
   }
 }

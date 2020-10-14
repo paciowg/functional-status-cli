@@ -20,6 +20,8 @@
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -45,6 +47,18 @@
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
 
 
         <div id="ig-status">
@@ -105,7 +119,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">PACIO Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/functional-status-ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">PACIO Functional Status Implementation Guide - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/pacio-fs/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -158,7 +172,7 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p/><p><b>code</b>: <span title="Codes: {http://loinc.org 83230-3}">Oral hygiene</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 5:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-JenCadbury.html">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href="PractitionerRole-Role-OT.html">Generated Summary: active; <span title="Codes: {http://snomed.info/sct 80546007}">Occupational therapist</span></a></li><li><a href="Organization-Org-02.html">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title="Codes: {http://loinc.org LA10055-4}">Partial/moderate Assist</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 5:32:00 PM</a></p></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Event Location</b>: </p><p/><p><b>code</b>: <span title="Codes: {http://loinc.org 83230-3}">Oral hygiene</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020 2:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-JenCadbury.html">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href="PractitionerRole-Role-OT.html">Generated Summary: active; <span title="Codes: {http://snomed.info/sct 80546007}">Occupational therapist</span></a></li><li><a href="Organization-Org-02.html">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title="Codes: {http://loinc.org LA10055-4}">Partial/moderate Assist</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020 2:32:00 PM</a></p></div>
 
   <!-- insert notes if present -->
   
@@ -185,11 +199,17 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientcare/index.cfm">PACIO Project</a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 14, 2020 11:32-0400">2020-10-14</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientcare/">HL7 Patient Care Work Group</a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 14, 2020 10:56-0700">2020-10-14</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
+               | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/us/pacio-fs/history.html">Version History  |
+               <a style="color: #81BEF7" target="_blank" href="searchform.html">Search  |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change </a>
+
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

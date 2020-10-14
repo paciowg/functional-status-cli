@@ -5,53 +5,53 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3> a fhir:DeviceUseStatement;
+<http://hl7.org/fhir/us/pacio-fs/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3> a fhir:DeviceUseStatement;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-dev>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 83254-3}\">Self-Care - Discharge Performance</span>; effective: Jul 10, 2020, 3:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020, 3:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-8.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 86407004}\">Table</span></a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: active</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>derivedFrom</b>: <a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 83254-3}\">Self-Care - Discharge Performance</span>; effective: Jul 10, 2020 12:34:00 PM</a></p><p><b>recordedOn</b>: Jul 10, 2020 12:34:00 PM</p><p><b>source</b>: <a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active; Ron Marble ; gender: male</a></p><p><b>device</b>: <a href=\"Device-CMS-Device-8.html\">Generated Summary: <span title=\"Codes: {http://snomed.info/sct 86407004}\">Table</span></a></p></div>"
   ];
   fhir:DeviceUseStatement.status [ fhir:value "active"];
   fhir:DeviceUseStatement.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:DeviceUseStatement.derivedFrom [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1>;
      fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1" ]
   ];
   fhir:DeviceUseStatement.recordedOn [ fhir:value "2020-07-10T14:34:00-05:00"^^xsd:dateTime];
   fhir:DeviceUseStatement.source [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-RonMarble>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-RonMarble>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-RonMarble" ]
   ];
   fhir:DeviceUseStatement.device [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Device/CMS-Device-8>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Device/CMS-Device-8>;
      fhir:Reference.reference [ fhir:value "Device/CMS-Device-8" ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Practitioner/Practitioner-RonMarble> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Practitioner/Practitioner-RonMarble> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Device/CMS-Device-8> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Device/CMS-Device-8> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.ttl> .
 
 # -------------------------------------------------------------------------------------
 

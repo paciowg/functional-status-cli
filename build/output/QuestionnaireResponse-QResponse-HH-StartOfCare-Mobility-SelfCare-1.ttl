@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1> a fhir:QuestionnaireResponse;
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1> a fhir:QuestionnaireResponse;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "QResponse-HH-StartOfCare-Mobility-SelfCare-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr";
+       fhir:value "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/functional-status-ig/StructureDefinition/pacio-functional-qr>
+       fhir:link <http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Aug 2, 2020, 2:31:00 PM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - SOC/ROC</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0130</p><p><b>text</b>: Self-Care - SOC/ROC Performance</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Aug 2, 2020 11:31:00 AM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional Abilities and Goals - SOC/ROC</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0130</p><p><b>text</b>: Self-Care - SOC/ROC Performance</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>"
   ];
   fhir:QuestionnaireResponse.questionnaire [
      fhir:value "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17";
@@ -25,7 +25,7 @@
   ];
   fhir:QuestionnaireResponse.status [ fhir:value "completed"];
   fhir:QuestionnaireResponse.subject [
-     fhir:link <http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:QuestionnaireResponse.authored [ fhir:value "2020-08-02T13:31:00-05:00"^^xsd:dateTime];
@@ -47,7 +47,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43" ]
            ]
          ]
@@ -59,7 +59,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44" ]
            ]
          ]
@@ -71,7 +71,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45" ]
            ]
          ]
@@ -83,7 +83,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46" ]
            ]
          ]
@@ -95,7 +95,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47" ]
            ]
          ]
@@ -107,7 +107,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48" ]
            ]
          ]
@@ -119,7 +119,7 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49>;
+             fhir:link <http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49>;
              fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49" ]
            ]
          ]
@@ -127,27 +127,27 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/functional-status-ig/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48> a fhir:us .
 
-<http://hl7.org/fhir/us/functional-status-ig/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49> a fhir:us .
+<http://hl7.org/fhir/us/pacio-fs/Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1.ttl> .
 
 # -------------------------------------------------------------------------------------
 

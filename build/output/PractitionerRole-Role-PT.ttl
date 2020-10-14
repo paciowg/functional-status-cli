@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT> a fhir:PractitionerRole;
+<http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-PT> a fhir:PractitionerRole;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Role-PT"];
   fhir:DomainResource.text [
@@ -27,9 +27,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/functional-status-ig/PractitionerRole/Role-PT.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-fs/PractitionerRole/Role-PT.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/functional-status-ig/PractitionerRole/Role-PT.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-fs/PractitionerRole/Role-PT.ttl> .
 
 # -------------------------------------------------------------------------------------
 

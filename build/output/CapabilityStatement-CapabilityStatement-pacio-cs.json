@@ -11,14 +11,14 @@
   "title": "PACIO functional Status Capability Statement",
   "status": "draft",
   "date": "2020-05-08T00:00:00+00:00",
-  "publisher": "PACIO Project",
+  "publisher": "HL7 Patient Care Work Group",
   "contact": [
     {
       "name": "PACIO  project",
       "telecom": [
         {
           "system": "url",
-          "value": "http://www.hl7.org/Special/committees/patientcare/index.cfm"
+          "value": "http://www.hl7.org/Special/committees/patientcare/"
         },
         {
           "system": "email",
@@ -28,16 +28,6 @@
     }
   ],
   "description": "This Capability Statement defines the expected capabilities of a PACIO functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US"
-        }
-      ]
-    }
-  ],
   "kind": "requirements",
   "fhirVersion": "4.0.1",
   "format": [
