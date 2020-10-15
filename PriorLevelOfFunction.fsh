@@ -2,12 +2,12 @@ Alias:  LNC = http://loinc.org
 
 
 Profile:        PriorLevelOfFunction
-Parent:         Observation
+Parent:         USCoreLaboratoryResultObservationProfile
 Id:             pacio-plf
 Title:          "Prior Level Of Function"
 Description:    "An exchange of prior level of function data for a patient."
 * subject 1..1
-* subject only Reference(Patient)
+//* subject only Reference(Patient)
 * code from LNC 
 *  performer 1..* 
 * text 1..1

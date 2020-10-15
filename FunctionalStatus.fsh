@@ -3,12 +3,12 @@ Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-locat
 
 
 Profile:        FunctionalStatus
-Parent:         Observation
+Parent:         USCoreLaboratoryResultObservationProfile
 Id:             pacio-fs
 Title:          "Functional Status"
 Description:    "An exchange of functional status data for a patient."
 * subject 1..1
-* subject only Reference(Patient)
+//* subject only Reference(Patient)
 * code from LNC (extensible)
 * performer 1..* 
 * value[x] only CodeableConcept

@@ -32,10 +32,10 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="CapabilityStatement-CapabilityStatement-pacio-cs.html"
-                     title="CapabilityStatement/CapabilityStatement-pacio-cs">PACIO functional Status Capability Statement</a>
+                  <a href="CapabilityStatement-pacio-fs.html"
+                     title="CapabilityStatement/pacio-fs">PACIO Functional Status Capability Statement</a>
                </td>
-               <td>{% capture desc %}This Capability Statement defines the expected capabilities of a PACIO functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.{% endcapture %}
+               <td>{% capture desc %}This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>

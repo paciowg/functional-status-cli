@@ -3,12 +3,12 @@ Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
 
 Profile:        BundledFunctionalStatus
-Parent:         Observation
+Parent:         USCoreLaboratoryResultObservationProfile
 Id:             pacio-bfs
 Title:          "Bundled Functional Status"
 Description:    "An point in time bundle of functional status observations for a patient."
 * subject 1..1
-* subject only Reference(Patient)
+//* subject only Reference(US Core Patient Profile)
 * code from LNC (extensible)
 * performer 1..*
 * value[x] only CodeableConcept
