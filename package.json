@@ -12,7 +12,7 @@
       ]
     }
   ],
-  "canonical" : "http://hl7.org/fhir/us/pacio-fs",
+  "canonical" : "https://paciowg.github.io/functional-status-ig/",
   "url" : "http://hl7.org/fhir/us/pacio-fs",
   "title" : "PACIO Functional Status Implementation Guide",
   "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",

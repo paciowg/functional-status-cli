@@ -1,0 +1,52 @@
+{
+  "resourceType": "Condition",
+  "id": "BSJ-Diagnosis3",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>clinicalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 433144002}\">Chronic kidney disease stage 3 (disorder)</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>onset</b>: Jul 6, 2020, 1:17:00 PM</p><p><b>asserter</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">PCP John Smith. Generated Summary: active; Primary Care Physician; gender: male</a></p></div>"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "encounter-diagnosis"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "433144002",
+        "display": "Chronic kidney disease stage 3 (disorder)"
+      }
+    ],
+    "text": "Chronic kidney disease stage 3 (disorder)"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "onsetDateTime": "2020-07-06T12:15:00-05:02",
+  "asserter": {
+    "reference": "Practitioner/Practitioner-JohnSmith",
+    "display": "PCP John Smith"
+  }
+}

@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="pacio-fs"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PACIO_FunctionalStatus_CapabilityStatement</h2><div><p>This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.</p>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET past versions of resources (vread interaction)">V-Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="GET changes to a resource (history interaction on instance)">Updates</b></th><th><b title="GET changes for all resources of the type (history interaction on type)">History</b></th></tr><tr><td>Observation</td><td><a href="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-bfs.html">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-bfs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Observation</td><td><a href="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Observation</td><td><a href="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-plf.html">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-plf.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>QuestionnaireResponse</td><td><a href="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-functional-qr.html">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-functional-qr.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>DeviceUseStatement</td><td><a href="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>
+  </text>
+  <url value="/CapabilityStatement-pacio-fs.html"/>
+  <version value="0.1.0"/>
+  <name value="PACIO_FunctionalStatus_CapabilityStatement"/>
+  <title value="PACIO Functional Status Capability Statement"/>
+  <status value="draft"/>
+  <date value="2020-05-08T00:00:00+00:00"/>
+  <publisher value="HL7 Patient Care Work Group"/>
+  <contact>
+    <name value="HL7 Patient Care Work Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patientcare@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO  project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patientcare@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.1"/>
+  <format value="xml"/>
+  <format value="json"/>
+  <implementationGuide value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/index.html"/>
+  <rest>
+    <mode value="server"/>
+    <resource>
+      <type value="Observation"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-bfs.html"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <conditionalCreate value="true"/>
+      <conditionalUpdate value="true"/>
+      <conditionalDelete value="multiple"/>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Observation.subject"/>
+      <searchInclude value="Observation.based-on"/>
+      <searchInclude value="Observation.patient"/>
+      <searchInclude value="Observation.specimen"/>
+      <searchInclude value="Observation.context"/>
+      <searchInclude value="Observation.performer"/>
+      <searchInclude value="Observation.encounter"/>
+      <searchInclude value="Observation.related-target"/>
+      <searchInclude value="Observation.device"/>
+      <searchRevInclude value="ChargeItem.service"/>
+      <searchRevInclude value="ClinicalImpression.finding-ref"/>
+      <searchRevInclude value="ClinicalImpression.investigation"/>
+      <searchRevInclude value="DiagnosticReport.result"/>
+      <searchRevInclude value="Immunization.reaction"/>
+      <searchRevInclude value="ImmunizationRecommendation.information"/>
+      <searchRevInclude value="MedicationStatement.part-of"/>
+      <searchRevInclude value="Observation.related-target"/>
+      <searchRevInclude value="Procedure.part-of"/>
+      <searchRevInclude value="QuestionnaireResponse.parent"/>
+      <searchParam>
+        <name value="date"/>
+        <type value="date"/>
+        <documentation value="Obtained date/time. If the obtained element is a period, a date that falls in the period"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] or Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-date"/>
+        <type value="date"/>
+        <documentation value="The value of the observation, if the value is a date or period of time"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-string"/>
+        <type value="composite"/>
+        <documentation value="Code and string value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Component code and component quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="based-on"/>
+        <type value="reference"/>
+        <documentation value="Reference to the test or procedure request."/>
+      </searchParam>
+      <searchParam>
+        <name value="related"/>
+        <type value="composite"/>
+        <documentation value="Related Observations - search on related-type and related-target together"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-date"/>
+        <type value="composite"/>
+        <documentation value="Code and date/time value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about (if patient)"/>
+      </searchParam>
+      <searchParam>
+        <name value="specimen"/>
+        <type value="reference"/>
+        <documentation value="Specimen used for this observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code"/>
+        <type value="token"/>
+        <documentation value="The component code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <type value="reference"/>
+        <documentation value="Healthcare event  (Episode-of-care or Encounter) related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-string"/>
+        <type value="string"/>
+        <documentation value="The value of the observation, if the value is a string, and also searches in CodeableConcept.text"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="The unique id for a particular observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="performer"/>
+        <type value="reference"/>
+        <documentation value="Who performed the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type or component type"/>
+      </searchParam>
+      <searchParam>
+        <name value="method"/>
+        <type value="token"/>
+        <documentation value="The method used for the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the component observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value or component value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="encounter"/>
+        <type value="reference"/>
+        <documentation value="Encounter related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-type"/>
+        <type value="token"/>
+        <documentation value="has-member | derived-from | sequel-to | replaces | qualified-by | interfered-by"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-target"/>
+        <type value="reference"/>
+        <documentation value="Resource that is related to this one"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Component code and component coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the component observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="category"/>
+        <type value="token"/>
+        <documentation value="The classification of the type of observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <type value="reference"/>
+        <documentation value="The Device that generated the observation data."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value or component value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <type value="token"/>
+        <documentation value="The status of the observation"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Observation"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <conditionalCreate value="true"/>
+      <conditionalUpdate value="true"/>
+      <conditionalDelete value="multiple"/>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Observation.subject"/>
+      <searchInclude value="Observation.based-on"/>
+      <searchInclude value="Observation.patient"/>
+      <searchInclude value="Observation.specimen"/>
+      <searchInclude value="Observation.context"/>
+      <searchInclude value="Observation.performer"/>
+      <searchInclude value="Observation.encounter"/>
+      <searchInclude value="Observation.related-target"/>
+      <searchInclude value="Observation.device"/>
+      <searchRevInclude value="ChargeItem.service"/>
+      <searchRevInclude value="ClinicalImpression.finding-ref"/>
+      <searchRevInclude value="ClinicalImpression.investigation"/>
+      <searchRevInclude value="DiagnosticReport.result"/>
+      <searchRevInclude value="Immunization.reaction"/>
+      <searchRevInclude value="ImmunizationRecommendation.information"/>
+      <searchRevInclude value="MedicationStatement.part-of"/>
+      <searchRevInclude value="Observation.related-target"/>
+      <searchRevInclude value="Procedure.part-of"/>
+      <searchRevInclude value="QuestionnaireResponse.parent"/>
+      <searchParam>
+        <name value="date"/>
+        <type value="date"/>
+        <documentation value="Obtained date/time. If the obtained element is a period, a date that falls in the period"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] or Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-date"/>
+        <type value="date"/>
+        <documentation value="The value of the observation, if the value is a date or period of time"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-string"/>
+        <type value="composite"/>
+        <documentation value="Code and string value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Component code and component quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="based-on"/>
+        <type value="reference"/>
+        <documentation value="Reference to the test or procedure request."/>
+      </searchParam>
+      <searchParam>
+        <name value="related"/>
+        <type value="composite"/>
+        <documentation value="Related Observations - search on related-type and related-target together"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-date"/>
+        <type value="composite"/>
+        <documentation value="Code and date/time value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about (if patient)"/>
+      </searchParam>
+      <searchParam>
+        <name value="specimen"/>
+        <type value="reference"/>
+        <documentation value="Specimen used for this observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code"/>
+        <type value="token"/>
+        <documentation value="The component code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <type value="reference"/>
+        <documentation value="Healthcare event  (Episode-of-care or Encounter) related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-string"/>
+        <type value="string"/>
+        <documentation value="The value of the observation, if the value is a string, and also searches in CodeableConcept.text"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="The unique id for a particular observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="performer"/>
+        <type value="reference"/>
+        <documentation value="Who performed the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type or component type"/>
+      </searchParam>
+      <searchParam>
+        <name value="method"/>
+        <type value="token"/>
+        <documentation value="The method used for the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the component observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value or component value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="encounter"/>
+        <type value="reference"/>
+        <documentation value="Encounter related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-type"/>
+        <type value="token"/>
+        <documentation value="has-member | derived-from | sequel-to | replaces | qualified-by | interfered-by"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-target"/>
+        <type value="reference"/>
+        <documentation value="Resource that is related to this one"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Component code and component coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the component observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="category"/>
+        <type value="token"/>
+        <documentation value="The classification of the type of observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <type value="reference"/>
+        <documentation value="The Device that generated the observation data."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value or component value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <type value="token"/>
+        <documentation value="The status of the observation"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Observation"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-plf.html"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <conditionalCreate value="true"/>
+      <conditionalUpdate value="true"/>
+      <conditionalDelete value="multiple"/>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Observation.subject"/>
+      <searchInclude value="Observation.based-on"/>
+      <searchInclude value="Observation.patient"/>
+      <searchInclude value="Observation.specimen"/>
+      <searchInclude value="Observation.context"/>
+      <searchInclude value="Observation.performer"/>
+      <searchInclude value="Observation.encounter"/>
+      <searchInclude value="Observation.related-target"/>
+      <searchInclude value="Observation.device"/>
+      <searchRevInclude value="ChargeItem.service"/>
+      <searchRevInclude value="ClinicalImpression.finding-ref"/>
+      <searchRevInclude value="ClinicalImpression.investigation"/>
+      <searchRevInclude value="DiagnosticReport.result"/>
+      <searchRevInclude value="Immunization.reaction"/>
+      <searchRevInclude value="ImmunizationRecommendation.information"/>
+      <searchRevInclude value="MedicationStatement.part-of"/>
+      <searchRevInclude value="Observation.related-target"/>
+      <searchRevInclude value="Procedure.part-of"/>
+      <searchRevInclude value="QuestionnaireResponse.parent"/>
+      <searchParam>
+        <name value="date"/>
+        <type value="date"/>
+        <documentation value="Obtained date/time. If the obtained element is a period, a date that falls in the period"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] or Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-date"/>
+        <type value="date"/>
+        <documentation value="The value of the observation, if the value is a date or period of time"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-string"/>
+        <type value="composite"/>
+        <documentation value="Code and string value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Component code and component quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="based-on"/>
+        <type value="reference"/>
+        <documentation value="Reference to the test or procedure request."/>
+      </searchParam>
+      <searchParam>
+        <name value="related"/>
+        <type value="composite"/>
+        <documentation value="Related Observations - search on related-type and related-target together"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-date"/>
+        <type value="composite"/>
+        <documentation value="Code and date/time value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about (if patient)"/>
+      </searchParam>
+      <searchParam>
+        <name value="specimen"/>
+        <type value="reference"/>
+        <documentation value="Specimen used for this observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code"/>
+        <type value="token"/>
+        <documentation value="The component code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <type value="reference"/>
+        <documentation value="Healthcare event  (Episode-of-care or Encounter) related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-string"/>
+        <type value="string"/>
+        <documentation value="The value of the observation, if the value is a string, and also searches in CodeableConcept.text"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="The unique id for a particular observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="performer"/>
+        <type value="reference"/>
+        <documentation value="Who performed the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type or component type"/>
+      </searchParam>
+      <searchParam>
+        <name value="method"/>
+        <type value="token"/>
+        <documentation value="The method used for the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the component observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value or component value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="encounter"/>
+        <type value="reference"/>
+        <documentation value="Encounter related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-type"/>
+        <type value="token"/>
+        <documentation value="has-member | derived-from | sequel-to | replaces | qualified-by | interfered-by"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-target"/>
+        <type value="reference"/>
+        <documentation value="Resource that is related to this one"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Component code and component coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the component observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="category"/>
+        <type value="token"/>
+        <documentation value="The classification of the type of observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <type value="reference"/>
+        <documentation value="The Device that generated the observation data."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value or component value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <type value="token"/>
+        <documentation value="The status of the observation"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="QuestionnaireResponse"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-functional-qr.html"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <conditionalCreate value="true"/>
+      <conditionalUpdate value="true"/>
+      <conditionalDelete value="multiple"/>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.parent"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.questionnaire"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.based-on"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.subject"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.author"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.patient"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.context"/>
+      <searchInclude value="FunctionalQuestionnaireResponse.source"/>
+      <searchRevInclude value="ClinicalImpression.investigation"/>
+      <searchRevInclude value="Consent.source"/>
+      <searchRevInclude value="Observation.related-target"/>
+      <searchParam>
+        <name value="authored"/>
+        <type value="date"/>
+        <documentation value="When the questionnaire response was last changed"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="The unique identifier for the questionnaire response"/>
+      </searchParam>
+      <searchParam>
+        <name value="parent"/>
+        <type value="reference"/>
+        <documentation value="Procedure or observation this questionnaire response was performed as a part of"/>
+      </searchParam>
+      <searchParam>
+        <name value="questionnaire"/>
+        <type value="reference"/>
+        <documentation value="The questionnaire the answers are provided for"/>
+      </searchParam>
+      <searchParam>
+        <name value="based-on"/>
+        <type value="reference"/>
+        <documentation value="Plan/proposal/order fulfilled by this questionnaire response"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="The subject of the questionnaire response"/>
+      </searchParam>
+      <searchParam>
+        <name value="author"/>
+        <type value="reference"/>
+        <documentation value="The author of the questionnaire response"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <type value="reference"/>
+        <documentation value="The patient that is the subject of the questionnaire response"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <type value="reference"/>
+        <documentation value="Encounter or episode associated with the questionnaire response"/>
+      </searchParam>
+      <searchParam>
+        <name value="source"/>
+        <type value="reference"/>
+        <documentation value="The individual providing the information reflected in the questionnaire respose"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <type value="token"/>
+        <documentation value="The status of the questionnaire response"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="DeviceUseStatement"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <conditionalCreate value="true"/>
+      <conditionalUpdate value="true"/>
+      <conditionalDelete value="multiple"/>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="DeviceUseStatement.subject"/>
+      <searchInclude value="DeviceUseStatement.patient"/>
+      <searchInclude value="DeviceUseStatement.device"/>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="Search by identifier"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="Search by subject"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <type value="reference"/>
+        <documentation value="Search by subject - a patient"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <type value="reference"/>
+        <documentation value="Search by device"/>
+      </searchParam>
+    </resource>
+    <interaction>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <code value="batch"/>
+    </interaction>
+    <interaction>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <code value="search-system"/>
+    </interaction>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_content"/>
+      <type value="string"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <name value="_id"/>
+      <type value="token"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <name value="_lastUpdated"/>
+      <type value="date"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_security"/>
+      <type value="token"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_text"/>
+      <type value="string"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_query"/>
+      <type value="token"/>
+    </searchParam>
+  </rest>
+  <rest>
+    <mode value="server"/>
+    <resource>
+      <type value="Observation"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <conditionalCreate value="true"/>
+      <conditionalUpdate value="true"/>
+      <conditionalDelete value="multiple"/>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Observation.subject"/>
+      <searchInclude value="Observation.based-on"/>
+      <searchInclude value="Observation.patient"/>
+      <searchInclude value="Observation.specimen"/>
+      <searchInclude value="Observation.context"/>
+      <searchInclude value="Observation.performer"/>
+      <searchInclude value="Observation.encounter"/>
+      <searchInclude value="Observation.related-target"/>
+      <searchInclude value="Observation.device"/>
+      <searchRevInclude value="ChargeItem.service"/>
+      <searchRevInclude value="ClinicalImpression.finding-ref"/>
+      <searchRevInclude value="ClinicalImpression.investigation"/>
+      <searchRevInclude value="DiagnosticReport.result"/>
+      <searchRevInclude value="Immunization.reaction"/>
+      <searchRevInclude value="ImmunizationRecommendation.information"/>
+      <searchRevInclude value="MedicationStatement.part-of"/>
+      <searchRevInclude value="Observation.related-target"/>
+      <searchRevInclude value="Procedure.part-of"/>
+      <searchRevInclude value="QuestionnaireResponse.parent"/>
+      <searchParam>
+        <name value="date"/>
+        <type value="date"/>
+        <documentation value="Obtained date/time. If the obtained element is a period, a date that falls in the period"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] or Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-date"/>
+        <type value="date"/>
+        <documentation value="The value of the observation, if the value is a date or period of time"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-string"/>
+        <type value="composite"/>
+        <documentation value="Code and string value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Component code and component quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="based-on"/>
+        <type value="reference"/>
+        <documentation value="Reference to the test or procedure request."/>
+      </searchParam>
+      <searchParam>
+        <name value="related"/>
+        <type value="composite"/>
+        <documentation value="Related Observations - search on related-type and related-target together"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-date"/>
+        <type value="composite"/>
+        <documentation value="Code and date/time value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about (if patient)"/>
+      </searchParam>
+      <searchParam>
+        <name value="specimen"/>
+        <type value="reference"/>
+        <documentation value="Specimen used for this observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code"/>
+        <type value="token"/>
+        <documentation value="The component code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <type value="reference"/>
+        <documentation value="Healthcare event  (Episode-of-care or Encounter) related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-string"/>
+        <type value="string"/>
+        <documentation value="The value of the observation, if the value is a string, and also searches in CodeableConcept.text"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="The unique id for a particular observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="performer"/>
+        <type value="reference"/>
+        <documentation value="Who performed the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type or component type"/>
+      </searchParam>
+      <searchParam>
+        <name value="method"/>
+        <type value="token"/>
+        <documentation value="The method used for the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the component observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value or component value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="encounter"/>
+        <type value="reference"/>
+        <documentation value="Encounter related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-type"/>
+        <type value="token"/>
+        <documentation value="has-member | derived-from | sequel-to | replaces | qualified-by | interfered-by"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-target"/>
+        <type value="reference"/>
+        <documentation value="Resource that is related to this one"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Component code and component coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the component observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="category"/>
+        <type value="token"/>
+        <documentation value="The classification of the type of observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <type value="reference"/>
+        <documentation value="The Device that generated the observation data."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value or component value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <type value="token"/>
+        <documentation value="The status of the observation"/>
+      </searchParam>
+    </resource>
+    <interaction>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <code value="batch"/>
+    </interaction>
+    <interaction>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <code value="search-system"/>
+    </interaction>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_content"/>
+      <type value="string"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <name value="_id"/>
+      <type value="token"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <name value="_lastUpdated"/>
+      <type value="date"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_security"/>
+      <type value="token"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_text"/>
+      <type value="string"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_query"/>
+      <type value="token"/>
+    </searchParam>
+  </rest>
+  <rest>
+    <mode value="server"/>
+    <resource>
+      <type value="Observation"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <conditionalCreate value="true"/>
+      <conditionalUpdate value="true"/>
+      <conditionalDelete value="multiple"/>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Observation.subject"/>
+      <searchInclude value="Observation.based-on"/>
+      <searchInclude value="Observation.patient"/>
+      <searchInclude value="Observation.specimen"/>
+      <searchInclude value="Observation.context"/>
+      <searchInclude value="Observation.performer"/>
+      <searchInclude value="Observation.encounter"/>
+      <searchInclude value="Observation.related-target"/>
+      <searchInclude value="Observation.device"/>
+      <searchRevInclude value="ChargeItem.service"/>
+      <searchRevInclude value="ClinicalImpression.finding-ref"/>
+      <searchRevInclude value="ClinicalImpression.investigation"/>
+      <searchRevInclude value="DiagnosticReport.result"/>
+      <searchRevInclude value="Immunization.reaction"/>
+      <searchRevInclude value="ImmunizationRecommendation.information"/>
+      <searchRevInclude value="MedicationStatement.part-of"/>
+      <searchRevInclude value="Observation.related-target"/>
+      <searchRevInclude value="Procedure.part-of"/>
+      <searchRevInclude value="QuestionnaireResponse.parent"/>
+      <searchParam>
+        <name value="date"/>
+        <type value="date"/>
+        <documentation value="Obtained date/time. If the obtained element is a period, a date that falls in the period"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] or Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.component.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-date"/>
+        <type value="date"/>
+        <documentation value="The value of the observation, if the value is a date or period of time"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-string"/>
+        <type value="composite"/>
+        <documentation value="Code and string value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Component code and component quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="based-on"/>
+        <type value="reference"/>
+        <documentation value="Reference to the test or procedure request."/>
+      </searchParam>
+      <searchParam>
+        <name value="related"/>
+        <type value="composite"/>
+        <documentation value="Related Observations - search on related-type and related-target together"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-date"/>
+        <type value="composite"/>
+        <documentation value="Code and date/time value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <type value="reference"/>
+        <documentation value="The subject that the observation is about (if patient)"/>
+      </searchParam>
+      <searchParam>
+        <name value="specimen"/>
+        <type value="reference"/>
+        <documentation value="Specimen used for this observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code"/>
+        <type value="token"/>
+        <documentation value="The component code of the observation type"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-quantity"/>
+        <type value="composite"/>
+        <documentation value="Code and quantity value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <type value="reference"/>
+        <documentation value="Healthcare event  (Episode-of-care or Encounter) related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair, including in components"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-string"/>
+        <type value="string"/>
+        <documentation value="The value of the observation, if the value is a string, and also searches in CodeableConcept.text"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <type value="token"/>
+        <documentation value="The unique id for a particular observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="performer"/>
+        <type value="reference"/>
+        <documentation value="Who performed the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-code"/>
+        <type value="token"/>
+        <documentation value="The code of the observation type or component type"/>
+      </searchParam>
+      <searchParam>
+        <name value="method"/>
+        <type value="token"/>
+        <documentation value="The method used for the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value of the component observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="data-absent-reason"/>
+        <type value="token"/>
+        <documentation value="The reason why the expected value in the element Observation.value[x] is missing."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-quantity"/>
+        <type value="quantity"/>
+        <documentation value="The value or component value of the observation, if the value is a Quantity, or a SampledData (just search on the bounds of the values in sampled data)"/>
+      </searchParam>
+      <searchParam>
+        <name value="encounter"/>
+        <type value="reference"/>
+        <documentation value="Encounter related to the observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-type"/>
+        <type value="token"/>
+        <documentation value="has-member | derived-from | sequel-to | replaces | qualified-by | interfered-by"/>
+      </searchParam>
+      <searchParam>
+        <name value="related-target"/>
+        <type value="reference"/>
+        <documentation value="Resource that is related to this one"/>
+      </searchParam>
+      <searchParam>
+        <name value="code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Code and coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-code-value-concept"/>
+        <type value="composite"/>
+        <documentation value="Component code and component coded value parameter pair"/>
+      </searchParam>
+      <searchParam>
+        <name value="component-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value of the component observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="category"/>
+        <type value="token"/>
+        <documentation value="The classification of the type of observation"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <type value="reference"/>
+        <documentation value="The Device that generated the observation data."/>
+      </searchParam>
+      <searchParam>
+        <name value="combo-value-concept"/>
+        <type value="token"/>
+        <documentation value="The value or component value of the observation, if the value is a CodeableConcept"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <type value="token"/>
+        <documentation value="The status of the observation"/>
+      </searchParam>
+    </resource>
+    <interaction>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <code value="batch"/>
+    </interaction>
+    <interaction>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <code value="search-system"/>
+    </interaction>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_content"/>
+      <type value="string"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <name value="_id"/>
+      <type value="token"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <name value="_lastUpdated"/>
+      <type value="date"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_security"/>
+      <type value="token"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_text"/>
+      <type value="string"/>
+    </searchParam>
+    <searchParam>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="MAY"/>
+      </extension>
+      <name value="_query"/>
+      <type value="token"/>
+    </searchParam>
+  </rest>
+</CapabilityStatement>

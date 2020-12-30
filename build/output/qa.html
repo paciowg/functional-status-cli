@@ -1,0 +1,910 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 2, errors = 2, warn = 2, info = 0 -->
+<head>
+  <title>PACIOFunctionalStatusImplementationGuide : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for PACIOFunctionalStatusImplementationGuide</h1>
+ <p>Generated Wed Dec 30 13:21:29 EST 2020, FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = <a href="https://paciowg.github.io/functional-status-ig/">https://paciowg.github.io/functional-status-ig/</a> (<a href="https://paciowg.github.io/functional-status-ig//history.html">history</a>)). See <a href="c:\users\smahoney\documents\github\functional-status-cli\build\output\qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.35, which is out of date. The current version is v?pub-ver-1? <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.us.pacio-fs, Canonical = https://paciowg.github.io/functional-status-ig/</td></tr>
+ <tr><td>Realm Check:</td><td> <span style="color: maroon; font-weight: bold"></span> : All OK</td></tr>
+ <tr><td>Version Check:</td><td>0.1.0 = ok. Step <code>ballot</code> in sequence <code>STU 1</code>, to be published at http://hl7.org/fhir/us/pacio-fs/2021Jan (subdir = ??). This IG does not appear to have been published yet. <span stlye="color: marron; font-weight: bold">package-list.json path for this version does not start with the canonical URL (http://hl7.org/fhir/us/pacio-fs/2021Jan vs https://paciowg.github.io/functional-status-ig/)</span></td></tr>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">1 Suppressed Issue</a>
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.pacio-fs</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://paciowg.github.io/functional-status-ig/</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">3.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core/STU3.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: hl7.fhir.template#current -&gt; hl7.base.template#current -&gt; fhir.base.template#current</para></div></td></tr>
+ <tr><td>HL7 Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>no Non-HL7 references found</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://paciowg.github.io/functional-status-ig/ (Problem #1 with package-list.json at https://paciowg.github.io/functional-status-ig/: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 2, errors = 2, warn = 2, info = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_ImplementationGuide-hl7.fhir.us.pacio-fs"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis1"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis2"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis2</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis3"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis3</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis4"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis4</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis5"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis5</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis6"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis6</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis7"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis7</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis8"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis8</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis9"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis9</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-1"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-2"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-2</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-3"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-3</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-4"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-4</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-5"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-5</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-6"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-6</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-7"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-7</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-Org-Loc-01"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-01</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-Org-Loc-02"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-02</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-Org-Loc-03"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-03</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-provider-org-loc-01"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-provider-org-loc-01</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_observation-BFS-Hospital-Discharge-Mobility-1"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BFS-Hospital-Discharge-Mobility-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_observation-BSJ-Prior-Level-Of-Function-1"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BSJ-Prior-Level-Of-Function-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-Org-01"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-Org-01</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-Org-02"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-Org-02</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-Org-03"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-Org-03</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-provider-org-01"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-provider-org-01</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_patient-patientBSJ1"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\patient-patientBSJ1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-DanielGranger"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-DanielGranger</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-HoneyJones"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-HoneyJones</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-JenCadbury"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-JenCadbury</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-JennyGlass"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-JennyGlass</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-JohnSmith"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-JohnSmith</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-LunaBaskins"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-LunaBaskins</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-NoraOlogist"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-NoraOlogist</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-RonBurgendy"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-RonBurgendy</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-RonMarble"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-RonMarble</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-SallySmith"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-SallySmith</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-ScottDumble"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-ScottDumble</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-Role-OT"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-Role-OT</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-Role-PT"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-Role-PT</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-Role-RN"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-Role-RN</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-provider-role-pcp"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-provider-role-pcp</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_questionnaireresponse-QResponse-Hospital-Discharge-Mobility-1"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\questionnaireresponse-QResponse-Hospital-Discharge-Mobility-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_extensions_structuredefinition-assistance-required"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-assistance-required</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_extensions_structuredefinition-device-patient-used"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-device-patient-used</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-bfs"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-bfs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-dev"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-dev</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-fs"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-fs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-functional-qr"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-functional-qr</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-plf"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-plf</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_resources_capabilitystatement-pacio-fs"><b>C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\resources\capabilitystatement-pacio-fs</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jiraspec.tmp.xml' (currently in Github) and 'jira.xml' (reflects current IG content)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-pacio-dev-definitions.html#10d060e2-19f4-48cd-81f1-4d53d938e752">StructureDefinition-pacio-dev-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 401, column 199</a></b></td><td><b>error</b></td><td><b>The link 'http://hl7.org/fhir/R4/null.html' for &quot;http://hl7.org/fhir/StructureDefinition/bodySite&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="searchform.html#7c5d1818-f310-4282-9caa-581403f40e27">searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21</a></b></td><td><b>error</b></td><td><b>The link 'history.html' for &quot;History&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_ImplementationGuide-hl7.fhir.us.pacio-fs"> </a>
+<h2><a href="ImplementationGuide-hl7.fhir.us.pacio-fs.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.where(url = 'https://paciowg.github.io/functional-status-ig//ImplementationGuide/hl7.fhir.us.pacio-fs')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs.json - the canonical URL (https://paciowg.github.io/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs) does not match the URL (https://paciowg.github.io/functional-status-ig//ImplementationGuide/hl7.fhir.us.pacio-fs)</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ImplementationGuide/hl7.fhir.us.pacio-fs: ImplementationGuide</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis1"> </a>
+<h2><a href="Condition-BSJ-Diagnosis1.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis1: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis2"> </a>
+<h2><a href="Condition-BSJ-Diagnosis2.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis2: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis3"> </a>
+<h2><a href="Condition-BSJ-Diagnosis3.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis3.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis3: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis4"> </a>
+<h2><a href="Condition-BSJ-Diagnosis4.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis4.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis4: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis5"> </a>
+<h2><a href="Condition-BSJ-Diagnosis5.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis5.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis5: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis6"> </a>
+<h2><a href="Condition-BSJ-Diagnosis6.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis6.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis6: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis7"> </a>
+<h2><a href="Condition-BSJ-Diagnosis7.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis7.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis7: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis8"> </a>
+<h2><a href="Condition-BSJ-Diagnosis8.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis8.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis8: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_condition-BSJ-Diagnosis9"> </a>
+<h2><a href="Condition-BSJ-Diagnosis9.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis9.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis9: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-1"> </a>
+<h2><a href="Device-CMS-Device-1.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/CMS-Device-1: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-2"> </a>
+<h2><a href="Device-CMS-Device-2.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/CMS-Device-2: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-3"> </a>
+<h2><a href="Device-CMS-Device-3.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-3.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/CMS-Device-3: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-4"> </a>
+<h2><a href="Device-CMS-Device-4.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-4.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/CMS-Device-4: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-5"> </a>
+<h2><a href="Device-CMS-Device-5.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-5.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/CMS-Device-5: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-6"> </a>
+<h2><a href="Device-CMS-Device-6.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-6.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/CMS-Device-6: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_device-CMS-Device-7"> </a>
+<h2><a href="Device-CMS-Device-7.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-7.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Device/CMS-Device-7: Device (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"> </a>
+<h2><a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1: DeviceUseStatement (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"> </a>
+<h2><a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2: DeviceUseStatement (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"> </a>
+<h2><a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3: DeviceUseStatement (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"> </a>
+<h2><a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4: DeviceUseStatement (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"> </a>
+<h2><a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5: DeviceUseStatement (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-Org-Loc-01"> </a>
+<h2><a href="Location-Org-Loc-01.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-Org-Loc-01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Location/Org-Loc-01: Location (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-Org-Loc-02"> </a>
+<h2><a href="Location-Org-Loc-02.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-Org-Loc-02.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Location/Org-Loc-02: Location (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-Org-Loc-03"> </a>
+<h2><a href="Location-Org-Loc-03.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-Org-Loc-03.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Location/Org-Loc-03: Location (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_location-provider-org-loc-01"> </a>
+<h2><a href="Location-provider-org-loc-01.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-provider-org-loc-01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Location/provider-org-loc-01: Location (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_observation-BFS-Hospital-Discharge-Mobility-1"> </a>
+<h2><a href="Observation-BFS-Hospital-Discharge-Mobility-1.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BFS-Hospital-Discharge-Mobility-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/BFS-Hospital-Discharge-Mobility-1: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-bfs</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"> </a>
+<h2><a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_observation-BSJ-Prior-Level-Of-Function-1"> </a>
+<h2><a href="Observation-BSJ-Prior-Level-Of-Function-1.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BSJ-Prior-Level-Of-Function-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/BSJ-Prior-Level-Of-Function-1: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-plf</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-Org-01"> </a>
+<h2><a href="Organization-Org-01.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-Org-01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Organization/Org-01: Organization (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-Org-02"> </a>
+<h2><a href="Organization-Org-02.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-Org-02.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Organization/Org-02: Organization (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-Org-03"> </a>
+<h2><a href="Organization-Org-03.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-Org-03.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Organization/Org-03: Organization (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_organization-provider-org-01"> </a>
+<h2><a href="Organization-provider-org-01.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-provider-org-01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Organization/provider-org-01: Organization (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_patient-patientBSJ1"> </a>
+<h2><a href="Patient-patientBSJ1.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Patient-patientBSJ1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Patient/patientBSJ1: Patient (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-DanielGranger"> </a>
+<h2><a href="Practitioner-Practitioner-DanielGranger.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-DanielGranger.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-DanielGranger: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-HoneyJones"> </a>
+<h2><a href="Practitioner-Practitioner-HoneyJones.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-HoneyJones.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-HoneyJones: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-JenCadbury"> </a>
+<h2><a href="Practitioner-Practitioner-JenCadbury.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-JenCadbury.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-JenCadbury: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-JennyGlass"> </a>
+<h2><a href="Practitioner-Practitioner-JennyGlass.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-JennyGlass.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-JennyGlass: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-JohnSmith"> </a>
+<h2><a href="Practitioner-Practitioner-JohnSmith.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-JohnSmith.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-JohnSmith: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-LunaBaskins"> </a>
+<h2><a href="Practitioner-Practitioner-LunaBaskins.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-LunaBaskins.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-LunaBaskins: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-NoraOlogist"> </a>
+<h2><a href="Practitioner-Practitioner-NoraOlogist.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-NoraOlogist.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-NoraOlogist: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-RonBurgendy"> </a>
+<h2><a href="Practitioner-Practitioner-RonBurgendy.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-RonBurgendy.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-RonBurgendy: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-RonMarble"> </a>
+<h2><a href="Practitioner-Practitioner-RonMarble.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-RonMarble.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-RonMarble: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-SallySmith"> </a>
+<h2><a href="Practitioner-Practitioner-SallySmith.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-SallySmith.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-SallySmith: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitioner-Practitioner-ScottDumble"> </a>
+<h2><a href="Practitioner-Practitioner-ScottDumble.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-ScottDumble.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Practitioner/Practitioner-ScottDumble: Practitioner (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-Role-OT"> </a>
+<h2><a href="PractitionerRole-Role-OT.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-Role-OT.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>PractitionerRole/Role-OT: PractitionerRole (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-Role-PT"> </a>
+<h2><a href="PractitionerRole-Role-PT.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-Role-PT.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>PractitionerRole/Role-PT: PractitionerRole (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-Role-RN"> </a>
+<h2><a href="PractitionerRole-Role-RN.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-Role-RN.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>PractitionerRole/Role-RN: PractitionerRole (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_practitionerrole-provider-role-pcp"> </a>
+<h2><a href="PractitionerRole-provider-role-pcp.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-provider-role-pcp.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>PractitionerRole/provider-role-pcp: PractitionerRole (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>PractitionerRole/provider-role-pcp: PractitionerRole.code[0].coding[0] (l7/c10)</b></td><td><b>warning</b></td><td title="Internal_error"><b>Internal error: The display &quot;Primary Care&quot; is not a valid display for the code {http://nucc.org/provider-taxonomy}261QP2300X - should be one of [&quot;Primary Care Clinic/Center&quot;] (from http://tx.fhir.org/r4)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_examples_questionnaireresponse-QResponse-Hospital-Discharge-Mobility-1"> </a>
+<h2><a href="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1: QuestionnaireResponse (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-functional-qr</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_extensions_structuredefinition-assistance-required"> </a>
+<h2><a href="StructureDefinition-assistance-required.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-assistance-required.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/assistance-required: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_extensions_structuredefinition-device-patient-used"> </a>
+<h2><a href="StructureDefinition-device-patient-used.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-device-patient-used.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/device-patient-used: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-bfs"> </a>
+<h2><a href="StructureDefinition-pacio-bfs.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-bfs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/pacio-bfs: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-dev"> </a>
+<h2><a href="StructureDefinition-pacio-dev.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-dev.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/pacio-dev: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-fs"> </a>
+<h2><a href="StructureDefinition-pacio-fs.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-fs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/pacio-fs: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-functional-qr"> </a>
+<h2><a href="StructureDefinition-pacio-functional-qr.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-functional-qr.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/pacio-functional-qr: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_profiles_structuredefinition-pacio-plf"> </a>
+<h2><a href="StructureDefinition-pacio-plf.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-plf.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/pacio-plf: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_functional-status-cli_build_input_resources_capabilitystatement-pacio-fs"> </a>
+<h2><a href="CapabilityStatement-pacio-fs.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\resources\CapabilityStatement-pacio-fs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CapabilityStatement/pacio-fs: CapabilityStatement</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement/pacio-fs: CapabilityStatement.rest[0]</b></td><td><b>error</b></td><td title="cpb-9: A given resource can only be described once per RESTful mode. [resource.select(type).isDistinct()]"><b>cpb-9: A given resource can only be described once per RESTful mode. [resource.select(type).isDistinct()]</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p><b>The questionaires are external URLs and not supported by terminology server</b></p><ul>
+ <li>The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire</li>
+</ul>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Internal_error"> </a>
+<h2>Internal_error</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="PractitionerRole-provider-role-pcp.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-provider-role-pcp.json</a></td><td><b>Internal error: The display &quot;Primary Care&quot; is not a valid display for the code {http://nucc.org/provider-taxonomy}261QP2300X - should be one of [&quot;Primary Care Clinic/Center&quot;] (from http://tx.fhir.org/r4)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
+<h2>RESOURCE_CANONICAL_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-hl7.fhir.us.pacio-fs.html">C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs.json</a></td><td><b>Conformance resource C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs.json - the canonical URL (https://paciowg.github.io/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs) does not match the URL (https://paciowg.github.io/functional-status-ig//ImplementationGuide/hl7.fhir.us.pacio-fs)</b></td>
+   </tr>
+</table>
+</body>
+</html>

@@ -1,4 +1,4 @@
-Alias:  LNC = http://loinc.org
+
 
 
 Profile:        PriorLevelOfFunction
@@ -8,7 +8,7 @@ Title:          "Prior Level Of Function"
 Description:    "An exchange of prior level of function data for a patient."
 * subject 1..1
 //* subject only Reference(Patient)
-* code from LNC 
+* code from LNCVS
 *  performer 1..* 
 * text 1..1
 * text ^short = "Text summary of the prior level of function for the patient."

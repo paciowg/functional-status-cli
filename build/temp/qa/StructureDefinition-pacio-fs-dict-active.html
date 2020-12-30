@@ -90,7 +90,7 @@
   <tr><td>Definition</td><td><p>Optional Extension Element - found in all resources.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..* This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a>(<a href="StructureDefinition-device-patient-used.html" title="[CanonicalType[http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used]]">DevicePatientUsed</a>)  (Extension Type: <a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-pacio-dev.html" title="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev">UseOfDevice</a>))</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a>(<a href="StructureDefinition-device-patient-used.html" title="[CanonicalType[https://paciowg.github.io/functional-status-ig//StructureDefinition/device-patient-used]]">DevicePatientUsed</a>)  (Extension Type: <a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-pacio-dev.html" title="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev">UseOfDevice</a>))</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))<br/><b title="Formal Invariant Identifier">ext-1</b>: Must have either extensions or value[x], not both (: extension.exists() != value.exists())</td></tr>
@@ -185,7 +185,7 @@
   <tr><td>Definition</td><td><p>The test that was performed.  A LOINC <strong>SHALL</strong> be used if the concept is present in LOINC.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://loinc.org">http://loinc.org</a>; other codes may be used where these codes are not suitable</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-observation-codes.html">LOINCCodes</a>; other codes may be used where these codes are not suitable</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Requirements</td><td><p>Knowing what kind of observation is being made is essential to understanding the observation.</p>
@@ -264,7 +264,7 @@
   <tr><td>Definition</td><td><p>The Laboratory result value.  If a coded value,  the valueCodeableConcept.code <strong>SHOULD</strong>  be selected from <a href="http://hl7.org/fhir/ValueSet/uslab-obs-codedresults">SNOMED CT</a>.  If a numeric value, valueQuantity.code <strong>SHALL</strong> be selected from <a href="http://unitsofmeasure.org">UCUM</a>.  A FHIR <a href="http://hl7.org/fhir/STU3/valueset-ucum-units.html">UCUM Codes value set</a> that defines all UCUM codes is in the FHIR specification.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1 This element is affected by the following invariants: obs-7, us-core-2, us-core-3, us-core-4</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://loinc.org">http://loinc.org</a>; other codes may be used where these codes are not suitable</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-observation-codes.html">LOINCCodes</a>; other codes may be used where these codes are not suitable</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>[x] Note</td><td>See <a href="http://hl7.org/fhir/R4/formats.html#choice">Choice of Data Types</a> for further information about how to use [x]</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>

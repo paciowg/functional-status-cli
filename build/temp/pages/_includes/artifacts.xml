@@ -24,7 +24,7 @@
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
    <h3>Behavior: Capability Statements </h3>
-   <p>{% capture grouping_desc %}The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems complying with the implementation guide are expected to declare conformance to one or more of the following capability statements.{% endcapture %}
+   <p>{% capture grouping_desc %}The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements.{% endcapture %}
     {{ grouping_desc | markdownify}}</p>
    <p>
       <table class="grid">
@@ -43,7 +43,7 @@
    </p>
    <a name="2"> </a>
    <h3>Structures: Resource Profiles </h3>
-   <p>{% capture grouping_desc %}These define constraints on FHIR resources that need to be complied with by conformant implementations{% endcapture %}
+   <p>{% capture grouping_desc %}These define constraints on FHIR resources for systems conforming to this implementation guide{% endcapture %}
     {{ grouping_desc | markdownify}}</p>
    <p>
       <table class="grid">
@@ -94,7 +94,7 @@
    </p>
    <a name="3"> </a>
    <h3>Structures: Extension Definitions </h3>
-   <p>{% capture grouping_desc %}These define constraints on FHIR data types that need to be complied with by conformant implementations{% endcapture %}
+   <p>{% capture grouping_desc %}These define constraints on FHIR data types for systems conforming to this implementation guide{% endcapture %}
     {{ grouping_desc | markdownify}}</p>
    <p>
       <table class="grid">
@@ -129,1638 +129,369 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1">BFS-HH-Discharge-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-102.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102">BFS-HH-Discharge-Mobility-1-Ob-Question-102</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-12.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12">BFS-HH-Discharge-Mobility-1-Ob-Question-12</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-18.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18">BFS-HH-Discharge-Mobility-1-Ob-Question-18</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-24.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24">BFS-HH-Discharge-Mobility-1-Ob-Question-24</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-30.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30">BFS-HH-Discharge-Mobility-1-Ob-Question-30</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-36.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36">BFS-HH-Discharge-Mobility-1-Ob-Question-36</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-42.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42">BFS-HH-Discharge-Mobility-1-Ob-Question-42</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-48.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48">BFS-HH-Discharge-Mobility-1-Ob-Question-48</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-54.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54">BFS-HH-Discharge-Mobility-1-Ob-Question-54</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-6.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6">BFS-HH-Discharge-Mobility-1-Ob-Question-6</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-60.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60">BFS-HH-Discharge-Mobility-1-Ob-Question-60</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-66.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66">BFS-HH-Discharge-Mobility-1-Ob-Question-66</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-72.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72">BFS-HH-Discharge-Mobility-1-Ob-Question-72</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-78.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78">BFS-HH-Discharge-Mobility-1-Ob-Question-78</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-84.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84">BFS-HH-Discharge-Mobility-1-Ob-Question-84</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-90.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90">BFS-HH-Discharge-Mobility-1-Ob-Question-90</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-1-Ob-Question-96.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96">BFS-HH-Discharge-Mobility-1-Ob-Question-96</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1">BFS-HH-Discharge-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10">BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15">BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20">BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25">BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30">BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35">BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5.html"
-                     title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5">BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1">BFS-HH-StartOfCare-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-101.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101">BFS-HH-StartOfCare-Mobility-1-Ob-Question-101</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-11.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11">BFS-HH-StartOfCare-Mobility-1-Ob-Question-11</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-17.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17">BFS-HH-StartOfCare-Mobility-1-Ob-Question-17</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-23.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23">BFS-HH-StartOfCare-Mobility-1-Ob-Question-23</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-29.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29">BFS-HH-StartOfCare-Mobility-1-Ob-Question-29</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-35.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35">BFS-HH-StartOfCare-Mobility-1-Ob-Question-35</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-41.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41">BFS-HH-StartOfCare-Mobility-1-Ob-Question-41</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-47.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47">BFS-HH-StartOfCare-Mobility-1-Ob-Question-47</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-5.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5">BFS-HH-StartOfCare-Mobility-1-Ob-Question-5</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-53.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53">BFS-HH-StartOfCare-Mobility-1-Ob-Question-53</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-59.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59">BFS-HH-StartOfCare-Mobility-1-Ob-Question-59</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-65.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65">BFS-HH-StartOfCare-Mobility-1-Ob-Question-65</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-71.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71">BFS-HH-StartOfCare-Mobility-1-Ob-Question-71</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-77.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77">BFS-HH-StartOfCare-Mobility-1-Ob-Question-77</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-83.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83">BFS-HH-StartOfCare-Mobility-1-Ob-Question-83</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-89.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89">BFS-HH-StartOfCare-Mobility-1-Ob-Question-89</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-95.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95">BFS-HH-StartOfCare-Mobility-1-Ob-Question-95</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1">BFS-HH-StartOfCare-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43">BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44">BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45">BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46">BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47">BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48">BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49.html"
-                     title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49">BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1">BFS-Hospital-Admission-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-1.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1">BFS-Hospital-Admission-Mobility-1-Ob-Question-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-13.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13">BFS-Hospital-Admission-Mobility-1-Ob-Question-13</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-19.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19">BFS-Hospital-Admission-Mobility-1-Ob-Question-19</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-25.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25">BFS-Hospital-Admission-Mobility-1-Ob-Question-25</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-31.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31">BFS-Hospital-Admission-Mobility-1-Ob-Question-31</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-37.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37">BFS-Hospital-Admission-Mobility-1-Ob-Question-37</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-43.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43">BFS-Hospital-Admission-Mobility-1-Ob-Question-43</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-49.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49">BFS-Hospital-Admission-Mobility-1-Ob-Question-49</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-55.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55">BFS-Hospital-Admission-Mobility-1-Ob-Question-55</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-61.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61">BFS-Hospital-Admission-Mobility-1-Ob-Question-61</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-67.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67">BFS-Hospital-Admission-Mobility-1-Ob-Question-67</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-7.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7">BFS-Hospital-Admission-Mobility-1-Ob-Question-7</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-73.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73">BFS-Hospital-Admission-Mobility-1-Ob-Question-73</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-79.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79">BFS-Hospital-Admission-Mobility-1-Ob-Question-79</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-85.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85">BFS-Hospital-Admission-Mobility-1-Ob-Question-85</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-91.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91">BFS-Hospital-Admission-Mobility-1-Ob-Question-91</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-97.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97">BFS-Hospital-Admission-Mobility-1-Ob-Question-97</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-17.html"
-                     title="DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17">BFS-Hospital-Admission-Mobility-1-UseOfDevice-17</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-18.html"
-                     title="DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-18">BFS-Hospital-Admission-Mobility-1-UseOfDevice-18</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1">BFS-Hospital-Admission-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1">BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11">BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16">BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21">BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26">BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31">BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6.html"
-                     title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6">BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="Observation-BFS-Hospital-Discharge-Mobility-1.html"
                      title="Observation/BFS-Hospital-Discharge-Mobility-1">BFS-Hospital-Discharge-Mobility-1</a>
                </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-14.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14">BFS-Hospital-Discharge-Mobility-1-Ob-Question-14</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-2.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2">BFS-Hospital-Discharge-Mobility-1-Ob-Question-2</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-20.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20">BFS-Hospital-Discharge-Mobility-1-Ob-Question-20</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-26.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26">BFS-Hospital-Discharge-Mobility-1-Ob-Question-26</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-32.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32">BFS-Hospital-Discharge-Mobility-1-Ob-Question-32</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-38.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38">BFS-Hospital-Discharge-Mobility-1-Ob-Question-38</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-44.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44">BFS-Hospital-Discharge-Mobility-1-Ob-Question-44</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-50.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50">BFS-Hospital-Discharge-Mobility-1-Ob-Question-50</a>
-               </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.html"
                      title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56">BFS-Hospital-Discharge-Mobility-1-Ob-Question-56</a>
                </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-62.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62">BFS-Hospital-Discharge-Mobility-1-Ob-Question-62</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-68.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68">BFS-Hospital-Discharge-Mobility-1-Ob-Question-68</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-74.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74">BFS-Hospital-Discharge-Mobility-1-Ob-Question-74</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-8.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8">BFS-Hospital-Discharge-Mobility-1-Ob-Question-8</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-80.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80">BFS-Hospital-Discharge-Mobility-1-Ob-Question-80</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-86.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86">BFS-Hospital-Discharge-Mobility-1-Ob-Question-86</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-92.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92">BFS-Hospital-Discharge-Mobility-1-Ob-Question-92</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-98.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98">BFS-Hospital-Discharge-Mobility-1-Ob-Question-98</a>
-               </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.html"
                      title="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1">BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.html"
                      title="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2">BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.html"
                      title="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3">BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.html"
                      title="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4">BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.html"
                      title="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5">BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5</a>
                </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1">BFS-Hospital-Discharge-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12">BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17">BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2">BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22">BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27">BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32">BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7.html"
-                     title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7">BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.html"
-                     title="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3">BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4.html"
-                     title="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4">BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1">BFS-Hospital-DischargeGoal-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135.html"
-                     title="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135">BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1">BFS-SNF-Admission-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-15.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15">BFS-SNF-Admission-Mobility-1-Ob-Question-15</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-21.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21">BFS-SNF-Admission-Mobility-1-Ob-Question-21</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-27.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27">BFS-SNF-Admission-Mobility-1-Ob-Question-27</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-3.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3">BFS-SNF-Admission-Mobility-1-Ob-Question-3</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-33.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33">BFS-SNF-Admission-Mobility-1-Ob-Question-33</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-39.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39">BFS-SNF-Admission-Mobility-1-Ob-Question-39</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-45.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45">BFS-SNF-Admission-Mobility-1-Ob-Question-45</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-51.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51">BFS-SNF-Admission-Mobility-1-Ob-Question-51</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-57.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57">BFS-SNF-Admission-Mobility-1-Ob-Question-57</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-63.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63">BFS-SNF-Admission-Mobility-1-Ob-Question-63</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-69.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69">BFS-SNF-Admission-Mobility-1-Ob-Question-69</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-75.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75">BFS-SNF-Admission-Mobility-1-Ob-Question-75</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-81.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81">BFS-SNF-Admission-Mobility-1-Ob-Question-81</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-87.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87">BFS-SNF-Admission-Mobility-1-Ob-Question-87</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-9.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9">BFS-SNF-Admission-Mobility-1-Ob-Question-9</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-93.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93">BFS-SNF-Admission-Mobility-1-Ob-Question-93</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-1-Ob-Question-99.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99">BFS-SNF-Admission-Mobility-1-Ob-Question-99</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-12.html"
-                     title="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12">BFS-SNF-Admission-Mobility-1-UseOfDevice-12</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-13.html"
-                     title="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13">BFS-SNF-Admission-Mobility-1-UseOfDevice-13</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-14.html"
-                     title="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14">BFS-SNF-Admission-Mobility-1-UseOfDevice-14</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-15.html"
-                     title="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15">BFS-SNF-Admission-Mobility-1-UseOfDevice-15</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-16.html"
-                     title="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16">BFS-SNF-Admission-Mobility-1-UseOfDevice-16</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1">BFS-SNF-Admission-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13">BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18">BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23">BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28">BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3">BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33">BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8.html"
-                     title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8">BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1">BFS-SNF-Discharge-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-10.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10">BFS-SNF-Discharge-Mobility-1-Ob-Question-10</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-100.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100">BFS-SNF-Discharge-Mobility-1-Ob-Question-100</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-16.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16">BFS-SNF-Discharge-Mobility-1-Ob-Question-16</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-22.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22">BFS-SNF-Discharge-Mobility-1-Ob-Question-22</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-28.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28">BFS-SNF-Discharge-Mobility-1-Ob-Question-28</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-34.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34">BFS-SNF-Discharge-Mobility-1-Ob-Question-34</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-4.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4">BFS-SNF-Discharge-Mobility-1-Ob-Question-4</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-40.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40">BFS-SNF-Discharge-Mobility-1-Ob-Question-40</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-46.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46">BFS-SNF-Discharge-Mobility-1-Ob-Question-46</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-52.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52">BFS-SNF-Discharge-Mobility-1-Ob-Question-52</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-58.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58">BFS-SNF-Discharge-Mobility-1-Ob-Question-58</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-64.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64">BFS-SNF-Discharge-Mobility-1-Ob-Question-64</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-70.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70">BFS-SNF-Discharge-Mobility-1-Ob-Question-70</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-76.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76">BFS-SNF-Discharge-Mobility-1-Ob-Question-76</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-82.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82">BFS-SNF-Discharge-Mobility-1-Ob-Question-82</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-88.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88">BFS-SNF-Discharge-Mobility-1-Ob-Question-88</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-94.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94">BFS-SNF-Discharge-Mobility-1-Ob-Question-94</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-10.html"
-                     title="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-10">BFS-SNF-Discharge-Mobility-1-UseOfDevice-10</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-11.html"
-                     title="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-11">BFS-SNF-Discharge-Mobility-1-UseOfDevice-11</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-6.html"
-                     title="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-6">BFS-SNF-Discharge-Mobility-1-UseOfDevice-6</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-7.html"
-                     title="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-7">BFS-SNF-Discharge-Mobility-1-UseOfDevice-7</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-8.html"
-                     title="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-8">BFS-SNF-Discharge-Mobility-1-UseOfDevice-8</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="DeviceUseStatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-9.html"
-                     title="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-9">BFS-SNF-Discharge-Mobility-1-UseOfDevice-9</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1">BFS-SNF-Discharge-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14">BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19">BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24">BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29">BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34">BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4">BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9.html"
-                     title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9">BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1">BFS-SNF-DischargeGoal-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136">BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1">BFS-SNF-DischargeGoal-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36">BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37">BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38">BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39">BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40">BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41">BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42.html"
-                     title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42">BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42</a>
-               </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis1.html" title="Condition/BSJ-Diagnosis1">BSJ-Diagnosis1</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis2.html" title="Condition/BSJ-Diagnosis2">BSJ-Diagnosis2</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis3.html" title="Condition/BSJ-Diagnosis3">BSJ-Diagnosis3</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis4.html" title="Condition/BSJ-Diagnosis4">BSJ-Diagnosis4</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis5.html" title="Condition/BSJ-Diagnosis5">BSJ-Diagnosis5</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis6.html" title="Condition/BSJ-Diagnosis6">BSJ-Diagnosis6</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis7.html" title="Condition/BSJ-Diagnosis7">BSJ-Diagnosis7</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis8.html" title="Condition/BSJ-Diagnosis8">BSJ-Diagnosis8</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis9.html" title="Condition/BSJ-Diagnosis9">BSJ-Diagnosis9</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Observation-BSJ-Prior-Level-Of-Function-1.html"
                      title="Observation/BSJ-Prior-Level-Of-Function-1">BSJ-Prior-Level-Of-Function-1</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-1.html" title="Device/CMS-Device-1">CMS-Device-1</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-2.html" title="Device/CMS-Device-2">CMS-Device-2</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-3.html" title="Device/CMS-Device-3">CMS-Device-3</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-4.html" title="Device/CMS-Device-4">CMS-Device-4</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-5.html" title="Device/CMS-Device-5">CMS-Device-5</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-6.html" title="Device/CMS-Device-6">CMS-Device-6</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Device-CMS-Device-7.html" title="Device/CMS-Device-7">CMS-Device-7</a>
                </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Device-CMS-Device-8.html" title="Device/CMS-Device-8">CMS-Device-8</a>
-               </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Organization-Org-01.html" title="Organization/Org-01">Org-01</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Organization-Org-02.html" title="Organization/Org-02">Org-02</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Organization-Org-03.html" title="Organization/Org-03">Org-03</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Location-Org-Loc-01.html" title="Location/Org-Loc-01">Org-Loc-01</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Location-Org-Loc-02.html" title="Location/Org-Loc-02">Org-Loc-02</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Location-Org-Loc-03.html" title="Location/Org-Loc-03">Org-Loc-03</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-DanielGranger.html"
                      title="Practitioner/Practitioner-DanielGranger">Practitioner-DanielGranger</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-HoneyJones.html"
                      title="Practitioner/Practitioner-HoneyJones">Practitioner-HoneyJones</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-JenCadbury.html"
                      title="Practitioner/Practitioner-JenCadbury">Practitioner-JenCadbury</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-JennyGlass.html"
                      title="Practitioner/Practitioner-JennyGlass">Practitioner-JennyGlass</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-JohnSmith.html"
                      title="Practitioner/Practitioner-JohnSmith">Practitioner-JohnSmith</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-LunaBaskins.html"
                      title="Practitioner/Practitioner-LunaBaskins">Practitioner-LunaBaskins</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-NoraOlogist.html"
                      title="Practitioner/Practitioner-NoraOlogist">Practitioner-NoraOlogist</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-RonBurgendy.html"
                      title="Practitioner/Practitioner-RonBurgendy">Practitioner-RonBurgendy</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-RonMarble.html"
                      title="Practitioner/Practitioner-RonMarble">Practitioner-RonMarble</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-SallySmith.html"
                      title="Practitioner/Practitioner-SallySmith">Practitioner-SallySmith</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-ScottDumble.html"
                      title="Practitioner/Practitioner-ScottDumble">Practitioner-ScottDumble</a>
                </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-HH-Discharge-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1">QResponse-HH-Discharge-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-HH-Discharge-Mobility-SelfCare-1.html"
-                     title="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1">QResponse-HH-Discharge-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-HH-StartOfCare-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1">QResponse-HH-StartOfCare-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-HH-StartOfCare-Mobility-SelfCare-1.html"
-                     title="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1">QResponse-HH-StartOfCare-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-Hospital-Admission-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1">QResponse-Hospital-Admission-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-Hospital-Admission-Mobility-SelfCare-1.html"
-                     title="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1">QResponse-Hospital-Admission-Mobility-SelfCare-1</a>
-               </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html"
                      title="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1">QResponse-Hospital-Discharge-Mobility-1</a>
                </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1.html"
-                     title="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1">QResponse-Hospital-Discharge-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-Hospital-DischargeGoal-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1">QResponse-Hospital-DischargeGoal-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-SNF-Admission-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1">QResponse-SNF-Admission-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html"
-                     title="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1">QResponse-SNF-Admission-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1">QResponse-SNF-Discharge-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.html"
-                     title="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1">QResponse-SNF-Discharge-Mobility-SelfCare-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1">QResponse-SNF-DischargeGoal-Mobility-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html"
-                     title="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1">QResponse-SNF-DischargeGoal-Mobility-SelfCare-1</a>
-               </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="PractitionerRole-Role-OT.html" title="PractitionerRole/Role-OT">Role-OT</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="PractitionerRole-Role-PT.html" title="PractitionerRole/Role-PT">Role-PT</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="PractitionerRole-Role-RN.html" title="PractitionerRole/Role-RN">Role-RN</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Patient-patientBSJ1.html" title="Patient/patientBSJ1">patientBSJ1</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Organization-provider-org-01.html"
                      title="Organization/provider-org-01">provider-org-01</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="Location-provider-org-loc-01.html"
                      title="Location/provider-org-loc-01">provider-org-loc-01</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="PractitionerRole-provider-role-pcp.html"
                      title="PractitionerRole/provider-role-pcp">provider-role-pcp</a>
                </td>
+               <td>{% capture desc %}Sample Data{% endcapture %}
+{{ desc | markdownify}}</td>
             </tr>
          </tbody>
       </table>

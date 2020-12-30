@@ -1,11 +1,12 @@
-Alias: LNC = http://loinc.org
 
+Alias:  DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 Instance: BSJ-Prior-Level-Of-Function-1
 InstanceOf: PriorLevelOfFunction
+Description: "Sample Data"
 * subject = Reference(patientBSJ1)
 * status = #final
-
+* dataAbsentReason = DAR#not-applicable
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient is a community ambulator, able to attend desired activites and able to care for herself independently</div>"
 * text.status = #additional
 * extension[assistance-required].valueCodeableConcept.text = "Independent"

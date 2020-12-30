@@ -1,0 +1,190 @@
+﻿PACIOFunctionalStatusImplementationGuide : Validation Results
+=========================================
+
+err = 2, warn = 2, info = 0
+IG Publisher Version: 1.1.35 Out of date - current version is ?pub-ver-1?
+Generated Wed Dec 30 13:21:29 EST 2020. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = https://paciowg.github.io/functional-status-ig/)
+
+ Build Errors : 2 / 1 / 0
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs : 1 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis1 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis2 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis3 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis4 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis5 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis6 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis7 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis8 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\condition-BSJ-Diagnosis9 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-1 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-2 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-3 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-4 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-5 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-6 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\device-CMS-Device-7 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-01 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-02 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-03 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-provider-org-loc-01 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BFS-Hospital-Discharge-Mobility-1 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BSJ-Prior-Level-Of-Function-1 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-Org-01 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-Org-02 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-Org-03 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-provider-org-01 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\patient-patientBSJ1 : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-DanielGranger : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-HoneyJones : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-JenCadbury : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-JennyGlass : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-JohnSmith : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-LunaBaskins : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-NoraOlogist : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-RonBurgendy : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-RonMarble : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-SallySmith : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitioner-Practitioner-ScottDumble : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-Role-OT : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-Role-PT : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-Role-RN : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\practitionerrole-provider-role-pcp : 0 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\questionnaireresponse-QResponse-Hospital-Discharge-Mobility-1 : 0 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-assistance-required : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-device-patient-used : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-bfs : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-dev : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-fs : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-functional-qr : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-plf : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\resources\capabilitystatement-pacio-fs : 1 / 0 / 1
+</table>
+== n/a ==
+WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jiraspec.tmp.xml' (currently in Github) and 'jira.xml' (reflects current IG content)
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-dev-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 401, column 199: The link 'http://hl7.org/fhir/R4/null.html' for "http://hl7.org/fhir/StructureDefinition/bodySite" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21: The link 'history.html' for "History" cannot be resolved
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs.json ==
+ERROR: ImplementationGuide.where(url = 'https://paciowg.github.io/functional-status-ig//ImplementationGuide/hl7.fhir.us.pacio-fs'): Conformance resource C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs.json - the canonical URL (https://paciowg.github.io/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs) does not match the URL (https://paciowg.github.io/functional-status-ig//ImplementationGuide/hl7.fhir.us.pacio-fs)
+INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-fs: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis1.json ==
+INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis2.json ==
+INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis3.json ==
+INFORMATION: Condition/BSJ-Diagnosis3: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis4.json ==
+INFORMATION: Condition/BSJ-Diagnosis4: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis5.json ==
+INFORMATION: Condition/BSJ-Diagnosis5: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis6.json ==
+INFORMATION: Condition/BSJ-Diagnosis6: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis7.json ==
+INFORMATION: Condition/BSJ-Diagnosis7: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis8.json ==
+INFORMATION: Condition/BSJ-Diagnosis8: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Condition-BSJ-Diagnosis9.json ==
+INFORMATION: Condition/BSJ-Diagnosis9: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-1.json ==
+INFORMATION: Device/CMS-Device-1: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-2.json ==
+INFORMATION: Device/CMS-Device-2: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-3.json ==
+INFORMATION: Device/CMS-Device-3: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-4.json ==
+INFORMATION: Device/CMS-Device-4: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-5.json ==
+INFORMATION: Device/CMS-Device-5: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-6.json ==
+INFORMATION: Device/CMS-Device-6: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Device-CMS-Device-7.json ==
+INFORMATION: Device/CMS-Device-7: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.json ==
+INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1: DeviceUseStatement: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.json ==
+INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2: DeviceUseStatement: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.json ==
+INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3: DeviceUseStatement: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.json ==
+INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4: DeviceUseStatement: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.json ==
+INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5: DeviceUseStatement: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-Org-Loc-01.json ==
+INFORMATION: Location/Org-Loc-01: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-Org-Loc-02.json ==
+INFORMATION: Location/Org-Loc-02: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-Org-Loc-03.json ==
+INFORMATION: Location/Org-Loc-03: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Location-provider-org-loc-01.json ==
+INFORMATION: Location/provider-org-loc-01: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BFS-Hospital-Discharge-Mobility-1.json ==
+INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1: Observation: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-bfs
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.json ==
+INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56: Observation: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BSJ-Prior-Level-Of-Function-1.json ==
+INFORMATION: Observation/BSJ-Prior-Level-Of-Function-1: Observation: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-plf
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-Org-01.json ==
+INFORMATION: Organization/Org-01: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-Org-02.json ==
+INFORMATION: Organization/Org-02: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-Org-03.json ==
+INFORMATION: Organization/Org-03: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Organization-provider-org-01.json ==
+INFORMATION: Organization/provider-org-01: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Patient-patientBSJ1.json ==
+INFORMATION: Patient/patientBSJ1: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-DanielGranger.json ==
+INFORMATION: Practitioner/Practitioner-DanielGranger: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-HoneyJones.json ==
+INFORMATION: Practitioner/Practitioner-HoneyJones: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-JenCadbury.json ==
+INFORMATION: Practitioner/Practitioner-JenCadbury: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-JennyGlass.json ==
+INFORMATION: Practitioner/Practitioner-JennyGlass: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-JohnSmith.json ==
+INFORMATION: Practitioner/Practitioner-JohnSmith: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-LunaBaskins.json ==
+INFORMATION: Practitioner/Practitioner-LunaBaskins: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-NoraOlogist.json ==
+INFORMATION: Practitioner/Practitioner-NoraOlogist: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-RonBurgendy.json ==
+INFORMATION: Practitioner/Practitioner-RonBurgendy: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-RonMarble.json ==
+INFORMATION: Practitioner/Practitioner-RonMarble: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-SallySmith.json ==
+INFORMATION: Practitioner/Practitioner-SallySmith: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Practitioner-Practitioner-ScottDumble.json ==
+INFORMATION: Practitioner/Practitioner-ScottDumble: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-Role-OT.json ==
+INFORMATION: PractitionerRole/Role-OT: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-Role-PT.json ==
+INFORMATION: PractitionerRole/Role-PT: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-Role-RN.json ==
+INFORMATION: PractitionerRole/Role-RN: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\PractitionerRole-provider-role-pcp.json ==
+INFORMATION: PractitionerRole/provider-role-pcp: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
+WARNING: PractitionerRole/provider-role-pcp: PractitionerRole.code[0].coding[0]: Internal error: The display "Primary Care" is not a valid display for the code {http://nucc.org/provider-taxonomy}261QP2300X - should be one of ["Primary Care Clinic/Center"] (from http://tx.fhir.org/r4)
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.json ==
+INFORMATION: QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1: QuestionnaireResponse: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-functional-qr
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-assistance-required.json ==
+INFORMATION: StructureDefinition/assistance-required: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\StructureDefinition-device-patient-used.json ==
+INFORMATION: StructureDefinition/device-patient-used: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-bfs.json ==
+INFORMATION: StructureDefinition/pacio-bfs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-dev.json ==
+INFORMATION: StructureDefinition/pacio-dev: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-fs.json ==
+INFORMATION: StructureDefinition/pacio-fs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-functional-qr.json ==
+INFORMATION: StructureDefinition/pacio-functional-qr: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-plf.json ==
+INFORMATION: StructureDefinition/pacio-plf: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\resources\CapabilityStatement-pacio-fs.json ==
+INFORMATION: CapabilityStatement/pacio-fs: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
+ERROR: CapabilityStatement/pacio-fs: CapabilityStatement.rest[0]: cpb-9: A given resource can only be described once per RESTful mode. [resource.select(type).isDistinct()]

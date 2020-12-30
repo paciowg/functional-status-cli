@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="CMS-Device-3"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>DeviceNames</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Rolling walker</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 404946006}">Wheeled walking frame (physical object)</span></p></div>
+  </text>
+  <deviceName>
+    <name value="Rolling walker"/>
+    <type value="user-friendly-name"/>
+  </deviceName>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="404946006"/>
+    </coding>
+  </type>
+</Device>

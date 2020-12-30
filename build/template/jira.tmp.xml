@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+<!--
+  - A list of all work groups (and other HL7 groups/individuals) that can have responsibility for change requests
+  -
+  - WARNING: Don't *ever* change the key as you'll break old tracker workgroups.  Leave the key the same and change the name only.  
+  -          No one sees the key except when maintaining these files or working with exports
+  -->
+  
+<workgroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/workgroupList.xsd">
+  <workgroup key="brr" webcode="rcrim" name="Biomedical Research &amp;amp; Regulation"/>
+  <workgroup key="cbcc" webcode="homehealth" name="Community-Based Care and Privacy"/>
+  <workgroup key="cgit" webcode="ictc" name="Conformance"/>
+  <workgroup key="cimi" webcode="cimi" name="CIMI"/>
+  <workgroup key="cds" webcode="dss" name="Clinical Decision Support"/>
+  <workgroup key="cic" webcode="cic" name="Clinical Interoperability Council"/>
+  <workgroup key="cg" webcode="clingenomics" name="Clinical Genomics"/>
+  <workgroup key="cgp" webcode="cgp" name="Cross-Group Projects"/>
+  <workgroup key="cqi" webcode="cqi" name="Clinical Quality Information"/>
+  <workgroup key="dev" webcode="healthcaredevices" name="Devices"/>
+  <workgroup key="ehr" webcode="ehr" name="Electronic Health Record"/>
+  <workgroup key="director" name="FHIR Director"/>
+  <workgroup key="fgb" name="FHIR Governance Board" deprecated="true"/>
+  <workgroup key="fhir-i" webcode="fiwg" name="FHIR Infrastructure"/>
+  <workgroup key="fmg" webcode="fhirmg" name="FHIR Mgmt Group"/>
+  <workgroup key="fm" webcode="fm" name="Financial Mgmt"/>
+  <workgroup key="hsi" name="Health Standards Integration" deprecated="true"/>
+  <workgroup key="hta" webcode="termauth" name="HL7 Terminology Authority"/>
+  <workgroup key="project" name="IG Project" deprecated="true"/>
+  <workgroup key="ii" webcode="imagemgt" name="Imaging Integration"/>
+  <workgroup key="its" webcode="xml" name="Implementable Technology Specifications"/>
+  <workgroup key="inm" webcode="inm" name="Infrastructure &amp;amp; Messaging"/>
+  <workgroup key="mnm" webcode="mnm" name="Modeling &amp;amp; Methodology"/>
+  <workgroup key="oo" webcode="orders" name="Orders &amp;amp; Observations"/>
+  <workgroup key="pa" webcode="pafm" name="Patient Administration"/>
+  <workgroup key="pc" webcode="patientcare" name="Patient Care"/>
+  <workgroup key="pie" webcode="claims" name="Payer/Provider Information Exchange"/>
+  <workgroup key="pharm" webcode="medication" name="Pharmacy"/>
+  <workgroup key="pher" webcode="pher" name="Public Health"/>
+  <workgroup key="pubs" webcode="publishing" name="Publishing"/>
+  <workgroup key="security" webcode="secure" name="Security"/>
+  <workgroup key="soa" webcode="soa" name="Service Oriented Architecture"/>
+  <workgroup key="sd" webcode="structure" name="Structured Documents"/>
+  <workgroup key="templates" name="Templates" deprecated="true"/>
+  <workgroup key="us-realm" webcode="usrealm" name="US Realm Task Force"/>
+  <workgroup key="vocab" webcode="vocab" name="Vocabulary"/>
+  <workgroup key="v2mg" webcode="v2management" name="V2 Mgmt Group"/>
+</workgroups>
+
+<specification gitUrl="https://github.com/HL7/fhir-pacio-functional-status" url="http://hl7.org/fhir/us/pacio-fs" ciUrl="http://build.fhir.org/ig/HL7/fhir-pacio-functional-status" defaultWorkgroup="pc" defaultVersion="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/specification.xsd">
+  <version code="0.1" url="http://hl7.org/fhir/us/pacio-fs"/>
+  <page name="(NA)" key="NA"/>
+  <page name="(many)" key="many"/>
+  <page name="(profiles)" key="profiles"/>
+  <page name="index" key="index"/>
+  <page name="toc" key="toc"/>
+  <page name="usecases" key="usecases"/>
+</specification> 
+<package-list>
+   <package version="current"
+            path="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/"
+            status="ci-build"/>
+   <package version="0.1.0"
+            path="http://hl7.org/fhir/us/pacio-fs/2021Jan"
+            status="ballot"/>
+</package-list>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+   <id value="hl7.fhir.us.pacio-fs"/>
+   <text>
+      <status value="extensions"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>PACIOFunctionalStatusImplementationGuide</h2>
+         <p>The official URL for this implementation guide is: </p>
+         <pre>https://paciowg.github.io/functional-status-ig//ImplementationGuide/hl7.fhir.us.pacio-fs</pre>
+         <div>
+            <p>To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
+         </div>
+      </div>
+   </text>
+   <url value="https://paciowg.github.io/functional-status-ig//ImplementationGuide/hl7.fhir.us.pacio-fs"/>
+   <version value="0.1.0"/>
+   <name value="PACIOFunctionalStatusImplementationGuide"/>
+   <title value="PACIO Functional Status Implementation Guide"/>
+   <status value="active"/>
+   <date value="2020-12-30T13:20:04-05:00"/>
+   <publisher value="HL7 Patient Care Work Group"/>
+   <contact>
+      <name value="HL7 Patient Care Work Group"/>
+      <telecom>
+         <system value="url"/>
+         <value value="http://www.hl7.org/Special/committees/patientcare"/>
+      </telecom>
+      <telecom>
+         <system value="email"/>
+         <value value="patientcare@lists.HL7.org"/>
+      </telecom>
+   </contact>
+   <contact>
+      <name value="PACIO  project"/>
+      <telecom>
+         <system value="url"/>
+         <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+      </telecom>
+      <telecom>
+         <system value="email"/>
+         <value value="patientcare@lists.HL7.org"/>
+      </telecom>
+   </contact>
+   <description value="To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders"/>
+   <jurisdiction>
+      <coding>
+         <system value="urn:iso:std:iso:3166"/>
+         <code value="US"/>
+      </coding>
+   </jurisdiction>
+   <packageId value="hl7.fhir.us.pacio-fs"/>
+   <license value="CC0-1.0"/>
+   <fhirVersion value="4.0.1"/>
+   <dependsOn id="hl7_fhir_us_core">
+      <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+      <packageId value="hl7.fhir.us.core"/>
+      <version value="3.1.0"/>
+   </dependsOn>
+   <definition>
+      <grouping id="_dyn_capabilitystatement">
+         <name value="Behavior: Capability Statements"/>
+         <description value="The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements."/>
+      </grouping>
+
+
+
+
+
+
+
+      <grouping id="_str_profile">
+         <name value="Structures: Resource Profiles"/>
+         <description value="These define constraints on FHIR resources for systems conforming to this implementation guide"/>
+      </grouping>
+
+      <grouping id="_str_extension">
+         <name value="Structures: Extension Definitions"/>
+         <description value="These define constraints on FHIR data types for systems conforming to this implementation guide"/>
+      </grouping>
+
+
+
+
+
+
+      <grouping id="_ex_example">
+         <name value="Example: Example Instances"/>
+         <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
+      </grouping>
+
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-bfs.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-bfs"/>
+         </reference>
+         <name value="Bundled Functional Status"/>
+         <description value="An point in time bundle of functional status observations for a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-fs.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-fs"/>
+         </reference>
+         <name value="Functional Status"/>
+         <description value="An exchange of functional status data for a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-functional-qr.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-functional-qr"/>
+         </reference>
+         <name value="PACIO Questionnaire Response"/>
+         <description value="A completed, or sections of a completed, CMS PAC assessment."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-plf.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-plf"/>
+         </reference>
+         <name value="Prior Level Of Function"/>
+         <description value="An exchange of prior level of function data for a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-pacio-dev.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/pacio-dev"/>
+         </reference>
+         <name value="UseOfDevice"/>
+         <description value="A device used by a Patient during a functional status assessment."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-assistance-required.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/assistance-required"/>
+         </reference>
+         <name value="AssistanceRequired"/>
+         <description value="Associated functional status used for display purposes."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-device-patient-used.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/device-patient-used"/>
+         </reference>
+         <name value="DevicePatientUsed"/>
+         <description value="A device used by a patient during a functional status assessment."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_str_extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-1.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-Hospital-Discharge-Mobility-1"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-bfs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis1.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis1"/>
+         </reference>
+         <name value="BSJ-Diagnosis1"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis2.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis2"/>
+         </reference>
+         <name value="BSJ-Diagnosis2"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis3.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis3"/>
+         </reference>
+         <name value="BSJ-Diagnosis3"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis4.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis4"/>
+         </reference>
+         <name value="BSJ-Diagnosis4"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis5.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis5"/>
+         </reference>
+         <name value="BSJ-Diagnosis5"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis6.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis6"/>
+         </reference>
+         <name value="BSJ-Diagnosis6"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis7.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis7"/>
+         </reference>
+         <name value="BSJ-Diagnosis7"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis8.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis8"/>
+         </reference>
+         <name value="BSJ-Diagnosis8"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-BSJ-Diagnosis9.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/BSJ-Diagnosis9"/>
+         </reference>
+         <name value="BSJ-Diagnosis9"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BSJ-Prior-Level-Of-Function-1.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BSJ-Prior-Level-Of-Function-1"/>
+         </reference>
+         <name value="BSJ-Prior-Level-Of-Function-1"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-plf"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-1.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-1"/>
+         </reference>
+         <name value="CMS-Device-1"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-2.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-2"/>
+         </reference>
+         <name value="CMS-Device-2"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-3.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-3"/>
+         </reference>
+         <name value="CMS-Device-3"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-4.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-4"/>
+         </reference>
+         <name value="CMS-Device-4"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-5.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-5"/>
+         </reference>
+         <name value="CMS-Device-5"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-6.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-6"/>
+         </reference>
+         <name value="CMS-Device-6"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-7.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-7"/>
+         </reference>
+         <name value="CMS-Device-7"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-Org-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/Org-01"/>
+         </reference>
+         <name value="Org-01"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-Org-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/Org-02"/>
+         </reference>
+         <name value="Org-02"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-Org-03.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/Org-03"/>
+         </reference>
+         <name value="Org-03"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-Org-Loc-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/Org-Loc-01"/>
+         </reference>
+         <name value="Org-Loc-01"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-Org-Loc-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/Org-Loc-02"/>
+         </reference>
+         <name value="Org-Loc-02"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-Org-Loc-03.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/Org-Loc-03"/>
+         </reference>
+         <name value="Org-Loc-03"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-DanielGranger.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-DanielGranger"/>
+         </reference>
+         <name value="Practitioner-DanielGranger"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-HoneyJones.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-HoneyJones"/>
+         </reference>
+         <name value="Practitioner-HoneyJones"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-JenCadbury.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-JenCadbury"/>
+         </reference>
+         <name value="Practitioner-JenCadbury"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-JennyGlass.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-JennyGlass"/>
+         </reference>
+         <name value="Practitioner-JennyGlass"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-JohnSmith.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-JohnSmith"/>
+         </reference>
+         <name value="Practitioner-JohnSmith"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-LunaBaskins.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-LunaBaskins"/>
+         </reference>
+         <name value="Practitioner-LunaBaskins"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-NoraOlogist.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-NoraOlogist"/>
+         </reference>
+         <name value="Practitioner-NoraOlogist"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-RonBurgendy.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-RonBurgendy"/>
+         </reference>
+         <name value="Practitioner-RonBurgendy"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-RonMarble.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-RonMarble"/>
+         </reference>
+         <name value="Practitioner-RonMarble"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-SallySmith.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-SallySmith"/>
+         </reference>
+         <name value="Practitioner-SallySmith"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-Practitioner-ScottDumble.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/Practitioner-ScottDumble"/>
+         </reference>
+         <name value="Practitioner-ScottDumble"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="QuestionnaireResponse"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html"/>
+         </extension>
+         <reference>
+            <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
+         </reference>
+         <name value="QResponse-Hospital-Discharge-Mobility-1"/>
+         <description value="Sample Data"/>
+         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-functional-qr"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-Role-OT.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/Role-OT"/>
+         </reference>
+         <name value="Role-OT"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-Role-PT.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/Role-PT"/>
+         </reference>
+         <name value="Role-PT"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-Role-RN.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/Role-RN"/>
+         </reference>
+         <name value="Role-RN"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-patientBSJ1.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/patientBSJ1"/>
+         </reference>
+         <name value="patientBSJ1"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-provider-org-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/provider-org-01"/>
+         </reference>
+         <name value="provider-org-01"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-provider-org-loc-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/provider-org-loc-01"/>
+         </reference>
+         <name value="provider-org-loc-01"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-provider-role-pcp.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/provider-role-pcp"/>
+         </reference>
+         <name value="provider-role-pcp"/>
+         <description value="Sample Data"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CapabilityStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CapabilityStatement-pacio-fs.html"/>
+         </extension>
+         <reference>
+            <reference value="CapabilityStatement/pacio-fs"/>
+         </reference>
+         <name value="PACIO Functional Status Capability Statement"/>
+         <description value="This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="_dyn_capabilitystatement"/>
+      </resource>
+      <page>
+         <nameUrl value="toc.html"/>
+         <title value="Table of Contents"/>
+         <generation value="html"/>
+         <page>
+            <nameUrl value="index.html"/>
+            <title value="Home"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="functional_status_use_case.html"/>
+            <title value="Functional Status Use Case"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="profile_highlights_and_guidance.html"/>
+            <title value="Profile Highlights and Guidance"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="security_and_data_sharing.html"/>
+            <title value="Security and Data Sharing"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="underlying_technologies.html"/>
+            <title value="Underlying Technologies"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="artifacts.html"/>
+            <title value="Artifacts Summary"/>
+            <generation value="html"/>
+            <page>
+               <nameUrl value="CapabilityStatement-pacio-fs.html"/>
+               <title value="PACIO Functional Status Capability Statement"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-bfs.html"/>
+               <title value="Bundled Functional Status"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-fs.html"/>
+               <title value="Functional Status"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-functional-qr.html"/>
+               <title value="PACIO Questionnaire Response"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-plf.html"/>
+               <title value="Prior Level Of Function"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-dev.html"/>
+               <title value="UseOfDevice"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-assistance-required.html"/>
+               <title value="AssistanceRequired"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-device-patient-used.html"/>
+               <title value="DevicePatientUsed"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-1.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis1.html"/>
+               <title value="BSJ-Diagnosis1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis2.html"/>
+               <title value="BSJ-Diagnosis2"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis3.html"/>
+               <title value="BSJ-Diagnosis3"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis4.html"/>
+               <title value="BSJ-Diagnosis4"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis5.html"/>
+               <title value="BSJ-Diagnosis5"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis6.html"/>
+               <title value="BSJ-Diagnosis6"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis7.html"/>
+               <title value="BSJ-Diagnosis7"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis8.html"/>
+               <title value="BSJ-Diagnosis8"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Condition-BSJ-Diagnosis9.html"/>
+               <title value="BSJ-Diagnosis9"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BSJ-Prior-Level-Of-Function-1.html"/>
+               <title value="BSJ-Prior-Level-Of-Function-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-1.html"/>
+               <title value="CMS-Device-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-2.html"/>
+               <title value="CMS-Device-2"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-3.html"/>
+               <title value="CMS-Device-3"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-4.html"/>
+               <title value="CMS-Device-4"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-5.html"/>
+               <title value="CMS-Device-5"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-6.html"/>
+               <title value="CMS-Device-6"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-7.html"/>
+               <title value="CMS-Device-7"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-Org-01.html"/>
+               <title value="Org-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-Org-02.html"/>
+               <title value="Org-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-Org-03.html"/>
+               <title value="Org-03"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-Org-Loc-01.html"/>
+               <title value="Org-Loc-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-Org-Loc-02.html"/>
+               <title value="Org-Loc-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-Org-Loc-03.html"/>
+               <title value="Org-Loc-03"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-DanielGranger.html"/>
+               <title value="Practitioner-DanielGranger"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-HoneyJones.html"/>
+               <title value="Practitioner-HoneyJones"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-JenCadbury.html"/>
+               <title value="Practitioner-JenCadbury"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-JennyGlass.html"/>
+               <title value="Practitioner-JennyGlass"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-JohnSmith.html"/>
+               <title value="Practitioner-JohnSmith"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-LunaBaskins.html"/>
+               <title value="Practitioner-LunaBaskins"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-NoraOlogist.html"/>
+               <title value="Practitioner-NoraOlogist"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-RonBurgendy.html"/>
+               <title value="Practitioner-RonBurgendy"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-RonMarble.html"/>
+               <title value="Practitioner-RonMarble"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-SallySmith.html"/>
+               <title value="Practitioner-SallySmith"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-Practitioner-ScottDumble.html"/>
+               <title value="Practitioner-ScottDumble"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html"/>
+               <title value="QResponse-Hospital-Discharge-Mobility-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="PractitionerRole-Role-OT.html"/>
+               <title value="Role-OT"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="PractitionerRole-Role-PT.html"/>
+               <title value="Role-PT"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="PractitionerRole-Role-RN.html"/>
+               <title value="Role-RN"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Patient-patientBSJ1.html"/>
+               <title value="patientBSJ1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-provider-org-01.html"/>
+               <title value="provider-org-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-provider-org-loc-01.html"/>
+               <title value="provider-org-loc-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="PractitionerRole-provider-role-pcp.html"/>
+               <title value="provider-role-pcp"/>
+               <generation value="generated"/>
+            </page>
+         </page>
+      </page>
+      <parameter>
+         <code value="copyrightyear"/>
+         <value value="2020+"/>
+      </parameter>
+      <parameter>
+         <code value="releaselabel"/>
+         <value value="STU Ballot"/>
+      </parameter>
+      <parameter>
+         <code value="show-inherited-invariants"/>
+         <value value="false"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/capabilities"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/examples"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/extensions"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/models"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/operations"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/profiles"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/resources"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/vocabulary"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/maps"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/testing"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="input/history"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="fsh-generated/resources"/>
+      </parameter>
+      <parameter>
+         <code value="path-pages"/>
+         <value value="template/config"/>
+      </parameter>
+      <parameter>
+         <code value="path-pages"/>
+         <value value="input/images"/>
+      </parameter>
+      <parameter>
+         <code value="path-liquid"/>
+         <value value="template/liquid"/>
+      </parameter>
+      <parameter>
+         <code value="path-liquid"/>
+         <value value="input/liquid"/>
+      </parameter>
+      <parameter>
+         <code value="path-qa"/>
+         <value value="temp/qa"/>
+      </parameter>
+      <parameter>
+         <code value="path-temp"/>
+         <value value="temp/pages"/>
+      </parameter>
+      <parameter>
+         <code value="path-output"/>
+         <value value="output"/>
+      </parameter>
+      <parameter>
+         <code value="path-tx-cache"/>
+         <value value="input-cache/txcache"/>
+      </parameter>
+      <parameter>
+         <code value="path-suppressed-warnings"/>
+         <value value="input/ignoreWarnings.txt"/>
+      </parameter>
+      <parameter>
+         <code value="path-history"/>
+         <value value="https://paciowg.github.io/functional-status-ig//history.html"/>
+      </parameter>
+      <parameter>
+         <code value="template-html"/>
+         <value value="template-page.html"/>
+      </parameter>
+      <parameter>
+         <code value="template-md"/>
+         <value value="template-page-md.html"/>
+      </parameter>
+      <parameter>
+         <code value="apply-contact"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-context"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-copyright"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-jurisdiction"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-license"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-publisher"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-version"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="active-tables"/>
+         <value value="true"/>
+      </parameter>
+   </definition>
+</ImplementationGuide>
+
+
+</root>

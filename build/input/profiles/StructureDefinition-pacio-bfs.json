@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-bfs",
-  "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs",
+  "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-bfs",
   "version": "0.1.0",
   "name": "BundledFunctionalStatus",
   "title": "Bundled Functional Status",
@@ -92,7 +92,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used"
+              "https://paciowg.github.io/functional-status-ig//StructureDefinition/device-patient-used"
             ]
           }
         ],
@@ -112,11 +112,7 @@
         "id": "Observation.category",
         "path": "Observation.category",
         "short": "If this is from a Post-Acute Care Assessment, category should be survey.",
-        "max": "1",
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category"
-        }
+        "max": "1"
       },
       {
         "id": "Observation.code",
@@ -124,7 +120,7 @@
         "short": "LOINC code and text for the question, if this is from a Post-Acute Care Assessment.",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {
@@ -150,7 +146,7 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "short": "The person who performed the assessment. Also provide the role and organizationif available. ",
+        "short": "The person who performed the assessment. Also provide the role and organizationif available.",
         "min": 1
       },
       {
