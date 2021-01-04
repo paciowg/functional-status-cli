@@ -1,4 +1,4 @@
-Alias:  LNC = http://loinc.org
+
 
 Profile:        PACIOfunctionalQuestionnaireResponse
 Parent:         QuestionnaireResponse

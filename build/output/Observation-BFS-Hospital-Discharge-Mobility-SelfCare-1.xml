@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
+  <meta>
+    <profile value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href="Location-Org-Loc-01.html">Generated Summary: status: active; name: San Antonio General Hospital</a></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 83254-3}">Self-care - discharge performance [CMS Assessment]</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 10, 2020 12:34:00 PM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-RonMarble.html">Generated Summary: active; Ron Marble ; gender: male</a></li><li><a href="PractitionerRole-Role-PT.html">Generated Summary: active; <span title="Codes: {http://snomed.info/sct 36682004}">Physiotherapist</span></a></li><li><a href="Organization-Org-01.html">Organization. Generated Summary: name: San Antonio General Hospital</a></li></ul><p><b>hasMember</b>: </p><ul><li><a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2.html">Generated Summary: <span title="Codes: {http://loinc.org 83232-9}">Eating - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title="Codes: {http://loinc.org LA10055-4}">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li><li><a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6.html">Generated Summary: <span title="Codes: {http://loinc.org 83230-3}">Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title="Codes: {http://loinc.org LA10055-4}">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li><li><a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10.html">Generated Summary: <span title="Codes: {http://loinc.org 83228-7}">Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title="Codes: {http://loinc.org LA27665-1}">Dependent</span></a></li><li><a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14.html">Generated Summary: <span title="Codes: {http://loinc.org 83226-1}">Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title="Codes: {http://loinc.org LA26735-3}">Not Attempted</span></a></li><li><a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18.html">Generated Summary: <span title="Codes: {http://loinc.org 83224-6}">Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title="Codes: {http://loinc.org LA10055-4}">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li><li><a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22.html">Generated Summary: <span title="Codes: {http://loinc.org 83222-0}">Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title="Codes: {http://loinc.org LA11759-0}">Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.</span></a></li><li><a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26.html">Generated Summary: <span title="Codes: {http://loinc.org 83220-4}">Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title="Codes: {http://loinc.org LA11759-0}">Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.</span></a></li></ul><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1.html">Questionnaire Response. Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 10, 2020 12:34:00 PM</a></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/Org-Loc-01"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="83254-3"/>
+      <display value="Self-care - discharge performance [CMS Assessment]"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2020-07-10T14:34:00-05:00"/>
+  <performer>
+    <reference value="Practitioner/Practitioner-RonMarble"/>
+  </performer>
+  <performer>
+    <reference value="PractitionerRole/Role-PT"/>
+  </performer>
+  <performer>
+    <reference value="Organization/Org-01"/>
+    <display value="Organization"/>
+  </performer>
+  <hasMember>
+    <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26"/>
+  </hasMember>
+  <derivedFrom>
+    <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
+    <display value="Questionnaire Response"/>
+  </derivedFrom>
+</Observation>

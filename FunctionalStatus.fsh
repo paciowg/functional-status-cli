@@ -1,18 +1,18 @@
-Alias:  LNC = http://loinc.org
+
 Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
 
 
 Profile:        FunctionalStatus
-Parent:         USCoreLaboratoryResultObservationProfile
+Parent:         Observation
 Id:             pacio-fs
 Title:          "Functional Status"
 Description:    "An exchange of functional status data for a patient."
 * subject 1..1
 //* subject only Reference(Patient)
-* code from LNC (extensible)
+* code from LNCVS (extensible)
 * performer 1..* 
 * value[x] only CodeableConcept
-* value[x] from LNC (extensible)
+* value[x] from LNCVS (extensible)
 * value[x] ^short = "For a Post-Acute Care Assessment, should include a LOINC code and text for the answer or value."
 * performer ^short = "The person who performed the assessment. Also provide the role and organization if available."
 * category ^short = "For a Post-Acute Care Assessment, category should be survey."

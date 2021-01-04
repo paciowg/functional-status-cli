@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="provider-org-loc-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>name</b>: Primary Care</p><p><b>address</b>: 177 Deerfield St. San Antonio, TX 78207</p></div>
+  </text>
+  <status value="active"/>
+  <name value="Primary Care"/>
+  <address>
+    <text value="177 Deerfield St. San Antonio, TX 78207"/>
+  </address>
+</Location>

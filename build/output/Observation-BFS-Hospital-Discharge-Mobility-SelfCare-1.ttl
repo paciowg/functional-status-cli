@@ -1,0 +1,110 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BFS-Hospital-Discharge-Mobility-SelfCare-1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:index 0;
+       fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-01.html\">Generated Summary: status: active; name: San Antonio General Hospital</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83254-3}\">Self-care - discharge performance [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 10, 2020 12:34:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-RonMarble.html\">Generated Summary: active; Ron Marble ; gender: male</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-01.html\">Organization. Generated Summary: name: San Antonio General Hospital</a></li></ul><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83232-9}\">Eating - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li><li><a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83230-3}\">Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li><li><a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83228-7}\">Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title=\"Codes: {http://loinc.org LA27665-1}\">Dependent</span></a></li><li><a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83226-1}\">Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title=\"Codes: {http://loinc.org LA26735-3}\">Not Attempted</span></a></li><li><a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83224-6}\">Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li><li><a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83222-0}\">Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.</span></a></li><li><a href=\"Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 83220-4}\">Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]</span>; effective: Jul 10, 2020 12:34:00 PM; <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.</span></a></li></ul><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1.html\">Questionnaire Response. Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 10, 2020 12:34:00 PM</a></p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <http://paciowg.github.io/functional-status-ig/Location/Org-Loc-01>;
+       fhir:Reference.reference [ fhir:value "Location/Org-Loc-01" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "survey" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:83254-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "83254-3" ];
+       fhir:Coding.display [ fhir:value "Self-care - discharge performance [CMS Assessment]" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-07-10T14:34:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-RonMarble>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-RonMarble" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/Role-PT" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Organization/Org-01>;
+     fhir:Reference.reference [ fhir:value "Organization/Org-01" ];
+     fhir:Reference.display [ fhir:value "Organization" ]
+  ];
+  fhir:Observation.hasMember [
+     fhir:index 0;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10" ]
+  ], [
+     fhir:index 3;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14" ]
+  ], [
+     fhir:index 4;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18" ]
+  ], [
+     fhir:index 5;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22" ]
+  ], [
+     fhir:index 6;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26>;
+     fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26" ]
+  ];
+  fhir:Observation.derivedFrom [
+     fhir:index 0;
+     fhir:link <http://paciowg.github.io/functional-status-ig/QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1>;
+     fhir:Reference.reference [ fhir:value "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1" ];
+     fhir:Reference.display [ fhir:value "Questionnaire Response" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://paciowg.github.io/functional-status-ig/Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

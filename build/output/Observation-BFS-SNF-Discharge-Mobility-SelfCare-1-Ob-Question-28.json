@@ -1,0 +1,63 @@
+{
+  "resourceType": "Observation",
+  "id": "BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28",
+  "meta": {
+    "profile": [
+      "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83220-4}\">Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Aug 1, 2020 9:00:00 AM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-DanielGranger.html\">Generated Summary: active; Daniel Granger ; gender: male</a></li><li><a href=\"PractitionerRole-Role-OT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Aug 1, 2020 9:00:00 AM</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "83220-4",
+        "display": "Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]"
+      }
+    ],
+    "text": "Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]"
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-08-01T11:00:00-05:00",
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-DanielGranger"
+    },
+    {
+      "reference": "PractitionerRole/Role-OT"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA10055-4",
+        "display": "Partial/moderate assistance"
+      }
+    ],
+    "text": "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1"
+    }
+  ]
+}

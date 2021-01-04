@@ -1,0 +1,239 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QResponse-SNF-DischargeGoal-Mobility-1",
+  "meta": {
+    "profile": [
+      "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 11, 2020 2:32:00 PM</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - admission [CMS Assessment]</p><blockquote><p><b>item</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>linkId</b>: Section-37/GG0170_2</p><p><b>text</b>: Mobility - discharge goal during 3 day assessment period [CMS Assessment]</p><h3>Items</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr><tr><td>*</td></tr></table></blockquote></blockquote></div>"
+  },
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "authored": "2020-07-11T16:32:00-05:00",
+  "item": [
+    {
+      "id": "88482-5",
+      "linkId": "Section-37",
+      "text": "Functional abilities and goals - admission [CMS Assessment]",
+      "item": [
+        {
+          "id": "85056-0",
+          "linkId": "Section-37/GG0170_2",
+          "text": "Mobility - discharge goal during 3 day assessment period [CMS Assessment]",
+          "item": [
+            {
+              "id": "83217-0",
+              "linkId": "Section-37/GG0170A2",
+              "text": "Roll left and right - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83215-4",
+              "linkId": "Section-37/GG0170B2",
+              "text": "Sit to lying - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83213-9",
+              "linkId": "Section-37/GG0170C2",
+              "text": "Lying to sitting on side of bed - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83211-3",
+              "linkId": "Section-37/GG0170D2",
+              "text": "Sit to stand - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83209-7",
+              "linkId": "Section-37/GG0170E2",
+              "text": "Bed-to-chair transfer - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83207-1",
+              "linkId": "Section-37/GG0170F2",
+              "text": "Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83205-5",
+              "linkId": "Section-37/GG0170G2",
+              "text": "Car transfer - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83203-0",
+              "linkId": "Section-37/GG0170I2",
+              "text": "Walk 10 feet - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83201-4",
+              "linkId": "Section-37/GG0170J2",
+              "text": "Walk 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83199-0",
+              "linkId": "Section-37/GG0170K2",
+              "text": "Walk 150 feet - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83197-4",
+              "linkId": "Section-37/GG0170L2",
+              "text": "Walking 10 feet on uneven surfaces - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83195-8",
+              "linkId": "Section-37/GG0170M2",
+              "text": "1 step (curb) - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83193-3",
+              "linkId": "Section-37/GG0170N2",
+              "text": "4 steps - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83191-7",
+              "linkId": "Section-37/GG0170O2",
+              "text": "12 steps - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83189-1",
+              "linkId": "Section-37/GG0170P2",
+              "text": "Picking up object - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83187-5",
+              "linkId": "Section-37/GG0170R2",
+              "text": "Wheel 50 feet with two turns - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "83236-0",
+              "linkId": "Section-37/GG0170S2",
+              "text": "Wheel 150 feet - functional goal during 3 day assessment period [CMS Assessment]",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

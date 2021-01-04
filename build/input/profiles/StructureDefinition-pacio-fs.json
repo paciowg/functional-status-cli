@@ -1,7 +1,17 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-fs",
-  "url": "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
   "version": "0.1.0",
   "name": "FunctionalStatus",
   "title": "Functional Status",
@@ -9,11 +19,6 @@
   "description": "An exchange of functional status data for a patient.",
   "fhirVersion": "4.0.1",
   "mapping": [
-    {
-      "identity": "argonaut-dq-dstu2",
-      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
-      "name": "Argonaut-DQ-DSTU2"
-    },
     {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
@@ -48,7 +53,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -92,7 +97,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/us/pacio-fs/StructureDefinition/device-patient-used"
+              "http://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used"
             ]
           }
         ],
@@ -124,13 +129,14 @@
         "short": "For a Post-Acute Care Assessment, code should be a LOINC code and text for the question.",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "short": "Subject should only be Patient for functional status"
+        "short": "Subject should only be Patient for functional status",
+        "min": 1
       },
       {
         "id": "Observation.focus",
@@ -169,7 +175,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {

@@ -6,20 +6,20 @@
       <div xmlns="http://www.w3.org/1999/xhtml">
          <h2>PACIOFunctionalStatusImplementationGuide</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://hl7.org/fhir/us/pacio-fs/ImplementationGuide/hl7.fhir.us.pacio-fs</pre>
+         <pre>http://paciowg.github.io/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs</pre>
          <div>
             <p>To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
          </div>
       </div>
    </text>
-   <url value="http://hl7.org/fhir/us/pacio-fs/ImplementationGuide/hl7.fhir.us.pacio-fs"/>
+   <url value="http://paciowg.github.io/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs"/>
    <version value="0.1.0"/>
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-15T18:12:50-04:00"/>
+   <date value="2021-01-03T22:27:53-08:00"/>
    <contact>
-      <name value="PACIO  project"/>
+      <name value="PACIO project"/>
       <telecom>
          <system value="url"/>
          <value value="http://www.hl7.org/Special/committees/patientcare/"/>
@@ -47,7 +47,7 @@
    <definition>
       <grouping id="_dyn_capabilitystatement">
          <name value="Behavior: Capability Statements"/>
-         <description value="The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems complying with the implementation guide are expected to declare conformance to one or more of the following capability statements."/>
+         <description value="The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements."/>
       </grouping>
 
 
@@ -58,12 +58,12 @@
 
       <grouping id="_str_profile">
          <name value="Structures: Resource Profiles"/>
-         <description value="These define constraints on FHIR resources that need to be complied with by conformant implementations"/>
+         <description value="These define constraints on FHIR resources for systems conforming to this implementation guide"/>
       </grouping>
 
       <grouping id="_str_extension">
          <name value="Structures: Extension Definitions"/>
-         <description value="These define constraints on FHIR data types that need to be complied with by conformant implementations"/>
+         <description value="These define constraints on FHIR data types for systems conforming to this implementation guide"/>
       </grouping>
 
 
@@ -192,7 +192,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -206,7 +207,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-102"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -220,7 +222,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-12"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -234,7 +237,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-18"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -248,7 +252,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-24"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -262,7 +267,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-30"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -276,7 +282,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-36"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -290,7 +297,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-42"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -304,7 +312,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-48"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -318,7 +327,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-54"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -332,7 +342,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-6"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -346,7 +357,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-60"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -360,7 +372,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-66"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -374,7 +387,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-72"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -388,7 +402,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-78"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -402,7 +417,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-84"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -416,7 +432,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-90"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -430,7 +447,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1-Ob-Question-96"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -444,7 +462,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -452,13 +471,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10.html"/>
+            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
+            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37"/>
          </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -466,13 +486,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15.html"/>
+            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
+            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39"/>
          </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -480,13 +501,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20.html"/>
+            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
+            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41"/>
          </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -494,13 +516,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25.html"/>
+            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
+            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43"/>
          </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -508,13 +531,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30.html"/>
+            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
+            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45"/>
          </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -522,13 +546,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35.html"/>
+            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
+            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47"/>
          </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -536,13 +561,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5.html"/>
+            <valueUri value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
+            <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49"/>
          </reference>
-         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -556,7 +582,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -570,7 +597,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-101"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -584,7 +612,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-11"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -598,7 +627,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-17"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -612,7 +642,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-23"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -626,7 +657,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-29"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -640,7 +672,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-35"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -654,7 +687,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-41"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -668,7 +702,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-47"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -682,7 +717,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-5"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -696,7 +732,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-53"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -710,7 +747,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-59"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -724,7 +762,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-65"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -738,7 +777,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-71"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -752,7 +792,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-77"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -766,7 +807,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-83"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -780,7 +822,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-89"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -794,7 +837,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1-Ob-Question-95"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -808,7 +852,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -816,13 +861,59 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43.html"/>
+            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
+            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36"/>
          </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38"/>
+         </reference>
+         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40"/>
+         </reference>
+         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42"/>
+         </reference>
+         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -836,21 +927,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -864,21 +942,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -892,21 +957,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
-         </reference>
-         <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -920,7 +972,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -934,7 +987,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -948,7 +1002,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-13"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -962,7 +1017,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-19"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -976,7 +1032,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-25"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -990,7 +1047,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-31"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1004,7 +1062,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-37"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1018,7 +1077,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-43"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1032,7 +1092,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-49"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1046,7 +1107,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-55"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1060,7 +1122,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-61"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1074,7 +1137,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-67"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1088,7 +1152,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-7"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1102,7 +1167,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-73"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1116,7 +1182,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-79"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1130,7 +1197,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-85"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1144,7 +1212,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-91"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1158,7 +1227,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-Ob-Question-97"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1172,7 +1242,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-UseOfDevice-17"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1186,7 +1256,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1-UseOfDevice-18"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1200,7 +1270,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1214,7 +1285,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1222,13 +1294,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11.html"/>
+            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
          </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1236,13 +1309,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16.html"/>
+            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17"/>
          </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1256,7 +1330,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1264,13 +1339,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26.html"/>
+            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25"/>
          </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1278,13 +1354,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31.html"/>
+            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5"/>
          </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1292,13 +1369,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6.html"/>
+            <valueUri value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
+            <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9"/>
          </reference>
-         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1312,7 +1390,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1326,7 +1405,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-14"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1340,7 +1420,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-2"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1354,7 +1435,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-20"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1368,7 +1450,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-26"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1382,7 +1465,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-32"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1396,7 +1480,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-38"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1410,7 +1495,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-44"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1424,7 +1510,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-50"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1438,7 +1525,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-56"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1452,7 +1540,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-62"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1466,7 +1555,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-68"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1480,7 +1570,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-74"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1494,7 +1585,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-8"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1508,7 +1600,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-80"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1522,7 +1615,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-86"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1536,7 +1630,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-92"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1550,7 +1645,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-Ob-Question-98"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1564,7 +1660,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1578,7 +1674,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1592,7 +1688,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1606,7 +1702,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1620,7 +1716,7 @@
             <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1634,7 +1730,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1642,13 +1739,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12.html"/>
+            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
+            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
          </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1656,13 +1754,29 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17.html"/>
+            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
+            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
          </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18"/>
+         </reference>
+         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1676,7 +1790,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1690,7 +1805,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1698,13 +1814,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27.html"/>
+            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
+            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26"/>
          </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1712,55 +1829,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32.html"/>
+            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
+            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6"/>
          </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="DeviceUseStatement"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.html"/>
-         </extension>
-         <reference>
-            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="DeviceUseStatement"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4.html"/>
-         </extension>
-         <reference>
-            <reference value="DeviceUseStatement/BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
-         </reference>
-         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1774,7 +1850,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1788,7 +1865,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1802,7 +1880,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1816,7 +1895,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1830,7 +1910,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1844,7 +1925,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1858,7 +1940,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1872,7 +1955,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1886,7 +1970,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1900,7 +1985,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1914,7 +2000,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1928,7 +2015,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1942,7 +2030,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1956,7 +2045,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1970,7 +2060,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1984,7 +2075,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1998,7 +2090,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2012,7 +2105,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2026,7 +2120,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2040,7 +2135,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-15"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2054,7 +2150,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-21"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2068,7 +2165,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-27"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2082,7 +2180,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-3"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2096,7 +2195,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-33"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2110,7 +2210,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-39"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2124,7 +2225,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-45"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2138,7 +2240,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-51"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2152,7 +2255,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-57"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2166,7 +2270,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-63"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2180,7 +2285,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-69"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2194,7 +2300,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-75"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2208,7 +2315,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-81"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2222,7 +2330,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-87"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2236,7 +2345,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-9"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2250,7 +2360,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-93"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2264,7 +2375,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-Ob-Question-99"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2278,7 +2390,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-12"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2292,7 +2404,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-13"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2306,7 +2418,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-14"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2320,7 +2432,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-15"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2334,7 +2446,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1-UseOfDevice-16"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2348,7 +2460,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2356,13 +2469,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13.html"/>
+            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
+            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
          </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2370,13 +2484,29 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18.html"/>
+            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
+            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"/>
          </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"/>
+         </reference>
+         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2390,7 +2520,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2398,13 +2529,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28.html"/>
+            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
+            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"/>
          </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2418,7 +2550,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2426,27 +2559,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33.html"/>
+            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
+            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"/>
          </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
-         </reference>
-         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2460,7 +2580,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2474,7 +2595,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-10"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2488,7 +2610,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-100"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2502,7 +2625,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-16"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2516,7 +2640,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-22"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2530,7 +2655,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-28"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2544,7 +2670,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-34"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2558,7 +2685,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-4"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2572,7 +2700,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-40"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2586,7 +2715,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-46"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2600,7 +2730,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-52"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2614,7 +2745,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-58"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2628,7 +2760,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-64"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2642,7 +2775,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-70"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2656,7 +2790,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-76"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2670,7 +2805,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-82"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2684,7 +2820,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-88"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2698,7 +2835,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-Ob-Question-94"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2712,7 +2850,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-10"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-10"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2726,7 +2864,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-11"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-11"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2740,7 +2878,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-6"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-6"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2754,7 +2892,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-7"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-7"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2768,7 +2906,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-8"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-8"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2782,7 +2920,7 @@
             <reference value="DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-9"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1-UseOfDevice-9"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-dev"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2796,7 +2934,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2804,13 +2943,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14.html"/>
+            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
+            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
          </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2818,13 +2958,29 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19.html"/>
+            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
+            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16"/>
          </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
+         </reference>
+         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2838,7 +2994,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2846,27 +3003,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29.html"/>
+            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
+            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28"/>
          </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
-         </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2880,7 +3024,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2888,13 +3033,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9.html"/>
+            <valueUri value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
+            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8"/>
          </reference>
-         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2908,7 +3054,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2922,7 +3069,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2936,7 +3084,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2950,7 +3099,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2964,7 +3114,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2978,7 +3129,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -2992,7 +3144,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3006,7 +3159,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3020,7 +3174,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3034,7 +3189,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3048,7 +3204,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3062,7 +3219,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3076,7 +3234,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3090,7 +3249,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3104,7 +3264,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3118,7 +3279,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3132,7 +3294,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3146,7 +3309,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3160,7 +3324,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of BundledFunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3168,13 +3333,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36.html"/>
+            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
+            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29"/>
          </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3182,13 +3348,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37.html"/>
+            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
+            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30"/>
          </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3196,13 +3363,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38.html"/>
+            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
+            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31"/>
          </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3210,13 +3378,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39.html"/>
+            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
+            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32"/>
          </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3224,13 +3393,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.html"/>
+            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
+            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33"/>
          </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3238,13 +3408,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41.html"/>
+            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
+            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34"/>
          </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
+         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3252,139 +3423,14 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42.html"/>
+            <valueUri value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
+            <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35"/>
          </reference>
-         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-fs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis1.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis1"/>
-         </reference>
-         <name value="BSJ-Diagnosis1"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis2.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis2"/>
-         </reference>
-         <name value="BSJ-Diagnosis2"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis3.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis3"/>
-         </reference>
-         <name value="BSJ-Diagnosis3"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis4.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis4"/>
-         </reference>
-         <name value="BSJ-Diagnosis4"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis5.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis5"/>
-         </reference>
-         <name value="BSJ-Diagnosis5"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis6.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis6"/>
-         </reference>
-         <name value="BSJ-Diagnosis6"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis7.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis7"/>
-         </reference>
-         <name value="BSJ-Diagnosis7"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis8.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis8"/>
-         </reference>
-         <name value="BSJ-Diagnosis8"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis9.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis9"/>
-         </reference>
-         <name value="BSJ-Diagnosis9"/>
-         <exampleBoolean value="true"/>
+         <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35"/>
+         <description value="An instance of FunctionalStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3398,7 +3444,7 @@
             <reference value="Observation/BSJ-Prior-Level-Of-Function-1"/>
          </reference>
          <name value="BSJ-Prior-Level-Of-Function-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-plf"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3496,20 +3542,6 @@
             <reference value="Device/CMS-Device-7"/>
          </reference>
          <name value="CMS-Device-7"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Device"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Device-CMS-Device-8.html"/>
-         </extension>
-         <reference>
-            <reference value="Device/CMS-Device-8"/>
-         </reference>
-         <name value="CMS-Device-8"/>
          <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -3762,7 +3794,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-Discharge-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3776,7 +3809,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-HH-Discharge-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3790,7 +3824,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1"/>
          </reference>
          <name value="QResponse-HH-StartOfCare-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3804,7 +3839,8 @@
             <reference value="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3818,7 +3854,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Admission-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3832,7 +3869,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-Hospital-Admission-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3846,7 +3884,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3860,7 +3899,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-Hospital-Discharge-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3874,7 +3914,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-Hospital-DischargeGoal-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3888,7 +3929,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Admission-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3902,7 +3944,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-Admission-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3916,7 +3959,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-Discharge-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3930,7 +3974,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3944,7 +3989,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="QResponse-SNF-DischargeGoal-Mobility-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -3958,7 +4004,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
          </reference>
          <name value="QResponse-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-fs/StructureDefinition/pacio-functional-qr"/>
+         <description value="An instance of PACIOfunctionalQuestionnaireResponse"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -4243,38 +4290,38 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
+               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37.html"/>
+               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-15"/>
+               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39.html"/>
+               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
+               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41.html"/>
+               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-25"/>
+               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43.html"/>
+               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-30"/>
+               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45.html"/>
+               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-35"/>
+               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47.html"/>
+               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5.html"/>
-               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-5"/>
+               <nameUrl value="Observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49.html"/>
+               <title value="BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4373,8 +4420,23 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-43"/>
+               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36.html"/>
+               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38.html"/>
+               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40.html"/>
+               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42.html"/>
+               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4383,28 +4445,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-45"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46.html"/>
                <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-47"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48.html"/>
                <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49.html"/>
-               <title value="BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-49"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4518,13 +4565,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
+               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13.html"/>
+               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-16"/>
+               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17.html"/>
+               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4533,18 +4580,18 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-26"/>
+               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25.html"/>
+               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-31"/>
+               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5.html"/>
+               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6.html"/>
-               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-6"/>
+               <nameUrl value="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9.html"/>
+               <title value="BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4668,13 +4715,18 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
+               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-17"/>
+               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4688,28 +4740,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-27"/>
+               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-32"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-7"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-3"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="DeviceUseStatement-BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4.html"/>
-               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-UseOfDevice-4"/>
+               <nameUrl value="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6.html"/>
+               <title value="BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4923,13 +4960,18 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-13"/>
+               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11.html"/>
+               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-18"/>
+               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15.html"/>
+               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19.html"/>
+               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4938,8 +4980,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-28"/>
+               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27.html"/>
+               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4948,13 +4990,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-33"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8.html"/>
-               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-8"/>
+               <nameUrl value="Observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7.html"/>
+               <title value="BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5083,13 +5120,18 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-14"/>
+               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12.html"/>
+               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-19"/>
+               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16.html"/>
+               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20.html"/>
+               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5098,13 +5140,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-29"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-34"/>
+               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28.html"/>
+               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5113,8 +5150,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9.html"/>
-               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-9"/>
+               <nameUrl value="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8.html"/>
+               <title value="BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5213,83 +5250,38 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-36"/>
+               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29.html"/>
+               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-37"/>
+               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30.html"/>
+               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-38"/>
+               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31.html"/>
+               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-39"/>
+               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32.html"/>
+               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-40"/>
+               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33.html"/>
+               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-41"/>
+               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34.html"/>
+               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42.html"/>
-               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-42"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis1.html"/>
-               <title value="BSJ-Diagnosis1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis2.html"/>
-               <title value="BSJ-Diagnosis2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis3.html"/>
-               <title value="BSJ-Diagnosis3"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis4.html"/>
-               <title value="BSJ-Diagnosis4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis5.html"/>
-               <title value="BSJ-Diagnosis5"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis6.html"/>
-               <title value="BSJ-Diagnosis6"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis7.html"/>
-               <title value="BSJ-Diagnosis7"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis8.html"/>
-               <title value="BSJ-Diagnosis8"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis9.html"/>
-               <title value="BSJ-Diagnosis9"/>
+               <nameUrl value="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35.html"/>
+               <title value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5330,11 +5322,6 @@
             <page>
                <nameUrl value="Device-CMS-Device-7.html"/>
                <title value="CMS-Device-7"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Device-CMS-Device-8.html"/>
-               <title value="CMS-Device-8"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -5547,10 +5534,6 @@
          <value value="false"/>
       </parameter>
       <parameter>
-         <code value="path-history"/>
-         <value value="http://hl7.org/fhir/us/pacio-fs/history.html"/>
-      </parameter>
-      <parameter>
          <code value="path-resource"/>
          <value value="input/capabilities"/>
       </parameter>
@@ -5633,6 +5616,10 @@
       <parameter>
          <code value="path-suppressed-warnings"/>
          <value value="input/ignoreWarnings.txt"/>
+      </parameter>
+      <parameter>
+         <code value="path-history"/>
+         <value value="http://paciowg.github.io/functional-status-ig/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>
