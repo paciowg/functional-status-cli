@@ -127,8 +127,8 @@ Description: "An instance of BundledFunctionalStatus"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-08-30T14:00:00-05:00"
-* code = LNC#83254-3
-* code.coding.display = "Self-care - discharge performance [CMS Assessment]"
+* code = LNC#89475-8
+* code.coding.display = "OASIS D - Self-care - discharge performance [CMS Assessment]"
 * category = CAT#survey
 * performer = Reference(Practitioner-ScottDumble)
 * performer[1] = Reference(Role-PT)

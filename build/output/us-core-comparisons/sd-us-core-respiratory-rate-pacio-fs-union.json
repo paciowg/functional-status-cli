@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9daf6cd8-acf6-4ddd-8572-e2670b54801a-95",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9daf6cd8-acf6-4ddd-8572-e2670b54801a-95",
+  "id" : "e9a6ba36-7726-454c-acb4-ccac39060620-95",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e9a6ba36-7726-454c-acb4-ccac39060620-95",
   "name" : "UnionUSCoreRespiratoryRateProfileAndFunctionalStatus",
   "title" : "Union of US Core Respiratory Rate Profile And Functional Status",
   "status" : "active",
-  "date" : "2021-01-03T22:28:02-08:00",
+  "date" : "2021-01-05T09:50:35-08:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9daf6cd8-acf6-4ddd-8572-e2670b54801a-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e9a6ba36-7726-454c-acb4-ccac39060620-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -877,7 +877,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9daf6cd8-acf6-4ddd-8572-e2670b54801a-59"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e9a6ba36-7726-454c-acb4-ccac39060620-59"
       },
       "mapping" : [{
         "identity" : "sct-concept",
@@ -1730,7 +1730,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9daf6cd8-acf6-4ddd-8572-e2670b54801a-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e9a6ba36-7726-454c-acb4-ccac39060620-5"
       },
       "mapping" : [{
         "identity" : "w5",

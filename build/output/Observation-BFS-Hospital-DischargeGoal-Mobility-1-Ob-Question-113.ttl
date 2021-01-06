@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-01.html\">Generated Summary: status: active; name: San Antonio General Hospital</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83207-1}\">Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 8, 2020 2:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active; Sally Smith ; gender: female</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-01.html\">Organization. Generated Summary: name: San Antonio General Hospital</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hospital-DischargeGoal-Mobility-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 8, 2020 2:00:00 PM</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-01.html\">Generated Summary: status: active; name: San Antonio General Hospital</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83207-1}\">Toilet transfer</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 8, 2020 2:00:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active; Sally Smith ; gender: female</a></li><li><a href=\"PractitionerRole-Role-PT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></a></li><li><a href=\"Organization-Org-01.html\">Organization. Generated Summary: name: San Antonio General Hospital</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA11759-0}\">Substantial/maximal assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-Hospital-DischargeGoal-Mobility-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 8, 2020 2:00:00 PM</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -37,7 +37,7 @@
        fhir:Coding.code [ fhir:value "83207-1" ];
        fhir:Coding.display [ fhir:value "Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Toilet transfer - functional goal during 3 day assessment period [CMS Assessment]" ]
+     fhir:CodeableConcept.text [ fhir:value "Toilet transfer" ]
   ];
   fhir:Observation.subject [
      fhir:link <http://paciowg.github.io/functional-status-ig/Patient/patientBSJ1>;
@@ -64,9 +64,9 @@
        a loinc:LA11759-0;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
        fhir:Coding.code [ fhir:value "LA11759-0" ];
-       fhir:Coding.display [ fhir:value "Substantial/maximal assistance" ]
+       fhir:Coding.display [ fhir:value "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort." ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort." ]
+     fhir:CodeableConcept.text [ fhir:value "Substantial/maximal assistance" ]
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;

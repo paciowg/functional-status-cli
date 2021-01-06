@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "9daf6cd8-acf6-4ddd-8572-e2670b54801a-6",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/9daf6cd8-acf6-4ddd-8572-e2670b54801a-6",
+  "id" : "e9a6ba36-7726-454c-acb4-ccac39060620-6",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e9a6ba36-7726-454c-acb4-ccac39060620-6",
   "name" : "IntersectionUsCoreVitalSignsAndLOINCCodes",
   "title" : "Intersection of US Core Vital Signs ValueSet And LOINC Codes",
   "status" : "active",
-  "date" : "2021-01-03T22:28:02-08:00"
+  "date" : "2021-01-05T09:50:35-08:00"
 }

@@ -6,7 +6,7 @@
     <profile value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href="Location-Org-Loc-02.html">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 83229-5}">Oral hygiene - functional goal during 3 day assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020 2:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-JenCadbury.html">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href="PractitionerRole-Role-OT.html">Generated Summary: active; <span title="Codes: {http://snomed.info/sct 80546007}">Occupational therapist</span></a></li><li><a href="Organization-Org-02.html">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title="Codes: {http://loinc.org LA9983-3}">Independent</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020 2:32:00 PM</a></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href="Location-Org-Loc-02.html">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 83229-5}">Oral hygiene</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020 2:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-JenCadbury.html">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href="PractitionerRole-Role-OT.html">Generated Summary: active; <span title="Codes: {http://snomed.info/sct 80546007}">Occupational therapist</span></a></li><li><a href="Organization-Org-02.html">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title="Codes: {http://loinc.org LA9983-3}">Independent</span></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020 2:32:00 PM</a></p></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
     <valueReference>
@@ -20,7 +20,7 @@
       <code value="83229-5"/>
       <display value="Oral hygiene - functional goal during 3 day assessment period [CMS Assessment]"/>
     </coding>
-    <text value="Oral hygiene - functional goal during 3 day assessment period [CMS Assessment]"/>
+    <text value="Oral hygiene"/>
   </code>
   <subject>
     <reference value="Patient/patientBSJ1"/>
@@ -40,7 +40,7 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="LA9983-3"/>
-      <display value="Independent"/>
+      <display value="Independent - Patient completes the activity by him/herself with no assistance from a helper."/>
     </coding>
     <text value="Independent"/>
   </valueCodeableConcept>
