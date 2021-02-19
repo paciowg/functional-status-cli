@@ -45,7 +45,7 @@ Extension: assessment_label
 Description: "The CMS Post Acute Care Assessment Label for the observation."
 Id: assessment-label
 * value[x] only CodeableConcept
-* valueCodeableConcept from assessmentLabelValueset (extensible)  
+* valueCodeableConcept from assessmentLabelValueset (required)  
 
 ValueSet:    assessmentLabelValueset
 Title:       "CMS PAC Assessment  Value Set"
