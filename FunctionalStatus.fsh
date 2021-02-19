@@ -42,7 +42,7 @@ Description:    "An exchange of functional status data for a patient."
 * extension contains DevicePatientUsed named device-use 0..* MS
 
 Extension: assessment_label
-Description: "A device used by a patient during a functional status assessment."
+Description: "The CMS Post Acute Care Assessment Label for the observation."
 Id: assessment-label
 * value[x] only CodeableConcept
 * valueCodeableConcept from assessmentLabelValueset (extensible)  
