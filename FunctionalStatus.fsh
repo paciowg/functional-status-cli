@@ -50,7 +50,7 @@ Id: assessment-label
 ValueSet:    assessmentLabelValueset
 Title:       "CMS PAC Assessment  Value Set"
 Id:          assessment-label-value-set
-Description: "Codes describing various species of fish, taken from SNOMED-CT."
+Description: "Codes for the CMS PAC Assessments."
 * codes from system assessmentLabelCS
 
 CodeSystem:  assessmentLabelCS
