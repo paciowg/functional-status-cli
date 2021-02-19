@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "Role-RN"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>active</b>: true</p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse</span></p></div>"
   ];
   fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
   fhir:PractitionerRole.code [

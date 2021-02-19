@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "Practitioner-RonMarble"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>active</b>: true</p><p><b>name</b>: Ron Marble </p><p><b>gender</b>: male</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Ron Marble </p><p><b>gender</b>: male</p></div>"
   ];
   fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
   fhir:Practitioner.name [

@@ -10,7 +10,7 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
-  "date": "2020-12-30T13:20:04-05:00",
+  "date": "2021-02-18T20:32:56-05:00",
   "publisher": "HL7 Patient Care Work Group",
   "contact": [
     {
@@ -424,6 +424,48 @@
         },
         "name": "DevicePatientUsed",
         "description": "A device used by a patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/assessment-label"
+        },
+        "name": "assessment_label",
+        "description": "A device used by a patient during a functional status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/assessment-label-value-set"
+        },
+        "name": "CMS PAC Assessment  Value Set",
+        "description": "Codes describing various species of fish, taken from SNOMED-CT.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/assessment-label-code-system"
+        },
+        "name": "CMS PAC Assessment Code System.",
+        "description": "A list of CMS assessment labels.",
         "exampleBoolean": false
       },
       {

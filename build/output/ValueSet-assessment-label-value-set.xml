@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="assessment-label-value-set"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-assessment-label-code-system.html"><code>https://paciowg.github.io/functional-status-ig//CodeSystem/assessment-label-code-system</code></a></li></ul></div>
+  </text>
+  <url value="https://paciowg.github.io/functional-status-ig//ValueSet/assessment-label-value-set"/>
+  <version value="0.1.0"/>
+  <name value="assessmentLabelValueset"/>
+  <title value="CMS PAC Assessment  Value Set"/>
+  <status value="active"/>
+  <date value="2021-02-18T20:32:56-05:00"/>
+  <publisher value="HL7 Patient Care Work Group"/>
+  <contact>
+    <name value="HL7 Patient Care Work Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patientcare@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO  project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patientcare@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://paciowg.github.io/functional-status-ig//CodeSystem/assessment-label-code-system"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -11,7 +11,7 @@
   <name value="PACIOFunctionalStatusImplementationGuide"/>
   <title value="PACIO Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-12-30T13:20:04-05:00"/>
+  <date value="2021-02-18T20:32:56-05:00"/>
   <publisher value="HL7 Patient Care Work Group"/>
   <contact>
     <name value="HL7 Patient Care Work Group"/>
@@ -286,6 +286,39 @@
       </reference>
       <name value="DevicePatientUsed"/>
       <description value="A device used by a patient during a functional status assessment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/assessment-label"/>
+      </reference>
+      <name value="assessment_label"/>
+      <description value="A device used by a patient during a functional status assessment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/assessment-label-value-set"/>
+      </reference>
+      <name value="CMS PAC Assessment  Value Set"/>
+      <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/assessment-label-code-system"/>
+      </reference>
+      <name value="CMS PAC Assessment Code System."/>
+      <description value="A list of CMS assessment labels."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

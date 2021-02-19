@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "PACIOfunctionalQuestionnaireResponse"];
   fhir:StructureDefinition.title [ fhir:value "PACIO Questionnaire Response"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-12-30T13:20:04-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-02-18T20:32:56-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Care Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -1658,7 +1658,7 @@
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "*" ]
        ];
-       fhir:ElementDefinition.contentReference [ fhir:value "#QuestionnaireResponse.item" ];
+       fhir:ElementDefinition.contentReference [ fhir:value "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item" ];
        fhir:ElementDefinition.constraint [
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
@@ -1692,7 +1692,7 @@
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "*" ]
        ];
-       fhir:ElementDefinition.contentReference [ fhir:value "#QuestionnaireResponse.item" ];
+       fhir:ElementDefinition.contentReference [ fhir:value "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item" ];
        fhir:ElementDefinition.constraint [
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];

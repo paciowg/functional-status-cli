@@ -3,7 +3,7 @@
   "id": "Practitioner-ScottDumble",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>active</b>: true</p><p><b>name</b>: Scott Dumble </p><p><b>gender</b>: male</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Scott Dumble </p><p><b>gender</b>: male</p></div>"
   },
   "active": true,
   "name": [

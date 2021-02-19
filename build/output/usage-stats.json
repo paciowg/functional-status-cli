@@ -5,6 +5,14 @@
   "jurisdiction": "US",
   "extensions": [
     {
+      "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label",
+      "title": "assessment_label",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/assistance-required",
       "title": "AssistanceRequired",
       "types": [
@@ -85,6 +93,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label": [
+      "Observation"
     ],
     "https://paciowg.github.io/functional-status-ig//StructureDefinition/assistance-required": [
       "Observation"

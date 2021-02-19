@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "Practitioner-NoraOlogist"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: 3668788925</p><p><b>active</b>: true</p><p><b>name</b>: Neurologist</p><p><b>telecom</b>: ph: (210) 555 7632</p><p><b>address</b>: 26022 Meadowlark Bay, San Antonio, TX 78260</p><p><b>gender</b>: female</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 3668788925</p><p><b>active</b>: true</p><p><b>name</b>: Neurologist</p><p><b>telecom</b>: ph: (210) 555 7632</p><p><b>address</b>: 26022 Meadowlark Bay, San Antonio, TX 78260</p><p><b>gender</b>: female</p></div>"
   ];
   fhir:Practitioner.identifier [
      fhir:index 0;

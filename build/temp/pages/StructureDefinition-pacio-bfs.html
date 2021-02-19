@@ -187,8 +187,10 @@
     </div>
   </div>
   <p>&#160;</p>
-  <p>Other representations of profile: <a href="StructureDefinition-pacio-bfs.sch">Schematron</a>
-  </p>
+  {% unless modelType == 'Logical Model' %}
+    <p>Other representations of profile: <a href="StructureDefinition-pacio-bfs.sch">Schematron</a>
+    </p>
+  {% endunless %} 
   <a name="tx"> </a>
   <!--Terminology Bindings heading in the fragment -->
   {%include StructureDefinition-pacio-bfs-tx.xhtml%}

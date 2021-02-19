@@ -17,14 +17,15 @@ Providers are not receiving complete and accurate information in a timely manner
 Poor quality discharge information is a major barrier to safe and effective transitions. With 45% of Medicare beneficiaries requiring post-acute care (PAC) services after hospitalization, the need for a seamless exchange of health information is great.
 
 In 2014, the Social Security Act was amended to include the Improving Medicare Post-Acute Care Transformation (IMPACT) Act, which required the standardization and interoperability of patient assessment in specific categories for post-acute care (PAC) settings, including long-term care hospitals (LTCHs), home health agencies (HHAs), skilled nursing facilities (SNFs), and inpatient rehabilitation facilities (IRFs). It focuses on standardizing data elements in specified quality measure domains and patient assessment domains for cross setting comparison and clinical information exchange, respectively. The Act requires:
+• Reporting of standardized patient assessment data through commonly used PAC assessment instruments: 
+    ‣ Minimum Data Set (MDS) for SNFs 
+    ‣ Inpatient Rehabilitation Facility – Patient Assessment Information (IRF – PAI) for  IRFs 
+    ‣ LTCH Continuity Assessment Record and Evaluation (CARE) Data Set (LCDS) for LTCHs 
+    ‣ Outcome and Assessment Information Set (OASIS) for HHAs 
 
-Reporting of standardized patient assessment data through commonly used PAC assessment instruments for LTCHs, SNFs, HHAs, and IRFs
-Minimum Data Set (MDS)for SNFs
-Inpatient Rehabilitation Facility – Patient Assessment Information (IRF – PAI) for IRFs
-LTCH Continuity Assessment Record and Evaluation (CARE) Data Set (LCDS) for LTCHs
-Outcome and Assessment Information Set (OASIS) for HHAs
-Implementation of data elements specified in each assessment domain using standardized data elements to be nested within the assessment instruments currently required for submission by LTCH, IRF, SNF, and HHA providers
-Data to be standardized and interoperable to allow exchange of data between PAC providers, among others, using common standards and definitions to provide access to longitudinal information and facilitate coordinated care.
+• Implementation of data elements specified in each assessment domain using standardized data elements to be nested within the assessment instruments currently required for submission by LTCH, IRF, SNF, and HHA providers. 
+
+• Data to be standardized and interoperable to allow exchange of data between PAC providers, among others, using common standards and definitions to provide access to longitudinal information and facilitate coordinated care.
 
 ### Expected Users
 
@@ -36,7 +37,7 @@ Interoperability challenges persist in post-acute care; providers are not receiv
 
 The PACIO Project is a collaborative effort to advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach.
 
-The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
+The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides (IGs) and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
 
 ### Content and Organization
 The implementation guide is organized into the following sections:

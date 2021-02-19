@@ -20,7 +20,7 @@
   "name": "PACIOfunctionalQuestionnaireResponse",
   "title": "PACIO Questionnaire Response",
   "status": "active",
-  "date": "2020-12-30T13:20:04-05:00",
+  "date": "2021-02-18T20:32:56-05:00",
   "publisher": "HL7 Patient Care Work Group",
   "contact": [
     {
@@ -1517,7 +1517,7 @@
           "min": 0,
           "max": "*"
         },
-        "contentReference": "#QuestionnaireResponse.item",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item",
         "constraint": [
           {
             "key": "ele-1",
@@ -1550,7 +1550,7 @@
           "min": 0,
           "max": "*"
         },
-        "contentReference": "#QuestionnaireResponse.item",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item",
         "constraint": [
           {
             "key": "ele-1",

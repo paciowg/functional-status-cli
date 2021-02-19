@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "BundledFunctionalStatus"];
   fhir:StructureDefinition.title [ fhir:value "Bundled Functional Status"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-12-30T13:20:04-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-02-18T20:32:56-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Care Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -604,8 +604,8 @@
        fhir:Element.id [ fhir:value "Observation.extension:device-use" ];
        fhir:ElementDefinition.path [ fhir:value "Observation.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "device-use" ];
-       fhir:ElementDefinition.short [ fhir:value "Optional Extensions Element" ];
-       fhir:ElementDefinition.definition [ fhir:value "Optional Extension Element - found in all resources." ];
+       fhir:ElementDefinition.short [ fhir:value "Extension" ];
+       fhir:ElementDefinition.definition [ fhir:value "A device used by a patient during a functional status assessment." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
@@ -645,21 +645,12 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
          fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab";
-           fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab>
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 10;
        fhir:Element.id [ fhir:value "Observation.modifierExtension" ];
@@ -3157,7 +3148,7 @@
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
          fhir:ElementDefinition.base.max [ fhir:value "*" ]
        ];
-       fhir:ElementDefinition.contentReference [ fhir:value "#Observation.referenceRange" ];
+       fhir:ElementDefinition.contentReference [ fhir:value "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange" ];
        fhir:ElementDefinition.constraint [
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];

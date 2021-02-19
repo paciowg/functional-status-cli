@@ -24,7 +24,7 @@
   <name value="PACIOfunctionalQuestionnaireResponse"/>
   <title value="PACIO Questionnaire Response"/>
   <status value="active"/>
-  <date value="2020-12-30T13:20:04-05:00"/>
+  <date value="2021-02-18T20:32:56-05:00"/>
   <publisher value="HL7 Patient Care Work Group"/>
   <contact>
     <name value="HL7 Patient Care Work Group"/>
@@ -1239,7 +1239,7 @@
         <min value="0"/>
         <max value="*"/>
       </base>
-      <contentReference value="#QuestionnaireResponse.item"/>
+      <contentReference value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1267,7 +1267,7 @@
         <min value="0"/>
         <max value="*"/>
       </base>
-      <contentReference value="#QuestionnaireResponse.item"/>
+      <contentReference value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>

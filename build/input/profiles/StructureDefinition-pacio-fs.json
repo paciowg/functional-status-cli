@@ -67,6 +67,22 @@
         }
       },
       {
+        "id": "Observation.extension:assessmentLabel",
+        "path": "Observation.extension",
+        "sliceName": "assessmentLabel",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Observation.extension:event-location",
         "path": "Observation.extension",
         "sliceName": "event-location",

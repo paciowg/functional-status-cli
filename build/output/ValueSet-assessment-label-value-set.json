@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "id": "assessment-label-value-set",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-assessment-label-code-system.html\"><code>https://paciowg.github.io/functional-status-ig//CodeSystem/assessment-label-code-system</code></a></li></ul></div>"
+  },
+  "url": "https://paciowg.github.io/functional-status-ig//ValueSet/assessment-label-value-set",
+  "version": "0.1.0",
+  "name": "assessmentLabelValueset",
+  "title": "CMS PAC Assessment  Value Set",
+  "status": "active",
+  "date": "2021-02-18T20:32:56-05:00",
+  "publisher": "HL7 Patient Care Work Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Work Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patientcare@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO  project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare/"
+        },
+        {
+          "system": "email",
+          "value": "patientcare@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "Codes describing various species of fish, taken from SNOMED-CT.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://paciowg.github.io/functional-status-ig//CodeSystem/assessment-label-code-system"
+      }
+    ]
+  }
+}

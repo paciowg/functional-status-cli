@@ -14,7 +14,13 @@
          <a href="#3">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#4">Example: Example Instances</a>
+         <a href="#4">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -116,10 +122,56 @@
                <td>{% capture desc %}A device used by a patient during a functional status assessment.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-assessment-label.html"
+                     title="StructureDefinition/assessment-label">assessment_label</a>
+               </td>
+               <td>{% capture desc %}A device used by a patient during a functional status assessment.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
          </tbody>
       </table>
    </p>
    <a name="4"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>{% capture grouping_desc %}These define sets of codes used by systems conforming to this implementation guide{% endcapture %}
+    {{ grouping_desc | markdownify}}</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-assessment-label-value-set.html"
+                     title="ValueSet/assessment-label-value-set">CMS PAC Assessment  Value Set</a>
+               </td>
+               <td>{% capture desc %}Codes describing various species of fish, taken from SNOMED-CT.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>{% capture grouping_desc %}These define new code systems used by systems conforming to this implementation guide{% endcapture %}
+    {{ grouping_desc | markdownify}}</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-assessment-label-code-system.html"
+                     title="CodeSystem/assessment-label-code-system">CMS PAC Assessment Code System.</a>
+               </td>
+               <td>{% capture desc %}A list of CMS assessment labels.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="6"> </a>
    <h3>Example: Example Instances </h3>
    <p>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like{% endcapture %}
     {{ grouping_desc | markdownify}}</p>

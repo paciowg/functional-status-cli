@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "provider-org-loc-01"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: active</p><p><b>name</b>: Primary Care</p><p><b>address</b>: 177 Deerfield St. San Antonio, TX 78207</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>name</b>: Primary Care</p><p><b>address</b>: 177 Deerfield St. San Antonio, TX 78207</p></div>"
   ];
   fhir:Location.status [ fhir:value "active"];
   fhir:Location.name [ fhir:value "Primary Care"];
