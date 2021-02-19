@@ -1,5 +1,5 @@
 
-
+/*
 Profile:        PACIOfunctionalQuestionnaireResponse
 Parent:         QuestionnaireResponse
 Id:             pacio-functional-qr
@@ -10,3 +10,4 @@ Description:    "A completed, or sections of a completed, CMS PAC assessment."
 * item.id ^short = "This field contains the LOINC code."
 * item.text ^short = "This field contains the LongName text of the LOINC code."
 * questionnaire ^short = "This field contains the URI for the PAC assessment."
+*/

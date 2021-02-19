@@ -8,9 +8,9 @@
   <url value="https://paciowg.github.io/functional-status-ig//ValueSet/assessment-label-value-set"/>
   <version value="0.1.0"/>
   <name value="assessmentLabelValueset"/>
-  <title value="CMS PAC Assessment  Value Set"/>
+  <title value="CMS PAC Assessment Value Set"/>
   <status value="active"/>
-  <date value="2021-02-18T20:32:56-05:00"/>
+  <date value="2021-02-19T13:21:12-05:00"/>
   <publisher value="HL7 Patient Care Work Group"/>
   <contact>
     <name value="HL7 Patient Care Work Group"/>
@@ -34,7 +34,7 @@
       <value value="patientcare@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+  <description value="Codes for the CMS PAC Assessments."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

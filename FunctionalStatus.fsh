@@ -48,7 +48,7 @@ Id: cms-assessment-label
 * valueCodeableConcept from assessmentLabelValueset (required)  
 
 ValueSet:    assessmentLabelValueset
-Title:       "CMS PAC Assessment  Value Set"
+Title:       "CMS PAC Assessment Value Set"
 Id:          assessment-label-value-set
 Description: "Codes for the CMS PAC Assessments."
 * codes from system assessmentLabelCS

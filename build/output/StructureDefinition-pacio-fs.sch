@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Observation</sch:title>
     <sch:rule context="f:Observation">
-      <sch:assert test="count(f:extension[@url = 'https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label']) &lt;= 1">extension with URL = 'https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label']) &lt;= 1">extension with URL = 'https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/event-location']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/event-location': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:effective[x]) &gt;= 1">effective[x]: minimum cardinality of 'effective[x]' is 1</sch:assert>
       <sch:assert test="count(f:performer) &gt;= 1">performer: minimum cardinality of 'performer' is 1</sch:assert>

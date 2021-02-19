@@ -21,18 +21,18 @@
     "name": "PACIOFunctionalStatusImplementationGuide"
   },
   {
-    "id": "assessment-label",
-    "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label",
-    "version": "0.1.0",
-    "name": "assessment_label"
-  },
-  {
     "id": "assistance-required",
     "type": "StructureDefinition",
     "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/assistance-required",
     "version": "0.1.0",
     "name": "AssistanceRequired"
+  },
+  {
+    "id": "cms-assessment-label",
+    "type": "StructureDefinition",
+    "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label",
+    "version": "0.1.0",
+    "name": "assessment_label"
   },
   {
     "id": "device-patient-used",
@@ -61,13 +61,6 @@
     "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs",
     "version": "0.1.0",
     "name": "FunctionalStatus"
-  },
-  {
-    "id": "pacio-functional-qr",
-    "type": "StructureDefinition",
-    "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-functional-qr",
-    "version": "0.1.0",
-    "name": "PACIOfunctionalQuestionnaireResponse"
   },
   {
     "id": "pacio-plf",

@@ -73,14 +73,6 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-pacio-functional-qr.html"
-                     title="StructureDefinition/pacio-functional-qr">PACIO Questionnaire Response</a>
-               </td>
-               <td>{% capture desc %}A completed, or sections of a completed, CMS PAC assessment.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-pacio-plf.html"
                      title="StructureDefinition/pacio-plf">Prior Level Of Function</a>
                </td>
@@ -124,10 +116,10 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-assessment-label.html"
-                     title="StructureDefinition/assessment-label">assessment_label</a>
+                  <a href="StructureDefinition-cms-assessment-label.html"
+                     title="StructureDefinition/cms-assessment-label">assessment_label</a>
                </td>
-               <td>{% capture desc %}A device used by a patient during a functional status assessment.{% endcapture %}
+               <td>{% capture desc %}The CMS Post Acute Care Assessment Label for the observation.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -144,9 +136,9 @@
             <tr>
                <td style="column-width:30%">
                   <a href="ValueSet-assessment-label-value-set.html"
-                     title="ValueSet/assessment-label-value-set">CMS PAC Assessment  Value Set</a>
+                     title="ValueSet/assessment-label-value-set">CMS PAC Assessment Value Set</a>
                </td>
-               <td>{% capture desc %}Codes describing various species of fish, taken from SNOMED-CT.{% endcapture %}
+               <td>{% capture desc %}Codes for the CMS PAC Assessments.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -481,14 +473,6 @@
                <td style="column-width:30%">
                   <a href="Practitioner-Practitioner-ScottDumble.html"
                      title="Practitioner/Practitioner-ScottDumble">Practitioner-ScottDumble</a>
-               </td>
-               <td>{% capture desc %}Sample Data{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html"
-                     title="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1">QResponse-Hospital-Discharge-Mobility-1</a>
                </td>
                <td>{% capture desc %}Sample Data{% endcapture %}
 {{ desc | markdownify}}</td>

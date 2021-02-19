@@ -10,7 +10,7 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
-  "date": "2021-02-18T20:32:56-05:00",
+  "date": "2021-02-19T13:21:12-05:00",
   "publisher": "HL7 Patient Care Work Group",
   "contact": [
     {
@@ -364,20 +364,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/pacio-functional-qr"
-        },
-        "name": "PACIO Questionnaire Response",
-        "description": "A completed, or sections of a completed, CMS PAC assessment.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/pacio-plf"
         },
         "name": "Prior Level Of Function",
@@ -434,10 +420,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/assessment-label"
+          "reference": "StructureDefinition/cms-assessment-label"
         },
         "name": "assessment_label",
-        "description": "A device used by a patient during a functional status assessment.",
+        "description": "The CMS Post Acute Care Assessment Label for the observation.",
         "exampleBoolean": false
       },
       {
@@ -450,8 +436,8 @@
         "reference": {
           "reference": "ValueSet/assessment-label-value-set"
         },
-        "name": "CMS PAC Assessment  Value Set",
-        "description": "Codes describing various species of fish, taken from SNOMED-CT.",
+        "name": "CMS PAC Assessment Value Set",
+        "description": "Codes for the CMS PAC Assessments.",
         "exampleBoolean": false
       },
       {
@@ -1041,20 +1027,6 @@
         "name": "Practitioner-ScottDumble",
         "description": "Sample Data",
         "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "QuestionnaireResponse"
-          }
-        ],
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"
-        },
-        "name": "QResponse-Hospital-Discharge-Mobility-1",
-        "description": "Sample Data",
-        "exampleCanonical": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-functional-qr"
       },
       {
         "extension": [

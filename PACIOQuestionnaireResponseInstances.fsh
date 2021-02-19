@@ -1,5 +1,5 @@
 Alias: Q-MDS3-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
-
+/*
 Instance: QResponse-Hospital-Discharge-Mobility-1
 InstanceOf: PACIOfunctionalQuestionnaireResponse
 Description: "Sample Data"
@@ -82,3 +82,4 @@ Description: "Sample Data"
 * item[0].item[0].item[16].text =  "What was the patient's usual performance related to their ability to once seated in a wheelchair/scooter, wheel at least 150 feet in a corridor or similar space?"
 * item[0].item[0].item[16].id = "83235-2"
 //* item[0].item[0].item[16].answer.valueReference = Reference(BFS-Hospital-Discharge-Mobility-1-Ob-Question-98)
+*/

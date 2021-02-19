@@ -20,9 +20,6 @@
    <artifact name="Functional Status"
              key="StructureDefinition-pacio-fs"
              id="StructureDefinition/pacio-fs"/>
-   <artifact name="PACIO Questionnaire Response"
-             key="StructureDefinition-pacio-functional-qr"
-             id="StructureDefinition/pacio-functional-qr"/>
    <artifact name="Prior Level Of Function"
              key="StructureDefinition-pacio-plf"
              id="StructureDefinition/pacio-plf"/>
@@ -36,9 +33,9 @@
              key="StructureDefinition-device-patient-used"
              id="StructureDefinition/device-patient-used"/>
    <artifact name="assessment_label"
-             key="StructureDefinition-assessment-label"
-             id="StructureDefinition/assessment-label"/>
-   <artifact name="CMS PAC Assessment  Value Set"
+             key="StructureDefinition-cms-assessment-label"
+             id="StructureDefinition/cms-assessment-label"/>
+   <artifact name="CMS PAC Assessment Value Set"
              key="ValueSet-assessment-label-value-set"
              id="ValueSet/assessment-label-value-set"/>
    <artifact name="CMS PAC Assessment Code System."
@@ -161,9 +158,6 @@
    <artifact name="Practitioner-ScottDumble"
              key="Practitioner-Practitioner-ScottDumble"
              id="Practitioner/Practitioner-ScottDumble"/>
-   <artifact name="QResponse-Hospital-Discharge-Mobility-1"
-             key="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1"
-             id="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
    <artifact name="Role-OT"
              key="PractitionerRole-Role-OT"
              id="PractitionerRole/Role-OT"/>
@@ -188,6 +182,14 @@
    <artifact name="PACIO Functional Status Capability Statement"
              key="CapabilityStatement-pacio-fs"
              id="CapabilityStatement/pacio-fs"/>
+   <artifact name="PACIO Questionnaire Response"
+             key="StructureDefinition-pacio-functional-qr"
+             id="StructureDefinition/pacio-functional-qr"
+             deprecated="true"/>
+   <artifact name="QResponse-Hospital-Discharge-Mobility-1"
+             key="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1"
+             id="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"
+             deprecated="true"/>
    <page name="(NA)" key="NA"/>
    <page name="(many)" key="many"/>
    <page name="Table of Contents" key="toc"/>

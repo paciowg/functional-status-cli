@@ -5,17 +5,17 @@
   "jurisdiction": "US",
   "extensions": [
     {
-      "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label",
-      "title": "assessment_label",
+      "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/assistance-required",
+      "title": "AssistanceRequired",
       "types": [
-        "CodeableConcept",
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/assistance-required",
-      "title": "AssistanceRequired",
+      "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label",
+      "title": "assessment_label",
       "types": [
+        "CodeableConcept",
         "CodeableConcept"
       ]
     },
@@ -30,6 +30,10 @@
   "profiles": {
     "Observation": [
       {
+        "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs",
+        "title": "Functional Status"
+      },
+      {
         "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-plf",
         "title": "Prior Level Of Function"
       }
@@ -38,12 +42,6 @@
       {
         "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-dev",
         "title": "UseOfDevice"
-      }
-    ],
-    "QuestionnaireResponse": [
-      {
-        "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-functional-qr",
-        "title": "PACIO Questionnaire Response"
       }
     ]
   },
@@ -94,10 +92,10 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://paciowg.github.io/functional-status-ig//StructureDefinition/assessment-label": [
+    "https://paciowg.github.io/functional-status-ig//StructureDefinition/assistance-required": [
       "Observation"
     ],
-    "https://paciowg.github.io/functional-status-ig//StructureDefinition/assistance-required": [
+    "https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label": [
       "Observation"
     ],
     "https://paciowg.github.io/functional-status-ig//StructureDefinition/device-patient-used": [

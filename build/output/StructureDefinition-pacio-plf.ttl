@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "PriorLevelOfFunction"];
   fhir:StructureDefinition.title [ fhir:value "Prior Level Of Function"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-02-18T20:32:56-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-02-19T13:21:12-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Care Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

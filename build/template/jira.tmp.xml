@@ -267,7 +267,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-02-18T20:32:56-05:00"/>
+   <date value="2021-02-19T13:21:12-05:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -379,21 +379,6 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-pacio-functional-qr.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/pacio-functional-qr"/>
-         </reference>
-         <name value="PACIO Questionnaire Response"/>
-         <description value="A completed, or sections of a completed, CMS PAC assessment."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-pacio-plf.html"/>
          </extension>
          <reference>
@@ -454,13 +439,13 @@
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-assessment-label.html"/>
+            <valueUri value="StructureDefinition-cms-assessment-label.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/assessment-label"/>
+            <reference value="StructureDefinition/cms-assessment-label"/>
          </reference>
          <name value="assessment_label"/>
-         <description value="A device used by a patient during a functional status assessment."/>
+         <description value="The CMS Post Acute Care Assessment Label for the observation."/>
          <exampleBoolean value="false"/>
          <groupingId value="_str_extension"/>
       </resource>
@@ -474,8 +459,8 @@
          <reference>
             <reference value="ValueSet/assessment-label-value-set"/>
          </reference>
-         <name value="CMS PAC Assessment  Value Set"/>
-         <description value="Codes describing various species of fish, taken from SNOMED-CT."/>
+         <name value="CMS PAC Assessment Value Set"/>
+         <description value="Codes for the CMS PAC Assessments."/>
          <exampleBoolean value="false"/>
          <groupingId value="_term_valueset"/>
       </resource>
@@ -1111,21 +1096,6 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1"/>
-         </reference>
-         <name value="QResponse-Hospital-Discharge-Mobility-1"/>
-         <description value="Sample Data"/>
-         <exampleCanonical value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-functional-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="PractitionerRole"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -1293,11 +1263,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-pacio-functional-qr.html"/>
-               <title value="PACIO Questionnaire Response"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="StructureDefinition-pacio-plf.html"/>
                <title value="Prior Level Of Function"/>
                <generation value="generated"/>
@@ -1318,13 +1283,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-assessment-label.html"/>
+               <nameUrl value="StructureDefinition-cms-assessment-label.html"/>
                <title value="assessment_label"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="ValueSet-assessment-label-value-set.html"/>
-               <title value="CMS PAC Assessment  Value Set"/>
+               <title value="CMS PAC Assessment Value Set"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1535,11 +1500,6 @@
             <page>
                <nameUrl value="Practitioner-Practitioner-ScottDumble.html"/>
                <title value="Practitioner-ScottDumble"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-Hospital-Discharge-Mobility-1.html"/>
-               <title value="QResponse-Hospital-Discharge-Mobility-1"/>
                <generation value="generated"/>
             </page>
             <page>

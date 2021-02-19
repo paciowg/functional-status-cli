@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "1e611d0b-0eda-4e5a-854b-98135b550c25",
+  "id" : "8b987e2f-eedf-4654-87f4-b470fa09e918",
   "meta" : {
-    "lastUpdated" : "2021-02-18T20:32:56.532-05:00"
+    "lastUpdated" : "2021-02-19T13:21:12.246-05:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -17,9 +17,9 @@
       "url" : "https://paciowg.github.io/functional-status-ig//ValueSet/assessment-label-value-set",
       "version" : "0.1.0",
       "name" : "assessmentLabelValueset",
-      "title" : "CMS PAC Assessment  Value Set",
+      "title" : "CMS PAC Assessment Value Set",
       "status" : "active",
-      "date" : "2021-02-18T20:32:56-05:00",
+      "date" : "2021-02-19T13:21:12-05:00",
       "publisher" : "HL7 Patient Care Work Group",
       "contact" : [{
         "name" : "HL7 Patient Care Work Group",
@@ -43,7 +43,7 @@
           "value" : "patientcare@lists.HL7.org"
         }]
       }],
-      "description" : "Codes describing various species of fish, taken from SNOMED-CT.",
+      "description" : "Codes for the CMS PAC Assessments.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -51,8 +51,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8a2a5e09-3ea9-4355-ad74-520253156d02",
-        "timestamp" : "2021-02-18T20:33:46-05:00",
+        "identifier" : "urn:uuid:0cd0d251-9a58-4629-8918-938a0536144a",
+        "timestamp" : "2021-02-19T13:22:05-05:00",
         "total" : 1543,
         "parameter" : [{
           "name" : "excludeNested",
