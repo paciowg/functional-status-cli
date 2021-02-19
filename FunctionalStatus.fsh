@@ -43,7 +43,7 @@ Description:    "An exchange of functional status data for a patient."
 
 Extension: assessment_label
 Description: "The CMS Post Acute Care Assessment Label for the observation."
-Id: assessment-label
+Id: cms-assessment-label
 * value[x] only CodeableConcept
 * valueCodeableConcept from assessmentLabelValueset (required)  
 
