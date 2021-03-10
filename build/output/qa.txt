@@ -1,9 +1,9 @@
 ﻿PACIOFunctionalStatusImplementationGuide : Validation Results
 =========================================
 
-err = 4, warn = 1549, info = 0
+err = 4, warn = 1552, info = 0
 IG Publisher Version: 1.1.59
-Generated Fri Feb 19 13:23:10 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = https://paciowg.github.io/functional-status-ig/)
+Generated Wed Feb 24 09:38:02 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = https://paciowg.github.io/functional-status-ig/)
 
  Build Errors : 6 / 1 / 0
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\ImplementationGuide-hl7.fhir.us.pacio-fs : 1 / 0 / 1
@@ -32,7 +32,7 @@ Generated Fri Feb 19 13:23:10 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-02 : 0 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-Org-Loc-03 : 0 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\location-provider-org-loc-01 : 0 / 0 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BFS-Hospital-Discharge-Mobility-1 : 1 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BFS-Hospital-Discharge-Mobility-1 : 1 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56 : 1 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\observation-BSJ-Prior-Level-Of-Function-1 : 0 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\organization-Org-01 : 0 / 0 / 1
@@ -58,9 +58,9 @@ Generated Fri Feb 19 13:23:10 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-assistance-required : 0 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-cms-assessment-label : 0 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\extensions\structuredefinition-device-patient-used : 0 / 0 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-bfs : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-bfs : 0 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-dev : 0 / 0 / 1
- C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-fs : 0 / 0 / 1
+ C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-fs : 0 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\structuredefinition-pacio-plf : 0 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\resources\capabilitystatement-pacio-fs : 1 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\vocabulary\codesystem-assessment-label-code-system : 0 / 1544 / 1
@@ -68,8 +68,8 @@ Generated Fri Feb 19 13:23:10 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.html#/html/body/div/div/div/div/div/div/p/a at Line 191, column 1156: The link 'QResponse-Hospital-Discharge-Mobility-1' for "QResponse-Hospital-Discharge-Mobility-1" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\Observation-BFS-Hospital-Discharge-Mobility-1.html#/html/body/div/div/div/div/div/div/p/a at Line 191, column 2197: The link 'QResponse-Hospital-Discharge-Mobility-1' for "Questionnaire Response" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.html#/html/body/div/div/div/div/div/div/p/a at Line 191, column 1022: The link 'QResponse-Hospital-Discharge-Mobility-1' for "QResponse-Hospital-Discharge-Mobility-1" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\Observation-BFS-Hospital-Discharge-Mobility-1.html#/html/body/div/div/div/div/div/div/p/a at Line 191, column 2122: The link 'QResponse-Hospital-Discharge-Mobility-1' for "Questionnaire Response" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-bfs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 302, column 327: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-dev-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 407, column 199: The link 'http://hl7.org/fhir/R4/null.html' for "http://hl7.org/fhir/StructureDefinition/bodySite" cannot be resolved
 ERROR: C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\output\StructureDefinition-pacio-fs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 311, column 327: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
@@ -129,6 +129,7 @@ INFORMATION: Location/Org-Loc-03: Location: Validate resource against profile ht
 INFORMATION: Location/provider-org-loc-01: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BFS-Hospital-Discharge-Mobility-1.json ==
 INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1: Observation: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-bfs
+WARNING: Observation/BFS-Hospital-Discharge-Mobility-1: Observation.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
 ERROR: Observation/BFS-Hospital-Discharge-Mobility-1: Observation.derivedFrom[0]: Unable to resolve resource 'QResponse-Hospital-Discharge-Mobility-1'
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\examples\Observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.json ==
 INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56: Observation: Validate resource against profile https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs
@@ -186,10 +187,12 @@ WARNING: StructureDefinition.where(url = 'https://paciowg.github.io/functional-s
 INFORMATION: StructureDefinition/device-patient-used: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-bfs.json ==
 INFORMATION: StructureDefinition/pacio-bfs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-bfs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-dev.json ==
 INFORMATION: StructureDefinition/pacio-dev: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-fs.json ==
 INFORMATION: StructureDefinition/pacio-fs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\profiles\StructureDefinition-pacio-plf.json ==
 INFORMATION: StructureDefinition/pacio-plf: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\smahoney\Documents\GitHub\functional-status-cli\build\input\resources\CapabilityStatement-pacio-fs.json ==

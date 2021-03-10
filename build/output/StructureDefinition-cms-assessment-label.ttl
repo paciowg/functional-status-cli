@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "assessment_label"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-02-19T13:21:12-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-02-24T09:36:30-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Care Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

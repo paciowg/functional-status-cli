@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Tue, Feb 16, 2021 20:24+0000 for FHIR v4.5.0 
+  Generated on Tue, Feb 23, 2021 22:16+0000 for FHIR v4.5.0 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="4.5.0">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -13657,17 +13657,17 @@ into another (possibly the same) biological entity.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:element name="diseaseSymptomProcedure" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="diseaseSymptomProcedure" minOccurs="0" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The situation that is being documented as contraindicating against this item.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="diseaseStatus" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="diseaseStatus" minOccurs="0" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The status of the disease or symptom for the contraindication.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="comorbidity" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
+          <xs:element name="comorbidity" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">A comorbidity (concurrent condition) or coinfection.</xs:documentation>
            </xs:annotation>
@@ -13679,7 +13679,7 @@ into another (possibly the same) biological entity.</xs:documentation>
           </xs:element>
           <xs:element name="otherTherapy" type="ClinicalUseIssue.OtherTherapy" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Information about the use of the medicinal product in relation to other therapies described as part of the indication.</xs:documentation>
+              <xs:documentation xml:lang="en">Information about the use of the medicinal product in relation to other therapies described as part of the contraindication.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -13693,18 +13693,16 @@ into another (possibly the same) biological entity.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:element name="therapyRelationshipType" minOccurs="1" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="relationshipType" minOccurs="1" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
               <xs:documentation xml:lang="en">The type of relationship between the medicinal product indication or contraindication and another therapy.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:choice minOccurs="1" maxOccurs="1" >
+          <xs:element name="therapy[x]" minOccurs="1" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Reference to a specific medication (active substance, medicinal product or class of products) as part of an indication or contraindication.</xs:documentation>
-            </xs:annotation>
-            <xs:element name="medicationCodeableConcept" type="CodeableConcept"/>
-            <xs:element name="medicationReference" type="Reference"/>
-          </xs:choice>
+           </xs:annotation>
+          </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
@@ -13716,22 +13714,22 @@ into another (possibly the same) biological entity.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:element name="diseaseSymptomProcedure" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="diseaseSymptomProcedure" minOccurs="0" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The situation that is being documented as an indicaton for this item.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="diseaseStatus" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="diseaseStatus" minOccurs="0" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The status of the disease or symptom for the indication.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="comorbidity" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
+          <xs:element name="comorbidity" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">A comorbidity (concurrent condition) or coinfection as part of the indication.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="intendedEffect" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="intendedEffect" minOccurs="0" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The intended effect, aim or strategy to be achieved.</xs:documentation>
            </xs:annotation>
@@ -13748,7 +13746,7 @@ into another (possibly the same) biological entity.</xs:documentation>
           </xs:element>
           <xs:element name="otherTherapy" type="ClinicalUseIssue.OtherTherapy" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Information about the use of the medicinal product in relation to other therapies described as part of the contraindication.</xs:documentation>
+              <xs:documentation xml:lang="en">Information about the use of the medicinal product in relation to other therapies described as part of the indication.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -13772,7 +13770,7 @@ into another (possibly the same) biological entity.</xs:documentation>
               <xs:documentation xml:lang="en">The type of the interaction e.g. drug-drug interaction, drug-food interaction, drug-lab test interaction.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="effect" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="effect" minOccurs="0" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The effect of the interaction, for example &quot;reduced gastric absorption of primary medication&quot;.</xs:documentation>
            </xs:annotation>
@@ -13816,7 +13814,7 @@ into another (possibly the same) biological entity.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:element name="symptomConditionEffect" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:element name="symptomConditionEffect" minOccurs="0" maxOccurs="1" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The situation in which the undesirable effect may manifest.</xs:documentation>
            </xs:annotation>
@@ -31723,9 +31721,9 @@ description of the substance according to standardised sets of properties.</xs:d
               <xs:documentation xml:lang="en">A code to indicate if the medication is in active use.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="manufacturer" minOccurs="0" maxOccurs="1" type="Reference">
+          <xs:element name="sponsor" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product.</xs:documentation>
+              <xs:documentation xml:lang="en">Describes the details of the manufacturer of the medication product. This is not intended to represent the distributor of a medication product.  Describes the organization that is responsible for the manufacturing of the item and holds the registration to market the product in a jurisdiction.. This might not be the company that physically manufactures the product.  May be known as Market Authorization Holder.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="doseForm" minOccurs="0" maxOccurs="1" type="CodeableConcept">
@@ -32362,9 +32360,9 @@ description of the substance according to standardised sets of properties.</xs:d
               <xs:documentation xml:lang="en">The creator or owner of the knowledge or information about the medication.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="manufacturer" minOccurs="0" maxOccurs="1" type="Reference">
+          <xs:element name="sponsor" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product.</xs:documentation>
+              <xs:documentation xml:lang="en">Describes the details of the manufacturer of the medication product. This is not intended to represent the distributor of a medication product.  Describes the organization that is responsible for the manufacturing of the item and holds the registration to market the product in a jurisdiction. This might not be the company that physically manufactures the product.  May be known as Market Authorization Holder.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="doseForm" minOccurs="0" maxOccurs="1" type="CodeableConcept">
@@ -32437,9 +32435,9 @@ description of the substance according to standardised sets of properties.</xs:d
               <xs:documentation xml:lang="en">The program under which the medication is reviewed.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="administrationGuideline" type="MedicationKnowledge.AdministrationGuideline" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="indicationGuideline" type="MedicationKnowledge.IndicationGuideline" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Guidelines or protocols that are applicable for the administration of the medication.</xs:documentation>
+              <xs:documentation xml:lang="en">Guidelines or protocols that are applicable for the administration of the medication based on indication.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="medicineClassification" type="MedicationKnowledge.MedicineClassification" minOccurs="0" maxOccurs="unbounded">
@@ -32601,21 +32599,47 @@ description of the substance according to standardised sets of properties.</xs:d
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="MedicationKnowledge.AdministrationGuideline">
+  <xs:complexType name="MedicationKnowledge.IndicationGuideline">
     <xs:annotation>
       <xs:documentation xml:lang="en">Information about a medication that is used to support knowledge.</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
+          <xs:element name="indication" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indication or reason for use of the medication that applies to the specific administration guideline.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="dosingGuideline" type="MedicationKnowledge.DosingGuideline" minOccurs="0" maxOccurs="unbounded">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The guidelines for the dosage of the medication for the indication.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="MedicationKnowledge.DosingGuideline">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Information about a medication that is used to support knowledge.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="treatmentIntent" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The overall intention of the treatment, for example, prophylactic, supporative, curative, etc.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="dosage" type="MedicationKnowledge.Dosage" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">Dosage for the medication for the specific guidelines.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="indication" minOccurs="0" maxOccurs="1" type="CodeableReference">
+          <xs:element name="administrationTreatment" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Indication or reason for use of the medication that applies to the specific administration guidelines.</xs:documentation>
+              <xs:documentation xml:lang="en">The type of the treatment that the guideline applies to, for example, long term therapy, first line treatment, etc.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="patientCharacteristic" type="MedicationKnowledge.PatientCharacteristic" minOccurs="0" maxOccurs="unbounded">
@@ -32666,6 +32690,7 @@ description of the substance according to standardised sets of properties.</xs:d
             </xs:annotation>
             <xs:element name="valueCodeableConcept" type="CodeableConcept"/>
             <xs:element name="valueQuantity" type="Quantity"/>
+            <xs:element name="valueRange" type="Range"/>
           </xs:choice>
         </xs:sequence>
       </xs:extension>
@@ -33251,14 +33276,18 @@ description of the substance according to standardised sets of properties.</xs:d
     <xs:annotation>
       <xs:documentation xml:lang="en">A record of a medication that is being consumed by a patient.   A MedicationUsage may indicate that the patient may be taking the medication now or has taken the medication in the past or will be taking the medication in the future.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay.   The medication information may come from sources such as the patient's memory, from a prescription bottle,  or from a list of medications the patient, clinician or other party maintains. 
 
-The primary difference between a medicationusage and a medicationadministration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medicationusage is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the Medication Usage information may come from the patient's memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information.</xs:documentation>
+The primary difference between a medicationusage and a medicationadministration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medicationusage is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the Medication Usage information may come from the patient's memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information.
+
+The MedicationUsage resource was previously called MedicationStatement.</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="MedicationUsage">
     <xs:annotation>
       <xs:documentation xml:lang="en">A record of a medication that is being consumed by a patient.   A MedicationUsage may indicate that the patient may be taking the medication now or has taken the medication in the past or will be taking the medication in the future.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay.   The medication information may come from sources such as the patient's memory, from a prescription bottle,  or from a list of medications the patient, clinician or other party maintains. 
 
-The primary difference between a medicationusage and a medicationadministration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medicationusage is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the Medication Usage information may come from the patient's memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information.</xs:documentation>
+The primary difference between a medicationusage and a medicationadministration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medicationusage is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the Medication Usage information may come from the patient's memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information.
+
+The MedicationUsage resource was previously called MedicationStatement.</xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>

@@ -43,3 +43,4 @@ Description: "Sample Data"
 */
 * derivedFrom = Reference(QResponse-Hospital-Discharge-Mobility-1)
 * derivedFrom.display = "Questionnaire Response"
+* category = #survey

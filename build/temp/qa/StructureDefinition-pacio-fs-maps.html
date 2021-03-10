@@ -4,18 +4,6 @@
   <link rel="stylesheet" href="fhir.css"/>
 </head>
 <body>
-<a name="argonaut-dq-dstu2"> </a><h3>Mappings for Argonaut-DQ-DSTU2 (http://unknown.org/Argonaut-DQ-DSTU2)</h3><table class="grid">
- <tr><td colspan="3"><b>FunctionalStatus</b></td></tr>
- <tr><td>Observation</td><td>Observation</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>Observation.status</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>Observation.category</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;category (Laboratory)</td><td>Observation.category</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>Observation.code</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>Observation.subject</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;effective[x]</td><td>Observation.effective[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;value[x]</td><td>Observation.value[x]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;dataAbsentReason</td><td>Observation.dataAbsentReason</td> </tr>
-</table>
 <a name="workflow"> </a><h3>Mappings for Workflow Pattern (<a href="http://hl7.org/fhir/workflow.html">http://hl7.org/fhir/workflow</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>FunctionalStatus</b></td></tr>
  <tr><td>Observation</td><td>Event</td> </tr>
@@ -98,7 +86,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>.outboundRelationship[typeCode=FLFS].target</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>status  Amended &amp; Final are differentiated by whether it is the subject of a ControlAct event with a type of &quot;revise&quot;</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>.outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;category (Laboratory)</td><td>.outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>participation[typeCode=RTGT]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;focus</td><td>participation[typeCode=SBJ]</td> </tr>
@@ -142,7 +129,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>FiveWs.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>FiveWs.status</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>FiveWs.class</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;category (Laboratory)</td><td>FiveWs.class</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>FiveWs.what[x]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>FiveWs.subject[x], FiveWs.subject</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;focus</td><td>FiveWs.subject[x], FiveWs.subject</td> </tr>

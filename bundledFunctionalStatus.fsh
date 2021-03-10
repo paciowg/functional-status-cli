@@ -3,7 +3,7 @@ Alias: OBC = http://hl7.org/fhir/ValueSet/observation-codes
 Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
 
 Profile:        BundledFunctionalStatus
-Parent:         USCoreLaboratoryResultObservationProfile
+Parent:         Observation
 Id:             pacio-bfs
 Title:          "Bundled Functional Status"
 Description:    "An point in time bundle of functional status observations for a patient."

@@ -3,14 +3,14 @@ Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-locat
 
 
 Profile:        FunctionalStatus
-Parent:         USCoreLaboratoryResultObservationProfile
+Parent:         Observation
 Id:             pacio-fs
 Title:          "Functional Status"
 Description:    "An exchange of functional status data for a patient."
 * subject 1..1
 //* subject only Reference(Patient)
 * code from LNCVS (extensible)
-* extension contains assessment_label named assessmentLabel 0..1 MS
+* extension contains assessment_label named CMSassessmentLabel 0..1 MS
 * performer 1..* 
 * value[x] only CodeableConcept
 * value[x] from LNCVS (extensible)
@@ -35,7 +35,7 @@ Description:    "An exchange of functional status data for a patient."
 * device ^short = "Currently not used in FunctionalStatus."
 * referenceRange ^short = "Currently not used in FunctionalStatus."
 * hasMember ^short = "Currently not used in FunctionalStatus."
-* derivedFrom ^short = "Currently not used in FunctionalStatus."
+
 * effective[x] only dateTime
 * effective[x] 1..1
 * extension contains ObservationLocation named event-location 0..1 MS 

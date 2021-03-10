@@ -1,6 +1,16 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-fs",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
   "url": "https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs",
   "version": "0.1.0",
   "name": "FunctionalStatus",
@@ -9,11 +19,6 @@
   "description": "An exchange of functional status data for a patient.",
   "fhirVersion": "4.0.1",
   "mapping": [
-    {
-      "identity": "argonaut-dq-dstu2",
-      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
-      "name": "Argonaut-DQ-DSTU2"
-    },
     {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
@@ -48,7 +53,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -67,9 +72,9 @@
         }
       },
       {
-        "id": "Observation.extension:assessmentLabel",
+        "id": "Observation.extension:CMSassessmentLabel",
         "path": "Observation.extension",
-        "sliceName": "assessmentLabel",
+        "sliceName": "CMSassessmentLabel",
         "min": 0,
         "max": "1",
         "type": [
@@ -146,7 +151,8 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
-        "short": "Subject should only be Patient for functional status"
+        "short": "Subject should only be Patient for functional status",
+        "min": 1
       },
       {
         "id": "Observation.focus",
@@ -226,11 +232,6 @@
       {
         "id": "Observation.hasMember",
         "path": "Observation.hasMember",
-        "short": "Currently not used in FunctionalStatus."
-      },
-      {
-        "id": "Observation.derivedFrom",
-        "path": "Observation.derivedFrom",
         "short": "Currently not used in FunctionalStatus."
       },
       {

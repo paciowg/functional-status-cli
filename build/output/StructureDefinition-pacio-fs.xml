@@ -3,17 +3,17 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="pacio-fs"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation">Observation</a><a name="Observation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-observation-lab.html">USCoreLaboratoryResultObservationProfile</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Measurements and simple assertions</span></td></tr>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation">Observation</a><a name="Observation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Measurements and simple assertions</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_extension_simple.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Simple Extension" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.extension">extension</a><a name="Observation.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extension</span><br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.extension:assessmentLabel" title="Extension URL = https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label">cms-assessment-label</a><a name="Observation.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extension</span><br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R4/StructureDefinition-cms-assessment-label.html">https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label</a><br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-assessment-label-value-set.html">CMS PAC Assessment Value Set</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.extension:CMSassessmentLabel" title="Extension URL = https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label">cms-assessment-label</a><a name="Observation.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extension</span><br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R4/StructureDefinition-cms-assessment-label.html">https://paciowg.github.io/functional-status-ig//StructureDefinition/cms-assessment-label</a><br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-assessment-label-value-set.html">CMS PAC Assessment Value Set</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.extension:event-location" title="Extension URL = http://hl7.org/fhir/StructureDefinition/event-location">event-location</a><a name="Observation.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/location.html">Location</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Where event occurred</span><br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R4/extension-event-location.html">http://hl7.org/fhir/StructureDefinition/event-location</a></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.extension:device-use" title="Extension URL = https://paciowg.github.io/functional-status-ig//StructureDefinition/device-patient-used">device-patient-used</a><a name="Observation.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="StructureDefinition-pacio-dev.html">UseOfDevice</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extension</span><br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R4/StructureDefinition-device-patient-used.html">https://paciowg.github.io/functional-status-ig//StructureDefinition/device-patient-used</a><br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.basedOn">basedOn</a><a name="Observation.basedOn"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/devicerequest.html">DeviceRequest</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/immunizationrecommendation.html">ImmunizationRecommendation</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/medicationrequest.html">MedicationRequest</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/nutritionorder.html">NutritionOrder</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.partOf">partOf</a><a name="Observation.partOf"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/medicationadministration.html">MedicationAdministration</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/procedure.html">Procedure</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/immunization.html">Immunization</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/imagingstudy.html">ImagingStudy</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.status">status</a><a name="Observation.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value should be final as FunctionalStatus Observation should be completed before transfer between facilities.</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.category">category</a><a name="Observation.category"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">For a Post-Acute Care Assessment, category should be survey.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.category">category</a><a name="Observation.category"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">For a Post-Acute Care Assessment, category should be survey.</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.code">code</a><a name="Observation.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">For a Post-Acute Care Assessment, code should be a LOINC code and text for the question.<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-observation-codes.html">LOINCCodes</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.subject">subject</a><a name="Observation.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-patient.html">US Core Patient Profile</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Subject should only be Patient for functional status</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.subject">subject</a><a name="Observation.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/patient.html">Patient</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/group.html">Group</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/device.html">Device</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/location.html">Location</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Subject should only be Patient for functional status</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.focus">focus</a><a name="Observation.focus"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/resource.html">Resource</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.effective[x]">effective[x]</a><a name="Observation.effective_x_"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Clinically relevant time/time-period for observation</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.issued">issued</a><a name="Observation.issued"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#instant">instant</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
@@ -27,18 +27,23 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.device">device</a><a name="Observation.device"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/device.html">Device</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/devicemetric.html">DeviceMetric</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.referenceRange">referenceRange</a><a name="Observation.referenceRange"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.hasMember">hasMember</a><a name="Observation.hasMember"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/observation.html">Observation</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/molecularsequence.html">MolecularSequence</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.derivedFrom">derivedFrom</a><a name="Observation.derivedFrom"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/documentreference.html">DocumentReference</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/imagingstudy.html">ImagingStudy</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/media.html">Media</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/observation.html">Observation</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/molecularsequence.html">MolecularSequence</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.component">component</a><a name="Observation.component"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.component.code">code</a><a name="Observation.component.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.component.value[x]">value[x]</a><a name="Observation.component.value_x_"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Quantity">Quantity</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Range">Range</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Ratio">Ratio</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#SampledData">SampledData</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#time">time</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.component">component</a><a name="Observation.component"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.component.code">code</a><a name="Observation.component.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pacio-fs-definitions.html#Observation.component.value[x]">value[x]</a><a name="Observation.component.value_x_"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Quantity">Quantity</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Range">Range</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Ratio">Ratio</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#SampledData">SampledData</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#time">time</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a><span style="opacity: 0.5">, </span><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Currently not used in FunctionalStatus.</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-category">
+    <valueString value="Clinical.Diagnostics"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
+    <valueCode value="patient"/>
+  </extension>
   <url value="https://paciowg.github.io/functional-status-ig//StructureDefinition/pacio-fs"/>
   <version value="0.1.0"/>
   <name value="FunctionalStatus"/>
   <title value="Functional Status"/>
   <status value="active"/>
-  <date value="2021-02-19T13:21:12-05:00"/>
+  <date value="2021-02-24T09:36:30-05:00"/>
   <publisher value="HL7 Patient Care Work Group"/>
   <contact>
     <name value="HL7 Patient Care Work Group"/>
@@ -70,11 +75,6 @@
     </coding>
   </jurisdiction>
   <fhirVersion value="4.0.1"/>
-  <mapping>
-    <identity value="argonaut-dq-dstu2"/>
-    <uri value="http://unknown.org/Argonaut-DQ-DSTU2"/>
-    <name value="Argonaut-DQ-DSTU2"/>
-  </mapping>
   <mapping>
     <identity value="workflow"/>
     <uri value="http://hl7.org/fhir/workflow"/>
@@ -108,13 +108,13 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
       <path value="Observation"/>
       <short value="Measurements and simple assertions"/>
-      <definition value="This profile is  created to meet the 2015 Edition Common Clinical Data Set &#39;Laboratory test(s) and Laboratory value(s)/result(s)&#39; requirements."/>
+      <definition value="Measurements and simple assertions made about a patient, device or other subject."/>
       <comment value="Used for simple observations such as device measurements, laboratory atomic results, vital signs, height, weight, smoking status, comments, etc.  Other resources are used to provide context for observations such as laboratory reports, etc."/>
       <alias value="Vital Signs"/>
       <alias value="Measurement"/>
@@ -189,15 +189,6 @@
         <xpath value="not(f:*[starts-with(local-name(.), &#39;value&#39;)] and (for $coding in f:code/f:coding return f:component/f:code/f:coding[f:code/@value=$coding/f:code/@value] [f:system/@value=$coding/f:system/@value]))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
       </constraint>
-      <constraint>
-        <key value="us-core-2"/>
-        <severity value="error"/>
-        <human value="If there is no component or related element then either a value[x] or a data absent reason must be present"/>
-        <expression value="(component.empty() and related.empty()) implies (dataAbsentReason or value)"/>
-        <xpath value="exists(f:component) or exists(f:related) or exists(f:*[starts-with(local-name(.), &#39;value)]) or exists(f:dataAbsentReason)"/>
-        <source value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
-      </constraint>
-      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -219,10 +210,6 @@
       <mapping>
         <identity value="rim"/>
         <map value="Observation[classCode=OBS, moodCode=EVN]"/>
-      </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation"/>
       </mapping>
     </element>
     <element id="Observation.id">
@@ -438,9 +425,9 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
-    <element id="Observation.extension:assessmentLabel">
+    <element id="Observation.extension:CMSassessmentLabel">
       <path value="Observation.extension"/>
-      <sliceName value="assessmentLabel"/>
+      <sliceName value="CMSassessmentLabel"/>
       <short value="Extension"/>
       <definition value="The CMS Post Acute Care Assessment Label for the observation."/>
       <min value="0"/>
@@ -760,13 +747,16 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="true"/>
       <isModifierReason value="This element is labeled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid"/>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ObservationStatus"/>
+        </extension>
         <strength value="required"/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/observation-status"/>
+        <description value="Codes providing the status of an observation."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/observation-status|4.0.1"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -788,25 +778,14 @@
         <identity value="rim"/>
         <map value="status  Amended &amp; Final are differentiated by whether it is the subject of a ControlAct event with a type of &quot;revise&quot;"/>
       </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.status"/>
-      </mapping>
     </element>
     <element id="Observation.category">
       <path value="Observation.category"/>
-      <slicing>
-        <discriminator>
-          <type value="pattern"/>
-          <path value="$this"/>
-        </discriminator>
-        <rules value="open"/>
-      </slicing>
       <short value="For a Post-Acute Care Assessment, category should be survey."/>
       <definition value="A code that classifies the general type of observation being made."/>
       <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner&#x2019;s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
       <requirements value="Used for filtering what observations are retrieved and displayed."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="*"/>
       <base>
         <path value="Observation.category"/>
@@ -824,7 +803,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -842,76 +820,15 @@
       <mapping>
         <identity value="rim"/>
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
-      </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.category"/>
-      </mapping>
-    </element>
-    <element id="Observation.category:Laboratory">
-      <path value="Observation.category"/>
-      <sliceName value="Laboratory"/>
-      <short value="Classification of  type of observation"/>
-      <definition value="A code that classifies the general type of observation being made."/>
-      <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner&#x2019;s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
-      <requirements value="Used for filtering what observations are retrieved and displayed."/>
-      <min value="1"/>
-      <max value="1"/>
-      <base>
-        <path value="Observation.category"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <patternCodeableConcept>
-        <coding>
-          <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
-          <code value="laboratory"/>
-        </coding>
-      </patternCodeableConcept>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="ObservationCategory"/>
-        </extension>
-        <strength value="preferred"/>
-        <description value="Codes for high level observation categories."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/observation-category"/>
-      </binding>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.class"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
-      </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.category"/>
       </mapping>
     </element>
     <element id="Observation.code">
       <path value="Observation.code"/>
       <short value="For a Post-Acute Care Assessment, code should be a LOINC code and text for the question."/>
-      <definition value="The test that was performed.  A LOINC **SHALL** be used if the concept is present in LOINC."/>
-      <comment value="The typical patterns for codes are:  1)  a LOINC code either as a  translation from a &quot;local&quot; code or as a primary code, or 2)  a local code only if no suitable LOINC exists,  or 3)  both the local and the LOINC translation.   Systems SHALL be capable of sending the local code if one exists.  When using LOINC , Use either the SHORTNAME or LONG_COMMON_NAME field for the display."/>
+      <definition value="Describes what was observed. Sometimes this is called the observation &quot;name&quot;."/>
+      <comment value="*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation."/>
       <requirements value="Knowing what kind of observation is being made is essential to understanding the observation."/>
       <alias value="Name"/>
-      <alias value="Test Name"/>
-      <alias value="Observation Identifer"/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -930,7 +847,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
@@ -961,10 +877,6 @@
         <identity value="sct-attr"/>
         <map value="116680003 |Is a|"/>
       </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.code"/>
-      </mapping>
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject"/>
@@ -981,7 +893,10 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -991,7 +906,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
@@ -1013,10 +927,6 @@
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.subject"/>
-      </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.subject"/>
       </mapping>
     </element>
     <element id="Observation.focus">
@@ -1110,7 +1020,7 @@
     <element id="Observation.effective[x]">
       <path value="Observation.effective[x]"/>
       <short value="Clinically relevant time/time-period for observation"/>
-      <definition value="For lab tests this is the specimen collection date.  For Ask at Order Entry Questions (AOE)&#39;s this is the date the question was asked."/>
+      <definition value="The time or time-period the observed value is asserted as being true. For biological subjects - e.g. human patients - this is usually called the &quot;physiologically relevant time&quot;. This is usually either the time of the procedure or of specimen collection, but very often the source of the date/time is not known, only the date/time itself."/>
       <comment value="At least a date should be present unless this observation is a historical report.  For recording imprecise or &quot;fuzzy&quot; times (For example, a blood glucose measurement taken &quot;after breakfast&quot;) use the [Timing](http://hl7.org/fhir/R4/datatypes.html#timing) datatype which allow the measurement to be tied to regular life events."/>
       <requirements value="Knowing when an observation was deemed true is important to its relevance as well as determining trends."/>
       <alias value="Occurrence"/>
@@ -1124,7 +1034,6 @@
       <type>
         <code value="dateTime"/>
       </type>
-      <condition value="us-core-1"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1133,15 +1042,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <constraint>
-        <key value="us-core-1"/>
-        <severity value="error"/>
-        <human value="Datetime must be at least to day."/>
-        <expression value="($this as dateTime).toString().length() &gt;= 8"/>
-        <xpath value="f:matches(effectiveDateTime,/\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z)/)"/>
-        <source value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
-      </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
@@ -1159,10 +1059,6 @@
       <mapping>
         <identity value="rim"/>
         <map value="effectiveTime"/>
-      </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.effective[x]"/>
       </mapping>
     </element>
     <element id="Observation.issued">
@@ -1254,7 +1150,7 @@
     <element id="Observation.value[x]">
       <path value="Observation.value[x]"/>
       <short value="For a Post-Acute Care Assessment, should include a LOINC code and text for the answer or value."/>
-      <definition value="The Laboratory result value.  If a coded value,  the valueCodeableConcept.code **SHOULD**  be selected from [SNOMED CT](http://hl7.org/fhir/ValueSet/uslab-obs-codedresults).  If a numeric value, valueQuantity.code **SHALL** be selected from [UCUM](http://unitsofmeasure.org).  A FHIR [UCUM Codes value set](http://hl7.org/fhir/STU3/valueset-ucum-units.html) that defines all UCUM codes is in the FHIR specification."/>
+      <definition value="The information determined as a result of making the observation, if the information has a simple value."/>
       <comment value="An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](http://hl7.org/fhir/R4/observation.html#notes) below."/>
       <requirements value="An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations."/>
       <min value="0"/>
@@ -1268,9 +1164,6 @@
         <code value="CodeableConcept"/>
       </type>
       <condition value="obs-7"/>
-      <condition value="us-core-2"/>
-      <condition value="us-core-3"/>
-      <condition value="us-core-4"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1279,26 +1172,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <constraint>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice">
-          <valueBoolean value="true"/>
-        </extension>
-        <key value="us-core-4"/>
-        <severity value="warning"/>
-        <human value="SHOULD use Snomed CT for coded Results"/>
-        <expression value="valueCodeableConcept.coding.system.empty() or valueCodeableConcept.coding.system = &#39;http://snomed.info/sct&#39;"/>
-        <xpath value="not(exists(f:valueCodeableConcept/f:coding/f:system) ) or  f:valueCodeableConcept/f:coding/f:system[@value=&#39;http://snomed.info/sct&#39;]"/>
-        <source value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
-      </constraint>
-      <constraint>
-        <key value="us-core-3"/>
-        <severity value="error"/>
-        <human value="SHALL use UCUM for coded quantity units."/>
-        <expression value="valueQuantity.system.empty() or valueQuantity.system = &#39;http://unitsofmeasure.org&#39;"/>
-        <xpath value="not(exists(f:valueQuantity/f:system) ) or  f:valueQuantity/f:system[@value=&#39;http://unitsofmeasure.org&#39;]"/>
-        <source value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
-      </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
@@ -1321,10 +1194,6 @@
         <identity value="sct-attr"/>
         <map value="363714003 |Interprets|"/>
       </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.value[x]"/>
-      </mapping>
     </element>
     <element id="Observation.dataAbsentReason">
       <path value="Observation.dataAbsentReason"/>
@@ -1343,7 +1212,6 @@
         <code value="CodeableConcept"/>
       </type>
       <condition value="obs-6"/>
-      <condition value="us-core-2"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1352,11 +1220,14 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ObservationValueAbsentReason"/>
+        </extension>
         <strength value="extensible"/>
+        <description value="Codes specifying why the result (`Observation.value[x]`) is missing."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/data-absent-reason"/>
       </binding>
       <mapping>
@@ -1366,10 +1237,6 @@
       <mapping>
         <identity value="rim"/>
         <map value="value.nullFlavor"/>
-      </mapping>
-      <mapping>
-        <identity value="argonaut-dq-dstu2"/>
-        <map value="Observation.dataAbsentReason"/>
       </mapping>
     </element>
     <element id="Observation.interpretation">
@@ -1669,7 +1536,7 @@
         <human value="Must have at least a low or a high or text"/>
         <expression value="low.exists() or high.exists() or text.exists()"/>
         <xpath value="(exists(f:low) or exists(f:high)or exists(f:text))"/>
-        <source value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -2056,7 +1923,7 @@
     </element>
     <element id="Observation.derivedFrom">
       <path value="Observation.derivedFrom"/>
-      <short value="Currently not used in FunctionalStatus."/>
+      <short value="Related measurements the observation is made from"/>
       <definition value="The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image."/>
       <comment value="All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes](http://hl7.org/fhir/R4/observation.html#obsgrouping) below."/>
       <min value="0"/>
@@ -2506,9 +2373,9 @@
         <rules value="open"/>
       </slicing>
     </element>
-    <element id="Observation.extension:assessmentLabel">
+    <element id="Observation.extension:CMSassessmentLabel">
       <path value="Observation.extension"/>
-      <sliceName value="assessmentLabel"/>
+      <sliceName value="CMSassessmentLabel"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -2566,6 +2433,7 @@
     <element id="Observation.subject">
       <path value="Observation.subject"/>
       <short value="Subject should only be Patient for functional status"/>
+      <min value="1"/>
     </element>
     <element id="Observation.focus">
       <path value="Observation.focus"/>
@@ -2628,10 +2496,6 @@
     </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember"/>
-      <short value="Currently not used in FunctionalStatus."/>
-    </element>
-    <element id="Observation.derivedFrom">
-      <path value="Observation.derivedFrom"/>
       <short value="Currently not used in FunctionalStatus."/>
     </element>
     <element id="Observation.component">
