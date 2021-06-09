@@ -54,7 +54,7 @@
                   <a href="StructureDefinition-pacio-bfs.html"
                      title="StructureDefinition/pacio-bfs">Bundled Functional Status</a>
                </td>
-               <td>{% capture desc %}An point in time bundle of functional status observations for a patient.{% endcapture %}
+               <td>{% capture desc %}A point in time bundle of functional status observations for a patient.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

@@ -16,7 +16,7 @@
   "name": "BundledFunctionalStatus",
   "title": "Bundled Functional Status",
   "status": "active",
-  "description": "An point in time bundle of functional status observations for a patient.",
+  "description": "A point in time bundle of functional status observations for a patient.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -133,12 +133,32 @@
         "id": "Observation.subject",
         "path": "Observation.subject",
         "short": "Subject should only be Patient for BundledFunctionalStatus.",
-        "min": 1
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          }
+        ]
       },
       {
         "id": "Observation.focus",
         "path": "Observation.focus",
         "short": "Currently not used in BundledFunctionalStatus."
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+            ]
+          }
+        ]
       },
       {
         "id": "Observation.effective[x]",
@@ -161,8 +181,18 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "short": "The person who performed the assessment. Also provide the role and organizationif available.",
-        "min": 1
+        "short": "The person who performed the assessment. Also provide the role and organization if available.",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole",
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+            ]
+          }
+        ]
       },
       {
         "id": "Observation.value[x]",
@@ -216,7 +246,7 @@
       {
         "id": "Observation.derivedFrom",
         "path": "Observation.derivedFrom",
-        "short": "Currently not used in BundledFunctionalStatus."
+        "short": "Link to the PAC assessment related to this bundle."
       },
       {
         "id": "Observation.component",

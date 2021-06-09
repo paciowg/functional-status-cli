@@ -10,7 +10,7 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
-  "date": "2021-01-05T09:50:27-08:00",
+  "date": "2021-06-09T08:31:53-07:00",
   "contact": [
     {
       "name": "PACIO project",
@@ -325,7 +325,7 @@
           "reference": "StructureDefinition/pacio-bfs"
         },
         "name": "Bundled Functional Status",
-        "description": "An point in time bundle of functional status observations for a patient.",
+        "description": "A point in time bundle of functional status observations for a patient.",
         "exampleBoolean": false
       },
       {

@@ -1,6 +1,7 @@
 {
   "releaselabel":"CI Build",
   "copyrightyear":"2020+",
+  "shownav":"N",
   "excludexml":"N",
   "excludejson":"N",
   "excludettl":"N",

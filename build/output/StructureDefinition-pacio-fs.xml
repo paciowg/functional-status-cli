@@ -43,7 +43,7 @@
   <name value="FunctionalStatus"/>
   <title value="Functional Status"/>
   <status value="active"/>
-  <date value="2021-01-05T09:50:27-08:00"/>
+  <date value="2021-06-09T08:31:53-07:00"/>
   <contact>
     <name value="PACIO project"/>
     <telecom>
@@ -465,8 +465,8 @@
     <element id="Observation.extension:device-use">
       <path value="Observation.extension"/>
       <sliceName value="device-use"/>
-      <short value="Optional Extensions Element"/>
-      <definition value="Optional Extension Element - found in all resources."/>
+      <short value="Extension"/>
+      <definition value="A device used by a patient during a functional status assessment."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -493,18 +493,10 @@
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="n/a"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value="N/A"/>
-      </mapping>
     </element>
     <element id="Observation.modifierExtension">
       <path value="Observation.modifierExtension"/>

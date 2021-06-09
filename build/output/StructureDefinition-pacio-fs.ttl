@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "FunctionalStatus"];
   fhir:StructureDefinition.title [ fhir:value "Functional Status"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-01-05T09:50:27-08:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-09T08:31:53-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];
@@ -579,8 +579,8 @@
        fhir:Element.id [ fhir:value "Observation.extension:device-use" ];
        fhir:ElementDefinition.path [ fhir:value "Observation.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "device-use" ];
-       fhir:ElementDefinition.short [ fhir:value "Optional Extensions Element" ];
-       fhir:ElementDefinition.definition [ fhir:value "Optional Extension Element - found in all resources." ];
+       fhir:ElementDefinition.short [ fhir:value "Extension" ];
+       fhir:ElementDefinition.definition [ fhir:value "A device used by a patient during a functional status assessment." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
@@ -620,21 +620,12 @@
          fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
          fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
          fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Observation";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Observation>
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 10;
        fhir:Element.id [ fhir:value "Observation.modifierExtension" ];

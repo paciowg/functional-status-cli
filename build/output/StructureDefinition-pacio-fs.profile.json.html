@@ -11,7 +11,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.US.PACIO-FS\Functional Status - Profile JSON - FHIR v4.0.1</title>
+    <title>HL7.FHIR.US.PACIO-FS\Functional Status - JSON Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -19,7 +19,6 @@
     <link href="fhir.css" rel="stylesheet"/>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
     <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
     <!-- Project extras -->
@@ -113,15 +112,18 @@
       </div>  <!-- /container -->
     </div>  <!-- /segment-navbar -->
     <!--status-bar-->
+
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
           <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Functional Status</b></li>
+
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
 
-    <div id="segment-content">  <!-- segment-content -->
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
       <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
@@ -233,7 +235,7 @@
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.name">name</a>" : "FunctionalStatus",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.title">title</a>" : "Functional Status",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a>" : "2021-01-05T09:50:27-08:00",
+  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a>" : "2021-06-09T08:31:53-07:00",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "PACIO project",
@@ -738,8 +740,8 @@
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">id</a>" : "Observation.extension:device-use",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.path">path</a>" : "Observation.extension",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.sliceName">sliceName</a>" : "device-use",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Optional Extensions Element",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "Optional Extension Element - found in all resources.",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.short">short</a>" : "Extension",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>" : "A device used by a patient during a functional status assessment.",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.min">min</a>" : 0,
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.max">max</a>" : "*",
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.base">base</a>" : {
@@ -773,21 +775,11 @@
             "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.constraint.human">human</a>" : "Must have either extensions or value[x], not both",
             "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>" : "extension.exists() != value.exists()",
             "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a>" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.constraint.source">source</a>" : "http://hl7.org/fhir/StructureDefinition/Observation"
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.constraint.source">source</a>" : "http://hl7.org/fhir/StructureDefinition/Extension"
           }
         ],
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mustSupport">mustSupport</a>" : true,
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.isModifier">isModifier</a>" : false,
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a>" : "rim",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>" : "n/a"
-          },
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a>" : "rim",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>" : "N/A"
-          }
-        ]
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.isModifier">isModifier</a>" : false
       },
       {
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">id</a>" : "Observation.modifierExtension",
@@ -3231,15 +3223,19 @@
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
+
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 5, 2021 09:50-0800">2021-01-05</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 9, 2021 08:31-0700">2021-06-09</span>
           <br/>
-          <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
                | <a style="color: #81BEF7" target="_blank" href="http://paciowg.github.io/functional-status-ig/history.html">Version History  |
                <a style="color: #81BEF7" target="_blank" href="searchform.html">Search  |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
@@ -3267,7 +3263,15 @@
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
   <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

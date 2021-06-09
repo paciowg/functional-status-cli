@@ -11,7 +11,7 @@
   <name value="PACIOFunctionalStatusImplementationGuide"/>
   <title value="PACIO Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2021-01-05T09:50:27-08:00"/>
+  <date value="2021-06-09T08:31:53-07:00"/>
   <contact>
     <name value="PACIO project"/>
     <telecom>
@@ -207,7 +207,7 @@
         <reference value="StructureDefinition/pacio-bfs"/>
       </reference>
       <name value="Bundled Functional Status"/>
-      <description value="An point in time bundle of functional status observations for a patient."/>
+      <description value="A point in time bundle of functional status observations for a patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

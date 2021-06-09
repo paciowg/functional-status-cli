@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOFunctionalStatusImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Functional Status Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-01-05T09:50:27-08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-09T08:31:53-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];
@@ -310,7 +310,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/pacio-bfs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bundled Functional Status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An point in time bundle of functional status observations for a patient." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A point in time bundle of functional status observations for a patient." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;

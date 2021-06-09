@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e9a6ba36-7726-454c-acb4-ccac39060620-135",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e9a6ba36-7726-454c-acb4-ccac39060620-135",
+  "id" : "5306a0c1-4e68-499a-be63-da475dc780b7-135",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5306a0c1-4e68-499a-be63-da475dc780b7-135",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndPriorLevelOfFunction",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And Prior Level Of Function",
   "status" : "active",
-  "date" : "2021-01-05T09:50:35-08:00",
+  "date" : "2021-06-09T08:31:58-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

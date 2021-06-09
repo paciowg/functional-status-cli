@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e9a6ba36-7726-454c-acb4-ccac39060620-96",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e9a6ba36-7726-454c-acb4-ccac39060620-96",
+  "id" : "5306a0c1-4e68-499a-be63-da475dc780b7-96",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5306a0c1-4e68-499a-be63-da475dc780b7-96",
   "name" : "IntersectionUSCoreRespiratoryRateProfileAndFunctionalStatus",
   "title" : "Intersection of US Core Respiratory Rate Profile And Functional Status",
   "status" : "active",
-  "date" : "2021-01-05T09:50:35-08:00",
+  "date" : "2021-06-09T08:31:58-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e9a6ba36-7726-454c-acb4-ccac39060620-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-6"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -887,7 +887,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e9a6ba36-7726-454c-acb4-ccac39060620-60"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-60"
       },
       "mapping" : [{
         "identity" : "sct-concept",

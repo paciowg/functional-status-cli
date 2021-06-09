@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e9a6ba36-7726-454c-acb4-ccac39060620-12",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e9a6ba36-7726-454c-acb4-ccac39060620-12",
+  "id" : "5306a0c1-4e68-499a-be63-da475dc780b7-12",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5306a0c1-4e68-499a-be63-da475dc780b7-12",
   "name" : "IntersectionUSCorePediatricWeightForHeightObservationProfileAndBundledFunctionalStatus",
   "title" : "Intersection of US Core Pediatric Weight for Height Observation Profile And Bundled Functional Status",
   "status" : "active",
-  "date" : "2021-01-05T09:50:35-08:00",
+  "date" : "2021-06-09T08:31:58-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e9a6ba36-7726-454c-acb4-ccac39060620-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-6"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -699,7 +699,7 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Encounter"]
+        "targetProfile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -820,19 +820,16 @@
     },
     {
       "path" : "Observation.performer",
-      "short" : "left: Who is responsible for the observation; right: The person who performed the assessment. Also provide the role and organizationif available.",
+      "short" : "left: Who is responsible for the observation; right: The person who performed the assessment. Also provide the role and organization if available.",
       "definition" : "Who was responsible for asserting the observed value as \"true\".",
       "requirements" : "May give a degree of confidence in the observation and also indicates where follow-up questions should be directed.",
       "min" : 1,
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
-        "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
-        "http://hl7.org/fhir/StructureDefinition/Organization",
-        "http://hl7.org/fhir/StructureDefinition/CareTeam",
-        "http://hl7.org/fhir/StructureDefinition/Patient",
-        "http://hl7.org/fhir/StructureDefinition/RelatedPerson"]
+        "targetProfile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1550,7 +1547,7 @@
     },
     {
       "path" : "Observation.derivedFrom",
-      "short" : "left: Related measurements the observation is made from; right: Currently not used in BundledFunctionalStatus.",
+      "short" : "left: Related measurements the observation is made from; right: Link to the PAC assessment related to this bundle.",
       "definition" : "The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image.",
       "comment" : "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes] below.",
       "min" : 0,
