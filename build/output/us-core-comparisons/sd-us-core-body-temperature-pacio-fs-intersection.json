@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5306a0c1-4e68-499a-be63-da475dc780b7-78",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5306a0c1-4e68-499a-be63-da475dc780b7-78",
+  "id" : "fe0011a8-43ff-4e2b-a950-0bd4809b194f-27",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fe0011a8-43ff-4e2b-a950-0bd4809b194f-27",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndFunctionalStatus",
-  "title" : "Intersection of US Core Body Temperature Profile And Functional Status",
+  "title" : "Intersection of US Core Body Temperature Profile And PACIO Functional Status",
   "status" : "active",
-  "date" : "2021-06-09T08:31:58-07:00",
+  "date" : "2021-07-30T14:58:02-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fe0011a8-43ff-4e2b-a950-0bd4809b194f-6"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -887,7 +887,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-60"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fe0011a8-43ff-4e2b-a950-0bd4809b194f-9"
       },
       "mapping" : [{
         "identity" : "sct-concept",
@@ -1550,7 +1550,7 @@
     },
     {
       "path" : "Observation.derivedFrom",
-      "short" : "left: Related measurements the observation is made from; right: Currently not used in FunctionalStatus.",
+      "short" : "left: Related measurements the observation is made from; right: Should point back to the QuestionnaireResponse that this resource is derived from.",
       "definition" : "The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image.",
       "comment" : "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes] below.",
       "min" : 0,
@@ -1586,7 +1586,7 @@
     },
     {
       "path" : "Observation.component",
-      "short" : "left: Component observations; right: Currently not used in FunctionalStatus.",
+      "short" : "left: Component observations; right: If used, the answers for the associated questions (for the purpose of grouping answers under a heading and displaying side-by-side columns)",
       "definition" : "left: Used when reporting component observation such as systolic and diastolic blood pressure.; right: Some observations have multiple component observations.  These component observations are expressed as separate code value pairs that share the same attributes.  Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations.",
       "comment" : "For a discussion on the ways Observations can be assembled in groups together see [Notes] below.",
       "requirements" : "Component observations share the same attributes in the Observation resource as the primary observation and are always treated a part of a single observation (they are not separable).   However, the reference range for the primary observation value is not inherited by the component values and is required when appropriate for each component observation.",
@@ -1721,7 +1721,7 @@
     },
     {
       "path" : "Observation.component.code",
-      "short" : "left: Type of component observation (code / type); right: Currently not used in FunctionalStatus.",
+      "short" : "left: Type of component observation (code / type); right: If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns).",
       "definition" : "Describes what was observed. Sometimes this is called the observation \"code\".",
       "comment" : "*All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.",
       "requirements" : "Knowing what kind of observation is being made is essential to understanding the observation.",
@@ -1765,7 +1765,7 @@
     },
     {
       "path" : "Observation.component.value[x]",
-      "short" : "left: Vital Sign Component Value; right: Currently not used in FunctionalStatus.",
+      "short" : "left: Vital Sign Component Value; right: The code and text for the answer to the (associated) question.",
       "definition" : "left: Vital Signs value are typically recorded using the Quantity data type. For supporting observations such as cuff size could use other datatypes such as CodeableConcept.; right: The information determined as a result of making the observation, if the information has a simple value.",
       "comment" : "Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section] below.",
       "requirements" : "left: 9. SHALL contain exactly one [1..1] value with @xsi:type=\"PQ\" (CONF:7305).; right: An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.",
@@ -1820,11 +1820,7 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "VitalSignsUnits"
-        }],
-        "strength" : "required",
+        "strength" : "extensible",
         "description" : "Common UCUM units for recording Vital Signs.",
         "valueSet" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1"
       },

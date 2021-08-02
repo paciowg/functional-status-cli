@@ -144,29 +144,28 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#resource-profile-paciofunctionalquestionaireresponse" id="markdown-toc-resource-profile-paciofunctionalquestionaireresponse">Resource Profile: PACIOfunctionalQuestionaireResponse</a></li>
-  <li><a href="#resource-profile-bundledfunctionalstatus" id="markdown-toc-resource-profile-bundledfunctionalstatus">Resource Profile: BundledFunctionalStatus</a></li>
+  <li><a href="#resource-profile-functionalstatuscollection" id="markdown-toc-resource-profile-functionalstatuscollection">Resource Profile: FunctionalStatusCollection</a></li>
   <li><a href="#resource-profile-functionalstatus" id="markdown-toc-resource-profile-functionalstatus">Resource Profile: FunctionalStatus</a></li>
   <li><a href="#resource-profile-priorleveloffunction" id="markdown-toc-resource-profile-priorleveloffunction">Resource Profile: PriorLevelOfFunction</a></li>
   <li><a href="#resource-profile-useofdevice" id="markdown-toc-resource-profile-useofdevice">Resource Profile: UseOfDevice</a></li>
   <li><a href="#data-exchange-guidance-and-examples" id="markdown-toc-data-exchange-guidance-and-examples">Data Exchange Guidance and Examples</a></li>
   <li><a href="#paciofunctionalquestionaireresponse--mobility-example" id="markdown-toc-paciofunctionalquestionaireresponse--mobility-example">PACIOfunctionalQuestionaireResponse – Mobility Example</a></li>
-  <li><a href="#bundledfunctionalstatus--mobility-admission-example" id="markdown-toc-bundledfunctionalstatus--mobility-admission-example">BundledFunctionalStatus – Mobility Admission Example</a></li>
-  <li><a href="#bundledfunctionalstatus--mobility-discharge-goal-example" id="markdown-toc-bundledfunctionalstatus--mobility-discharge-goal-example">BundledFunctionalStatus – Mobility Discharge Goal Example</a></li>
-  <li><a href="#bundledfunctionalstatus--mobility-discharge-and-device-used-example" id="markdown-toc-bundledfunctionalstatus--mobility-discharge-and-device-used-example">BundledFunctionalStatus – Mobility Discharge and Device Used Example</a></li>
-  <li><a href="#bundledfunctionalstatus--self-care-admission-example" id="markdown-toc-bundledfunctionalstatus--self-care-admission-example">BundledFunctionalStatus – Self-Care Admission Example</a></li>
+  <li><a href="#functionalstatuscollection--mobility-admission-example" id="markdown-toc-functionalstatuscollection--mobility-admission-example">FunctionalStatusCollection – Mobility Admission Example</a></li>
+  <li><a href="#functionalstatuscollection--mobility-discharge-and-device-used-example" id="markdown-toc-functionalstatuscollection--mobility-discharge-and-device-used-example">FunctionalStatusCollection – Mobility Discharge and Device Used Example</a></li>
+  <li><a href="#functionalstatuscollection--self-care-admission-example" id="markdown-toc-functionalstatuscollection--self-care-admission-example">FunctionalStatusCollection – Self-Care Admission Example</a></li>
   <li><a href="#priorleveloffunction--prior-level-of-function-example" id="markdown-toc-priorleveloffunction--prior-level-of-function-example">PriorLevelOfFunction – Prior Level of Function Example</a></li>
 </ul>
 
 </div>
   <!-- profile_highlights_and_guidance.md -->
-<p>This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of PAC assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.</p>
+<p>This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of post-acute care (PAC) assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.</p>
 
-<p><a name="3fb5f1ee-aee7-462f-91fa-2f3530db6954">​</a>A note on the use of “Must Support” in the Implementation Guide:
+<p><a name="3784c1d8-ef37-4c92-88bb-3860f332db3d">​</a>A note on the use of “Must Support” in the Implementation Guide:
 For profiles defined in other IGs, the meaning of “Must Support” is established in the defining IG. For profiles defined in this IG, <a href="http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support">“Must Support”</a> will conform with US Core definition.</p>
 
 <h3 id="resource-profile-paciofunctionalquestionaireresponse">Resource Profile: PACIOfunctionalQuestionaireResponse</h3>
 
-<p>This resource profile is intended to be used for data exchange of a completed, or sections of a completed, post-acute care (PAC) assessment. The PACIOfunctionalQuestionaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.</p>
+<p>This resource profile is intended to be used for data exchange of a completed, or sections of a completed, PAC assessment. The PACIOfunctionalQuestionaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.</p>
 
 <table class="grid">
   <thead>
@@ -201,9 +200,9 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
   </tr>
 </table>
 
-<h3 id="resource-profile-bundledfunctionalstatus">Resource Profile: BundledFunctionalStatus</h3>
+<h3 id="resource-profile-functionalstatuscollection">Resource Profile: FunctionalStatusCollection</h3>
 
-<p>This resource profile is intended to be used for data exchange of a point in time bundle of functional status observations from a single post-acute care (PAC) assessment. It is derived from the FHIR resource Observation.</p>
+<p>This resource profile is intended to be used for data exchange of a point in time collection of functional status observations from a single PAC assessment. It is derived from the FHIR resource Observation.</p>
 
 <table class="grid">
   <thead>
@@ -256,7 +255,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
 
 <h3 id="resource-profile-functionalstatus">Resource Profile: FunctionalStatus</h3>
 
-<p>This resource profile is intended to be used for data exchange of a single functional status observation included in a post-acute care (PAC) assessment. It is derived from the FHIR resource Observation.</p>
+<p>This resource profile is intended to be used for data exchange of a single functional status observation included in a PAC assessment. It is derived from the FHIR resource Observation.</p>
 
 <table class="grid">
   <thead>
@@ -387,7 +386,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
   <li>The nesting structure of the ‘item’ fields should correspond to the nesting structure as showed in the questionnaire.</li>
 </ol>
 
-<h3 id="bundledfunctionalstatus--mobility-admission-example">BundledFunctionalStatus – Mobility Admission Example</h3>
+<h3 id="functionalstatuscollection--mobility-admission-example">FunctionalStatusCollection – Mobility Admission Example</h3>
 
 <p><img src="BFS_Mobility_Admission_Example.png" alt="BFS Admission Example" style="float: none;"/></p>
 
@@ -398,17 +397,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
   <li>The ‘category’ field should contain the value ‘survey’ for a PAC assessment.</li>
 </ol>
 
-<h3 id="bundledfunctionalstatus--mobility-discharge-goal-example">BundledFunctionalStatus – Mobility Discharge Goal Example</h3>
-
-<p><img src="BFS_Mobility_DischargeGoal_Example.png" alt="BFS Mobility DischargeGoal Example" style="float: none;"/></p>
-
-<p><strong>Guidance and Notes:</strong></p>
-<ol>
-  <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘85056-0’ is used to indicate ‘Mobility - Discharge Goal’.</li>
-  <li>Use multiple ‘performer’ fields to provide references to FHIR Practitioner, PractitionerRole, and Organization resource instances.</li>
-</ol>
-
-<h3 id="bundledfunctionalstatus--mobility-discharge-and-device-used-example">BundledFunctionalStatus – Mobility Discharge and Device Used Example</h3>
+<h3 id="functionalstatuscollection--mobility-discharge-and-device-used-example">FunctionalStatusCollection – Mobility Discharge and Device Used Example</h3>
 
 <p><img src="BFS_Mobility_Discharge_and_DeviceUsed_Example.png" alt="BFS Mobility Discharge and DeviceUsed Example" style="float: none;"/></p>
 
@@ -416,9 +405,10 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
 <ol>
   <li>Here is how the ‘device-patient-used’ extension is used to point to a UseOfDevice resource to specify a device used by the patient during assessment.</li>
   <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘88331-4’ is used to indicate ‘Mobility - Discharge Performance’.</li>
+  <li>Use the ‘performer’ field to reference a US Core PractitionerRole resource instance that specifies a practitioner and an organization.</li>
 </ol>
 
-<h3 id="bundledfunctionalstatus--self-care-admission-example">BundledFunctionalStatus – Self-Care Admission Example</h3>
+<h3 id="functionalstatuscollection--self-care-admission-example">FunctionalStatusCollection – Self-Care Admission Example</h3>
 
 <p><img src="BFS_SelfCare_Admission_Example.png" alt="BFS SelfCare Admission Example" style="float: none;"/></p>
 
@@ -464,7 +454,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 9, 2021 08:31-0700">2021-06-09</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 30, 2021 14:57-0700">2021-07-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

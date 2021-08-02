@@ -1,9 +1,9 @@
 ﻿PACIOFunctionalStatusImplementationGuide : Validation Results
 =========================================
 
-err = 0, warn = 81, info = 0
-IG Publisher Version: 1.1.72 Out of date - current version is 1.1.73
-Generated Wed Jun 09 08:33:31 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = http://paciowg.github.io/functional-status-ig)
+err = 2, warn = 84, info = 0
+IG Publisher Version: 1.1.77
+Generated Fri Jul 30 14:59:55 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = http://paciowg.github.io/functional-status-ig)
 
  Build Errors : 7 / 51 / 0
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/ImplementationGuide-hl7.fhir.us.pacio-fs : 0 / 0 / 1
@@ -236,7 +236,7 @@ Generated Wed Jun 09 08:33:31 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35 : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BSJ-Prior-Level-Of-Function-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BSJ-Prior-Level-Of-Function-1 : 0 / 1 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/organization-Org-01 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/organization-Org-02 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/organization-Org-03 : 0 / 0 / 1
@@ -272,13 +272,13 @@ Generated Wed Jun 09 08:33:31 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-Discharge-Mobility-SelfCare-1 : 0 / 1 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-1 : 0 / 1 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1 : 0 / 1 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/extensions/structuredefinition-assistance-required : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/extensions/structuredefinition-assistance-required : 0 / 2 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/extensions/structuredefinition-device-patient-used : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-bfs : 0 / 1 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-dev : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-fs : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-fsc : 0 / 1 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-functional-qr : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-plf : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-plf : 2 / 1 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/resources/capabilitystatement-pacio-fs : 0 / 0 / 1
 </table>
 == n/a ==
@@ -333,588 +333,319 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/provider-org-loc-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/provider-role-pcp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/StructureDefinition-pacio-bfs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 288, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
 ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/StructureDefinition-pacio-dev-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 393, column 200: The link 'http://hl7.org/fhir/R4/null.html' for "http://hl7.org/fhir/StructureDefinition/bodySite" cannot be resolved
 ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/StructureDefinition-pacio-fs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 288, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/StructureDefinition-pacio-fsc-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 288, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
 ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/StructureDefinition-pacio-plf-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 288, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'http://hl7.org/fhir/us/core/' for "US Core STU3" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/profile_highlights_and_guidance.html#/html/body/div/div/div/div/div/p/a at Line 165, column 135: The link 'http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support' for "“Must Support”" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/underlying_technologies.html#/html/body/div/div/div/div/div/p/a at Line 166, column 142: The link 'http://hl7.org/fhir/us/core/STU3' for "US Core Implementation Guide" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 215, column 8: The link 'http://hl7.org/fhir/us/core/' for "US Core STU3" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/profile_highlights_and_guidance.html#/html/body/div/div/div/div/div/p/a at Line 164, column 135: The link 'http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support' for "“Must Support”" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/output/underlying_technologies.html#/html/body/div/div/div/div/div/p/a at Line 165, column 142: The link 'http://hl7.org/fhir/us/core/STU3' for "US Core Implementation Guide" cannot be resolved
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/ImplementationGuide-hl7.fhir.us.pacio-fs.json ==
-INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-fs: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/device-CMS-Device-1.json ==
-INFORMATION: Device/CMS-Device-1: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/device-CMS-Device-2.json ==
-INFORMATION: Device/CMS-Device-2: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/device-CMS-Device-3.json ==
-INFORMATION: Device/CMS-Device-3: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/device-CMS-Device-4.json ==
-INFORMATION: Device/CMS-Device-4: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/device-CMS-Device-5.json ==
-INFORMATION: Device/CMS-Device-5: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/device-CMS-Device-6.json ==
-INFORMATION: Device/CMS-Device-6: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/device-CMS-Device-7.json ==
-INFORMATION: Device/CMS-Device-7: Device: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-17.json ==
-INFORMATION: DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-18.json ==
-INFORMATION: DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-18: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.json ==
-INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.json ==
-INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.json ==
-INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.json ==
-INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.json ==
-INFORMATION: DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-12.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-13.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-14.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-15.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-16.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-10.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-10: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-11.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-11: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-6.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-6: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-7.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-7: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-8.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-8: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-9.json ==
-INFORMATION: DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-9: DeviceUseStatement: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/location-Org-Loc-01.json ==
-INFORMATION: Location/Org-Loc-01: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/location-Org-Loc-02.json ==
-INFORMATION: Location/Org-Loc-02: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/location-Org-Loc-03.json ==
-INFORMATION: Location/Org-Loc-03: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/location-provider-org-loc-01.json ==
-INFORMATION: Location/provider-org-loc-01: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-102.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-102: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-12.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-12: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-18.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-18: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-24.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-24: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-30.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-30: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-36.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-36: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-42.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-48.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-48: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-54.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-6.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-6: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-60.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-66.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-72.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-78.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-84.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-90.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-90: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-96.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-96: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49.json ==
-INFORMATION: Observation/BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-101.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-101: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-11.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-11: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-17.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-17: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-23.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-29.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-29: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-35.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-35: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-41.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-41: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-47.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-47: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-5.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of ["Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5: Observation.value.ofType(CodeableConcept): The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-53.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-53: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-59.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-59: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-65.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-65: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-71.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-71: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-77.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-77: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-83.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-83: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-89.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-89: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-95.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-95: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48.json ==
-INFORMATION: Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-1.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-13.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-13: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-19.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-19: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-25.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-25: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-31.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-31: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-37.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-37: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-43.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-43: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-49.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-49: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-55.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-55: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-61.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-61: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-67.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-67: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-7.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-7: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-73.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-73: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-79.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-79: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-85.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-85: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-91.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-91: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-97.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-1-Ob-Question-97: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9.json ==
-INFORMATION: Observation/BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-14.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-14: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-2.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-2: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-20.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-20: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-26.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-26: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-32.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-32: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-38.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-38: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-44.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-44: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-50.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-50: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-56: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-62.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-62: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-68.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-68: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-74.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-74: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-8.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-8: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-80.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-80: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-86.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-86: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-92.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-92: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-98.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-1-Ob-Question-98: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6.json ==
-INFORMATION: Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135.json ==
-INFORMATION: Observation/BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-15.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-15: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-21.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-21: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-27.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-27: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-3.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-3: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-33.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-33: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-39.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-39: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-45.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-45: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-51.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-51: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-57.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-57: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-63.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-63: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-69.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-69: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-75.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-75: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-81.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-81: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-87.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-87: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-9.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-9: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-93.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-93: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-99.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-1-Ob-Question-99: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7.json ==
-INFORMATION: Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-10.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-10: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-100.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-100: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-16.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-16: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-22.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-22: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-28.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-28: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-34.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-34: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-4.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-4: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-40.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-40: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-46.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-46: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-52.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-52: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-58.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-58: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-64.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-64: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-70.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-70: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-76.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-76: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-82.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-82: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-88.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-88: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-94.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-1-Ob-Question-94: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8.json ==
-INFORMATION: Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134: Observation.value.ofType(CodeableConcept): The display "Independent" is not a valid display for the code {http://loinc.org}LA11539-6 - should be one of ["Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134: Observation.value.ofType(CodeableConcept): The display "Independent" is not a valid display for the code {http://loinc.org}LA11539-6 - should be one of [Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
-WARNING: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136: Observation.value.ofType(CodeableConcept): The display "Independent" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of ["Independent - Resident completes the activity by him/herself with no assistance from a helper."] (from http://tx.fhir.org/r4)
+WARNING: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136: Observation.value.ofType(CodeableConcept): The display "Independent" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [Independent - Resident completes the activity by him/herself with no assistance from a helper.] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35.json ==
-INFORMATION: Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/observation-BSJ-Prior-Level-Of-Function-1.json ==
-INFORMATION: Observation/BSJ-Prior-Level-Of-Function-1: Observation: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf
+WARNING: Observation/BSJ-Prior-Level-Of-Function-1: Observation.extension[1].value.ofType(CodeableConcept): No code provided, and a code should be provided from the value set http://loinc.org/vs/LL4309-2 (http://loinc.org/vs/LL4309-2)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/organization-Org-01.json ==
-INFORMATION: Organization/Org-01: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/organization-Org-02.json ==
-INFORMATION: Organization/Org-02: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/organization-Org-03.json ==
-INFORMATION: Organization/Org-03: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/organization-provider-org-01.json ==
-INFORMATION: Organization/provider-org-01: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/patient-patientBSJ1.json ==
-INFORMATION: Patient/patientBSJ1: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-DanielGranger.json ==
-INFORMATION: Practitioner/Practitioner-DanielGranger: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-HoneyJones.json ==
-INFORMATION: Practitioner/Practitioner-HoneyJones: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-JenCadbury.json ==
-INFORMATION: Practitioner/Practitioner-JenCadbury: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-JennyGlass.json ==
-INFORMATION: Practitioner/Practitioner-JennyGlass: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-JohnSmith.json ==
-INFORMATION: Practitioner/Practitioner-JohnSmith: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-LunaBaskins.json ==
-INFORMATION: Practitioner/Practitioner-LunaBaskins: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-NoraOlogist.json ==
-INFORMATION: Practitioner/Practitioner-NoraOlogist: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-RonBurgendy.json ==
-INFORMATION: Practitioner/Practitioner-RonBurgendy: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-RonMarble.json ==
-INFORMATION: Practitioner/Practitioner-RonMarble: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-SallySmith.json ==
-INFORMATION: Practitioner/Practitioner-SallySmith: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitioner-Practitioner-ScottDumble.json ==
-INFORMATION: Practitioner/Practitioner-ScottDumble: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitionerrole-Role-OT.json ==
-INFORMATION: PractitionerRole/Role-OT: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitionerrole-Role-PT.json ==
-INFORMATION: PractitionerRole/Role-PT: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitionerrole-Role-RN.json ==
-INFORMATION: PractitionerRole/Role-RN: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/practitionerrole-provider-role-pcp.json ==
-INFORMATION: PractitionerRole/provider-role-pcp: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-WARNING: PractitionerRole/provider-role-pcp: PractitionerRole.code[0].coding[0]: The display "Primary Care" is not a valid display for the code {http://nucc.org/provider-taxonomy}261QP2300X - should be one of ["Primary Care Clinic/Center"] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#261QP2300X'
+WARNING: PractitionerRole/provider-role-pcp: PractitionerRole.code[0].coding[0]: The display "Primary Care" is not a valid display for the code {http://nucc.org/provider-taxonomy}261QP2300X - should be one of [Primary Care Clinic/Center] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#261QP2300X'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-HH-Discharge-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-HH-Discharge-Mobility-SelfCare-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-HH-StartOfCare-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-HH-StartOfCare-Mobility-SelfCare-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-Hospital-Admission-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-Hospital-Admission-Mobility-SelfCare-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-Hospital-Discharge-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-Hospital-DischargeGoal-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-Admission-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-Admission-Mobility-SelfCare-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-Discharge-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/examples/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.json ==
-INFORMATION: QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1: QuestionnaireResponse: Validate resource against profile http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr
 WARNING: QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/extensions/structuredefinition-assistance-required.json ==
-INFORMATION: StructureDefinition/assistance-required: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/assistance-required: StructureDefinition.differential.element[3].binding: The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition/assistance-required: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/extensions/structuredefinition-device-patient-used.json ==
-INFORMATION: StructureDefinition/device-patient-used: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-bfs.json ==
-INFORMATION: StructureDefinition/pacio-bfs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-dev.json ==
-INFORMATION: StructureDefinition/pacio-dev: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-fs.json ==
-INFORMATION: StructureDefinition/pacio-fs: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-fsc.json ==
+WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-functional-qr.json ==
-INFORMATION: StructureDefinition/pacio-functional-qr: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/profiles/structuredefinition-pacio-plf.json ==
-INFORMATION: StructureDefinition/pacio-plf: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/pacio-plf: StructureDefinition.snapshot.element[27].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+ERROR: StructureDefinition/pacio-plf: StructureDefinition.differential.element[9].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
 WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/build/input/resources/capabilitystatement-pacio-fs.json ==
-INFORMATION: CapabilityStatement/pacio-fs: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement

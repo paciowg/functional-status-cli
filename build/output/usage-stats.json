@@ -20,16 +20,16 @@
     }
   ],
   "profiles": {
-    "Observation": [
-      {
-        "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf",
-        "title": "Prior Level Of Function"
-      }
-    ],
     "DeviceUseStatement": [
       {
         "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
         "title": "UseOfDevice"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf",
+        "title": "PACIO Prior Level Of Function"
       }
     ],
     "QuestionnaireResponse": [

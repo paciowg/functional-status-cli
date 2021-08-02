@@ -14,9 +14,9 @@
   "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
   "version": "0.1.0",
   "name": "FunctionalStatus",
-  "title": "Functional Status",
+  "title": "PACIO Functional Status",
   "status": "active",
-  "description": "An exchange of functional status data for a patient.",
+  "description": "An exchange of functional status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -136,7 +136,15 @@
         "id": "Observation.subject",
         "path": "Observation.subject",
         "short": "Subject should only be Patient for functional status",
-        "min": 1
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+            ]
+          }
+        ]
       },
       {
         "id": "Observation.focus",
@@ -221,22 +229,22 @@
       {
         "id": "Observation.derivedFrom",
         "path": "Observation.derivedFrom",
-        "short": "Currently not used in FunctionalStatus."
+        "short": "Should point back to the QuestionnaireResponse that this resource is derived from."
       },
       {
         "id": "Observation.component",
         "path": "Observation.component",
-        "short": "Currently not used in FunctionalStatus."
+        "short": "If used, the answers for the associated questions (for the purpose of grouping answers under a heading and displaying side-by-side columns)"
       },
       {
         "id": "Observation.component.code",
         "path": "Observation.component.code",
-        "short": "Currently not used in FunctionalStatus."
+        "short": "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns)."
       },
       {
         "id": "Observation.component.value[x]",
         "path": "Observation.component.value[x]",
-        "short": "Currently not used in FunctionalStatus."
+        "short": "The code and text for the answer to the (associated) question."
       }
     ]
   }

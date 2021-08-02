@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOFunctionalStatusImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Functional Status Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-09T08:31:53-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-30T14:57:56-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];
@@ -306,11 +306,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/pacio-bfs" ]
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/pacio-fs" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bundled Functional Status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A point in time bundle of functional status observations for a patient." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO Functional Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of functional status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
@@ -320,11 +320,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/pacio-fs" ]
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/pacio-fsc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Functional Status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of functional status data for a patient." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO Functional Status Collection" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A point in time collection of functional status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -351,8 +351,8 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/pacio-plf" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Prior Level Of Function" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of prior level of function data for a patient." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO Prior Level Of Function" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
@@ -380,7 +380,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/assistance-required" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AssistanceRequired" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Associated functional status used for display purposes." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Associated with prior level of function to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to answer functional related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 6;
@@ -408,10 +408,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-HH-Discharge-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 8;
@@ -714,10 +714,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-HH-Discharge-Mobility-SelfCare-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-HH-Discharge-Mobility-SelfCare-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 26;
@@ -850,10 +850,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-HH-StartOfCare-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 34;
@@ -1156,10 +1156,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-HH-StartOfCare-Mobility-SelfCare-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 52;
@@ -1292,10 +1292,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-Hospital-Admission-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 60;
@@ -1630,10 +1630,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-Hospital-Admission-Mobility-SelfCare-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 80;
@@ -1766,10 +1766,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-Hospital-Discharge-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 88;
@@ -2152,10 +2152,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-Hospital-Discharge-Mobility-SelfCare-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 111;
@@ -2288,10 +2288,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-Hospital-DischargeGoal-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-Hospital-DischargeGoal-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 119;
@@ -2594,10 +2594,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-SNF-Admission-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 137;
@@ -2980,10 +2980,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Admission-Mobility-SelfCare-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-SNF-Admission-Mobility-SelfCare-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 160;
@@ -3116,10 +3116,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-SNF-Discharge-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 168;
@@ -3518,10 +3518,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-SNF-Discharge-Mobility-SelfCare-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 192;
@@ -3654,10 +3654,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-SNF-DischargeGoal-Mobility-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 200;
@@ -3960,10 +3960,10 @@
          fhir:Reference.reference [ fhir:value "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BFS-SNF-DischargeGoal-Mobility-SelfCare-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of BundledFunctionalStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of FunctionalStatusCollection" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
-         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+         fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
+         fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
        fhir:index 218;

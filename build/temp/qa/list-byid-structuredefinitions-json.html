@@ -4,19 +4,19 @@
   <link rel="stylesheet" href="fhir.css"/>
 </head>
 <body>
- <li><a href="StructureDefinition-assistance-required.json.html">AssistanceRequired</a> <p>Associated functional status used for display purposes.</p>
+ <li><a href="StructureDefinition-assistance-required.json.html">AssistanceRequired</a> <p>Associated with prior level of function to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to answer functional related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension.</p>
 </li>
  <li><a href="StructureDefinition-device-patient-used.json.html">DevicePatientUsed</a> <p>A device used by a patient during a functional status assessment.</p>
 </li>
- <li><a href="StructureDefinition-pacio-bfs.json.html">Bundled Functional Status</a> <p>A point in time bundle of functional status observations for a patient.</p>
-</li>
  <li><a href="StructureDefinition-pacio-dev.json.html">UseOfDevice</a> <p>A device used by a Patient during a functional status assessment.</p>
 </li>
- <li><a href="StructureDefinition-pacio-fs.json.html">Functional Status</a> <p>An exchange of functional status data for a patient.</p>
+ <li><a href="StructureDefinition-pacio-fs.json.html">PACIO Functional Status</a> <p>An exchange of functional status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).</p>
+</li>
+ <li><a href="StructureDefinition-pacio-fsc.json.html">PACIO Functional Status Collection</a> <p>A point in time collection of functional status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).</p>
 </li>
  <li><a href="StructureDefinition-pacio-functional-qr.json.html">PACIO Questionnaire Response</a> <p>A completed, or sections of a completed, CMS PAC assessment.</p>
 </li>
- <li><a href="StructureDefinition-pacio-plf.json.html">Prior Level Of Function</a> <p>An exchange of prior level of function data for a patient.</p>
+ <li><a href="StructureDefinition-pacio-plf.json.html">PACIO Prior Level Of Function</a> <p>An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data.</p>
 </li>
 </body>
 </html>

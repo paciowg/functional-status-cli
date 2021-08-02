@@ -11,9 +11,9 @@
   fhir:Resource.id [ fhir:value "BFS-SNF-Admission-Mobility-SelfCare-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs";
+       fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc";
        fhir:index 0;
-       fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs>
+       fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
      ]
   ];
   fhir:DomainResource.text [

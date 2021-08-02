@@ -39,10 +39,11 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:365cb92f-690d-405c-b5d5-5a5df34958f0",
-    "timestamp" : "2021-06-08T14:12:29.592Z",
+    "identifier" : "urn:uuid:cfaccbdb-d4db-4072-bdd5-35af866d0a65",
+    "timestamp" : "2021-07-26T23:23:41.829Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -140,10 +141,11 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3c8535fb-ad83-4bc6-a0b7-52e259d5f3fa",
-    "timestamp" : "2021-06-08T11:42:33.873Z",
+    "identifier" : "urn:uuid:279f9170-b67d-4a5e-a7a7-522d11dba03c",
+    "timestamp" : "2021-07-26T23:23:42.095Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -237,14 +239,15 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:9583b428-4a3a-405c-a663-13fc32b07792",
-    "timestamp" : "2021-06-08T11:42:33.920Z",
+    "identifier" : "urn:uuid:ca3cfd74-bee8-4e5e-b95f-dc02ab016c01",
+    "timestamp" : "2021-07-26T23:23:42.220Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5277,10 +5280,11 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bc87b93b-6476-4d9b-806b-f1663b0b7bcc",
-    "timestamp" : "2021-06-08T11:42:34.154Z",
+    "identifier" : "urn:uuid:996ad6c4-f9cd-4801-9be7-06b7ce5a8c70",
+    "timestamp" : "2021-07-26T23:23:42.876Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5296,7 +5300,7 @@ e: {
     "contains" : [{
       "system" : "http://loinc.org",
       "code" : "72166-2",
-      "display" : "Tobacco smoking status NHIS"
+      "display" : "Tobacco smoking status"
     }]
   }
 },
@@ -5740,7 +5744,7 @@ v: {
 v: {
   "display" : "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.",
   "severity" : "warning",
-  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [\"Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Supervision or touching assistance\" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -8215,7 +8219,7 @@ v: {
 v: {
   "display" : "Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.",
   "severity" : "warning",
-  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA11539-6 - should be one of [\"Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA11539-6 - should be one of [Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -8260,7 +8264,7 @@ v: {
 v: {
   "display" : "Independent - Resident completes the activity by him/herself with no assistance from a helper.",
   "severity" : "warning",
-  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [\"Independent - Resident completes the activity by him/herself with no assistance from a helper.\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Independent\" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [Independent - Resident completes the activity by him/herself with no assistance from a helper.] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {

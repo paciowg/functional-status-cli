@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5306a0c1-4e68-499a-be63-da475dc780b7-99",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5306a0c1-4e68-499a-be63-da475dc780b7-99",
+  "id" : "fe0011a8-43ff-4e2b-a950-0bd4809b194f-48",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fe0011a8-43ff-4e2b-a950-0bd4809b194f-48",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndFunctionalStatus",
-  "title" : "Intersection of US Core Smoking Status Observation Profile And Functional Status",
+  "title" : "Intersection of US Core Smoking Status Observation Profile And PACIO Functional Status",
   "status" : "active",
-  "date" : "2021-06-09T08:31:58-07:00",
+  "date" : "2021-07-30T14:58:02-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -486,7 +486,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-48"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fe0011a8-43ff-4e2b-a950-0bd4809b194f-51"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -578,7 +578,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-51"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fe0011a8-43ff-4e2b-a950-0bd4809b194f-54"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1548,7 +1548,7 @@
     },
     {
       "path" : "Observation.derivedFrom",
-      "short" : "left: Related measurements the observation is made from; right: Currently not used in FunctionalStatus.",
+      "short" : "left: Related measurements the observation is made from; right: Should point back to the QuestionnaireResponse that this resource is derived from.",
       "definition" : "The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image.",
       "comment" : "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes] below.",
       "min" : 0,
@@ -1584,7 +1584,7 @@
     },
     {
       "path" : "Observation.component",
-      "short" : "left: Component results; right: Currently not used in FunctionalStatus.",
+      "short" : "left: Component results; right: If used, the answers for the associated questions (for the purpose of grouping answers under a heading and displaying side-by-side columns)",
       "definition" : "Some observations have multiple component observations.  These component observations are expressed as separate code value pairs that share the same attributes.  Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations.",
       "comment" : "For a discussion on the ways Observations can be assembled in groups together see [Notes] below.",
       "requirements" : "Component observations share the same attributes in the Observation resource as the primary observation and are always treated a part of a single observation (they are not separable).   However, the reference range for the primary observation value is not inherited by the component values and is required when appropriate for each component observation.",
@@ -1711,7 +1711,7 @@
     },
     {
       "path" : "Observation.component.code",
-      "short" : "left: Type of component observation (code / type); right: Currently not used in FunctionalStatus.",
+      "short" : "left: Type of component observation (code / type); right: If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns).",
       "definition" : "Describes what was observed. Sometimes this is called the observation \"code\".",
       "comment" : "*All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.",
       "requirements" : "Knowing what kind of observation is being made is essential to understanding the observation.",
@@ -1759,7 +1759,7 @@
     },
     {
       "path" : "Observation.component.value[x]",
-      "short" : "left: Actual component result; right: Currently not used in FunctionalStatus.",
+      "short" : "left: Actual component result; right: The code and text for the answer to the (associated) question.",
       "definition" : "The information determined as a result of making the observation, if the information has a simple value.",
       "comment" : "Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section] below.",
       "requirements" : "An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.",

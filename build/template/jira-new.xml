@@ -235,7 +235,7 @@
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis8" key="Condition-BSJ-Diagnosis8" name="BSJ-Diagnosis8"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis9" key="Condition-BSJ-Diagnosis9" name="BSJ-Diagnosis9"/>
 <artifact id="Observation/BSJ-Prior-Level-Of-Function-1" key="Observation-BSJ-Prior-Level-Of-Function-1" name="BSJ-Prior-Level-Of-Function-1"/>
-<artifact id="StructureDefinition/pacio-bfs" key="StructureDefinition-pacio-bfs" name="Bundled Functional Status"/>
+<artifact deprecated="true" id="StructureDefinition/pacio-bfs" key="StructureDefinition-pacio-bfs" name="Bundled Functional Status"/>
 <artifact id="Device/CMS-Device-1" key="Device-CMS-Device-1" name="CMS-Device-1"/>
 <artifact id="Device/CMS-Device-2" key="Device-CMS-Device-2" name="CMS-Device-2"/>
 <artifact id="Device/CMS-Device-3" key="Device-CMS-Device-3" name="CMS-Device-3"/>
@@ -244,14 +244,16 @@
 <artifact id="Device/CMS-Device-6" key="Device-CMS-Device-6" name="CMS-Device-6"/>
 <artifact id="Device/CMS-Device-7" key="Device-CMS-Device-7" name="CMS-Device-7"/>
 <artifact id="StructureDefinition/device-patient-used" key="StructureDefinition-device-patient-used" name="DevicePatientUsed"/>
-<artifact id="StructureDefinition/pacio-fs" key="StructureDefinition-pacio-fs" name="Functional Status"/>
 <artifact id="Organization/Org-01" key="Organization-Org-01" name="Org-01"/>
 <artifact id="Organization/Org-02" key="Organization-Org-02" name="Org-02"/>
 <artifact id="Organization/Org-03" key="Organization-Org-03" name="Org-03"/>
 <artifact id="Location/Org-Loc-01" key="Location-Org-Loc-01" name="Org-Loc-01"/>
 <artifact id="Location/Org-Loc-02" key="Location-Org-Loc-02" name="Org-Loc-02"/>
 <artifact id="Location/Org-Loc-03" key="Location-Org-Loc-03" name="Org-Loc-03"/>
+<artifact id="StructureDefinition/pacio-fs" key="StructureDefinition-pacio-fs" name="PACIO Functional Status"/>
 <artifact id="CapabilityStatement/pacio-fs" key="CapabilityStatement-pacio-fs" name="PACIO Functional Status Capability Statement"/>
+<artifact id="StructureDefinition/pacio-fsc" key="StructureDefinition-pacio-fsc" name="PACIO Functional Status Collection"/>
+<artifact id="StructureDefinition/pacio-plf" key="StructureDefinition-pacio-plf" name="PACIO Prior Level Of Function"/>
 <artifact id="StructureDefinition/pacio-functional-qr" key="StructureDefinition-pacio-functional-qr" name="PACIO Questionnaire Response"/>
 <artifact id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>
 <artifact id="Practitioner/Practitioner-HoneyJones" key="Practitioner-Practitioner-HoneyJones" name="Practitioner-HoneyJones"/>
@@ -264,7 +266,6 @@
 <artifact id="Practitioner/Practitioner-RonMarble" key="Practitioner-Practitioner-RonMarble" name="Practitioner-RonMarble"/>
 <artifact id="Practitioner/Practitioner-SallySmith" key="Practitioner-Practitioner-SallySmith" name="Practitioner-SallySmith"/>
 <artifact id="Practitioner/Practitioner-ScottDumble" key="Practitioner-Practitioner-ScottDumble" name="Practitioner-ScottDumble"/>
-<artifact id="StructureDefinition/pacio-plf" key="StructureDefinition-pacio-plf" name="Prior Level Of Function"/>
 <artifact id="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1" key="QuestionnaireResponse-QResponse-HH-Discharge-Mobility-1" name="QResponse-HH-Discharge-Mobility-1"/>
 <artifact id="QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1" key="QuestionnaireResponse-QResponse-HH-Discharge-Mobility-SelfCare-1" name="QResponse-HH-Discharge-Mobility-SelfCare-1"/>
 <artifact id="QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1" key="QuestionnaireResponse-QResponse-HH-StartOfCare-Mobility-1" name="QResponse-HH-StartOfCare-Mobility-1"/>

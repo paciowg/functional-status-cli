@@ -2,8 +2,8 @@ Alias:  LNC = http://loinc.org
 Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 Instance: BFS-SNF-Discharge-Mobility-SelfCare-1
-InstanceOf: BundledFunctionalStatus
-Description: "An instance of BundledFunctionalStatus"
+InstanceOf: FunctionalStatusCollection
+Description: "An instance of FunctionalStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-08-01T11:00:00-05:00"
@@ -26,8 +26,8 @@ Description: "An instance of BundledFunctionalStatus"
 * derivedFrom.display = "Questionnaire Response"
 
 Instance: BFS-SNF-DischargeGoal-Mobility-SelfCare-1
-InstanceOf: BundledFunctionalStatus
-Description: "An instance of BundledFunctionalStatus"
+InstanceOf: FunctionalStatusCollection
+Description: "An instance of FunctionalStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-07-11T16:32:00-05:00"
@@ -50,8 +50,8 @@ Description: "An instance of BundledFunctionalStatus"
 * derivedFrom.display = "Questionnaire Response"
 
 Instance: BFS-Hospital-Discharge-Mobility-SelfCare-1
-InstanceOf: BundledFunctionalStatus
-Description: "An instance of BundledFunctionalStatus"
+InstanceOf: FunctionalStatusCollection
+Description: "An instance of FunctionalStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-07-10T14:34:00-05:00"
@@ -74,8 +74,8 @@ Description: "An instance of BundledFunctionalStatus"
 * derivedFrom.display = "Questionnaire Response"
 
 Instance: BFS-SNF-Admission-Mobility-SelfCare-1
-InstanceOf: BundledFunctionalStatus
-Description: "An instance of BundledFunctionalStatus"
+InstanceOf: FunctionalStatusCollection
+Description: "An instance of FunctionalStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-07-11T16:32:00-05:00"
@@ -98,8 +98,8 @@ Description: "An instance of BundledFunctionalStatus"
 * derivedFrom.display = "Questionnaire Response"
 
 Instance: BFS-Hospital-Admission-Mobility-SelfCare-1
-InstanceOf: BundledFunctionalStatus
-Description: "An instance of BundledFunctionalStatus"
+InstanceOf: FunctionalStatusCollection
+Description: "An instance of FunctionalStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-07-08T16:00:00-05:00"
@@ -122,8 +122,8 @@ Description: "An instance of BundledFunctionalStatus"
 * derivedFrom.display = "Questionnaire Response"
 
 Instance: BFS-HH-Discharge-Mobility-SelfCare-1
-InstanceOf: BundledFunctionalStatus
-Description: "An instance of BundledFunctionalStatus"
+InstanceOf: FunctionalStatusCollection
+Description: "An instance of FunctionalStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-08-30T14:00:00-05:00"
@@ -146,8 +146,8 @@ Description: "An instance of BundledFunctionalStatus"
 * derivedFrom.display = "Questionnaire Response"
 
 Instance: BFS-HH-StartOfCare-Mobility-SelfCare-1
-InstanceOf: BundledFunctionalStatus
-Description: "An instance of BundledFunctionalStatus"
+InstanceOf: FunctionalStatusCollection
+Description: "An instance of FunctionalStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-08-02T13:31:00-05:00"

@@ -187,20 +187,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-pacio-bfs.html"
-                     title="StructureDefinition/pacio-bfs">Bundled Functional Status</a>
+                  <a href="StructureDefinition-pacio-fs.html"
+                     title="StructureDefinition/pacio-fs">PACIO Functional Status</a>
                </td>
                <td>
-<p>A point in time bundle of functional status observations for a patient.</p>
+<p>An exchange of functional status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-pacio-fs.html"
-                     title="StructureDefinition/pacio-fs">Functional Status</a>
+                  <a href="StructureDefinition-pacio-fsc.html"
+                     title="StructureDefinition/pacio-fsc">PACIO Functional Status Collection</a>
                </td>
                <td>
-<p>An exchange of functional status data for a patient.</p>
+<p>A point in time collection of functional status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).</p>
 </td>
             </tr>
             <tr>
@@ -215,10 +215,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-pacio-plf.html"
-                     title="StructureDefinition/pacio-plf">Prior Level Of Function</a>
+                     title="StructureDefinition/pacio-plf">PACIO Prior Level Of Function</a>
                </td>
                <td>
-<p>An exchange of prior level of function data for a patient.</p>
+<p>An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data.</p>
 </td>
             </tr>
             <tr>
@@ -248,7 +248,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/assistance-required">AssistanceRequired</a>
                </td>
                <td>
-<p>Associated functional status used for display purposes.</p>
+<p>Associated with prior level of function to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to answer functional related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension.</p>
 </td>
             </tr>
             <tr>
@@ -278,7 +278,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-HH-Discharge-Mobility-1">BFS-HH-Discharge-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -440,7 +440,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1">BFS-HH-Discharge-Mobility-SelfCare-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -512,7 +512,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-HH-StartOfCare-Mobility-1">BFS-HH-StartOfCare-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -674,7 +674,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1">BFS-HH-StartOfCare-Mobility-SelfCare-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -746,7 +746,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-Hospital-Admission-Mobility-1">BFS-Hospital-Admission-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -926,7 +926,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1">BFS-Hospital-Admission-Mobility-SelfCare-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -998,7 +998,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-Hospital-Discharge-Mobility-1">BFS-Hospital-Discharge-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -1205,7 +1205,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1">BFS-Hospital-Discharge-Mobility-SelfCare-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -1277,7 +1277,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-Hospital-DischargeGoal-Mobility-1">BFS-Hospital-DischargeGoal-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -1439,7 +1439,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-SNF-Admission-Mobility-1">BFS-SNF-Admission-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -1646,7 +1646,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1">BFS-SNF-Admission-Mobility-SelfCare-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -1718,7 +1718,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-SNF-Discharge-Mobility-1">BFS-SNF-Discharge-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -1934,7 +1934,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1">BFS-SNF-Discharge-Mobility-SelfCare-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -2006,7 +2006,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-SNF-DischargeGoal-Mobility-1">BFS-SNF-DischargeGoal-Mobility-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -2168,7 +2168,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1">BFS-SNF-DischargeGoal-Mobility-SelfCare-1</a>
                </td>
                <td>
-<p>An instance of BundledFunctionalStatus</p>
+<p>An instance of FunctionalStatusCollection</p>
 </td>
             </tr>
             <tr>
@@ -2667,7 +2667,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 9, 2021 08:31-0700">2021-06-09</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 30, 2021 14:57-0700">2021-07-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

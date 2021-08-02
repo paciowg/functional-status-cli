@@ -10,7 +10,7 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
-  "date": "2021-06-09T08:31:53-07:00",
+  "date": "2021-07-30T14:57:56-07:00",
   "contact": [
     {
       "name": "PACIO project",
@@ -322,10 +322,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/pacio-bfs"
+          "reference": "StructureDefinition/pacio-fs"
         },
-        "name": "Bundled Functional Status",
-        "description": "A point in time bundle of functional status observations for a patient.",
+        "name": "PACIO Functional Status",
+        "description": "An exchange of functional status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).",
         "exampleBoolean": false
       },
       {
@@ -336,10 +336,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/pacio-fs"
+          "reference": "StructureDefinition/pacio-fsc"
         },
-        "name": "Functional Status",
-        "description": "An exchange of functional status data for a patient.",
+        "name": "PACIO Functional Status Collection",
+        "description": "A point in time collection of functional status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).",
         "exampleBoolean": false
       },
       {
@@ -366,8 +366,8 @@
         "reference": {
           "reference": "StructureDefinition/pacio-plf"
         },
-        "name": "Prior Level Of Function",
-        "description": "An exchange of prior level of function data for a patient.",
+        "name": "PACIO Prior Level Of Function",
+        "description": "An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data.",
         "exampleBoolean": false
       },
       {
@@ -395,7 +395,7 @@
           "reference": "StructureDefinition/assistance-required"
         },
         "name": "AssistanceRequired",
-        "description": "Associated functional status used for display purposes.",
+        "description": "Associated with prior level of function to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to answer functional related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension.",
         "exampleBoolean": false
       },
       {
@@ -423,8 +423,8 @@
           "reference": "Observation/BFS-HH-Discharge-Mobility-1"
         },
         "name": "BFS-HH-Discharge-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -675,8 +675,8 @@
           "reference": "Observation/BFS-HH-Discharge-Mobility-SelfCare-1"
         },
         "name": "BFS-HH-Discharge-Mobility-SelfCare-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -787,8 +787,8 @@
           "reference": "Observation/BFS-HH-StartOfCare-Mobility-1"
         },
         "name": "BFS-HH-StartOfCare-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -1039,8 +1039,8 @@
           "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1"
         },
         "name": "BFS-HH-StartOfCare-Mobility-SelfCare-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -1151,8 +1151,8 @@
           "reference": "Observation/BFS-Hospital-Admission-Mobility-1"
         },
         "name": "BFS-Hospital-Admission-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -1429,8 +1429,8 @@
           "reference": "Observation/BFS-Hospital-Admission-Mobility-SelfCare-1"
         },
         "name": "BFS-Hospital-Admission-Mobility-SelfCare-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -1541,8 +1541,8 @@
           "reference": "Observation/BFS-Hospital-Discharge-Mobility-1"
         },
         "name": "BFS-Hospital-Discharge-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -1858,8 +1858,8 @@
           "reference": "Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1"
         },
         "name": "BFS-Hospital-Discharge-Mobility-SelfCare-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -1970,8 +1970,8 @@
           "reference": "Observation/BFS-Hospital-DischargeGoal-Mobility-1"
         },
         "name": "BFS-Hospital-DischargeGoal-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -2222,8 +2222,8 @@
           "reference": "Observation/BFS-SNF-Admission-Mobility-1"
         },
         "name": "BFS-SNF-Admission-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -2539,8 +2539,8 @@
           "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1"
         },
         "name": "BFS-SNF-Admission-Mobility-SelfCare-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -2651,8 +2651,8 @@
           "reference": "Observation/BFS-SNF-Discharge-Mobility-1"
         },
         "name": "BFS-SNF-Discharge-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -2981,8 +2981,8 @@
           "reference": "Observation/BFS-SNF-Discharge-Mobility-SelfCare-1"
         },
         "name": "BFS-SNF-Discharge-Mobility-SelfCare-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -3093,8 +3093,8 @@
           "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-1"
         },
         "name": "BFS-SNF-DischargeGoal-Mobility-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [
@@ -3345,8 +3345,8 @@
           "reference": "Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1"
         },
         "name": "BFS-SNF-DischargeGoal-Mobility-SelfCare-1",
-        "description": "An instance of BundledFunctionalStatus",
-        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"
+        "description": "An instance of FunctionalStatusCollection",
+        "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"
       },
       {
         "extension": [

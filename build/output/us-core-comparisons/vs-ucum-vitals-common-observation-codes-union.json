@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "5306a0c1-4e68-499a-be63-da475dc780b7-59",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-59",
+  "id" : "fe0011a8-43ff-4e2b-a950-0bd4809b194f-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/fe0011a8-43ff-4e2b-a950-0bd4809b194f-8",
   "name" : "UnionVitalSignsUnitsAndLOINCCodes",
   "title" : "Union of Vital Signs Units And LOINC Codes",
   "status" : "draft",
-  "date" : "2021-06-09T08:31:58-07:00",
+  "date" : "2021-07-30T14:58:02-07:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -62,62 +62,62 @@
     "contains" : [{
       "system" : "http://unitsofmeasure.org",
       "code" : "%",
-      "display" : "percent"
+      "display" : "%"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "cm",
-      "display" : "centimeter"
+      "display" : "cm"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "[in_i]",
-      "display" : "inch (international)"
+      "display" : "[in_i]"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "kg",
-      "display" : "kilogram"
+      "display" : "kg"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "g",
-      "display" : "gram"
+      "display" : "g"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "[lb_av]",
-      "display" : "pound (US and British)"
+      "display" : "[lb_av]"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "Cel",
-      "display" : "degree Celsius"
+      "display" : "Cel"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "[degF]",
-      "display" : "degree Fahrenheit"
+      "display" : "[degF]"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "mm[Hg]",
-      "display" : "millimeter of mercury"
+      "display" : "mm[Hg]"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "/min",
-      "display" : "per minute"
+      "display" : "/min"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "kg/m2",
-      "display" : "kilogram / (meter ^ 2)"
+      "display" : "kg/m2"
     },
     {
       "system" : "http://unitsofmeasure.org",
       "code" : "m2",
-      "display" : "square meter"
+      "display" : "m2"
     },
     {
       "system" : "http://loinc.org",

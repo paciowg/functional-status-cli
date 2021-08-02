@@ -18,6 +18,7 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/images/BFS_Mobility_DischargeGoal_Example.png            | copied    | ../ig-data/input/images/BFS_Mobility_DischargeGoal_Example.png            |
 | input/images/BFS_Mobility_Discharge_and_DeviceUsed_Example.png | copied    | ../ig-data/input/images/BFS_Mobility_Discharge_and_DeviceUsed_Example.png |
 | input/images/BFS_SelfCare_Admission_Example.png                | copied    | ../ig-data/input/images/BFS_SelfCare_Admission_Example.png                |
+| input/images/FSC_Mobility_DischargePerformance_Example.png     | copied    | ../ig-data/input/images/FSC_Mobility_DischargePerformance_Example.png     |
 | input/images/FS_Mobility_Admission_TwoColumn_Example.png       | copied    | ../ig-data/input/images/FS_Mobility_Admission_TwoColumn_Example.png       |
 | input/images/Functional_Status_Use_Case.png                    | copied    | ../ig-data/input/images/Functional_Status_Use_Case.png                    |
 | input/images/PLOF_Example.png                                  | copied    | ../ig-data/input/images/PLOF_Example.png                                  |

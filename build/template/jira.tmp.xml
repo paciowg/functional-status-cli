@@ -265,7 +265,7 @@
    <name value="PACIOFunctionalStatusImplementationGuide"/>
    <title value="PACIO Functional Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-06-09T08:31:53-07:00"/>
+   <date value="2021-07-30T14:57:56-07:00"/>
    <contact>
       <name value="PACIO project"/>
       <telecom>
@@ -333,13 +333,13 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-pacio-bfs.html"/>
+            <valueUri value="StructureDefinition-pacio-fs.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/pacio-bfs"/>
+            <reference value="StructureDefinition/pacio-fs"/>
          </reference>
-         <name value="Bundled Functional Status"/>
-         <description value="A point in time bundle of functional status observations for a patient."/>
+         <name value="PACIO Functional Status"/>
+         <description value="An exchange of functional status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
       </resource>
@@ -348,13 +348,13 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-pacio-fs.html"/>
+            <valueUri value="StructureDefinition-pacio-fsc.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/pacio-fs"/>
+            <reference value="StructureDefinition/pacio-fsc"/>
          </reference>
-         <name value="Functional Status"/>
-         <description value="An exchange of functional status data for a patient."/>
+         <name value="PACIO Functional Status Collection"/>
+         <description value="A point in time collection of functional status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
       </resource>
@@ -383,8 +383,8 @@
          <reference>
             <reference value="StructureDefinition/pacio-plf"/>
          </reference>
-         <name value="Prior Level Of Function"/>
-         <description value="An exchange of prior level of function data for a patient."/>
+         <name value="PACIO Prior Level Of Function"/>
+         <description value="An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
       </resource>
@@ -414,7 +414,7 @@
             <reference value="StructureDefinition/assistance-required"/>
          </reference>
          <name value="AssistanceRequired"/>
-         <description value="Associated functional status used for display purposes."/>
+         <description value="Associated with prior level of function to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to answer functional related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-extension"/>
       </resource>
@@ -444,8 +444,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -714,8 +714,8 @@
             <reference value="Observation/BFS-HH-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-HH-Discharge-Mobility-SelfCare-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -834,8 +834,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-1"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1104,8 +1104,8 @@
             <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-HH-StartOfCare-Mobility-SelfCare-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1224,8 +1224,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1522,8 +1522,8 @@
             <reference value="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-Hospital-Admission-Mobility-SelfCare-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1642,8 +1642,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1982,8 +1982,8 @@
             <reference value="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-Hospital-Discharge-Mobility-SelfCare-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -2102,8 +2102,8 @@
             <reference value="Observation/BFS-Hospital-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="BFS-Hospital-DischargeGoal-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -2372,8 +2372,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -2712,8 +2712,8 @@
             <reference value="Observation/BFS-SNF-Admission-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-Admission-Mobility-SelfCare-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -2832,8 +2832,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3186,8 +3186,8 @@
             <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-Discharge-Mobility-SelfCare-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3306,8 +3306,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-1"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -3576,8 +3576,8 @@
             <reference value="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
          </reference>
          <name value="BFS-SNF-DischargeGoal-Mobility-SelfCare-1"/>
-         <description value="An instance of BundledFunctionalStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs"/>
+         <description value="An instance of FunctionalStatusCollection"/>
+         <exampleCanonical value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -4412,13 +4412,13 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-pacio-bfs.html"/>
-               <title value="Bundled Functional Status"/>
+               <nameUrl value="StructureDefinition-pacio-fs.html"/>
+               <title value="PACIO Functional Status"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-pacio-fs.html"/>
-               <title value="Functional Status"/>
+               <nameUrl value="StructureDefinition-pacio-fsc.html"/>
+               <title value="PACIO Functional Status Collection"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -4428,7 +4428,7 @@
             </page>
             <page>
                <nameUrl value="StructureDefinition-pacio-plf.html"/>
-               <title value="Prior Level Of Function"/>
+               <title value="PACIO Prior Level Of Function"/>
                <generation value="generated"/>
             </page>
             <page>

@@ -17,21 +17,21 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "additional" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient is a community ambulator, able to attend desired activites and able to care for herself independently</div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-provider-org-loc-01.html\">Generated Summary: status: active; name: Primary Care</a></p><p><b>AssistanceRequired</b>: <span title=\"Codes: \">Independent</span></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 10158-4}\">History of Functional status Narrative</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: 2019-07-01 --&gt; 2020-11-30</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-pcp.html\">Generated Summary: active; <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care</span></a></p><p><b>value</b>: Patient is a community ambulator, able to attend desired activites and able to care for herself independently.</p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required" ];
-     fhir:Extension.valueCodeableConcept [
-       fhir:CodeableConcept.text [ fhir:value "Independent" ]
-     ]
-  ], [
-     fhir:index 1;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
        fhir:link <http://paciowg.github.io/functional-status-ig/Location/provider-org-loc-01>;
        fhir:Reference.reference [ fhir:value "Location/provider-org-loc-01" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.text [ fhir:value "Independent" ]
      ]
   ];
   fhir:Observation.status [ fhir:value "final"];
@@ -54,18 +54,10 @@
   ];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-JohnSmith>;
-     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ]
-  ], [
-     fhir:index 1;
      fhir:link <http://paciowg.github.io/functional-status-ig/PractitionerRole/provider-role-pcp>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-pcp" ]
-  ], [
-     fhir:index 2;
-     fhir:link <http://paciowg.github.io/functional-status-ig/Organization/provider-org-01>;
-     fhir:Reference.reference [ fhir:value "Organization/provider-org-01" ];
-     fhir:Reference.display [ fhir:value "Organization" ]
-  ] .
+  ];
+  fhir:Observation.valueString [ fhir:value "Patient is a community ambulator, able to attend desired activites and able to care for herself independently."] .
 
 # - ontology header ------------------------------------------------------------
 

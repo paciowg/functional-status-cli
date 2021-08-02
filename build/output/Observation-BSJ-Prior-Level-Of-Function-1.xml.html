@@ -184,19 +184,19 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-plf&quot;/&gt;
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;additional&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Patient is a community ambulator, able to attend desired activites and able to care for herself independently&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Event Location&lt;/b&gt;: &lt;a href=&quot;Location-provider-org-loc-01.html&quot;&gt;Generated Summary: status: active; name: Primary Care&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;AssistanceRequired&lt;/b&gt;: &lt;span title=&quot;Codes: &quot;&gt;Independent&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes: {http://loinc.org 10158-4}&quot;&gt;History of Functional status Narrative&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Patient-patientBSJ1.html&quot;&gt;Generated Summary: Betsy Smith-Johnson &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2019-07-01 --&amp;gt; 2020-11-30&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=&quot;PractitionerRole-provider-role-pcp.html&quot;&gt;Generated Summary: active; &lt;span title=&quot;Codes: {http://nucc.org/provider-taxonomy 261QP2300X}&quot;&gt;Primary Care&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Patient is a community ambulator, able to attend desired activites and able to care for herself independently.&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/event-location&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueReference</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Location/provider-org-loc-01&quot;/&gt;
+    &lt;/valueReference&gt;
+  &lt;/extension&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required&quot;&gt;
     &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Independent&quot;/&gt;
     &lt;/valueCodeableConcept&gt;
-  &lt;/extension&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/event-location&quot;&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueReference</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Location/provider-org-loc-01&quot;/&gt;
-    &lt;/valueReference&gt;
   &lt;/extension&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>&gt;
@@ -214,15 +214,10 @@
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2020-11-30&quot;/&gt;
   &lt;/effectivePeriod&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/Practitioner-JohnSmith&quot;/&gt;
-  &lt;/performer&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;PractitionerRole/provider-role-pcp&quot;/&gt;
   &lt;/performer&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/provider-org-01&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization&quot;/&gt;
-  &lt;/performer&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueString</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient is a community ambulator, able to attend desired activites and able to care for herself independently.&quot;/&gt;
 &lt;/Observation&gt;</code></pre>
 
 
@@ -253,7 +248,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 9, 2021 08:31-0700">2021-06-09</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 30, 2021 14:57-0700">2021-07-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

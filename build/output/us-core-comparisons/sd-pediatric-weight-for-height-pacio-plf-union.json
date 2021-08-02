@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5306a0c1-4e68-499a-be63-da475dc780b7-110",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5306a0c1-4e68-499a-be63-da475dc780b7-110",
+  "id" : "fe0011a8-43ff-4e2b-a950-0bd4809b194f-110",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fe0011a8-43ff-4e2b-a950-0bd4809b194f-110",
   "name" : "UnionUSCorePediatricWeightForHeightObservationProfileAndPriorLevelOfFunction",
-  "title" : "Union of US Core Pediatric Weight for Height Observation Profile And Prior Level Of Function",
+  "title" : "Union of US Core Pediatric Weight for Height Observation Profile And PACIO Prior Level Of Function",
   "status" : "active",
-  "date" : "2021-06-09T08:31:58-07:00",
+  "date" : "2021-07-30T14:58:02-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -210,7 +210,7 @@
     },
     {
       "path" : "Observation.text",
-      "short" : "left: Text summary of the resource, for human interpretation; right: Text summary of the prior level of function for the patient.",
+      "short" : "Text summary of the resource, for human interpretation",
       "definition" : "A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
       "comment" : "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.",
       "alias" : ["narrative",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fe0011a8-43ff-4e2b-a950-0bd4809b194f-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -727,10 +727,7 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Patient",
-        "http://hl7.org/fhir/StructureDefinition/Group",
-        "http://hl7.org/fhir/StructureDefinition/Device",
-        "http://hl7.org/fhir/StructureDefinition/Location"]
+        "targetProfile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -935,7 +932,7 @@
     },
     {
       "path" : "Observation.performer",
-      "short" : "left: Who is responsible for the observation; right: The person who performed the assessment.",
+      "short" : "left: Who is responsible for the observation; right: The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization.",
       "definition" : "Who was responsible for asserting the observed value as \"true\".",
       "requirements" : "May give a degree of confidence in the observation and also indicates where follow-up questions should be directed.",
       "min" : 0,
@@ -979,7 +976,7 @@
     },
     {
       "path" : "Observation.value[x]",
-      "short" : "left: Vital Signs Value; right: Actual result",
+      "short" : "left: Vital Signs Value; right: Text summary of the prior level of function for the patient.",
       "definition" : "left: Vital Signs value are typically recorded using the Quantity data type.; right: The information determined as a result of making the observation, if the information has a simple value.",
       "comment" : "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section] below.",
       "requirements" : "left: 9. SHALL contain exactly one [1..1] value with @xsi:type=\"PQ\" (CONF:7305).; right: An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.",
@@ -989,34 +986,7 @@
         "code" : "Quantity"
       },
       {
-        "code" : "CodeableConcept"
-      },
-      {
         "code" : "string"
-      },
-      {
-        "code" : "boolean"
-      },
-      {
-        "code" : "integer"
-      },
-      {
-        "code" : "Range"
-      },
-      {
-        "code" : "Ratio"
-      },
-      {
-        "code" : "SampledData"
-      },
-      {
-        "code" : "time"
-      },
-      {
-        "code" : "dateTime"
-      },
-      {
-        "code" : "Period"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1030,9 +1000,8 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "strength" : "example",
-        "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1"
+        "strength" : "extensible",
+        "description" : "left: Common UCUM units for recording Vital Signs.; right: Text summary of the prior level of function for the patient. (Strongly encouraged until more structured method is established)"
       },
       "mapping" : [{
         "identity" : "sct-concept",
@@ -1885,7 +1854,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5306a0c1-4e68-499a-be63-da475dc780b7-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fe0011a8-43ff-4e2b-a950-0bd4809b194f-5"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -1961,10 +1930,6 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "VitalSignsUnits"
-        }],
         "strength" : "example",
         "description" : "Common UCUM units for recording Vital Signs.",
         "valueSet" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1"

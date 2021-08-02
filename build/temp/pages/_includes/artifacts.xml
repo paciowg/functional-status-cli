@@ -51,18 +51,18 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-pacio-bfs.html"
-                     title="StructureDefinition/pacio-bfs">Bundled Functional Status</a>
+                  <a href="StructureDefinition-pacio-fs.html"
+                     title="StructureDefinition/pacio-fs">PACIO Functional Status</a>
                </td>
-               <td>{% capture desc %}A point in time bundle of functional status observations for a patient.{% endcapture %}
+               <td>{% capture desc %}An exchange of functional status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-pacio-fs.html"
-                     title="StructureDefinition/pacio-fs">Functional Status</a>
+                  <a href="StructureDefinition-pacio-fsc.html"
+                     title="StructureDefinition/pacio-fsc">PACIO Functional Status Collection</a>
                </td>
-               <td>{% capture desc %}An exchange of functional status data for a patient.{% endcapture %}
+               <td>{% capture desc %}A point in time collection of functional status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -76,9 +76,9 @@
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-pacio-plf.html"
-                     title="StructureDefinition/pacio-plf">Prior Level Of Function</a>
+                     title="StructureDefinition/pacio-plf">PACIO Prior Level Of Function</a>
                </td>
-               <td>{% capture desc %}An exchange of prior level of function data for a patient.{% endcapture %}
+               <td>{% capture desc %}An exchange of summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instructment, use the Functional Status Collecction and Functional Status profiles to capture assessment data.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -105,7 +105,7 @@
                   <a href="StructureDefinition-assistance-required.html"
                      title="StructureDefinition/assistance-required">AssistanceRequired</a>
                </td>
-               <td>{% capture desc %}Associated functional status used for display purposes.{% endcapture %}
+               <td>{% capture desc %}Associated with prior level of function to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to answer functional related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -132,7 +132,7 @@
                   <a href="Observation-BFS-HH-Discharge-Mobility-1.html"
                      title="Observation/BFS-HH-Discharge-Mobility-1">BFS-HH-Discharge-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -276,7 +276,7 @@
                   <a href="Observation-BFS-HH-Discharge-Mobility-SelfCare-1.html"
                      title="Observation/BFS-HH-Discharge-Mobility-SelfCare-1">BFS-HH-Discharge-Mobility-SelfCare-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -340,7 +340,7 @@
                   <a href="Observation-BFS-HH-StartOfCare-Mobility-1.html"
                      title="Observation/BFS-HH-StartOfCare-Mobility-1">BFS-HH-StartOfCare-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -484,7 +484,7 @@
                   <a href="Observation-BFS-HH-StartOfCare-Mobility-SelfCare-1.html"
                      title="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1">BFS-HH-StartOfCare-Mobility-SelfCare-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -548,7 +548,7 @@
                   <a href="Observation-BFS-Hospital-Admission-Mobility-1.html"
                      title="Observation/BFS-Hospital-Admission-Mobility-1">BFS-Hospital-Admission-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -708,7 +708,7 @@
                   <a href="Observation-BFS-Hospital-Admission-Mobility-SelfCare-1.html"
                      title="Observation/BFS-Hospital-Admission-Mobility-SelfCare-1">BFS-Hospital-Admission-Mobility-SelfCare-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -772,7 +772,7 @@
                   <a href="Observation-BFS-Hospital-Discharge-Mobility-1.html"
                      title="Observation/BFS-Hospital-Discharge-Mobility-1">BFS-Hospital-Discharge-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -956,7 +956,7 @@
                   <a href="Observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.html"
                      title="Observation/BFS-Hospital-Discharge-Mobility-SelfCare-1">BFS-Hospital-Discharge-Mobility-SelfCare-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -1020,7 +1020,7 @@
                   <a href="Observation-BFS-Hospital-DischargeGoal-Mobility-1.html"
                      title="Observation/BFS-Hospital-DischargeGoal-Mobility-1">BFS-Hospital-DischargeGoal-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -1164,7 +1164,7 @@
                   <a href="Observation-BFS-SNF-Admission-Mobility-1.html"
                      title="Observation/BFS-SNF-Admission-Mobility-1">BFS-SNF-Admission-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -1348,7 +1348,7 @@
                   <a href="Observation-BFS-SNF-Admission-Mobility-SelfCare-1.html"
                      title="Observation/BFS-SNF-Admission-Mobility-SelfCare-1">BFS-SNF-Admission-Mobility-SelfCare-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -1412,7 +1412,7 @@
                   <a href="Observation-BFS-SNF-Discharge-Mobility-1.html"
                      title="Observation/BFS-SNF-Discharge-Mobility-1">BFS-SNF-Discharge-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -1604,7 +1604,7 @@
                   <a href="Observation-BFS-SNF-Discharge-Mobility-SelfCare-1.html"
                      title="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1">BFS-SNF-Discharge-Mobility-SelfCare-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -1668,7 +1668,7 @@
                   <a href="Observation-BFS-SNF-DischargeGoal-Mobility-1.html"
                      title="Observation/BFS-SNF-DischargeGoal-Mobility-1">BFS-SNF-DischargeGoal-Mobility-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -1812,7 +1812,7 @@
                   <a href="Observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1.html"
                      title="Observation/BFS-SNF-DischargeGoal-Mobility-SelfCare-1">BFS-SNF-DischargeGoal-Mobility-SelfCare-1</a>
                </td>
-               <td>{% capture desc %}An instance of BundledFunctionalStatus{% endcapture %}
+               <td>{% capture desc %}An instance of FunctionalStatusCollection{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
