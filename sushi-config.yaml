@@ -10,6 +10,8 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.pacio-fs
+##### use this URL when publishing the IG:
+#####canonical: https://build.fhir.org/ig/HL7/fhir-pacio-functional-status
 canonical: http://paciowg.github.io/functional-status-ig
 version: 0.1.0
 name: PACIOFunctionalStatusImplementationGuide
@@ -35,15 +37,6 @@ parameters:
 copyrightYear: 2020+
 releaseLabel: CI Build
 
-# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
-# │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-### NOTE: created ig-data/package-list.json
-
-# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
-# │  To control the ig.ini using this config, uncomment and set the "template" property.           │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-template: hl7.fhir.template
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To control the menu.xml using this config, uncomment and set the "menu" property.             │

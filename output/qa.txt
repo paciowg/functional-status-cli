@@ -1,0 +1,648 @@
+﻿PACIOFunctionalStatusImplementationGuide : Validation Results
+=========================================
+
+err = 0, warn = 83, info = 0
+IG Publisher Version: 1.1.77
+Generated Wed Aug 04 16:13:42 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = http://paciowg.github.io/functional-status-ig)
+
+ Build Errors : 7 / 51 / 0
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-fs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-3 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-4 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-5 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-6 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-7 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-17 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-18 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-12 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-13 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-14 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-15 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-16 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-10 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-11 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-6 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-7 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-8 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-9 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-Org-Loc-01 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-Org-Loc-02 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-Org-Loc-03 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-provider-org-loc-01 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-102 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-12 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-18 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-24 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-30 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-36 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-42 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-48 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-54 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-6 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-60 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-66 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-72 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-78 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-84 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-90 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-96 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-101 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-11 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-17 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-23 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-29 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-35 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-41 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-47 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-5 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-53 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-59 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-65 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-71 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-77 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-83 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-89 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-95 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-13 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-19 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-25 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-31 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-37 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-43 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-49 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-55 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-61 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-67 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-7 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-73 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-79 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-85 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-91 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-97 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-14 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-20 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-26 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-32 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-38 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-44 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-50 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-62 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-68 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-74 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-8 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-80 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-86 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-92 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-98 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-15 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-21 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-27 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-3 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-33 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-39 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-45 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-51 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-57 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-63 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-69 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-75 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-81 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-87 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-9 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-93 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-99 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-10 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-100 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-16 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-22 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-28 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-34 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-4 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-40 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-46 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-52 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-58 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-64 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-70 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-76 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-82 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-88 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-94 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BSJ-Narrative-History-Functional-Status-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-Org-01 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-Org-02 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-Org-03 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-provider-org-01 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/patient-patientBSJ1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-DanielGranger : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-HoneyJones : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-JenCadbury : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-JennyGlass : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-JohnSmith : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-LunaBaskins : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-NoraOlogist : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-RonBurgendy : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-RonMarble : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-SallySmith : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-ScottDumble : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-Role-OT : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-Role-PT : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-Role-RN : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-provider-role-pcp : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-Discharge-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-Discharge-Mobility-SelfCare-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-StartOfCare-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-StartOfCare-Mobility-SelfCare-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Admission-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Admission-Mobility-SelfCare-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Discharge-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-DischargeGoal-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Admission-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Admission-Mobility-SelfCare-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Discharge-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Discharge-Mobility-SelfCare-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-assistance-required : 0 / 2 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-device-patient-used : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-dev : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-fs : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-fsc : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-functional-qr : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-nhfs : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/input/resources/capabilitystatement-pacio-fs : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-17.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-Hospital-Admission-Mobility-1-UseOfDevice-18.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-12.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-13.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-14.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-15.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Admission-Mobility-1-UseOfDevice-16.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-10.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-11.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-6.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-8.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DeviceUseStatement/BFS-SNF-Discharge-Mobility-1-UseOfDevice-9.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BSJ-Narrative-History-Functional-Status-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/CMS-Device-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/CMS-Device-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/CMS-Device-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/CMS-Device-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/CMS-Device-5.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/CMS-Device-6.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/CMS-Device-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Org-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Org-02.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Org-03.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/Org-Loc-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/Org-Loc-02.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/Org-Loc-03.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-DanielGranger.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-HoneyJones.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-JenCadbury.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-JennyGlass.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-JohnSmith.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-LunaBaskins.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-NoraOlogist.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-RonBurgendy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-RonMarble.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-SallySmith.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Practitioner-ScottDumble.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-OT.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-PT.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/Role-RN.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/patientBSJ1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/provider-org-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/provider-org-loc-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PractitionerRole/provider-role-pcp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/StructureDefinition-pacio-dev-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 392, column 200: The link 'http://hl7.org/fhir/R4/null.html' for "http://hl7.org/fhir/StructureDefinition/bodySite" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/StructureDefinition-pacio-fs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 287, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/StructureDefinition-pacio-fsc-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 287, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/StructureDefinition-pacio-nhfs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 287, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 212, column 8: The link 'http://hl7.org/fhir/us/core/' for "US Core STU3" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/profile_highlights_and_guidance.html#/html/body/div/div/div/div/div/p/a at Line 162, column 135: The link 'http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support' for "“Must Support”" cannot be resolved
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/underlying_technologies.html#/html/body/div/div/div/div/div/p/a at Line 163, column 142: The link 'http://hl7.org/fhir/us/core/STU3' for "US Core Implementation Guide" cannot be resolved
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-fs.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-2.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-3.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-4.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-5.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-6.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-7.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-17.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Admission-Mobility-1-UseOfDevice-18.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-2.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-3.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-4.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-Hospital-Discharge-Mobility-1-UseOfDevice-5.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-12.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-13.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-14.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-15.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Admission-Mobility-1-UseOfDevice-16.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-10.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-11.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-6.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-7.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-8.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/deviceusestatement-BFS-SNF-Discharge-Mobility-1-UseOfDevice-9.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-Org-Loc-01.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-Org-Loc-02.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-Org-Loc-03.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/location-provider-org-loc-01.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-102.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-12.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-18.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-24.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-30.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-36.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-42.json ==
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-42: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-48.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-54.json ==
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-54: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-6.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-60.json ==
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-60: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-66.json ==
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-66: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-72.json ==
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-72: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-78.json ==
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-78: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-84.json ==
+WARNING: Observation/BFS-HH-Discharge-Mobility-1-Ob-Question-84: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-90.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-1-Ob-Question-96.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-37.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-39.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-41.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-43.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-45.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-47.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-Discharge-Mobility-SelfCare-1-Ob-Question-49.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-101.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-11.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-17.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-23.json ==
+WARNING: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-23: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-29.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-35.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-41.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-47.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-5.json ==
+WARNING: Observation/BFS-HH-StartOfCare-Mobility-1-Ob-Question-5: Observation.value.ofType(CodeableConcept).coding[0]: The display "Supervision or touching assistance" is not a valid display for the code {http://loinc.org}LA28225-3 - should be one of [Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA28225-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-53.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-59.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-65.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-71.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-77.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-83.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-89.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-1-Ob-Question-95.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-13.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-19.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-25.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-31.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-37.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-43.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-49.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-55.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-61.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-67.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-7.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-73.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-79.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-85.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-91.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-1-Ob-Question-97.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-13.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-17.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-21.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-25.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-5.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Admission-Mobility-SelfCare-1-Ob-Question-9.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-14.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-2.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-20.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-26.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-32.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-38.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-44.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-50.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-56.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-62.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-68.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-74.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-8.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-80.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-86.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-92.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-1-Ob-Question-98.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-10.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-14.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-18.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-2.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-22.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-26.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-Discharge-Mobility-SelfCare-1-Ob-Question-6.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-103.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-105.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-107.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-109.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-111.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-113.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-115.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-117.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-119.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-121.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-123.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-125.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-127.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-129.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-131.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-133.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-Hospital-DischargeGoal-Mobility-1-Ob-Question-135.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-15.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-21.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-27.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-3.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-33.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-39.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-45.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-51.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-57.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-63.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-69.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-75.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-81.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-87.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-9.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-93.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-1-Ob-Question-99.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-10.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-100.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-16.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-22.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-28.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-34.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-4.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-40.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-46.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-52.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-58.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-64.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-70.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-76.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-82.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-88.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-1-Ob-Question-94.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-104.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-106.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-108.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-110.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-112.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-114.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-116.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-118.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-120.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-122.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-124.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-126.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-128.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-130.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-132.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134.json ==
+WARNING: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-134: Observation.value.ofType(CodeableConcept).coding[0]: The display "Independent" is not a valid display for the code {http://loinc.org}LA11539-6 - should be one of [Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA11539-6'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136.json ==
+WARNING: Observation/BFS-SNF-DischargeGoal-Mobility-1-Ob-Question-136: Observation.value.ofType(CodeableConcept).coding[0]: The display "Independent" is not a valid display for the code {http://loinc.org}LA27993-7 - should be one of [Independent - Resident completes the activity by him/herself with no assistance from a helper.] (from http://tx.fhir.org/r4) for 'http://loinc.org#LA27993-7'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-29.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-30.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-31.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-32.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-33.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-34.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BFS-SNF-DischargeGoal-Mobility-SelfCare-1-Ob-Question-35.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/observation-BSJ-Narrative-History-Functional-Status-1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-Org-01.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-Org-02.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-Org-03.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/organization-provider-org-01.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/patient-patientBSJ1.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-DanielGranger.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-HoneyJones.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-JenCadbury.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-JennyGlass.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-JohnSmith.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-LunaBaskins.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-NoraOlogist.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-RonBurgendy.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-RonMarble.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-SallySmith.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitioner-Practitioner-ScottDumble.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-Role-OT.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-Role-PT.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-Role-RN.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/practitionerrole-provider-role-pcp.json ==
+WARNING: PractitionerRole/provider-role-pcp: PractitionerRole.code[0].coding[0]: The display "Primary Care" is not a valid display for the code {http://nucc.org/provider-taxonomy}261QP2300X - should be one of [Primary Care Clinic/Center] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#261QP2300X'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-Discharge-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-HH-Discharge-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-Discharge-Mobility-SelfCare-1.json ==
+WARNING: QuestionnaireResponse/QResponse-HH-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-StartOfCare-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-HH-StartOfCare-Mobility-SelfCare-1.json ==
+WARNING: QuestionnaireResponse/QResponse-HH-StartOfCare-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Admission-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Admission-Mobility-SelfCare-1.json ==
+WARNING: QuestionnaireResponse/QResponse-Hospital-Admission-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Discharge-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-Discharge-Mobility-SelfCare-1.json ==
+WARNING: QuestionnaireResponse/QResponse-Hospital-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-Hospital-DischargeGoal-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-Hospital-DischargeGoal-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Admission-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-SNF-Admission-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Admission-Mobility-SelfCare-1.json ==
+WARNING: QuestionnaireResponse/QResponse-SNF-Admission-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Discharge-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.json ==
+WARNING: QuestionnaireResponse/QResponse-SNF-Discharge-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-1.json ==
+WARNING: QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/questionnaireresponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.json ==
+WARNING: QuestionnaireResponse/QResponse-SNF-DischargeGoal-Mobility-SelfCare-1: QuestionnaireResponse: The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-assistance-required.json ==
+WARNING: StructureDefinition/assistance-required: StructureDefinition.differential.element[3].binding: The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition/assistance-required: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-device-patient-used.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-dev.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-fs.json ==
+WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-fsc.json ==
+WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-functional-qr.json ==
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/structuredefinition-pacio-nhfs.json ==
+WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/input/resources/capabilitystatement-pacio-fs.json ==
