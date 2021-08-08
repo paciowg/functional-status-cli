@@ -20,7 +20,7 @@
   "name": "NarrativeHistoryOfFunctionalStatus",
   "title": "PACIO Narrative History of Functional Status",
   "status": "active",
-  "date": "2021-08-04T16:11:48-07:00",
+  "date": "2021-08-07T17:26:08-07:00",
   "contact": [
     {
       "name": "PACIO project",
@@ -466,7 +466,7 @@
         "path": "Observation.extension",
         "sliceName": "event-location",
         "short": "An extension to indicate where the observation event occurred.",
-        "definition": "The principal physical location where the {{title}} was performed.",
+        "definition": "The principal physical location where the observation event occurred.",
         "comment": "May reference only *Provenance* resources deemed “relevant” or important. This element does not point to the Provenance associated with the current version of the resource - as it would be created after this version existed. The Provenance for the current version can be retrieved with a [` _revinclude`](search.html#revinclude).",
         "min": 0,
         "max": "1",
@@ -2999,6 +2999,7 @@
         "path": "Observation.extension",
         "sliceName": "event-location",
         "short": "An extension to indicate where the observation event occurred.",
+        "definition": "The principal physical location where the observation event occurred.",
         "min": 0,
         "max": "1",
         "type": [

@@ -32,4 +32,4 @@ _genonce
 
 Congrats. Your guide is now located here:
 
-    build/output/index.html
+    output/index.html

@@ -32,7 +32,7 @@
   <name value="NarrativeHistoryOfFunctionalStatus"/>
   <title value="PACIO Narrative History of Functional Status"/>
   <status value="active"/>
-  <date value="2021-08-04T16:11:48-07:00"/>
+  <date value="2021-08-07T17:26:08-07:00"/>
   <contact>
     <name value="PACIO project"/>
     <telecom>
@@ -406,7 +406,7 @@
       <path value="Observation.extension"/>
       <sliceName value="event-location"/>
       <short value="An extension to indicate where the observation event occurred."/>
-      <definition value="The principal physical location where the {{title}} was performed."/>
+      <definition value="The principal physical location where the observation event occurred."/>
       <comment value="May reference only *Provenance* resources deemed &#x201C;relevant&#x201D; or important. This element does not point to the Provenance associated with the current version of the resource - as it would be created after this version existed. The Provenance for the current version can be retrieved with a [` _revinclude`](search.html#revinclude)."/>
       <min value="0"/>
       <max value="1"/>
@@ -2478,6 +2478,7 @@
       <path value="Observation.extension"/>
       <sliceName value="event-location"/>
       <short value="An extension to indicate where the observation event occurred."/>
+      <definition value="The principal physical location where the observation event occurred."/>
       <min value="0"/>
       <max value="1"/>
       <type>

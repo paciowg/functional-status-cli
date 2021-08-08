@@ -1,7 +1,6 @@
 /**********
 NOTE: Aliases are defined in GlobalAliasList.fsh
 **********/
-
 Profile:        FunctionalStatus
 Parent:         Observation
 Id:             pacio-fs
@@ -25,7 +24,7 @@ Description:    "An exchange of functional status observation for a patient. Thi
 
 * extension contains ObservationLocation named event-location 0..1 MS
 
-* value[x] ^short = "Whenever possible should use the CodeableConcept type to provide a suitable code to define the concept."
+* value[x] ^short = "Whenever possible should use the CodeableConcept type to provide a suitable code to define the concept. However, for an assessment score or roll-up value, use the Quantity type."
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
 * category ^short = "For a Post-Acute Care Assessment, category should be survey."
 * code ^short = "For a Post-Acute Care Assessment, code should be a LOINC code and text for the question."
@@ -48,3 +47,4 @@ Description:    "An exchange of functional status observation for a patient. Thi
 * hasMember ^short = "Currently not used in FunctionalStatus."
 * derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
+* extension[event-location] ^definition = "The principal physical location where the observation event occurred."

@@ -3,9 +3,9 @@
 
 err = 0, warn = 83, info = 0
 IG Publisher Version: 1.1.77
-Generated Wed Aug 04 16:13:42 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = http://paciowg.github.io/functional-status-ig)
+Generated Sat Aug 07 17:28:16 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-fs#0.1.0 (canonical = http://paciowg.github.io/functional-status-ig)
 
- Build Errors : 7 / 51 / 0
+ Build Errors : 4 / 51 / 0
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-fs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-1 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-2 : 0 / 0 / 1
@@ -337,9 +337,6 @@ ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-sta
 ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/StructureDefinition-pacio-fs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 287, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
 ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/StructureDefinition-pacio-fsc-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 287, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
 ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/StructureDefinition-pacio-nhfs-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 287, column 328: The link 'search.html#revinclude' for "_revinclude" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 212, column 8: The link 'http://hl7.org/fhir/us/core/' for "US Core STU3" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/profile_highlights_and_guidance.html#/html/body/div/div/div/div/div/p/a at Line 162, column 135: The link 'http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support' for "“Must Support”" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/output/underlying_technologies.html#/html/body/div/div/div/div/div/p/a at Line 163, column 142: The link 'http://hl7.org/fhir/us/core/STU3' for "US Core Implementation Guide" cannot be resolved
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-fs.json ==
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-1.json ==
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/functional-status-cli/fsh-generated/resources/device-CMS-Device-2.json ==

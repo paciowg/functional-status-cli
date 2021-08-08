@@ -1,4 +1,3 @@
-
 Profile:        FunctionalStatusCollection
 Parent:         Observation
 Id:             pacio-fsc
@@ -30,10 +29,10 @@ Description:    "A point in time collection of functional status observations fo
 * extension contains ObservationLocation named event-location 0..1 MS
 * extension contains DevicePatientUsed named device-use 0..* MS
 
-* value[x] ^short = "Whenever possible should use the CodeableConcept type to provide a suitable code to define the concept. As for values like an assessment score or roll-up value, use the Quantity type."
+* value[x] ^short = "If used, should use the CodeableConcept type whenever possible to provide a suitable code to define the concept. When capturing a collection of related observations, typically this field is not used. As for values like an assessment score or roll-up value, the preferred way is to leave this field unused and use the 'hasMember' field to reference a functional status observation specifying the score or roll-up value in the value field using the Quantity type."
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
 * category ^short = "If this is from a Post-Acute Care Assessment, category should be survey."
-* code ^short = "For a Post-Acute Care Assessment, should include a LOINC code and text for the kind of assessment."
+* code ^short = "For a Post-Acute Care structured assessment resource such as an instrument or screen, use a LOINC code to identify the instrument/screen name or panel/section title to indicate the kind of assessment."
 * subject ^short = "Should only reference a Patient resource."
 * hasMember ^short = "Each functional status observation in the collection."
 * basedOn ^short = "Currently not used in FunctionalStatusCollection."
@@ -51,6 +50,7 @@ Description:    "A point in time collection of functional status observations fo
 * component ^short = "Currently not used in FunctionalStatusCollection."
 * derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
+* extension[event-location] ^definition = "The principal physical location where the observation event occurred."
 * extension[device-use] ^short = "An extension to indicate a record of assistive device usage by a patient during an assessment."
 
 Extension: DevicePatientUsed

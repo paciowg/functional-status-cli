@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "0e82b222-0f87-4a4b-8d7d-242a70f0558f-60",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/0e82b222-0f87-4a4b-8d7d-242a70f0558f-60",
+  "id" : "64f080d0-cfb4-432a-96ab-3659ff3a21d2-60",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/64f080d0-cfb4-432a-96ab-3659ff3a21d2-60",
   "name" : "IntersectionUSCorePediatricBMIforAgeObservationProfileAndFunctionalStatusCollection",
   "title" : "Intersection of US Core Pediatric BMI for Age Observation Profile And PACIO Functional Status Collection",
   "status" : "active",
-  "date" : "2021-08-04T16:11:54-07:00",
+  "date" : "2021-08-07T17:26:15-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -554,7 +554,7 @@
     },
     {
       "path" : "Observation.code",
-      "short" : "left: BMI percentile per age and sex for youth 2-20; right: For a Post-Acute Care Assessment, should include a LOINC code and text for the kind of assessment.",
+      "short" : "left: BMI percentile per age and sex for youth 2-20; right: For a Post-Acute Care structured assessment resource such as an instrument or screen, use a LOINC code to identify the instrument/screen name or panel/section title to indicate the kind of assessment.",
       "definition" : "left: Coded Responses from C-CDA Vital Sign Results.; right: Describes what was observed. Sometimes this is called the observation \"name\".",
       "comment" : "*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.",
       "requirements" : "left: 5. SHALL contain exactly one [1..1] code, where the @code SHOULD be selected from ValueSet HITSP Vital Sign Result Type 2.16.840.1.113883.3.88.12.80.62 DYNAMIC (CONF:7301).; right: Knowing what kind of observation is being made is essential to understanding the observation.",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/0e82b222-0f87-4a4b-8d7d-242a70f0558f-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/64f080d0-cfb4-432a-96ab-3659ff3a21d2-6"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -861,7 +861,7 @@
     },
     {
       "path" : "Observation.value[x]",
-      "short" : "left: Vital Signs Value; right: Whenever possible should use the CodeableConcept type to provide a suitable code to define the concept. As for values like an assessment score or roll-up value, use the Quantity type.",
+      "short" : "left: Vital Signs Value; right: If used, should use the CodeableConcept type whenever possible to provide a suitable code to define the concept. When capturing a collection of related observations, typically this field is not used. As for values like an assessment score or roll-up value, the preferred way is to leave this field unused and use the 'hasMember' field to reference a functional status observation specifying the score or roll-up value in the value field using the Quantity type.",
       "definition" : "left: Vital Signs value are typically recorded using the Quantity data type.; right: The information determined as a result of making the observation, if the information has a simple value.",
       "comment" : "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section] below.",
       "requirements" : "left: 9. SHALL contain exactly one [1..1] value with @xsi:type=\"PQ\" (CONF:7305).; right: An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.",

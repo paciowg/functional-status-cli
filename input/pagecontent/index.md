@@ -16,7 +16,7 @@ The Act requires:
     * Outcome and Assessment Information Set (OASIS) for HHAs
     * Functional Assessment Standardized Items (FASI) for HCBS
     * Hospice Item Set (HIS) for Hospice Care
-* Implementation of data elements specified in each domain using standardized data elements to be nested within the CMS assessment instruments currently required for submission by LTCH, IRF, SNF, HHA, and hospice providers or available for use by the community such the FASI for HCBS.
+* Implementation of data elements specified in each domain using standardized data elements to be nested within the CMS assessment instruments currently required for submission by LTCH, IRF, SNF, HHA, and hospice providers or available for use by the community such as the FASI for HCBS.
 * Data to be standardized and interoperable to allow exchange of data between PAC providers, among others, using common standards and definitions to provide access to longitudinal information and facilitate coordinated care.
 
 ![PACIO logo](./pacio.png)
@@ -31,7 +31,7 @@ The primary goal of the PACIO Project is to establish a framework for the develo
 
 Functioning observations related to mobility, self-care and domestic life are often used to describe how a person is able to interact with their environment and is a foundation to patient centered care. It is used in reporting outcomes for clinical care, quality improvement activities, quality measure reporting, and research. Identifying a decline in functioning has been shown to be a first sign in declining health for individuals with chronic conditions and indicative of the severity of an acute illness. Observations related to functioning are often used as a risk factor assessment tool; prognostic indicator hospital readmission; and predictor of morbidity and mortality. Information related to these observations are often a major focus for seeking healthcare and making end of life decisions. There has been discussion to include functioning as the sixth vital sign.
 
-Domains in functioning observations include mobility, self-care, and domestic life/instrumental activities of daily living (IADLs). Using the conceptual framework of the International Classification of Function (ICF), these domains can be further broken down into more specific data elements. For example, mobility includes aspects such as rolling over, transferring, walking and moving, etc. Self-care includes aspects such as dressing, grooming, bathing, eating, toileting, etc. Domestic life and instrumental activities of daily living includes aspects such as household tasks, managing finances, acquiring goods and services, managing transportation, etc. More information on mental function concepts that may be included in this IG can be found in the [ICF Browser](https://apps.who.int/classifications/icfbrowser/).
+Domains in functioning observations include mobility, self-care, and domestic life/instrumental activities of daily living (IADLs). Using the conceptual framework of the International Classification of Functioning, Disability and Health (commonly known as ICF), these domains can be further broken down into more specific data elements. For example, mobility includes aspects such as rolling over, transferring, walking and moving, etc. Self-care includes aspects such as dressing, grooming, bathing, eating, toileting, etc. Domestic life and instrumental activities of daily living includes aspects such as household tasks, managing finances, acquiring goods and services, managing transportation, etc. More information on mental function concepts that may be included in this IG can be found in the [ICF Browser](https://apps.who.int/classifications/icfbrowser/).
 
 The focus of this IG is on mobility, self-care, and domestic life functioning observation data (not the representation of the condition, problem, diagnosis or health concern; care plan; and goals) utilized by various settings by providing examples using observation data all of which have LOINC representation for the question/answer structure. This IG is not limited to PAC functioning observations and in the future will be expanded to include other relevant observations utilized by health care settings and practitioners more broadly. Descriptor functioning observations are part of an evaluation or assessment of a patient’s status. The functioning observations may include details of a patient’s mobility, ADL and/or IADL self-performance or need for assistance. The observation data, if present, will include supporting caregivers, non-medical devices, and the time period for which the assessment instruments were performed.
 
@@ -48,11 +48,11 @@ The implementation guide is organized into the following sections:
 ### Dependencies
 This implementation guide relies on the following other specifications:
 * [FHIR R4]({{site.data.fhir.path}}) - The 'current' official version of FHIR as of the time this implementation guide was published.  See the [background page](underlying_technologies.html) for key pieces of this specification implementers should be familiar with.
-* [US Core STU3](http://hl7.org/fhir/us/core/) - The version of US Core based on FHIR R4.
+* [US Core STU3](http://hl7.org/fhir/us/core) - The version of US Core based on FHIR R4.
 
 This implementation guide defines additional constraints and usage expectations above and beyond the information found in these base specifications.
 
 ### Downloads
 * The full [PACIO Functional Status Implementation Guide](full-ig.zip)
-* [FHIR R4 PACIO CS Resource Definitions](definitions.json.zip) for use with the FHIR validator
-* [FHIR IG Validator Pack](https://fhir.github.io/latest-ig-validator/org.hl7.fhir.validator.jar) which can be used to check FHIR resource instance validity
+* [FHIR R4 PACIO FS Resource Definitions](definitions.json.zip) for use with the FHIR FHIR PACIO FS IG validator
+* [FHIR PACIO FS IG  Validator Pack](validator-hl7.fhir.us.pacio-fs.pack) which can be used to check FHIR PACIO FS IG resource instance validity
