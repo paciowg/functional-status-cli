@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83219-6}\">Putting on/taking off footwear</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 2:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Role-OT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 2:32:00 PM</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs functioning}\">functioning</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83219-6}\">Putting on/taking off footwear</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 2:32:00 PM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: active; Jen Cadbury ; gender: female</a></li><li><a href=\"PractitionerRole-Role-OT.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-DischargeGoal-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 2:32:00 PM</a></p></div>"
   },
   "extension": [
     {
@@ -19,6 +19,16 @@
     }
   ],
   "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs",
+          "code": "functioning"
+        }
+      ]
+    }
+  ],
   "code": {
     "coding": [
       {

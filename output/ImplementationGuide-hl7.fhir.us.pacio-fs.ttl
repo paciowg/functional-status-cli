@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOFunctionalStatusImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Functional Status Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-08-07T17:26:08-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-08-13T10:10:39-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];

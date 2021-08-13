@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "64f080d0-cfb4-432a-96ab-3659ff3a21d2-104",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/64f080d0-cfb4-432a-96ab-3659ff3a21d2-104",
+  "id" : "612e2364-3edf-428e-a511-5e3697f7b6ed-104",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/612e2364-3edf-428e-a511-5e3697f7b6ed-104",
   "name" : "UnionUSCorePediatricBMIforAgeObservationProfileAndNarrativeHistoryOfFunctionalStatus",
   "title" : "Union of US Core Pediatric BMI for Age Observation Profile And PACIO Narrative History of Functional Status",
   "status" : "active",
-  "date" : "2021-08-07T17:26:15-07:00",
+  "date" : "2021-08-13T10:10:51-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -506,7 +506,7 @@
       "definition" : "A code that classifies the general type of observation being made.",
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
       "requirements" : "Used for filtering what observations are retrieved and displayed.",
-      "min" : 0,
+      "min" : 1,
       "max" : "*",
       "type" : [{
         "code" : "CodeableConcept"
@@ -523,7 +523,7 @@
       "isModifier" : false,
       "isSummary" : false,
       "binding" : {
-        "strength" : "preferred",
+        "strength" : "extensible",
         "description" : "Codes for high level observation categories.",
         "valueSet" : "http://hl7.org/fhir/ValueSet/observation-category"
       },
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/64f080d0-cfb4-432a-96ab-3659ff3a21d2-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/612e2364-3edf-428e-a511-5e3697f7b6ed-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1855,7 +1855,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/64f080d0-cfb4-432a-96ab-3659ff3a21d2-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/612e2364-3edf-428e-a511-5e3697f7b6ed-5"
       },
       "mapping" : [{
         "identity" : "w5",

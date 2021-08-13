@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "64f080d0-cfb4-432a-96ab-3659ff3a21d2-24",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/64f080d0-cfb4-432a-96ab-3659ff3a21d2-24",
+  "id" : "612e2364-3edf-428e-a511-5e3697f7b6ed-24",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/612e2364-3edf-428e-a511-5e3697f7b6ed-24",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndFunctionalStatus",
   "title" : "Intersection of US Core Body Temperature Profile And PACIO Functional Status",
   "status" : "active",
-  "date" : "2021-08-07T17:26:14-07:00",
+  "date" : "2021-08-13T10:10:50-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -514,7 +514,7 @@
     },
     {
       "path" : "Observation.category",
-      "short" : "left: Classification of  type of observation; right: For a Post-Acute Care Assessment, category should be survey.",
+      "short" : "left: Classification of  type of observation; right: A second category code may be used along with the code “functioning”. For example, for assessment tool/survey instrument observations use “survey” as a second code.",
       "definition" : "A code that classifies the general type of observation being made.",
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
       "requirements" : "Used for filtering what observations are retrieved and displayed.",
@@ -535,13 +535,8 @@
       "isModifier" : false,
       "isSummary" : false,
       "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "ObservationCategory"
-        }],
-        "strength" : "preferred",
-        "description" : "Codes for high level observation categories.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/observation-category"
+        "strength" : "extensible",
+        "valueSet" : "http://paciowg.github.io/cognitive-status-ig/ValueSet/pacio-cat-vs"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -578,7 +573,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/64f080d0-cfb4-432a-96ab-3659ff3a21d2-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/612e2364-3edf-428e-a511-5e3697f7b6ed-6"
       },
       "mapping" : [{
         "identity" : "workflow",

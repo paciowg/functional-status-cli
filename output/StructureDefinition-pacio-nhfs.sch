@@ -14,6 +14,7 @@
     <sch:rule context="f:Observation">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/event-location']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/event-location': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required']) &lt;= 1">extension with URL = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/assistance-required': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:category) &gt;= 1">category: minimum cardinality of 'category' is 1</sch:assert>
       <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
       <sch:assert test="count(f:effective[x]) &gt;= 1">effective[x]: minimum cardinality of 'effective[x]' is 1</sch:assert>
       <sch:assert test="count(f:performer) &gt;= 1">performer: minimum cardinality of 'performer' is 1</sch:assert>
