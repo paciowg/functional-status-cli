@@ -3,7 +3,7 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "package-id": "hl7.fhir.us.pacio-fs",
   "ig-ver": "0.1.0",
-  "date": "Fri, 13 Aug, 2021 10:10:39 -0700",
+  "date": "Fri, 13 Aug, 2021 12:20:25 -0700",
   "errs": 15,
   "warnings": 307,
   "hints": 207,

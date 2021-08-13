@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "UseOfDevice"];
   fhir:StructureDefinition.title [ fhir:value "UseOfDevice"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-08-13T10:10:39-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-08-13T12:20:25-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];

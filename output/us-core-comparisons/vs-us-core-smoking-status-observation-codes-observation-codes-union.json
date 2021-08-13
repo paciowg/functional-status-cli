@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "612e2364-3edf-428e-a511-5e3697f7b6ed-50",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/612e2364-3edf-428e-a511-5e3697f7b6ed-50",
+  "id" : "2498bbe4-8435-4be8-8433-a73e413ab6f9-50",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2498bbe4-8435-4be8-8433-a73e413ab6f9-50",
   "name" : "UnionUSCoreSmokingStatusObservationCodesAndLOINCCodes",
   "title" : "Union of US Core Smoking Status Observation Codes And LOINC Codes",
   "status" : "active",
-  "date" : "2021-08-13T10:10:50-07:00",
+  "date" : "2021-08-13T12:20:31-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
