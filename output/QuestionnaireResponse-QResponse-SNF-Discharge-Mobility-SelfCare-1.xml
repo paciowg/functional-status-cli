@@ -2,9 +2,6 @@
 
 <QuestionnaireResponse xmlns="http://hl7.org/fhir">
   <id value="QResponse-SNF-Discharge-Mobility-SelfCare-1"/>
-  <meta>
-    <profile value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
-  </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Aug 1, 2020, 9:00:00 AM</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - discharge [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0130_3</p><p><b>text</b>: Self-care - discharge performance [CMS Assessment]</p></blockquote></blockquote></div>
   </text>
@@ -14,72 +11,72 @@
     <reference value="Patient/patientBSJ1"/>
   </subject>
   <authored value="2020-08-01T11:00:00-05:00"/>
-  <item id="88483-3">
+  <item>
     <linkId value="Section-37"/>
     <text value="Functional abilities and goals - discharge [CMS Assessment]"/>
-    <item id="83254-3">
+    <item>
       <linkId value="Section-37/GG0130_3"/>
       <text value="Self-care - discharge performance [CMS Assessment]"/>
-      <item id="83232-9">
+      <item>
         <linkId value="Section-37/GG0130A3"/>
         <text value="Eating - functional ability during 3 day assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
+            <reference value="Observation/FSC-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-4"/>
           </valueReference>
         </answer>
       </item>
-      <item id="83230-3">
+      <item>
         <linkId value="Section-37/GG0130B3"/>
         <text value="Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8"/>
+            <reference value="Observation/FSC-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-8"/>
           </valueReference>
         </answer>
       </item>
-      <item id="83228-7">
+      <item>
         <linkId value="Section-37/GG0130C3"/>
         <text value="Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
+            <reference value="Observation/FSC-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-12"/>
           </valueReference>
         </answer>
       </item>
-      <item id="83226-1">
+      <item>
         <linkId value="Section-37/GG0130E3"/>
         <text value="Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16"/>
+            <reference value="Observation/FSC-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-16"/>
           </valueReference>
         </answer>
       </item>
-      <item id="83224-6">
+      <item>
         <linkId value="Section-37/GG0130F3"/>
         <text value="Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
+            <reference value="Observation/FSC-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-20"/>
           </valueReference>
         </answer>
       </item>
-      <item id="83222-0">
+      <item>
         <linkId value="Section-37/GG0130G3"/>
         <text value="Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
+            <reference value="Observation/FSC-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-24"/>
           </valueReference>
         </answer>
       </item>
-      <item id="83220-4">
+      <item>
         <linkId value="Section-37/GG0130H3"/>
         <text value="Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28"/>
+            <reference value="Observation/FSC-SNF-Discharge-Mobility-SelfCare-1-Ob-Question-28"/>
           </valueReference>
         </answer>
       </item>

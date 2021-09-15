@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="Role-OT-DanielGranger"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-DanielGranger.html">Generated Summary: active; Daniel Granger ; gender: male</a></p><p><b>organization</b>: <a href="Organization-Org-02.html">Generated Summary: name: Happy Nursing Facility</a></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 80546007}">Occupational therapist</span></p><p><b>location</b>: <a href="Location-Org-Loc-02.html">Generated Summary: status: active; name: Happy Nursing Facility</a></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/Practitioner-DanielGranger"/>
+  </practitioner>
+  <organization>
+    <reference value="Organization/Org-02"/>
+  </organization>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="80546007"/>
+      <display value="Occupational therapist"/>
+    </coding>
+  </code>
+  <location>
+    <reference value="Location/Org-Loc-02"/>
+  </location>
+</PractitionerRole>

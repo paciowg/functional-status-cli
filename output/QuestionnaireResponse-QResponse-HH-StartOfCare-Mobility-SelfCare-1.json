@@ -1,11 +1,6 @@
 {
   "resourceType": "QuestionnaireResponse",
   "id": "QResponse-HH-StartOfCare-Mobility-SelfCare-1",
-  "meta": {
-    "profile": [
-      "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
-    ]
-  },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Aug 2, 2020, 11:31:00 AM</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: OASIS D - Functional abilities and goals - SOC/ROC [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0130_1</p><p><b>text</b>: OASIS D - Self-care - SOC/ROC performance [CMS Assessment]</p></blockquote></blockquote></div>"
@@ -18,95 +13,86 @@
   "authored": "2020-08-02T13:31:00-05:00",
   "item": [
     {
-      "id": "89572-2",
       "linkId": "Section-37",
       "text": "OASIS D - Functional abilities and goals - SOC/ROC [CMS Assessment]",
       "item": [
         {
-          "id": "89479-0",
           "linkId": "Section-37/GG0130_1",
           "text": "OASIS D - Self-care - SOC/ROC performance [CMS Assessment]",
           "item": [
             {
-              "id": "89410-5",
               "linkId": "Section-37/GG0130A1",
               "text": "Eating - functional ability [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36"
+                    "reference": "Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36"
                   }
                 }
               ]
             },
             {
-              "id": "89405-5",
               "linkId": "Section-37/GG0130B1",
               "text": "Oral hygiene - functional ability [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38"
+                    "reference": "Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38"
                   }
                 }
               ]
             },
             {
-              "id": "57245-3",
               "linkId": "Section-37/GG0130C1",
               "text": "Toileting hygiene - functional ability [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40"
+                    "reference": "Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40"
                   }
                 }
               ]
             },
             {
-              "id": "89397-4",
               "linkId": "Section-37/GG0130E1",
               "text": "Shower/bathe self - functional ability [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42"
+                    "reference": "Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42"
                   }
                 }
               ]
             },
             {
-              "id": "89388-3",
               "linkId": "Section-37/GG0130F1",
               "text": "Upper body dressing - functional ability [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"
+                    "reference": "Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"
                   }
                 }
               ]
             },
             {
-              "id": "89407-1",
               "linkId": "Section-37/GG0130G1",
               "text": "Lower body dressing - functional ability [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"
+                    "reference": "Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"
                   }
                 }
               ]
             },
             {
-              "id": "89401-4",
               "linkId": "Section-37/GG0130H1",
               "text": "Putting on and taking off footwear - functional ability [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"
+                    "reference": "Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"
                   }
                 }
               ]

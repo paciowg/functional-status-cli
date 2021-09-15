@@ -1,11 +1,6 @@
 {
   "resourceType": "QuestionnaireResponse",
   "id": "QResponse-SNF-Admission-Mobility-SelfCare-1",
-  "meta": {
-    "profile": [
-      "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
-    ]
-  },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href=\"https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Jul 11, 2020, 2:32:00 PM</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: Functional abilities and goals - admission [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0130_1</p><p><b>text</b>: Self-care - admission performance [CMS Assessment]</p></blockquote></blockquote></div>"
@@ -18,95 +13,86 @@
   "authored": "2020-07-11T16:32:00-05:00",
   "item": [
     {
-      "id": "88482-5",
       "linkId": "Section-37",
       "text": "Functional abilities and goals - admission [CMS Assessment]",
       "item": [
         {
-          "id": "83233-7",
           "linkId": "Section-37/GG0130_1",
           "text": "Self-care - admission performance [CMS Assessment]",
           "item": [
             {
-              "id": "83232-9",
               "linkId": "Section-37/GG0130A1",
               "text": "Eating - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"
+                    "reference": "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"
                   }
                 }
               ]
             },
             {
-              "id": "83230-3",
               "linkId": "Section-37/GG0130B1",
               "text": "Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"
+                    "reference": "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"
                   }
                 }
               ]
             },
             {
-              "id": "83228-7",
               "linkId": "Section-37/GG0130C1",
               "text": "Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"
+                    "reference": "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"
                   }
                 }
               ]
             },
             {
-              "id": "83226-1",
               "linkId": "Section-37/GG0130E1",
               "text": "Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"
+                    "reference": "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"
                   }
                 }
               ]
             },
             {
-              "id": "83224-6",
               "linkId": "Section-37/GG0130F1",
               "text": "Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"
+                    "reference": "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"
                   }
                 }
               ]
             },
             {
-              "id": "83222-0",
               "linkId": "Section-37/GG0130G1",
               "text": "Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"
+                    "reference": "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"
                   }
                 }
               ]
             },
             {
-              "id": "83220-4",
               "linkId": "Section-37/GG0130H1",
               "text": "Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]",
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"
+                    "reference": "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"
                   }
                 }
               ]

@@ -142,10 +142,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#resource-profile-paciofunctionalquestionaireresponse" id="markdown-toc-resource-profile-paciofunctionalquestionaireresponse">Resource Profile: PACIOfunctionalQuestionaireResponse</a></li>
   <li><a href="#resource-profile-functionalstatuscollection" id="markdown-toc-resource-profile-functionalstatuscollection">Resource Profile: FunctionalStatusCollection</a></li>
   <li><a href="#resource-profile-functionalstatus" id="markdown-toc-resource-profile-functionalstatus">Resource Profile: FunctionalStatus</a></li>
-  <li><a href="#resource-profile-priorleveloffunction" id="markdown-toc-resource-profile-priorleveloffunction">Resource Profile: PriorLevelOfFunction</a></li>
+  <li><a href="#resource-profile-narrativehistoryoffunctionalstatus" id="markdown-toc-resource-profile-narrativehistoryoffunctionalstatus">Resource Profile: NarrativeHistoryOfFunctionalStatus</a></li>
   <li><a href="#resource-profile-useofdevice" id="markdown-toc-resource-profile-useofdevice">Resource Profile: UseOfDevice</a></li>
   <li><a href="#data-exchange-guidance-and-examples" id="markdown-toc-data-exchange-guidance-and-examples">Data Exchange Guidance and Examples</a></li>
   <li><a href="#paciofunctionalquestionaireresponse--mobility-example" id="markdown-toc-paciofunctionalquestionaireresponse--mobility-example">PACIOfunctionalQuestionaireResponse – Mobility Example</a></li>
@@ -161,210 +160,21 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>A note on the use of “Must Support” in the Implementation Guide:
 For profiles defined in other IGs, the meaning of “Must Support” is established in the defining IG. For profiles defined in this IG, <a href="http://hl7.org/fhir/us/core/general-guidance.html#must-support">Must Support</a> will conform with US Core definition.</p>
 
-<h3 id="resource-profile-paciofunctionalquestionaireresponse">Resource Profile: PACIOfunctionalQuestionaireResponse</h3>
-
-<p>This resource profile is intended to be used for data exchange of a completed, or sections of a completed, PAC assessment. The PACIOfunctionalQuestionaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.</p>
-
-<table class="grid">
-  <thead>
-    <tr>
-      <th>Key Fields to Highlight</th>
-      <th>Description &amp; Constraints</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>questionnaire</td>
-    <td>A URL pointing to the file of the Questionnaire that defines and organizes the questions for which answers are being provided.</td>
-  </tr>
-  <tr>
-    <td>subject</td>
-    <td>A required field constrained to Reference(Patient)—since the focus is on data exchange with patient assessment data.</td>
-  </tr>
-  <tr>
-    <td>item.id</td>
-    <td>This field is chosen to contain the code of a section title or an observation question. For example, the LOINC code ‘83218-8.’</td>
-  </tr>
-  <tr>
-    <td>item.linkId</td>
-    <td>This field should contain the ‘linkId’ of the corresponding section title or question from the Questionnaire.</td>
-  </tr>
-  <tr>
-    <td>answer.value</td>
-    <td>This field is constrained to Reference(Observation).</td>
-  </tr>
-  <tr>
-    <td>Item[*].item</td>
-    <td>The nested questionnaire response items should show the same nesting structure as presented in the Questionnaire.</td>
-  </tr>
-</table>
-
 <h3 id="resource-profile-functionalstatuscollection">Resource Profile: FunctionalStatusCollection</h3>
 
-<p>This resource profile is intended to be used for data exchange of a point in time collection of functional status observations from a single PAC assessment. It is derived from the FHIR resource Observation.</p>
-
-<table class="grid">
-  <thead>
-    <tr>
-      <th>Key Fields to Highlight</th>
-      <th>Description &amp; Constraints</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>event-location</td>
-    <td>A “must support” extension added to the Observation resource for storing the Reference(Location) to indicate where the observation event occurred.</td>
-  </tr>
-  <tr>
-    <td>device-patient-used</td>
-    <td>A “must support” extension added to the Observation resource for storing the Reference(UseOfDevice) to specify one or more devices used by a patient during a functional status assessment.</td>
-  </tr>
-  <tr>
-    <td>category</td>
-    <td>A required field with 'extensible' binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
-  </tr>
-  <tr>
-    <td>code</td>
-    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
-  </tr>
-  <tr>
-    <td>subject</td>
-    <td>A required field constrained to Reference(Patient)—since the focus is on data exchange with patient assessment data.</td>
-  </tr>
-  <tr>
-    <td>effective</td>
-    <td>This field, limited to the type dateTime or Period only, indicates the time/time period for the assessment.</td>
-  </tr>
-  <tr>
-    <td>performer</td>
-    <td>At least one ‘performer’ is required to be present to indicate who is responsible for the observation.</td>
-  </tr>
-  <tr>
-    <td>value</td>
-    <td>This field can only be of the type CodeableConcept. In the case of an assessment with a summary score, for example, this field may appropriately be used to contain the score value.</td>
-  </tr>
-  <tr>
-    <td>hasMember</td>
-    <td>This field points to the individual observation instances included in the assessment.</td>
-  </tr>
-  <tr>
-    <td>derivedFrom</td>
-    <td>This field points to a functionalQuestionnaireResponse instance.</td>
-  </tr>
-</table>
+<p>This resource profile is intended to be used for the data exchange of a point in time set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen). It is derived from the FHIR Observation resource.</p>
 
 <h3 id="resource-profile-functionalstatus">Resource Profile: FunctionalStatus</h3>
 
-<p>This resource profile is intended to be used for data exchange of a single functional status observation included in a PAC assessment. It is derived from the FHIR resource Observation.</p>
+<p>This resource profile is intended to be used for the data exchange of a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen). It is derived from the FHIR Observation resource.</p>
 
-<table class="grid">
-  <thead>
-    <tr>
-      <th>Key Fields to Highlight</th>
-      <th>Description &amp; Constraints</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>event-location</td>
-    <td>A “must support” extension added to the Observation resource for storing the Reference(Location) to indicate where the observation event occurred.</td>
-  </tr>
-  <tr>
-    <td>code</td>
-    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
-  </tr>
-  <tr>
-    <td>subject</td>
-    <td>A required field constrained to Reference(Patient)—since the focus is on data exchange with patient assessment data.</td>
-  </tr>
-  <tr>
-    <td>effective</td>
-    <td>This field, limited to the type dateTime only, indicates the time for the observation.</td>
-  </tr>
-  <tr>
-    <td>performer</td>
-    <td>At least one ‘performer’ is required to be present to indicate who is responsible for the observation.</td>
-  </tr>
-  <tr>
-    <td>value</td>
-    <td>This field can only be of the type CodeableConcept.</td>
-  </tr>
-  <tr>
-    <td>component.code</td>
-    <td>This is a required field, if it is used, to hold the LOINC code or text value of a column header (for the purpose of grouping answers under a heading and displaying side-by-side columns).</td>
-  </tr>
-  <tr>
-    <td>component.value</td>
-    <td>This field, if it is used, contains the answer to the (associated) observation question.</td>
-  </tr>
-  <tr>
-    <td>derivedFrom</td>
-    <td>This field points to a functionalQuestionnaireResponse instance.</td>
-  </tr>
-</table>
+<h3 id="resource-profile-narrativehistoryoffunctionalstatus">Resource Profile: NarrativeHistoryOfFunctionalStatus</h3>
 
-<h3 id="resource-profile-priorleveloffunction">Resource Profile: PriorLevelOfFunction</h3>
-
-<p>This resource profile is intended to be used for the exchange of prior level of function data when formal functional assessments are not available. It is derived from the FHIR resource Observation.</p>
-
-<table class="grid">
-  <thead>
-    <tr>
-      <th>Key Fields to Highlight</th>
-      <th>Description &amp; Constraints</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>event-location</td>
-    <td>A “must support” extension added to the Observation resource for storing the Reference(Location) to indicate where the observation event occurred.</td>
-  </tr>
-  <tr>
-    <td>assistance-required</td>
-    <td>A “must support” extension added to the Observation resource to provide indication of 'independent' vs. 'assistance needed'.</td>
-  </tr>
-  <tr>
-    <td>text</td>
-    <td>A “must support” field and to be used as text summary of the prior level of function for the patient.</td>
-  </tr>
-  <tr>
-    <td>code</td>
-    <td>This required field has the fixed value of the LOINC code 10158-4 "History of Functional status Narrative".</td>
-  </tr>
-  <tr>
-    <td>subject</td>
-    <td>A required field constrained to Reference(Patient)—since the focus is on data exchange with patient assessment data.</td>
-  </tr>
-  <tr>
-    <td>effective</td>
-    <td>This required field, limited to the type dateTime or Period only, indicates the time/time-period for the observation.</td>
-  </tr>
-  <tr>
-    <td>performer</td>
-    <td>At least one ‘performer’ is required to be present to indicate who is responsible for the observation.</td>
-  </tr>
-  <tr>
-    <td>value</td>
-    <td>Optional field with the type CodeableConcept.</td>
-  </tr>
-</table>
+<p>This resource profile is intended to be used for the data exchange of a summary observation regarding the most recent prior level of function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of function assessments. For formal assessments conducted with for example, an assessment instrument, use the Functional Status Collection and Functional Status profiles to capture assessment data. It is derived from the FHIR Observation resource.</p>
 
 <h3 id="resource-profile-useofdevice">Resource Profile: UseOfDevice</h3>
 
-<p>This resource profile is intended to be used for specifying a device used by a patient during a functional status assessment. It is derived from the FHIR resource DeviceUseStatement.</p>
-
-<table class="grid">
-  <thead>
-    <tr>
-      <th>Key Fields to Highlight</th>
-      <th>Description &amp; Constraints</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>subject</td>
-    <td>A required field constrained to Reference(Patient)—since the focus is on data exchange with patient assessment data.</td>
-  </tr>
-  <tr>
-    <td>device</td>
-    <td>This field is required and points to a specific device used by patient during assessment.</td>
-  </tr>
-</table>
+<p>This resource profile is intended to be used for specifying a record of an assistive device–e.g. walker or wheelchair, being used by a patient during a functional status assessment. This profile based on the DeviceUseStatement resource provides a way to include information about device usage during an assessment.</p>
 
 <h3 id="data-exchange-guidance-and-examples">Data Exchange Guidance and Examples</h3>
 
@@ -379,7 +189,6 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
 <p><strong>Guidance and Notes:</strong></p>
 <ol>
   <li>The ‘questionnaire’ field is the URL pointing to the file of the questionnaire that defines and organizes the questions for which answers are being provided.</li>
-  <li>Use ‘id’ field to indicate the code of a section title or an observation question. For example, the LOINC code ‘88482-5.’</li>
   <li>Each ‘linkId’ field should match the ‘linkId’ of the corresponding section title or question from the questionnaire.</li>
   <li>The nesting structure of the ‘item’ fields should correspond to the nesting structure as showed in the questionnaire.</li>
 </ol>
@@ -414,7 +223,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
 <ol>
   <li>Use the right LOINC code to indicate the particular kind of functional assessment. In this case the LOINC code ‘83233-7’ is used to indicate ‘Self-Care - Admission Performance’.</li>
   <li>An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.</li>
-  <li>The ‘derivedFrom’ points back to the PACIOfunctionalQuestionaireResponse resource which provides context and structure for the observation-based information.</li>
+  <li>The ‘derivedFrom’ points back to the PACIOfunctionalQuestionaireResponse resource, which provides context and structure for the observation-based information.</li>
 </ol>
 
 <h3 id="priorleveloffunction--prior-level-of-function-example">PriorLevelOfFunction – Prior Level of Function Example</h3>
@@ -452,7 +261,7 @@ For profiles defined in other IGs, the meaning of “Must Support” is establis
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Aug 13, 2021 12:20-0700">2021-08-13</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 15, 2021 16:46-0700">2021-09-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

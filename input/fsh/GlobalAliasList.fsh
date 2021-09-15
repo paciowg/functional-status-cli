@@ -13,10 +13,11 @@ Alias: PACIOFunctioningCategoryVS = http://paciowg.github.io/cognitive-status-ig
 Alias: LL4309-2 = http://loinc.org/vs/LL4309-2
 
 // Misc.
-Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
+Alias: EventLocation = http://hl7.org/fhir/StructureDefinition/event-location
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 Alias: USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter
 Alias: USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location
 Alias: USCorePractitioner = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner
 Alias: USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole
 Alias: USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+Alias: SDCQR = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse

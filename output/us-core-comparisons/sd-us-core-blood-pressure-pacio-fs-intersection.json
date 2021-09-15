@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "2498bbe4-8435-4be8-8433-a73e413ab6f9-15",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2498bbe4-8435-4be8-8433-a73e413ab6f9-15",
+  "id" : "128df1b4-c0f1-404a-8afc-c83880307a5c-15",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/128df1b4-c0f1-404a-8afc-c83880307a5c-15",
   "name" : "IntersectionUSCoreBloodPressureProfileAndFunctionalStatus",
   "title" : "Intersection of US Core Blood Pressure Profile And PACIO Functional Status",
   "status" : "active",
-  "date" : "2021-08-13T12:20:31-07:00",
+  "date" : "2021-09-15T16:46:07-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -535,8 +535,13 @@
       "isModifier" : false,
       "isSummary" : false,
       "binding" : {
-        "strength" : "extensible",
-        "valueSet" : "http://paciowg.github.io/cognitive-status-ig/ValueSet/pacio-cat-vs"
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+          "valueString" : "ObservationCategory"
+        }],
+        "strength" : "preferred",
+        "description" : "Codes for high level observation categories.",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/observation-category"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -549,7 +554,7 @@
     },
     {
       "path" : "Observation.code",
-      "short" : "left: Blood Pressure; right: For a Post-Acute Care Assessment, code should be a LOINC code and text for the question.",
+      "short" : "left: Blood Pressure; right: For a Post-Acute Care Assessment, code should be a LOINC code and text for the question or concept name.",
       "definition" : "left: Coded Responses from C-CDA Vital Sign Results.; right: Describes what was observed. Sometimes this is called the observation \"name\".",
       "comment" : "*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.",
       "requirements" : "left: 5. SHALL contain exactly one [1..1] code, where the @code SHOULD be selected from ValueSet HITSP Vital Sign Result Type 2.16.840.1.113883.3.88.12.80.62 DYNAMIC (CONF:7301).; right: Knowing what kind of observation is being made is essential to understanding the observation.",
@@ -573,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2498bbe4-8435-4be8-8433-a73e413ab6f9-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/128df1b4-c0f1-404a-8afc-c83880307a5c-6"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -694,7 +699,7 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Encounter"]
+        "targetProfile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -822,12 +827,9 @@
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
-        "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
-        "http://hl7.org/fhir/StructureDefinition/Organization",
-        "http://hl7.org/fhir/StructureDefinition/CareTeam",
-        "http://hl7.org/fhir/StructureDefinition/Patient",
-        "http://hl7.org/fhir/StructureDefinition/RelatedPerson"]
+        "targetProfile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -859,7 +861,7 @@
     },
     {
       "path" : "Observation.value[x]",
-      "short" : "left: Vital Signs Value; right: Whenever possible should use the CodeableConcept type to provide a suitable code to define the concept. However, for an assessment score or roll-up value, use the Quantity type.",
+      "short" : "left: Vital Signs Value; right: Whenever possible should use the CodeableConcept datatype to provide a suitable code to define the concept for the observation data. As for values like an assessment score or roll-up value, the datatype for this element should be determined by Observation.code. However, for values that are ordinal, may use the CodeableConcept datatype along with the Ordinal Value Extension.",
       "definition" : "left: Vital Signs value are typically recorded using the Quantity data type.; right: The information determined as a result of making the observation, if the information has a simple value.",
       "comment" : "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section] below.",
       "requirements" : "left: 9. SHALL contain exactly one [1..1] value with @xsi:type=\"PQ\" (CONF:7305).; right: An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.",
@@ -937,7 +939,7 @@
     },
     {
       "path" : "Observation.dataAbsentReason",
-      "short" : "left: Why the result is missing; right: Currently not used in FunctionalStatus.",
+      "short" : "Why the result is missing",
       "definition" : "Provides a reason why the expected value in the element Observation.value[x] is missing.",
       "comment" : "Null or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  \"detected\", \"not detected\", \"inconclusive\", or  \"specimen unsatisfactory\".   \n\nThe alternate way is to use the value element for actual observations and use the explicit dataAbsentReason element to record exceptional values.  For example, the dataAbsentReason code \"error\" could be used when the measurement was not completed. Note that an observation may only be reported if there are values to report. For example differential cell counts values may be reported only when > 0.  Because of these options, use-case agreements are required to interpret general observations for null or exceptional values.",
       "requirements" : "For many results it is necessary to handle exceptional values in measurements.",
@@ -1584,15 +1586,6 @@
       "comment" : "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes] below.",
       "min" : 0,
       "max" : "*",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/DocumentReference",
-        "http://hl7.org/fhir/StructureDefinition/ImagingStudy",
-        "http://hl7.org/fhir/StructureDefinition/Media",
-        "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
-        "http://hl7.org/fhir/StructureDefinition/MolecularSequence",
-        "http://hl7.org/fhir/StructureDefinition/vitalsigns"]
-      }],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",

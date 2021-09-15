@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "pacio-fs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PACIO_FunctionalStatus_CapabilityStatement</h2><div><p>This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>Observation</td><td><a href=\"https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html\">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>QuestionnaireResponse</td><td><a href=\"https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html\">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>DeviceUseStatement</td><td><a href=\"https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html\">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PACIO_FunctionalStatus_CapabilityStatement</h2><div><p>This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>Observation</td><td><a href=\"https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html\">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>DeviceUseStatement</td><td><a href=\"https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html\">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>"
   ];
   fhir:CapabilityStatement.url [ fhir:value "/CapabilityStatement-pacio-fs.html"];
   fhir:CapabilityStatement.version [ fhir:value "0.1.0"];
@@ -50,9 +50,9 @@
      fhir:index 1
   ];
   fhir:CapabilityStatement.implementationGuide [
-     fhir:value "https://paciowg.github.io/functional-status-ig";
+     fhir:value "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status";
      fhir:index 0;
-     fhir:link <https://paciowg.github.io/functional-status-ig>
+     fhir:link <https://build.fhir.org/ig/HL7/fhir-pacio-functional-status>
   ];
   fhir:CapabilityStatement.rest [
      fhir:index 0;
@@ -61,8 +61,8 @@
        fhir:index 0;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Observation" ];
        fhir:CapabilityStatement.rest.resource.profile [
-         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html";
-         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html>
+         fhir:value "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html";
+         fhir:link <https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html>
        ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
@@ -347,139 +347,10 @@
        ]
      ], [
        fhir:index 1;
-       fhir:CapabilityStatement.rest.resource.type [ fhir:value "QuestionnaireResponse" ];
-       fhir:CapabilityStatement.rest.resource.profile [
-         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html";
-         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html>
-       ];
-       fhir:CapabilityStatement.rest.resource.interaction [
-         fhir:index 0;
-         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ];
-         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
-       ], [
-         fhir:index 1;
-         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ];
-         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
-       ], [
-         fhir:index 2;
-         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ];
-         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
-       ], [
-         fhir:index 3;
-         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ];
-         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
-       ], [
-         fhir:index 4;
-         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ];
-         fhir:CapabilityStatement.rest.resource.interaction.documentation [ fhir:value "Implemented per the specification (or Insert other doco here)" ]
-       ];
-       fhir:CapabilityStatement.rest.resource.conditionalCreate [ fhir:value "true"^^xsd:boolean ];
-       fhir:CapabilityStatement.rest.resource.conditionalUpdate [ fhir:value "true"^^xsd:boolean ];
-       fhir:CapabilityStatement.rest.resource.conditionalDelete [ fhir:value "multiple" ];
-       fhir:CapabilityStatement.rest.resource.referencePolicy [
-         fhir:value "literal";
-         fhir:index 0
-       ], [
-         fhir:value "logical";
-         fhir:index 1
-       ];
-       fhir:CapabilityStatement.rest.resource.searchInclude [
-         fhir:value "FunctionalQuestionnaireResponse.parent";
-         fhir:index 0
-       ], [
-         fhir:value "FunctionalQuestionnaireResponse.questionnaire";
-         fhir:index 1
-       ], [
-         fhir:value "FunctionalQuestionnaireResponse.based-on";
-         fhir:index 2
-       ], [
-         fhir:value "FunctionalQuestionnaireResponse.subject";
-         fhir:index 3
-       ], [
-         fhir:value "FunctionalQuestionnaireResponse.author";
-         fhir:index 4
-       ], [
-         fhir:value "FunctionalQuestionnaireResponse.patient";
-         fhir:index 5
-       ], [
-         fhir:value "FunctionalQuestionnaireResponse.context";
-         fhir:index 6
-       ], [
-         fhir:value "FunctionalQuestionnaireResponse.source";
-         fhir:index 7
-       ];
-       fhir:CapabilityStatement.rest.resource.searchRevInclude [
-         fhir:value "ClinicalImpression.investigation";
-         fhir:index 0
-       ], [
-         fhir:value "Consent.source";
-         fhir:index 1
-       ], [
-         fhir:value "Observation.related-target";
-         fhir:index 2
-       ];
-       fhir:CapabilityStatement.rest.resource.searchParam [
-         fhir:index 0;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "authored" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "date" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "When the questionnaire response was last changed" ]
-       ], [
-         fhir:index 1;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "identifier" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The unique identifier for the questionnaire response" ]
-       ], [
-         fhir:index 2;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "parent" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Procedure or observation this questionnaire response was performed as a part of" ]
-       ], [
-         fhir:index 3;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "questionnaire" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The questionnaire the answers are provided for" ]
-       ], [
-         fhir:index 4;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "based-on" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Plan/proposal/order fulfilled by this questionnaire response" ]
-       ], [
-         fhir:index 5;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "subject" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The subject of the questionnaire response" ]
-       ], [
-         fhir:index 6;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "author" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The author of the questionnaire response" ]
-       ], [
-         fhir:index 7;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "patient" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The patient that is the subject of the questionnaire response" ]
-       ], [
-         fhir:index 8;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "context" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "Encounter or episode associated with the questionnaire response" ]
-       ], [
-         fhir:index 9;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "source" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "reference" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The individual providing the information reflected in the questionnaire respose" ]
-       ], [
-         fhir:index 10;
-         fhir:CapabilityStatement.rest.resource.searchParam.name [ fhir:value "status" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.type [ fhir:value "token" ];
-         fhir:CapabilityStatement.rest.resource.searchParam.documentation [ fhir:value "The status of the questionnaire response" ]
-       ]
-     ], [
-       fhir:index 2;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "DeviceUseStatement" ];
        fhir:CapabilityStatement.rest.resource.profile [
-         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html";
-         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html>
+         fhir:value "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html";
+         fhir:link <https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html>
        ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
@@ -623,8 +494,8 @@
        fhir:index 0;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Observation" ];
        fhir:CapabilityStatement.rest.resource.profile [
-         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plf.html";
-         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plf.html>
+         fhir:value "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-nhfs.html";
+         fhir:link <https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-nhfs.html>
        ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
@@ -987,8 +858,8 @@
        fhir:index 0;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Observation" ];
        fhir:CapabilityStatement.rest.resource.profile [
-         fhir:value "https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html";
-         fhir:link <https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html>
+         fhir:value "https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html";
+         fhir:link <https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html>
        ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;

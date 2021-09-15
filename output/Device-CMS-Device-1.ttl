@@ -11,11 +11,11 @@
   fhir:Resource.id [ fhir:value "CMS-Device-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Bed rail</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>DeviceNames</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>Bedside rails, device</td><td>user-friendly-name</td></tr></table><p><b>type</b>: <span title=\"Codes: {http://snomed.info/sct 37953008}\">Bedside rails</span></p></div>"
   ];
   fhir:Device.deviceName [
      fhir:index 0;
-     fhir:Device.deviceName.name [ fhir:value "Bed rail" ];
+     fhir:Device.deviceName.name [ fhir:value "Bedside rails, device" ];
      fhir:Device.deviceName.type [ fhir:value "user-friendly-name" ]
   ];
   fhir:Device.type [

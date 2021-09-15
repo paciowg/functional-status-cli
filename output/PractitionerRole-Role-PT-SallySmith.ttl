@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT-SallySmith> a fhir:PractitionerRole;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Role-PT-SallySmith"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Generated Summary: active; Sally Smith ; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Org-01.html\">Generated Summary: name: San Antonio General Hospital</a></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 36682004}\">Physiotherapist</span></p><p><b>location</b>: <a href=\"Location-Org-Loc-01.html\">Generated Summary: status: active; name: San Antonio General Hospital</a></p></div>"
+  ];
+  fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
+  fhir:PractitionerRole.practitioner [
+     fhir:link <http://paciowg.github.io/functional-status-ig/Practitioner/Practitioner-SallySmith>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-SallySmith" ]
+  ];
+  fhir:PractitionerRole.organization [
+     fhir:link <http://paciowg.github.io/functional-status-ig/Organization/Org-01>;
+     fhir:Reference.reference [ fhir:value "Organization/Org-01" ]
+  ];
+  fhir:PractitionerRole.code [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:36682004;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "36682004" ];
+       fhir:Coding.display [ fhir:value "Physiotherapist" ]
+     ]
+  ];
+  fhir:PractitionerRole.location [
+     fhir:index 0;
+     fhir:link <http://paciowg.github.io/functional-status-ig/Location/Org-Loc-01>;
+     fhir:Reference.reference [ fhir:value "Location/Org-Loc-01" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://paciowg.github.io/functional-status-ig/PractitionerRole/Role-PT-SallySmith.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

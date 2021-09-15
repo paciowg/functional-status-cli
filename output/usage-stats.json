@@ -17,25 +17,34 @@
       "types": [
         "Reference"
       ]
+    },
+    {
+      "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/event-location",
+      "title": "ObservationEventLocation",
+      "types": [
+        "Reference"
+      ]
     }
   ],
   "profiles": {
     "DeviceUseStatement": [
       {
         "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev",
-        "title": "UseOfDevice"
+        "title": "Use of Device"
       }
     ],
     "Observation": [
       {
+        "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs",
+        "title": "PACIO Functional Status"
+      },
+      {
+        "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc",
+        "title": "PACIO Functional Status Collection"
+      },
+      {
         "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs",
         "title": "PACIO Narrative History of Functional Status"
-      }
-    ],
-    "QuestionnaireResponse": [
-      {
-        "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr",
-        "title": "PACIO Questionnaire Response"
       }
     ]
   },
@@ -62,9 +71,6 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/event-location": [
-      "Observation"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],
@@ -77,9 +83,6 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition.snapshot.element"
-    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],
@@ -90,6 +93,9 @@
       "Observation"
     ],
     "http://paciowg.github.io/functional-status-ig/StructureDefinition/device-patient-used": [
+      "Observation"
+    ],
+    "http://paciowg.github.io/functional-status-ig/StructureDefinition/event-location": [
       "Observation"
     ]
   }

@@ -4,7 +4,7 @@
   <id value="pacio-fs"/>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PACIO_FunctionalStatus_CapabilityStatement</h2><div><p>This Capability Statement defines the expected capabilities of a PACIO Functional Status FHIR server conforming to the PACIO functional Status Implementation Guide.</p>
-</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET past versions of resources (vread interaction)">V-Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="GET changes to a resource (history interaction on instance)">Updates</b></th><th><b title="GET changes for all resources of the type (history interaction on type)">History</b></th></tr><tr><td>Observation</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>QuestionnaireResponse</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>DeviceUseStatement</td><td><a href="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html">https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET past versions of resources (vread interaction)">V-Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="GET changes to a resource (history interaction on instance)">Updates</b></th><th><b title="GET changes for all resources of the type (history interaction on type)">History</b></th></tr><tr><td>Observation</td><td><a href="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>DeviceUseStatement</td><td><a href="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html">https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>
   </text>
   <url value="/CapabilityStatement-pacio-fs.html"/>
   <version value="0.1.0"/>
@@ -34,12 +34,12 @@
   <fhirVersion value="4.0.1"/>
   <format value="xml"/>
   <format value="json"/>
-  <implementationGuide value="https://paciowg.github.io/functional-status-ig"/>
+  <implementationGuide value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status"/>
   <rest>
     <mode value="server"/>
     <resource>
       <type value="Observation"/>
-      <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-bfs.html"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fsc.html"/>
       <interaction>
         <code value="read"/>
         <documentation value="Implemented per the specification (or Insert other doco here)"/>
@@ -276,103 +276,8 @@
       </searchParam>
     </resource>
     <resource>
-      <type value="QuestionnaireResponse"/>
-      <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-functional-qr.html"/>
-      <interaction>
-        <code value="read"/>
-        <documentation value="Implemented per the specification (or Insert other doco here)"/>
-      </interaction>
-      <interaction>
-        <code value="vread"/>
-        <documentation value="Implemented per the specification (or Insert other doco here)"/>
-      </interaction>
-      <interaction>
-        <code value="history-instance"/>
-        <documentation value="Implemented per the specification (or Insert other doco here)"/>
-      </interaction>
-      <interaction>
-        <code value="history-type"/>
-        <documentation value="Implemented per the specification (or Insert other doco here)"/>
-      </interaction>
-      <interaction>
-        <code value="search-type"/>
-        <documentation value="Implemented per the specification (or Insert other doco here)"/>
-      </interaction>
-      <conditionalCreate value="true"/>
-      <conditionalUpdate value="true"/>
-      <conditionalDelete value="multiple"/>
-      <referencePolicy value="literal"/>
-      <referencePolicy value="logical"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.parent"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.questionnaire"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.based-on"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.subject"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.author"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.patient"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.context"/>
-      <searchInclude value="FunctionalQuestionnaireResponse.source"/>
-      <searchRevInclude value="ClinicalImpression.investigation"/>
-      <searchRevInclude value="Consent.source"/>
-      <searchRevInclude value="Observation.related-target"/>
-      <searchParam>
-        <name value="authored"/>
-        <type value="date"/>
-        <documentation value="When the questionnaire response was last changed"/>
-      </searchParam>
-      <searchParam>
-        <name value="identifier"/>
-        <type value="token"/>
-        <documentation value="The unique identifier for the questionnaire response"/>
-      </searchParam>
-      <searchParam>
-        <name value="parent"/>
-        <type value="reference"/>
-        <documentation value="Procedure or observation this questionnaire response was performed as a part of"/>
-      </searchParam>
-      <searchParam>
-        <name value="questionnaire"/>
-        <type value="reference"/>
-        <documentation value="The questionnaire the answers are provided for"/>
-      </searchParam>
-      <searchParam>
-        <name value="based-on"/>
-        <type value="reference"/>
-        <documentation value="Plan/proposal/order fulfilled by this questionnaire response"/>
-      </searchParam>
-      <searchParam>
-        <name value="subject"/>
-        <type value="reference"/>
-        <documentation value="The subject of the questionnaire response"/>
-      </searchParam>
-      <searchParam>
-        <name value="author"/>
-        <type value="reference"/>
-        <documentation value="The author of the questionnaire response"/>
-      </searchParam>
-      <searchParam>
-        <name value="patient"/>
-        <type value="reference"/>
-        <documentation value="The patient that is the subject of the questionnaire response"/>
-      </searchParam>
-      <searchParam>
-        <name value="context"/>
-        <type value="reference"/>
-        <documentation value="Encounter or episode associated with the questionnaire response"/>
-      </searchParam>
-      <searchParam>
-        <name value="source"/>
-        <type value="reference"/>
-        <documentation value="The individual providing the information reflected in the questionnaire respose"/>
-      </searchParam>
-      <searchParam>
-        <name value="status"/>
-        <type value="token"/>
-        <documentation value="The status of the questionnaire response"/>
-      </searchParam>
-    </resource>
-    <resource>
       <type value="DeviceUseStatement"/>
-      <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-dev.html"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-dev.html"/>
       <interaction>
         <code value="read"/>
         <documentation value="Implemented per the specification (or Insert other doco here)"/>
@@ -481,7 +386,7 @@
     <mode value="server"/>
     <resource>
       <type value="Observation"/>
-      <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-plf.html"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-nhfs.html"/>
       <interaction>
         <code value="read"/>
         <documentation value="Implemented per the specification (or Insert other doco here)"/>
@@ -776,7 +681,7 @@
     <mode value="server"/>
     <resource>
       <type value="Observation"/>
-      <profile value="https://paciowg.github.io/functional-status-ig/StructureDefinition-pacio-fs.html"/>
+      <profile value="https://build.fhir.org/ig/HL7/fhir-pacio-functional-status/StructureDefinition-pacio-fs.html"/>
       <interaction>
         <code value="read"/>
         <documentation value="Implemented per the specification (or Insert other doco here)"/>

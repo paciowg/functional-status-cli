@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"6.262"}
-    h3,h4,h5,h6{--heading-prefix:"6.262"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.118"}
+    h3,h4,h5,h6{--heading-prefix:"6.118"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -178,11 +178,6 @@
 {
   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse">resourceType</a>" : "QuestionnaireResponse",
   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.id">id</a>" : "QResponse-SNF-Admission-Mobility-SelfCare-1",
-  "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"
-    ]
-  },
   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;questionnaire&lt;/b&gt;: &lt;a href=\&quot;https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17\&quot;&gt;https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-patientBSJ1.html\&quot;&gt;Generated Summary: Betsy Smith-Johnson &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;authored&lt;/b&gt;: Jul 11, 2020, 2:32:00 PM&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section-37&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Functional abilities and goals - admission [CMS Assessment]&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section-37/GG0130_1&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Self-care - admission performance [CMS Assessment]&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
@@ -195,95 +190,86 @@
   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.authored">authored</a>" : "2020-07-11T16:32:00-05:00",
   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item">item</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "88482-5",
       "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37",
       "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Functional abilities and goals - admission [CMS Assessment]",
       "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83233-7",
           "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130_1",
           "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Self-care - admission performance [CMS Assessment]",
           "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">item</a>" : [
             {
-              "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83232-9",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130A1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Eating - functional ability during 3 day assessment period [CMS Assessment]",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>" : [
                 {
                   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>" : {
-                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"
+                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-3"
                   }
                 }
               ]
             },
             {
-              "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83230-3",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130B1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Oral hygiene - functional ability during 3 day assessment period [CMS Assessment]",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>" : [
                 {
                   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>" : {
-                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"
+                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-7"
                   }
                 }
               ]
             },
             {
-              "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83228-7",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130C1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Toileting hygiene - functional ability during 3 day assessment period [CMS Assessment]",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>" : [
                 {
                   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>" : {
-                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"
+                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-11"
                   }
                 }
               ]
             },
             {
-              "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83226-1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130E1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Shower/bathe self - functional ability during 3 day assessment period [CMS Assessment]",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>" : [
                 {
                   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>" : {
-                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"
+                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-15"
                   }
                 }
               ]
             },
             {
-              "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83224-6",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130F1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Upper body dressing - functional ability during 3 day assessment period [CMS Assessment]",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>" : [
                 {
                   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>" : {
-                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"
+                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-19"
                   }
                 }
               ]
             },
             {
-              "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83222-0",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130G1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Lower body dressing - functional ability during 3 day assessment period [CMS Assessment]",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>" : [
                 {
                   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>" : {
-                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"
+                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-23"
                   }
                 }
               ]
             },
             {
-              "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">id</a>" : "83220-4",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">linkId</a>" : "Section-37/GG0130H1",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">text</a>" : "Putting on/taking off footwear - functional ability during 3 day assessment period [CMS Assessment]",
               "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">answer</a>" : [
                 {
                   "<a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">valueReference</a>" : {
-                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/BFS-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"
+                    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/FSC-SNF-Admission-Mobility-SelfCare-1-Ob-Question-27"
                   }
                 }
               ]
@@ -323,7 +309,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Aug 13, 2021 12:20-0700">2021-08-13</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare/"></a>.  Package hl7.fhir.us.pacio-fs#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 15, 2021 16:46-0700">2021-09-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

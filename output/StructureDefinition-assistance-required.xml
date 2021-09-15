@@ -13,7 +13,7 @@
   <version value="0.1.0"/>
   <name value="AssistanceRequired"/>
   <status value="active"/>
-  <date value="2021-08-13T12:20:25-07:00"/>
+  <date value="2021-09-15T16:46:01-07:00"/>
   <contact>
     <name value="PACIO project"/>
     <telecom>
@@ -25,7 +25,7 @@
       <value value="info@pacioproject.org"/>
     </telecom>
   </contact>
-  <description value="Associated with the Narrative History of Functional Status profile to provide a high-level indication of assistance required for the person&#x2019;s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to perform everyday activities. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
+  <description value="Associated with the Narrative History of Functional Status profile to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to perform everyday activities. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -51,7 +51,7 @@
     <element id="Extension">
       <path value="Extension"/>
       <short value="Extension"/>
-      <definition value="Associated with the Narrative History of Functional Status profile to provide a high-level indication of assistance required for the person&#x2019;s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to perform everyday activities. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
+      <definition value="Associated with the Narrative History of Functional Status profile to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to perform everyday activities. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -208,7 +208,7 @@
   <differential>
     <element id="Extension">
       <path value="Extension"/>
-      <definition value="Associated with the Narrative History of Functional Status profile to provide a high-level indication of assistance required for the person&#x2019;s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to perform everyday activities. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
+      <definition value="Associated with the Narrative History of Functional Status profile to provide a high-level indication of assistance required for the person’s baseline ability (physical function immediately preceding the current admission, illness, or exacerbation for a patient) to perform everyday activities. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
     </element>
     <element id="Extension.extension">
       <path value="Extension.extension"/>

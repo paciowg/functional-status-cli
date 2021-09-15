@@ -2,9 +2,6 @@
 
 <QuestionnaireResponse xmlns="http://hl7.org/fhir">
   <id value="QResponse-HH-StartOfCare-Mobility-SelfCare-1"/>
-  <meta>
-    <profile value="http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-functional-qr"/>
-  </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>questionnaire</b>: <a href="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17">https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17</a></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: Betsy Smith-Johnson </a></p><p><b>authored</b>: Aug 2, 2020, 11:31:00 AM</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37</p><p><b>text</b>: OASIS D - Functional abilities and goals - SOC/ROC [CMS Assessment]</p><blockquote><p><b>item</b></p><p><b>linkId</b>: Section-37/GG0130_1</p><p><b>text</b>: OASIS D - Self-care - SOC/ROC performance [CMS Assessment]</p></blockquote></blockquote></div>
   </text>
@@ -14,72 +11,72 @@
     <reference value="Patient/patientBSJ1"/>
   </subject>
   <authored value="2020-08-02T13:31:00-05:00"/>
-  <item id="89572-2">
+  <item>
     <linkId value="Section-37"/>
     <text value="OASIS D - Functional abilities and goals - SOC/ROC [CMS Assessment]"/>
-    <item id="89479-0">
+    <item>
       <linkId value="Section-37/GG0130_1"/>
       <text value="OASIS D - Self-care - SOC/ROC performance [CMS Assessment]"/>
-      <item id="89410-5">
+      <item>
         <linkId value="Section-37/GG0130A1"/>
         <text value="Eating - functional ability [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36"/>
+            <reference value="Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-36"/>
           </valueReference>
         </answer>
       </item>
-      <item id="89405-5">
+      <item>
         <linkId value="Section-37/GG0130B1"/>
         <text value="Oral hygiene - functional ability [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38"/>
+            <reference value="Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-38"/>
           </valueReference>
         </answer>
       </item>
-      <item id="57245-3">
+      <item>
         <linkId value="Section-37/GG0130C1"/>
         <text value="Toileting hygiene - functional ability [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40"/>
+            <reference value="Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-40"/>
           </valueReference>
         </answer>
       </item>
-      <item id="89397-4">
+      <item>
         <linkId value="Section-37/GG0130E1"/>
         <text value="Shower/bathe self - functional ability [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42"/>
+            <reference value="Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-42"/>
           </valueReference>
         </answer>
       </item>
-      <item id="89388-3">
+      <item>
         <linkId value="Section-37/GG0130F1"/>
         <text value="Upper body dressing - functional ability [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
+            <reference value="Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-44"/>
           </valueReference>
         </answer>
       </item>
-      <item id="89407-1">
+      <item>
         <linkId value="Section-37/GG0130G1"/>
         <text value="Lower body dressing - functional ability [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
+            <reference value="Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-46"/>
           </valueReference>
         </answer>
       </item>
-      <item id="89401-4">
+      <item>
         <linkId value="Section-37/GG0130H1"/>
         <text value="Putting on and taking off footwear - functional ability [CMS Assessment]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BFS-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
+            <reference value="Observation/FSC-HH-StartOfCare-Mobility-SelfCare-1-Ob-Question-48"/>
           </valueReference>
         </answer>
       </item>

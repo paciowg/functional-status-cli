@@ -3,7 +3,7 @@ Alias: SCT = http://snomed.info/sct
 
 Instance: CMS-Device-1
 InstanceOf: Device
-* deviceName.name = "Bed rail"
+* deviceName.name = "Bedside rails, device"
 * deviceName.type = DVT#user-friendly-name
 * type = SCT#37953008
 
