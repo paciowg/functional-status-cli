@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "33039f90-f8a9-4dce-98f4-dd983506aaaf-141",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/33039f90-f8a9-4dce-98f4-dd983506aaaf-141",
+  "id" : "87f70f6d-9dbe-4edb-9f47-122118f91864-144",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/87f70f6d-9dbe-4edb-9f47-122118f91864-144",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndNarrativeHistoryOfFunctionalStatus",
   "title" : "Intersection of US Core Smoking Status Observation Profile And PACIO Narrative History of Functional Status",
   "status" : "active",
-  "date" : "2021-09-15T21:20:23-07:00",
+  "date" : "2021-09-16T08:46:07-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -486,7 +486,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/33039f90-f8a9-4dce-98f4-dd983506aaaf-48"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/87f70f6d-9dbe-4edb-9f47-122118f91864-48"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -537,7 +537,7 @@
       "isSummary" : false,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://paciowg.github.io/cognitive-status-ig/ValueSet/pacio-cat-vs"
+        "valueSet" : "http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -573,7 +573,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/33039f90-f8a9-4dce-98f4-dd983506aaaf-51"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/87f70f6d-9dbe-4edb-9f47-122118f91864-51"
       },
       "mapping" : [{
         "identity" : "workflow",

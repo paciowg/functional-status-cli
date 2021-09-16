@@ -7,6 +7,13 @@
     "name": "PACIO_FunctionalStatus_CapabilityStatement"
   },
   {
+    "id": "pacio-cat-cs",
+    "type": "CodeSystem",
+    "url": "http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs",
+    "version": "0.1.0",
+    "name": "PACIOFunctioningCategoryCS"
+  },
+  {
     "id": "hl7.fhir.us.pacio-fs",
     "type": "ImplementationGuide",
     "url": "http://paciowg.github.io/functional-status-ig/ImplementationGuide/hl7.fhir.us.pacio-fs",
@@ -61,5 +68,12 @@
     "url": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs",
     "version": "0.1.0",
     "name": "NarrativeHistoryOfFunctionalStatus"
+  },
+  {
+    "id": "pacio-cat-vs",
+    "type": "ValueSet",
+    "url": "http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs",
+    "version": "0.1.0",
+    "name": "PACIOFunctioningCategoryVS"
   }
 ]

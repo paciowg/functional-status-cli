@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="pacio-cat-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="http://hl7.org/fhir/R4/valueset-observation-category.html">http://hl7.org/fhir/ValueSet/observation-category</a></li><li>Include all codes defined in <a href="CodeSystem-pacio-cat-cs.html"><code>http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs"/>
+  <version value="0.1.0"/>
+  <name value="PACIOFunctioningCategoryVS"/>
+  <title value="PACIO Functioning Category Value Set"/>
+  <status value="active"/>
+  <date value="2021-09-16T08:45:55-07:00"/>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes for the classification of patient observation. This is an extension of the ObservationCategoryCodes value set"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <valueSet value="http://hl7.org/fhir/ValueSet/observation-category"/>
+    </include>
+    <include>
+      <system value="http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs"/>
+    </include>
+  </compose>
+</ValueSet>

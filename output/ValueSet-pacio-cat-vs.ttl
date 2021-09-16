@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pacio-cat-vs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"http://hl7.org/fhir/R4/valueset-observation-category.html\">http://hl7.org/fhir/ValueSet/observation-category</a></li><li>Include all codes defined in <a href=\"CodeSystem-pacio-cat-cs.html\"><code>http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "PACIOFunctioningCategoryVS"];
+  fhir:ValueSet.title [ fhir:value "PACIO Functioning Category Value Set"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-09-16T08:45:55-07:00"^^xsd:dateTime];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare/" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Codes for the classification of patient observation. This is an extension of the ObservationCategoryCodes value set"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.valueSet [
+         fhir:value "http://hl7.org/fhir/ValueSet/observation-category";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/ValueSet/observation-category>
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

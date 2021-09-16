@@ -1,0 +1,87 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "87f70f6d-9dbe-4edb-9f47-122118f91864-104",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/87f70f6d-9dbe-4edb-9f47-122118f91864-104",
+  "name" : "UnionObservationCategoryCodesAndPACIOFunctioningCategoryVS",
+  "title" : "Union of Observation Category Codes And PACIO Functioning Category Value Set",
+  "status" : "draft",
+  "date" : "2021-09-16T08:46:06-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category"
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/ValueSet/observation-category"]
+    },
+    {
+      "system" : "http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs"
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "social-history",
+      "display" : "Social History"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "vital-signs",
+      "display" : "Vital Signs"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "imaging",
+      "display" : "Imaging"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "laboratory",
+      "display" : "Laboratory"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "procedure",
+      "display" : "Procedure"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "survey",
+      "display" : "Survey"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "exam",
+      "display" : "Exam"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "therapy",
+      "display" : "Therapy"
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "abstract" : false,
+      "code" : "activity",
+      "display" : "Activity"
+    },
+    {
+      "system" : "http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs",
+      "code" : "functioning",
+      "display" : "Functioning"
+    }]
+  }
+}

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "33039f90-f8a9-4dce-98f4-dd983506aaaf-57",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/33039f90-f8a9-4dce-98f4-dd983506aaaf-57",
+  "id" : "87f70f6d-9dbe-4edb-9f47-122118f91864-57",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/87f70f6d-9dbe-4edb-9f47-122118f91864-57",
   "name" : "IntersectionUSCorePediatricHeadOccipitalFrontalCircumferencePercentileProfileAndFunctionalStatusCollection",
   "title" : "Intersection of US Core Pediatric Head Occipital-frontal Circumference Percentile Profile And PACIO Functional Status Collection",
   "status" : "active",
-  "date" : "2021-09-15T21:20:23-07:00",
+  "date" : "2021-09-16T08:46:06-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/33039f90-f8a9-4dce-98f4-dd983506aaaf-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/87f70f6d-9dbe-4edb-9f47-122118f91864-6"
       },
       "mapping" : [{
         "identity" : "workflow",

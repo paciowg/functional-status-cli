@@ -11,7 +11,7 @@
   <name value="PACIOFunctionalStatusImplementationGuide"/>
   <title value="PACIO Functional Status Implementation Guide"/>
   <status value="active"/>
-  <date value="2021-09-15T21:20:17-07:00"/>
+  <date value="2021-09-16T08:45:55-07:00"/>
   <contact>
     <name value="PACIO project"/>
     <telecom>
@@ -274,6 +274,28 @@
       </reference>
       <name value="ObservationEventLocation"/>
       <description value="This extension is used to indicate the principal physical location where an observation event occurred."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/pacio-cat-vs"/>
+      </reference>
+      <name value="PACIO Functioning Category Value Set"/>
+      <description value="Codes for the classification of patient observation. This is an extension of the ObservationCategoryCodes value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/pacio-cat-cs"/>
+      </reference>
+      <name value="PACIO Functioning Category Code System"/>
+      <description value="Defining a specific code for the classification of patient observation regarding individual&#39;s functioning."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

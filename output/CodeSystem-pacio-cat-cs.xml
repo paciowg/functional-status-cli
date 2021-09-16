@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pacio-cat-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">functioning<a name="pacio-cat-cs-functioning"> </a></td><td>Functioning</td><td>Functioning is an umbrella term for body function, body structures, activities, and participation in societal roles. An individual’s functioning represents a dynamic interaction between their health condition, environmental factors, and personal factors. Taking a broad view of health that encompasses physical, mental, and social well-being, includes optimizing functioning as a component of optimizing their health. Characterizing an individual’s functioning includes both understanding the severity of an individual’s signs, symptoms, impairments and limitations, and how they correspond with day-to-day activities. Functioning also serves as a key health outcome within health care.</td></tr></table></div>
+  </text>
+  <url value="http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs"/>
+  <version value="0.1.0"/>
+  <name value="PACIOFunctioningCategoryCS"/>
+  <title value="PACIO Functioning Category Code System"/>
+  <status value="active"/>
+  <date value="2021-09-16T08:45:55-07:00"/>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Defining a specific code for the classification of patient observation regarding individual&#39;s functioning."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="functioning"/>
+    <display value="Functioning"/>
+    <definition value="Functioning is an umbrella term for body function, body structures, activities, and participation in societal roles. An individual’s functioning represents a dynamic interaction between their health condition, environmental factors, and personal factors. Taking a broad view of health that encompasses physical, mental, and social well-being, includes optimizing functioning as a component of optimizing their health. Characterizing an individual’s functioning includes both understanding the severity of an individual’s signs, symptoms, impairments and limitations, and how they correspond with day-to-day activities. Functioning also serves as a key health outcome within health care."/>
+  </concept>
+</CodeSystem>

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "33039f90-f8a9-4dce-98f4-dd983506aaaf-138",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/33039f90-f8a9-4dce-98f4-dd983506aaaf-138",
+  "id" : "87f70f6d-9dbe-4edb-9f47-122118f91864-141",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/87f70f6d-9dbe-4edb-9f47-122118f91864-141",
   "name" : "IntersectionUSCoreRespiratoryRateProfileAndNarrativeHistoryOfFunctionalStatus",
   "title" : "Intersection of US Core Respiratory Rate Profile And PACIO Narrative History of Functional Status",
   "status" : "active",
-  "date" : "2021-09-15T21:20:23-07:00",
+  "date" : "2021-09-16T08:46:07-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -536,7 +536,7 @@
       "isSummary" : false,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://paciowg.github.io/cognitive-status-ig/ValueSet/pacio-cat-vs"
+        "valueSet" : "http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -573,7 +573,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/33039f90-f8a9-4dce-98f4-dd983506aaaf-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/87f70f6d-9dbe-4edb-9f47-122118f91864-6"
       },
       "mapping" : [{
         "identity" : "workflow",

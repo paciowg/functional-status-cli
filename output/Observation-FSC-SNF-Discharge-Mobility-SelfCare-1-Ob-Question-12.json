@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83228-7}\">Toileting hygiene</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Aug 1, 2020, 9:00:00 AM</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-OT-DanielGranger.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10073-7}\">Setup or cleanup assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Aug 1, 2020, 9:00:00 AM</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83228-7}\">Toileting hygiene</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Aug 1, 2020, 9:00:00 AM</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-OT-DanielGranger.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10073-7}\">Setup or cleanup assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Discharge-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Aug 1, 2020, 9:00:00 AM</a></p></div>"
   },
   "extension": [
     {
@@ -23,7 +23,7 @@
     {
       "coding": [
         {
-          "system": "http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs",
+          "system": "http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs",
           "code": "functioning",
           "display": "Functioning"
         }

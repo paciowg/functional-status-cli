@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOFunctionalStatusImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Functional Status Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-15T21:20:17-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-09-16T08:45:55-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];
@@ -401,6 +401,34 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://paciowg.github.io/functional-status-ig/ValueSet/pacio-cat-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/pacio-cat-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO Functioning Category Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes for the classification of patient observation. This is an extension of the ObservationCategoryCodes value set" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pacio-cat-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO Functioning Category Code System" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defining a specific code for the classification of patient observation regarding individual's functioning." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -414,7 +442,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs>
        ]
      ], [
-       fhir:index 8;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -428,7 +456,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -442,7 +470,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -456,7 +484,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -470,7 +498,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -484,7 +512,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -498,7 +526,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -512,7 +540,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -529,7 +557,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
-       fhir:index 16;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -546,7 +574,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 17;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -563,7 +591,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 18;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -580,7 +608,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 19;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -597,7 +625,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 20;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -614,7 +642,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 21;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -631,7 +659,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 22;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -648,7 +676,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -665,7 +693,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -682,7 +710,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 25;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -699,7 +727,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 26;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -716,7 +744,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 27;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -733,7 +761,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 28;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -750,7 +778,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 29;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -767,7 +795,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 30;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -784,7 +812,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 31;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -801,7 +829,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
-       fhir:index 32;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -818,7 +846,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 33;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -835,7 +863,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 34;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -852,7 +880,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 35;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -869,7 +897,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 36;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -886,7 +914,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 37;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -903,7 +931,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 38;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -920,7 +948,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 39;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -937,7 +965,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 40;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -954,7 +982,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 41;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -971,7 +999,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 42;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -988,7 +1016,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 43;
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1005,7 +1033,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 44;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1022,7 +1050,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 45;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1039,7 +1067,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 46;
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1056,7 +1084,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 47;
+       fhir:index 49;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1073,7 +1101,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 48;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1090,7 +1118,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 49;
+       fhir:index 51;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1107,7 +1135,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
        ]
      ], [
-       fhir:index 50;
+       fhir:index 52;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1124,7 +1152,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
        ]
      ], [
-       fhir:index 51;
+       fhir:index 53;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1141,7 +1169,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
-       fhir:index 52;
+       fhir:index 54;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1158,7 +1186,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 53;
+       fhir:index 55;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1175,7 +1203,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 54;
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1192,7 +1220,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 55;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1209,7 +1237,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 56;
+       fhir:index 58;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1226,7 +1254,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 57;
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1243,7 +1271,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 58;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1260,7 +1288,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 59;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1277,7 +1305,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 60;
+       fhir:index 62;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1294,7 +1322,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 61;
+       fhir:index 63;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1311,7 +1339,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 62;
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1328,7 +1356,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 63;
+       fhir:index 65;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1345,7 +1373,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 64;
+       fhir:index 66;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1362,7 +1390,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 65;
+       fhir:index 67;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1379,7 +1407,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 66;
+       fhir:index 68;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1396,7 +1424,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 67;
+       fhir:index 69;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1413,7 +1441,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 68;
+       fhir:index 70;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1430,7 +1458,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 69;
+       fhir:index 71;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1447,7 +1475,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
        ]
      ], [
-       fhir:index 70;
+       fhir:index 72;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1464,7 +1492,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
        ]
      ], [
-       fhir:index 71;
+       fhir:index 73;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1481,7 +1509,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
        ]
      ], [
-       fhir:index 72;
+       fhir:index 74;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1498,7 +1526,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
        ]
      ], [
-       fhir:index 73;
+       fhir:index 75;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1515,7 +1543,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
        ]
      ], [
-       fhir:index 74;
+       fhir:index 76;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1532,7 +1560,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
-       fhir:index 75;
+       fhir:index 77;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1549,7 +1577,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 76;
+       fhir:index 78;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1566,7 +1594,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 77;
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1583,7 +1611,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 78;
+       fhir:index 80;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1600,7 +1628,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 79;
+       fhir:index 81;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1617,7 +1645,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 80;
+       fhir:index 82;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1634,7 +1662,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 81;
+       fhir:index 83;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1651,7 +1679,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 82;
+       fhir:index 84;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1668,7 +1696,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
-       fhir:index 83;
+       fhir:index 85;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1685,7 +1713,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 84;
+       fhir:index 86;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1702,7 +1730,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 85;
+       fhir:index 87;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1719,7 +1747,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 86;
+       fhir:index 88;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1736,7 +1764,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 87;
+       fhir:index 89;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1753,7 +1781,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 88;
+       fhir:index 90;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1770,7 +1798,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 89;
+       fhir:index 91;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1787,7 +1815,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 90;
+       fhir:index 92;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1804,7 +1832,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc>
        ]
      ], [
-       fhir:index 91;
+       fhir:index 93;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1821,7 +1849,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 92;
+       fhir:index 94;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1838,7 +1866,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 93;
+       fhir:index 95;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1855,7 +1883,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 94;
+       fhir:index 96;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1872,7 +1900,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 95;
+       fhir:index 97;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1889,7 +1917,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 96;
+       fhir:index 98;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1906,7 +1934,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 97;
+       fhir:index 99;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1923,7 +1951,7 @@
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs>
        ]
      ], [
-       fhir:index 98;
+       fhir:index 100;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1937,7 +1965,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 99;
+       fhir:index 101;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1951,7 +1979,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 100;
+       fhir:index 102;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1965,7 +1993,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 101;
+       fhir:index 103;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1979,7 +2007,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 102;
+       fhir:index 104;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1993,7 +2021,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 103;
+       fhir:index 105;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2007,7 +2035,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 104;
+       fhir:index 106;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2021,7 +2049,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 105;
+       fhir:index 107;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2035,7 +2063,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 106;
+       fhir:index 108;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2049,7 +2077,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 107;
+       fhir:index 109;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2063,7 +2091,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 108;
+       fhir:index 110;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2077,7 +2105,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 109;
+       fhir:index 111;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2091,7 +2119,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 110;
+       fhir:index 112;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2105,7 +2133,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 111;
+       fhir:index 113;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2119,7 +2147,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 112;
+       fhir:index 114;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2133,7 +2161,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of QuestionnaireResponse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 113;
+       fhir:index 115;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2147,7 +2175,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of QuestionnaireResponse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 114;
+       fhir:index 116;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2161,7 +2189,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of QuestionnaireResponse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 115;
+       fhir:index 117;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2175,7 +2203,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of QuestionnaireResponse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 116;
+       fhir:index 118;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2189,7 +2217,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of QuestionnaireResponse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 117;
+       fhir:index 119;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2203,7 +2231,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of QuestionnaireResponse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 118;
+       fhir:index 120;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2217,7 +2245,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of QuestionnaireResponse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 119;
+       fhir:index 121;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2231,7 +2259,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 120;
+       fhir:index 122;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2245,7 +2273,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 121;
+       fhir:index 123;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2259,7 +2287,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 122;
+       fhir:index 124;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2273,7 +2301,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 123;
+       fhir:index 125;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2287,7 +2315,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 124;
+       fhir:index 126;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2301,7 +2329,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 125;
+       fhir:index 127;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2315,7 +2343,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 126;
+       fhir:index 128;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2329,7 +2357,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 127;
+       fhir:index 129;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2343,7 +2371,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 128;
+       fhir:index 130;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2357,7 +2385,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 129;
+       fhir:index 131;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

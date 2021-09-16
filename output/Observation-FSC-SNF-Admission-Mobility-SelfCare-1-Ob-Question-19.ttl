@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83224-6}\">Upper body dressing</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 2:32:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 2:32:00 PM</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>ObservationEventLocation</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs functioning}\">Functioning</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83224-6}\">Upper body dressing</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 2:32:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-OT-JenCadbury.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 80546007}\">Occupational therapist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10055-4}\">Partial/moderate assistance</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-Admission-Mobility-SelfCare-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 2:32:00 PM</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -33,7 +33,7 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://paciowg.github.io/cognitive-status-ig/CodeSystem/pacio-cat-cs" ];
+       fhir:Coding.system [ fhir:value "http://paciowg.github.io/functional-status-ig/CodeSystem/pacio-cat-cs" ];
        fhir:Coding.code [ fhir:value "functioning" ];
        fhir:Coding.display [ fhir:value "Functioning" ]
      ]

@@ -10,7 +10,7 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
-  "date": "2021-09-15T21:20:17-07:00",
+  "date": "2021-09-16T08:45:55-07:00",
   "contact": [
     {
       "name": "PACIO project",
@@ -410,6 +410,34 @@
         },
         "name": "ObservationEventLocation",
         "description": "This extension is used to indicate the principal physical location where an observation event occurred.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/pacio-cat-vs"
+        },
+        "name": "PACIO Functioning Category Value Set",
+        "description": "Codes for the classification of patient observation. This is an extension of the ObservationCategoryCodes value set",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/pacio-cat-cs"
+        },
+        "name": "PACIO Functioning Category Code System",
+        "description": "Defining a specific code for the classification of patient observation regarding individual's functioning.",
         "exampleBoolean": false
       },
       {
