@@ -10,7 +10,7 @@
   "name": "PACIOFunctionalStatusImplementationGuide",
   "title": "PACIO Functional Status Implementation Guide",
   "status": "active",
-  "date": "2021-09-15T16:46:01-07:00",
+  "date": "2021-09-15T21:20:17-07:00",
   "contact": [
     {
       "name": "PACIO project",
@@ -47,7 +47,7 @@
       "id": "hl7_fhir_us_core",
       "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
       "packageId": "hl7.fhir.us.core",
-      "version": "3.1.0"
+      "version": "3.1.1"
     }
   ],
   "definition": {
@@ -423,6 +423,7 @@
           "reference": "Observation/BSJ-Narrative-History-Functional-Status-1"
         },
         "name": "BSJ-Narrative-History-Functional-Status-1",
+        "description": "An instance of NarrativeHistoryOfFunctionalStatus",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs"
       },
       {
@@ -436,6 +437,7 @@
           "reference": "Device/CMS-Device-1"
         },
         "name": "CMS-Device-1",
+        "description": "An instance of Device",
         "exampleBoolean": true
       },
       {
@@ -449,6 +451,7 @@
           "reference": "Device/CMS-Device-2"
         },
         "name": "CMS-Device-2",
+        "description": "An instance of Device",
         "exampleBoolean": true
       },
       {
@@ -462,6 +465,7 @@
           "reference": "Device/CMS-Device-3"
         },
         "name": "CMS-Device-3",
+        "description": "An instance of Device",
         "exampleBoolean": true
       },
       {
@@ -475,6 +479,7 @@
           "reference": "Device/CMS-Device-4"
         },
         "name": "CMS-Device-4",
+        "description": "An instance of Device",
         "exampleBoolean": true
       },
       {
@@ -488,6 +493,7 @@
           "reference": "Device/CMS-Device-5"
         },
         "name": "CMS-Device-5",
+        "description": "An instance of Device",
         "exampleBoolean": true
       },
       {
@@ -501,6 +507,7 @@
           "reference": "Device/CMS-Device-6"
         },
         "name": "CMS-Device-6",
+        "description": "An instance of Device",
         "exampleBoolean": true
       },
       {
@@ -514,6 +521,7 @@
           "reference": "Device/CMS-Device-7"
         },
         "name": "CMS-Device-7",
+        "description": "An instance of Device",
         "exampleBoolean": true
       },
       {
@@ -1003,6 +1011,7 @@
           "reference": "DeviceUseStatement/FSC-Hospital-Admission-Mobility-1-UseOfDevice-17"
         },
         "name": "FSC-Hospital-Admission-Mobility-1-UseOfDevice-17",
+        "description": "An instance of UseOfDevice",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
@@ -1016,6 +1025,7 @@
           "reference": "DeviceUseStatement/FSC-Hospital-Admission-Mobility-1-UseOfDevice-18"
         },
         "name": "FSC-Hospital-Admission-Mobility-1-UseOfDevice-18",
+        "description": "An instance of UseOfDevice",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
@@ -1281,6 +1291,7 @@
           "reference": "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1"
         },
         "name": "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1",
+        "description": "An instance of UseOfDevice",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
@@ -1294,6 +1305,7 @@
           "reference": "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2"
         },
         "name": "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2",
+        "description": "An instance of UseOfDevice",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
@@ -1307,6 +1319,7 @@
           "reference": "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3"
         },
         "name": "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3",
+        "description": "An instance of UseOfDevice",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
@@ -1320,6 +1333,7 @@
           "reference": "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4"
         },
         "name": "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4",
+        "description": "An instance of UseOfDevice",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
@@ -1333,6 +1347,7 @@
           "reference": "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5"
         },
         "name": "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5",
+        "description": "An instance of UseOfDevice",
         "exampleCanonical": "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev"
       },
       {
@@ -1682,6 +1697,7 @@
           "reference": "Organization/Org-01"
         },
         "name": "Org-01",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -1695,6 +1711,7 @@
           "reference": "Organization/Org-02"
         },
         "name": "Org-02",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -1708,6 +1725,7 @@
           "reference": "Organization/Org-03"
         },
         "name": "Org-03",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -1721,6 +1739,7 @@
           "reference": "Location/Org-Loc-01"
         },
         "name": "Org-Loc-01",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -1734,6 +1753,7 @@
           "reference": "Location/Org-Loc-02"
         },
         "name": "Org-Loc-02",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -1747,6 +1767,7 @@
           "reference": "Location/Org-Loc-03"
         },
         "name": "Org-Loc-03",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -1760,6 +1781,7 @@
           "reference": "Practitioner/Practitioner-DanielGranger"
         },
         "name": "Practitioner-DanielGranger",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -1773,6 +1795,7 @@
           "reference": "Practitioner/Practitioner-JenCadbury"
         },
         "name": "Practitioner-JenCadbury",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -1786,6 +1809,7 @@
           "reference": "Practitioner/Practitioner-JohnSmith"
         },
         "name": "Practitioner-JohnSmith",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -1799,6 +1823,7 @@
           "reference": "Practitioner/Practitioner-LunaBaskins"
         },
         "name": "Practitioner-LunaBaskins",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -1812,6 +1837,7 @@
           "reference": "Practitioner/Practitioner-NoraOlogist"
         },
         "name": "Practitioner-NoraOlogist",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -1825,6 +1851,7 @@
           "reference": "Practitioner/Practitioner-RonMarble"
         },
         "name": "Practitioner-RonMarble",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -1838,6 +1865,7 @@
           "reference": "Practitioner/Practitioner-SallySmith"
         },
         "name": "Practitioner-SallySmith",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -1851,6 +1879,7 @@
           "reference": "Practitioner/Practitioner-ScottDumble"
         },
         "name": "Practitioner-ScottDumble",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -2046,6 +2075,7 @@
           "reference": "Patient/patientBSJ1"
         },
         "name": "patientBSJ1",
+        "description": "An instance of Patient",
         "exampleBoolean": true
       },
       {
@@ -2059,6 +2089,7 @@
           "reference": "Organization/provider-org-01"
         },
         "name": "provider-org-01",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -2072,6 +2103,7 @@
           "reference": "Location/provider-org-loc-01"
         },
         "name": "provider-org-loc-01",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -2085,6 +2117,7 @@
           "reference": "PractitionerRole/provider-role-pcp"
         },
         "name": "provider-role-pcp",
+        "description": "An instance of PractitionerRole",
         "exampleBoolean": true
       },
       {

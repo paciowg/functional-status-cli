@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOFunctionalStatusImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Functional Status Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-09-15T16:46:01-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-09-15T21:20:17-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];
@@ -54,7 +54,7 @@
        fhir:link <http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.us.core" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.1" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -408,6 +408,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-Narrative-History-Functional-Status-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-Narrative-History-Functional-Status-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of NarrativeHistoryOfFunctionalStatus" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs>
@@ -424,6 +425,7 @@
          fhir:Reference.reference [ fhir:value "Device/CMS-Device-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CMS-Device-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 9;
@@ -437,6 +439,7 @@
          fhir:Reference.reference [ fhir:value "Device/CMS-Device-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CMS-Device-2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 10;
@@ -450,6 +453,7 @@
          fhir:Reference.reference [ fhir:value "Device/CMS-Device-3" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CMS-Device-3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 11;
@@ -463,6 +467,7 @@
          fhir:Reference.reference [ fhir:value "Device/CMS-Device-4" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CMS-Device-4" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 12;
@@ -476,6 +481,7 @@
          fhir:Reference.reference [ fhir:value "Device/CMS-Device-5" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CMS-Device-5" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 13;
@@ -489,6 +495,7 @@
          fhir:Reference.reference [ fhir:value "Device/CMS-Device-6" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CMS-Device-6" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 14;
@@ -502,6 +509,7 @@
          fhir:Reference.reference [ fhir:value "Device/CMS-Device-7" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CMS-Device-7" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Device" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 15;
@@ -1093,6 +1101,7 @@
          fhir:Reference.reference [ fhir:value "DeviceUseStatement/FSC-Hospital-Admission-Mobility-1-UseOfDevice-17" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FSC-Hospital-Admission-Mobility-1-UseOfDevice-17" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of UseOfDevice" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
@@ -1109,6 +1118,7 @@
          fhir:Reference.reference [ fhir:value "DeviceUseStatement/FSC-Hospital-Admission-Mobility-1-UseOfDevice-18" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FSC-Hospital-Admission-Mobility-1-UseOfDevice-18" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of UseOfDevice" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
@@ -1431,6 +1441,7 @@
          fhir:Reference.reference [ fhir:value "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of UseOfDevice" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
@@ -1447,6 +1458,7 @@
          fhir:Reference.reference [ fhir:value "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of UseOfDevice" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
@@ -1463,6 +1475,7 @@
          fhir:Reference.reference [ fhir:value "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of UseOfDevice" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
@@ -1479,6 +1492,7 @@
          fhir:Reference.reference [ fhir:value "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-4" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of UseOfDevice" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
@@ -1495,6 +1509,7 @@
          fhir:Reference.reference [ fhir:value "DeviceUseStatement/FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "FSC-Hospital-Discharge-Mobility-1-UseOfDevice-5" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of UseOfDevice" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev";
          fhir:link <http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-dev>
@@ -1919,6 +1934,7 @@
          fhir:Reference.reference [ fhir:value "Organization/Org-01" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Org-01" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 99;
@@ -1932,6 +1948,7 @@
          fhir:Reference.reference [ fhir:value "Organization/Org-02" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Org-02" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 100;
@@ -1945,6 +1962,7 @@
          fhir:Reference.reference [ fhir:value "Organization/Org-03" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Org-03" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 101;
@@ -1958,6 +1976,7 @@
          fhir:Reference.reference [ fhir:value "Location/Org-Loc-01" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Org-Loc-01" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 102;
@@ -1971,6 +1990,7 @@
          fhir:Reference.reference [ fhir:value "Location/Org-Loc-02" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Org-Loc-02" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 103;
@@ -1984,6 +2004,7 @@
          fhir:Reference.reference [ fhir:value "Location/Org-Loc-03" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Org-Loc-03" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 104;
@@ -1997,6 +2018,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-DanielGranger" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-DanielGranger" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 105;
@@ -2010,6 +2032,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JenCadbury" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-JenCadbury" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 106;
@@ -2023,6 +2046,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-JohnSmith" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 107;
@@ -2036,6 +2060,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-LunaBaskins" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-LunaBaskins" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 108;
@@ -2049,6 +2074,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-NoraOlogist" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-NoraOlogist" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 109;
@@ -2062,6 +2088,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-RonMarble" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-RonMarble" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 110;
@@ -2075,6 +2102,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-SallySmith" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-SallySmith" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 111;
@@ -2088,6 +2116,7 @@
          fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-ScottDumble" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-ScottDumble" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 112;
@@ -2283,6 +2312,7 @@
          fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "patientBSJ1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 126;
@@ -2296,6 +2326,7 @@
          fhir:Reference.reference [ fhir:value "Organization/provider-org-01" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-org-01" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 127;
@@ -2309,6 +2340,7 @@
          fhir:Reference.reference [ fhir:value "Location/provider-org-loc-01" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-org-loc-01" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 128;
@@ -2322,6 +2354,7 @@
          fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-pcp" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-pcp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 129;
