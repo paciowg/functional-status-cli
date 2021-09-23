@@ -1,15 +1,16 @@
 == Suppressed Messages ==
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
 # The following code systems are external and not supported by terminology server
 The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
-
-# These are actual warnings to surpress, all relating to validation of values from terminologies
-
-# informational -- these examples are in the IG because they are examples of the referenced profiles.
-
-# Suppress warnings about validation of build-in FHIR resources
 
 # The URL is good for downloading the questionnaire as a JSON resource
 The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 
 # This variance https://jira.hl7.org/browse/FHIR-31590 was approved to allow the IG profiles to base on the Observation resource instead of the US Core Observation Lab Profile
-US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile. Comparison with US Core Pediatric BMI for Age Observation Profile. Comparison with US Core Pediatric Weight for Height Observation Profile. Comparison with US Core Blood Pressure Profile. Comparison with US Core BMI Profile. Comparison with US Core Body Height Profile. Comparison with US Core Body Temperature Profile. Comparison with US Core Body Weight Profile. Comparison with US Core Head Circumference Profile. Comparison with US Core Heart Rate Profile. Comparison with US Core Laboratory Result Observation Profile. Comparison with US Core Pulse Oximetry Profile. Comparison with US Core Respiratory Rate Profile. Comparison with US Core Smoking Status Observation Profile. Comparison with US Core Vital Signs Profile
+WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fsc').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-nhfs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles

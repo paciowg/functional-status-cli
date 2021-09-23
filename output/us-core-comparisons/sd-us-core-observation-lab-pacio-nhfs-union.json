@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "87f70f6d-9dbe-4edb-9f47-122118f91864-134",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/87f70f6d-9dbe-4edb-9f47-122118f91864-134",
+  "id" : "9ab69161-d2b7-4ad1-9723-68629cf66ea4-134",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9ab69161-d2b7-4ad1-9723-68629cf66ea4-134",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndNarrativeHistoryOfFunctionalStatus",
   "title" : "Union of US Core Laboratory Result Observation Profile And PACIO Narrative History of Functional Status",
   "status" : "active",
-  "date" : "2021-09-16T08:46:07-07:00",
+  "date" : "2021-09-23T10:51:02-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -532,7 +532,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Codes for high level observation categories.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/87f70f6d-9dbe-4edb-9f47-122118f91864-104"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9ab69161-d2b7-4ad1-9723-68629cf66ea4-104"
       },
       "mapping" : [{
         "identity" : "w5",

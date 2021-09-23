@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "PACIOFunctioningCategoryCS"];
   fhir:CodeSystem.title [ fhir:value "PACIO Functioning Category Code System"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-09-16T08:45:55-07:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-09-23T10:50:45-07:00"^^xsd:dateTime];
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "PACIO project" ];
